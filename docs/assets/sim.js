@@ -179,6 +179,16 @@ export function projectMatch(a, b, league, bestOf = 3, totalsLines = [20.5, 21.5
     exp_aces_a: eAcesA, exp_aces_b: eAcesB, exp_df_a: eDfA, exp_df_b: eDfB,
     aces_ou_a: poiOU(eAcesA), aces_ou_b: poiOU(eAcesB), df_ou_a: poiOU(eDfA), df_ou_b: poiOU(eDfB),
     most_aces: mostCompare(eAcesA, eAcesB), most_df: mostCompare(eDfA, eDfB),
+    ...(() => {
+      const sg = etg / 2;
+      const brA = sg * (1 - gameHold(pb)), brB = sg * (1 - gameHold(pa));
+      return {
+        exp_breaks_a: brA, exp_breaks_b: brB, exp_total_breaks: brA + brB,
+        breaks_ou: poiOU(brA + brB), most_breaks: mostCompare(brA, brB),
+        break_at_least_a: 1 - Math.exp(-brA), break_at_least_b: 1 - Math.exp(-brB),
+        hold_all_a: Math.exp(-brB), hold_all_b: Math.exp(-brA),
+      };
+    })(),
   };
 }
 

@@ -10,6 +10,7 @@ runs are fast and deterministic. ``sim.js`` mirrors this for the live predictor.
 """
 from __future__ import annotations
 
+import math
 from functools import lru_cache
 
 
@@ -236,6 +237,12 @@ def project_match(prof_a: dict, prof_b: dict, league: dict, best_of: int = 3,
     most_aces = _most_compare(exp_aces_a, exp_aces_b)
     most_df = _most_compare(exp_df_a, exp_df_b)
 
+    # Breaks of serve: a break = the returner wins a service game.
+    serve_games_each = exp_total_games / 2.0
+    breaks_a = serve_games_each * (1 - game_hold(p_b))   # A breaks B's serve
+    breaks_b = serve_games_each * (1 - game_hold(p_a))   # B breaks A's serve
+    exp_total_breaks = breaks_a + breaks_b
+
     return {
         "p_a_serve": round(p_a, 4),
         "p_b_serve": round(p_b, 4),
@@ -267,6 +274,15 @@ def project_match(prof_a: dict, prof_b: dict, league: dict, best_of: int = 3,
         "df_ou_b": poisson_ou(exp_df_b),
         "most_aces": most_aces,
         "most_df": most_df,
+        "exp_breaks_a": round(breaks_a, 2),
+        "exp_breaks_b": round(breaks_b, 2),
+        "exp_total_breaks": round(exp_total_breaks, 2),
+        "breaks_ou": poisson_ou(exp_total_breaks),
+        "most_breaks": _most_compare(breaks_a, breaks_b),
+        "break_at_least_a": round(1 - math.exp(-breaks_a), 4),   # A breaks >=1
+        "break_at_least_b": round(1 - math.exp(-breaks_b), 4),
+        "hold_all_a": round(math.exp(-breaks_b), 4),             # A never broken
+        "hold_all_b": round(math.exp(-breaks_a), 4),
     }
 
 
