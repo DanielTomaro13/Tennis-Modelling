@@ -1,0 +1,94 @@
+# Tennis-Modelling configuration
+# All tunable parameters for the public modelling pipeline live here.
+
+tours:
+  - atp
+  - wta
+
+# Jeff Sackmann Match Charting Project — the public data backbone (raw CSV over HTTPS).
+# tour -> { matches metadata file, per-match Overview stats, point-by-point files }.
+data:
+  base_url: "https://raw.githubusercontent.com/JeffSackmann/tennis_MatchChartingProject/master"
+  files:
+    atp:
+      matches: "charting-m-matches.csv"
+      overview: "charting-m-stats-Overview.csv"
+      points: ["charting-m-points-to-2009.csv", "charting-m-points-2010s.csv", "charting-m-points-2020s.csv"]
+    wta:
+      matches: "charting-w-matches.csv"
+      overview: "charting-w-stats-Overview.csv"
+      points: ["charting-w-points-to-2009.csv", "charting-w-points-2010s.csv", "charting-w-points-2020s.csv"]
+  # Earliest match date (YYYYMMDD) to ingest. Older matches still inform priors
+  # but recency weighting makes recent form dominate.
+  start_date: 20100101
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  # Derive win/loss results by streaming the (large) point-by-point files.
+  # Opt-in: needed for Elo and the backtest, but not for the daily prediction run.
+  derive_winners: false
+
+surfaces:
+  - Hard
+  - Clay
+  - Grass
+
+# ---------------------------------------------------------------------------
+# Serve/return profile parameters
+# ---------------------------------------------------------------------------
+features:
+  # Exponential recency half-life in days (weight halves every N days).
+  half_life_days: 365
+  # Shrinkage: equivalent prior sample size (service points) pulling a player
+  # toward the tour/surface mean. Higher = more regression for small samples.
+  prior_svpt: 250
+  # Minimum service points before a player gets a non-default profile.
+  min_svpt: 100
+  # Number of opponent-adjustment passes (iterative serve/return strength).
+  adjust_iterations: 3
+
+# ---------------------------------------------------------------------------
+# Elo parameters
+# ---------------------------------------------------------------------------
+elo:
+  initial: 1500.0
+  # K-factor schedule: K = k_base / (matches_played + k_offset)^k_shape  (FiveThirtyEight-style decay)
+  k_base: 250.0
+  k_offset: 5.0
+  k_shape: 0.4
+  # Multiply K for higher-stakes matches.
+  k_best_of_5_mult: 1.1
+  # Weight blending surface-specific Elo with overall Elo for the prediction.
+  surface_weight: 0.5
+  # Regression toward the mean applied at the start of each new season.
+  season_regression: 0.20
+
+# ---------------------------------------------------------------------------
+# Match simulation engine
+# ---------------------------------------------------------------------------
+sim:
+  monte_carlo_iterations: 20000
+  # Final win prob = elo_blend * elo_p + (1 - elo_blend) * serve_return_p
+  elo_blend: 0.55
+  # Total-games over/under lines to price.
+  totals_lines: [20.5, 21.5, 22.5, 23.5]
+
+# ---------------------------------------------------------------------------
+# Fixtures
+# ---------------------------------------------------------------------------
+fixtures:
+  schedule_url: "https://www.tennis.com/"
+  manual_file: "data/manual_fixtures.csv"
+  # Fuzzy name-match threshold (0-1) when mapping schedule names to player ids.
+  match_threshold: 0.82
+
+paths:
+  models_dir: "models"
+  reports_dir: "reports"
+  docs_dir: "docs"
+  docs_data_dir: "docs/data"
+
+# ---------------------------------------------------------------------------
+# Backtest
+# ---------------------------------------------------------------------------
+backtest:
+  holdout_start_year: 2024

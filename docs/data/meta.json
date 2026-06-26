@@ -1,0 +1,1 @@
+{"generated": "2026-06-26 05:50 UTC", "tours": ["atp", "wta"], "surfaces": ["Hard", "Clay", "Grass"], "backtest": [{"tour": "atp", "n": 727, "log_loss": 0.5852, "brier": 0.1991, "accuracy": 0.7001, "baseline_accuracy": 0.7001}, {"tour": "wta", "n": 475, "log_loss": 0.6379, "brier": 0.2236, "accuracy": 0.6358, "baseline_accuracy": 0.6358}], "n_players": {"atp": 169, "wta": 157}}

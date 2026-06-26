@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tennis-Modelling · Ratings</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body data-page="ratings">
+  <header class="site">
+    <div class="brand">Tennis<span>·</span>Modelling</div>
+    <nav>
+      <a href="index.html">Predictions</a>
+      <a href="elo.html" class="active">Ratings</a>
+      <a href="predictor.html">Predictor</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Surface ratings</h1>
+    <p class="sub" id="freshness">Loading…</p>
+    <p class="sub">Points Rating (PR) = points won above an average opponent, per 1000 points,
+       recency-weighted and opponent-adjusted. Pick a tour and surface.</p>
+    <div id="content"></div>
+  </main>
+  <footer>
+    Modelled from the <a href="https://github.com/JeffSackmann/tennis_MatchChartingProject">Match Charting Project</a>.
+    For research only — not betting advice.
+  </footer>
+  <script type="module" src="assets/app.js"></script>
+</body>
+</html>

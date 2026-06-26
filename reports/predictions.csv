@@ -1,0 +1,9 @@
+tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+atp,,Mallorca Championships,Grass,Semifinal,Nuno Borges,Ethan Quinn,0.4934,0.5066,2.03,1.97,25.75,0.4832,8.19,8.42,2.21,3.0,tennis.com
+wta,,Bad Homburg Open powered by Solarwatt,Grass,Semifinal,Elena Gabriela Ruse,Karolina Muchova,0.1954,0.8046,5.12,1.24,22.69,0.2796,3.31,3.12,4.42,3.45,tennis.com
+wta,,Bad Homburg Open powered by Solarwatt,Grass,Semifinal,Xin Yu Wang,Naomi Osaka,0.29,0.71,3.45,1.41,23.85,0.329,3.43,3.53,3.4,3.53,tennis.com
+wta,,Lexus Eastbourne Open,Grass,Semifinal,Tatjana Maria,Jelena Ostapenko,0.486,0.514,2.06,1.95,24.45,0.3152,3.67,3.57,3.91,4.09,tennis.com
+atp,20260629,Wimbledon,Grass,Semifinal,Novak Djokovic,Taylor Fritz,0.6821,0.3179,1.47,3.15,43.68,0.7813,14.68,19.08,3.56,3.42,manual
+atp,20260629,Wimbledon,Grass,Final,Jannik Sinner,Carlos Alcaraz,0.6612,0.3388,1.51,2.95,42.14,0.6995,13.48,13.05,3.43,5.16,manual
+wta,20260629,Wimbledon,Grass,Final,Aryna Sabalenka,Iga Swiatek,0.3753,0.6247,2.66,1.6,24.82,0.3808,3.8,4.81,3.52,3.36,manual
+wta,20260629,Wimbledon,Grass,Semifinal,Elena Rybakina,Coco Gauff,0.5776,0.4224,1.73,2.37,24.42,0.3172,5.51,3.96,3.68,3.92,manual

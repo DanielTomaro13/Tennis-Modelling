@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tennis-Modelling · Match predictions</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body data-page="predictions">
+  <header class="site">
+    <div class="brand">Tennis<span>·</span>Modelling</div>
+    <nav>
+      <a href="index.html" class="active">Predictions</a>
+      <a href="elo.html">Ratings</a>
+      <a href="predictor.html">Predictor</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Upcoming match predictions</h1>
+    <p class="sub" id="freshness">Loading…</p>
+    <div id="content"></div>
+  </main>
+  <footer>
+    Modelled from the <a href="https://github.com/JeffSackmann/tennis_MatchChartingProject">Match Charting Project</a>.
+    Fixtures via <a href="https://www.tennis.com">tennis.com</a>. For research only — not betting advice.
+  </footer>
+  <script type="module" src="assets/app.js"></script>
+</body>
+</html>
