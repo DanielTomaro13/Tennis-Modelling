@@ -1,9 +1,9 @@
 name: daily-build
 
-# Rebuild ratings + predictions and republish the site once a day.
+# Rebuild ratings + predictions and republish the site every 3 hours.
 on:
   schedule:
-    - cron: "0 6 * * *"   # 06:00 UTC daily
+    - cron: "0 */3 * * *"  # every 3 hours, on the hour (UTC)
   workflow_dispatch: {}    # allow manual runs
 
 permissions:

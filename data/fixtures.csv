@@ -1,83 +1,180 @@
 tour,date,tournament,surface,best_of,round,player1,player2,source
-atp,20260626,Lexus Eastbourne Open,Grass,3,Semifinal,Toby Samuel,Zizou Bergs,espn
-atp,20260626,Lexus Eastbourne Open,Grass,3,Semifinal,Ugo Humbert,Jack Draper,espn
-wta,20260626,Lexus Eastbourne Open,Grass,3,Semifinal,Jelena Ostapenko,Tatjana Maria,espn
-wta,20260626,Lexus Eastbourne Open,Grass,3,Semifinal,Madison Keys,Petra Marcinko,espn
-atp,20260626,Vanda Pharmaceuticals Mallorca Championships,Grass,3,Semifinal,Ethan Quinn,Nuno Borges,espn
-atp,20260626,Vanda Pharmaceuticals Mallorca Championships,Grass,3,Semifinal,Alejandro Davidovich Fokina,Fabian Marozsan,espn
-atp,,Brasil Tennis Challenger,Grass,3,Round 2,Paulo Andre Saraiva Dos Santos,Matheus Pucinelli de Almeida,tennis.com
-atp,,Brasil Tennis Challenger,Grass,3,Round 2,Valerio Aboian,Hernán Casanova,tennis.com
-atp,,Brasil Tennis Challenger,Grass,3,Round 2,Matías Soto,Gonzalo Villanueva,tennis.com
-atp,,Brasil Tennis Challenger,Grass,3,Round 2,Juan Bautista Torres,Joaquin Aguilar Cardozo,tennis.com
-atp,,Brasil Tennis Challenger,Grass,3,Round 2,Nick Hardt,Wilson Leite,tennis.com
-atp,,Brasil Tennis Challenger,Grass,3,Round 2,Santiago Rodriguez Taverna,Juan Manuel La Serna,tennis.com
-atp,,Brasil Tennis Challenger,Grass,3,Round 2,Nicolás Kicker,Nicolas Zanellato,tennis.com
-atp,,Brasil Tennis Challenger,Grass,3,Round 2,Lucas Andrade Da Silva,Thiago Seyboth Wild,tennis.com
-atp,,ATP Challenger Plovdiv,Grass,3,Semifinal,Andres Santamarta Roig,Iñaki Montes-de la Torre,tennis.com
-atp,,ATP Challenger Plovdiv,Grass,3,Semifinal,Sandro Kopp,Petr Nesterov,tennis.com
-atp,,Târgu Mureș,Clay,3,Semifinal,Sumit Nagal,Cezar Crețu,tennis.com
-atp,,Mallorca Championships,Grass,3,Semifinal,Fábián Marozsán,Alejandro Davidovich Fokina,tennis.com
-wta,,Lexus Eastbourne Open,Grass,3,Semifinal,Tatjana Maria,Jeļena Ostapenko,tennis.com
-wta,,Lexus Eastbourne Open,Grass,3,Semifinal,Petra Marčinko,Madison Keys,tennis.com
-atp,,UTR Budapest M01,Hard,3,,Sebastian Harrison,Botond Nagy,tennis.com
-atp,,UTR Budapest M01,Hard,3,,Martyn Pawelski,Adam Jilly,tennis.com
-atp,,UTR Budapest M01,Hard,3,,Rafael Kis Balazs,Vlad Cristian Breazu,tennis.com
-atp,,UTR Budapest M01,Hard,3,,Charlie Swaine,Botond Kisantal,tennis.com
-wta,,UTR Budapest W01,Hard,3,,Maja Pawelska,Kitti Molnar,tennis.com
-wta,,UTR Budapest W01,Hard,3,,Hannah Read,Izabela Heinzova,tennis.com
-wta,,UTR Budapest W01,Hard,3,,Asuncion Jadue,Cara Korhonen,tennis.com
-wta,,UTR Budapest W01,Hard,3,,Anna Zyryanova,Lilly Cvanciger,tennis.com
-wta,,UTR Budapest W01,Hard,3,,Elizabeth Ivanov,Natalia Koppova,tennis.com
-atp,,UTR Knoxville M01,Hard,3,Semifinal,Mitchell Sheldon,Alejandro Moreno,tennis.com
-atp,,UTR Knoxville M01,Hard,3,Semifinal,Jose Garcia,Roberto Ferrer Guimaraes,tennis.com
-atp,,UTR Knoxville M01,Hard,3,Semifinal,David Krasner,Brady Hussey,tennis.com
-atp,,UTR Knoxville M01,Hard,3,Semifinal,Atakan Karahan,Drew Fishback,tennis.com
-atp,,UTR Knoxville M01,Hard,3,Semifinal,Gabe Avram,Nathan Pitts,tennis.com
-atp,,UTR Knoxville M01,Hard,3,Semifinal,Chase Robinson,Davis Wiley,tennis.com
-atp,,UTR Knoxville M01,Hard,3,Semifinal,Nicholas Mangiapane,Lincoln Battle,tennis.com
-atp,,UTR Knoxville M01,Hard,3,Semifinal,Mason Landreth,Blake Hilsen,tennis.com
-wta,,UTR Knoxville W01,Hard,3,Semifinal,Sydney Jara,Georgia Kulevich,tennis.com
-wta,,UTR Knoxville W01,Hard,3,Semifinal,Reese Frank,Lillie Murphy,tennis.com
-wta,,UTR Knoxville W01,Hard,3,Semifinal,Gabrielle Guenther,Eleanor Myers,tennis.com
-wta,,UTR Knoxville W01,Hard,3,Semifinal,Audrey Aulia,Addison Iacono,tennis.com
-wta,,UTR Knoxville W01,Hard,3,Semifinal,Ellison Reynoldson,Natalie Oliver,tennis.com
-wta,,UTR Knoxville W01,Hard,3,Semifinal,Liam Oved,Alyson Shannon,tennis.com
-wta,,UTR Knoxville W01,Hard,3,Semifinal,Calla McGill,Jane Dunyon,tennis.com
+atp,20260627,Lexus Eastbourne Open,Grass,3,Final,Ugo Humbert,Zizou Bergs,espn
+wta,20260627,Lexus Eastbourne Open,Grass,3,Final,Madison Keys,Tatjana Maria,espn
+atp,20260627,Vanda Pharmaceuticals Mallorca Championships,Grass,3,Final,Alejandro Davidovich Fokina,Ethan Quinn,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Arthur Fery,Damir Dzumhur,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Jaime Faria,Sho Shimabukuro,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Hubert Hurkacz,Casper Ruud,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Terence Atmane,Frances Tiafoe,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Luciano Darderi,Ethan Quinn,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Tomas Martin Etcheverry,Lorenzo Sonego,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Martin Landaluce,SoonWoo Kwon,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Sebastian Ofner,Hamad Medjedovic,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Jan Choinski,Vit Kopriva,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Felix Gill,Rafael Jodar,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Jack Draper,Taylor Fritz,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Ben Shelton,Otto Virtanen,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Max Basing,Shintaro Mochizuki,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Gabriel Diallo,Benjamin Bonzi,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Pablo Carreno Busta,Denis Shapovalov,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Mackenzie McDonald,Patrick Kypson,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Tristan Boyer,Nuno Borges,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Miomir Kecmanovic,Jannik Sinner,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Ignacio Buse,Emilio Nava,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Jenson Brooksby,Aleksandar Vukic,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Alexander Bublik,Thanasi Kokkinakis,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Vilius Gaubas,Kyrian Jacquet,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Daniel Altmaier,Alex Molcan,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Alexei Popyrin,Jiri Lehecka,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Cameron Norrie,Michael Zheng,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Alexander Zverev,Alexander Blockx,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Nicolas Mejia,Adolfo Daniel Vallejo,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Harry Wendelken,Valentin Royer,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Fabian Marozsan,Thiago Agustin Tirante,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Juan Manuel Cerundolo,Alejandro Davidovich Fokina,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Daniil Medvedev,Marin Cilic,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Francisco Cerundolo,Jaume Munar,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Daniel Merida,Camilo Ugo Carabelli,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Jacob Fearnley,Alex Michelsen,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Dino Prizmic,Adam Walton,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Marcos Giron,Corentin Moutet,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Alexandr Shevchenko,Felix Auger-Aliassime,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Quentin Halys,Matteo Arnaldi,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Jack Pinnington Jones,Brandon Nakashima,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Tommy Paul,Alexandre Muller,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Sebastian Baez,Jan-Lennard Struff,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Roman Safiullin,Andrey Rublev,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Stefanos Tsitsipas,Hugo Gaston,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Martin Damm,Marco Trungelliti,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Roman Andres Burruchaga,Alex de Minaur,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Novak Djokovic,Wu Yibing,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Rinky Hijikata,Jesper de Jong,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Botic Van De Zandschulp,Aleksandar Kovacevic,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Oliver Tarvet,Arthur Rinderknech,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Joao Fonseca,Roberto Bautista Agut,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Learner Tien,Dalibor Svrcina,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Marton Fucsovics,Luca Van Assche,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Alejandro Tabilo,Kamil Majchrzak,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Zachary Svajda,Mattia Bellucci,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Grigor Dimitrov,Dane Sweeny,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Toby Samuel,Jakub Mensik,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Arthur Fils,Raphael Collignon,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Matteo Berrettini,Stan Wawrinka,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Giovanni Mpetshi Perricard,Yannick Hanfmann,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Billy Harris,Karen Khachanov,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Flavio Cobolli,Mariano Navone,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,James Duckworth,Tallon Griekspoor,espn
+atp,20260629,Wimbledon,Grass,5,Round 1,Titouan Droguet,Adrian Mannarino,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Iva Jovic,Jaqueline Cristian,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Hanne Vandewinkel,Claire Liu,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Zeynep Sonmez,Ann Li,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Coco Gauff,Tamara Korpatsch,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Anna Bondar,Solana Sierra,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Elena Rybakina,Lois Boisson,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Elisabetta Cocciaretto,Wang Xinyu,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Mika Stojsavljevic,Belinda Bencic,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Anna Kalinskaya,Magdalena Frech,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Diane Parry,Francesca Jones,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Emiliana Arango,Anastasia Gasanova,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Marie Bouzkova,Talia Gibson,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Tyra Caterina Grant,Katie Boulter,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Anastasia Zakharova,Karolina Muchova,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Maria Timofeeva,Beatriz Haddad Maia,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Laura Siegemund,Elise Mertens,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Tatjana Maria,Yulia Putintseva,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Linda Noskova,Ella Seidel,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Lilli Tagger,Lanlana Tararudee,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Simona Waltert,Camila Osorio,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Liudmila Samsonova,Polina Kudermetova,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Eva Lys,Diana Shnaider,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Catherine McNally,Elena-Gabriela Ruse,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Mariam Bolkvadze,Ajla Tomljanovic,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Leolia Jeanjean,Veronika Erjavec,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Robin Montgomery,Jasmine Paolini,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Marta Kostyuk,Nadia Podoroska,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Kamilla Rakhimova,Anhelina Kalinina,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Viktorija Golubic,Iryna Shymanovich,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Paula Badosa,Emma Navarro,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Donna Vekic,Ashlyn Krueger,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Anna Blinkova,Yuliia Starodubtseva,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Sinja Kraus,Oksana Selekhmeteva,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Daria Snigur,Elina Svitolina,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Clara Tauson,Maria Sakkari,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Maya Joint,Serena Williams,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Renata Zarazua,Alexandra Eala,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Naomi Osaka,Elsa Jacquemot,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Madison Keys,Kayla Day,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Katie Swan,Irina-Camelia Begu,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Zhang Shuai,Bianca Andreescu,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Sara Bejlek,Sorana Cirstea,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Emma Raducanu,Antonia Ruzic,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Iga Swiatek,Taylor Townsend,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Karolina Pliskova,Tereza Valentova,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Daria Kasatkina,Mimi Xu,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Sofia Kenin,Petra Marcinko,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Janice Tjen,Leylah Fernandez,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Lina Gjorcheska,Amanda Anisimova,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Teodora Kostovic,Aryna Sabalenka,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Harriet Dart,Jelena Ostapenko,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,McCartney Kessler,Oleksandra Oliynykova,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Aoi Ito,Dayana Yastremska,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Victoria Jimenez Kasintseva,Sara Sorribes Tormo,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Panna Udvardy,Ekaterina Alexandrova,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Alina Korneeva,Kimberly Birrell,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Anastasia Potapova,Jessica Bouzas Maneiro,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Hannah Klugman,Barbora Krejcikova,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Nikola Bartunkova,Peyton Stearns,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Darja Vidmanova,Jessica Pegula,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Mirra Andreeva,Magda Linette,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Maja Chwalinska,Mananchaya Sawangkaew,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Alicia Dudeney,Alycia Parks,espn
+wta,20260629,Wimbledon,Grass,3,Round 1,Zheng Qinwen,Katerina Siniakova,espn
+atp,,Brasil Tennis Challenger,Grass,3,Semifinal,Matheus Pucinelli de Almeida,Gonzalo Villanueva,tennis.com
+atp,,Târgu Mureș,Clay,3,Final,Felix Balshaw,Sumit Nagal,tennis.com
+atp,,UTR Budapest M01,Hard,3,Semifinal,Kornel Halmos,Aron Janos Major,tennis.com
+atp,,UTR Budapest M01,Hard,3,Semifinal,Charlie Swaine,Peter Sallay,tennis.com
+atp,,UTR Budapest M01,Hard,3,Semifinal,Milan Markovits,Gabor Hornung,tennis.com
+atp,,UTR Budapest M01,Hard,3,Semifinal,Achilles Belkovics,Sebastian Harrison,tennis.com
+atp,,UTR Budapest M01,Hard,3,Semifinal,Adam Jilly,Vlad Cristian Breazu,tennis.com
+atp,,UTR Budapest M01,Hard,3,Semifinal,Máté Valkusz,Matei Florin Breazu,tennis.com
+atp,,UTR Budapest M01,Hard,3,Semifinal,Darius Florin Pop,Rafael Kis Balazs,tennis.com
+atp,,UTR Budapest M01,Hard,3,Semifinal,Botond Nagy,Radek Chodora,tennis.com
+atp,,UTR Budapest M01,Hard,3,Semifinal,Rafael Kis Balazs,Marcell Bartakovics,tennis.com
+atp,,UTR Budapest M01,Hard,3,Semifinal,Trisztan Gubi,Botond Kisantal,tennis.com
+wta,,UTR Budapest W01,Hard,3,Semifinal,Elizabeth Ivanov,Lilly Cvanciger,tennis.com
+wta,,UTR Budapest W01,Hard,3,Semifinal,Norina Bak Szabo,Julita Saner,tennis.com
+wta,,UTR Budapest W01,Hard,3,Semifinal,Izabela Heinzova,Daria Shadchneva,tennis.com
+wta,,UTR Budapest W01,Hard,3,Semifinal,Nikola Daubnerova,Maja Pawelska,tennis.com
+wta,,UTR Budapest W01,Hard,3,Semifinal,Anna Zyryanova,Asuncion Jadue,tennis.com
+wta,,UTR Budapest W01,Hard,3,Semifinal,Patricija Paukstyte,Laura Svatíková,tennis.com
+wta,,UTR Budapest W01,Hard,3,Semifinal,Hannah Read,Ema Baraniakova,tennis.com
+wta,,UTR Budapest W01,Hard,3,Semifinal,Given Roach,Natalia Koppova,tennis.com
+wta,,UTR Budapest W01,Hard,3,Semifinal,Panna Bartha,Kitti Molnar,tennis.com
+wta,,UTR Budapest W01,Hard,3,Semifinal,Diana Smolinskaya,Cara Korhonen,tennis.com
+atp,,UTR Knoxville M01,Hard,3,Final,Mason Landreth,Nicholas Mangiapane,tennis.com
+atp,,UTR Knoxville M01,Hard,3,Final,Jose Garcia,Mitchell Sheldon,tennis.com
+atp,,UTR Knoxville M01,Hard,3,Final,Gabe Avram,Drew Fishback,tennis.com
+wta,,UTR Knoxville W01,Hard,3,Final,Sydney Jara,Reese Frank,tennis.com
+wta,,UTR Knoxville W01,Hard,3,Final,Jane Dunyon,Alyson Shannon,tennis.com
+wta,,UTR Knoxville W01,Hard,3,Final,Mary Boyce Deatherage,Audrey Aulia,tennis.com
 atp,,UTR PTT Newport Beach Men 15,Grass,3,,Eric Crivei,Felipe Vazquez,tennis.com
-atp,,UTR PTT Newport Beach Men 15,Grass,3,,Cassius Chinlund,David Duong,tennis.com
 atp,,UTR PTT Newport Beach Men 15,Grass,3,,Pavel Bushuev,Jp Day,tennis.com
+atp,,UTR PTT Newport Beach Men 15,Grass,3,,Cassius Chinlund,David Duong,tennis.com
 atp,,UTR PTT Newport Beach Men 15,Grass,3,,Aaron Eliscu,Andrew Hayduke II,tennis.com
+atp,,UTR PTT Newport Beach Men 15,Grass,3,,Martin Mazev,Robert Yang,tennis.com
+atp,,UTR PTT Newport Beach Men 15,Grass,3,,Nile Ung,Adam Bain,tennis.com
 atp,,UTR PTT Newport Beach Men 15,Grass,3,,Brock Anderson,Charlie Underwood,tennis.com
-atp,,UTR PTT Newport Beach Men 15,Grass,3,,Stefan Cooper,Adam Bain,tennis.com
-atp,,UTR PTT Newport Beach Men 15,Grass,3,,George Hakopian,Andrew Li,tennis.com
-atp,,UTR PTT Newport Beach Men 15,Grass,3,,Benjamin Berger,Robert Yang,tennis.com
-wta,,UTR PTT Newport Beach Women 15,Grass,3,Quarterfinal,Alexia Harmon,Sophia Webster,tennis.com
+atp,,UTR PTT Newport Beach Men 15,Grass,3,,George Hakopian,Emmanuel Alex,tennis.com
 wta,,UTR PTT Newport Beach Women 15,Grass,3,Quarterfinal,Lily Pradkin,Anastasia Grechkina,tennis.com
-wta,,UTR PTT Newport Beach Women 15,Grass,3,Quarterfinal,Gianna Oboniye,Chantal Sauvant,tennis.com
 wta,,UTR PTT Newport Beach Women 15,Grass,3,Quarterfinal,Alina Shcherbinina,Anya Murthy,tennis.com
-wta,,UTR PTT Newport Beach Women 15,Grass,3,Semifinal,Bella Lewis,Marika Jones,tennis.com
-wta,,UTR PTT Newport Beach Women 15,Grass,3,,Tricia Mar,Natalie Outcalt,tennis.com
-wta,,UTR PTT Newport Beach Women 15,Grass,3,Semifinal,Campbelll Ricci,Lucia Donnelly,tennis.com
+wta,,UTR PTT Newport Beach Women 15,Grass,3,Quarterfinal,Gianna Oboniye,Chantal Sauvant,tennis.com
+wta,,UTR PTT Newport Beach Women 15,Grass,3,Quarterfinal,Alexia Harmon,Sophia Webster,tennis.com
 wta,,UTR PTT Newport Beach Women 15,Grass,3,Final,Gala Arangio,Alexandra Wolf,tennis.com
-atp,,UTR PTT Umag Men 02,Clay,3,Semifinal,Vojtech Vales,Kai-Luca Ampaw,tennis.com
-atp,,UTR PTT Umag Men 02,Clay,3,Semifinal,Riccardo Campagnola,Jose Murariu,tennis.com
-atp,,UTR PTT Umag Men 02,Clay,3,Semifinal,Dorian Kos,Valeriy Martishev,tennis.com
-atp,,UTR PTT Umag Men 02,Clay,3,Semifinal,Carl Holder,Maxwell Castle,tennis.com
-atp,,UTR PTT Waco Men 01,Hard,3,Semifinal,Ritesh Patil,Nicolas Iantosca,tennis.com
-atp,,UTR PTT Waco Men 01,Hard,3,Semifinal,Tomas Jirousek,Drew Hedgecoe,tennis.com
-atp,,UTR PTT Waco Men 01,Hard,3,Semifinal,Noey Do,Lathan Skrobarcek,tennis.com
-atp,,UTR PTT Waco Men 01,Hard,3,Semifinal,Cole Stelse,Calvin Baierl,tennis.com
-atp,,UTR PTT Waco Men 01,Hard,3,Semifinal,AJ Deem,Brendan Boland,tennis.com
-atp,,UTR PTT Waco Men 01,Hard,3,Semifinal,Arman Zamani,Gregory Bernadsky,tennis.com
-atp,,UTR PTT Waco Men 01,Hard,3,Semifinal,Ian Bracks,Gordon Gallagher,tennis.com
-atp,,UTR PTT Waco Men 01,Hard,3,Semifinal,Esunge Ndumbe,Vikas Deo,tennis.com
-wta,,UTR PTT Waco Women 01,Hard,3,Semifinal,Lera Alexin,Kaili Demi Teso,tennis.com
-wta,,UTR PTT Waco Women 01,Hard,3,Semifinal,Ella Brownback,Ligaya Murray,tennis.com
-wta,,UTR PTT Waco Women 01,Hard,3,Semifinal,Ishika Ashar,Elena Mireles,tennis.com
-wta,,UTR PTT Waco Women 01,Hard,3,Semifinal,Stanislava Shulzhenko,Brenda Yoris,tennis.com
-wta,,UTR PTT Waco Women 01,Hard,3,Semifinal,Hanmare McAslin,Daria Budko,tennis.com
-wta,,UTR PTT Waco Women 01,Hard,3,Semifinal,Zuzanna Kubacha,Lexie Weir,tennis.com
-wta,,UTR PTT Waco Women 01,Hard,3,Semifinal,Kenna Erickson,Gabrielle Villegas,tennis.com
-wta,,UTR PTT Waco Women 01,Hard,3,Semifinal,Marina Fuduric,Lani Brotman,tennis.com
-wta,,Bad Homburg Open powered by Solarwatt,Grass,3,Semifinal,Xinyu Wang,Naomi Osaka,tennis.com
-wta,,Bad Homburg Open powered by Solarwatt,Grass,3,Semifinal,Elena-Gabriela Ruse,Karolína Muchová,tennis.com
+wta,,UTR PTT Newport Beach Women 15,Grass,3,Semifinal,Campbelll Ricci,Lucia Donnelly,tennis.com
+wta,,UTR PTT Newport Beach Women 15,Grass,3,,Tricia Mar,Natalie Outcalt,tennis.com
+atp,,UTR PTT Umag Men 02,Clay,3,Final,Deni Zmak,Paris Pouatcha,tennis.com
+atp,,UTR PTT Umag Men 02,Clay,3,Final,Vojtech Vales,David Knesl,tennis.com
+atp,,UTR PTT Umag Men 02,Clay,3,Final,Maxwell Castle,Riccardo Campagnola,tennis.com
+atp,,UTR PTT Umag Men 02,Clay,3,Final,Henry Best,Dorian Kos,tennis.com
+atp,,UTR PTT Umag Men 02,Clay,3,Final,Ander Tarrio Ponte,Timeo Gaillard,tennis.com
+wta,,Bad Homburg Open powered by Solarwatt,Grass,3,Final,Karolína Muchová,Naomi Osaka,tennis.com

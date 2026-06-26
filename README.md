@@ -2,7 +2,7 @@
 
 Statistical modelling of professional tennis matches (ATP + WTA singles), published as a
 static [GitHub Pages site](https://danieltomaro13.github.io/Tennis-Modelling/) and rebuilt
-automatically each day.
+automatically every 3 hours.
 
 The model projects **future matches**: match win probability and fair odds, set betting,
 total-games over/under, tie-break probability, and per-player serve markets (expected aces
