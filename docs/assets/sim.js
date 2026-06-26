@@ -27,7 +27,13 @@ export function gameExpectedPoints(p) {
   return 4 * p4 + 5 * p5 + 6 * p6 + (6 + extra) * pdeuce;
 }
 
-export function tiebreakWin(pa, pb, first = "A") {
+export function gameHoldNoAd(p) {
+  // No-ad: first to 4 points, single deciding point at 3-3.
+  const q = 1 - p;
+  return p ** 4 + 4 * p ** 4 * q + 10 * p ** 4 * q ** 2 + 20 * p ** 4 * q ** 3;
+}
+
+export function tiebreakWin(pa, pb, first = "A", target = 7) {
   const server = (n) => {
     const g = Math.floor((n + 1) / 2);
     return g % 2 === 0 ? first : (first === "A" ? "B" : "A");
@@ -35,9 +41,9 @@ export function tiebreakWin(pa, pb, first = "A") {
   const wpa = (n) => (server(n) === "A" ? pa : 1 - pb);
   const memo = new Map();
   const f = (a, b) => {
-    if (a >= 7 && a - b >= 2) return 1.0;
-    if (b >= 7 && b - a >= 2) return 0.0;
-    if (a >= 6 && b >= 6 && a === b) {
+    if (a >= target && a - b >= 2) return 1.0;
+    if (b >= target && b - a >= 2) return 0.0;
+    if (a >= target - 1 && b >= target - 1 && a === b) {
       const n = a + b;
       const wa1 = wpa(n), wa2 = wpa(n + 1);
       const both = wa1 * wa2;
@@ -54,8 +60,9 @@ export function tiebreakWin(pa, pb, first = "A") {
   return f(0, 0);
 }
 
-export function setDistribution(pa, pb, first = "A") {
-  const holdA = gameHold(pa), holdB = gameHold(pb);
+export function setDistribution(pa, pb, first = "A", noAd = false) {
+  const holdFn = noAd ? gameHoldNoAd : gameHold;
+  const holdA = holdFn(pa), holdB = holdFn(pb);
   const tbFirst = first; // 12 games played -> same as set first server
   const tbA = tiebreakWin(pa, pb, tbFirst);
   const serverOf = (ga, gb) => ((ga + gb) % 2 === 0 ? first : (first === "A" ? "B" : "A"));
@@ -189,6 +196,51 @@ export function projectMatch(a, b, league, bestOf = 3, totalsLines = [20.5, 21.5
         hold_all_a: Math.exp(-brB), hold_all_b: Math.exp(-brA),
       };
     })(),
+  };
+}
+
+// Combine two players into one team serve/return profile (simple average).
+export function teamProfile(p1, p2) {
+  const avg = (k) => (p1[k] + p2[k]) / 2;
+  return {
+    spw: avg("spw"), rpw: avg("rpw"),
+    ace_rate: avg("ace_rate"), df_rate: avg("df_rate"), pr: avg("pr"),
+  };
+}
+
+// Doubles projection: no-ad games, sets to 6 (7-pt TB), deciding set = 10-pt
+// match tiebreak. Modelled from the four players' singles form as a proxy.
+export function projectDoubles(teamA, teamB, league) {
+  const [pa, pb] = pointProbs(teamA, teamB, league);
+  const setEven = setDistribution(pa, pb, "A", true);
+  const setOdd = setDistribution(pa, pb, "B", true);
+  const setWinFrom = (dist) => dist.reduce((s, [p, ga, gb]) => s + (ga > gb ? p : 0), 0);
+  const tbFrom = (dist) => dist.reduce((s, [p, , , tb]) => s + (tb ? p : 0), 0);
+  const gamesFrom = (dist) => dist.reduce((s, [p, ga, gb]) => s + p * (ga + gb), 0);
+
+  const s1A = setWinFrom(setEven), s2A = setWinFrom(setOdd);
+  const superA = tiebreakWin(pa, pb, "A", 10);
+
+  const p20 = s1A * s2A;                                   // A wins sets 1 & 2
+  const p02 = (1 - s1A) * (1 - s2A);                       // B wins both
+  const split = s1A * (1 - s2A) + (1 - s1A) * s2A;         // 1-1 -> super TB
+  const p21 = split * superA, p12 = split * (1 - superA);
+  const winA = p20 + p21;
+
+  const setScore = { "2-0": p20, "2-1": p21, "1-2": p12, "0-2": p02 };
+  const straight = p20 + p02;
+  const expGames = gamesFrom(setEven) + gamesFrom(setOdd) * (1 - p20 - p02) /* set2 always played */;
+  return {
+    sr_win_a: winA,
+    set_score: setScore,
+    straight_sets: straight,
+    deciding_set: split,                                   // goes to match tie-break
+    a_wins_set: 1 - p02, b_wins_set: 1 - p20,
+    set1_win_a: s1A, set2_win_a: s2A,
+    super_tb_a: superA,
+    exp_total_games: gamesFrom(setEven) + gamesFrom(setOdd),
+    tiebreak_prob: 1 - (1 - tbFrom(setEven)) * (1 - tbFrom(setOdd)),
+    hold_a: gameHoldNoAd(pa), hold_b: gameHoldNoAd(pb),
   };
 }
 

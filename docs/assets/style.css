@@ -107,6 +107,12 @@ footer { color: var(--muted); font-size: 12px; text-align: center; padding: 24px
 .markets-grid { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
 .markets-grid .mkt { padding: 14px 16px; }
 
+.vs-sep { align-self: center; color: var(--muted); font-size: 13px; padding: 0 2px; }
+.team-box { display: flex; flex-direction: column; gap: 6px; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; }
+.team-box small { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .4px; }
+.team-box select { min-width: 200px; }
+.proxy-note { background: rgba(56,189,248,.10); border: 1px solid rgba(56,189,248,.25); color: var(--accent-2); border-radius: 10px; padding: 10px 14px; font-size: 13px; margin: 0 0 16px; }
+
 .empty { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 30px; text-align: center; }
 .empty p { margin: 4px 0; }
 a.btnlink { display: inline-block; margin-top: 8px; padding: 9px 16px; background: var(--accent); color: #08210f; border-radius: 8px; font-weight: 600; }

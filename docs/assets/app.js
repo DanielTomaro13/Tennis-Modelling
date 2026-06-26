@@ -1,5 +1,5 @@
 // app.js — shared data loading + page renderers for the static site.
-import { projectMatch, blendedWinProb } from "./sim.js";
+import { projectMatch, blendedWinProb, projectDoubles, teamProfile, prWinProb } from "./sim.js";
 
 const fmtPct = (p) => (p * 100).toFixed(0) + "%";
 const fmtOdds = (p) => (p > 0 ? (1 / p).toFixed(2) : "—");
@@ -245,44 +245,102 @@ async function renderPredictor() {
   const wrap = document.getElementById("content");
   if (!profiles) { wrap.append(el("p", { class: "muted" }, "Profiles unavailable.")); return; }
 
-  let tour = "atp";
+  let tour = "atp", format = "singles";
   const tourSel = el("select", {}, ...["atp", "wta"].map((t) => el("option", { value: t }, t.toUpperCase())));
-  const p1Sel = el("select", {}), p2Sel = el("select", {});
+  const formatSel = el("select", {}, el("option", { value: "singles" }, "Singles"), el("option", { value: "doubles" }, "Doubles"));
   const surfSel = el("select", {}, ...["Hard", "Clay", "Grass"].map((s) => el("option", { value: s }, s)));
   const boSel = el("select", {}, el("option", { value: "3" }, "Best of 3"), el("option", { value: "5" }, "Best of 5"));
-  const go = el("button", { class: "primary" }, "Project match");
+  const go = el("button", { class: "primary" }, "Project");
+  const playerSels = [el("select", {}), el("select", {}), el("select", {}), el("select", {})];
 
   function fillPlayers() {
     const names = Object.keys(profiles[tour].players).sort();
-    [p1Sel, p2Sel].forEach((sel, i) => {
+    playerSels.forEach((sel, i) => {
       sel.replaceChildren(...names.map((n) => el("option", { value: n }, n)));
       sel.selectedIndex = Math.min(i, names.length - 1);
     });
-    if (names.length > 1) p2Sel.selectedIndex = 1;
+  }
+  const playersRow = el("div", { class: "controls" });
+  function layoutPlayers() {
+    boSel.style.display = format === "singles" ? "" : "none";
+    if (format === "doubles") {
+      playersRow.replaceChildren(
+        teamBox("Team 1", playerSels[0], playerSels[1]),
+        el("div", { class: "vs-sep" }, "vs"),
+        teamBox("Team 2", playerSels[2], playerSels[3]));
+    } else {
+      playersRow.replaceChildren(playerSels[0], el("div", { class: "vs-sep" }, "vs"), playerSels[1]);
+    }
   }
   tourSel.onchange = () => { tour = tourSel.value; fillPlayers(); };
+  formatSel.onchange = () => { format = formatSel.value; layoutPlayers(); };
   fillPlayers();
+  layoutPlayers();
 
-  const controls = el("div", { class: "controls" }, tourSel, p1Sel, surfSel, p2Sel, boSel, go);
-  wrap.append(controls);
+  wrap.append(el("div", { class: "controls" }, tourSel, formatSel, surfSel, boSel, go), playersRow);
   const out = el("div", { id: "predout" });
   wrap.append(out);
 
-  function scopeOf(prof, surface) { return prof[surface] || prof.overall; }
+  const scopeOf = (prof, surface) => prof[surface] || prof.overall;
 
   go.onclick = () => {
     const league = profiles[tour].league;
-    const n1 = p1Sel.value, n2 = p2Sel.value;
-    if (n1 === n2) { out.replaceChildren(el("p", { class: "muted" }, "Pick two different players.")); return; }
-    const surface = surfSel.value, bestOf = Number(boSel.value);
-    const a = { ...scopeOf(profiles[tour].players[n1], surface), name: n1 };
-    const b = { ...scopeOf(profiles[tour].players[n2], surface), name: n2 };
+    const surface = surfSel.value;
+    const P = (n) => profiles[tour].players[n];
+    if (format === "doubles") {
+      const [n1, n2, n3, n4] = playerSels.map((s) => s.value);
+      const chosen = [n1, n2, n3, n4];
+      if (new Set(chosen).size < 4) { out.replaceChildren(note("Pick four different players.")); return; }
+      const teamA = teamProfile(scopeOf(P(n1), surface), scopeOf(P(n2), surface));
+      const teamB = teamProfile(scopeOf(P(n3), surface), scopeOf(P(n4), surface));
+      const m = projectDoubles(teamA, teamB, league);
+      const winA = 0.5 * prWinProb(teamA.pr, teamB.pr) + 0.5 * m.sr_win_a;
+      const t1 = `${n1} / ${n2}`, t2 = `${n3} / ${n4}`;
+      out.replaceChildren(
+        note("Doubles is modelled from each player's singles serve/return form as a proxy, with no-ad scoring and a 10-point match tie-break deciding set."),
+        detailHead(t1, t2, winA, `${surface} · Doubles`),
+        el("div", { style: "height:18px" }), doublesGrid(m, t1, t2, winA));
+      return;
+    }
+    const n1 = playerSels[0].value, n2 = playerSels[1].value;
+    if (n1 === n2) { out.replaceChildren(note("Pick two different players.")); return; }
+    const bestOf = Number(boSel.value);
+    const a = { ...scopeOf(P(n1), surface), name: n1 };
+    const b = { ...scopeOf(P(n2), surface), name: n2 };
     const m = projectMatch(a, b, league, bestOf);
     const winA = blendedWinProb(a, b, league, bestOf);
-    const head = detailHead(n1, n2, winA, `${surface} · Bo${bestOf}`);
-    out.replaceChildren(head, el("div", { style: "height:18px" }), marketGrid(m, n1, n2, winA));
+    out.replaceChildren(detailHead(n1, n2, winA, `${surface} · Bo${bestOf}`),
+      el("div", { style: "height:18px" }), marketGrid(m, n1, n2, winA));
   };
   go.click();
+}
+
+function note(text) { return el("p", { class: "proxy-note" }, text); }
+
+function teamBox(label, s1, s2) {
+  return el("div", { class: "team-box" }, el("small", {}, label), s1, s2);
+}
+
+function doublesGrid(m, t1, t2, winA) {
+  const winB = 1 - winA;
+  const ss = Object.entries(m.set_score).sort((a, b) => b[1] - a[1]).map(([k, v]) => [k, pctOdds(v)]);
+  return el("div", { class: "grid2 markets-grid" },
+    mktCard("Match winner", [[t1, pctOdds(winA)], [t2, pctOdds(winB)]]),
+    mktCard("Set betting", ss),
+    mktCard("Sets", [
+      ["Straight sets", pctOdds(m.straight_sets)],
+      ["Match tie-break (deciding set)", pctOdds(m.deciding_set)],
+      [`${t1} to win a set`, pctOdds(m.a_wins_set)],
+      [`${t2} to win a set`, pctOdds(m.b_wins_set)],
+    ]),
+    mktCard("1st set winner", [[t1, pctOdds(m.set1_win_a)], [t2, pctOdds(1 - m.set1_win_a)]]),
+    mktCard("2nd set winner", [[t1, pctOdds(m.set2_win_a)], [t2, pctOdds(1 - m.set2_win_a)]]),
+    mktCard("Match shape", [
+      ["Expected total games", m.exp_total_games.toFixed(1)],
+      ["Tie-break in a set", pctOdds(m.tiebreak_prob)],
+      [`${t1} hold %`, fmtPct(m.hold_a)],
+      [`${t2} hold %`, fmtPct(m.hold_b)],
+    ]));
 }
 
 function probBarWide(p) {
