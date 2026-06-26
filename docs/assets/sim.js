@@ -94,6 +94,19 @@ function poissonCdf(k, mean) {
   return Math.min(1, cdf);
 }
 
+function mostCompare(lamA, lamB) {
+  const kMax = Math.max(30, Math.floor(Math.max(lamA, lamB) * 2) + 25);
+  const pmf = (lam) => {
+    const out = [lam > 0 ? Math.exp(-lam) : 1.0];
+    for (let k = 1; k <= kMax; k++) out.push(lam > 0 ? out[k - 1] * lam / k : 0.0);
+    return out;
+  };
+  const pa = pmf(lamA), pb = pmf(lamB);
+  let aGt = 0, tie = 0, cumA = 0;
+  for (let y = 0; y <= kMax; y++) { cumA += pa[y]; aGt += pb[y] * (1 - cumA); tie += pa[y] * pb[y]; }
+  return { a: aGt, tie, b: Math.max(0, 1 - aGt - tie) };
+}
+
 export function projectMatch(a, b, league, bestOf = 3, totalsLines = [20.5, 21.5, 22.5, 23.5]) {
   const [pa, pb] = pointProbs(a, b, league);
   const setsToWin = bestOf === 5 ? 3 : 2;
@@ -165,6 +178,7 @@ export function projectMatch(a, b, league, bestOf = 3, totalsLines = [20.5, 21.5
     tiebreak_prob: anyTb,
     exp_aces_a: eAcesA, exp_aces_b: eAcesB, exp_df_a: eDfA, exp_df_b: eDfB,
     aces_ou_a: poiOU(eAcesA), aces_ou_b: poiOU(eAcesB), df_ou_a: poiOU(eDfA), df_ou_b: poiOU(eDfB),
+    most_aces: mostCompare(eAcesA, eAcesB), most_df: mostCompare(eDfA, eDfB),
   };
 }
 

@@ -148,7 +148,9 @@ function marketGrid(m, n1, n2, winA) {
     mktCard(`Aces — ${n2}`, acesRows(m.exp_aces_b, m.aces_ou_b)),
     mktCard(`Double faults — ${n1}`, acesRows(m.exp_df_a, m.df_ou_a)),
     mktCard(`Double faults — ${n2}`, acesRows(m.exp_df_b, m.df_ou_b)),
-  ];
+    m.most_aces ? mktCard("Most aces", [[n1, pctOdds(m.most_aces.a)], ["Tie", pctOdds(m.most_aces.tie)], [n2, pctOdds(m.most_aces.b)]]) : "",
+    m.most_df ? mktCard("Most double faults", [[n1, pctOdds(m.most_df.a)], ["Tie", pctOdds(m.most_df.tie)], [n2, pctOdds(m.most_df.b)]]) : "",
+  ].filter(Boolean);
   return el("div", { class: "grid2 markets-grid" }, ...cards);
 }
 

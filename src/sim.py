@@ -233,6 +233,9 @@ def project_match(prof_a: dict, prof_b: dict, league: dict, best_of: int = 3,
             out["%.1f" % line] = round(1 - _poisson_cdf(int(line), mean), 4)  # P(X > line) = P(X >= line+0.5)
         return out
 
+    most_aces = _most_compare(exp_aces_a, exp_aces_b)
+    most_df = _most_compare(exp_df_a, exp_df_b)
+
     return {
         "p_a_serve": round(p_a, 4),
         "p_b_serve": round(p_b, 4),
@@ -262,7 +265,30 @@ def project_match(prof_a: dict, prof_b: dict, league: dict, best_of: int = 3,
         "aces_ou_b": poisson_ou(exp_aces_b),
         "df_ou_a": poisson_ou(exp_df_a),
         "df_ou_b": poisson_ou(exp_df_b),
+        "most_aces": most_aces,
+        "most_df": most_df,
     }
+
+
+def _most_compare(lam_a: float, lam_b: float) -> dict:
+    """For X~Pois(lam_a), Y~Pois(lam_b): P(X>Y), P(tie), P(Y>X)."""
+    import math
+    k_max = max(30, int(max(lam_a, lam_b) * 2) + 25)
+
+    def pmf_list(lam: float) -> list[float]:
+        out = [math.exp(-lam)] if lam > 0 else [1.0]
+        for k in range(1, k_max + 1):
+            out.append(out[-1] * lam / k if lam > 0 else 0.0)
+        return out
+
+    pa, pb = pmf_list(lam_a), pmf_list(lam_b)
+    p_a_gt = p_tie = cum_a = 0.0
+    for y in range(k_max + 1):
+        cum_a += pa[y]                    # P(X <= y)
+        p_a_gt += pb[y] * (1 - cum_a)     # P(Y=y) * P(X > y)
+        p_tie += pa[y] * pb[y]
+    p_b_gt = max(0.0, 1 - p_a_gt - p_tie)
+    return {"a": round(p_a_gt, 4), "tie": round(p_tie, 4), "b": round(p_b_gt, 4)}
 
 
 def _poisson_cdf(k: int, mean: float) -> float:
