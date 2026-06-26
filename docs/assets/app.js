@@ -3,6 +3,8 @@ import { projectMatch, blendedWinProb } from "./sim.js";
 
 const fmtPct = (p) => (p * 100).toFixed(0) + "%";
 const fmtOdds = (p) => (p > 0 ? (1 / p).toFixed(2) : "—");
+// percentage + its fair decimal price, e.g. "62% · 1.61"
+const pctOdds = (p) => `${fmtPct(p)} · ${fmtOdds(p)}`;
 const el = (tag, attrs = {}, ...kids) => {
   const e = document.createElement(tag);
   for (const [k, v] of Object.entries(attrs)) {
@@ -76,10 +78,10 @@ async function renderPredictions() {
       el("span", { class: "pprob" }, fmtPct(prob)));
     // top set scores (most likely 2)
     const sets = Object.entries(f.set_score || {}).sort((a, b) => b[1] - a[1]).slice(0, 2)
-      .map(([k, v]) => `${k} (${fmtPct(v)})`).join(" · ");
+      .map(([k, v]) => `${k} (${pctOdds(v)})`).join(" · ");
     const chips = el("div", { class: "chips" },
       chip("Total games", f.exp_total_games),
-      chip("Tie-break", fmtPct(f.tiebreak_prob)),
+      chip("Tie-break", pctOdds(f.tiebreak_prob)),
       chip("Aces", `${f.exp_aces_1} / ${f.exp_aces_2}`),
       sets ? chip("Likely sets", sets) : "");
     const node = el("div", { class: "match clickable" },
@@ -114,10 +116,10 @@ function chip(label, value) {
 // Shared full-market renderer (used by the detail modal AND the predictor)
 // --------------------------------------------------------------------------- //
 function ouRows(dist, label) {
-  return Object.entries(dist).map(([line, o]) => [`${label} ${line}`, fmtPct(o.over)]);
+  return Object.entries(dist).map(([line, o]) => [`${label} ${line}`, pctOdds(o.over)]);
 }
 function probRows(dist, labelFn) {
-  return Object.entries(dist).map(([line, p]) => [labelFn(line), fmtPct(p)]);
+  return Object.entries(dist).map(([line, p]) => [labelFn(line), pctOdds(p)]);
 }
 function acesRows(expected, dist) {
   return [["Expected", expected.toFixed(1)], ...probRows(dist, (l) => `Over ${l}`)];
@@ -125,23 +127,23 @@ function acesRows(expected, dist) {
 
 function marketGrid(m, n1, n2, winA) {
   const winB = 1 - winA;
-  const ss = Object.entries(m.set_score || {}).sort((a, b) => b[1] - a[1]).map(([k, v]) => [k, fmtPct(v)]);
+  const ss = Object.entries(m.set_score || {}).sort((a, b) => b[1] - a[1]).map(([k, v]) => [k, pctOdds(v)]);
   const cards = [
-    mktCard("Match winner", [[n1, `${fmtPct(winA)} · ${fmtOdds(winA)}`], [n2, `${fmtPct(winB)} · ${fmtOdds(winB)}`]]),
+    mktCard("Match winner", [[n1, pctOdds(winA)], [n2, pctOdds(winB)]]),
     mktCard("Sets", [
-      ["Straight sets", fmtPct(m.straight_sets)],
-      ["Deciding set", fmtPct(m.deciding_set)],
-      [`${n1} to win a set`, fmtPct(m.a_wins_set)],
-      [`${n2} to win a set`, fmtPct(m.b_wins_set)],
+      ["Straight sets", pctOdds(m.straight_sets)],
+      ["Deciding set", pctOdds(m.deciding_set)],
+      [`${n1} to win a set`, pctOdds(m.a_wins_set)],
+      [`${n2} to win a set`, pctOdds(m.b_wins_set)],
     ]),
-    mktCard("1st set winner", [[n1, fmtPct(m.set1_win_a)], [n2, fmtPct(1 - m.set1_win_a)]]),
-    mktCard("2nd set winner", [[n1, fmtPct(m.set2_win_a)], [n2, fmtPct(1 - m.set2_win_a)]]),
+    mktCard("1st set winner", [[n1, pctOdds(m.set1_win_a)], [n2, pctOdds(1 - m.set1_win_a)]]),
+    mktCard("2nd set winner", [[n1, pctOdds(m.set2_win_a)], [n2, pctOdds(1 - m.set2_win_a)]]),
     mktCard("Correct set score", ss),
     mktCard("Total games", ouRows(m.totals, "Over")),
     mktCard(`Games handicap`, probRows(m.handicap, (l) => `${n1} ${l}`)),
     mktCard(`${n1} total games`, ouRows(m.player_games_a, "Over")),
     mktCard(`${n2} total games`, ouRows(m.player_games_b, "Over")),
-    mktCard("Tie-break in match", [["At least one", fmtPct(m.tiebreak_prob)]]),
+    mktCard("Tie-break in match", [["At least one", pctOdds(m.tiebreak_prob)]]),
     mktCard(`Aces — ${n1}`, acesRows(m.exp_aces_a, m.aces_ou_a)),
     mktCard(`Aces — ${n2}`, acesRows(m.exp_aces_b, m.aces_ou_b)),
     mktCard(`Double faults — ${n1}`, acesRows(m.exp_df_a, m.df_ou_a)),
