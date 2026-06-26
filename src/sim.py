@@ -145,55 +145,93 @@ def project_match(prof_a: dict, prof_b: dict, league: dict, best_of: int = 3,
     set_dist_odd = set_distribution(p_a, p_b, first="B")   # sets 2,4
 
     # Layered DP over number of sets played: state (sa, sb, total_games, any_tb).
+    # Match DP tracking (sets_a, sets_b, games_a, games_b, any_tiebreak).
     state = defaultdict(float)
-    state[(0, 0, 0, False)] = 1.0
+    state[(0, 0, 0, 0, False)] = 1.0
     final = defaultdict(float)
     for set_index in range(2 * sets_to_win - 1):
         nxt = defaultdict(float)
         base_set = set_dist_even if set_index % 2 == 0 else set_dist_odd
-        for (sa, sb, tg, anytb), prob in state.items():
+        for (sa, sb, ga, gb, anytb), prob in state.items():
             if sa == sets_to_win or sb == sets_to_win:
-                final[(sa, sb, tg, anytb)] += prob
+                final[(sa, sb, ga, gb, anytb)] += prob
                 continue
-            for spr, ga, gb, tb in base_set:
-                a_won = ga > gb
+            for spr, sga, sgb, tb in base_set:
+                a_won = sga > sgb
                 nsa = sa + (1 if a_won else 0)
                 nsb = sb + (0 if a_won else 1)
-                nxt[(nsa, nsb, tg + ga + gb, anytb or tb)] += prob * spr
+                nxt[(nsa, nsb, ga + sga, gb + sgb, anytb or tb)] += prob * spr
         state = nxt
     for key, prob in state.items():
         final[key] += prob
 
-    # Aggregate markets from `final`
-    match_win_a = 0.0
+    # ----- aggregate joint distribution into markets -----
+    match_win_a = any_tb_prob = exp_total_games = exp_games_a = exp_games_b = 0.0
     setscore: dict[str, float] = defaultdict(float)
-    games_dist: dict[int, float] = defaultdict(float)
-    any_tb_prob = 0.0
-    exp_total_games = 0.0
-    for (sa, sb, tg, anytb), pr in final.items():
-        a_won = sa > sb
-        if a_won:
+    games_dist: dict[int, float] = defaultdict(float)     # total games
+    margin_dist: dict[int, float] = defaultdict(float)    # games_a - games_b
+    a_games_dist: dict[int, float] = defaultdict(float)
+    b_games_dist: dict[int, float] = defaultdict(float)
+    for (sa, sb, ga, gb, anytb), pr in final.items():
+        if sa > sb:
             match_win_a += pr
         setscore[f"{sa}-{sb}"] += pr
+        tg = ga + gb
         games_dist[tg] += pr
+        margin_dist[ga - gb] += pr
+        a_games_dist[ga] += pr
+        b_games_dist[gb] += pr
         exp_total_games += pr * tg
+        exp_games_a += pr * ga
+        exp_games_b += pr * gb
         if anytb:
             any_tb_prob += pr
 
-    totals_lines = totals_lines or [20.5, 21.5, 22.5, 23.5]
-    totals = {}
-    for line in totals_lines:
-        over = sum(pr for g, pr in games_dist.items() if g > line)
-        totals[str(line)] = {"over": round(over, 4), "under": round(1 - over, 4)}
+    def over_under(dist, line):
+        over = sum(pr for v, pr in dist.items() if v > line)
+        return {"over": round(over, 4), "under": round(1 - over, 4)}
 
-    # Expected serve points per player -> aces / double faults.
-    epg_a = game_expected_points(p_a)
-    epg_b = game_expected_points(p_b)
-    # each player serves ~half the games; split expected total games by hold-weighted share
-    serve_games_a = exp_total_games / 2.0
-    serve_games_b = exp_total_games / 2.0
-    sp_a = serve_games_a * epg_a
-    sp_b = serve_games_b * epg_b
+    totals_lines = totals_lines or [20.5, 21.5, 22.5, 23.5]
+    totals = {str(l): over_under(games_dist, l) for l in totals_lines}
+
+    # Games handicap from A's perspective. Label is A's line: "A -6.5" means A
+    # must win by >6.5 games -> P(margin > 6.5). Listed ascending (-6.5 .. +6.5).
+    handicap = {}
+    for thr in [6.5, 4.5, 2.5, 1.5, -1.5, -2.5, -4.5, -6.5]:
+        cover = sum(pr for m, pr in margin_dist.items() if m > thr)
+        handicap[("%+.1f" % (-thr))] = round(cover, 4)
+
+    # Per-set winner (marginal): set 1 server A, set 2 server B, set 3 server A.
+    set1_a = sum(p for p, sga, sgb, _ in set_dist_even if sga > sgb)
+    set2_a = sum(p for p, sga, sgb, _ in set_dist_odd if sga > sgb)
+
+    a_set0 = sum(pr for k, pr in setscore.items() if k.startswith("0-"))
+    b_set0 = sum(pr for k, pr in setscore.items() if k.endswith("-0"))
+    straight = sum(pr for k, pr in setscore.items()
+                   if min(int(k[0]), int(k[-1])) == 0 and max(int(k[0]), int(k[-1])) == sets_to_win)
+
+    # Player game totals (a few lines around the mean).
+    def player_game_ou(dist, mean):
+        c = round(mean)
+        return {("%.1f" % (c + d + 0.5)): over_under(dist, c + d + 0.5) for d in (-2, -1, 0, 1, 2)}
+
+    # Expected serve points -> aces / double faults (+ Poisson over/unders).
+    sp_a = (exp_games_a) * game_expected_points(p_a)
+    sp_b = (exp_games_b) * game_expected_points(p_b)
+    exp_aces_a = prof_a["ace_rate"] * sp_a
+    exp_aces_b = prof_b["ace_rate"] * sp_b
+    exp_df_a = prof_a["df_rate"] * sp_a
+    exp_df_b = prof_b["df_rate"] * sp_b
+
+    def poisson_ou(mean):
+        c = max(0, round(mean))
+        out = {}
+        for d in (-2, -1, 0, 1, 2):
+            line = c + d + 0.5
+            if line <= 0:
+                continue
+            out["%.1f" % line] = round(1 - _poisson_cdf(int(line), mean), 4)  # P(X > line) = P(X >= line+0.5)
+        return out
 
     return {
         "p_a_serve": round(p_a, 4),
@@ -201,15 +239,43 @@ def project_match(prof_a: dict, prof_b: dict, league: dict, best_of: int = 3,
         "hold_a": round(game_hold(p_a), 4),
         "hold_b": round(game_hold(p_b), 4),
         "sr_win_a": round(match_win_a, 4),
+        "set1_win_a": round(set1_a, 4),
+        "set2_win_a": round(set2_a, 4),
+        "straight_sets": round(straight, 4),
+        "deciding_set": round(1 - straight, 4),
+        "a_wins_set": round(1 - a_set0, 4),
+        "b_wins_set": round(1 - b_set0, 4),
         "set_score": {k: round(v, 4) for k, v in sorted(setscore.items())},
         "exp_total_games": round(exp_total_games, 2),
+        "exp_games_a": round(exp_games_a, 2),
+        "exp_games_b": round(exp_games_b, 2),
         "totals": totals,
+        "handicap": handicap,
+        "player_games_a": player_game_ou(a_games_dist, exp_games_a),
+        "player_games_b": player_game_ou(b_games_dist, exp_games_b),
         "tiebreak_prob": round(any_tb_prob, 4),
-        "exp_aces_a": round(prof_a["ace_rate"] * sp_a, 2),
-        "exp_aces_b": round(prof_b["ace_rate"] * sp_b, 2),
-        "exp_df_a": round(prof_a["df_rate"] * sp_a, 2),
-        "exp_df_b": round(prof_b["df_rate"] * sp_b, 2),
+        "exp_aces_a": round(exp_aces_a, 2),
+        "exp_aces_b": round(exp_aces_b, 2),
+        "exp_df_a": round(exp_df_a, 2),
+        "exp_df_b": round(exp_df_b, 2),
+        "aces_ou_a": poisson_ou(exp_aces_a),
+        "aces_ou_b": poisson_ou(exp_aces_b),
+        "df_ou_a": poisson_ou(exp_df_a),
+        "df_ou_b": poisson_ou(exp_df_b),
     }
+
+
+def _poisson_cdf(k: int, mean: float) -> float:
+    """P(X <= k) for X ~ Poisson(mean)."""
+    import math
+    if mean <= 0:
+        return 1.0
+    term = math.exp(-mean)
+    cdf = term
+    for i in range(1, k + 1):
+        term *= mean / i
+        cdf += term
+    return min(1.0, cdf)
 
 
 def _clamp(x: float, lo: float, hi: float) -> float:

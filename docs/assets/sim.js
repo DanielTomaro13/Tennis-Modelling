@@ -87,25 +87,32 @@ export function setDistribution(pa, pb, first = "A") {
   return out;
 }
 
+function poissonCdf(k, mean) {
+  if (mean <= 0) return 1.0;
+  let term = Math.exp(-mean), cdf = term;
+  for (let i = 1; i <= k; i++) { term *= mean / i; cdf += term; }
+  return Math.min(1, cdf);
+}
+
 export function projectMatch(a, b, league, bestOf = 3, totalsLines = [20.5, 21.5, 22.5, 23.5]) {
   const [pa, pb] = pointProbs(a, b, league);
   const setsToWin = bestOf === 5 ? 3 : 2;
   const setEven = setDistribution(pa, pb, "A");
   const setOdd = setDistribution(pa, pb, "B");
 
-  let state = new Map([["0,0,0,0", 1.0]]);
+  let state = new Map([["0,0,0,0,0", 1.0]]);
   const final = new Map();
   const addF = (k, v) => final.set(k, (final.get(k) || 0) + v);
   for (let si = 0; si < 2 * setsToWin - 1; si++) {
     const nxt = new Map();
     const base = si % 2 === 0 ? setEven : setOdd;
     for (const [k, prob] of state) {
-      const [sa, sb, tg, anytb] = k.split(",").map(Number);
+      const [sa, sb, ga, gb, anytb] = k.split(",").map(Number);
       if (sa === setsToWin || sb === setsToWin) { addF(k, prob); continue; }
-      for (const [spr, ga, gb, tb] of base) {
-        const aWon = ga > gb;
+      for (const [spr, sga, sgb, tb] of base) {
+        const aWon = sga > sgb;
         const nsa = sa + (aWon ? 1 : 0), nsb = sb + (aWon ? 0 : 1);
-        const nk = `${nsa},${nsb},${tg + ga + gb},${anytb || tb ? 1 : 0}`;
+        const nk = `${nsa},${nsb},${ga + sga},${gb + sgb},${anytb || tb ? 1 : 0}`;
         nxt.set(nk, (nxt.get(nk) || 0) + prob * spr);
       }
     }
@@ -113,32 +120,51 @@ export function projectMatch(a, b, league, bestOf = 3, totalsLines = [20.5, 21.5
   }
   for (const [k, prob] of state) addF(k, prob);
 
-  let winA = 0, anyTb = 0, etg = 0;
-  const setScore = {}, gamesDist = {};
+  let winA = 0, anyTb = 0, etg = 0, ega = 0, egb = 0;
+  const setScore = {}, gamesDist = {}, marginDist = {}, aGames = {}, bGames = {};
+  const bump = (o, k, v) => (o[k] = (o[k] || 0) + v);
   for (const [k, pr] of final) {
-    const [sa, sb, tg, anytb] = k.split(",").map(Number);
+    const [sa, sb, ga, gb, anytb] = k.split(",").map(Number);
     if (sa > sb) winA += pr;
-    const ss = `${sa}-${sb}`;
-    setScore[ss] = (setScore[ss] || 0) + pr;
-    gamesDist[tg] = (gamesDist[tg] || 0) + pr;
-    etg += pr * tg;
+    bump(setScore, `${sa}-${sb}`, pr);
+    bump(gamesDist, ga + gb, pr);
+    bump(marginDist, ga - gb, pr);
+    bump(aGames, ga, pr); bump(bGames, gb, pr);
+    etg += pr * (ga + gb); ega += pr * ga; egb += pr * gb;
     if (anytb) anyTb += pr;
   }
-  const totals = {};
-  for (const line of totalsLines) {
-    let over = 0;
-    for (const g in gamesDist) if (Number(g) > line) over += gamesDist[g];
-    totals[line] = { over, under: 1 - over };
+  const ou = (dist, line) => { let o = 0; for (const v in dist) if (Number(v) > line) o += dist[v]; return { over: o, under: 1 - o }; };
+  const totals = {}; totalsLines.forEach((l) => (totals[l] = ou(gamesDist, l)));
+  const handicap = {};
+  [6.5, 4.5, 2.5, 1.5, -1.5, -2.5, -4.5, -6.5].forEach((thr) => {
+    let c = 0; for (const m in marginDist) if (Number(m) > thr) c += marginDist[m];
+    const line = -thr;
+    handicap[(line > 0 ? "+" : "") + line.toFixed(1)] = c;
+  });
+  const setWin = (dist) => dist.reduce((s, [p, sga, sgb]) => s + (sga > sgb ? p : 0), 0);
+  const set1A = setWin(setEven), set2A = setWin(setOdd);
+  let aSet0 = 0, bSet0 = 0, straight = 0;
+  for (const k in setScore) {
+    if (k.startsWith("0-")) aSet0 += setScore[k];
+    if (k.endsWith("-0")) bSet0 += setScore[k];
+    const lo = Math.min(+k[0], +k[k.length - 1]), hi = Math.max(+k[0], +k[k.length - 1]);
+    if (lo === 0 && hi === setsToWin) straight += setScore[k];
   }
-  const spA = (etg / 2) * gameExpectedPoints(pa);
-  const spB = (etg / 2) * gameExpectedPoints(pb);
+  const pgOU = (dist, mean) => { const c = Math.round(mean), o = {}; [-2, -1, 0, 1, 2].forEach((d) => (o[(c + d + 0.5).toFixed(1)] = ou(dist, c + d + 0.5))); return o; };
+  const spA = ega * gameExpectedPoints(pa), spB = egb * gameExpectedPoints(pb);
+  const eAcesA = a.ace_rate * spA, eAcesB = b.ace_rate * spB, eDfA = a.df_rate * spA, eDfB = b.df_rate * spB;
+  const poiOU = (mean) => { const c = Math.max(0, Math.round(mean)), o = {}; [-2, -1, 0, 1, 2].forEach((d) => { const line = c + d + 0.5; if (line > 0) o[line.toFixed(1)] = 1 - poissonCdf(Math.floor(line), mean); }); return o; };
+
   return {
-    p_a_serve: pa, p_b_serve: pb,
-    hold_a: gameHold(pa), hold_b: gameHold(pb),
-    sr_win_a: winA, set_score: setScore,
-    exp_total_games: etg, totals, tiebreak_prob: anyTb,
-    exp_aces_a: a.ace_rate * spA, exp_aces_b: b.ace_rate * spB,
-    exp_df_a: a.df_rate * spA, exp_df_b: b.df_rate * spB,
+    p_a_serve: pa, p_b_serve: pb, hold_a: gameHold(pa), hold_b: gameHold(pb),
+    sr_win_a: winA, set1_win_a: set1A, set2_win_a: set2A,
+    straight_sets: straight, deciding_set: 1 - straight,
+    a_wins_set: 1 - aSet0, b_wins_set: 1 - bSet0,
+    set_score: setScore, exp_total_games: etg, exp_games_a: ega, exp_games_b: egb,
+    totals, handicap, player_games_a: pgOU(aGames, ega), player_games_b: pgOU(bGames, egb),
+    tiebreak_prob: anyTb,
+    exp_aces_a: eAcesA, exp_aces_b: eAcesB, exp_df_a: eDfA, exp_df_b: eDfB,
+    aces_ou_a: poiOU(eAcesA), aces_ou_b: poiOU(eAcesB), df_ou_a: poiOU(eDfA), df_ou_b: poiOU(eDfB),
   };
 }
 

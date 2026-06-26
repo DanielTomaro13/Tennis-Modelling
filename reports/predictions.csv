@@ -1,6 +1,6 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Mallorca Championships,Grass,Semifinal,Nuno Borges,Ethan Quinn,0.5475,0.4525,1.83,2.21,25.43,0.459,8.03,8.47,2.17,3.02,tennis.com
-wta,,Bad Homburg Open powered by Solarwatt,Grass,Semifinal,Elena Gabriela Ruse,Karolina Muchova,0.2312,0.7688,4.33,1.3,23.73,0.3252,3.44,3.28,4.58,3.63,tennis.com
-wta,,Bad Homburg Open powered by Solarwatt,Grass,Semifinal,Xin Yu Wang,Naomi Osaka,0.29,0.71,3.45,1.41,23.85,0.329,3.43,3.53,3.4,3.53,tennis.com
-wta,,Lexus Eastbourne Open,Grass,Semifinal,Petra Martic,Madison Keys,0.3067,0.6933,3.26,1.44,24.25,0.3286,3.78,3.43,3.86,3.47,tennis.com
-wta,,Lexus Eastbourne Open,Grass,Semifinal,Tatjana Maria,Jelena Ostapenko,0.486,0.514,2.06,1.95,24.45,0.3152,3.67,3.57,3.91,4.09,tennis.com
+atp,,Mallorca Championships,Grass,Semifinal,Nuno Borges,Ethan Quinn,0.5475,0.4525,1.83,2.21,25.43,0.459,8.41,8.07,2.27,2.87,tennis.com
+wta,,Bad Homburg Open powered by Solarwatt,Grass,Semifinal,Elena Gabriela Ruse,Karolina Muchova,0.2312,0.7688,4.33,1.3,23.73,0.3252,3.01,3.69,4.01,4.08,tennis.com
+wta,,Bad Homburg Open powered by Solarwatt,Grass,Semifinal,Xin Yu Wang,Naomi Osaka,0.29,0.71,3.45,1.41,23.85,0.329,3.03,3.94,3.01,3.95,tennis.com
+wta,,Lexus Eastbourne Open,Grass,Semifinal,Petra Martic,Madison Keys,0.3067,0.6933,3.26,1.44,24.25,0.3286,3.49,3.69,3.56,3.73,tennis.com
+wta,,Lexus Eastbourne Open,Grass,Semifinal,Tatjana Maria,Jelena Ostapenko,0.486,0.514,2.06,1.95,24.45,0.3152,3.66,3.57,3.91,4.09,tennis.com

@@ -82,7 +82,7 @@ async function renderPredictions() {
       chip("Tie-break", fmtPct(f.tiebreak_prob)),
       chip("Aces", `${f.exp_aces_1} / ${f.exp_aces_2}`),
       sets ? chip("Likely sets", sets) : "");
-    return el("div", { class: "match" },
+    const node = el("div", { class: "match clickable" },
       el("div", { class: "match-top" },
         el("div", { class: "ev" },
           el("span", {}, f.tournament),
@@ -92,7 +92,10 @@ async function renderPredictions() {
         player(f.player1, f.win_prob_1, f.fair_odds_1, aFav),
         el("div", { class: "vsbar" }, probBar(f.win_prob_1)),
         player(f.player2, f.win_prob_2, f.fair_odds_2, !aFav)),
-      chips);
+      chips,
+      el("div", { class: "more-hint" }, "View all markets →"));
+    if (f.markets) node.onclick = () => openDetail(f);
+    return node;
   }
 
   function draw() {
@@ -105,6 +108,74 @@ async function renderPredictions() {
 
 function chip(label, value) {
   return el("div", { class: "mchip" }, el("small", {}, label), el("b", {}, String(value)));
+}
+
+// --------------------------------------------------------------------------- //
+// Shared full-market renderer (used by the detail modal AND the predictor)
+// --------------------------------------------------------------------------- //
+function ouRows(dist, label) {
+  return Object.entries(dist).map(([line, o]) => [`${label} ${line}`, fmtPct(o.over)]);
+}
+function probRows(dist, labelFn) {
+  return Object.entries(dist).map(([line, p]) => [labelFn(line), fmtPct(p)]);
+}
+function acesRows(expected, dist) {
+  return [["Expected", expected.toFixed(1)], ...probRows(dist, (l) => `Over ${l}`)];
+}
+
+function marketGrid(m, n1, n2, winA) {
+  const winB = 1 - winA;
+  const ss = Object.entries(m.set_score || {}).sort((a, b) => b[1] - a[1]).map(([k, v]) => [k, fmtPct(v)]);
+  const cards = [
+    mktCard("Match winner", [[n1, `${fmtPct(winA)} · ${fmtOdds(winA)}`], [n2, `${fmtPct(winB)} · ${fmtOdds(winB)}`]]),
+    mktCard("Sets", [
+      ["Straight sets", fmtPct(m.straight_sets)],
+      ["Deciding set", fmtPct(m.deciding_set)],
+      [`${n1} to win a set`, fmtPct(m.a_wins_set)],
+      [`${n2} to win a set`, fmtPct(m.b_wins_set)],
+    ]),
+    mktCard("1st set winner", [[n1, fmtPct(m.set1_win_a)], [n2, fmtPct(1 - m.set1_win_a)]]),
+    mktCard("2nd set winner", [[n1, fmtPct(m.set2_win_a)], [n2, fmtPct(1 - m.set2_win_a)]]),
+    mktCard("Correct set score", ss),
+    mktCard("Total games", ouRows(m.totals, "Over")),
+    mktCard(`Games handicap`, probRows(m.handicap, (l) => `${n1} ${l}`)),
+    mktCard(`${n1} total games`, ouRows(m.player_games_a, "Over")),
+    mktCard(`${n2} total games`, ouRows(m.player_games_b, "Over")),
+    mktCard("Tie-break in match", [["At least one", fmtPct(m.tiebreak_prob)]]),
+    mktCard(`Aces — ${n1}`, acesRows(m.exp_aces_a, m.aces_ou_a)),
+    mktCard(`Aces — ${n2}`, acesRows(m.exp_aces_b, m.aces_ou_b)),
+    mktCard(`Double faults — ${n1}`, acesRows(m.exp_df_a, m.df_ou_a)),
+    mktCard(`Double faults — ${n2}`, acesRows(m.exp_df_b, m.df_ou_b)),
+  ];
+  return el("div", { class: "grid2 markets-grid" }, ...cards);
+}
+
+function detailHead(n1, n2, winA, subtitle) {
+  const winB = 1 - winA;
+  return el("div", { class: "card" },
+    el("div", { class: "result-head" },
+      el("div", {}, el("div", { class: "big " + (winA >= winB ? "fav" : "") }, fmtPct(winA)), el("div", { class: "muted" }, `${n1} · fair ${fmtOdds(winA)}`)),
+      el("div", { class: "muted", style: "text-align:center" }, subtitle),
+      el("div", { style: "text-align:right" }, el("div", { class: "big " + (winB > winA ? "fav" : "") }, fmtPct(winB)), el("div", { class: "muted" }, `${n2} · fair ${fmtOdds(winB)}`))),
+    el("div", { class: "result-head" }, probBarWide(winA)));
+}
+
+function openDetail(f) {
+  const sub = [f.surface, `Bo${f.best_of}`, f.round].filter(Boolean).join(" · ");
+  const body = el("div", { class: "modal-body" },
+    el("div", { class: "modal-evt" }, el("div", {}, f.tournament || ""), el("div", { class: "muted" }, [f.round, f.date ? fmtDate(f.date) : ""].filter(Boolean).join(" · "))),
+    detailHead(f.player1, f.player2, f.win_prob_1, sub),
+    el("div", { style: "height:16px" }),
+    marketGrid(f.markets, f.player1, f.player2, f.win_prob_1));
+  const close = el("button", { class: "modal-close", "aria-label": "Close" }, "✕");
+  const dialog = el("div", { class: "modal" }, close, body);
+  const overlay = el("div", { class: "modal-overlay" }, dialog);
+  const dismiss = () => { overlay.remove(); document.removeEventListener("keydown", onKey); };
+  const onKey = (e) => { if (e.key === "Escape") dismiss(); };
+  overlay.onclick = (e) => { if (e.target === overlay) dismiss(); };
+  close.onclick = dismiss;
+  document.addEventListener("keydown", onKey);
+  document.body.append(overlay);
 }
 
 function fmtDate(d) {
@@ -195,35 +266,8 @@ async function renderPredictor() {
     const b = { ...scopeOf(profiles[tour].players[n2], surface), name: n2 };
     const m = projectMatch(a, b, league, bestOf);
     const winA = blendedWinProb(a, b, league, bestOf);
-    const winB = 1 - winA;
-
-    const head = el("div", { class: "card" },
-      el("div", { class: "result-head" },
-        el("div", {}, el("div", { class: "big " + (winA >= winB ? "fav" : "") }, fmtPct(winA)), el("div", { class: "muted" }, `${n1} · fair ${fmtOdds(winA)}`)),
-        el("div", { class: "muted" }, `${surface} · Bo${bestOf}`),
-        el("div", { style: "text-align:right" }, el("div", { class: "big " + (winB > winA ? "fav" : "") }, fmtPct(winB)), el("div", { class: "muted" }, `${n2} · fair ${fmtOdds(winB)}`)),
-      ),
-      el("div", { class: "result-head" }, probBarWide(winA)),
-    );
-
-    const setScores = Object.entries(m.set_score).sort((x, y) => y[1] - x[1]);
-    const markets = el("div", { class: "grid2" },
-      mktCard("Match shape", [
-        ["Expected total games", m.exp_total_games.toFixed(1)],
-        ["At least one tie-break", fmtPct(m.tiebreak_prob)],
-        [`${n1} hold %`, fmtPct(m.hold_a)],
-        [`${n2} hold %`, fmtPct(m.hold_b)],
-      ]),
-      mktCard("Set betting", setScores.map(([k, v]) => [k, fmtPct(v)])),
-      mktCard("Total games", Object.entries(m.totals).map(([line, o]) => [`Over ${line}`, fmtPct(o.over)])),
-      mktCard("Serve markets (expected)", [
-        [`${n1} aces`, m.exp_aces_a.toFixed(1)],
-        [`${n2} aces`, m.exp_aces_b.toFixed(1)],
-        [`${n1} double faults`, m.exp_df_a.toFixed(1)],
-        [`${n2} double faults`, m.exp_df_b.toFixed(1)],
-      ]),
-    );
-    out.replaceChildren(head, el("div", { style: "height:18px" }), markets);
+    const head = detailHead(n1, n2, winA, `${surface} · Bo${bestOf}`);
+    out.replaceChildren(head, el("div", { style: "height:18px" }), marketGrid(m, n1, n2, winA));
   };
   go.click();
 }

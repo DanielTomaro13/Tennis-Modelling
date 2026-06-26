@@ -52,6 +52,8 @@ def project_fixture(cfg: dict, fx: dict, profiles_tour: dict, elo=None) -> dict:
         "exp_aces_2": markets["exp_aces_b"],
         "exp_df_1": markets["exp_df_a"],
         "exp_df_2": markets["exp_df_b"],
+        # full market detail for the click-through view (a->player1, b->player2)
+        "markets": markets,
     }
 
 
