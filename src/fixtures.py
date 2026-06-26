@@ -31,14 +31,17 @@ def resolve_name(raw: str, index: dict[str, str], threshold: float) -> str | Non
     key = _norm(raw)
     if key in index:
         return index[key]
-    # surname-token fallback + ratio
+    parts = key.split()
+    surname = parts[-1] if parts else key
     best, best_score = None, 0.0
-    raw_tokens = set(key.split())
     for nkey, canon in index.items():
         score = SequenceMatcher(None, key, nkey).ratio()
-        # boost if surnames overlap
-        if raw_tokens & set(nkey.split()):
-            score = max(score, 0.5 + 0.5 * score)
+        nparts = nkey.split()
+        nsurname = nparts[-1] if nparts else nkey
+        # Boost ONLY when surnames are very close — sharing a common first name
+        # (e.g. "Petra") must not validate a wrong surname match.
+        if SequenceMatcher(None, surname, nsurname).ratio() >= 0.9:
+            score = max(score, 0.85 + 0.15 * score)
         if score > best_score:
             best, best_score = canon, score
     return best if best_score >= threshold else None
@@ -70,7 +73,8 @@ def load_fixtures(cfg: dict, profiles: dict) -> list[dict]:
         if not p1 or not p2 or p1 == p2:
             skipped += 1
             continue
-        key = (tour, p1, p2, r.get("date", ""))
+        # de-dup on the canonical sorted pair (order/date/source independent)
+        key = (tour, tuple(sorted((p1, p2))))
         if key in seen:
             continue
         seen.add(key)

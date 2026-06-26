@@ -1,6 +1,7 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Mallorca Championships,Grass,Semifinal,Nuno Borges,Ethan Quinn,0.5475,0.4525,1.83,2.21,25.43,0.459,8.41,8.07,2.27,2.87,tennis.com
 wta,,Bad Homburg Open powered by Solarwatt,Grass,Semifinal,Elena Gabriela Ruse,Karolina Muchova,0.2312,0.7688,4.33,1.3,23.73,0.3252,3.01,3.69,4.01,4.08,tennis.com
 wta,,Bad Homburg Open powered by Solarwatt,Grass,Semifinal,Xin Yu Wang,Naomi Osaka,0.29,0.71,3.45,1.41,23.85,0.329,3.03,3.94,3.01,3.95,tennis.com
-wta,,Lexus Eastbourne Open,Grass,Semifinal,Petra Martic,Madison Keys,0.3067,0.6933,3.26,1.44,24.25,0.3286,3.49,3.69,3.56,3.73,tennis.com
-wta,,Lexus Eastbourne Open,Grass,Semifinal,Tatjana Maria,Jelena Ostapenko,0.486,0.514,2.06,1.95,24.45,0.3152,3.66,3.57,3.91,4.09,tennis.com
+atp,20260626,Lexus Eastbourne Open,Grass,Semifinal,Ugo Humbert,Jack Draper,0.3494,0.6506,2.86,1.54,25.86,0.5019,8.05,9.4,2.52,2.99,espn
+atp,20260626,Vanda Pharmaceuticals Mallorca Championships,Grass,Semifinal,Ethan Quinn,Nuno Borges,0.4525,0.5475,2.21,1.83,25.46,0.459,8.14,8.37,2.9,2.26,espn
+atp,20260626,Vanda Pharmaceuticals Mallorca Championships,Grass,Semifinal,Alejandro Davidovich Fokina,Fabian Marozsan,0.5414,0.4586,1.85,2.18,25.45,0.4515,7.2,4.88,2.61,2.11,espn
+wta,20260626,Lexus Eastbourne Open,Grass,Semifinal,Jelena Ostapenko,Tatjana Maria,0.514,0.486,1.95,2.06,24.45,0.3152,3.58,3.65,4.1,3.89,espn

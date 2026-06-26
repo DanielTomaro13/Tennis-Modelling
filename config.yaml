@@ -78,7 +78,11 @@ sim:
 # ---------------------------------------------------------------------------
 fixtures:
   schedule_url: "https://www.tennis.com/"
+  # ESPN hidden JSON API (one endpoint returns both tours' singles + doubles).
+  espn_url: "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard"
   manual_file: "data/manual_fixtures.csv"
+  # Only include scheduled matches within this many days (keeps the board relevant).
+  days_ahead: 8
   # Fuzzy name-match threshold (0-1) when mapping schedule names to player ids.
   match_threshold: 0.82
 
