@@ -43,48 +43,68 @@ async function renderPredictions() {
   const data = await getJSON("data/predictions.json");
   const wrap = document.getElementById("content");
   if (!data || !data.fixtures.length) {
-    wrap.append(el("p", { class: "muted" }, "No upcoming fixtures resolved. Check back after the next daily run."));
+    wrap.append(el("div", { class: "empty" },
+      el("p", {}, "No scheduled matches resolved for today yet."),
+      el("p", { class: "muted" }, "Fixtures refresh daily from tennis.com. In the meantime, try the "),
+      el("a", { href: "predictor.html", class: "btnlink" }, "head-to-head predictor →")));
     return;
   }
   let tour = "all";
+  const counts = { all: data.fixtures.length, atp: 0, wta: 0 };
+  data.fixtures.forEach((f) => counts[f.tour]++);
+
   const tabs = el("div", { class: "tabs" });
   ["all", "atp", "wta"].forEach((t) => {
-    const b = el("button", { class: t === tour ? "active" : "" }, t.toUpperCase());
-    b.onclick = () => { tour = t; [...tabs.children].forEach((c) => c.classList.toggle("active", c.textContent === t.toUpperCase())); draw(); };
+    const b = el("button", { class: t === tour ? "active" : "", "data-t": t },
+      `${t.toUpperCase()} (${counts[t]})`);
+    b.onclick = () => {
+      tour = t;
+      [...tabs.children].forEach((c) => c.classList.toggle("active", c.dataset.t === t));
+      draw();
+    };
     tabs.append(b);
   });
   wrap.append(tabs);
-  const card = el("div", { class: "card" });
-  wrap.append(card);
+  const grid = el("div", { class: "cards" });
+  wrap.append(grid);
+
+  function matchCard(f) {
+    const aFav = f.win_prob_1 >= f.win_prob_2;
+    const player = (name, prob, odds, fav) => el("div", { class: "player" + (fav ? " fav" : "") },
+      el("span", { class: "pname" }, name),
+      el("span", { class: "podds muted" }, "fair " + odds),
+      el("span", { class: "pprob" }, fmtPct(prob)));
+    // top set scores (most likely 2)
+    const sets = Object.entries(f.set_score || {}).sort((a, b) => b[1] - a[1]).slice(0, 2)
+      .map(([k, v]) => `${k} (${fmtPct(v)})`).join(" · ");
+    const chips = el("div", { class: "chips" },
+      chip("Total games", f.exp_total_games),
+      chip("Tie-break", fmtPct(f.tiebreak_prob)),
+      chip("Aces", `${f.exp_aces_1} / ${f.exp_aces_2}`),
+      sets ? chip("Likely sets", sets) : "");
+    return el("div", { class: "match" },
+      el("div", { class: "match-top" },
+        el("div", { class: "ev" },
+          el("span", {}, f.tournament),
+          el("span", { class: "muted" }, [f.round, f.date ? fmtDate(f.date) : ""].filter(Boolean).join(" · "))),
+        el("span", { class: "pill surf-" + f.surface }, f.surface)),
+      el("div", { class: "players" },
+        player(f.player1, f.win_prob_1, f.fair_odds_1, aFav),
+        el("div", { class: "vsbar" }, probBar(f.win_prob_1)),
+        player(f.player2, f.win_prob_2, f.fair_odds_2, !aFav)),
+      chips);
+  }
 
   function draw() {
     const rows = data.fixtures.filter((f) => tour === "all" || f.tour === tour);
-    const table = el("table");
-    table.append(el("tr", {},
-      el("th", {}, "Date"), el("th", {}, "Event"), el("th", {}, "Surface"),
-      el("th", {}, "Match"), el("th", { class: "num" }, "Win %"),
-      el("th", { class: "num" }, "Fair odds"), el("th", { class: "num" }, "Games"),
-      el("th", { class: "num" }, "TB %"), el("th", { class: "num" }, "Aces"),
-    ));
-    rows.forEach((f) => {
-      const aFav = f.win_prob_1 >= f.win_prob_2;
-      const p1 = el("div", { class: aFav ? "fav" : "" }, `${f.player1} ${fmtPct(f.win_prob_1)}`);
-      const p2 = el("div", { class: !aFav ? "fav" : "" }, `${f.player2} ${fmtPct(f.win_prob_2)}`);
-      table.append(el("tr", {},
-        el("td", { class: "muted" }, fmtDate(f.date)),
-        el("td", {}, el("div", {}, f.tournament), el("div", { class: "muted", html: f.round || "" })),
-        el("td", {}, el("span", { class: "pill surf-" + f.surface }, f.surface)),
-        el("td", {}, p1, p2),
-        el("td", { class: "num" }, probBar(Math.max(f.win_prob_1, f.win_prob_2))),
-        el("td", { class: "num" }, `${f.fair_odds_1} / ${f.fair_odds_2}`),
-        el("td", { class: "num" }, String(f.exp_total_games)),
-        el("td", { class: "num" }, fmtPct(f.tiebreak_prob)),
-        el("td", { class: "num muted" }, `${f.exp_aces_1} / ${f.exp_aces_2}`),
-      ));
-    });
-    card.replaceChildren(table);
+    if (!rows.length) { grid.replaceChildren(el("p", { class: "muted" }, "No matches for this tour today.")); return; }
+    grid.replaceChildren(...rows.map(matchCard));
   }
   draw();
+}
+
+function chip(label, value) {
+  return el("div", { class: "mchip" }, el("small", {}, label), el("b", {}, String(value)));
 }
 
 function fmtDate(d) {
@@ -107,7 +127,7 @@ async function renderRatings() {
   scopeSel.onchange = () => { scope = scopeSel.value; draw(); };
   controls.append(tourSel, scopeSel);
   wrap.append(controls);
-  const card = el("div", { class: "card" });
+  const card = el("div", { class: "table-wrap" });
   wrap.append(card);
 
   function draw() {

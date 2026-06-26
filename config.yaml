@@ -42,7 +42,8 @@ features:
   # toward the tour/surface mean. Higher = more regression for small samples.
   prior_svpt: 250
   # Minimum service points before a player gets a non-default profile.
-  min_svpt: 100
+  # Lower = broader coverage (more scraped fixtures resolve) at some noise cost.
+  min_svpt: 60
   # Number of opponent-adjustment passes (iterative serve/return strength).
   adjust_iterations: 3
 
