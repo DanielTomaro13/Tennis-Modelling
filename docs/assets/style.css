@@ -80,7 +80,7 @@ td.fav b{color:var(--pos)}
 @supports(height:100dvh){.scrolltable{max-height:calc(100dvh - 230px)}}
 .scrolltable thead th{position:sticky;top:0;z-index:3;background:#0f141c;box-shadow:0 1px 0 var(--line)}
 th.so{cursor:pointer}th.so:hover{color:var(--ink)}
-td.num{font-variant-numeric:tabular-nums}td.mut{color:var(--mut)}td.pos{color:var(--pos)}
+td.num{font-variant-numeric:tabular-nums}td.mut{color:var(--mut)}td.pos{color:var(--pos)}td.neg{color:var(--neg)}
 
 /* surface pills */
 .pill{padding:2px 9px;border-radius:999px;font-size:11.5px;font-weight:600;display:inline-block}

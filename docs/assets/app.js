@@ -394,35 +394,64 @@ function oddsEmpty(wrap, what) {
     el("p", { class: "muted" }, "Every match still shows the model's fair price on the Matches page.")));
 }
 
-// flatten odds.json -> one row per priced selection
+const pairKey = (tour, a, b) => `${tour}|${[a.toLowerCase(), b.toLowerCase()].sort().join("~")}`;
+
+// flatten odds.json -> one row per priced selection (carry players for the model modal)
 function oddsRows(data) {
   const rows = [];
   (data.matches || []).forEach((m) => (m.markets || []).forEach((mk) => mk.selections.forEach((s) =>
     rows.push({ tour: m.tour, tournament: m.tournament, surface: m.surface, round: m.round,
-      match: `${m.player1} v ${m.player2}`, market: mk.label, marketKey: mk.key,
+      p1: m.player1, p2: m.player2, match: `${m.player1} v ${m.player2}`, market: mk.label, marketKey: mk.key,
       sel: s.label, model: s.model, fair: s.fair, books: s.books, best: s.best, ev: s.ev, edge: s.edge }))));
   return rows;
+}
+
+// index predictions fixtures so an odds row can open the full model
+async function fixtureIndex() {
+  const preds = await getJSON("data/predictions.json");
+  const idx = new Map();
+  ((preds && preds.fixtures) || []).forEach((f) => idx.set(pairKey(f.tour, f.player1, f.player2), f));
+  return idx;
+}
+
+function sortHeader(label, key, getter, state, redraw, cls) {
+  const arrow = state.sort === key ? (state.dir > 0 ? " ▲" : " ▼") : "";
+  const th = el("th", { class: (cls || "") + " so" }, label + arrow);
+  th.onclick = () => { if (state.sort === key) state.dir = -state.dir; else { state.sort = key; state.dir = 1; } state._get = getter; redraw(); };
+  return th;
+}
+function applySort(rows, state) {
+  if (!state.sort || !state._get) return rows;
+  const g = state._get, d = state.dir;
+  return [...rows].sort((a, b) => {
+    const va = g(a), vb = g(b);
+    if (va == null && vb == null) return 0;
+    if (va == null) return 1; if (vb == null) return -1;
+    return (va > vb ? 1 : va < vb ? -1 : 0) * d;
+  });
 }
 
 /* ===========================================================
    COMPARE — model fair vs every book, across all markets
    =========================================================== */
 async function renderCompare() {
-  const data = await getJSON("data/odds.json");
+  const [data, fxIdx] = await Promise.all([getJSON("data/odds.json"), fixtureIndex()]);
   const wrap = document.getElementById("content");
   if (!data || !data.matches.length) { oddsEmpty(wrap, "Compare odds"); return; }
   const books = data.books;
   const rows = oddsRows(data);
   const markets = [...new Set(rows.map((r) => r.market))];
-  const tournaments = [...new Set(rows.map((r) => r.tournament))].sort();
-  const tcounts = { all: data.matches.length, atp: data.matches.filter(m=>m.tour==="atp").length, wta: data.matches.filter(m=>m.tour==="wta").length };
-  const state = { tour: "all", market: markets[0], tournament: "all", view: "all" };
+  const uniq = (k) => [...new Set(rows.map((r) => r[k]).filter(Boolean))].sort();
+  const tcounts = { all: data.matches.length, atp: data.matches.filter(m => m.tour === "atp").length, wta: data.matches.filter(m => m.tour === "wta").length };
+  const state = { tour: "all", market: markets[0], tournament: "all", round: "all", surface: "all", view: "all", sort: "edge", dir: -1, _get: (r) => r.edge };
 
   wrap.append(el("p", { class: "muted", style: "margin:-4px 0 10px" },
-    `Model fair price vs ${books.map((b) => BOOK_LABEL[b]).join(", ")} across ${markets.length} markets. Green = the book pays more than the model's fair price. Updated ${data.generated}.`));
+    `Model fair price vs ${books.map((b) => BOOK_LABEL[b]).join(", ")} across ${markets.length} markets. Green = the book pays over the model's fair price. Tap a row for the full model. Sort by any column. Updated ${data.generated}.`));
   const filters = el("div", { class: "filters" },
     filterSelect("Market", "market", markets, state, draw),
-    filterSelect("Tournament", "tournament", tournaments, state, draw),
+    filterSelect("Tournament", "tournament", uniq("tournament"), state, draw),
+    filterSelect("Round", "round", uniq("round"), state, draw),
+    filterSelect("Surface", "surface", uniq("surface"), state, draw),
     filterSelect("View", "view", ["all", "value only"], state, draw),
     el("span", { class: "count", id: "cc" }, ""));
   const tabs = tourTabs(state, tcounts, draw);
@@ -430,22 +459,30 @@ async function renderCompare() {
   wrap.append(tabs, filters, box);
 
   function draw() {
-    const sel = rows.filter((r) => r.market === state.market
+    let sel = rows.filter((r) => r.market === state.market
       && (state.tour === "all" || r.tour === state.tour)
       && (state.tournament === "all" || r.tournament === state.tournament)
+      && (state.round === "all" || r.round === state.round)
+      && (state.surface === "all" || r.surface === state.surface)
       && (state.view === "all" || r.edge > 0));
+    sel = applySort(sel, state);
     document.getElementById("cc").textContent = `${sel.length} selections`;
-    const head = el("tr", {}, el("th", { class: "pl" }, "Match"), el("th", { class: "pl" }, "Selection"), el("th", {}, "Model fair"));
-    books.forEach((b) => head.append(el("th", {}, BOOK_LABEL[b])));
-    head.append(el("th", {}, "Best"));
+    const head = el("tr", {}, el("th", { class: "pl" }, "Match"), el("th", { class: "pl" }, "Selection"),
+      sortHeader("Model fair", "fair", (r) => r.fair, state, draw));
+    books.forEach((b) => head.append(sortHeader(BOOK_LABEL[b], b, (r) => r.books[b], state, draw)));
+    head.append(sortHeader("Best", "best", (r) => r.best && r.best.price, state, draw),
+      sortHeader("Edge", "edge", (r) => r.edge, state, draw));
     const body = sel.map((r) => {
-      const tr = el("tr", {},
+      const fx = fxIdx.get(pairKey(r.tour, r.p1, r.p2));
+      const tr = el("tr", { class: fx && fx.markets ? "click" : "" },
         el("td", { class: "pl mut" }, r.match), el("td", { class: "pl" }, r.sel), el("td", { class: "num" }, r.fair));
       books.forEach((b) => {
         const pr = r.books[b];
         tr.append(el("td", { class: "num" + (pr && pr > r.fair ? " pos" : "") }, pr ? pr.toFixed(2) : "—"));
       });
-      tr.append(el("td", { class: "num" }, r.best && r.best.price ? `${r.best.price.toFixed(2)} ${BOOK_LABEL[r.best.book].slice(0,3)}` : "—"));
+      tr.append(el("td", { class: "num" }, r.best && r.best.price ? `${r.best.price.toFixed(2)} ${BOOK_LABEL[r.best.book].slice(0, 3)}` : "—"),
+        el("td", { class: "num" + (r.edge > 0 ? " pos" : " mut") }, fmtPct(r.edge)));
+      if (fx && fx.markets) tr.onclick = () => openDetail(fx);
       return tr;
     });
     box.replaceChildren(el("table", {}, el("thead", {}, head), el("tbody", {}, ...body)));
@@ -457,40 +494,51 @@ async function renderCompare() {
    VALUE — positive-edge selections across all markets
    =========================================================== */
 async function renderValue() {
-  const data = await getJSON("data/odds.json");
+  const [data, fxIdx] = await Promise.all([getJSON("data/odds.json"), fixtureIndex()]);
   const wrap = document.getElementById("content");
   if (!data || !data.matches.length) { oddsEmpty(wrap, "Value"); return; }
   const rows = oddsRows(data).filter((r) => r.edge > 0 && r.best && r.best.price);
   const markets = ["all", ...new Set(rows.map((r) => r.market))];
-  const tcounts = { all: data.matches.length, atp: data.matches.filter(m=>m.tour==="atp").length, wta: data.matches.filter(m=>m.tour==="wta").length };
-  const state = { tour: "all", market: "all" };
+  const tcounts = { all: data.matches.length, atp: data.matches.filter(m => m.tour === "atp").length, wta: data.matches.filter(m => m.tour === "wta").length };
+  const state = { tour: "all", market: "all", book: "all", sort: "edge", dir: -1, _get: (r) => r.edge };
 
   wrap.append(el("p", { class: "muted", style: "margin:-4px 0 10px" },
-    `Selections where the best book price beats the model's fair price, any market, sorted by edge (model % − implied %). Updated ${data.generated}.`));
+    `Selections where the best book price beats the model's fair price, any market. Tap a row for the full model. Updated ${data.generated}.`));
   wrap.append(el("div", { class: "disclaim" },
     "Heads-up: the biggest edges are usually heavy underdogs or longshot markets where the model is simply less extreme than the market, not genuine value. The model is well-calibrated overall (see Backtest) but noisier on long prices — treat large EVs as model-vs-market disagreement, not betting tips."));
   const filters = el("div", { class: "filters" },
-    filterSelect("Market", "market", markets, state, draw), el("span", { class: "count", id: "vc" }, ""));
+    filterSelect("Market", "market", markets, state, draw),
+    filterSelect("Best book", "book", ["all", ...data.books.map((b) => BOOK_LABEL[b])], state, draw),
+    el("span", { class: "count", id: "vc" }, ""));
   const tabs = tourTabs(state, tcounts, draw);
   const box = el("div", { class: "scrolltable" });
   wrap.append(tabs, filters, box);
 
   function draw() {
-    const sel = rows.filter((r) => (state.tour === "all" || r.tour === state.tour) && (state.market === "all" || r.market === state.market))
-      .sort((a, b) => b.edge - a.edge);
+    let sel = rows.filter((r) => (state.tour === "all" || r.tour === state.tour)
+      && (state.market === "all" || r.market === state.market)
+      && (state.book === "all" || BOOK_LABEL[r.best.book] === state.book));
+    sel = applySort(sel, state);
     document.getElementById("vc").textContent = `${sel.length} selections`;
-    const table = el("table", {}, el("thead", {}, el("tr", {},
-      el("th", { class: "pl" }, "Selection"), el("th", {}, "Market"), el("th", { class: "pl" }, "Match"),
-      el("th", {}, "Model %"), el("th", {}, "Best price"), el("th", {}, "Edge"), el("th", {}, "EV"))),
-      el("tbody", {}, ...sel.map((r) => el("tr", {},
+    const head = el("tr", {}, el("th", { class: "pl" }, "Selection"), el("th", {}, "Market"), el("th", { class: "pl" }, "Match"),
+      sortHeader("Model %", "model", (r) => r.model, state, draw),
+      sortHeader("Best price", "price", (r) => r.best.price, state, draw),
+      sortHeader("Edge", "edge", (r) => r.edge, state, draw),
+      sortHeader("EV", "ev", (r) => r.ev, state, draw));
+    const body = sel.map((r) => {
+      const fx = fxIdx.get(pairKey(r.tour, r.p1, r.p2));
+      const tr = el("tr", { class: fx && fx.markets ? "click" : "" },
         el("td", { class: "pl" }, el("b", {}, r.sel)),
         el("td", { class: "mut" }, r.market),
         el("td", { class: "pl mut" }, r.match),
         el("td", { class: "num" }, fmtPct(r.model)),
         el("td", { class: "num" }, `${r.best.price.toFixed(2)} ${BOOK_LABEL[r.best.book]}`),
         el("td", { class: "num" }, fmtPct(r.edge)),
-        el("td", { class: "num pos" }, `+${(r.ev * 100).toFixed(0)}%`)))));
-    box.replaceChildren(table);
+        el("td", { class: "num pos" }, `+${(r.ev * 100).toFixed(0)}%`));
+      if (fx && fx.markets) tr.onclick = () => openDetail(fx);
+      return tr;
+    });
+    box.replaceChildren(el("table", {}, el("thead", {}, head), el("tbody", {}, ...body)));
   }
   draw();
 }
@@ -503,44 +551,55 @@ async function renderPickem() {
   const wrap = document.getElementById("content");
   wrap.append(el("div", { class: "panel prose", style: "margin-top:0" },
     el("h3", {}, "Dabble Pick'em ", el("span", { class: "tag" }, "multiplier game")),
-    el("p", { html: "Dabble's <b>Pick'em</b> is a multiplier game: pick player props <b>over or under</b> a set line (aces, games won, etc.) and stack them for a bigger payout. This page lines up Dabble's posted lines against the model's projection so you can see which side the model leans." })));
+    el("p", { html: "Dabble's <b>Pick'em</b> is a multiplier game: pick player props <b>over or under</b> a set line and stack them for a bigger payout. This lines Dabble's posted lines up against the model's projection so you can see which side the model leans." })));
 
   if (!lines || !lines.lines || !lines.lines.length) {
     wrap.append(el("div", { class: "panel prose" },
       el("p", {}, "Pick'em lines aren't available right now — they open closer to each match. Check back soon.")));
     return;
   }
-
-  // model projection per (player, stat) from predictions markets
-  const proj = {};
+  // model projections. NOTE: Dabble "total games" lines are the MATCH total, so both
+  // players in a fixture map to the same match total; aces / DFs are per player.
+  const proj = {}, fxIdx = new Map();
   ((preds && preds.fixtures) || []).forEach((f) => {
     const m = f.markets || {};
-    proj[`${norm(f.player1)}|aces`] = m.exp_aces_a; proj[`${norm(f.player2)}|aces`] = m.exp_aces_b;
-    proj[`${norm(f.player1)}|doublefaults`] = m.exp_df_a; proj[`${norm(f.player2)}|doublefaults`] = m.exp_df_b;
-    proj[`${norm(f.player1)}|games`] = m.exp_games_a; proj[`${norm(f.player2)}|games`] = m.exp_games_b;
+    proj[`${pnorm(f.player1)}|games`] = m.exp_total_games; proj[`${pnorm(f.player2)}|games`] = m.exp_total_games;
+    proj[`${pnorm(f.player1)}|aces`] = m.exp_aces_a; proj[`${pnorm(f.player2)}|aces`] = m.exp_aces_b;
+    proj[`${pnorm(f.player1)}|doublefaults`] = m.exp_df_a; proj[`${pnorm(f.player2)}|doublefaults`] = m.exp_df_b;
+    [f.player1, f.player2].forEach((p) => fxIdx.set(pnorm(p), f));
   });
-  const statKey = (s) => s;  // odds.py already normalises to games/aces/doublefaults
-  const statName = { games: "Total games", aces: "Aces", doublefaults: "Double faults" };
+  const statName = { games: "Match total games", aces: "Aces", doublefaults: "Double faults" };
 
-  const table = el("table", {}, el("thead", {}, el("tr", {},
-    el("th", { class: "pl" }, "Player"), el("th", { class: "pl" }, "Stat"), el("th", {}, "Dabble line"),
-    el("th", {}, "Model proj"), el("th", {}, "Lean"))),
-    el("tbody", {}, ...lines.lines.map((l) => {
-      const pk = `${norm(l.player)}|${statKey(l.stat)}`;
-      const mp = proj[pk];
-      const lean = mp == null ? "—" : (mp > l.line ? "Over" : "Under");
-      return el("tr", {},
-        el("td", { class: "pl" }, el("b", {}, l.player)),
-        el("td", { class: "pl mut" }, statName[l.stat] || l.stat),
-        el("td", { class: "num" }, l.line),
-        el("td", { class: "num" }, mp == null ? "—" : mp.toFixed(1)),
-        el("td", { class: "num " + (lean === "Over" ? "pos" : "mut") }, lean));
-    })));
-  wrap.append(el("p", { class: "muted" }, `${lines.lines.length} Dabble Pick'em lines · ${lines.generated}`),
-    el("div", { class: "match" }, el("div", { class: "tablewrap" }, table)));
+  let tour = "all";
+  const tabs = tourTabs({ tour }, { all: lines.lines.length, atp: lines.lines.filter(l => l.tour === "atp").length, wta: lines.lines.filter(l => l.tour === "wta").length }, () => {});
+  [...tabs.children].forEach((b) => b.onclick = () => { tour = b.dataset.t; [...tabs.children].forEach(c => c.classList.toggle("on", c.dataset.t === tour)); draw(); });
+  const box = el("div", { class: "scrolltable" });
+  wrap.append(tabs, box);
+
+  function draw() {
+    const rows = lines.lines.filter((l) => tour === "all" || l.tour === tour);
+    const table = el("table", {}, el("thead", {}, el("tr", {},
+      el("th", { class: "pl" }, "Player"), el("th", { class: "pl" }, "Stat"), el("th", {}, "Dabble line"),
+      el("th", {}, "Model proj"), el("th", {}, "Lean"))),
+      el("tbody", {}, ...rows.map((l) => {
+        const mp = proj[`${pnorm(l.player)}|${l.stat}`];
+        const lean = mp == null ? "—" : (mp > l.line ? "Over" : "Under");
+        const fx = fxIdx.get(pnorm(l.player));
+        const tr = el("tr", { class: fx && fx.markets ? "click" : "" },
+          el("td", { class: "pl" }, el("b", {}, l.player)),
+          el("td", { class: "pl mut" }, statName[l.stat] || l.stat),
+          el("td", { class: "num" }, l.line),
+          el("td", { class: "num" }, mp == null ? "—" : mp.toFixed(1)),
+          el("td", { class: "num " + (lean === "Over" ? "pos" : lean === "Under" ? "neg" : "mut") }, lean));
+        if (fx && fx.markets) tr.onclick = () => openDetail(fx);
+        return tr;
+      })));
+    box.replaceChildren(table);
+  }
+  draw();
 }
 
-function norm(s) { return (s || "").toLowerCase().normalize("NFKD").replace(/[^a-z]/g, ""); }
+function pnorm(s) { return (s || "").toLowerCase().normalize("NFKD").replace(/[^a-z]/g, ""); }
 
 /* ===========================================================
    HOME
