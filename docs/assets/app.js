@@ -1,5 +1,8 @@
 // app.js — Grand Slam Tennis. NRL-style multi-page site.
-import { projectMatch, blendedWinProb, projectDoubles, teamProfile, prWinProb } from "./sim.js";
+// sim.js carries a version token so a browser loading a new app.js always pulls
+// the matching sim.js (a bare "./sim.js" can serve a stale cached copy and break
+// the page when exports change). Bump the token whenever sim.js's exports change.
+import { projectMatch, projectDoubles, teamProfile, prWinProb, eloWinProb, combineProb, anchorTo } from "./sim.js?v=elo1";
 
 /* ---------- helpers ---------- */
 const fmtPct = (p) => (p * 100).toFixed(0) + "%";
@@ -20,7 +23,7 @@ function el(tag, attrs = {}, ...kids) {
 function fmtDate(d) { return (!d || d.length < 8) ? (d || "") : `${d.slice(0,4)}-${d.slice(4,6)}-${d.slice(6,8)}`; }
 function miniBar(p) { const b = el("div", { class: "bar" }); const s = el("span"); s.style.width = (p*100).toFixed(1)+"%"; b.append(s); return b; }
 const TOUR_LABEL = { atp: "ATP", wta: "WTA" };
-const TOUR_BLEND = { atp: 0.1, wta: 0.4 };  // rating-anchor weight, tuned on the holdout (see scripts/diagnose.py)
+const TOUR_BLEND = { atp: 0.85, wta: 0.85 };  // Elo-anchor weight in the logit blend (see scripts/diagnose_elo.py)
 
 const NAV = [
   ["home", "Home", "index.html"], ["matches", "Matches", "matches.html"],
@@ -315,7 +318,9 @@ async function renderBacktest() {
    MODEL LAB (predictor)
    =========================================================== */
 async function renderLab() {
-  const profiles = await getJSON("data/profiles.json");
+  const [profiles, eloAtp, eloWta] = await Promise.all([
+    getJSON("data/profiles.json"), getJSON("data/elo-atp.json"), getJSON("data/elo-wta.json")]);
+  const elos = { atp: eloAtp, wta: eloWta };
   const wrap = document.getElementById("content");
   if (!profiles) { wrap.append(el("p", { class: "muted" }, "Profiles unavailable.")); return; }
   let tour = "atp", format = "singles";
@@ -376,8 +381,10 @@ async function renderLab() {
     if (n1 === n2) { out.replaceChildren(el("p", { class: "proxy-note" }, "Pick two different players.")); return; }
     const bestOf = Number(boSel.value);
     const a = { ...scopeOf(P(n1), surface), name: n1 }, b = { ...scopeOf(P(n2), surface), name: n2 };
-    const m = projectMatch(a, b, league, bestOf);
-    const winA = blendedWinProb(a, b, league, bestOf, TOUR_BLEND[tour] ?? 0.2);
+    const simP = projectMatch(a, b, league, bestOf).sr_win_a;
+    const eloP = eloWinProb(elos[tour], n1, n2, surface);
+    const winA = combineProb(simP, eloP, TOUR_BLEND[tour] ?? 0.85);
+    const m = anchorTo(a, b, league, bestOf, winA);
     out.replaceChildren(el("div", { class: "card" }, detailHead(n1, n2, winA, `${surface} · Bo${bestOf}`)),
       el("div", { style: "height:16px" }), marketGrid(m, n1, n2, winA));
   };
@@ -404,7 +411,7 @@ function oddsRows(data) {
   (data.matches || []).forEach((m) => (m.markets || []).forEach((mk) => mk.selections.forEach((s) =>
     rows.push({ tour: m.tour, tournament: m.tournament, surface: m.surface, round: m.round,
       p1: m.player1, p2: m.player2, match: `${m.player1} v ${m.player2}`, market: mk.label, marketKey: mk.key,
-      sel: s.label, model: s.model, fair: s.fair, books: s.books, best: s.best, ev: s.ev, edge: s.edge }))));
+      thin: !!m.thin, sel: s.label, model: s.model, fair: s.fair, books: s.books, best: s.best, ev: s.ev, edge: s.edge }))));
   return rows;
 }
 
@@ -502,15 +509,24 @@ async function renderValue() {
   const rows = oddsRows(data).filter((r) => r.edge > 0 && r.best && r.best.price);
   const markets = ["all", ...new Set(rows.map((r) => r.market))];
   const tcounts = { all: data.matches.length, atp: data.matches.filter(m => m.tour === "atp").length, wta: data.matches.filter(m => m.tour === "wta").length };
-  const state = { tour: "all", market: "all", book: "all", sort: "edge", dir: -1, _get: (r) => r.edge };
+  const thinCount = rows.filter((r) => r.thin).length;
+  const state = { tour: "all", market: "all", book: "all", hideThin: true, sort: "edge", dir: -1, _get: (r) => r.edge };
 
   wrap.append(el("p", { class: "muted", style: "margin:-4px 0 10px" },
     `Selections where the best book price beats the model's fair price, any market. Tap a row for the full model. Updated ${data.generated}.`));
   wrap.append(el("div", { class: "disclaim" },
     "Heads-up: the biggest edges are usually heavy underdogs or longshot markets where the model is simply less extreme than the market, not genuine value. The model is well-calibrated overall (see Backtest) but noisier on long prices — treat large EVs as model-vs-market disagreement, not betting tips."));
+  const thinBox = el("input", { type: "checkbox" });
+  thinBox.checked = state.hideThin;
+  thinBox.onchange = () => { state.hideThin = thinBox.checked; draw(); };
+  const thinToggle = thinCount
+    ? el("label", { class: "chk", title: "Hide matchups where a player has too few rated matches for a reliable price" },
+        thinBox, ` Hide thin-data picks (${thinCount})`)
+    : null;
   const filters = el("div", { class: "filters" },
     filterSelect("Market", "market", markets, state, draw),
     filterSelect("Best book", "book", ["all", ...data.books.map((b) => BOOK_LABEL[b])], state, draw),
+    ...(thinToggle ? [thinToggle] : []),
     el("span", { class: "count", id: "vc" }, ""));
   const tabs = tourTabs(state, tcounts, draw);
   const box = el("div", { class: "scrolltable" });
@@ -519,6 +535,7 @@ async function renderValue() {
   function draw() {
     let sel = rows.filter((r) => (state.tour === "all" || r.tour === state.tour)
       && (state.market === "all" || r.market === state.market)
+      && (!state.hideThin || !r.thin)
       && (state.book === "all" || BOOK_LABEL[r.best.book] === state.book));
     sel = applySort(sel, state);
     document.getElementById("vc").textContent = `${sel.length} selections`;
@@ -532,7 +549,7 @@ async function renderValue() {
       const tr = el("tr", { class: fx && fx.markets ? "click" : "" },
         el("td", { class: "pl" }, el("b", {}, r.sel)),
         el("td", { class: "mut" }, r.market),
-        el("td", { class: "pl mut" }, r.match),
+        el("td", { class: "pl mut" }, r.match, r.thin ? el("span", { class: "thin-tag", title: "Thin data — a player has too few rated matches for a reliable price" }, " thin") : ""),
         el("td", { class: "num" }, fmtPct(r.model)),
         el("td", { class: "num" }, `${r.best.price.toFixed(2)} ${BOOK_LABEL[r.best.book]}`),
         el("td", { class: "num" }, fmtPct(r.edge)),

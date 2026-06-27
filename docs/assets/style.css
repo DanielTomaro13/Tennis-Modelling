@@ -52,6 +52,10 @@ nav a.on{color:var(--acc-ink);background:var(--acc);font-weight:600}
 .filters select{background:#0f141c;color:var(--ink);border:1px solid var(--line);
   border-radius:8px;padding:6px 10px;font-size:13.5px}
 .filters .count{margin-left:auto;color:var(--mut);font-size:12.5px}
+.filters .chk{display:inline-flex;align-items:center;gap:6px;color:var(--mut);font-size:12.5px;cursor:pointer}
+.filters .chk input{accent-color:var(--accent,#6cc070);width:15px;height:15px}
+.thin-tag{display:inline-block;margin-left:6px;padding:0 6px;border:1px solid var(--line);border-radius:7px;
+  font-size:10.5px;text-transform:uppercase;letter-spacing:.04em;color:var(--mut);vertical-align:middle}
 .tabs{display:flex;gap:6px;flex-wrap:wrap}
 .tabs button{background:var(--chip);color:var(--mut);border:1px solid var(--line);border-radius:9px;
   padding:7px 14px;font-size:13.5px;cursor:pointer;font-weight:600}

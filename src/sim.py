@@ -328,6 +328,28 @@ def _poisson_cdf(k: int, mean: float) -> float:
     return min(1.0, cdf)
 
 
+def anchor_to(prof_a: dict, prof_b: dict, league: dict, best_of: int, target: float | None,
+              totals_lines=None) -> dict:
+    """Project the match but shift the per-point serve edge so the simulated
+    match-winner equals ``target`` (the Elo-blended win prob). This de-compresses
+    the serve/return profiles so the derived markets reflect the true dominance.
+    """
+    base = project_match(prof_a, prof_b, league, best_of, totals_lines)
+    if target is None or abs(base["sr_win_a"] - target) < 0.004:
+        return base
+    lo, hi, last = -0.18, 0.18, base
+    for _ in range(16):
+        d = (lo + hi) / 2
+        a = {**prof_a, "spw": prof_a["spw"] + d, "rpw": prof_a["rpw"] + d}
+        b = {**prof_b, "spw": prof_b["spw"] - d, "rpw": prof_b["rpw"] - d}
+        last = project_match(a, b, league, best_of, totals_lines)
+        if last["sr_win_a"] < target:
+            lo = d
+        else:
+            hi = d
+    return last
+
+
 def distributions(prof_a: dict, prof_b: dict, league: dict, best_of: int = 3) -> dict:
     """Raw model distributions so odds.py can price ANY book line exactly."""
     from collections import defaultdict

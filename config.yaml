@@ -68,14 +68,20 @@ elo:
 # ---------------------------------------------------------------------------
 sim:
   monte_carlo_iterations: 20000
-  # Final win prob = blend * rating_anchor + (1 - blend) * serve_return_sim.
-  # Per-tour, tuned on the holdout for calibration + log-loss: men's is best near
-  # 0 (the serve/return sim is well-calibrated on its own; a heavy rating anchor
-  # over-compresses probabilities toward 50%), women's benefits from a moderate
-  # anchor. (Was a single 0.55 — that compressed favourites and inflated underdog
-  # "value"; see scripts/diagnose.py.)
-  blend_atp: 0.1
-  blend_wta: 0.4
+  # The headline win prob is a logit blend of the serve/return sim with a
+  # results-based surface Elo. The Elo is independent of the (compressed)
+  # serve/return stats and separates skill gaps far better — holdout testing puts
+  # the optimum at pure Elo (log-loss 0.515 vs 0.562 sim-only on ATP), so we
+  # weight it heavily, keeping a little sim weight for players with thin Elo
+  # history. The serve/return sim is then ANCHORED to that win prob so every
+  # derived market (sets, games, handicaps) stays consistent with it.
+  # See scripts/diagnose.py and scripts/diagnose_elo.py.
+  elo_weight_atp: 0.85
+  elo_weight_wta: 0.85
+  # A player with fewer than this many rated matches sits near the Elo init, so
+  # the win prob (and any "value edge" off it) is unreliable — the Value page
+  # flags those matchups as thin and hides them by default.
+  thin_elo_matches: 10
   # Total-games over/under lines to price.
   totals_lines: [20.5, 21.5, 22.5, 23.5]
 

@@ -448,9 +448,18 @@ BOOKS = {
 # --------------------------------------------------------------------------- #
 def run(cfg):
     dd = cfg["paths"]["docs_data_dir"]
+    md = cfg["paths"]["models_dir"]
     preds = util.read_json(util.abspath(os.path.join(dd, "predictions.json")))
-    profiles = util.read_json(util.abspath(os.path.join(cfg["paths"]["models_dir"], "profiles.json")))
+    profiles = util.read_json(util.abspath(os.path.join(md, "profiles.json")))
     fixtures = [f for f in preds.get("fixtures", []) if f.get("format") != "doubles"]
+
+    # Elo match counts per tour — a player with few rated matches sits near the
+    # 1500 init, so the headline prob (and any "edge" off it) is unreliable.
+    played = {}
+    for tour in cfg["tours"]:
+        p = util.abspath(os.path.join(md, f"elo-{tour}.json"))
+        played[tour] = (util.read_json(p).get("played", {}) if os.path.exists(p) else {})
+    thin_min = int(cfg.get("sim", {}).get("thin_elo_matches", 25))
 
     book_events = {}
     for name, (lister, _) in BOOKS.items():
@@ -500,8 +509,10 @@ def run(cfg):
         ordered = [markets[k] for k in MARKET_ORDER if k in markets]
         for m in ordered:
             m["selections"].sort(key=lambda s: s["id"])
+        pc = played.get(f["tour"], {})
+        thin = min(pc.get(f["player1"], 0), pc.get(f["player2"], 0)) < thin_min
         out_matches.append({**{k: f[k] for k in ("tour", "date", "tournament", "round", "surface", "player1", "player2")},
-                            "markets": ordered})
+                            "thin": thin, "markets": ordered})
 
     util.write_json(util.abspath(os.path.join(dd, "odds.json")),
                     {"generated": _now(), "books": sorted(books_present), "count": len(out_matches), "matches": out_matches})

@@ -248,10 +248,29 @@ export function prWinProb(prA, prB, scale = 130.0) {
   return 1.0 / (1.0 + Math.exp(-(prA - prB) / scale));
 }
 
-// Blend the Markov win prob with the points-rating anchor (mirrors evaluate.py).
-// eloBlend is per-tour (see app.js TOUR_BLEND); default mid-range as a fallback.
-export function blendedWinProb(a, b, league, bestOf, eloBlend = 0.2) {
-  const m = projectMatch(a, b, league, bestOf);
-  const anchor = prWinProb(a.pr, b.pr);
-  return eloBlend * anchor + (1 - eloBlend) * m.sr_win_a;
+// Results-based surface Elo win prob (mirrors ratings.elo_win_prob).
+export function eloWinProb(elo, a, b, surface, surfW = 0.5) {
+  if (!elo) return null;
+  const init = 1500;
+  const sa = (elo.surface && elo.surface[surface]) || {};
+  const ra = surfW * (sa[a] ?? init) + (1 - surfW) * ((elo.overall || {})[a] ?? init);
+  const rb = surfW * (sa[b] ?? init) + (1 - surfW) * ((elo.overall || {})[b] ?? init);
+  return 1 / (1 + 10 ** ((rb - ra) / 400));
+}
+const _logit = (p) => { p = Math.min(Math.max(p, 1e-9), 1 - 1e-9); return Math.log(p / (1 - p)); };
+export function combineProb(simP, eloP, w) {
+  return eloP == null ? simP : 1 / (1 + Math.exp(-((1 - w) * _logit(simP) + w * _logit(eloP))));
+}
+// Re-project the match with the per-point edge shifted so the winner prob = target.
+export function anchorTo(a, b, league, bestOf, target, totalsLines) {
+  const base = projectMatch(a, b, league, bestOf, totalsLines);
+  if (target == null || Math.abs(base.sr_win_a - target) < 0.004) return base;
+  let lo = -0.18, hi = 0.18, last = base;
+  for (let i = 0; i < 16; i++) {
+    const d = (lo + hi) / 2;
+    const aa = { ...a, spw: a.spw + d, rpw: a.rpw + d }, bb = { ...b, spw: b.spw - d, rpw: b.rpw - d };
+    last = projectMatch(aa, bb, league, bestOf, totalsLines);
+    if (last.sr_win_a < target) lo = d; else hi = d;
+  }
+  return last;
 }
