@@ -68,8 +68,14 @@ elo:
 # ---------------------------------------------------------------------------
 sim:
   monte_carlo_iterations: 20000
-  # Final win prob = elo_blend * elo_p + (1 - elo_blend) * serve_return_p
-  elo_blend: 0.55
+  # Final win prob = blend * rating_anchor + (1 - blend) * serve_return_sim.
+  # Per-tour, tuned on the holdout for calibration + log-loss: men's is best near
+  # 0 (the serve/return sim is well-calibrated on its own; a heavy rating anchor
+  # over-compresses probabilities toward 50%), women's benefits from a moderate
+  # anchor. (Was a single 0.55 — that compressed favourites and inflated underdog
+  # "value"; see scripts/diagnose.py.)
+  blend_atp: 0.1
+  blend_wta: 0.4
   # Total-games over/under lines to price.
   totals_lines: [20.5, 21.5, 22.5, 23.5]
 

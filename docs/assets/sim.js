@@ -249,7 +249,8 @@ export function prWinProb(prA, prB, scale = 130.0) {
 }
 
 // Blend the Markov win prob with the points-rating anchor (mirrors evaluate.py).
-export function blendedWinProb(a, b, league, bestOf, eloBlend = 0.55) {
+// eloBlend is per-tour (see app.js TOUR_BLEND); default mid-range as a fallback.
+export function blendedWinProb(a, b, league, bestOf, eloBlend = 0.2) {
   const m = projectMatch(a, b, league, bestOf);
   const anchor = prWinProb(a.pr, b.pr);
   return eloBlend * anchor + (1 - eloBlend) * m.sr_win_a;

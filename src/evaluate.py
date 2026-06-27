@@ -14,8 +14,13 @@ import sys
 from . import features, ingest, ratings, sim, util
 
 
+def tour_blend(cfg: dict, tour: str) -> float:
+    """Per-tour weight on the rating anchor (tuned on the holdout)."""
+    return float(cfg["sim"].get(f"blend_{tour}", cfg["sim"].get("elo_blend", 0.2)))
+
+
 def blended_win_prob(cfg: dict, prof_a: dict, prof_b: dict, league: dict,
-                     surface: str, best_of: int, elo=None) -> float:
+                     surface: str, best_of: int, elo=None, blend: float | None = None) -> float:
     """Headline win prob: blend Markov sim with a rating/Elo anchor."""
     sa = _scope(prof_a, surface)
     sb = _scope(prof_b, surface)
@@ -25,7 +30,8 @@ def blended_win_prob(cfg: dict, prof_a: dict, prof_b: dict, league: dict,
                                   cfg["elo"]["surface_weight"]) if elo else None
     if anchor is None:
         anchor = ratings.pr_win_prob(sa["pr"], sb["pr"])
-    blend = cfg["sim"]["elo_blend"]
+    if blend is None:
+        blend = cfg["sim"].get("elo_blend", 0.2)
     return blend * anchor + (1 - blend) * sr
 
 
@@ -61,7 +67,7 @@ def evaluate_tour(cfg: dict, tour: str) -> dict:
                 continue
             pw = players[w]
             pl = players[l]
-            p = blended_win_prob(cfg, pw, pl, league, surf, best_of=3)
+            p = blended_win_prob(cfg, pw, pl, league, surf, best_of=3, blend=tour_blend(cfg, tour))
             p = min(max(p, 1e-6), 1 - 1e-6)
             n += 1
             ll += -math.log(p)

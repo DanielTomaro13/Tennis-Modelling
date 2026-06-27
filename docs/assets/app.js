@@ -20,6 +20,7 @@ function el(tag, attrs = {}, ...kids) {
 function fmtDate(d) { return (!d || d.length < 8) ? (d || "") : `${d.slice(0,4)}-${d.slice(4,6)}-${d.slice(6,8)}`; }
 function miniBar(p) { const b = el("div", { class: "bar" }); const s = el("span"); s.style.width = (p*100).toFixed(1)+"%"; b.append(s); return b; }
 const TOUR_LABEL = { atp: "ATP", wta: "WTA" };
+const TOUR_BLEND = { atp: 0.1, wta: 0.4 };  // rating-anchor weight, tuned on the holdout (see scripts/diagnose.py)
 
 const NAV = [
   ["home", "Home", "index.html"], ["matches", "Matches", "matches.html"],
@@ -375,7 +376,7 @@ async function renderLab() {
     const bestOf = Number(boSel.value);
     const a = { ...scopeOf(P(n1), surface), name: n1 }, b = { ...scopeOf(P(n2), surface), name: n2 };
     const m = projectMatch(a, b, league, bestOf);
-    const winA = blendedWinProb(a, b, league, bestOf);
+    const winA = blendedWinProb(a, b, league, bestOf, TOUR_BLEND[tour] ?? 0.2);
     out.replaceChildren(el("div", { class: "card" }, detailHead(n1, n2, winA, `${surface} · Bo${bestOf}`)),
       el("div", { style: "height:16px" }), marketGrid(m, n1, n2, winA));
   };

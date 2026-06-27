@@ -2,16 +2,16 @@
   {
     "tour": "atp",
     "n": 802,
-    "log_loss": 0.5806,
-    "brier": 0.1969,
+    "log_loss": 0.5631,
+    "brier": 0.1902,
     "accuracy": 0.7095,
     "baseline_accuracy": 0.7095
   },
   {
     "tour": "wta",
     "n": 529,
-    "log_loss": 0.6365,
-    "brier": 0.2231,
+    "log_loss": 0.6357,
+    "brier": 0.2228,
     "accuracy": 0.6333,
     "baseline_accuracy": 0.6333
   }

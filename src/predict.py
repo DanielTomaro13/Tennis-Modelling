@@ -60,7 +60,8 @@ def project_fixture(cfg: dict, fx: dict, profiles_tour: dict, elo=None) -> dict:
 
     markets = sim.project_match(sa, sb, league, best_of=fx["best_of"],
                                 totals_lines=cfg["sim"]["totals_lines"])
-    win_a = evaluate.blended_win_prob(cfg, pa, pb, league, fx["surface"], fx["best_of"], elo=elo)
+    win_a = evaluate.blended_win_prob(cfg, pa, pb, league, fx["surface"], fx["best_of"],
+                                      elo=elo, blend=evaluate.tour_blend(cfg, fx["tour"]))
     win_b = 1 - win_a
 
     return {
