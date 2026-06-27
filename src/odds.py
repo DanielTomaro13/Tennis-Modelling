@@ -215,13 +215,15 @@ def sb_markets(ev):
 
 
 LAD = "https://api.ladbrokes.com.au"
-LAD_HDR = {"User-Agent": "Mozilla/5.0", "Origin": "https://www.ladbrokes.com.au", "Referer": "https://www.ladbrokes.com.au/"}
+# Content-Type is REQUIRED on every Ladbrokes request (even GET) or it 500s.
+LAD_HDR = {"User-Agent": "Mozilla/5.0", "Origin": "https://www.ladbrokes.com.au",
+           "Referer": "https://www.ladbrokes.com.au/", "Content-Type": "application/json"}
 LAD_TENNIS = "a0b910b8-85f0-4f6e-821d-c9fd9e3bdf93"
 
 
 def lad_events():
     q = urllib.parse.quote(json.dumps([LAD_TENNIS]))
-    d = _get(f"{LAD}/v2/sport/event-request?category_ids={q}", LAD_HDR)
+    d = _cget(f"{LAD}/v2/sport/event-request?category_ids={q}", LAD_HDR)
     out = []
     for eid, e in ((d or {}).get("events", {}) or {}).items():
         nm = e.get("name", "")
@@ -234,7 +236,7 @@ def lad_events():
 
 
 def lad_markets(ev):
-    d = _get(f"{LAD}/v2/sport/event-card?id={ev['id']}", LAD_HDR)
+    d = _cget(f"{LAD}/v2/sport/event-card?id={ev['id']}", LAD_HDR)
     if not d:
         return []
     prices = d.get("prices", {})
@@ -364,8 +366,12 @@ DAB_TENNIS_SPORT = "990fbb42-370d-4a4b-ad00-533bf247cf20"
 
 
 def dab_events():
-    d = _dab_get("/competitions")
-    comps = [c for c in ((d.get("data", d) if isinstance(d, dict) else d) or []) if c.get("sportId") == DAB_TENNIS_SPORT]
+    d = _dab_get(f"/competitions/active?sportId={DAB_TENNIS_SPORT}")
+    data = d.get("data", d) if isinstance(d, dict) else d
+    if isinstance(data, dict):
+        comps = data.get("competitions") or next((v for v in data.values() if isinstance(v, list)), [])
+    else:
+        comps = data or []
     out = []
     for comp in comps:
         fx = _dab_get(f"/frontend-api/competitions/{comp['id']}/sport-fixtures?includeInPlay=false&exclude%5B%5D=none")
@@ -386,7 +392,13 @@ def dab_markets(ev):
     by_mkt = {}
     for p in sfd.get("prices", []):
         by_mkt.setdefault(p.get("marketId"), []).append((sel_name.get(p.get("selectionId")), p.get("price")))
-    raw = [(m.get("name", ""), by_mkt.get(m.get("id"), [])) for m in sfd.get("markets", [])]
+    # fixed-odds singles only — never let Pick'em (multiplier) or SGM-only legs into compare
+    raw = []
+    for m in sfd.get("markets", []):
+        rt = (m.get("resultingType") or "").lower()
+        if "pickem" in rt or (m.get("isSgmAllowed") and not m.get("isSingleAllowed")):
+            continue
+        raw.append((m.get("name", ""), by_mkt.get(m.get("id"), [])))
     for pp in sfd.get("playerProps", []):
         if pp.get("value") is not None and pp.get("playerName"):
             _PICKEM.append({"event": ev.get("name", ""), "player": pp.get("playerName"),
