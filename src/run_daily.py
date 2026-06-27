@@ -10,7 +10,7 @@ from __future__ import annotations
 import sys
 import time
 
-from . import build_site, evaluate, features, ingest, players, predict, ratings, scrape_schedule, util
+from . import build_site, evaluate, features, ingest, odds, players, predict, ratings, scrape_schedule, util
 
 
 def run(quick: bool = False) -> int:
@@ -49,8 +49,14 @@ def run(quick: bool = False) -> int:
     except Exception as exc:  # noqa: BLE001
         util.log(f"run_daily: player stats skipped ({exc})")
 
-    util.log("=== 8/8 build site ===")
+    util.log("=== 8/9 build site ===")
     build_site.main([])
+
+    util.log("=== 9/9 odds (best-effort; AU-geo books) ===")
+    try:
+        odds.run(cfg)
+    except Exception as exc:  # noqa: BLE001
+        util.log(f"run_daily: odds skipped ({exc})")
 
     util.log(f"run_daily: done in {time.time() - t0:.1f}s")
     return 0

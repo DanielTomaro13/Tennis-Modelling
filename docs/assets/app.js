@@ -24,9 +24,10 @@ const TOUR_LABEL = { atp: "ATP", wta: "WTA" };
 const NAV = [
   ["home", "Home", "index.html"], ["matches", "Matches", "matches.html"],
   ["schedule", "Schedule", "schedule.html"], ["rankings", "Rankings", "rankings.html"],
-  ["analysis", "Analysis", "analysis.html"], ["games", "Games", "games.html"],
-  ["backtest", "Backtest", "backtest.html"], ["lab", "Model Lab", "lab.html"],
-  ["compare", "Compare odds", "compare.html"],
+  ["analysis", "Analysis", "analysis.html"], ["compare", "Compare", "compare.html"],
+  ["value", "Value", "value.html"], ["pickem", "Pick'em", "pickem.html"],
+  ["games", "Games", "games.html"], ["lab", "Model Lab", "lab.html"],
+  ["backtest", "Backtest", "backtest.html"],
 ];
 // "The 0 Series" — cross-links to the sister sites. Tennis is the active one here.
 const SISTER_SITES = [
@@ -351,12 +352,130 @@ async function renderLab() {
 /* ===========================================================
    COMPARE (placeholder)
    =========================================================== */
-function renderCompare() {
-  const wrap = document.getElementById("content");
+const BOOK_LABEL = { sportsbet: "Sportsbet", ladbrokes: "Ladbrokes", pointsbet: "PointsBet", dabble: "Dabble", tab: "TAB" };
+
+function oddsEmpty(wrap, what) {
   wrap.append(el("div", { class: "panel prose" },
-    el("h3", {}, "Odds comparison ", el("span", { class: "tag" }, "coming soon")),
-    el("p", { html: "Next up: pull live bookmaker prices for each market and flag where the model's fair price beats the market — value edges and expected value, the same way the AFL/NRL dashboards do." }),
-    el("p", { class: "muted" }, "Until then, every market on the site already shows the model's fair decimal price.")));
+    el("h3", {}, what, " ", el("span", { class: "tag" }, "no live prices")),
+    el("p", {}, "No bookmaker prices are available right now. Markets open closer to each match, and the Australian books are geo-restricted — the rebuild fetches them on a best-effort basis."),
+    el("p", { class: "muted" }, "Every match still shows the model's fair price on the Matches page.")));
+}
+
+async function renderCompare() {
+  const data = await getJSON("data/odds.json");
+  const wrap = document.getElementById("content");
+  if (!data || !data.matches.length) { oddsEmpty(wrap, "Compare odds"); return; }
+  const books = data.books;
+  wrap.append(el("p", { class: "muted", style: "margin:-4px 0 14px" },
+    `Model fair price vs ${books.map((b) => BOOK_LABEL[b]).join(", ")}. Green = the book pays more than the model's fair price (value). Updated ${data.generated}.`));
+
+  const head = el("tr", {}, el("th", { class: "pl" }, "Match"), el("th", {}, "Surface"), el("th", {}, "Side"), el("th", {}, "Model fair"));
+  books.forEach((b) => head.append(el("th", {}, BOOK_LABEL[b])));
+  head.append(el("th", {}, "Best"));
+
+  const rows = [];
+  data.matches.forEach((m) => {
+    const sides = [["p1", m.player1, m.win_prob_1, m.fair_odds_1], ["p2", m.player2, m.win_prob_2, m.fair_odds_2]];
+    sides.forEach(([side, name, prob, fair], i) => {
+      const tr = el("tr", {});
+      if (i === 0) tr.append(el("td", { class: "pl", rowspan: "2" },
+        el("div", {}, el("b", {}, m.player1)), el("div", {}, el("b", {}, m.player2)),
+        el("div", { class: "sub" }, `${m.tournament} · ${m.round}`)),
+        el("td", { rowspan: "2" }, el("span", { class: "pill surf-" + m.surface }, m.surface)));
+      tr.append(el("td", { class: "pl mut" }, name), el("td", { class: "num" }, fair));
+      books.forEach((b) => {
+        const pr = (m.books[b] || {})[side];
+        const value = pr && fair && pr > fair;
+        tr.append(el("td", { class: "num" + (value ? " pos" : "") }, pr ? pr.toFixed(2) : "—"));
+      });
+      const best = (m.best || {})[side];
+      tr.append(el("td", { class: "num" }, best && best.price ? `${best.price.toFixed(2)} ${BOOK_LABEL[best.book]?.slice(0,3)}` : "—"));
+      rows.push(tr);
+    });
+  });
+  wrap.append(el("div", { class: "match" }, el("div", { class: "tablewrap" },
+    el("table", {}, el("thead", {}, head), el("tbody", {}, ...rows)))));
+}
+
+async function renderValue() {
+  const data = await getJSON("data/odds.json");
+  const wrap = document.getElementById("content");
+  if (!data || !data.matches.length) { oddsEmpty(wrap, "Value"); return; }
+  // flatten to per-selection value rows, positive EV only
+  const picks = [];
+  data.matches.forEach((m) => {
+    [["p1", m.player1, m.win_prob_1, m.fair_odds_1], ["p2", m.player2, m.win_prob_2, m.fair_odds_2]].forEach(([side, name, prob, fair]) => {
+      const best = (m.best || {})[side], ev = (m.ev || {})[side];
+      if (best && best.price && ev != null && ev > 0) picks.push({ m, name, prob, fair, price: best.price, book: best.book, ev });
+    });
+  });
+  picks.sort((a, b) => (b.prob - 1 / b.price) - (a.prob - 1 / a.price));
+  wrap.append(el("p", { class: "muted", style: "margin:-4px 0 10px" },
+    `${picks.length} selections where the best book price beats the model's fair price, sorted by edge (model % − implied %). Updated ${data.generated}.`));
+  wrap.append(el("div", { class: "disclaim" },
+    "Heads-up: the biggest edges are usually heavy underdogs where the model is simply less extreme than the market, not genuine value. The model is well-calibrated overall (see Backtest) but noisier on long-shot prices — treat large EVs as model-vs-market disagreement, not betting tips."));
+  if (!picks.length) { wrap.append(el("p", { class: "muted" }, "No positive-value selections right now.")); return; }
+  const table = el("table", {}, el("thead", {}, el("tr", {},
+    el("th", { class: "pl" }, "Selection"), el("th", { class: "pl" }, "Match"), el("th", {}, "Surface"),
+    el("th", {}, "Model %"), el("th", {}, "Fair"), el("th", {}, "Best price"), el("th", {}, "Edge"), el("th", {}, "EV"))),
+    el("tbody", {}, ...picks.map((p) => el("tr", {},
+      el("td", { class: "pl" }, el("b", {}, p.name)),
+      el("td", { class: "pl mut" }, `${p.m.player1} v ${p.m.player2}`),
+      el("td", {}, el("span", { class: "pill surf-" + p.m.surface }, p.m.surface)),
+      el("td", { class: "num" }, fmtPct(p.prob)),
+      el("td", { class: "num mut" }, p.fair),
+      el("td", { class: "num" }, `${p.price.toFixed(2)} ${BOOK_LABEL[p.book]}`),
+      el("td", { class: "num" }, fmtPct(p.prob - 1 / p.price)),
+      el("td", { class: "num pos" }, `+${(p.ev * 100).toFixed(0)}%`)))));
+  wrap.append(el("div", { class: "match" }, el("div", { class: "tablewrap" }, table)));
+}
+
+async function renderPickem() {
+  const [preds, odds] = await Promise.all([getJSON("data/predictions.json"), getJSON("data/odds.json")]);
+  const wrap = document.getElementById("content");
+  const fx = ((preds && preds.fixtures) || []).filter((f) => f.format !== "doubles");
+  if (!fx.length) { wrap.append(el("p", { class: "muted" }, "No matches to pick right now.")); return; }
+  const oddsByPair = {};
+  ((odds && odds.matches) || []).forEach((m) => { oddsByPair[[m.player1, m.player2].join("|")] = m; });
+
+  const state = { tour: "atp" };
+  const tabs = tourTabs(state, { atp: fx.filter(f=>f.tour==="atp").length, wta: fx.filter(f=>f.tour==="wta").length }, draw);
+  tabs.querySelector('[data-t="all"]').remove();
+  tabs.querySelector('[data-t="atp"]').classList.add("on");
+  const note = el("p", { class: "muted", style: "margin:8px 0 14px" },
+    "The model's pick and confidence for each match — its line for an ATP/WTA pick'em. Picks marked with a green tick are model value vs the market.");
+  const list = el("div", {});
+  wrap.append(tabs, note, list);
+
+  function draw() {
+    const rows = fx.filter((f) => f.tour === state.tour)
+      .sort((a, b) => (roundOrder(a.round) - roundOrder(b.round)) || (Math.max(b.win_prob_1, b.win_prob_2) - Math.max(a.win_prob_1, a.win_prob_2)));
+    if (!rows.length) { list.replaceChildren(el("p", { class: "muted" }, "No matches.")); return; }
+    const table = el("table", {}, el("thead", {}, el("tr", {},
+      el("th", { class: "pl" }, "Match"), el("th", {}, "Event"), el("th", {}, "Surface"),
+      el("th", { class: "pl" }, "Model pick"), el("th", {}, "Confidence"), el("th", {}, "Fair"), el("th", {}, "Best book"))),
+      el("tbody", {}, ...rows.map((f) => {
+        const aFav = f.win_prob_1 >= f.win_prob_2;
+        const pick = aFav ? f.player1 : f.player2;
+        const conf = Math.max(f.win_prob_1, f.win_prob_2);
+        const fair = aFav ? f.fair_odds_1 : f.fair_odds_2;
+        const o = oddsByPair[[f.player1, f.player2].join("|")];
+        const side = aFav ? "p1" : "p2";
+        const best = o && o.best ? o.best[side] : null;
+        const ev = o && o.ev ? o.ev[side] : null;
+        const value = ev != null && ev > 0;
+        return el("tr", {},
+          el("td", { class: "pl mut" }, `${f.player1} v ${f.player2}`),
+          el("td", { class: "mut" }, f.tournament),
+          el("td", {}, el("span", { class: "pill surf-" + f.surface }, f.surface)),
+          el("td", { class: "pl" }, el("b", { class: "pos" }, pick), value ? " ✓" : ""),
+          el("td", { class: "num" }, fmtPct(conf)),
+          el("td", { class: "num mut" }, fair),
+          el("td", { class: "num" }, best && best.price ? `${best.price.toFixed(2)} ${BOOK_LABEL[best.book]?.slice(0,3)}` : "—"));
+      })));
+    list.replaceChildren(el("div", { class: "match" }, el("div", { class: "tablewrap" }, table)));
+  }
+  draw();
 }
 
 /* ===========================================================
@@ -682,4 +801,4 @@ const page = document.body.dataset.page;
 chrome(page);
 ({ home: renderHome, matches: renderMatches, schedule: renderSchedule, rankings: renderRankings,
    analysis: renderAnalysis, games: renderGames, backtest: renderBacktest, lab: renderLab,
-   compare: renderCompare, player: renderPlayer }[page] || (() => {}))();
+   compare: renderCompare, value: renderValue, pickem: renderPickem, player: renderPlayer }[page] || (() => {}))();
