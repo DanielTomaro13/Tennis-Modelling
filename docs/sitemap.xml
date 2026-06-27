@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://grandtennisslam.com/</loc><changefreq>hourly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://grandtennisslam.com/matches.html</loc><changefreq>hourly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://grandtennisslam.com/schedule.html</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://grandtennisslam.com/rankings.html</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://grandtennisslam.com/analysis.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://grandtennisslam.com/compare.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://grandtennisslam.com/value.html</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
+  <url><loc>https://grandtennisslam.com/pickem.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://grandtennisslam.com/games.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://grandtennisslam.com/lab.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://grandtennisslam.com/backtest.html</loc><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://grandtennisslam.com/about.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://grandtennisslam.com/contact.html</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://grandtennisslam.com/privacy.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://grandtennisslam.com/terms.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+</urlset>

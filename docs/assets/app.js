@@ -50,6 +50,27 @@ const FOOT_LINKS = [
   ["How it works", "about.html"], ["Contact", "contact.html"],
   ["Privacy", "privacy.html"], ["Terms", "terms.html"],
 ];
+
+// Google AdSense. The loader <script> lives in each page's <head>.
+// Once the site is approved, paste real ad-unit slot IDs below — until then
+// every slot is empty, so nothing renders (no blank boxes, no layout shift).
+// Leaving the loader in place also lets you turn on Auto ads with zero code.
+const AD_CLIENT = "ca-pub-2087141992057731";
+const AD_SLOTS = { top: "", bottom: "" };
+function adUnit(slot) {
+  if (!slot) return null;
+  const box = el("div", { class: "adbox" },
+    el("div", { class: "adlbl" }, "Advertisement"),
+    el("ins", { class: "adsbygoogle", style: "display:block",
+      "data-ad-client": AD_CLIENT, "data-ad-slot": slot,
+      "data-ad-format": "auto", "data-full-width-responsive": "true" }));
+  return box;
+}
+function mountAd(box, where) {
+  if (!box) return;
+  where(box);
+  try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) {}
+}
 function chrome(page) {
   const strip = sisterBar();
   const header = el("header", {}, el("div", { class: "wrap" },
@@ -66,6 +87,11 @@ function chrome(page) {
     el("a", { class: "kofi", href: "https://ko-fi.com/danieltomaro", target: "_blank", rel: "noopener" }, "☕ Support on Ko-fi")));
   document.getElementById("app-header")?.replaceWith(strip, header);
   document.getElementById("app-footer")?.replaceWith(footer);
+
+  const main = document.querySelector("main");
+  const content = document.getElementById("content");
+  if (content) mountAd(adUnit(AD_SLOTS.top), (b) => content.before(b));
+  if (main) mountAd(adUnit(AD_SLOTS.bottom), (b) => main.append(b));
 }
 
 const playerLink = (tour, name) => el("a", { class: "plink", href: `player.html?tour=${tour}&name=${encodeURIComponent(name)}` }, name);

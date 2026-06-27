@@ -167,6 +167,10 @@ footer .series a{color:var(--acc)}
   color:var(--ink);font-weight:600;font-size:13px}
 .kofi:hover{background:#ff5e5b;color:#fff}
 
+/* adsense units */
+.adbox{margin:22px auto;text-align:center;min-height:0}
+.adlbl{font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:var(--mut);margin-bottom:5px}
+
 /* prose — about / contact / privacy / terms */
 .prose{max-width:760px;line-height:1.65}
 .prose h2{font-size:18px;margin:28px 0 8px;color:var(--ink)}
