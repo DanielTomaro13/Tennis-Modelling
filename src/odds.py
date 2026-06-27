@@ -140,7 +140,7 @@ def parse_market(name, selections, fp1, fp2):
             if side and m:
                 line = abs(float(m.group(1)))
                 emit(f"tg|{side}|{line}", f"{'Over' if side == 'O' else 'Under'} {line}", pr)
-    elif "games handicap" in low:
+    elif "games handicap" in low or (low.split("(")[0].strip() in ("line", "handicap") and any("game" in (s[0] or "").lower() for s in selections)):
         for sn, pr in selections:
             w, m = _which(sn, fp1, fp2), NUM.search(sn)
             if w and m:
@@ -313,17 +313,22 @@ def tab_events():
     if not tok:
         return []
     hdr = {"Authorization": f"Bearer {tok}", "Accept": "application/json", "User-Agent": "Mozilla/5.0"}
-    lst = _cget(f"{TAB}/sports/Tennis/competitions?jurisdiction=VIC&homeState=VIC", hdr)
+    lst = _cget(f"{TAB}/sports/Tennis/competitions?jurisdiction=NSW&homeState=NSW", hdr)
     out = []
-    for comp in [c.get("name") for c in (lst or {}).get("competitions", []) if c.get("name")]:
-        d = _cget(f"{TAB}/sports/Tennis/competitions/{urllib.parse.quote(comp)}?jurisdiction=VIC&homeState=VIC", hdr)
-        for m in (d or {}).get("matches", []):
-            cons = m.get("contestants") or []
-            if len(cons) != 2:
+    # competition -> tournaments -> the tournament link carries matches (with markets inline)
+    for comp in (lst or {}).get("competitions", []):
+        for t in comp.get("tournaments", []):
+            link = (t.get("_links") or {}).get("self") or (t.get("_links") or {}).get("matches")
+            if not link:
                 continue
-            raw = [(mk.get("betOption", ""), [(pp.get("name", ""), pp.get("returnWin")) for pp in mk.get("propositions", [])])
-                   for mk in m.get("markets", [])]
-            out.append({"id": m.get("id"), "p1": cons[0].get("name"), "p2": cons[1].get("name"), "raw": raw})
+            d = _cget(link, hdr)
+            for m in (d or {}).get("matches", []):
+                cons = m.get("contestants") or []
+                if len(cons) != 2:
+                    continue
+                raw = [(mk.get("betOption", ""), [(pp.get("name", ""), pp.get("returnWin")) for pp in mk.get("propositions", [])])
+                       for mk in m.get("markets", [])]
+                out.append({"id": m.get("id"), "p1": cons[0].get("name"), "p2": cons[1].get("name"), "raw": raw})
     return out
 
 
