@@ -1,7 +1,6 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
 atp,20260627,Lexus Eastbourne Open,Grass,Final,Ugo Humbert,Zizou Bergs,0.6396,0.3604,1.56,2.77,25.88,0.5277,8.34,8.21,2.61,3.27,espn
 atp,20260627,Vanda Pharmaceuticals Mallorca Championships,Grass,Final,Alejandro Davidovich Fokina,Ethan Quinn,0.4375,0.5625,2.29,1.78,25.4,0.4408,6.94,8.56,2.51,3.05,espn
-wta,20260627,Lexus Eastbourne Open,Grass,Final,Madison Keys,Tatjana Maria,0.7178,0.2822,1.39,3.54,23.86,0.3044,3.74,3.22,3.78,3.44,espn
 atp,20260629,Wimbledon,Grass,Round 1,Miomir Kecmanovic,Jannik Sinner,0.0581,0.9419,17.22,1.06,36.37,0.5335,8.78,13.18,2.7,3.35,espn
 atp,20260629,Wimbledon,Grass,Round 1,Alexander Shevchenko,Felix Auger Aliassime,0.2419,0.7581,4.13,1.32,40.98,0.6327,12.25,16.46,4.13,4.45,espn
 atp,20260629,Wimbledon,Grass,Round 1,Tommy Paul,Alexandre Muller,0.7576,0.2424,1.32,4.12,40.88,0.629,11.46,10.42,3.77,4.13,espn

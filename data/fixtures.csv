@@ -1,6 +1,5 @@
 tour,date,tournament,surface,best_of,format,round,player1,player2,p1a,p1b,p2a,p2b,source
 atp,20260627,Lexus Eastbourne Open,Grass,3,singles,Final,Ugo Humbert,Zizou Bergs,,,,,espn
-wta,20260627,Lexus Eastbourne Open,Grass,3,singles,Final,Madison Keys,Tatjana Maria,,,,,espn
 wta,20260627,Lexus Eastbourne Open,Grass,3,doubles,Final,Miriam Skoch / Jesika Maleckova,Gabriela Dabrowski / Luisa Stefani,Miriam Skoch,Jesika Maleckova,Gabriela Dabrowski,Luisa Stefani,espn
 atp,20260627,Vanda Pharmaceuticals Mallorca Championships,Grass,3,singles,Final,Alejandro Davidovich Fokina,Ethan Quinn,,,,,espn
 atp,20260629,Wimbledon,Grass,5,singles,Round 1,Felix Gill,Rafael Jodar,,,,,espn
@@ -29,7 +28,7 @@ atp,20260629,Wimbledon,Grass,5,singles,Round 1,Nicolas Mejia,Adolfo Daniel Valle
 atp,20260629,Wimbledon,Grass,5,singles,Round 1,Fabian Marozsan,Thiago Agustin Tirante,,,,,espn
 atp,20260629,Wimbledon,Grass,5,singles,Round 1,Juan Manuel Cerundolo,Alejandro Davidovich Fokina,,,,,espn
 atp,20260629,Wimbledon,Grass,5,singles,Round 1,Daniil Medvedev,Marin Cilic,,,,,espn
-atp,20260629,Wimbledon,Grass,5,singles,Round 1,Alexandr Shevchenko,Felix Auger-Aliassime,,,,,espn
+atp,20260629,Wimbledon,Grass,5,singles,Round 1,Aleksandr Shevchenko,Felix Auger-Aliassime,,,,,espn
 atp,20260629,Wimbledon,Grass,5,singles,Round 1,Sebastian Baez,Jan-Lennard Struff,,,,,espn
 atp,20260629,Wimbledon,Grass,5,singles,Round 1,Joao Fonseca,Roberto Bautista Agut,,,,,espn
 atp,20260629,Wimbledon,Grass,5,singles,Round 1,Jack Pinnington Jones,Brandon Nakashima,,,,,espn
@@ -198,20 +197,8 @@ atp,,Brasil Tennis Challenger,Grass,3,singles,Semifinal,Matheus Pucinelli de Alm
 atp,,Brasil Tennis Challenger,Grass,3,singles,Semifinal,Thiago Seyboth Wild,Juan Manuel La Serna,,,,,tennis.com
 atp,,ATP Challenger Plovdiv,Grass,3,singles,Final,Iñaki Montes-de la Torre,Sandro Kopp,,,,,tennis.com
 atp,,Târgu Mureș,Clay,3,singles,Final,Felix Balshaw,Sumit Nagal,,,,,tennis.com
-atp,,UTR Budapest M01,Hard,3,singles,Final,Botond Kisantal,Gabor Hornung,,,,,tennis.com
-atp,,UTR Budapest M01,Hard,3,singles,Final,Aron Janos Major,Sebastian Harrison,,,,,tennis.com
-atp,,UTR Budapest M01,Hard,3,singles,Final,Máté Valkusz,Vlad Cristian Breazu,,,,,tennis.com
-wta,,UTR Budapest W01,Hard,3,singles,Final,Izabela Heinzova,Lilly Cvanciger,,,,,tennis.com
-wta,,UTR Budapest W01,Hard,3,singles,Final,Maja Pawelska,Norina Bak Szabo,,,,,tennis.com
-wta,,UTR Budapest W01,Hard,3,singles,Final,Asuncion Jadue,Patricija Paukstyte,,,,,tennis.com
-atp,,UTR Knoxville M01,Hard,3,singles,Final,Gabe Avram,Drew Fishback,,,,,tennis.com
-atp,,UTR Knoxville M01,Hard,3,singles,Final,Mason Landreth,Nicholas Mangiapane,,,,,tennis.com
-atp,,UTR Knoxville M01,Hard,3,singles,Final,Jose Garcia,Mitchell Sheldon,,,,,tennis.com
 atp,,UTR Knoxville M01,Hard,3,singles,Final,David Krasner,Chase Robinson,,,,,tennis.com
 atp,,UTR Knoxville M01,Hard,3,singles,,Brady Hussey,Davis Wiley,,,,,tennis.com
-wta,,UTR Knoxville W01,Hard,3,singles,Final,Mary Boyce Deatherage,Audrey Aulia,,,,,tennis.com
-wta,,UTR Knoxville W01,Hard,3,singles,Final,Jane Dunyon,Alyson Shannon,,,,,tennis.com
-wta,,UTR Knoxville W01,Hard,3,singles,Final,Sydney Jara,Reese Frank,,,,,tennis.com
 wta,,UTR Knoxville W01,Hard,3,singles,,Calla McGill,Liam Oved,,,,,tennis.com
 wta,,UTR Knoxville W01,Hard,3,singles,,Georgia Kulevich,Lillie Murphy,,,,,tennis.com
 wta,,UTR Knoxville W01,Hard,3,singles,Final,Gabrielle Guenther,Natalie Oliver,,,,,tennis.com
@@ -228,20 +215,19 @@ atp,,UTR PTT Newport Beach Men 15,Grass,3,singles,Semifinal,Pavel Bushuev,Andrew
 wta,,UTR PTT Newport Beach Women 15,Grass,3,singles,Semifinal,Alina Shcherbinina,Chantal Sauvant,,,,,tennis.com
 wta,,UTR PTT Newport Beach Women 15,Grass,3,singles,Semifinal,Alexia Harmon,Anastasia Grechkina,,,,,tennis.com
 wta,,UTR PTT Newport Beach Women 15,Grass,3,singles,Semifinal,Sophia Webster,Lily Pradkin,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 15,Grass,3,singles,Semifinal,Camille Kiss,Mika Ikemori,,,,,tennis.com
 wta,,UTR PTT Newport Beach Women 15,Grass,3,singles,Semifinal,Emma Andrea Tutoveanu,Emily Robertson,,,,,tennis.com
 wta,,UTR PTT Newport Beach Women 15,Grass,3,singles,,Campbelll Ricci,Marika Jones,,,,,tennis.com
-atp,,UTR PTT Waco Men 01,Hard,3,singles,Final,Esunge Ndumbe,Brendan Boland,,,,,tennis.com
-atp,,UTR PTT Waco Men 01,Hard,3,singles,Final,Tomas Jirousek,Cole Stelse,,,,,tennis.com
 atp,,UTR PTT Waco Men 01,Hard,3,singles,Final,Ian Bracks,Lathan Skrobarcek,,,,,tennis.com
+atp,,UTR PTT Waco Men 01,Hard,3,singles,Final,Tomas Jirousek,Cole Stelse,,,,,tennis.com
+atp,,UTR PTT Waco Men 01,Hard,3,singles,Final,Esunge Ndumbe,Brendan Boland,,,,,tennis.com
 atp,,UTR PTT Waco Men 01,Hard,3,singles,,Drew Hedgecoe,Calvin Baierl,,,,,tennis.com
 atp,,UTR PTT Waco Men 01,Hard,3,singles,,Gordon Gallagher,Noey Do,,,,,tennis.com
 atp,,UTR PTT Waco Men 01,Hard,3,singles,,Nicolas Iantosca,Arman Zamani,,,,,tennis.com
 wta,,UTR PTT Waco Women 01,Hard,3,singles,Final,Zuzanna Kubacha,Ishika Ashar,,,,,tennis.com
 wta,,UTR PTT Waco Women 01,Hard,3,singles,Final,Stanislava Shulzhenko,Marina Fuduric,,,,,tennis.com
 wta,,UTR PTT Waco Women 01,Hard,3,singles,Final,Kenna Erickson,Ella Brownback,,,,,tennis.com
-wta,,UTR PTT Waco Women 01,Hard,3,singles,Final,Kaili Demi Teso,Daria Budko,,,,,tennis.com
 wta,,UTR PTT Waco Women 01,Hard,3,singles,,Lera Alexin,Hanmare McAslin,,,,,tennis.com
+wta,,UTR PTT Waco Women 01,Hard,3,singles,Final,Kaili Demi Teso,Daria Budko,,,,,tennis.com
 wta,,UTR PTT Waco Women 01,Hard,3,singles,,Lexie Weir,Elena Mireles,,,,,tennis.com
 wta,,UTR PTT Waco Women 01,Hard,3,singles,,Brenda Yoris,Lani Brotman,,,,,tennis.com
 wta,,UTR PTT Waco Women 01,Hard,3,singles,,Gabrielle Villegas,Ligaya Murray,,,,,tennis.com
