@@ -390,7 +390,7 @@ const BOOK_LABEL = { sportsbet: "Sportsbet", ladbrokes: "Ladbrokes", pointsbet: 
 function oddsEmpty(wrap, what) {
   wrap.append(el("div", { class: "panel prose" },
     el("h3", {}, what, " ", el("span", { class: "tag" }, "no live prices")),
-    el("p", {}, "No bookmaker prices are available right now. Markets open closer to each match, and the Australian books are geo-restricted — the local cron fetches them every 3 hours from an AU IP."),
+    el("p", {}, "Prices aren't available right now — bookmaker markets open closer to each match. Check back soon."),
     el("p", { class: "muted" }, "Every match still shows the model's fair price on the Matches page.")));
 }
 
@@ -507,8 +507,7 @@ async function renderPickem() {
 
   if (!lines || !lines.lines || !lines.lines.length) {
     wrap.append(el("div", { class: "panel prose" },
-      el("p", {}, "No Dabble Pick'em lines loaded right now."),
-      el("p", { class: "muted", html: "Dabble's API needs a captured bearer token (<code>DABBLE_AUTH</code>) — add it to <code>~/sports-bots/secrets.env</code> and the next cron run pulls the ATP/WTA Pick'em lines automatically." })));
+      el("p", {}, "Pick'em lines aren't available right now — they open closer to each match. Check back soon.")));
     return;
   }
 
