@@ -30,7 +30,7 @@ const NAV = [
 ];
 function chrome(page) {
   const header = el("header", {}, el("div", { class: "wrap" },
-    el("a", { class: "brand", href: "index.html" }, "Grand Slam ", el("span", {}, "Tennis")),
+    el("a", { class: "brand", href: "index.html" }, el("img", { class: "ball", src: "assets/ball.svg", alt: "", "aria-hidden": "true" }), el("span", { class: "bt" }, "Grand Slam "), el("span", {}, "Tennis")),
     el("nav", {}, ...NAV.map(([id, label, href]) => el("a", { class: id === page ? "on" : "", href }, label)))));
   const footer = el("footer", {}, el("div", { class: "wrap" },
     el("p", { html: 'Modelled from the <a href="https://github.com/JeffSackmann/tennis_MatchChartingProject">Match Charting Project</a>; fixtures via <a href="https://www.espn.com.au/tennis/schedule">ESPN</a> &amp; tennis.com.' }),
