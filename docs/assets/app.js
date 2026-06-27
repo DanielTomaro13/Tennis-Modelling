@@ -28,14 +28,35 @@ const NAV = [
   ["backtest", "Backtest", "backtest.html"], ["lab", "Model Lab", "lab.html"],
   ["compare", "Compare odds", "compare.html"],
 ];
+// "The 0 Series" — cross-links to the sister sites. Tennis is the active one here.
+const SISTER_SITES = [
+  ["AFL 23-0", "https://afl23-0.com"],
+  ["NRL 24-0", "https://nrl24-0.com"],
+  ["NBA 82-0", "https://nba82-0.com"],
+  ["MLB 162-0", "https://mlb162-0.com"],
+  ["Football Invincibles", "https://footballinvincibles.com"],
+  ["F1 Slam", "https://f1slam.com"],
+  ["Tennis Slam", null],
+];
+function sisterBar() {
+  return el("div", { class: "sister-bar", role: "navigation", "aria-label": "Sister sites" },
+    el("span", { class: "lead" }, "THE 0 SERIES ·"),
+    ...SISTER_SITES.map(([label, href]) => href
+      ? el("a", { class: "sister-link", href }, label)
+      : el("span", { class: "sister-link", "data-active": "true", "aria-current": "page" }, label)));
+}
 function chrome(page) {
+  const strip = sisterBar();
   const header = el("header", {}, el("div", { class: "wrap" },
     el("a", { class: "brand", href: "index.html" }, el("img", { class: "ball", src: "assets/ball.svg", alt: "", "aria-hidden": "true" }), el("span", { class: "bt" }, "Grand Slam "), el("span", {}, "Tennis")),
     el("nav", {}, ...NAV.map(([id, label, href]) => el("a", { class: id === page ? "on" : "", href }, label)))));
   const footer = el("footer", {}, el("div", { class: "wrap" },
     el("p", { html: 'Modelled from the <a href="https://github.com/JeffSackmann/tennis_MatchChartingProject">Match Charting Project</a>; fixtures via <a href="https://www.espn.com.au/tennis/schedule">ESPN</a> &amp; tennis.com.' }),
-    el("p", {}, "For research and entertainment only — not betting advice.")));
-  document.getElementById("app-header")?.replaceWith(header);
+    el("p", {}, "For research and entertainment only — not betting advice."),
+    el("p", { class: "series" }, "Part of the 0 Series · ",
+      ...SISTER_SITES.filter(([, href]) => href).flatMap(([label, href], i) =>
+        [i ? " · " : "", el("a", { href }, label)]))));
+  document.getElementById("app-header")?.replaceWith(strip, header);
   document.getElementById("app-footer")?.replaceWith(footer);
 }
 

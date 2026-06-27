@@ -28,6 +28,15 @@ nav a{color:var(--mut);padding:8px 11px;border-radius:8px;font-size:14px}
 nav a:hover{color:var(--ink);background:var(--chip)}
 nav a.on{color:var(--acc-ink);background:var(--acc);font-weight:600}
 
+/* sister sites strip — "the 0 Series" cross-links */
+.sister-bar{display:flex;align-items:center;justify-content:center;gap:4px;flex-wrap:wrap;
+  font-size:.74rem;padding:6px 18px;padding-top:calc(6px + env(safe-area-inset-top));
+  background:#070f0b;border-bottom:1px solid var(--line)}
+.sister-bar .lead{color:var(--mut);margin-right:2px;font-weight:700;font-size:.7rem;white-space:nowrap}
+.sister-link{white-space:nowrap;padding:3px 9px;border-radius:999px;color:var(--mut);font-weight:600}
+.sister-link:hover{color:var(--ink)}
+.sister-link[data-active]{color:var(--ink);background:var(--chip);border:1px solid var(--line)}
+
 /* hero */
 .hero{padding:26px 0 8px}
 .hero h1{margin:0 0 10px;font-size:27px;letter-spacing:-.02em;display:inline-block;
