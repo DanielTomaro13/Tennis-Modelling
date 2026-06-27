@@ -35,6 +35,7 @@ const SISTER_SITES = [
   ["AFL 23-0", "https://afl23-0.com"],
   ["NRL 24-0", "https://nrl24-0.com"],
   ["NBA 82-0", "https://nba82-0.com"],
+  ["NBL 33-0", "https://nbl33-0.com"],
   ["MLB 162-0", "https://mlb162-0.com"],
   ["Football Invincibles", "https://footballinvincibles.com"],
   ["F1 Slam", "https://f1slam.com"],
