@@ -20,7 +20,39 @@ def _scope(prof: dict, surface: str) -> dict:
     return out
 
 
+def _common(fx: dict) -> dict:
+    return {k: fx.get(k) for k in ("tour", "date", "tournament", "surface", "best_of",
+                                   "round", "format", "player1", "player2", "source")}
+
+
+def _fair(p):
+    return round(1.0 / p, 2) if p and p > 1e-6 else None
+
+
+def project_doubles_fixture(cfg: dict, fx: dict, profiles_tour: dict) -> dict:
+    league = profiles_tour["league"]
+    players = profiles_tour["players"]
+    surf = fx["surface"]
+    team_a = sim.team_profile(_scope(players[fx["team1"][0]], surf), _scope(players[fx["team1"][1]], surf))
+    team_b = sim.team_profile(_scope(players[fx["team2"][0]], surf), _scope(players[fx["team2"][1]], surf))
+    markets = sim.project_doubles(team_a, team_b, league)
+    win_a = 0.5 * ratings.pr_win_prob(team_a["pr"], team_b["pr"]) + 0.5 * markets["sr_win_a"]
+    win_b = 1 - win_a
+    return {
+        **_common(fx), "format": "doubles",
+        "win_prob_1": round(win_a, 4), "win_prob_2": round(win_b, 4),
+        "fair_odds_1": _fair(win_a), "fair_odds_2": _fair(win_b),
+        "exp_total_games": markets["exp_total_games"],
+        "tiebreak_prob": markets["tiebreak_prob"],
+        "set_score": markets["set_score"],
+        "exp_aces_1": None, "exp_aces_2": None,
+        "markets": markets,
+    }
+
+
 def project_fixture(cfg: dict, fx: dict, profiles_tour: dict, elo=None) -> dict:
+    if fx.get("format") == "doubles":
+        return project_doubles_fixture(cfg, fx, profiles_tour)
     league = profiles_tour["league"]
     pa = profiles_tour["players"][fx["player1"]]
     pb = profiles_tour["players"][fx["player2"]]
@@ -31,15 +63,12 @@ def project_fixture(cfg: dict, fx: dict, profiles_tour: dict, elo=None) -> dict:
     win_a = evaluate.blended_win_prob(cfg, pa, pb, league, fx["surface"], fx["best_of"], elo=elo)
     win_b = 1 - win_a
 
-    def fair(p): return round(1.0 / p, 2) if p > 1e-6 else None
-
     return {
-        **{k: fx[k] for k in ("tour", "date", "tournament", "surface", "best_of", "round",
-                              "player1", "player2", "source")},
+        **_common(fx), "format": "singles",
         "win_prob_1": round(win_a, 4),
         "win_prob_2": round(win_b, 4),
-        "fair_odds_1": fair(win_a),
-        "fair_odds_2": fair(win_b),
+        "fair_odds_1": _fair(win_a),
+        "fair_odds_2": _fair(win_b),
         "pr_1": sa["pr"],
         "pr_2": sb["pr"],
         "hold_1": markets["hold_a"],

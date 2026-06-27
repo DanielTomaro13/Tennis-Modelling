@@ -68,29 +68,38 @@ def load_fixtures(cfg: dict, profiles: dict) -> list[dict]:
         if tour not in profiles:
             continue
         idx = indexes[tour]
-        p1 = resolve_name(r.get("player1", ""), idx, threshold)
-        p2 = resolve_name(r.get("player2", ""), idx, threshold)
-        if not p1 or not p2 or p1 == p2:
-            skipped += 1
-            continue
-        # de-dup on the canonical sorted pair (order/date/source independent)
-        key = (tour, tuple(sorted((p1, p2))))
-        if key in seen:
-            continue
-        seen.add(key)
-        resolved.append({
+        common = {
             "tour": tour,
             "date": r.get("date", ""),
             "tournament": r.get("tournament", ""),
             "surface": (r.get("surface") or "Hard").capitalize(),
             "best_of": int(r.get("best_of") or 3),
             "round": r.get("round", ""),
-            "player1": p1,
-            "player2": p2,
-            "raw1": r.get("player1", ""),
-            "raw2": r.get("player2", ""),
             "source": r.get("source", ""),
-        })
+        }
+        if (r.get("format") or "singles") == "doubles":
+            team = [resolve_name(r.get(k, ""), idx, threshold) for k in ("p1a", "p1b", "p2a", "p2b")]
+            if not all(team) or len(set(team)) < 4:
+                skipped += 1
+                continue
+            key = (tour, "doubles", tuple(sorted(team)))
+            if key in seen:
+                continue
+            seen.add(key)
+            resolved.append({**common, "format": "doubles",
+                             "player1": f"{team[0]} / {team[1]}", "player2": f"{team[2]} / {team[3]}",
+                             "team1": [team[0], team[1]], "team2": [team[2], team[3]]})
+        else:
+            p1 = resolve_name(r.get("player1", ""), idx, threshold)
+            p2 = resolve_name(r.get("player2", ""), idx, threshold)
+            if not p1 or not p2 or p1 == p2:
+                skipped += 1
+                continue
+            key = (tour, "singles", tuple(sorted((p1, p2))))
+            if key in seen:
+                continue
+            seen.add(key)
+            resolved.append({**common, "format": "singles", "player1": p1, "player2": p2})
     util.log(f"fixtures: resolved {len(resolved)} fixtures ({skipped} unmatched/dropped)")
     return resolved
 

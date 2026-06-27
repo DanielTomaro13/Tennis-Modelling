@@ -95,6 +95,10 @@ footer { color: var(--muted); font-size: 12px; text-align: center; padding: 24px
 .mchip { background: var(--panel-2); border-radius: 8px; padding: 6px 10px; line-height: 1.25; }
 .mchip small { display: block; color: var(--muted); font-size: 10px; text-transform: uppercase; letter-spacing: .4px; }
 .mchip b { font-size: 13px; font-variant-numeric: tabular-nums; }
+.group-head { display: flex; align-items: baseline; justify-content: space-between; gap: 10px;
+  margin: 22px 2px 12px; padding-bottom: 8px; border-bottom: 1px solid var(--line); font-size: 16px; font-weight: 700; }
+.group-head .muted { font-size: 13px; font-weight: 500; }
+#pred-results .cards { margin-bottom: 4px; }
 .more-hint { color: var(--accent-2); font-size: 12px; font-weight: 600; text-align: right; margin-top: -2px; }
 .match.clickable { cursor: pointer; transition: border-color .12s, transform .12s; }
 .match.clickable:hover { border-color: var(--accent-2); transform: translateY(-1px); }

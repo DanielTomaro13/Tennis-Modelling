@@ -51,61 +51,105 @@ async function renderPredictions() {
       el("a", { href: "predictor.html", class: "btnlink" }, "head-to-head predictor →")));
     return;
   }
-  let tour = "all";
-  const counts = { all: data.fixtures.length, atp: 0, wta: 0 };
-  data.fixtures.forEach((f) => counts[f.tour]++);
+  const fx = data.fixtures;
+  const state = { tour: "all", tournament: "all", round: "all", surface: "all", format: "all" };
 
+  // tour tabs
+  const counts = { all: fx.length, atp: 0, wta: 0 };
+  fx.forEach((f) => counts[f.tour]++);
   const tabs = el("div", { class: "tabs" });
   ["all", "atp", "wta"].forEach((t) => {
-    const b = el("button", { class: t === tour ? "active" : "", "data-t": t },
-      `${t.toUpperCase()} (${counts[t]})`);
-    b.onclick = () => {
-      tour = t;
-      [...tabs.children].forEach((c) => c.classList.toggle("active", c.dataset.t === t));
-      draw();
-    };
+    const b = el("button", { class: t === state.tour ? "active" : "", "data-t": t }, `${t.toUpperCase()} (${counts[t]})`);
+    b.onclick = () => { state.tour = t; [...tabs.children].forEach((c) => c.classList.toggle("active", c.dataset.t === t)); draw(); };
     tabs.append(b);
   });
-  wrap.append(tabs);
-  const grid = el("div", { class: "cards" });
-  wrap.append(grid);
 
-  function matchCard(f) {
-    const aFav = f.win_prob_1 >= f.win_prob_2;
-    const player = (name, prob, odds, fav) => el("div", { class: "player" + (fav ? " fav" : "") },
-      el("span", { class: "pname" }, name),
-      el("span", { class: "podds muted" }, "fair " + odds),
-      el("span", { class: "pprob" }, fmtPct(prob)));
-    // top set scores (most likely 2)
-    const sets = Object.entries(f.set_score || {}).sort((a, b) => b[1] - a[1]).slice(0, 2)
-      .map(([k, v]) => `${k} (${pctOdds(v)})`).join(" · ");
-    const chips = el("div", { class: "chips" },
-      chip("Total games", f.exp_total_games),
-      chip("Tie-break", pctOdds(f.tiebreak_prob)),
-      chip("Aces", `${f.exp_aces_1} / ${f.exp_aces_2}`),
-      sets ? chip("Likely sets", sets) : "");
-    const node = el("div", { class: "match clickable" },
-      el("div", { class: "match-top" },
-        el("div", { class: "ev" },
-          el("span", {}, f.tournament),
-          el("span", { class: "muted" }, [f.round, f.date ? fmtDate(f.date) : ""].filter(Boolean).join(" · "))),
-        el("span", { class: "pill surf-" + f.surface }, f.surface)),
-      el("div", { class: "players" },
-        player(f.player1, f.win_prob_1, f.fair_odds_1, aFav),
-        el("div", { class: "vsbar" }, probBar(f.win_prob_1)),
-        player(f.player2, f.win_prob_2, f.fair_odds_2, !aFav)),
-      chips,
-      el("div", { class: "more-hint" }, "View all markets →"));
-    if (f.markets) node.onclick = () => openDetail(f);
-    return node;
+  // dropdown filters
+  const uniq = (key) => [...new Set(fx.map((f) => f[key]).filter(Boolean))];
+  const tournaments = uniq("tournament").sort((a, b) =>
+    fx.filter((f) => f.tournament === b).length - fx.filter((f) => f.tournament === a).length);
+  const rounds = uniq("round").sort((a, b) => roundOrder(a) - roundOrder(b));
+  const surfaces = uniq("surface").sort();
+  const formats = uniq("format").sort();
+
+  const filters = el("div", { class: "controls" },
+    filterSelect("Tournament", "tournament", tournaments, state, draw),
+    filterSelect("Round", "round", rounds, state, draw),
+    filterSelect("Surface", "surface", surfaces, state, draw),
+    formats.length > 1 ? filterSelect("Format", "format", formats, state, draw) : "");
+  wrap.append(tabs, filters);
+  const results = el("div", { id: "pred-results" });
+  wrap.append(results);
+
+  function passes(f) {
+    return (state.tour === "all" || f.tour === state.tour)
+      && (state.tournament === "all" || f.tournament === state.tournament)
+      && (state.round === "all" || f.round === state.round)
+      && (state.surface === "all" || f.surface === state.surface)
+      && (state.format === "all" || (f.format || "singles") === state.format);
   }
 
   function draw() {
-    const rows = data.fixtures.filter((f) => tour === "all" || f.tour === tour);
-    if (!rows.length) { grid.replaceChildren(el("p", { class: "muted" }, "No matches for this tour today.")); return; }
-    grid.replaceChildren(...rows.map(matchCard));
+    const rows = fx.filter(passes);
+    if (!rows.length) { results.replaceChildren(el("p", { class: "muted" }, "No matches for these filters.")); return; }
+    // group by tournament (biggest groups first), sort within by round then favourite
+    const groups = new Map();
+    rows.forEach((f) => { if (!groups.has(f.tournament)) groups.set(f.tournament, []); groups.get(f.tournament).push(f); });
+    const ordered = [...groups.entries()].sort((a, b) => b[1].length - a[1].length);
+    results.replaceChildren(...ordered.flatMap(([name, items]) => {
+      items.sort((a, b) => (roundOrder(a.round) - roundOrder(b.round))
+        || (Math.max(b.win_prob_1, b.win_prob_2) - Math.max(a.win_prob_1, a.win_prob_2)));
+      return [
+        el("div", { class: "group-head" }, el("span", {}, name), el("span", { class: "muted" }, `${items.length} match${items.length > 1 ? "es" : ""}`)),
+        el("div", { class: "cards" }, ...items.map(matchCard)),
+      ];
+    }));
   }
   draw();
+}
+
+function matchCard(f) {
+  const aFav = f.win_prob_1 >= f.win_prob_2;
+  const player = (name, prob, odds, fav) => el("div", { class: "player" + (fav ? " fav" : "") },
+    el("span", { class: "pname" }, name),
+    el("span", { class: "podds muted" }, odds ? "fair " + odds : ""),
+    el("span", { class: "pprob" }, fmtPct(prob)));
+  const sets = Object.entries(f.set_score || {}).sort((a, b) => b[1] - a[1]).slice(0, 2)
+    .map(([k, v]) => `${k} (${pctOdds(v)})`).join(" · ");
+  const chips = el("div", { class: "chips" },
+    chip("Total games", f.exp_total_games),
+    chip("Tie-break", pctOdds(f.tiebreak_prob)),
+    f.exp_aces_1 != null ? chip("Aces", `${f.exp_aces_1} / ${f.exp_aces_2}`) : "",
+    sets ? chip("Likely sets", sets) : "");
+  const tags = [f.round, f.date ? fmtDate(f.date) : "", f.format === "doubles" ? "Doubles" : ""].filter(Boolean).join(" · ");
+  const node = el("div", { class: "match clickable" },
+    el("div", { class: "match-top" },
+      el("div", { class: "ev" }, el("span", {}, f.tournament), el("span", { class: "muted" }, tags)),
+      el("span", { class: "pill surf-" + f.surface }, f.surface)),
+    el("div", { class: "players" },
+      player(f.player1, f.win_prob_1, f.fair_odds_1, aFav),
+      el("div", { class: "vsbar" }, probBar(f.win_prob_1)),
+      player(f.player2, f.win_prob_2, f.fair_odds_2, !aFav)),
+    chips,
+    el("div", { class: "more-hint" }, "View all markets →"));
+  if (f.markets) node.onclick = () => openDetail(f);
+  return node;
+}
+
+const ROUND_ORDER = {
+  "Qualifying": 0, "Qualifying Round 1": 0, "Qualifying Round 2": 1, "Qualifying Round 3": 2,
+  "Round 1": 3, "Round 2": 4, "Round 3": 5, "Round of 16": 6, "Round 16": 6,
+  "Quarterfinal": 7, "Quarterfinals": 7, "Semifinal": 8, "Semifinals": 8, "Final": 9,
+};
+function roundOrder(r) { return ROUND_ORDER[r] ?? 50; }
+
+function filterSelect(label, key, values, state, onChange) {
+  const sel = el("select", {},
+    el("option", { value: "all" }, `${label}: all`),
+    ...values.map((v) => el("option", { value: v }, v)));
+  sel.value = state[key];
+  sel.onchange = () => { state[key] = sel.value; onChange(); };
+  return sel;
 }
 
 function chip(label, value) {
@@ -174,12 +218,16 @@ function detailHead(n1, n2, winA, subtitle) {
 }
 
 function openDetail(f) {
-  const sub = [f.surface, `Bo${f.best_of}`, f.round].filter(Boolean).join(" · ");
+  const isDoubles = f.format === "doubles";
+  const sub = [f.surface, isDoubles ? "Doubles" : `Bo${f.best_of}`, f.round].filter(Boolean).join(" · ");
+  const grid = isDoubles
+    ? doublesGrid(f.markets, f.player1, f.player2, f.win_prob_1)
+    : marketGrid(f.markets, f.player1, f.player2, f.win_prob_1);
   const body = el("div", { class: "modal-body" },
     el("div", { class: "modal-evt" }, el("div", {}, f.tournament || ""), el("div", { class: "muted" }, [f.round, f.date ? fmtDate(f.date) : ""].filter(Boolean).join(" · "))),
     detailHead(f.player1, f.player2, f.win_prob_1, sub),
     el("div", { style: "height:16px" }),
-    marketGrid(f.markets, f.player1, f.player2, f.win_prob_1));
+    grid);
   const close = el("button", { class: "modal-close", "aria-label": "Close" }, "✕");
   const dialog = el("div", { class: "modal" }, close, body);
   const overlay = el("div", { class: "modal-overlay" }, dialog);

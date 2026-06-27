@@ -66,11 +66,14 @@ def scrape_espn(cfg: dict) -> list[dict]:
 
     cutoff = _date_cutoff(cfg)
     fixtures: list[dict] = []
+    n_singles = n_doubles = 0
     for event in data.get("events", []):
         tournament = event.get("name", "")
+        surface = infer_surface(tournament)
         for grouping in event.get("groupings", []):
             disc = (grouping.get("grouping") or {}).get("displayName", "")
-            if "Singles" not in disc:
+            is_singles, is_doubles = "Singles" in disc, "Doubles" in disc
+            if (not is_singles and not is_doubles) or "Mixed" in disc:
                 continue
             tour = "atp" if disc.startswith("Men") else "wta" if disc.startswith("Women") else None
             if tour not in cfg["tours"]:
@@ -79,22 +82,36 @@ def scrape_espn(cfg: dict) -> list[dict]:
                 status = (comp.get("status") or {}).get("type", {}).get("name", "")
                 if status not in ("STATUS_SCHEDULED", "STATUS_PRE"):
                     continue
-                names = [(c.get("athlete") or {}).get("displayName", "") for c in comp.get("competitors", [])]
-                names = [n for n in names if n]
-                if len(names) != 2 or "TBD" in names or any("/" in n for n in names):
-                    continue
                 date = (comp.get("date") or "")[:10].replace("-", "")
                 if cutoff and date and date > cutoff:
                     continue
                 rnd = comp.get("round") or {}
                 rnd = rnd.get("displayName", "") if isinstance(rnd, dict) else str(rnd)
-                fixtures.append({
-                    "tour": tour, "date": date, "tournament": tournament,
-                    "surface": infer_surface(tournament),
-                    "best_of": 5 if is_grand_slam(tournament) and tour == "atp" else 3,
-                    "round": rnd, "player1": names[0], "player2": names[1], "source": "espn",
-                })
-    util.log(f"scrape: ESPN parsed {len(fixtures)} scheduled singles fixtures")
+                base = {
+                    "tour": tour, "date": date, "tournament": tournament, "surface": surface,
+                    "round": rnd, "source": "espn",
+                    "best_of": 5 if is_grand_slam(tournament) and tour == "atp" and is_singles else 3,
+                }
+                competitors = comp.get("competitors", [])
+                if is_singles:
+                    names = [(c.get("athlete") or {}).get("displayName", "") for c in competitors]
+                    names = [n for n in names if n]
+                    if len(names) != 2 or "TBD" in names or any("/" in n for n in names):
+                        continue
+                    fixtures.append({**base, "format": "singles",
+                                     "player1": names[0], "player2": names[1]})
+                    n_singles += 1
+                else:
+                    teams = [[a.get("displayName", "") for a in (c.get("roster") or {}).get("athletes", [])]
+                             for c in competitors]
+                    if len(teams) != 2 or any(len(t) != 2 or not all(t) or "TBD" in t for t in teams):
+                        continue
+                    fixtures.append({**base, "format": "doubles",
+                                     "player1": " / ".join(teams[0]), "player2": " / ".join(teams[1]),
+                                     "p1a": teams[0][0], "p1b": teams[0][1],
+                                     "p2a": teams[1][0], "p2b": teams[1][1]})
+                    n_doubles += 1
+    util.log(f"scrape: ESPN parsed {n_singles} singles + {n_doubles} doubles fixtures")
     return fixtures
 
 
@@ -142,7 +159,7 @@ def scrape_tenniscom(cfg: dict) -> list[dict]:
         seen.add(key)
         fixtures.append({
             "tour": tour, "date": date, "tournament": tournament,
-            "surface": infer_surface(tournament), "best_of": best_of,
+            "surface": infer_surface(tournament), "best_of": best_of, "format": "singles",
             "round": rnd, "player1": home, "player2": away, "source": "tennis.com",
         })
     util.log(f"scrape: tennis.com parsed {len(fixtures)} scheduled singles fixtures")
@@ -155,10 +172,13 @@ def _grab(text: str, pattern: str) -> str | None:
 
 
 def _dedup_key(f: dict) -> tuple:
-    # Same two players within the short scheduling window == same match, even if
-    # the two sources disagree on exact date/tournament label or player order.
-    pair = tuple(sorted((f["player1"].lower(), f["player2"].lower())))
-    return (f["tour"], pair)
+    # Same players within the short scheduling window == same match, even if the
+    # two sources disagree on exact date/tournament label or player order.
+    if f.get("format") == "doubles":
+        names = tuple(sorted(x.lower() for x in (f["p1a"], f["p1b"], f["p2a"], f["p2b"])))
+    else:
+        names = tuple(sorted((f["player1"].lower(), f["player2"].lower())))
+    return (f["tour"], f.get("format", "singles"), names)
 
 
 def scrape_all(cfg: dict) -> list[dict]:
@@ -178,10 +198,11 @@ def main(argv: list[str]) -> int:
     cfg = util.load_config()
     fixtures = scrape_all(cfg)
     out = util.abspath("data/fixtures.csv")
-    cols = ["tour", "date", "tournament", "surface", "best_of", "round", "player1", "player2", "source"]
+    cols = ["tour", "date", "tournament", "surface", "best_of", "format", "round",
+            "player1", "player2", "p1a", "p1b", "p2a", "p2b", "source"]
     util.ensure_dir(util.abspath("data"))
     with open(out, "w", encoding="utf-8", newline="") as fh:
-        w = csv.DictWriter(fh, fieldnames=cols)
+        w = csv.DictWriter(fh, fieldnames=cols, restval="", extrasaction="ignore")
         w.writeheader()
         w.writerows(fixtures)
     util.log(f"scrape: wrote {out} ({len(fixtures)} unique fixtures)")

@@ -50,8 +50,14 @@ def game_expected_points(p: float) -> float:
 # --------------------------------------------------------------------------- #
 # Tie-break
 # --------------------------------------------------------------------------- #
-def tiebreak_win(p_a: float, p_b: float, first: str = "A") -> float:
-    """Prob A wins a 7-point tie-break; A and B serve per standard rotation."""
+def game_hold_noad(p: float) -> float:
+    """No-ad scoring: first to 4 points, single deciding point at 3-3."""
+    q = 1 - p
+    return p**4 + 4 * p**4 * q + 10 * p**4 * q**2 + 20 * p**4 * q**3
+
+
+def tiebreak_win(p_a: float, p_b: float, first: str = "A", target: int = 7) -> float:
+    """Prob A wins a tie-break to ``target`` points; standard serve rotation."""
     def server(n: int) -> str:
         g = (n + 1) // 2
         base = first
@@ -62,11 +68,11 @@ def tiebreak_win(p_a: float, p_b: float, first: str = "A") -> float:
 
     @lru_cache(maxsize=None)
     def f(a: int, b: int) -> float:
-        if a >= 7 and a - b >= 2:
+        if a >= target and a - b >= 2:
             return 1.0
-        if b >= 7 and b - a >= 2:
+        if b >= target and b - a >= 2:
             return 0.0
-        if a >= 6 and b >= 6 and a == b:
+        if a >= target - 1 and b >= target - 1 and a == b:
             # deuce zone: next two points (one per server pattern) -> +2 / split / -2
             n = a + b
             wa1 = win_point_a(n)
@@ -84,16 +90,18 @@ def tiebreak_win(p_a: float, p_b: float, first: str = "A") -> float:
 # --------------------------------------------------------------------------- #
 # Set
 # --------------------------------------------------------------------------- #
-def set_distribution(p_a: float, p_b: float, first: str = "A") -> list[tuple[float, int, int, bool]]:
+def set_distribution(p_a: float, p_b: float, first: str = "A",
+                     no_ad: bool = False) -> list[tuple[float, int, int, bool]]:
     """Distribution of final set scores.
 
     Returns list of (prob, games_a, games_b, tiebreak?) terminal outcomes.
-    Games alternate serve starting from ``first``.
+    Games alternate serve starting from ``first``. ``no_ad`` uses doubles scoring.
     """
     from collections import defaultdict
 
-    hold_a = game_hold(p_a)
-    hold_b = game_hold(p_b)
+    hold_fn = game_hold_noad if no_ad else game_hold
+    hold_a = hold_fn(p_a)
+    hold_b = hold_fn(p_b)
     # tie-break server at 6-6 is whoever serves the 13th game (games played = 12).
     tb_first = first if (12 % 2 == 0) else ("B" if first == "A" else "A")
     tb_a = tiebreak_win(p_a, p_b, first=tb_first)
@@ -318,6 +326,52 @@ def _poisson_cdf(k: int, mean: float) -> float:
         term *= mean / i
         cdf += term
     return min(1.0, cdf)
+
+
+def team_profile(p1: dict, p2: dict) -> dict:
+    """Average two players' singles profiles into one doubles-team profile."""
+    keys = ("spw", "rpw", "ace_rate", "df_rate", "pr")
+    return {k: (p1[k] + p2[k]) / 2.0 for k in keys}
+
+
+def project_doubles(team_a: dict, team_b: dict, league: dict) -> dict:
+    """Doubles projection: no-ad games, 7-pt set TB, 10-pt match TB decider."""
+    p_a, p_b = point_probs(team_a, team_b, league)
+    set_even = set_distribution(p_a, p_b, first="A", no_ad=True)
+    set_odd = set_distribution(p_a, p_b, first="B", no_ad=True)
+
+    def set_win(dist):
+        return sum(p for p, ga, gb, _ in dist if ga > gb)
+
+    def tb_in(dist):
+        return sum(p for p, _, _, tb in dist if tb)
+
+    def games(dist):
+        return sum(p * (ga + gb) for p, ga, gb, _ in dist)
+
+    s1a, s2a = set_win(set_even), set_win(set_odd)
+    super_a = tiebreak_win(p_a, p_b, first="A", target=10)
+    p20 = s1a * s2a
+    p02 = (1 - s1a) * (1 - s2a)
+    split = s1a * (1 - s2a) + (1 - s1a) * s2a
+    p21, p12 = split * super_a, split * (1 - super_a)
+    win_a = p20 + p21
+    return {
+        "sr_win_a": round(win_a, 4),
+        "set_score": {k: round(v, 4) for k, v in
+                      {"2-0": p20, "2-1": p21, "1-2": p12, "0-2": p02}.items()},
+        "straight_sets": round(p20 + p02, 4),
+        "deciding_set": round(split, 4),
+        "a_wins_set": round(1 - p02, 4),
+        "b_wins_set": round(1 - p20, 4),
+        "set1_win_a": round(s1a, 4),
+        "set2_win_a": round(s2a, 4),
+        "super_tb_a": round(super_a, 4),
+        "exp_total_games": round(games(set_even) + games(set_odd), 2),
+        "tiebreak_prob": round(1 - (1 - tb_in(set_even)) * (1 - tb_in(set_odd)), 4),
+        "hold_a": round(game_hold_noad(p_a), 4),
+        "hold_b": round(game_hold_noad(p_b), 4),
+    }
 
 
 def _clamp(x: float, lo: float, hi: float) -> float:
