@@ -519,7 +519,8 @@ async function renderPickem() {
     proj[`${norm(f.player1)}|doublefaults`] = m.exp_df_a; proj[`${norm(f.player2)}|doublefaults`] = m.exp_df_b;
     proj[`${norm(f.player1)}|games`] = m.exp_games_a; proj[`${norm(f.player2)}|games`] = m.exp_games_b;
   });
-  const statKey = (s) => norm(s).replace("totalgames", "games").replace("game", "games").replace("ace", "aces").replace("acess", "aces");
+  const statKey = (s) => s;  // odds.py already normalises to games/aces/doublefaults
+  const statName = { games: "Total games", aces: "Aces", doublefaults: "Double faults" };
 
   const table = el("table", {}, el("thead", {}, el("tr", {},
     el("th", { class: "pl" }, "Player"), el("th", { class: "pl" }, "Stat"), el("th", {}, "Dabble line"),
@@ -530,7 +531,7 @@ async function renderPickem() {
       const lean = mp == null ? "—" : (mp > l.line ? "Over" : "Under");
       return el("tr", {},
         el("td", { class: "pl" }, el("b", {}, l.player)),
-        el("td", { class: "pl mut" }, l.stat),
+        el("td", { class: "pl mut" }, statName[l.stat] || l.stat),
         el("td", { class: "num" }, l.line),
         el("td", { class: "num" }, mp == null ? "—" : mp.toFixed(1)),
         el("td", { class: "num " + (lean === "Over" ? "pos" : "mut") }, lean));

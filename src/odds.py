@@ -365,22 +365,56 @@ def _dab_get(path):
 DAB_TENNIS_SPORT = "990fbb42-370d-4a4b-ad00-533bf247cf20"
 
 
-def dab_events():
+def _dab_tennis_comps():
     d = _dab_get(f"/competitions/active?sportId={DAB_TENNIS_SPORT}")
     data = d.get("data", d) if isinstance(d, dict) else d
     if isinstance(data, dict):
-        comps = data.get("competitions") or next((v for v in data.values() if isinstance(v, list)), [])
-    else:
-        comps = data or []
+        return data.get("competitions") or next((v for v in data.values() if isinstance(v, list)), [])
+    return data or []
+
+
+def _dab_fixtures(comp_id):
+    fx = _dab_get(f"/frontend-api/competitions/{comp_id}/sport-fixtures?includeInPlay=false&exclude%5B%5D=none")
+    return (fx.get("data", fx) if isinstance(fx, dict) else fx) or []
+
+
+def dab_events():
     out = []
-    for comp in comps:
-        fx = _dab_get(f"/frontend-api/competitions/{comp['id']}/sport-fixtures?includeInPlay=false&exclude%5B%5D=none")
-        for f in (fx.get("data", fx) if isinstance(fx, dict) else fx) or []:
+    for comp in _dab_tennis_comps():
+        if "pick" in (comp.get("name") or "").lower():  # ATP/WTA Pick'em handled separately
+            continue
+        for f in _dab_fixtures(comp["id"]):
             name = f.get("name", "")
             if f.get("id") and " v " in name:
                 p1, p2 = [x.strip() for x in name.split(" v ", 1)]
                 out.append({"id": f["id"], "p1": p1, "p2": p2, "name": name})
     return out
+
+
+# Dabble Pick'em — the multiplier game. Lives in its own "ATP/WTA Pick'em"
+# competitions as player-prop over lines ({player} {stat} {line}).
+DAB_PICKEM_STAT = {"total-games": "games", "aces": "aces", "double-faults": "doublefaults", "games": "games"}
+
+
+def dab_pickem():
+    for comp in _dab_tennis_comps():
+        if "pick" not in (comp.get("name") or "").lower():
+            continue
+        tour = "atp" if "atp" in comp["name"].lower() else "wta" if "wta" in comp["name"].lower() else ""
+        for f in _dab_fixtures(comp["id"]):
+            if " v" not in f.get("name", ""):
+                continue
+            detail = _dab_get(f"/frontend-api/sport-fixtures/details/{f['id']}")
+            sfd = (detail or {}).get("sportFixtureDetail") or (detail or {}).get("data", {}).get("sportFixtureDetail") or {}
+            for pp in sfd.get("playerProps", []):
+                if pp.get("value") is None or not pp.get("playerName"):
+                    continue
+                stat = next((DAB_PICKEM_STAT[s] for s in (pp.get("stats") or []) if s in DAB_PICKEM_STAT), None)
+                if not stat:
+                    continue
+                row = {"tour": tour, "event": f.get("name", ""), "player": pp["playerName"], "stat": stat, "line": float(pp["value"])}
+                if row not in _PICKEM:
+                    _PICKEM.append(row)
 
 
 def dab_markets(ev):
@@ -399,11 +433,6 @@ def dab_markets(ev):
         if "pickem" in rt or (m.get("isSgmAllowed") and not m.get("isSingleAllowed")):
             continue
         raw.append((m.get("name", ""), by_mkt.get(m.get("id"), [])))
-    for pp in sfd.get("playerProps", []):
-        if pp.get("value") is not None and pp.get("playerName"):
-            _PICKEM.append({"event": ev.get("name", ""), "player": pp.get("playerName"),
-                            "stat": " ".join(str(s) for s in (pp.get("stats") or [])),
-                            "line": float(pp["value"]), "type": pp.get("lineType")})
     return raw
 
 
@@ -478,6 +507,8 @@ def run(cfg):
                     {"generated": _now(), "books": sorted(books_present), "count": len(out_matches), "matches": out_matches})
     util.log(f"odds: {len(out_matches)} matches priced across {sorted(books_present)}")
 
+    # Dabble Pick'em (multiplier game) — its own ATP/WTA Pick'em competitions
+    _safe(dab_pickem)
     if _PICKEM:
         util.write_json(util.abspath(os.path.join(dd, "pickem-lines.json")), {"generated": _now(), "lines": _PICKEM})
         util.log(f"odds: {len(_PICKEM)} Dabble pick'em lines")
