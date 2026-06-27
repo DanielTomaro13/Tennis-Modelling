@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#0a1410" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="Grand Slam Tennis" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="description" content="How Grand Slam Tennis works — where the player ratings come from, how matches are priced into a full market book, and how the model is backtested." />
+<link rel="icon" href="assets/ball.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="assets/ball.svg" />
+<title>Grand Slam Tennis · How it works</title>
+<link rel="stylesheet" href="assets/style.css" />
+</head>
+<body data-page="about">
+<div id="app-header"></div>
+<main class="wrap">
+  <div class="hero"><h1>How it works</h1><p class="muted">Model-priced ATP &amp; WTA tennis — where the numbers come from and how every match becomes a full book of prices.</p></div>
+  <div id="content">
+    <article class="prose">
+      <p>Grand Slam Tennis turns publicly available match data into a model-driven price for every upcoming ATP and WTA match — singles and doubles. It&rsquo;s free, runs entirely in your browser, and there&rsquo;s no sign-up.</p>
+
+      <h2>The data</h2>
+      <p>Player serve and return ratings are built from the <a href="https://github.com/JeffSackmann/tennis_MatchChartingProject">Match Charting Project</a> — a large, open, point-by-point dataset of professional matches. Upcoming fixtures and draws are pulled from <a href="https://www.espn.com.au/tennis/schedule">ESPN</a> and tennis.com, and the whole site is rebuilt every few hours so prices stay current with the draw.</p>
+
+      <h2>The ratings</h2>
+      <p>Each player carries serve and return strength estimates by surface, because tennis form is surface-specific — a great clay-courter and a great grass-courter are not the same player. Those ratings feed a point-level model of how a given matchup is likely to play out.</p>
+
+      <h2>From a matchup to a full book</h2>
+      <p>For each fixture the model simulates the match point by point and aggregates the results into a complete set of prices: match winner, set betting, correct set score, total games, handicaps, tie-breaks, aces, double faults, breaks of serve and more. The <a href="compare.html">Compare</a> and <a href="value.html">Value</a> pages put the model&rsquo;s fair price next to the bookmakers&rsquo; to highlight where an edge might exist.</p>
+
+      <h2>How accurate is it?</h2>
+      <p>The <a href="backtest.html">Backtest</a> page tracks the model against completed matches using log-loss and hit-rate, so you can judge it on its record rather than its claims. As with any model, it is an estimate — not a certainty, and not betting advice.</p>
+
+      <h2>FAQ</h2>
+      <h3>Is the data real?</h3>
+      <p>Yes. Ratings are derived from real charted professional matches, and fixtures reflect the live tour schedule.</p>
+      <h3>Is it free?</h3>
+      <p>Completely free, with no account or sign-up. If you&rsquo;d like to help cover the running costs you can <a href="https://ko-fi.com/danieltomaro" target="_blank" rel="noopener">support it on Ko-fi</a>.</p>
+      <h3>Can I bet with these prices?</h3>
+      <p>No. Everything here is for research and entertainment only. See the <a href="terms.html">Terms of Use</a>.</p>
+
+      <p style="font-size:.85rem;margin-top:24px">Grand Slam Tennis is unofficial and not affiliated with the ATP, WTA, ITF or any tournament. Part of the 0 Series alongside
+        <a href="https://afl23-0.com">AFL 23-0</a>, <a href="https://nrl24-0.com">NRL 24-0</a>, <a href="https://nba82-0.com">NBA 82-0</a>, <a href="https://mlb162-0.com">MLB 162-0</a>, <a href="https://footballinvincibles.com">Football Invincibles</a> and <a href="https://f1slam.com">F1 Slam</a>.</p>
+    </article>
+  </div>
+</main>
+<div id="app-footer"></div>
+<script type="module" src="assets/app.js"></script>
+</body>
+</html>
