@@ -1,4 +1,5 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+atp,20260628,Lexus Eastbourne Open,Grass,Final,Ugo Humbert,Zizou Bergs,0.6396,0.3604,1.56,2.77,25.88,0.5277,8.34,8.21,2.61,3.27,espn
 atp,20260629,Wimbledon,Grass,Round 1,Miomir Kecmanovic,Jannik Sinner,0.0581,0.9419,17.22,1.06,36.37,0.5335,8.78,13.18,2.7,3.35,espn
 atp,20260629,Wimbledon,Grass,Round 1,Alexander Shevchenko,Felix Auger Aliassime,0.2419,0.7581,4.13,1.32,40.98,0.6327,12.25,16.46,4.13,4.45,espn
 atp,20260629,Wimbledon,Grass,Round 1,Tommy Paul,Alexandre Muller,0.7576,0.2424,1.32,4.12,40.88,0.629,11.46,10.42,3.77,4.13,espn
@@ -48,7 +49,6 @@ atp,20260630,Wimbledon,Grass,Round 1,Alexander Bublik,Thanasi Kokkinakis,0.7012,
 atp,20260630,Wimbledon,Grass,Round 1,Alexander Zverev,Alexander Blockx,0.675,0.325,1.48,3.08,43.88,0.8085,14.71,10.04,3.69,3.39,espn
 atp,20260630,Wimbledon,Grass,Round 1,Quentin Halys,Matteo Arnaldi,0.33,0.67,3.03,1.49,41.71,0.6353,14.11,9.03,4.7,5.06,espn
 atp,20260630,Wimbledon,Grass,Round 1,Daniel Altmaier,Alex Molcan,0.3411,0.6589,2.93,1.52,41.53,0.6138,13.19,8.64,3.98,4.49,espn
-atp,20260630,Wimbledon,Grass,Round 1,Zizou Bergs,Ugo Humbert,0.3542,0.6458,2.82,1.55,42.72,0.7087,13.72,13.62,5.46,4.27,espn
 atp,20260630,Wimbledon,Grass,Round 1,Tomas Martin Etcheverry,Lorenzo Sonego,0.6398,0.3602,1.56,2.78,42.54,0.6946,12.55,12.45,3.59,3.26,espn
 atp,20260630,Wimbledon,Grass,Round 1,Zachary Svajda,Mattia Bellucci,0.3604,0.6396,2.77,1.56,42.42,0.6804,9.97,10.46,3.91,5.06,espn
 atp,20260630,Wimbledon,Grass,Round 1,Jan Choinski,Vit Kopriva,0.3831,0.6169,2.61,1.62,42.01,0.6381,13.08,13.49,4.25,4.83,espn
