@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Grand Slam Tennis · Rankings</title>
+<link rel="stylesheet" href="assets/style.css" />
+</head>
+<body data-page="rankings">
+<header><div class="wrap">
+  <a class="brand" href="index.html">Grand Slam <span>Tennis</span></a>
+  <nav>
+    <a href="index.html">Matches</a>
+    <a class="on" href="rankings.html">Rankings</a>
+    <a href="analysis.html">Analysis</a>
+    <a href="backtest.html">Backtest</a>
+    <a href="lab.html">Model Lab</a>
+    <a href="compare.html">Compare odds</a>
+  </nav>
+</div></header>
+
+<main class="wrap">
+  <div class="hero">
+    <h1>Player ratings</h1>
+    <p class="muted">Points Rating (PR) = points won above an average opponent, per 1000 points —
+       recency-weighted, opponent-adjusted, per surface. Plus serve and return form.</p>
+  </div>
+  <div id="content"></div>
+</main>
+
+<footer><div class="wrap">
+  <p>Modelled from the <a href="https://github.com/JeffSackmann/tennis_MatchChartingProject">Match Charting Project</a>. For research only — not betting advice.</p>
+</div></footer>
+
+<script type="module" src="assets/app.js"></script>
+</body>
+</html>

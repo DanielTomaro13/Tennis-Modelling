@@ -1,29 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Tennis-Modelling · Match predictions</title>
-  <link rel="stylesheet" href="assets/style.css" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Grand Slam Tennis · Match predictions</title>
+<meta name="description" content="Model-based predictions and priced markets for every upcoming ATP & WTA singles and doubles match — win probability, set betting, totals, games, tie-breaks, aces, double faults and breaks of serve." />
+<link rel="stylesheet" href="assets/style.css" />
 </head>
-<body data-page="predictions">
-  <header class="site">
-    <div class="brand">Tennis<span>·</span>Modelling</div>
-    <nav>
-      <a href="index.html" class="active">Predictions</a>
-      <a href="elo.html">Ratings</a>
-      <a href="predictor.html">Predictor</a>
-    </nav>
-  </header>
-  <main>
+<body data-page="matches">
+<header><div class="wrap">
+  <a class="brand" href="index.html">Grand Slam <span>Tennis</span></a>
+  <nav>
+    <a class="on" href="index.html">Matches</a>
+    <a href="rankings.html">Rankings</a>
+    <a href="analysis.html">Analysis</a>
+    <a href="backtest.html">Backtest</a>
+    <a href="lab.html">Model Lab</a>
+    <a href="compare.html">Compare odds</a>
+  </nav>
+</div></header>
+
+<main class="wrap">
+  <div class="hero">
     <h1>Upcoming match predictions</h1>
-    <p class="sub" id="freshness">Loading…</p>
-    <div id="content"></div>
-  </main>
-  <footer>
-    Modelled from the <a href="https://github.com/JeffSackmann/tennis_MatchChartingProject">Match Charting Project</a>.
-    Fixtures via <a href="https://www.tennis.com">tennis.com</a>. For research only — not betting advice.
-  </footer>
-  <script type="module" src="assets/app.js"></script>
+    <p id="freshness" class="muted">Loading…</p>
+  </div>
+  <a class="banner" href="lab.html">Build any match-up — singles or doubles — in the <b>Model Lab</b> &rarr;</a>
+  <div id="content"></div>
+</main>
+
+<footer><div class="wrap">
+  <p>Modelled from the <a href="https://github.com/JeffSackmann/tennis_MatchChartingProject">Match Charting Project</a>;
+     fixtures via <a href="https://www.espn.com.au/tennis/schedule">ESPN</a> &amp; <a href="https://www.tennis.com">tennis.com</a>.</p>
+  <p>For research and entertainment only — not betting advice.</p>
+</div></footer>
+
+<script type="module" src="assets/app.js"></script>
 </body>
 </html>

@@ -1,13 +1,13 @@
-# Tennis-Modelling
+# Grand Slam Tennis
 
-Statistical modelling of professional tennis matches (ATP + WTA singles), published as a
-static [GitHub Pages site](https://danieltomaro13.github.io/Tennis-Modelling/) and rebuilt
-automatically every 3 hours.
+Statistical modelling of professional tennis matches (ATP + WTA, singles **and** doubles),
+published as a static [GitHub Pages site](https://danieltomaro13.github.io/Tennis-Modelling/)
+and rebuilt automatically every 3 hours.
 
-The model projects **future matches**: match win probability and fair odds, set betting,
-total-games over/under, tie-break probability, and per-player serve markets (expected aces
-and double faults). It also publishes surface Elo leaderboards and an interactive
-head-to-head predictor.
+The site mirrors the AFL/NRL modelling dashboards — **Matches**, **Rankings**, **Analysis**,
+**Backtest**, **Model Lab** and (soon) **Compare odds**. Every match is priced across a full
+market book: win probability and fair odds, set betting, per-set winners, total games and
+handicaps, tie-breaks, breaks of serve, aces and double faults, plus most-aces / most-DF props.
 
 ## How it works
 
