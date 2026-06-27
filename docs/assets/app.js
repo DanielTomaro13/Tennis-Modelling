@@ -558,43 +558,59 @@ async function renderPickem() {
       el("p", {}, "Pick'em lines aren't available right now — they open closer to each match. Check back soon.")));
     return;
   }
-  // model projections. NOTE: Dabble "total games" lines are the MATCH total, so both
-  // players in a fixture map to the same match total; aces / DFs are per player.
-  const proj = {}, fxIdx = new Map();
-  ((preds && preds.fixtures) || []).forEach((f) => {
-    const m = f.markets || {};
-    proj[`${pnorm(f.player1)}|games`] = m.exp_total_games; proj[`${pnorm(f.player2)}|games`] = m.exp_total_games;
-    proj[`${pnorm(f.player1)}|aces`] = m.exp_aces_a; proj[`${pnorm(f.player2)}|aces`] = m.exp_aces_b;
-    proj[`${pnorm(f.player1)}|doublefaults`] = m.exp_df_a; proj[`${pnorm(f.player2)}|doublefaults`] = m.exp_df_b;
-    [f.player1, f.player2].forEach((p) => fxIdx.set(pnorm(p), f));
-  });
+  // Match each Pick'em line to the FIXTURE in its event (so "total games" gets that
+  // exact match's model total, and aces/DFs get the right player's projection).
+  const fxByPair = new Map();
+  ((preds && preds.fixtures) || []).forEach((f) => fxByPair.set(pairKey(f.tour, f.player1, f.player2), f));
+  const lineFixture = (l) => {
+    const parts = (l.event || "").split(/\s+vs?\s+/i);
+    return parts.length === 2 ? fxByPair.get(pairKey(l.tour, parts[0].trim(), parts[1].trim())) : null;
+  };
+  const modelProj = (l, fx) => {
+    if (!fx || !fx.markets) return null;
+    const m = fx.markets;
+    if (l.stat === "games") return m.exp_total_games;          // MATCH total
+    const isP1 = pnorm(l.player) === pnorm(fx.player1);
+    if (l.stat === "aces") return isP1 ? m.exp_aces_a : m.exp_aces_b;
+    if (l.stat === "doublefaults") return isP1 ? m.exp_df_a : m.exp_df_b;
+    return null;
+  };
   const statName = { games: "Match total games", aces: "Aces", doublefaults: "Double faults" };
 
-  let tour = "all";
-  const tabs = tourTabs({ tour }, { all: lines.lines.length, atp: lines.lines.filter(l => l.tour === "atp").length, wta: lines.lines.filter(l => l.tour === "wta").length }, () => {});
-  [...tabs.children].forEach((b) => b.onclick = () => { tour = b.dataset.t; [...tabs.children].forEach(c => c.classList.toggle("on", c.dataset.t === tour)); draw(); });
+  const state = { tour: "all", stat: "all", sort: null, dir: -1, _get: null };
+  const stats = [...new Set(lines.lines.map((l) => l.stat))];
+  const tabs = tourTabs(state, { all: lines.lines.length, atp: lines.lines.filter(l => l.tour === "atp").length, wta: lines.lines.filter(l => l.tour === "wta").length }, draw);
+  const filters = el("div", { class: "filters" },
+    filterSelect("Stat", "stat", stats.map((s) => statName[s] || s), state, draw),
+    el("span", { class: "count", id: "pkc" }, ""));
   const box = el("div", { class: "scrolltable" });
-  wrap.append(tabs, box);
+  wrap.append(tabs, filters, box);
 
   function draw() {
-    const rows = lines.lines.filter((l) => tour === "all" || l.tour === tour);
-    const table = el("table", {}, el("thead", {}, el("tr", {},
-      el("th", { class: "pl" }, "Player"), el("th", { class: "pl" }, "Stat"), el("th", {}, "Dabble line"),
-      el("th", {}, "Model proj"), el("th", {}, "Lean"))),
-      el("tbody", {}, ...rows.map((l) => {
-        const mp = proj[`${pnorm(l.player)}|${l.stat}`];
-        const lean = mp == null ? "—" : (mp > l.line ? "Over" : "Under");
-        const fx = fxIdx.get(pnorm(l.player));
-        const tr = el("tr", { class: fx && fx.markets ? "click" : "" },
-          el("td", { class: "pl" }, el("b", {}, l.player)),
-          el("td", { class: "pl mut" }, statName[l.stat] || l.stat),
-          el("td", { class: "num" }, l.line),
-          el("td", { class: "num" }, mp == null ? "—" : mp.toFixed(1)),
-          el("td", { class: "num " + (lean === "Over" ? "pos" : lean === "Under" ? "neg" : "mut") }, lean));
-        if (fx && fx.markets) tr.onclick = () => openDetail(fx);
-        return tr;
-      })));
-    box.replaceChildren(table);
+    let rows = lines.lines.filter((l) => (state.tour === "all" || l.tour === state.tour)
+      && (state.stat === "all" || (statName[l.stat] || l.stat) === state.stat))
+      .map((l) => { const fx = lineFixture(l); return { l, fx, mp: modelProj(l, fx) }; });
+    rows = applySort(rows, state);
+    document.getElementById("pkc").textContent = `${rows.length} lines`;
+    const head = el("tr", {}, el("th", { class: "pl" }, "Match"), el("th", { class: "pl" }, "Player"), el("th", {}, "Stat"),
+      sortHeader("Dabble line", "line", (r) => r.l.line, state, draw),
+      sortHeader("Model proj", "mp", (r) => r.mp, state, draw),
+      sortHeader("Edge", "edge", (r) => r.mp == null ? null : Math.abs(r.mp - r.l.line), state, draw),
+      el("th", {}, "Lean"));
+    const body = rows.map(({ l, fx, mp }) => {
+      const lean = mp == null ? "—" : (mp > l.line ? "Over" : "Under");
+      const tr = el("tr", { class: fx && fx.markets ? "click" : "" },
+        el("td", { class: "pl mut" }, fx ? `${fx.player1} v ${fx.player2}` : l.event),
+        el("td", { class: "pl" }, el("b", {}, l.player)),
+        el("td", { class: "mut" }, statName[l.stat] || l.stat),
+        el("td", { class: "num" }, l.line),
+        el("td", { class: "num" }, mp == null ? "—" : mp.toFixed(1)),
+        el("td", { class: "num mut" }, mp == null ? "—" : (mp - l.line >= 0 ? "+" : "") + (mp - l.line).toFixed(1)),
+        el("td", { class: "num " + (lean === "Over" ? "pos" : lean === "Under" ? "neg" : "mut") }, lean));
+      if (fx && fx.markets) tr.onclick = () => openDetail(fx);
+      return tr;
+    });
+    box.replaceChildren(el("table", {}, el("thead", {}, head), el("tbody", {}, ...body)));
   }
   draw();
 }
