@@ -360,34 +360,39 @@ def _dab_get(path):
         return None
 
 
+DAB_TENNIS_SPORT = "990fbb42-370d-4a4b-ad00-533bf247cf20"
+
+
 def dab_events():
     d = _dab_get("/competitions")
-    comps = [c for c in ((d.get("data", d) if isinstance(d, dict) else d) or []) if "tennis" in str(c.get("sportName", "")).lower()]
+    comps = [c for c in ((d.get("data", d) if isinstance(d, dict) else d) or []) if c.get("sportId") == DAB_TENNIS_SPORT]
     out = []
     for comp in comps:
         fx = _dab_get(f"/frontend-api/competitions/{comp['id']}/sport-fixtures?includeInPlay=false&exclude%5B%5D=none")
         for f in (fx.get("data", fx) if isinstance(fx, dict) else fx) or []:
-            fid = f.get("id")
-            if not fid:
-                continue
-            detail = _dab_get(f"/frontend-api/sport-fixtures/details/{fid}")
-            sfd = (detail or {}).get("sportFixtureDetail") or (detail or {}).get("data", {}).get("sportFixtureDetail") or {}
-            name = f.get("name", sfd.get("name", ""))
-            if " v " not in name:
-                continue
-            p1, p2 = [x.strip() for x in name.split(" v ", 1)]
-            sel_name = {s["id"]: s.get("name", "") for s in sfd.get("selections", [])}
-            by_mkt = {}
-            for p in sfd.get("prices", []):
-                by_mkt.setdefault(p.get("marketId"), []).append((sel_name.get(p.get("selectionId")), p.get("price")))
-            raw = [(m.get("name", ""), by_mkt.get(m.get("id"), [])) for m in sfd.get("markets", [])]
-            out.append({"id": fid, "p1": p1, "p2": p2, "raw": raw})
-            for pp in sfd.get("playerProps", []):
-                if pp.get("value") is not None and pp.get("playerName"):
-                    _PICKEM.append({"event": name, "player": pp.get("playerName"),
-                                    "stat": " ".join(str(s) for s in (pp.get("stats") or [])),
-                                    "line": float(pp["value"]), "type": pp.get("lineType")})
+            name = f.get("name", "")
+            if f.get("id") and " v " in name:
+                p1, p2 = [x.strip() for x in name.split(" v ", 1)]
+                out.append({"id": f["id"], "p1": p1, "p2": p2, "name": name})
     return out
+
+
+def dab_markets(ev):
+    detail = _dab_get(f"/frontend-api/sport-fixtures/details/{ev['id']}")
+    sfd = (detail or {}).get("sportFixtureDetail") or (detail or {}).get("data", {}).get("sportFixtureDetail") or {}
+    if not sfd:
+        return []
+    sel_name = {s["id"]: s.get("name", "") for s in sfd.get("selections", [])}
+    by_mkt = {}
+    for p in sfd.get("prices", []):
+        by_mkt.setdefault(p.get("marketId"), []).append((sel_name.get(p.get("selectionId")), p.get("price")))
+    raw = [(m.get("name", ""), by_mkt.get(m.get("id"), [])) for m in sfd.get("markets", [])]
+    for pp in sfd.get("playerProps", []):
+        if pp.get("value") is not None and pp.get("playerName"):
+            _PICKEM.append({"event": ev.get("name", ""), "player": pp.get("playerName"),
+                            "stat": " ".join(str(s) for s in (pp.get("stats") or [])),
+                            "line": float(pp["value"]), "type": pp.get("lineType")})
+    return raw
 
 
 BOOKS = {
@@ -395,7 +400,7 @@ BOOKS = {
     "ladbrokes": (lad_events, lad_markets),
     "pointsbet": (pb_events, pb_markets),
     "tab": (tab_events, lambda ev: ev.get("raw", [])),
-    "dabble": (dab_events, lambda ev: ev.get("raw", [])),
+    "dabble": (dab_events, dab_markets),
 }
 
 
