@@ -39,3 +39,7 @@ __pycache__/
 
 # Local editor / preview tooling
 .claude/
+
+# Secrets & cron logs
+.env
+scripts/*.log

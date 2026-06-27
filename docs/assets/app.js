@@ -46,17 +46,24 @@ function sisterBar() {
       ? el("a", { class: "sister-link", href }, label)
       : el("span", { class: "sister-link", "data-active": "true", "aria-current": "page" }, label)));
 }
+const FOOT_LINKS = [
+  ["How it works", "about.html"], ["Contact", "contact.html"],
+  ["Privacy", "privacy.html"], ["Terms", "terms.html"],
+];
 function chrome(page) {
   const strip = sisterBar();
   const header = el("header", {}, el("div", { class: "wrap" },
     el("a", { class: "brand", href: "index.html" }, el("img", { class: "ball", src: "assets/ball.svg", alt: "", "aria-hidden": "true" }), el("span", { class: "bt" }, "Grand Slam "), el("span", {}, "Tennis")),
     el("nav", {}, ...NAV.map(([id, label, href]) => el("a", { class: id === page ? "on" : "", href }, label)))));
   const footer = el("footer", {}, el("div", { class: "wrap" },
+    el("nav", { class: "foot-links" }, ...FOOT_LINKS.flatMap(([label, href], i) =>
+      [i ? el("span", { class: "sep" }, "·") : "", el("a", { href }, label)])),
     el("p", { html: 'Modelled from the <a href="https://github.com/JeffSackmann/tennis_MatchChartingProject">Match Charting Project</a>; fixtures via <a href="https://www.espn.com.au/tennis/schedule">ESPN</a> &amp; tennis.com.' }),
     el("p", {}, "For research and entertainment only — not betting advice."),
     el("p", { class: "series" }, "Part of the 0 Series · ",
       ...SISTER_SITES.filter(([, href]) => href).flatMap(([label, href], i) =>
-        [i ? " · " : "", el("a", { href }, label)]))));
+        [i ? " · " : "", el("a", { href }, label)])),
+    el("a", { class: "kofi", href: "https://ko-fi.com/danieltomaro", target: "_blank", rel: "noopener" }, "☕ Support on Ko-fi")));
   document.getElementById("app-header")?.replaceWith(strip, header);
   document.getElementById("app-footer")?.replaceWith(footer);
 }
