@@ -7,31 +7,12 @@
 <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body data-page="backtest">
-<header><div class="wrap">
-  <a class="brand" href="index.html">Grand Slam <span>Tennis</span></a>
-  <nav>
-    <a href="index.html">Matches</a>
-    <a href="rankings.html">Rankings</a>
-    <a href="analysis.html">Analysis</a>
-    <a class="on" href="backtest.html">Backtest</a>
-    <a href="lab.html">Model Lab</a>
-    <a href="compare.html">Compare odds</a>
-  </nav>
-</div></header>
-
+<div id="app-header"></div>
 <main class="wrap">
-  <div class="hero">
-    <h1>Does it actually work?</h1>
-    <p class="muted">Every model is scored on a held-out season it never trained on. Lower log-loss
-       and Brier are better; accuracy is share of matches where the favourite won.</p>
-  </div>
+  <div class="hero"><h1>Does it actually work?</h1><p class="muted" id="">Every model is scored on a held-out season it never trained on.</p></div>
   <div id="content"></div>
 </main>
-
-<footer><div class="wrap">
-  <p>Holdout evaluation on charted matches. For research only — not betting advice.</p>
-</div></footer>
-
+<div id="app-footer"></div>
 <script type="module" src="assets/app.js"></script>
 </body>
 </html>

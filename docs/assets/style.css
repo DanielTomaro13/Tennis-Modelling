@@ -94,8 +94,10 @@ td.num{font-variant-numeric:tabular-nums}td.mut{color:var(--mut)}td.pos{color:va
 .controls label{display:block;color:var(--mut);font-size:13px;margin:0 0 12px}
 .controls select{width:100%;margin-top:5px;background:#0f141c;color:var(--ink);
   border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:14px}
-.controls .go{width:100%;margin-top:6px;background:var(--pos);color:#06210f;border:none;
-  border-radius:9px;padding:10px;font-weight:700;cursor:pointer;font-size:14px}
+.go{background:var(--pos);color:#06210f;border:none;border-radius:9px;padding:10px 14px;
+  font-weight:700;cursor:pointer;font-size:14px}
+.go:hover{filter:brightness(1.05)}
+.controls .go{width:100%;margin-top:6px}
 .team-box{display:flex;flex-direction:column;gap:6px;margin-bottom:12px}
 .team-box small{color:var(--mut);font-size:11px;text-transform:uppercase;letter-spacing:.04em}
 .proxy-note{background:#10243150;border:1px solid #1d3a4a;color:var(--acc);
@@ -124,6 +126,14 @@ td.num{font-variant-numeric:tabular-nums}td.mut{color:var(--mut)}td.pos{color:va
   margin:2px 40px 14px 2px;font-size:15px;font-weight:600}
 .prob-bar{position:relative;height:12px;width:100%;border-radius:6px;background:#0f141c;overflow:hidden}
 .prob-bar>span{position:absolute;left:0;top:0;bottom:0;background:linear-gradient(90deg,var(--acc),var(--pos))}
+
+/* home nav cards + player links */
+.navcards{margin:8px 0}
+a.navcard{display:block;border:1px solid var(--line);border-radius:14px;padding:16px 18px;background:var(--card);color:var(--ink);transition:border-color .12s,transform .12s}
+a.navcard:hover{border-color:var(--acc);transform:translateY(-1px)}
+a.navcard h4{margin:0 0 6px;font-size:16px}a.navcard p{margin:0;font-size:13px}
+a.plink{color:var(--ink);font-weight:600}a.plink:hover{color:var(--acc)}
+.group-head a{font-size:13px;font-weight:500}
 
 footer{border-top:1px solid var(--line);margin-top:46px;padding:22px 0;color:var(--mut);font-size:12.5px}
 footer a{color:var(--acc)}

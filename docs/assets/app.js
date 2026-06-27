@@ -21,6 +21,27 @@ function fmtDate(d) { return (!d || d.length < 8) ? (d || "") : `${d.slice(0,4)}
 function miniBar(p) { const b = el("div", { class: "bar" }); const s = el("span"); s.style.width = (p*100).toFixed(1)+"%"; b.append(s); return b; }
 const TOUR_LABEL = { atp: "ATP", wta: "WTA" };
 
+const NAV = [
+  ["home", "Home", "index.html"], ["matches", "Matches", "matches.html"],
+  ["schedule", "Schedule", "schedule.html"], ["rankings", "Rankings", "rankings.html"],
+  ["analysis", "Analysis", "analysis.html"], ["games", "Games", "games.html"],
+  ["backtest", "Backtest", "backtest.html"], ["lab", "Model Lab", "lab.html"],
+  ["compare", "Compare odds", "compare.html"],
+];
+function chrome(page) {
+  const header = el("header", {}, el("div", { class: "wrap" },
+    el("a", { class: "brand", href: "index.html" }, "Grand Slam ", el("span", {}, "Tennis")),
+    el("nav", {}, ...NAV.map(([id, label, href]) => el("a", { class: id === page ? "on" : "", href }, label)))));
+  const footer = el("footer", {}, el("div", { class: "wrap" },
+    el("p", { html: 'Modelled from the <a href="https://github.com/JeffSackmann/tennis_MatchChartingProject">Match Charting Project</a>; fixtures via <a href="https://www.espn.com.au/tennis/schedule">ESPN</a> &amp; tennis.com.' }),
+    el("p", {}, "For research and entertainment only — not betting advice.")));
+  document.getElementById("app-header")?.replaceWith(header);
+  document.getElementById("app-footer")?.replaceWith(footer);
+}
+
+const playerLink = (tour, name) => el("a", { class: "plink", href: `player.html?tour=${tour}&name=${encodeURIComponent(name)}` }, name);
+function record(rec) { return rec ? `${rec[0]}–${rec[1]}` : "—"; }
+
 const ROUND_ORDER = {
   "Qualifying": 0, "Qualifying Round 1": 0, "Qualifying Round 2": 1, "Qualifying Round 3": 2,
   "Round 1": 3, "Round 2": 4, "Round 3": 5, "Round of 16": 6, "Round 16": 6,
@@ -60,7 +81,8 @@ async function renderMatches() {
   const wrap = document.getElementById("content");
   if (!data || !data.fixtures.length) { wrap.append(el("p", { class: "muted" }, "No matches resolved yet — check back after the next rebuild.")); return; }
   const fx = data.fixtures;
-  const state = { tour: "all", tournament: "all", round: "all", surface: "all", format: "all" };
+  const presetT = new URLSearchParams(location.search).get("t");
+  const state = { tour: "all", tournament: presetT && fx.some((f) => f.tournament === presetT) ? presetT : "all", round: "all", surface: "all", format: "all" };
   const counts = { all: fx.length, atp: fx.filter(f=>f.tour==="atp").length, wta: fx.filter(f=>f.tour==="wta").length };
 
   const uniq = (k) => [...new Set(fx.map((f) => f[k]).filter(Boolean))];
@@ -84,7 +106,11 @@ async function renderMatches() {
 
   function row(f) {
     const aFav = f.win_prob_1 >= f.win_prob_2;
-    const nm = (name, p, fav) => el("div", { class: fav ? "fav" : "" }, el("b", {}, name), " ", el("span", { class: "mut" }, fmtPct(p)));
+    const isD = f.format === "doubles";
+    const nm = (name, p, fav) => {
+      const label = isD ? el("b", {}, name) : (() => { const a = playerLink(f.tour, name); a.onclick = (e) => e.stopPropagation(); return el("b", {}, a); })();
+      return el("div", { class: fav ? "fav" : "" }, label, " ", el("span", { class: "mut" }, fmtPct(p)));
+    };
     const aces = f.exp_aces_1 != null ? `${f.exp_aces_1} / ${f.exp_aces_2}` : "—";
     const tr = el("tr", { class: "click" },
       el("td", { class: "pl" }, nm(f.player1, f.win_prob_1, aFav), nm(f.player2, f.win_prob_2, !aFav)),
@@ -150,7 +176,7 @@ async function renderRankings() {
         el("th", {}, "Serve W%"), el("th", {}, "Return W%"), el("th", {}, "Ace%"), el("th", {}, "DF%"))),
       el("tbody", {}, ...rows.slice(0, 200).map((r) => el("tr", {},
         el("td", { class: "mut" }, r.rank),
-        el("td", { class: "pl" }, el("b", {}, r.name)),
+        el("td", { class: "pl" }, playerLink(state.tour, r.name)),
         el("td", { class: "num pos" }, r.pr.toFixed(1)),
         el("td", { class: "num" }, fmtPct(r.spw)),
         el("td", { class: "num" }, fmtPct(r.rpw)),
@@ -178,7 +204,7 @@ async function renderAnalysis() {
 
   const leaderTable = (rows, valFn, valHead) => el("table", {},
     el("thead", {}, el("tr", {}, el("th", { class: "pl" }, "Player"), el("th", {}, valHead))),
-    el("tbody", {}, ...rows.map((r) => el("tr", {}, el("td", { class: "pl" }, el("b", {}, r.name)), el("td", { class: "num pos" }, valFn(r))))));
+    el("tbody", {}, ...rows.map((r) => el("tr", {}, el("td", { class: "pl" }, playerLink(state.tour, r.name)), el("td", { class: "num pos" }, valFn(r))))));
 
   function topBy(scope, key, n = 10, desc = true) {
     const rows = [...(boards[state.tour]?.[scope] || [])];
@@ -313,6 +339,241 @@ function renderCompare() {
 }
 
 /* ===========================================================
+   HOME
+   =========================================================== */
+async function renderHome() {
+  const [data, meta, boards] = await Promise.all([getJSON("data/predictions.json"), getJSON("data/meta.json"), getJSON("data/ratings.json")]);
+  const fr = document.getElementById("freshness");
+  if (meta && fr) fr.textContent = `Model-priced ATP & WTA tennis — singles and doubles. Updated ${meta.generated}, rebuilt every 3 hours.`;
+  const wrap = document.getElementById("content");
+  const fx = (data && data.fixtures) || [];
+  const atpBt = (meta?.backtest || []).find((b) => b.tour === "atp");
+  const nPlayers = meta ? (meta.n_players.atp + meta.n_players.wta) : "—";
+
+  // KPI strip
+  wrap.append(el("div", { class: "panel" }, el("div", { class: "kpis" },
+    el("div", { class: "kpi pos" }, el("b", {}, fx.length), el("i", {}, "Matches priced")),
+    el("div", { class: "kpi" }, el("b", {}, nPlayers), el("i", {}, "Players rated")),
+    el("div", { class: "kpi" }, el("b", {}, atpBt ? `${(atpBt.accuracy*100).toFixed(0)}%` : "—"), el("i", {}, "ATP backtest acc")),
+    el("div", { class: "kpi" }, el("b", {}, atpBt ? atpBt.log_loss : "—"), el("i", {}, "ATP log-loss")))));
+
+  // quick links
+  const card = (href, title, desc) => el("a", { class: "navcard", href }, el("h4", {}, title), el("p", { class: "mut" }, desc));
+  wrap.append(el("div", { class: "grid3 navcards" },
+    card("matches.html", "Matches →", "Every upcoming match, fully priced across the market book."),
+    card("rankings.html", "Rankings →", "Serve & return ratings by tour and surface."),
+    card("lab.html", "Model Lab →", "Build any singles or doubles match-up live."),
+    card("schedule.html", "Schedule →", "Tournaments currently in the model."),
+    card("analysis.html", "Analysis →", "Form, leaders and surface specialists."),
+    card("games.html", "Games →", "Beat the model and test your tennis IQ.")));
+
+  // featured matches: most lopsided + closest, a handful
+  if (fx.length) {
+    const singles = fx.filter((f) => f.format !== "doubles");
+    const featured = [...singles].sort((a, b) => Math.max(b.win_prob_1,b.win_prob_2) - Math.max(a.win_prob_1,a.win_prob_2)).slice(0, 6);
+    wrap.append(el("div", { class: "group-head" }, el("h2", {}, "Standout matches"), el("a", { href: "matches.html" }, "All matches →")));
+    const table = el("table", {}, el("thead", {}, el("tr", {},
+      el("th", { class: "pl" }, "Match"), el("th", {}, "Event"), el("th", {}, "Surface"), el("th", {}, "Win prob"), el("th", {}, "Fair"))),
+      el("tbody", {}, ...featured.map((f) => {
+        const aFav = f.win_prob_1 >= f.win_prob_2;
+        const tr = el("tr", { class: "click" },
+          el("td", { class: "pl" },
+            el("div", { class: aFav ? "fav" : "" }, el("b", {}, f.player1), " ", el("span", { class: "mut" }, fmtPct(f.win_prob_1))),
+            el("div", { class: !aFav ? "fav" : "" }, el("b", {}, f.player2), " ", el("span", { class: "mut" }, fmtPct(f.win_prob_2)))),
+          el("td", { class: "mut" }, f.tournament), el("td", {}, el("span", { class: "pill surf-" + f.surface }, f.surface)),
+          el("td", {}, miniBar(Math.max(f.win_prob_1, f.win_prob_2))), el("td", { class: "num" }, `${f.fair_odds_1} / ${f.fair_odds_2}`));
+        if (f.markets) tr.onclick = () => openDetail(f);
+        return tr;
+      })));
+    wrap.append(el("div", { class: "match" }, el("div", { class: "tablewrap" }, table)));
+  }
+
+  // top of the rankings
+  if (boards) {
+    const mini = (tour) => el("div", { class: "subcard" }, el("h4", {}, `${TOUR_LABEL[tour]} top 8`),
+      el("table", {}, el("tbody", {}, ...(boards[tour]?.overall || []).slice(0, 8).map((r) =>
+        el("tr", {}, el("td", { class: "mut" }, r.rank), el("td", { class: "pl" }, playerLink(tour, r.name)), el("td", { class: "num pos" }, r.pr.toFixed(1)))))));
+    wrap.append(el("div", { class: "group-head" }, el("h2", {}, "Top of the rankings"), el("a", { href: "rankings.html" }, "Full rankings →")));
+    wrap.append(el("div", { class: "grid2" }, mini("atp"), mini("wta")));
+  }
+}
+
+/* ===========================================================
+   SCHEDULE
+   =========================================================== */
+async function renderSchedule() {
+  const data = await getJSON("data/predictions.json");
+  const wrap = document.getElementById("content");
+  const fx = (data && data.fixtures) || [];
+  if (!fx.length) { wrap.append(el("p", { class: "muted" }, "No tournaments in the model right now.")); return; }
+  const byT = new Map();
+  fx.forEach((f) => {
+    if (!byT.has(f.tournament)) byT.set(f.tournament, { surface: f.surface, tours: new Set(), dmin: f.date, dmax: f.date, n: 0, dbl: 0 });
+    const t = byT.get(f.tournament);
+    t.tours.add(TOUR_LABEL[f.tour]); t.n++; if (f.format === "doubles") t.dbl++;
+    if (f.date && (!t.dmin || f.date < t.dmin)) t.dmin = f.date;
+    if (f.date && (!t.dmax || f.date > t.dmax)) t.dmax = f.date;
+  });
+  const rows = [...byT.entries()].sort((a, b) => b[1].n - a[1].n);
+  const table = el("table", {}, el("thead", {}, el("tr", {},
+    el("th", { class: "pl" }, "Tournament"), el("th", {}, "Tour"), el("th", {}, "Surface"),
+    el("th", {}, "Dates"), el("th", {}, "Matches"), el("th", {}, ""))),
+    el("tbody", {}, ...rows.map(([name, t]) => el("tr", { class: "click", onclick: () => location.href = `matches.html?t=${encodeURIComponent(name)}` },
+      el("td", { class: "pl" }, el("b", {}, name)),
+      el("td", { class: "mut" }, [...t.tours].join(" + ")),
+      el("td", {}, el("span", { class: "pill surf-" + t.surface }, t.surface)),
+      el("td", { class: "mut" }, t.dmin === t.dmax ? fmtDate(t.dmin) : `${fmtDate(t.dmin)} → ${fmtDate(t.dmax)}`),
+      el("td", { class: "num" }, t.n + (t.dbl ? ` (${t.dbl} dbl)` : "")),
+      el("td", {}, el("span", { class: "mut" }, "View →"))))));
+  wrap.append(el("div", { class: "match" }, el("div", { class: "tablewrap" }, table)));
+}
+
+/* ===========================================================
+   PLAYER
+   =========================================================== */
+async function renderPlayer() {
+  const params = new URLSearchParams(location.search);
+  const tour = params.get("tour") || "atp";
+  const name = params.get("name") || "";
+  const wrap = document.getElementById("content");
+  const data = await getJSON(`data/players-${tour}.json`);
+  const p = data && data[name];
+  if (!p) { wrap.append(el("div", { class: "hero" }, el("h1", {}, name || "Player")), el("p", { class: "muted" }, "No profile found for this player.")); return; }
+  document.title = `${name} · Grand Slam Tennis`;
+
+  wrap.append(el("div", { class: "hero" },
+    el("h1", {}, name),
+    el("p", { class: "muted" }, `${TOUR_LABEL[tour]}${p.rank ? ` · PR rank #${p.rank}` : ""} · career charted record ${record(p.record.overall)}`)));
+
+  // surface stat table
+  const SC = [["overall", "All surfaces"], ["Hard", "Hard"], ["Clay", "Clay"], ["Grass", "Grass"]];
+  const stat = el("table", {}, el("thead", {}, el("tr", {},
+    el("th", { class: "pl" }, "Surface"), el("th", {}, "Rating"), el("th", {}, "Serve W%"), el("th", {}, "Return W%"),
+    el("th", {}, "Ace%"), el("th", {}, "DF%"), el("th", {}, "Record"))),
+    el("tbody", {}, ...SC.filter(([k]) => p.profile[k]).map(([k, label]) => {
+      const s = p.profile[k];
+      return el("tr", {},
+        el("td", { class: "pl" }, k === "overall" ? el("b", {}, label) : el("span", { class: "pill surf-" + k }, label)),
+        el("td", { class: "num pos" }, s.pr.toFixed(1)),
+        el("td", { class: "num" }, fmtPct(s.spw)), el("td", { class: "num" }, fmtPct(s.rpw)),
+        el("td", { class: "num mut" }, fmtPct(s.ace_rate)), el("td", { class: "num mut" }, fmtPct(s.df_rate)),
+        el("td", { class: "num mut" }, record(p.record[k] || [0, 0])));
+    })));
+  wrap.append(el("div", { class: "group-head" }, el("h2", {}, "Form by surface")),
+    el("div", { class: "match" }, el("div", { class: "tablewrap" }, stat)));
+
+  // recent results
+  if (p.recent.length) {
+    const rt = el("table", {}, el("thead", {}, el("tr", {},
+      el("th", { class: "pl" }, "Date"), el("th", {}, "Result"), el("th", { class: "pl" }, "Opponent"),
+      el("th", {}, "Surface"), el("th", { class: "pl" }, "Event"), el("th", {}, "Round"))),
+      el("tbody", {}, ...p.recent.map((m) => el("tr", {},
+        el("td", { class: "mut" }, fmtDate(String(m.date))),
+        el("td", { class: m.result === "W" ? "pos" : "mut" }, el("b", {}, m.result)),
+        el("td", { class: "pl" }, playerLink(tour, m.opp)),
+        el("td", {}, el("span", { class: "pill surf-" + m.surface }, m.surface)),
+        el("td", { class: "pl mut" }, m.tournament || ""), el("td", { class: "mut" }, m.round || "")))));
+    wrap.append(el("div", { class: "group-head" }, el("h2", {}, "Recent results"), el("span", { class: "muted" }, `${p.recent.length} matches`)),
+      el("div", { class: "match" }, el("div", { class: "tablewrap" }, rt)));
+  }
+}
+
+/* ===========================================================
+   GAMES
+   =========================================================== */
+async function renderGames() {
+  const wrap = document.getElementById("content");
+  const tabs = el("div", { class: "tabs" });
+  const pane = el("div", { style: "margin-top:16px" });
+  const games = [["hl", "Higher or Lower"], ["btm", "Beat the Model"]];
+  let active = "hl";
+  games.forEach(([id, label]) => {
+    const b = el("button", { class: id === active ? "on" : "", "data-g": id }, label);
+    b.onclick = () => { active = id; [...tabs.children].forEach((c) => c.classList.toggle("on", c.dataset.g === id)); load(); };
+    tabs.append(b);
+  });
+  wrap.append(tabs, pane);
+  function load() { pane.replaceChildren(); (active === "hl" ? gameHigherLower : gameBeatModel)(pane); }
+  load();
+}
+
+async function gameHigherLower(pane) {
+  const boards = await getJSON("data/ratings.json");
+  if (!boards) { pane.append(el("p", { class: "muted" }, "Data unavailable.")); return; }
+  const pool = [...(boards.atp?.overall || []), ...(boards.wta?.overall || [])].filter((r) => r.serve_pts > 400);
+  const STATS = [["pr", "Points Rating", (v) => v.toFixed(1)], ["spw", "serve points won", fmtPct], ["rpw", "return points won", fmtPct], ["ace_rate", "ace rate", fmtPct]];
+  let score = 0, streak = 0, best = 0;
+  const pick = () => { let a = pool[(Math.random()*pool.length)|0], b = pool[(Math.random()*pool.length)|0]; let g=0; while (b === a && g++ < 9) b = pool[(Math.random()*pool.length)|0]; return [a, b, STATS[(Math.random()*STATS.length)|0]]; };
+  let [A, B, S] = pick();
+  const scoreLine = el("div", { class: "kpis", style: "margin-bottom:14px" });
+  const board = el("div", { class: "card", style: "padding:18px" });
+  const render = () => {
+    scoreLine.replaceChildren(
+      el("div", { class: "kpi pos" }, el("b", {}, score), el("i", {}, "Score")),
+      el("div", { class: "kpi" }, el("b", {}, streak), el("i", {}, "Streak")),
+      el("div", { class: "kpi" }, el("b", {}, best), el("i", {}, "Best")));
+    const [key, label] = S;
+    const btn = (pl) => { const b = el("button", { class: "go", style: "margin:6px 0" }, pl.name); b.onclick = () => guess(pl); return b; };
+    board.replaceChildren(
+      el("p", { class: "lead", style: "text-align:center;font-size:16px" }, `Who has the higher ${label}?`),
+      el("div", { class: "grid2" }, btn(A), btn(B)));
+  };
+  const guess = (choice) => {
+    const [key] = S; const other = choice === A ? B : A;
+    const correct = choice[key] >= other[key];
+    if (correct) { score++; streak++; best = Math.max(best, streak); } else { streak = 0; }
+    board.replaceChildren(el("div", { class: "panel", style: "text-align:center;margin:0" },
+      el("h3", { style: "justify-content:center" }, correct ? "✓ Correct" : "✗ Nope"),
+      el("p", {}, `${A.name}: ${S[2](A[S[0]])} · ${B.name}: ${S[2](B[S[0]])}`),
+      el("button", { class: "go", style: "max-width:220px;margin:8px auto 0", onclick: () => { [A, B, S] = pick(); render(); } }, "Next →")));
+    scoreLine.replaceChildren(
+      el("div", { class: "kpi pos" }, el("b", {}, score), el("i", {}, "Score")),
+      el("div", { class: "kpi" }, el("b", {}, streak), el("i", {}, "Streak")),
+      el("div", { class: "kpi" }, el("b", {}, best), el("i", {}, "Best")));
+  };
+  pane.append(el("div", { class: "panel" }, el("h3", {}, "Higher or Lower ", el("span", { class: "tag" }, "serve & return")),
+    el("p", { class: "lead" }, "Pick the player who rates higher on a random stat. Build your streak."),
+    scoreLine, board));
+  render();
+}
+
+async function gameBeatModel(pane) {
+  const data = await getJSON("data/predictions.json");
+  const singles = ((data && data.fixtures) || []).filter((f) => f.format !== "doubles");
+  if (!singles.length) { pane.append(el("p", { class: "muted" }, "No matches to play right now.")); return; }
+  const slate = singles.slice().sort(() => 0.5 - Math.random()).slice(0, 8);
+  let agree = 0, done = 0;
+  const tally = el("div", { class: "kpis", style: "margin-bottom:14px" });
+  const updateTally = () => tally.replaceChildren(
+    el("div", { class: "kpi pos" }, el("b", {}, `${agree}/${done}`), el("i", {}, "Agreed with model")),
+    el("div", { class: "kpi" }, el("b", {}, `${slate.length - done}`), el("i", {}, "Remaining")));
+  const list = el("div", {});
+  slate.forEach((f, i) => {
+    const item = el("div", { class: "subcard", style: "margin:10px 0" });
+    const head = el("div", { class: "mut", style: "font-size:12px;margin-bottom:8px" }, `${f.tournament} · ${f.round} · ${f.surface}`);
+    const btn = (name, which) => { const b = el("button", { class: "go", style: "margin:4px 0" }, name); b.onclick = () => reveal(which, b); return b; };
+    const choices = el("div", { class: "grid2" }, btn(f.player1, 1), btn(f.player2, 2));
+    item.append(head, choices);
+    list.append(item);
+    function reveal(which, b) {
+      const modelFav = f.win_prob_1 >= f.win_prob_2 ? 1 : 2;
+      const matched = which === modelFav;
+      if (matched) agree++; done++;
+      const fp = modelFav === 1 ? f.player1 : f.player2;
+      const fprob = Math.max(f.win_prob_1, f.win_prob_2);
+      item.replaceChildren(head, el("div", { class: matched ? "pos" : "mut", style: "font-weight:600" },
+        `${matched ? "✓ You agree" : "✗ You differ"} — model: ${fp} ${fmtPct(fprob)} (${fmtOdds(fprob)})`),
+        el("div", { class: "mut", style: "font-size:12.5px;margin-top:4px" }, `You picked ${which === 1 ? f.player1 : f.player2}`));
+      updateTally();
+    }
+  });
+  pane.append(el("div", { class: "panel" }, el("h3", {}, "Beat the Model ", el("span", { class: "tag" }, "pick'em")),
+    el("p", { class: "lead" }, "Pick the winner of each match, then see who the model favours. How often do you agree?"),
+    tally, list));
+  updateTally();
+}
+
+/* ===========================================================
    Shared: detail modal + market grids
    =========================================================== */
 function mktCard(title, rows) {
@@ -397,5 +658,7 @@ function openDetail(f) {
 
 /* ---------- router ---------- */
 const page = document.body.dataset.page;
-({ matches: renderMatches, rankings: renderRankings, analysis: renderAnalysis,
-   backtest: renderBacktest, lab: renderLab, compare: renderCompare }[page] || (() => {}))();
+chrome(page);
+({ home: renderHome, matches: renderMatches, schedule: renderSchedule, rankings: renderRankings,
+   analysis: renderAnalysis, games: renderGames, backtest: renderBacktest, lab: renderLab,
+   compare: renderCompare, player: renderPlayer }[page] || (() => {}))();

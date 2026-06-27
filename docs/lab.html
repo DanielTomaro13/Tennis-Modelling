@@ -7,31 +7,12 @@
 <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body data-page="lab">
-<header><div class="wrap">
-  <a class="brand" href="index.html">Grand Slam <span>Tennis</span></a>
-  <nav>
-    <a href="index.html">Matches</a>
-    <a href="rankings.html">Rankings</a>
-    <a href="analysis.html">Analysis</a>
-    <a href="backtest.html">Backtest</a>
-    <a class="on" href="lab.html">Model Lab</a>
-    <a href="compare.html">Compare odds</a>
-  </nav>
-</div></header>
-
+<div id="app-header"></div>
 <main class="wrap">
-  <div class="hero">
-    <h1>Model Lab</h1>
-    <p class="muted">Pick any match-up — singles or doubles — on any surface. The full
-       point&rarr;game&rarr;set&rarr;match engine runs live in your browser to price every market.</p>
-  </div>
+  <div class="hero"><h1>Model Lab</h1><p class="muted" id="">Pick any match-up — singles or doubles — on any surface. The full point→game→set→match engine runs live in your browser.</p></div>
   <div id="content"></div>
 </main>
-
-<footer><div class="wrap">
-  <p>Modelled from the <a href="https://github.com/JeffSackmann/tennis_MatchChartingProject">Match Charting Project</a>. For research only — not betting advice.</p>
-</div></footer>
-
+<div id="app-footer"></div>
 <script type="module" src="assets/app.js"></script>
 </body>
 </html>

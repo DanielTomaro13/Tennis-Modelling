@@ -10,7 +10,7 @@ from __future__ import annotations
 import sys
 import time
 
-from . import build_site, evaluate, features, ingest, predict, ratings, scrape_schedule, util
+from . import build_site, evaluate, features, ingest, players, predict, ratings, scrape_schedule, util
 
 
 def run(quick: bool = False) -> int:
@@ -43,7 +43,13 @@ def run(quick: bool = False) -> int:
     util.log("=== 6/7 predict ===")
     predict.main([])
 
-    util.log("=== 7/7 build site ===")
+    util.log("=== 7/8 player stats ===")
+    try:
+        players.run(cfg)
+    except Exception as exc:  # noqa: BLE001
+        util.log(f"run_daily: player stats skipped ({exc})")
+
+    util.log("=== 8/8 build site ===")
     build_site.main([])
 
     util.log(f"run_daily: done in {time.time() - t0:.1f}s")
