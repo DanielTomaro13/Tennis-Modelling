@@ -328,6 +328,56 @@ def _poisson_cdf(k: int, mean: float) -> float:
     return min(1.0, cdf)
 
 
+def distributions(prof_a: dict, prof_b: dict, league: dict, best_of: int = 3) -> dict:
+    """Raw model distributions so odds.py can price ANY book line exactly."""
+    from collections import defaultdict
+
+    p_a, p_b = point_probs(prof_a, prof_b, league)
+    sets_to_win = 3 if best_of == 5 else 2
+    set_even = set_distribution(p_a, p_b, first="A")
+    set_odd = set_distribution(p_a, p_b, first="B")
+
+    state = defaultdict(float)
+    state[(0, 0, 0, 0)] = 1.0
+    final = defaultdict(float)
+    for si in range(2 * sets_to_win - 1):
+        nxt = defaultdict(float)
+        base = set_even if si % 2 == 0 else set_odd
+        for (sa, sb, ga, gb), prob in state.items():
+            if sa == sets_to_win or sb == sets_to_win:
+                final[(sa, sb, ga, gb)] += prob
+                continue
+            for spr, sga, sgb, _ in base:
+                a_won = sga > sgb
+                nxt[(sa + (1 if a_won else 0), sb + (0 if a_won else 1), ga + sga, gb + sgb)] += prob * spr
+        state = nxt
+    for k, prob in state.items():
+        final[k] += prob
+
+    set_score = defaultdict(float)
+    games_dist = defaultdict(float)
+    margin_dist = defaultdict(float)
+    ega = egb = 0.0
+    for (sa, sb, ga, gb), pr in final.items():
+        set_score[f"{sa}-{sb}"] += pr
+        games_dist[ga + gb] += pr
+        margin_dist[ga - gb] += pr
+        ega += pr * ga
+        egb += pr * gb
+
+    set1 = sum(p for p, sga, sgb, _ in set_even if sga > sgb)
+    set2 = sum(p for p, sga, sgb, _ in set_odd if sga > sgb)
+    epg_a, epg_b = game_expected_points(p_a), game_expected_points(p_b)
+    return {
+        "set_score": dict(set_score),
+        "set1_win_a": set1, "set2_win_a": set2,
+        "games_dist": dict(games_dist), "margin_dist": dict(margin_dist),
+        "exp_games_a": ega, "exp_games_b": egb,
+        "ace_mean_a": prof_a["ace_rate"] * ega * epg_a, "ace_mean_b": prof_b["ace_rate"] * egb * epg_b,
+        "df_mean_a": prof_a["df_rate"] * ega * epg_a, "df_mean_b": prof_b["df_rate"] * egb * epg_b,
+    }
+
+
 def team_profile(p1: dict, p2: dict) -> dict:
     """Average two players' singles profiles into one doubles-team profile."""
     keys = ("spw", "rpw", "ace_rate", "df_rate", "pr")
