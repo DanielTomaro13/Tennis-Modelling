@@ -32,6 +32,11 @@ def resolve_name(raw: str, index: dict[str, str], threshold: float) -> str | Non
     if key in index:
         return index[key]
     parts = key.split()
+    # Some feeds give Asian names surname-first ("Wu Yibing", "Zheng Qinwen")
+    # while the profiles store them given-first ("Yibing Wu", "Qinwen Zheng").
+    # Try the swapped two-token order as an exact match before fuzzy scoring.
+    if len(parts) == 2 and f"{parts[1]} {parts[0]}" in index:
+        return index[f"{parts[1]} {parts[0]}"]
     surname = parts[-1] if parts else key
     best, best_score = None, 0.0
     for nkey, canon in index.items():
