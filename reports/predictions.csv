@@ -1,6 +1,4 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-wta,,Wimbledon,Grass,Round 1,Xin Yu Wang,Elisabetta Cocciaretto,0.38,0.62,2.63,1.61,24.67,0.3593,3.34,3.56,3.32,4.17,tennis.com
-wta,,Wimbledon,Grass,Round 1,Bianca Andreescu,Shuai Zhang,0.5743,0.4257,1.74,2.35,24.79,0.3662,3.6,3.43,3.91,3.78,tennis.com
 atp,20260629,Wimbledon,Grass,Round 1,Miomir Kecmanovic,Jannik Sinner,0.0581,0.9419,17.22,1.06,36.37,0.5335,8.78,13.18,2.7,3.35,espn
 atp,20260629,Wimbledon,Grass,Round 1,Alexander Shevchenko,Felix Auger Aliassime,0.2419,0.7581,4.13,1.32,40.98,0.6327,12.25,16.46,4.13,4.45,espn
 atp,20260629,Wimbledon,Grass,Round 1,Tommy Paul,Alexandre Muller,0.7576,0.2424,1.32,4.12,40.88,0.629,11.46,10.42,3.77,4.13,espn
@@ -52,7 +50,6 @@ atp,20260630,Wimbledon,Grass,Round 1,Quentin Halys,Matteo Arnaldi,0.33,0.67,3.03
 atp,20260630,Wimbledon,Grass,Round 1,Daniel Altmaier,Alex Molcan,0.3411,0.6589,2.93,1.52,41.53,0.6138,13.19,8.64,3.98,4.49,espn
 atp,20260630,Wimbledon,Grass,Round 1,Zizou Bergs,Ugo Humbert,0.3542,0.6458,2.82,1.55,42.72,0.7087,13.72,13.62,5.46,4.27,espn
 atp,20260630,Wimbledon,Grass,Round 1,Tomas Martin Etcheverry,Lorenzo Sonego,0.6398,0.3602,1.56,2.78,42.54,0.6946,12.55,12.45,3.59,3.26,espn
-atp,20260630,Wimbledon,Grass,Round 1,Zachary Svajda,Mattia Bellucci,0.3604,0.6396,2.77,1.56,42.42,0.6804,9.97,10.46,3.91,5.06,espn
 atp,20260630,Wimbledon,Grass,Round 1,Jan Choinski,Vit Kopriva,0.3831,0.6169,2.61,1.62,42.01,0.6381,13.08,13.49,4.25,4.83,espn
 atp,20260630,Wimbledon,Grass,Round 1,Lloyd Harris,Karen Khachanov,0.3904,0.6096,2.56,1.64,42.5,0.678,15.73,12.65,4.51,4.34,espn
 atp,20260630,Wimbledon,Grass,Round 1,Ben Shelton,Otto Virtanen,0.6003,0.3997,1.67,2.5,43.36,0.7459,17.91,13.08,5.47,4.38,espn
