@@ -1,4 +1,6 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+wta,,Wimbledon,Grass,Round 1,Xin Yu Wang,Elisabetta Cocciaretto,0.38,0.62,2.63,1.61,24.67,0.3593,3.34,3.56,3.32,4.17,tennis.com
+wta,,Wimbledon,Grass,Round 1,Bianca Andreescu,Shuai Zhang,0.5743,0.4257,1.74,2.35,24.79,0.3662,3.6,3.43,3.91,3.78,tennis.com
 atp,20260629,Wimbledon,Grass,Round 1,Miomir Kecmanovic,Jannik Sinner,0.0581,0.9419,17.22,1.06,36.37,0.5335,8.78,13.18,2.7,3.35,espn
 atp,20260629,Wimbledon,Grass,Round 1,Alexander Shevchenko,Felix Auger Aliassime,0.2419,0.7581,4.13,1.32,40.98,0.6327,12.25,16.46,4.13,4.45,espn
 atp,20260629,Wimbledon,Grass,Round 1,Tommy Paul,Alexandre Muller,0.7576,0.2424,1.32,4.12,40.88,0.629,11.46,10.42,3.77,4.13,espn
