@@ -150,7 +150,10 @@ def ensure_dir(path: str) -> str:
     return path
 
 
-def http_get(url: str, retries: int = 3, timeout: int = 120) -> bytes:
+def http_get(url: str, retries: int = 5, timeout: int = 120) -> bytes:
+    # raw.githubusercontent.com intermittently returns transient 400/5xx under
+    # load (esp. for large repos like the Match Charting Project), so retry a
+    # few times with backoff before giving up.
     last = None
     for attempt in range(retries):
         try:

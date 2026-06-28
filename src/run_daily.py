@@ -18,9 +18,15 @@ def run(quick: bool = False) -> int:
     t0 = time.time()
 
     util.log("=== 1/7 ingest ===")
-    ingest.download_core(cfg)
-    if not quick:
-        ingest.derive_winners(cfg)
+    # Best-effort: a transient source outage (e.g. raw.githubusercontent.com
+    # flaking) must not abort the run — downstream stages fall back to the
+    # cached CSVs from the last good ingest, so predict + odds still refresh.
+    try:
+        ingest.download_core(cfg)
+        if not quick:
+            ingest.derive_winners(cfg)
+    except Exception as exc:  # noqa: BLE001
+        util.log(f"run_daily: ingest failed, using cached data ({exc})")
 
     util.log("=== 2/7 features ===")
     features.main([])  # build profiles
