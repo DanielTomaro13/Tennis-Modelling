@@ -403,7 +403,10 @@ function oddsEmpty(wrap, what) {
     el("p", { class: "muted" }, "Every match still shows the model's fair price on the Matches page.")));
 }
 
-const pairKey = (tour, a, b) => `${tour}|${[a.toLowerCase(), b.toLowerCase()].sort().join("~")}`;
+// Normalise with pnorm (strips accents, hyphens, spaces) so book names like
+// "Marin Čilić" / "Felix Auger-Aliassime" match the model's "Marin Cilic" /
+// "Felix Auger Aliassime". pnorm is hoisted (function decl below).
+const pairKey = (tour, a, b) => `${tour}|${[pnorm(a), pnorm(b)].sort().join("~")}`;
 
 // flatten odds.json -> one row per priced selection (carry players for the model modal)
 function oddsRows(data) {
