@@ -514,6 +514,13 @@ def run(cfg):
         out_matches.append({**{k: f[k] for k in ("tour", "date", "tournament", "round", "surface", "player1", "player2")},
                             "thin": thin, "markets": ordered})
 
+    # Don't overwrite a good board with an empty one: the AU books geo-block
+    # non-AU IPs (e.g. GitHub's US runners), so a CI run scrapes nothing. In
+    # that case keep the last good odds.json rather than blanking the site.
+    if not out_matches:
+        util.log("odds: no matches priced (likely geo-block / books down) — keeping existing odds.json")
+        return
+
     util.write_json(util.abspath(os.path.join(dd, "odds.json")),
                     {"generated": _now(), "books": sorted(books_present), "count": len(out_matches), "matches": out_matches})
     util.log(f"odds: {len(out_matches)} matches priced across {sorted(books_present)}")
