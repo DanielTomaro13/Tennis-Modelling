@@ -97,8 +97,9 @@ def _which(sel, fp1, fp2):
 # --------------------------------------------------------------------------- #
 MARKET_LABEL = {"mw": "Match winner", "sb": "Set betting", "s1": "1st set winner",
                 "s2": "2nd set winner", "tg": "Total games", "gh": "Games handicap",
-                "sh": "Set handicap"}
-MARKET_ORDER = ["mw", "sb", "s1", "s2", "tg", "gh", "sh"]
+                "sh": "Set handicap", "pg": "Player games", "pa": "Player aces",
+                "pd": "Player double faults", "ma": "Most aces", "md": "Most double faults"}
+MARKET_ORDER = ["mw", "sb", "s1", "s2", "tg", "gh", "sh", "pg", "pa", "pd", "ma", "md"]
 
 
 def parse_market(name, selections, fp1, fp2):
@@ -152,7 +153,52 @@ def parse_market(name, selections, fp1, fp2):
             if w and m:
                 line = float(m.group(1))
                 emit(f"sh|{w}|{line}", f"{fp1 if w == 1 else fp2} {line:+g} sets", pr)
+    # --- player props (priced off the model's per-player projections) ---
+    elif "most" in low and "ace" in low:          # "Player most Aces" (3-way: p1/p2/draw)
+        for sn, pr in selections:
+            if "draw" in sn.lower() or "tie" in sn.lower():
+                emit("ma|tie", "Most aces — tie", pr)
+            else:
+                w = _which(sn, fp1, fp2)
+                if w:
+                    emit(f"ma|{w}", f"{fp1 if w == 1 else fp2} most aces", pr)
+    elif "most" in low and "double fault" in low:  # "Player most Double Faults" (3-way)
+        for sn, pr in selections:
+            if "draw" in sn.lower() or "tie" in sn.lower():
+                emit("md|tie", "Most double faults — tie", pr)
+            else:
+                w = _which(sn, fp1, fp2)
+                if w:
+                    emit(f"md|{w}", f"{fp1 if w == 1 else fp2} most double faults", pr)
+    elif "aces" in low:                            # per-player aces O/U ("Total {Player} Aces 8.5")
+        w = _which(name, fp1, fp2)                 # match-total ("Total Aces") has no player -> skipped
+        if w:
+            for sn, pr in selections:
+                side, line = _ou(sn)
+                if side:
+                    emit(f"pa|{w}|{side}|{line}", f"{fp1 if w == 1 else fp2} aces {'Over' if side == 'O' else 'Under'} {line:g}", pr)
+    elif "double fault" in low:                    # per-player double faults O/U
+        w = _which(name, fp1, fp2)
+        if w:
+            for sn, pr in selections:
+                side, line = _ou(sn)
+                if side:
+                    emit(f"pd|{w}|{side}|{line}", f"{fp1 if w == 1 else fp2} double faults {'Over' if side == 'O' else 'Under'} {line:g}", pr)
+    elif "total games" in low:                     # per-player games O/U (match total handled above)
+        w = _which(name, fp1, fp2)
+        if w:
+            for sn, pr in selections:
+                side, line = _ou(sn)
+                if side:
+                    emit(f"pg|{w}|{side}|{line}", f"{fp1 if w == 1 else fp2} games {'Over' if side == 'O' else 'Under'} {line:g}", pr)
     return out
+
+
+def _ou(sn):
+    """(side, line) from an Over/Under selection name, else (None, None)."""
+    side = "O" if "over" in (sn or "").lower() else "U" if "under" in (sn or "").lower() else None
+    m = NUM.search(sn or "")
+    return (side, abs(float(m.group(1)))) if side and m else (None, None)
 
 
 def model_price(sel_id, win1, win2, dist):
@@ -186,6 +232,42 @@ def model_price(sel_id, win1, win2, dist):
         if w == "1":
             return sum(p for key, p in ss.items() if smargin(key) > -line)
         return sum(p for key, p in ss.items() if smargin(key) < line)
+    return None
+
+
+def _interp_over(curve, line):
+    """P(over `line`) read off a model O/U curve {line: p_over | {over, under}}.
+    Returns None outside the modelled line range — never extrapolate a fake edge."""
+    pts = []
+    for k, v in (curve or {}).items():
+        p = v.get("over") if isinstance(v, dict) else v
+        if p is not None:
+            pts.append((float(k), float(p)))
+    pts.sort()
+    if not pts or line < pts[0][0] or line > pts[-1][0]:
+        return None
+    for (x0, y0), (x1, y1) in zip(pts, pts[1:]):
+        if x0 <= line <= x1:
+            return y0 if x1 == x0 else y0 + (y1 - y0) * (line - x0) / (x1 - x0)
+    return pts[-1][1]
+
+
+def prop_price(sel_id, markets):
+    """Model probability for a player-prop selection, read from the fixture's
+    pre-computed projections (predictions.json `markets`), not the sim `dist`."""
+    parts = sel_id.split("|")
+    k = parts[0]
+    if k in ("pa", "pd", "pg"):
+        w, side, line = parts[1], parts[2], float(parts[3])
+        suffix = "a" if w == "1" else "b"
+        key = {"pa": "aces_ou_", "pd": "df_ou_", "pg": "player_games_"}[k] + suffix
+        p_over = _interp_over((markets or {}).get(key), line)
+        if p_over is None:
+            return None
+        return p_over if side == "O" else 1 - p_over
+    if k in ("ma", "md"):
+        m = (markets or {}).get("most_aces" if k == "ma" else "most_df") or {}
+        return {"1": m.get("a"), "2": m.get("b"), "tie": m.get("tie")}.get(parts[1])
     return None
 
 
@@ -393,7 +475,8 @@ def dab_events():
 
 # Dabble Pick'em — the multiplier game. Lives in its own "ATP/WTA Pick'em"
 # competitions as player-prop over lines ({player} {stat} {line}).
-DAB_PICKEM_STAT = {"total-games": "games", "aces": "aces", "double-faults": "doublefaults", "games": "games"}
+DAB_PICKEM_STAT = {"total-games": "games", "aces": "aces", "double-faults": "doublefaults",
+                   "games": "games", "break-points-won": "breaks"}
 
 
 def dab_pickem():
@@ -495,6 +578,8 @@ def run(cfg):
         markets = {}
         for sid, books in sel_books.items():
             mp = model_price(sid, win1, win2, dist)
+            if mp is None:
+                mp = prop_price(sid, f.get("markets") or {})
             if mp is None or mp <= 0:
                 continue
             best_price = max(books.values())

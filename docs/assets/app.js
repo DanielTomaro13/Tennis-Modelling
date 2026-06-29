@@ -595,9 +595,10 @@ async function renderPickem() {
     const isP1 = pnorm(l.player) === pnorm(fx.player1);
     if (l.stat === "aces") return isP1 ? m.exp_aces_a : m.exp_aces_b;
     if (l.stat === "doublefaults") return isP1 ? m.exp_df_a : m.exp_df_b;
+    if (l.stat === "breaks") return isP1 ? m.exp_breaks_a : m.exp_breaks_b;
     return null;
   };
-  const statName = { games: "Match total games", aces: "Aces", doublefaults: "Double faults" };
+  const statName = { games: "Match total games", aces: "Aces", doublefaults: "Double faults", breaks: "Break points won" };
 
   const state = { tour: "all", stat: "all", sort: null, dir: -1, _get: null };
   const stats = [...new Set(lines.lines.map((l) => l.stat))];
