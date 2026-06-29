@@ -1,16 +1,14 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+atp,,Wimbledon,Grass,Round 1,Taylor Fritz,Jack Draper,0.4546,0.5454,2.2,1.83,43.94,0.7772,18.92,15.36,3.4,4.88,tennis.com
 atp,,ATP Challenger Quito,Grass,Round 1,Juan Pablo Varillas,Dmitry Popko,0.4737,0.5263,2.11,1.9,25.27,0.4202,6.05,5.88,2.44,3.04,tennis.com
 atp,20260629,Wimbledon,Grass,Round 1,Novak Djokovic,Yibing Wu,0.8645,0.1355,1.16,7.38,38.92,0.5918,14.93,11.32,3.62,3.69,espn
 atp,20260629,Wimbledon,Grass,Round 1,Alexander Shevchenko,Felix Auger Aliassime,0.2419,0.7581,4.13,1.32,40.98,0.6327,12.25,16.46,4.13,4.45,espn
 atp,20260629,Wimbledon,Grass,Round 1,Daniil Medvedev,Marin Cilic,0.7331,0.2669,1.36,3.75,41.73,0.6812,15.3,13.78,5.43,3.45,espn
 atp,20260629,Wimbledon,Grass,Round 1,Sebastian Baez,Jan Lennard Struff,0.2926,0.7074,3.42,1.41,40.78,0.5752,12.56,17.16,4.24,5.15,espn
-atp,20260629,Wimbledon,Grass,Round 1,Joao Fonseca,Roberto Bautista Agut,0.6257,0.3743,1.6,2.67,42.24,0.6643,12.03,9.59,3.99,3.37,espn
-atp,20260629,Wimbledon,Grass,Round 1,Luciano Darderi,Ethan Quinn,0.4188,0.5812,2.39,1.72,42.03,0.6303,9.92,14.09,4.66,5.02,espn
 atp,20260629,Wimbledon,Grass,Round 1,Stefanos Tsitsipas,Hugo Gaston,0.5809,0.4191,1.72,2.39,42.52,0.6738,14.48,13.37,4.34,4.5,espn
 atp,20260629,Wimbledon,Grass,Round 1,Juan Manuel Cerundolo,Alejandro Davidovich Fokina,0.4455,0.5545,2.24,1.8,42.09,0.6307,13.59,11.73,4.49,4.25,espn
 atp,20260629,Wimbledon,Grass,Round 1,Rinky Hijikata,Jesper De Jong,0.4485,0.5515,2.23,1.81,42.26,0.6451,12.22,16.69,4.57,6.37,espn
 atp,20260629,Wimbledon,Grass,Round 1,Nicolas Mejia,Adolfo Daniel Vallejo,0.5413,0.4587,1.85,2.18,42.04,0.6248,10.09,10.04,4.45,5.36,espn
-atp,20260629,Wimbledon,Grass,Round 1,Dino Prizmic,Adam Walton,0.5165,0.4835,1.94,2.07,43.22,0.7214,11.28,13.13,4.54,4.74,espn
 wta,20260629,Wimbledon,Grass,Round 1,Anastasia Zakharova,Karolina Muchova,0.2044,0.7956,4.89,1.26,23.63,0.3274,2.27,3.67,2.69,4.06,espn
 wta,20260629,Wimbledon,Grass,Round 1,Panna Udvardy,Ekaterina Alexandrova,0.2178,0.7822,4.59,1.28,23.73,0.3293,3.21,3.91,3.36,4.25,espn
 wta,20260629,Wimbledon,Grass,Round 1,Qinwen Zheng,Katerina Siniakova,0.765,0.235,1.31,4.26,23.41,0.2821,4.26,2.76,5.08,3.87,espn
@@ -23,9 +21,9 @@ wta,20260629,Wimbledon,Grass,Round 1,Aoi Ito,Dayana Yastremska,0.3978,0.6022,2.5
 wta,20260629,Wimbledon,Grass,Round 1,Mccartney Kessler,Oleksandra Oliynykova,0.562,0.438,1.78,2.28,24.37,0.3103,3.47,2.86,3.87,3.36,espn
 wta,20260629,Wimbledon,Grass,Round 1,Lilli Tagger,Lanlana Tararudee,0.5479,0.4521,1.83,2.21,24.44,0.3166,3.45,3.73,3.23,3.37,espn
 wta,20260629,Wimbledon,Grass,Round 1,Janice Tjen,Leylah Fernandez,0.5475,0.4525,1.83,2.21,24.63,0.3417,3.54,3.45,3.73,3.54,espn
-wta,20260629,Wimbledon,Grass,Round 1,Darja Semenistaja,Antonia Ruzic,0.5149,0.4851,1.94,2.06,24.42,0.3117,3.43,2.11,3.54,3.43,espn
 wta,20260629,Wimbledon,Grass,Round 1,Nikola Bartunkova,Peyton Stearns,0.4905,0.5095,2.04,1.96,24.46,0.3166,4.09,2.64,5.59,3.52,espn
 wta,20260629,Wimbledon,Grass,Round 1,Diane Parry,Francesca Jones,0.494,0.506,2.02,1.98,24.72,0.3492,2.82,3.31,3.73,4.43,espn
+atp,20260630,Wimbledon,Grass,Round 1,Dusan Lajovic,Taylor Fritz,0.198,0.802,5.05,1.25,41.67,0.731,12.4,18.82,4.02,3.38,espn
 atp,20260630,Wimbledon,Grass,Round 1,Arthur Fils,Raphael Collignon,0.7664,0.2336,1.3,4.28,40.65,0.6171,12.51,8.88,5.61,6.4,espn
 atp,20260630,Wimbledon,Grass,Round 1,Matteo Berrettini,Stan Wawrinka,0.7655,0.2345,1.31,4.26,41.27,0.6697,17.0,12.11,3.67,3.75,espn
 atp,20260630,Wimbledon,Grass,Round 1,James Duckworth,Tallon Griekspoor,0.2897,0.7103,3.45,1.41,42.33,0.7093,12.68,12.74,4.16,3.89,espn
@@ -42,7 +40,6 @@ atp,20260630,Wimbledon,Grass,Round 1,Harry Wendelken,Valentin Royer,0.5613,0.438
 atp,20260630,Wimbledon,Grass,Round 1,Vilius Gaubas,Kyrian Jacquet,0.5497,0.4503,1.82,2.22,41.75,0.5999,9.49,9.24,4.16,4.26,espn
 atp,20260630,Wimbledon,Grass,Round 1,Marcos Giron,Corentin Moutet,0.5496,0.4504,1.82,2.22,41.97,0.6197,13.57,13.25,4.39,3.99,espn
 atp,20260630,Wimbledon,Grass,Round 1,Alejandro Tabilo,Kamil Majchrzak,0.4512,0.5488,2.22,1.82,42.46,0.6615,13.62,11.5,4.57,3.32,espn
-atp,20260630,Wimbledon,Grass,Round 1,Jack Draper,Taylor Fritz,0.5454,0.4546,1.83,2.2,43.93,0.7772,15.44,18.81,4.91,3.38,espn
 atp,20260630,Wimbledon,Grass,Round 1,Flavio Cobolli,Mariano Navone,0.4548,0.5452,2.2,1.83,41.4,0.5671,12.95,14.0,4.02,4.86,espn
 atp,20260630,Wimbledon,Grass,Round 1,Alexei Popyrin,Jiri Lehecka,0.455,0.545,2.2,1.83,43.56,0.7497,16.11,15.81,4.58,5.83,espn
 atp,20260630,Wimbledon,Grass,Round 1,Gabriel Diallo,Benjamin Bonzi,0.457,0.543,2.19,1.84,43.11,0.7145,16.02,13.18,4.86,3.97,espn
@@ -73,7 +70,9 @@ wta,20260630,Wimbledon,Grass,Round 1,Karolina Pliskova,Tereza Valentova,0.5012,0
 atp,20260701,Wimbledon,Grass,Round 2,Ignacio Buse,Jenson Brooksby,0.3655,0.6345,2.74,1.58,41.85,0.631,10.08,12.29,4.18,3.91,espn
 atp,20260701,Wimbledon,Grass,Round 1,Benjamin Bonzi / Arthur Rinderknech,James Duckworth / Miomir Kecmanovic,0.6199,0.3801,1.61,2.63,20.47,0.4001,,,,,espn
 atp,20260701,Wimbledon,Grass,Round 2,Pablo Carreno Busta,Rafael Jodar,0.3817,0.6183,2.62,1.62,41.59,0.602,13.31,7.87,4.43,3.05,espn
+atp,20260701,Wimbledon,Grass,Round 2,Learner Tien,Marton Fucsovics,0.5729,0.4271,1.75,2.34,41.36,0.5691,9.63,13.0,6.27,4.49,espn
 wta,20260701,Wimbledon,Grass,Round 2,Sara Sorribes Tormo,Jessica Pegula,0.2162,0.7838,4.62,1.28,23.19,0.2672,2.8,3.71,3.31,3.84,espn
+wta,20260701,Wimbledon,Grass,Round 2,Iva Jovic,Tatjana Maria,0.5924,0.4076,1.69,2.45,24.42,0.3223,3.13,3.5,3.27,3.73,espn
 wta,20260702,Wimbledon,Grass,Round 1,Marie Bouzkova / Sara Sorribes Tormo,Anastasia Potapova / Lilli Tagger,0.3926,0.6074,2.55,1.65,19.36,0.2429,,,,,espn
 wta,20260702,Wimbledon,Grass,Round 1,Serena Williams / Venus Williams,Camila Osorio / Solana Sierra,0.602,0.398,1.66,2.51,19.51,0.2615,,,,,espn
 wta,20260702,Wimbledon,Grass,Round 1,Anhelina Kalinina / Dayana Yastremska,Sorana Cirstea / Anna Kalinskaya,0.4248,0.5752,2.35,1.74,19.52,0.2602,,,,,espn
