@@ -1,4 +1,5 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+atp,,ATP Challenger Quito,Grass,Round 1,Juan Pablo Varillas,Dmitry Popko,0.4737,0.5263,2.11,1.9,25.27,0.4202,6.05,5.88,2.44,3.04,tennis.com
 wta,,Wimbledon,Grass,Round 1,Xin Yu Wang,Elisabetta Cocciaretto,0.38,0.62,2.63,1.61,24.67,0.3593,3.34,3.56,3.32,4.17,tennis.com
 atp,20260629,Wimbledon,Grass,Round 1,Miomir Kecmanovic,Jannik Sinner,0.0581,0.9419,17.22,1.06,36.37,0.5335,8.78,13.18,2.7,3.35,espn
 atp,20260629,Wimbledon,Grass,Round 1,Novak Djokovic,Yibing Wu,0.8645,0.1355,1.16,7.38,38.92,0.5918,14.93,11.32,3.62,3.69,espn
