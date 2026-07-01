@@ -1,4 +1,5 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+wta,,Wimbledon,Grass,Round 2,Belinda Bencic,Xin Yu Wang,0.7753,0.2247,1.29,4.45,23.66,0.3206,3.16,2.97,3.96,2.95,tennis.com
 atp,20260701,Wimbledon,Grass,Round 2,Nuno Borges,Jannik Sinner,0.0803,0.9197,12.46,1.09,37.57,0.5771,10.43,13.4,2.81,3.41,espn
 atp,20260701,Wimbledon,Grass,Round 2,Novak Djokovic,Stefanos Tsitsipas,0.8504,0.1496,1.18,6.69,39.88,0.6528,14.86,12.0,3.6,3.6,espn
 atp,20260701,Wimbledon,Grass,Round 2,Martin Damm,Arthur Rinderknech,0.7403,0.2597,1.35,3.85,42.62,0.7563,16.88,15.76,4.9,4.39,espn
