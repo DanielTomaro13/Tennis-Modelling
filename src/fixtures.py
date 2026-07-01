@@ -22,9 +22,13 @@ def _norm(s: str) -> str:
     return _strip_accents((s or "").lower()).replace(".", " ").replace("-", " ").strip()
 
 
-def build_index(profiles_tour: dict) -> dict[str, str]:
-    """normalized name -> canonical profile name."""
-    return {_norm(name): name for name in profiles_tour["players"]}
+def build_index(profiles_tour: dict, extra_names: list[str] | None = None) -> dict[str, str]:
+    """normalized name -> canonical name. Profiles win collisions; extra names
+    (e.g. Elo-rated players without a charted serve profile) widen coverage so
+    a fixture can still be priced Elo-only."""
+    idx = {_norm(n): n for n in (extra_names or [])}
+    idx.update({_norm(name): name for name in profiles_tour["players"]})
+    return idx
 
 
 def resolve_name(raw: str, index: dict[str, str], threshold: float) -> str | None:
@@ -59,11 +63,12 @@ def load_csv(path: str) -> list[dict]:
         return list(csv.DictReader(fh))
 
 
-def load_fixtures(cfg: dict, profiles: dict) -> list[dict]:
+def load_fixtures(cfg: dict, profiles: dict, extra_names: dict[str, list[str]] | None = None) -> list[dict]:
     """Return resolved fixtures with canonical player names + matched flags."""
     rows = load_csv(util.abspath("data/fixtures.csv")) + load_csv(util.abspath(cfg["fixtures"]["manual_file"]))
     threshold = float(cfg["fixtures"]["match_threshold"])
-    indexes = {tour: build_index(profiles[tour]) for tour in profiles}
+    extra_names = extra_names or {}
+    indexes = {tour: build_index(profiles[tour], extra_names.get(tour)) for tour in profiles}
 
     resolved: list[dict] = []
     seen = set()

@@ -8,7 +8,7 @@
     <key>ProgramArguments</key>
     <array>
         <string>/bin/bash</string>
-        <string>/Users/danieltomaro/Documents/Projects/Tennis/scripts/odds-cron.sh</string>
+        <string>/Users/danieltomaro/Projects/Tennis/scripts/odds-cron.sh</string>
     </array>
 
     <!-- Every 3 hours (10800s). Missed runs (laptop asleep) fire once on wake. -->
@@ -19,8 +19,8 @@
     <false/>
 
     <key>StandardOutPath</key>
-    <string>/Users/danieltomaro/Documents/Projects/Tennis/scripts/launchd.out.log</string>
+    <string>/Users/danieltomaro/Projects/Tennis/scripts/launchd.out.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/danieltomaro/Documents/Projects/Tennis/scripts/launchd.err.log</string>
+    <string>/Users/danieltomaro/Projects/Tennis/scripts/launchd.err.log</string>
 </dict>
 </plist>

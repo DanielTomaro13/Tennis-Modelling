@@ -41,8 +41,13 @@ A reproducible Python pipeline built entirely from public data:
 
 ## Data sources
 
-- [Jeff Sackmann — `tennis_atp`](https://github.com/JeffSackmann/tennis_atp) and
-  [`tennis_wta`](https://github.com/JeffSackmann/tennis_wta) — match histories, players, rankings.
+- [tennis-data.co.uk](http://www.tennis-data.co.uk/) — every tour-level match since 2013
+  (winner, surface, best-of, closing odds) for Elo, player records and the backtest's
+  market baseline.
+- [Jeff Sackmann — Match Charting Project](https://github.com/JeffSackmann/tennis_MatchChartingProject)
+  — per-match serve/return aggregates for the serve profiles (the only public per-match
+  serve stats since the tour-level repos went private). Players with results but no
+  charted serve data are priced Elo-only from a league-average profile.
 - [tennis.com](https://www.tennis.com/) — upcoming order of play / schedule.
 - Methodology inspired by [Tennis Abstract](https://www.tennisabstract.com/).
 

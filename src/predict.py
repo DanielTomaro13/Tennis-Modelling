@@ -54,8 +54,14 @@ def project_fixture(cfg: dict, fx: dict, profiles_tour: dict, elo=None) -> dict:
     if fx.get("format") == "doubles":
         return project_doubles_fixture(cfg, fx, profiles_tour)
     league = profiles_tour["league"]
-    pa = profiles_tour["players"][fx["player1"]]
-    pb = profiles_tour["players"][fx["player2"]]
+    players = profiles_tour["players"]
+    # Elo-only fallback: a player with match results but no charted serve data
+    # gets a league-average profile; the headline prob then comes purely from
+    # Elo and the profile only shapes the derived markets around that anchor.
+    pa = players.get(fx["player1"]) or evaluate.default_profile(fx["player1"], league)
+    pb = players.get(fx["player2"]) or evaluate.default_profile(fx["player2"], league)
+    if (pa.get("_default") or pb.get("_default")) and elo is None:
+        raise KeyError(fx["player1"] if pa.get("_default") else fx["player2"])
     sa, sb = _scope(pa, fx["surface"]), _scope(pb, fx["surface"])
 
     # Elo-blended win prob + serve/return markets anchored to it.
@@ -64,6 +70,8 @@ def project_fixture(cfg: dict, fx: dict, profiles_tour: dict, elo=None) -> dict:
 
     return {
         **_common(fx), "format": "singles",
+        "default_profile_1": bool(pa.get("_default")),
+        "default_profile_2": bool(pb.get("_default")),
         "win_prob_1": round(win_a, 4),
         "win_prob_2": round(win_b, 4),
         "fair_odds_1": _fair(win_a),
@@ -88,11 +96,16 @@ def project_fixture(cfg: dict, fx: dict, profiles_tour: dict, elo=None) -> dict:
 def run(cfg: dict) -> list[dict]:
     models = cfg["paths"]["models_dir"]
     profiles = util.read_json(util.abspath(os.path.join(models, "profiles.json")))
-    fixtures = fixmod.load_fixtures(cfg, profiles)
     elos = {}
     for tour in cfg["tours"]:
         path = util.abspath(os.path.join(models, f"elo-{tour}.json"))
         elos[tour] = util.read_json(path) if os.path.exists(path) else None
+    # fixture name-resolution can also land on Elo-rated players without a
+    # charted profile (min matches gate keeps junk names out)
+    thin = int(cfg["sim"].get("thin_elo_matches", 10))
+    extra = {tour: [n for n, c in (elos[tour] or {}).get("played", {}).items() if c >= thin]
+             for tour in cfg["tours"]}
+    fixtures = fixmod.load_fixtures(cfg, profiles, extra_names=extra)
 
     preds = []
     for fx in fixtures:

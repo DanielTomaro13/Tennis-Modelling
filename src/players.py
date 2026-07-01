@@ -11,7 +11,7 @@ import csv
 import os
 import sys
 
-from . import ingest, util
+from . import util
 
 
 def _read_results(cfg: dict, tour: str) -> list[dict]:
@@ -23,7 +23,6 @@ def _read_results(cfg: dict, tour: str) -> list[dict]:
 
 
 def build_tour(cfg: dict, tour: str, profiles_tour: dict, ranks: dict) -> dict:
-    matches = ingest.load_matches(cfg, tour)
     results = _read_results(cfg, tour)
 
     history = collections.defaultdict(list)
@@ -34,8 +33,7 @@ def build_tour(cfg: dict, tour: str, profiles_tour: dict, ranks: dict) -> dict:
         except ValueError:
             date = 0
         w, l, surf = r["winner"], r["loser"], r.get("surface", "Hard")
-        meta = matches.get(r["match_id"], {})
-        tournament, rnd = meta.get("tournament", ""), meta.get("round", "")
+        tournament, rnd = r.get("tournament", ""), r.get("round", "")
         history[w].append({"date": date, "opp": l, "result": "W", "surface": surf, "tournament": tournament, "round": rnd})
         history[l].append({"date": date, "opp": w, "result": "L", "surface": surf, "tournament": tournament, "round": rnd})
         for who, res in ((w, "W"), (l, "L")):

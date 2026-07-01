@@ -5,27 +5,31 @@ tours:
   - atp
   - wta
 
-# Jeff Sackmann Match Charting Project — the public data backbone (raw CSV over HTTPS).
-# tour -> { matches metadata file, per-match Overview stats, point-by-point files }.
+# Two public sources, each doing the job it's best at:
+#  - Match Charting Project (serve/return profiles): the only public per-match
+#    serve stats since Sackmann's tour repos went private; a charted subset.
+#  - tennis-data.co.uk (results + closing odds): EVERY tour-level match, for
+#    Elo / player records / the backtest's market baseline. Replaces deriving
+#    winners from charted points, which covered ~10% of the tour (median Elo
+#    history was 2 matches per player).
 data:
   base_url: "https://raw.githubusercontent.com/JeffSackmann/tennis_MatchChartingProject/master"
   files:
     atp:
       matches: "charting-m-matches.csv"
       overview: "charting-m-stats-Overview.csv"
-      points: ["charting-m-points-to-2009.csv", "charting-m-points-2010s.csv", "charting-m-points-2020s.csv"]
     wta:
       matches: "charting-w-matches.csv"
       overview: "charting-w-stats-Overview.csv"
-      points: ["charting-w-points-to-2009.csv", "charting-w-points-2010s.csv", "charting-w-points-2020s.csv"]
-  # Earliest match date (YYYYMMDD) to ingest. Older matches still inform priors
-  # but recency weighting makes recent form dominate.
+  tennis_data_base: "http://www.tennis-data.co.uk"
+  # Earliest season for results (Elo); charted profile matches use start_date.
+  # tennis-data serves legacy binary .xls before 2013 — start at the xlsx era.
+  start_year: 2013
   start_date: 20100101
   raw_dir: "data/raw"
   processed_dir: "data/processed"
-  # Derive win/loss results by streaming the (large) point-by-point files.
-  # Opt-in: needed for Elo and the backtest, but not for the daily prediction run.
-  derive_winners: false
+  # Results come straight off the tennis-data workbooks — always on.
+  derive_winners: true
 
 surfaces:
   - Hard

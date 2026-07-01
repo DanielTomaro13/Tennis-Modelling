@@ -69,9 +69,11 @@ def compute_elo(cfg: dict, tour: str) -> dict | None:
     e = cfg["elo"]
     init = e["initial"]
     surf_w = e["surface_weight"]
+    regress = float(e.get("season_regression", 0.0))
     overall: dict[str, float] = {}
     surface: dict[str, dict[str, float]] = {s: {} for s in ("Hard", "Clay", "Grass", "Carpet")}
     played: dict[str, int] = {}
+    last_season: dict[str, int] = {}
 
     rows = []
     with open(path, "r", encoding="utf-8", newline="") as fh:
@@ -81,15 +83,26 @@ def compute_elo(cfg: dict, tour: str) -> dict | None:
     for r in rows:
         w, l = r["winner"], r["loser"]
         surf = r.get("surface", "Hard")
+        best_of = int(r.get("best_of") or 3)
+        season = int(r.get("date") or 0) // 10000
         if surf not in surface:
             surface[surf] = {}
+        # start-of-season regression toward the mean (was configured but unused)
+        for p in (w, l):
+            prev = last_season.get(p)
+            if prev is not None and season > prev and regress > 0:
+                overall[p] = init + (1 - regress) * (overall.get(p, init) - init)
+                for sd in surface.values():
+                    if p in sd:
+                        sd[p] = init + (1 - regress) * (sd[p] - init)
+            last_season[p] = season
         ow, ol = overall.get(w, init), overall.get(l, init)
         sw_, sl_ = surface[surf].get(w, init), surface[surf].get(l, init)
         rw = surf_w * sw_ + (1 - surf_w) * ow
         rl = surf_w * sl_ + (1 - surf_w) * ol
         exp_w = 1.0 / (1.0 + 10 ** ((rl - rw) / 400.0))
-        kw = _k_factor(cfg, played.get(w, 0), 3)
-        kl = _k_factor(cfg, played.get(l, 0), 3)
+        kw = _k_factor(cfg, played.get(w, 0), best_of)
+        kl = _k_factor(cfg, played.get(l, 0), best_of)
         overall[w] = ow + kw * (1 - exp_w)
         overall[l] = ol - kl * (1 - exp_w)
         surface[surf][w] = sw_ + kw * (1 - exp_w)
