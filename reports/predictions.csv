@@ -1,5 +1,4 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Brașov,Hard,Round 2,Luka Pavlovic,Dimitar Kuzmanov,0.5267,0.4733,1.9,2.11,25.65,0.4714,7.85,4.76,2.45,3.18,tennis.com
 atp,20260702,Wimbledon,Grass,Round 2,Patrick Kypson,Taylor Fritz,0.1373,0.8627,7.29,1.16,40.49,0.7128,6.74,18.38,4.49,3.3,espn
 atp,20260702,Wimbledon,Grass,Round 2,Alexander Zverev,Valentin Royer,0.8402,0.1598,1.19,6.26,40.32,0.6757,14.4,9.81,3.62,3.81,espn
 atp,20260702,Wimbledon,Grass,Round 2,Alexander Bublik,Kyrian Jacquet,0.7889,0.2111,1.27,4.74,40.14,0.5955,19.56,8.21,7.49,3.79,espn
