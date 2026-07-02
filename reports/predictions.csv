@@ -1,10 +1,4 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,20260702,Wimbledon,Grass,Round 2,Alexander Bublik,Kyrian Jacquet,0.7889,0.2111,1.27,4.74,40.14,0.5955,19.56,8.21,7.49,3.79,espn
-wta,20260702,Wimbledon,Grass,Round 2,Elena Rybakina,Caty Mcnally,0.7471,0.2529,1.34,3.95,23.66,0.2993,5.82,2.57,3.89,3.33,espn
-wta,20260702,Wimbledon,Grass,Round 2,Linda Noskova,Camila Osorio,0.7229,0.2771,1.38,3.61,23.91,0.3143,4.69,2.32,4.11,4.96,espn
-wta,20260702,Wimbledon,Grass,Round 2,Kimberly Birrell,Sorana Cirstea,0.2954,0.7046,3.39,1.42,24.08,0.3202,3.06,3.69,3.6,4.06,espn
-wta,20260702,Wimbledon,Grass,Round 2,Viktorija Golubic,Jasmine Paolini,0.4326,0.5674,2.31,1.76,24.4,0.3138,3.46,2.87,3.81,3.11,espn
-wta,20260702,Wimbledon,Grass,Round 1,Sofia Kenin / Jelena Ostapenko,Nikola Bartunkova / Alexandra Eala,0.4699,0.5301,2.13,1.89,19.52,0.258,,,,,espn
 atp,20260703,Wimbledon,Grass,Round 3,Jenson Brooksby,Jannik Sinner,0.1152,0.8848,8.68,1.13,38.48,0.58,9.76,13.8,3.11,3.51,espn
 atp,20260703,Wimbledon,Grass,Round 3,Shintaro Mochizuki,Rafael Jodar,0.2243,0.7757,4.46,1.29,39.5,0.5163,8.16,7.95,4.78,3.09,espn
 atp,20260703,Wimbledon,Grass,Round 3,Novak Djokovic,Arthur Rinderknech,0.7687,0.2313,1.3,4.32,41.6,0.7004,15.17,15.42,3.68,4.3,espn
@@ -18,7 +12,6 @@ wta,20260703,Wimbledon,Grass,Round 3,Jessica Bouzas Maneiro,Jessica Pegula,0.244
 wta,20260703,Wimbledon,Grass,Round 3,Jelena Ostapenko,Aryna Sabalenka,0.2962,0.7038,3.38,1.42,23.93,0.3023,3.19,4.02,3.65,3.72,espn
 wta,20260703,Wimbledon,Grass,Round 3,Naomi Osaka,Daria Kasatkina,0.7026,0.2974,1.42,3.36,23.85,0.2953,4.0,3.08,4.0,3.6,espn
 wta,20260703,Wimbledon,Grass,Round 3,Mananchaya Sawangkaew,Karolina Muchova,0.2983,0.7017,3.35,1.43,24.28,0.3432,4.39,3.68,2.93,4.07,espn
-wta,20260703,Wimbledon,Grass,Round 1,Serena Williams / Venus Williams,Camila Osorio / Solana Sierra,0.602,0.398,1.66,2.51,19.51,0.2615,,,,,espn
 wta,20260703,Wimbledon,Grass,Round 3,Anna Kalinskaya,Belinda Bencic,0.4173,0.5827,2.4,1.72,24.72,0.3568,3.0,3.08,3.73,3.86,espn
 wta,20260703,Wimbledon,Grass,Round 1,Anhelina Kalinina / Dayana Yastremska,Sorana Cirstea / Anna Kalinskaya,0.4248,0.5752,2.35,1.74,19.52,0.2602,,,,,espn
 wta,20260703,Wimbledon,Grass,Round 3,Barbora Krejcikova,Nikola Bartunkova,0.5562,0.4438,1.8,2.25,24.72,0.3537,4.17,3.98,4.02,5.44,espn
@@ -28,8 +21,14 @@ wta,20260703,Wimbledon,Grass,Round 3,Iva Jovic,Ekaterina Alexandrova,0.4943,0.50
 atp,20260704,Wimbledon,Grass,Round 3,Zachary Svajda,Alex De Minaur,0.2283,0.7717,4.38,1.3,40.3,0.5847,9.24,9.94,3.62,4.73,espn
 atp,20260704,Wimbledon,Grass,Round 3,Alexander Zverev,Marcos Giron,0.7701,0.2299,1.3,4.35,41.63,0.7042,14.68,12.02,3.69,3.89,espn
 atp,20260704,Wimbledon,Grass,Round 3,Lorenzo Sonego,Taylor Fritz,0.2459,0.7541,4.07,1.33,43.43,0.8161,12.04,18.85,3.15,3.38,espn
+atp,20260704,Wimbledon,Grass,Round 3,Jaume Munar,Jiri Lehecka,0.3381,0.6619,2.96,1.51,42.4,0.6898,12.33,15.99,5.07,5.9,espn
 atp,20260704,Wimbledon,Grass,Round 3,Arthur Fery,Zizou Bergs,0.4303,0.5697,2.32,1.76,42.53,0.6706,12.02,14.4,4.08,5.73,espn
+atp,20260704,Wimbledon,Grass,Round 3,Flavio Cobolli,Karen Khachanov,0.5641,0.4359,1.77,2.29,43.03,0.712,13.15,12.26,4.08,4.21,espn
+wta,20260704,Wimbledon,Grass,Round 3,Elena Rybakina,Elise Mertens,0.6927,0.3073,1.44,3.25,24.08,0.3184,5.78,3.6,3.86,3.4,espn
 wta,20260704,Wimbledon,Grass,Round 3,Iga Swiatek,Alexandra Eala,0.6755,0.3245,1.48,3.08,24.12,0.3145,5.18,1.31,3.61,2.96,espn
+wta,20260704,Wimbledon,Grass,Round 2,Marie Bouzkova / Sara Sorribes Tormo,Katerina Siniakova / Taylor Townsend,0.3616,0.6384,2.77,1.57,19.28,0.2361,,,,,espn
+wta,20260704,Wimbledon,Grass,Round 1,Serena Williams / Venus Williams,Camila Osorio / Solana Sierra,0.602,0.398,1.66,2.51,19.51,0.2615,,,,,espn
+wta,20260704,Wimbledon,Grass,Round 3,Maria Sakkari,Jasmine Paolini,0.4174,0.5826,2.4,1.72,24.39,0.3161,3.39,2.88,4.07,3.13,espn
 wta,20260704,Wimbledon,Grass,Round 3,Marta Kostyuk,Emma Navarro,0.5601,0.4399,1.79,2.27,24.45,0.3204,3.37,2.55,3.96,3.56,espn
 wta,20260704,Wimbledon,Grass,Round 3,Ashlyn Krueger,Daria Snigur,0.4547,0.5453,2.2,1.83,24.58,0.3335,3.6,4.93,3.86,3.29,espn
 wta,20260704,Wimbledon,Grass,Round 3,Marie Bouzkova,Liudmila Samsonova,0.5442,0.4558,1.84,2.19,24.49,0.3225,3.27,3.72,3.75,4.36,espn
