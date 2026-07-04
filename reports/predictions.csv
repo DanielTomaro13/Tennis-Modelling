@@ -1,4 +1,5 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+atp,,The Championships,Hard,Round 1,Jordan Thompson,Roberto Carballes Baena,0.6393,0.3607,1.56,2.77,41.53,0.6074,13.34,10.41,4.1,4.48,tennis.com
 atp,20260704,Wimbledon,Grass,Round 3,Zachary Svajda,Alex De Minaur,0.2283,0.7717,4.38,1.3,40.3,0.5847,9.24,9.94,3.62,4.73,espn
 atp,20260704,Wimbledon,Grass,Round 3,Alexander Zverev,Marcos Giron,0.7701,0.2299,1.3,4.35,41.63,0.7042,14.68,12.02,3.69,3.89,espn
 atp,20260704,Wimbledon,Grass,Round 3,Lorenzo Sonego,Taylor Fritz,0.2459,0.7541,4.07,1.33,43.43,0.8161,12.04,18.85,3.15,3.38,espn
