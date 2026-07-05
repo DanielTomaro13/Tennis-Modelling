@@ -1,8 +1,7 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+atp,,ATP Challenger Newport,Grass,Qualifying Round 1,Hiroki Moriya,Pedro Martinez,0.5436,0.4564,1.84,2.19,25.5,0.4536,4.89,7.11,3.26,2.31,tennis.com
 atp,,ATP Challenger Newport,Grass,Qualifying Round 1,Andrej Martin,Jason Jung,0.5071,0.4929,1.97,2.03,25.79,0.489,4.84,4.79,3.23,3.19,tennis.com
 atp,20260705,Wimbledon,Grass,Round 4,Shintaro Mochizuki,Jannik Sinner,0.0742,0.9258,13.48,1.08,36.79,0.5231,6.96,13.49,4.07,3.43,espn
-atp,20260705,Wimbledon,Grass,Round 4,Alejandro Davidovich Fokina,Felix Auger Aliassime,0.4473,0.5527,2.24,1.81,42.84,0.6938,11.49,16.35,4.17,4.42,espn
-atp,20260705,Wimbledon,Grass,Round 4,Jan Lennard Struff,Hubert Hurkacz,0.4609,0.5391,2.17,1.85,44.57,0.8188,16.56,20.13,4.97,3.4,espn
 wta,20260705,Wimbledon,Grass,Round 4,Naomi Osaka,Aryna Sabalenka,0.3918,0.6082,2.55,1.64,24.62,0.3497,3.6,3.92,3.61,3.63,espn
 wta,20260705,Wimbledon,Grass,Round 4,Coco Gauff,Belinda Bencic,0.5541,0.4459,1.8,2.24,24.52,0.3287,4.07,2.94,4.03,3.69,espn
 atp,20260706,Wimbledon,Grass,Round 4,Arthur Fery,Grigor Dimitrov,0.3666,0.6334,2.73,1.58,42.08,0.6505,11.76,16.22,4.0,4.86,espn
