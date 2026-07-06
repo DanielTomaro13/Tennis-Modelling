@@ -1,5 +1,13 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,20260706,Wimbledon,Grass,Round 4,Alexander Zverev,Jiri Lehecka,0.5953,0.4047,1.68,2.47,44.23,0.8062,14.74,15.37,3.7,5.67,espn
+atp,,Brawo Open,Hard,Round 1,Elmer Moller,Pedro Martinez,0.6461,0.3539,1.55,2.83,25.11,0.4278,7.38,4.84,3.32,3.13,tennis.com
+atp,,Brawo Open,Hard,Round 1,Mackenzie Mcdonald,Colton Smith,0.5976,0.4024,1.67,2.48,25.64,0.482,6.53,4.64,3.08,3.1,tennis.com
+atp,,Brawo Open,Hard,Round 1,Nikoloz Basilashvili,Vilius Gaubas,0.4284,0.5716,2.33,1.75,25.59,0.4673,4.73,5.74,3.15,2.52,tennis.com
+atp,,Brawo Open,Hard,Round 1,Juan Carlos Prado Angelo,Adolfo Daniel Vallejo,0.4377,0.5623,2.28,1.78,25.08,0.3993,7.04,6.28,2.93,3.35,tennis.com
+atp,,Brawo Open,Hard,Round 1,Thiago Seyboth Wild,Dalibor Svrcina,0.4613,0.5387,2.17,1.86,25.69,0.4768,6.15,4.85,2.81,3.23,tennis.com
+atp,,Brawo Open,Hard,Round 1,Rudolf Molleker,Facundo Diaz Acosta,0.4652,0.5348,2.15,1.87,25.75,0.484,4.79,6.79,3.19,2.76,tennis.com
+atp,,Brawo Open,Hard,Round 1,Jan Choinski,Dimitar Kuzmanov,0.4749,0.5251,2.11,1.9,25.78,0.4876,7.25,4.83,2.54,3.22,tennis.com
+atp,,Brawo Open,Hard,Round 1,Norbert Gombos,Sebastian Ofner,0.476,0.524,2.1,1.91,25.68,0.4744,4.8,7.28,3.2,2.74,tennis.com
+wta,,Grand est open 88,Hard,Round 1,Maria Lourdes Carle,Laura Pigossi,0.5056,0.4944,1.98,2.02,24.44,0.3137,4.9,3.64,3.26,4.13,tennis.com
 atp,20260707,Wimbledon,Grass,Quarterfinal,Jan Lennard Struff,Jannik Sinner,0.1416,0.8584,7.06,1.16,40.03,0.6694,14.13,13.77,4.24,3.5,espn
 atp,20260707,Wimbledon,Grass,Quarterfinal,Novak Djokovic,Felix Auger Aliassime,0.6744,0.3256,1.48,3.07,42.41,0.7002,15.36,15.36,3.72,4.15,espn
 wta,20260707,Wimbledon,Grass,Quarterfinal,Karolina Muchova,Naomi Osaka,0.5252,0.4748,1.9,2.11,25.03,0.3907,3.56,3.71,3.93,3.72,espn
