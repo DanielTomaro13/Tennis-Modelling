@@ -1,17 +1,10 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Citta di Trieste Challenger,Grass,Round 1,Sumit Nagal,Ivan Dodig,0.3854,0.6146,2.59,1.63,25.21,0.4277,4.33,4.94,2.58,3.29,tennis.com
-atp,,Directv Open Bogotá,Hard,Qualifying Round 2,Horacio Zeballos,Rogerio Dutra Silva,0.6121,0.3879,1.63,2.58,25.6,0.4813,4.93,4.62,3.29,3.08,tennis.com
-atp,,ATP Challenger Newport,Grass,Round 1,Aleksandar Vukic,Liam Broady,0.5399,0.4601,1.85,2.17,25.82,0.4947,7.95,4.74,2.75,3.16,tennis.com
-atp,,ATP Challenger Newport,Grass,Round 1,Mackenzie Mcdonald,Adam Walton,0.5101,0.4899,1.96,2.04,25.99,0.5152,7.5,7.97,2.6,2.88,tennis.com
-atp,,ATP Challenger Newport,Grass,Qualifying Round 2,Jason Jung,Hiroki Moriya,0.5076,0.4924,1.97,2.03,25.79,0.489,4.84,4.79,3.23,3.19,tennis.com
 wta,,Grand est open 88,Hard,Round 1,Julia Grabher,Rebeka Masarova,0.288,0.712,3.47,1.4,23.93,0.3064,4.33,5.13,2.89,3.42,tennis.com
 wta,,Grand est open 88,Hard,Round 1,Anna Blinkova,Erika Andreeva,0.589,0.411,1.7,2.43,24.7,0.357,2.58,2.95,4.13,3.51,tennis.com
-wta,,Hall of Fame Open,Hard,Round 1,Madison Brengle,Maria Jose Martinez Sanchez,0.5769,0.4231,1.73,2.36,24.48,0.3264,5.0,4.7,3.34,3.13,tennis.com
 atp,20260706,Wimbledon,Grass,Round 4,Arthur Fery,Grigor Dimitrov,0.3666,0.6334,2.73,1.58,42.08,0.6505,11.76,16.22,4.0,4.86,espn
 atp,20260706,Wimbledon,Grass,Round 4,Flavio Cobolli,Alex De Minaur,0.403,0.597,2.48,1.67,42.09,0.6396,12.72,9.92,3.95,4.72,espn
 atp,20260706,Wimbledon,Grass,Round 4,Alexander Zverev,Jiri Lehecka,0.5953,0.4047,1.68,2.47,44.23,0.8062,14.74,15.37,3.7,5.67,espn
 atp,20260706,Wimbledon,Grass,Round 4,Alexander Bublik,Taylor Fritz,0.4319,0.5681,2.32,1.76,44.56,0.8212,18.98,19.09,7.27,3.43,espn
-wta,20260706,Nordea Open,Hard,Round 1,Moyuka Uchijima,Oleksandra Oliynykova,0.2593,0.7407,3.86,1.35,23.6,0.2839,2.71,3.35,3.54,3.75,espn
 wta,20260706,Wimbledon,Grass,Round 4,Marta Kostyuk,Ashlyn Krueger,0.7011,0.2989,1.43,3.35,23.96,0.3092,3.47,3.26,4.08,3.5,espn
 wta,20260706,Nordea Open,Hard,Round 1,Paula Badosa,Julia Riera,0.6021,0.3979,1.66,2.51,24.43,0.3271,4.94,4.63,5.92,3.09,espn
 wta,20260706,Wimbledon,Grass,Round 4,Linda Noskova,Madison Keys,0.4523,0.5477,2.21,1.83,24.73,0.3532,4.37,3.58,3.83,3.62,espn
