@@ -1,5 +1,15 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+atp,,Brawo Open,Hard,Round 1,Elmer Moller,Pedro Martinez,0.6461,0.3539,1.55,2.83,25.11,0.4278,7.38,4.84,3.32,3.13,tennis.com
 atp,,Brawo Open,Hard,Round 1,Mackenzie Mcdonald,Colton Smith,0.5976,0.4024,1.67,2.48,25.64,0.482,6.53,4.64,3.08,3.1,tennis.com
+atp,,Brawo Open,Hard,Round 1,Nikoloz Basilashvili,Vilius Gaubas,0.4284,0.5716,2.33,1.75,25.59,0.4673,4.73,5.74,3.15,2.52,tennis.com
+atp,,ATP Challenger Newport,Grass,Round 1,Aleksandar Vukic,Liam Broady,0.5399,0.4601,1.85,2.17,25.82,0.4947,7.95,4.74,2.75,3.16,tennis.com
+atp,,Directv Open Bogotá,Hard,Round 1,Rodrigo Pacheco Mendez,Felipe Meligeni Alves,0.4709,0.5291,2.12,1.89,25.22,0.4137,4.81,4.7,3.2,2.53,tennis.com
+atp,,ATP Challenger Newport,Grass,Round 1,Mackenzie Mcdonald,Adam Walton,0.5101,0.4899,1.96,2.04,25.99,0.5152,7.5,7.97,2.6,2.88,tennis.com
+atp,,ATP Challenger Newport,Grass,Qualifying Final,Jason Jung,Hiroki Moriya,0.5076,0.4924,1.97,2.03,25.79,0.489,4.84,4.79,3.23,3.19,tennis.com
+atp,,Concord Iași Open,Hard,Round 1,Rogerio Dutra Silva,Luka Pavlovic,0.4971,0.5029,2.01,1.99,25.66,0.4718,4.83,7.75,3.22,2.42,tennis.com
+wta,,Hall of Fame Open,Hard,Round 1,Madison Brengle,Maria Jose Martinez Sanchez,0.5769,0.4231,1.73,2.36,24.48,0.3264,5.0,4.7,3.34,3.13,tennis.com
+wta,,Hall of Fame Open,Hard,Round 1,Mananchaya Sawangkaew,Caroline Dolehide,0.5726,0.4274,1.75,2.34,24.51,0.3303,5.0,2.95,3.33,3.88,tennis.com
+wta,,Grand est open 88,Hard,Round 1,Petra Marcinko,Clara Burel,0.4651,0.5349,2.15,1.87,24.43,0.3145,4.81,3.92,3.21,4.7,tennis.com
 atp,20260707,Wimbledon,Grass,Quarterfinal,Novak Djokovic,Felix Auger Aliassime,0.6744,0.3256,1.48,3.07,42.41,0.7002,15.36,15.36,3.72,4.15,espn
 atp,20260707,Wimbledon,Grass,Round 4,Alexander Zverev,Jiri Lehecka,0.5953,0.4047,1.68,2.47,44.23,0.8062,14.74,15.37,3.7,5.67,espn
 wta,20260707,Wimbledon,Grass,Quarterfinal,Karolina Muchova,Naomi Osaka,0.5252,0.4748,1.9,2.11,25.03,0.3907,3.56,3.71,3.93,3.72,espn
