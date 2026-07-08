@@ -1,4 +1,5 @@
 tour,date,tournament,surface,best_of,format,round,player1,player2,p1a,p1b,p2a,p2b,source
+atp,20260710,Wimbledon,Grass,5,singles,Semifinal,Alexander Zverev,Arthur Fery,,,,,espn
 atp,20260710,Wimbledon,Grass,5,singles,Semifinal,Novak Djokovic,Jannik Sinner,,,,,espn
 wta,20260709,Wimbledon,Grass,3,singles,Semifinal,Coco Gauff,Karolina Muchova,,,,,espn
 wta,20260709,Wimbledon,Grass,3,singles,Semifinal,Linda Noskova,Marta Kostyuk,,,,,espn
@@ -11,45 +12,28 @@ wta,20260709,Nordea Open,Hard,3,singles,Quarterfinal,Leyre Romero Gormaz,Simona 
 wta,20260709,Nordea Open,Hard,3,singles,Quarterfinal,Kaitlin Quevedo,Irene Burillo,,,,,espn
 wta,20260709,Nordea Open,Hard,3,singles,Quarterfinal,Varvara Lepchenko,Paula Badosa,,,,,espn
 wta,20260709,Nordea Open,Hard,3,singles,Quarterfinal,Yulia Putintseva,Sinja Kraus,,,,,espn
-atp,,Directv Open Bogotá,Hard,3,singles,Round 2,Juan Pablo Varillas,Luis Carlos Alvarez Valdes,,,,,tennis.com
-atp,,Directv Open Bogotá,Hard,3,singles,Round 2,Felipe Meligeni Alves,Lucas Andrade Da Silva,,,,,tennis.com
-atp,,Concord Iași Open,Hard,3,singles,Round 2,Zsombor Piros,Damir Džumhur,,,,,tennis.com
-atp,,ATP Challenger Newport,Grass,3,singles,Round 1,Bernard Tomic,Braden Shick,,,,,tennis.com
-atp,,ATP Challenger Newport,Grass,3,singles,Round 1,Arthur Géa,Tyler Zink,,,,,tennis.com
-atp,,ATP Challenger Newport,Grass,3,singles,Round 1,Aleksandar Vukic,Liam Broady,,,,,tennis.com
-atp,,ATP Challenger Newport,Grass,3,singles,Round 1,Andre Ilagan,Rio Noguchi,,,,,tennis.com
-atp,,ATP Challenger Newport,Grass,3,singles,Round 1,August Holmgren,Tristan Schoolkate,,,,,tennis.com
-atp,,ATP Challenger Newport,Grass,3,singles,Round 1,Adrian Mannarino,Remy Bertola,,,,,tennis.com
-atp,,ATP Challenger Newport,Grass,3,singles,Round 1,Hayato Matsuoka,Alex Michelsen,,,,,tennis.com
+wta,20260709,Nordea Open,Hard,3,doubles,Semifinal,Alicia Barnett / Elixane Lechemia,Gabriella Da Silva Fick / Tenika McGiffin,Alicia Barnett,Elixane Lechemia,Gabriella Da Silva Fick,Tenika McGiffin,espn
+wta,20260709,Nordea Open,Hard,3,doubles,Quarterfinal,Emiliana Arango / Simona Waltert,Emily Appleton / Makoto Ninomiya,Emiliana Arango,Simona Waltert,Emily Appleton,Makoto Ninomiya,espn
 atp,,ATP Challenger Newport,Grass,3,singles,Round 1,Alexis Galarneau,Juan Pablo Ficovich,,,,,tennis.com
-atp,,ATP Challenger Newport,Grass,3,singles,Round 1,Daniel Milavsky,Kaichi Uchida,,,,,tennis.com
+atp,,ATP Challenger Newport,Grass,3,singles,Round 1,Hayato Matsuoka,Alex Michelsen,,,,,tennis.com
 atp,,ATP Challenger Newport,Grass,3,singles,Round 1,Daniil Glinka,Yunchaokete Bu,,,,,tennis.com
 atp,,ATP Challenger Newport,Grass,3,singles,Round 1,James McCabe,Jason Jung,,,,,tennis.com
-atp,,ATP Challenger Newport,Grass,3,singles,Round 1,Garrett Johns,Patrick Maloney,,,,,tennis.com
-atp,,ATP Challenger Newport,Grass,3,singles,Round 1,Jenson Brooksby,Patrick Maloney,,,,,tennis.com
+atp,,ATP Challenger Newport,Grass,3,singles,Round 1,Daniel Milavsky,Kaichi Uchida,,,,,tennis.com
 atp,,ATP Challenger Newport,Grass,3,singles,Round 1,Murphy Cassone,Darwin Blanch,,,,,tennis.com
-atp,,ATP Challenger Newport,Grass,3,singles,Round 1,Jacob Fearnley,Mark Lajal,,,,,tennis.com
+atp,,ATP Challenger Newport,Grass,3,singles,Round 1,Garrett Johns,Patrick Maloney,,,,,tennis.com
 atp,,ATP Challenger Newport,Grass,3,singles,Round 1,Stefan Kozlov,Yibing Wu,,,,,tennis.com
-atp,,Citta di Trieste Challenger,Grass,3,singles,Round 2,Andrea Pellegrino,Raúl Brancaccio,,,,,tennis.com
+atp,,ATP Challenger Newport,Grass,3,singles,Round 1,Jacob Fearnley,Mark Lajal,,,,,tennis.com
 atp,,UTR PTT Phan Thiet Men 03,Hard,3,singles,Final,Imran Daniel Abdul Hazli,Corban Crowther,,,,,tennis.com
 atp,,UTR PTT Phan Thiet Men 03,Hard,3,singles,,Diordan Macababbad,Jack Bruce-Smith,,,,,tennis.com
 atp,,UTR PTT Phan Thiet Men 03,Hard,3,singles,Final,Thanh Minh Truong,Aryan Jit Singh,,,,,tennis.com
 atp,,UTR PTT Phan Thiet Men 03,Hard,3,singles,Final,Ha Minh Duc Vu,Taichi Wakamatsu,,,,,tennis.com
 atp,,UTR PTT Phan Thiet Men 03,Hard,3,singles,,Eita Suzuki,Dai Khanh Nguyen,,,,,tennis.com
 atp,,UTR PTT Phan Thiet Men 03,Hard,3,singles,,Rodion Malmygin,Deep Munim,,,,,tennis.com
-atp,,UTR Winston-Salem M01,Hard,3,singles,,Luka Butera,Dylan  (2006) Long,,,,,tennis.com
-atp,,UTR Winston-Salem M01,Hard,3,singles,,Gabe Avram,Lincoln Battle,,,,,tennis.com
-wta,,Winston-Salem W01,Hard,3,singles,,Oziera Ahmad,Nicole Okhtenberg,,,,,tennis.com
-wta,,Winston-Salem W01,Hard,3,singles,,Aubrey Nisbet,Valerie Shue,,,,,tennis.com
-wta,,Winston-Salem W01,Hard,3,singles,,Andrea Chacon,Lyla Byers,,,,,tennis.com
-wta,,Hall of Fame Open,Hard,3,singles,Round 1,Katie Volynets,Ariana Arseneault,,,,,tennis.com
-wta,,Hall of Fame Open,Hard,3,singles,Round 1,Sachia Vickery,Reese Brantmeier,,,,,tennis.com
-wta,,Hall of Fame Open,Hard,3,singles,Round 1,Iryna Shymanovich,Hayu Kinoshita,,,,,tennis.com
-wta,,Hall of Fame Open,Hard,3,singles,Round 1,Katrina Scott,Mary Stoiana,,,,,tennis.com
 wta,,Hall of Fame Open,Hard,3,singles,Round 1,Lea Ma,Clervie Ngounoue,,,,,tennis.com
 wta,,Hall of Fame Open,Hard,3,singles,Round 1,Momoko Kobori,Elizabeth Mandlik,,,,,tennis.com
+wta,,Hall of Fame Open,Hard,3,singles,Round 1,Sachia Vickery,Reese Brantmeier,,,,,tennis.com
 wta,,Hall of Fame Open,Hard,3,singles,Round 1,Mananchaya Sawangkaew,Caroline Dolehide,,,,,tennis.com
+wta,,Hall of Fame Open,Hard,3,singles,Round 1,Sahaja Yamalapalli,Anna Rogers,,,,,tennis.com
 wta,,Hall of Fame Open,Hard,3,singles,Round 1,Mei Yamaguchi,Greet Minnen,,,,,tennis.com
 wta,,Hall of Fame Open,Hard,3,singles,Round 1,Lucrezia Stefanini,Carol Zhao,,,,,tennis.com
-wta,,Hall of Fame Open,Hard,3,singles,Round 1,Sahaja Yamalapalli,Anna Rogers,,,,,tennis.com
 wta,,Hall of Fame Open,Hard,3,singles,Round 1,Darja Viďmanová,Carolyn Ansari,,,,,tennis.com
