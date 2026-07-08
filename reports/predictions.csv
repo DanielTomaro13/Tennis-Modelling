@@ -1,16 +1,17 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+atp,,Concord Iași Open,Hard,Round 2,Titouan Droguet,Luka Pavlovic,0.6802,0.3198,1.47,3.13,25.18,0.4517,4.97,7.2,3.31,2.25,tennis.com
 atp,,ATP Challenger Newport,Grass,Round 1,Jacob Fearnley,Mark Lajal,0.3879,0.6121,2.58,1.63,25.72,0.4933,7.92,8.3,2.68,2.67,tennis.com
+atp,,ATP Challenger Liege,Grass,Round 2,Federico Coria,Guy Den Ouden,0.3884,0.6116,2.57,1.64,25.12,0.4149,5.9,4.61,2.62,3.47,tennis.com
+atp,,Brawo Open,Hard,Round 2,Vilius Gaubas,Facundo Diaz Acosta,0.5663,0.4337,1.77,2.31,25.55,0.4638,5.77,6.6,2.53,2.68,tennis.com
 atp,,ATP Challenger Newport,Grass,Round 1,James Mccabe,Jason Jung,0.438,0.562,2.28,1.78,25.75,0.4867,4.74,4.87,3.16,3.24,tennis.com
 atp,,ATP Challenger Newport,Grass,Round 1,Aleksandar Vukic,Liam Broady,0.5399,0.4601,1.85,2.17,25.82,0.4947,7.95,4.74,2.75,3.16,tennis.com
 atp,,ATP Challenger Newport,Grass,Round 1,Stefan Kozlov,Yibing Wu,0.4648,0.5352,2.15,1.87,25.92,0.5061,4.78,8.39,3.19,2.74,tennis.com
 atp,,ATP Challenger Newport,Grass,Round 1,Mackenzie Mcdonald,Adam Walton,0.5101,0.4899,1.96,2.04,25.99,0.5152,7.5,7.97,2.6,2.88,tennis.com
 atp,,Directv Open Bogotá,Hard,Round 2,Felipe Meligeni Alves,Rogerio Dutra Silva,0.5009,0.4991,2.0,2.0,25.22,0.4142,4.69,4.82,2.52,3.21,tennis.com
-wta,,Hall of Fame Open,Hard,Round 1,Madison Brengle,Maria Jose Martinez Sanchez,0.5769,0.4231,1.73,2.36,24.48,0.3264,5.0,4.7,3.34,3.13,tennis.com
 wta,,Hall of Fame Open,Hard,Round 1,Mananchaya Sawangkaew,Caroline Dolehide,0.5726,0.4274,1.75,2.34,24.51,0.3303,5.0,2.95,3.33,3.88,tennis.com
 wta,,Hall of Fame Open,Hard,Round 1,Sahaja Yamalapalli,Shelby Rogers,0.4298,0.5702,2.33,1.75,24.64,0.3448,2.78,3.65,4.13,3.76,tennis.com
 wta,,Hall of Fame Open,Hard,Round 1,Lucrezia Stefanini,Carol Zhao,0.5165,0.4835,1.94,2.07,24.56,0.3291,4.91,4.83,3.27,3.22,tennis.com
-atp,20260708,Wimbledon,Grass,Quarterfinal,Arthur Fery,Flavio Cobolli,0.3588,0.6412,2.79,1.56,42.51,0.6897,11.74,13.18,3.99,4.09,espn
-atp,20260708,Wimbledon,Grass,Quarterfinal,Alexander Zverev,Taylor Fritz,0.4926,0.5074,2.03,1.97,45.58,0.8756,14.58,18.95,3.66,3.4,espn
 wta,20260709,Nordea Open,Hard,Quarterfinal,Varvara Lepchenko,Paula Badosa,0.333,0.667,3.0,1.5,24.2,0.3182,4.48,4.99,2.99,5.98,espn
 wta,20260709,Wimbledon,Grass,Semifinal,Coco Gauff,Karolina Muchova,0.5054,0.4946,1.98,2.02,24.71,0.3478,4.0,3.52,3.95,3.89,espn
+wta,20260709,Wimbledon,Grass,Semifinal,Linda Noskova,Marta Kostyuk,0.5031,0.4969,1.99,2.01,24.7,0.3464,4.46,3.28,3.91,3.85,espn
 atp,20260710,Wimbledon,Grass,Semifinal,Novak Djokovic,Jannik Sinner,0.3527,0.6473,2.84,1.54,42.56,0.6958,14.54,14.33,3.52,3.64,espn
