@@ -2,21 +2,13 @@ tour,date,tournament,surface,best_of,format,round,player1,player2,p1a,p1b,p2a,p2
 atp,20260710,Wimbledon,Grass,5,singles,Semifinal,Alexander Zverev,Arthur Fery,,,,,espn
 atp,20260710,Wimbledon,Grass,5,singles,Semifinal,Novak Djokovic,Jannik Sinner,,,,,espn
 wta,20260711,Wimbledon,Grass,3,singles,Final,Linda Noskova,Karolina Muchova,,,,,espn
-atp,20260709,Wimbledon,Grass,3,doubles,Semifinal,Kevin Krawietz / Tim Puetz,Marcelo Arevalo / Mate Pavic,Kevin Krawietz,Tim Puetz,Marcelo Arevalo,Mate Pavic,espn
 atp,20260711,Wimbledon,Grass,3,doubles,Final,Marcelo Arevalo / Mate Pavic,Harri Heliovaara / Henry Patten,Marcelo Arevalo,Mate Pavic,Harri Heliovaara,Henry Patten,espn
-wta,20260709,Wimbledon,Grass,3,doubles,Quarterfinal,Guo Hanyu / Kristina Mladenovic,Katerina Siniakova / Taylor Townsend,Guo Hanyu,Kristina Mladenovic,Katerina Siniakova,Taylor Townsend,espn
 wta,20260710,Wimbledon,Grass,3,doubles,Semifinal,Gabriela Dabrowski / Luisa Stefani,Shuko Aoyama / En-Shuo Liang,Gabriela Dabrowski,Luisa Stefani,Shuko Aoyama,En-Shuo Liang,espn
 wta,20260710,Wimbledon,Grass,3,doubles,Semifinal,Jiang Xinyu / Xu Yifan,Guo Hanyu / Kristina Mladenovic,Jiang Xinyu,Xu Yifan,Guo Hanyu,Kristina Mladenovic,espn
-atp,,Directv Open Bogotá,Hard,3,singles,Round 2,Nicolás Mejía,Santiago Rodriguez Taverna,,,,,tennis.com
+wta,20260710,Nordea Open,Hard,3,singles,Semifinal,Paula Badosa,Yulia Putintseva,,,,,espn
 atp,,Directv Open Bogotá,Hard,3,singles,Round 2,Hernán Casanova,Luciano Emanuel Ambrogi,,,,,tennis.com
-atp,,Concord Iași Open,Hard,3,singles,Round 2,Titouan Droguet,Luka Pavlovic,,,,,tennis.com
-atp,,ATP Challenger Newport,Grass,3,singles,Round 2,Jason Jung,Alex Michelsen,,,,,tennis.com
-atp,,ATP Challenger Newport,Grass,3,singles,Round 2,Liam Broady,Andre Ilagan,,,,,tennis.com
-atp,,ATP Challenger Newport,Grass,3,singles,Round 2,Daniel Milavsky,Yunchaokete Bu,,,,,tennis.com
-atp,,ATP Challenger Newport,Grass,3,singles,Round 2,Adrian Mannarino,Alexis Galarneau,,,,,tennis.com
 atp,,ATP Challenger Newport,Grass,3,singles,Round 2,Bernard Tomic,Adam Walton,,,,,tennis.com
 atp,,ATP Challenger Newport,Grass,3,singles,Round 2,Garrett Johns,Darwin Blanch,,,,,tennis.com
-atp,,Citta di Trieste Challenger,Grass,3,singles,Round 2,Andrea Guerrieri,Hugo Dellien,,,,,tennis.com
-wta,,Winston-Salem W01,Hard,3,singles,,Susana Souhrada,Aya Manning,,,,,tennis.com
-wta,,Hall of Fame Open,Hard,3,singles,Round 2,Iryna Shymanovich,Mary Stoiana,,,,,tennis.com
-wta,,Hall of Fame Open,Hard,3,singles,Round 2,Reese Brantmeier,Elizabeth Mandlik,,,,,tennis.com
+atp,,ATP Challenger Newport,Grass,3,singles,Round 2,Jacob Fearnley,Stefan Kozlov,,,,,tennis.com
+wta,,Hall of Fame Open,Hard,3,singles,Round 2,Lucrezia Stefanini,Anna Rogers,,,,,tennis.com
+wta,,Hall of Fame Open,Hard,3,singles,Round 2,Darja Viďmanová,Greet Minnen,,,,,tennis.com

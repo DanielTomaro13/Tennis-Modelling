@@ -1,8 +1,9 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,ATP Challenger Newport,Grass,Round 2,Jason Jung,Alex Michelsen,0.3005,0.6995,3.33,1.43,25.29,0.4702,4.46,7.61,2.97,2.43,tennis.com
-atp,,Concord Iași Open,Hard,Round 2,Titouan Droguet,Luka Pavlovic,0.6802,0.3198,1.47,3.13,25.18,0.4517,4.97,7.2,3.31,2.25,tennis.com
-atp,,ATP Challenger Newport,Grass,Round 2,Adrian Mannarino,Alexis Galarneau,0.603,0.397,1.66,2.52,25.34,0.4436,6.78,5.64,2.9,2.63,tennis.com
+atp,,ATP Challenger Newport,Grass,Round 2,Jacob Fearnley,Stefan Kozlov,0.4803,0.5197,2.08,1.92,25.83,0.494,8.18,4.82,2.76,3.21,tennis.com
 atp,,ATP Challenger Newport,Grass,Round 2,Bernard Tomic,Adam Walton,0.5108,0.4892,1.96,2.04,25.98,0.5143,8.48,7.96,2.76,2.88,tennis.com
+wta,,Hall of Fame Open,Hard,Round 2,Lucrezia Stefanini,Shelby Rogers,0.3352,0.6648,2.98,1.5,24.3,0.329,4.49,3.73,2.99,3.85,tennis.com
+wta,,Hall of Fame Open,Hard,Round 2,Darja Vidmanova,Greet Minnen,0.398,0.602,2.51,1.66,24.39,0.3194,4.21,3.63,2.72,4.44,tennis.com
 atp,20260710,Wimbledon,Grass,Semifinal,Alexander Zverev,Arthur Fery,0.7602,0.2398,1.32,4.17,41.7,0.7011,14.72,11.02,3.7,3.75,espn
 atp,20260710,Wimbledon,Grass,Semifinal,Novak Djokovic,Jannik Sinner,0.3527,0.6473,2.84,1.54,42.56,0.6958,14.54,14.33,3.52,3.64,espn
+wta,20260710,Nordea Open,Hard,Semifinal,Paula Badosa,Yulia Putintseva,0.571,0.429,1.75,2.33,24.47,0.325,4.9,2.19,5.87,3.22,espn
 wta,20260711,Wimbledon,Grass,Final,Linda Noskova,Karolina Muchova,0.4612,0.5388,2.17,1.86,25.05,0.3931,4.39,3.55,3.84,3.93,espn
