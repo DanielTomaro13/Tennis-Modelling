@@ -1,14 +1,12 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
 atp,,ATP Challenger Newport,Grass,Round 2,Jason Jung,Alex Michelsen,0.3005,0.6995,3.33,1.43,25.29,0.4702,4.46,7.61,2.97,2.43,tennis.com
 atp,,Concord Iași Open,Hard,Round 2,Titouan Droguet,Luka Pavlovic,0.6802,0.3198,1.47,3.13,25.18,0.4517,4.97,7.2,3.31,2.25,tennis.com
-atp,,ATP Challenger Newport,Grass,Round 1,Jacob Fearnley,Mark Lajal,0.3879,0.6121,2.58,1.63,25.72,0.4933,7.92,8.3,2.68,2.67,tennis.com
+atp,,ATP Challenger Liege,Grass,Quarterfinal,Kimmer Coppejans,Guy Den Ouden,0.3604,0.6396,2.77,1.56,25.29,0.4454,4.59,4.61,3.06,3.47,tennis.com
 atp,,ATP Challenger Newport,Grass,Round 2,Adrian Mannarino,Alexis Galarneau,0.603,0.397,1.66,2.52,25.34,0.4436,6.78,5.64,2.9,2.63,tennis.com
-atp,,ATP Challenger Newport,Grass,Round 1,Stefan Kozlov,Yibing Wu,0.4648,0.5352,2.15,1.87,25.92,0.5061,4.78,8.39,3.19,2.74,tennis.com
-atp,,Brawo Open,Hard,Round 2,Elmer Moller,Adolfo Daniel Vallejo,0.4747,0.5253,2.11,1.9,25.34,0.4296,7.12,6.2,3.21,3.31,tennis.com
+atp,,The Championships,Hard,Semifinal,Thijs Boogaard,Lleyton Hewitt,0.4296,0.5704,2.33,1.75,42.71,0.6858,10.47,8.01,5.02,5.34,tennis.com
 atp,,ATP Challenger Newport,Grass,Round 2,Bernard Tomic,Adam Walton,0.5108,0.4892,1.96,2.04,25.98,0.5143,8.48,7.96,2.76,2.88,tennis.com
-wta,,Hall of Fame Open,Hard,Round 2,Katie Volynets,Danielle Collins,0.2749,0.7251,3.64,1.38,23.85,0.3041,2.23,4.56,2.12,5.96,tennis.com
-wta,,Grand est open 88,Hard,Round 2,Francesca Jones,Leolia Jeanjean,0.5567,0.4433,1.8,2.26,24.59,0.3377,4.0,4.74,4.24,3.16,tennis.com
-wta,,Hall of Fame Open,Hard,Round 2,Katherine Sebov,Tatjana Maria,0.5324,0.4676,1.88,2.14,24.46,0.3176,2.87,3.72,4.09,4.15,tennis.com
-wta,20260709,Wimbledon,Grass,Semifinal,Linda Noskova,Marta Kostyuk,0.5031,0.4969,1.99,2.01,24.7,0.3464,4.46,3.28,3.91,3.85,espn
+atp,,Brawo Open,Hard,Quarterfinal,Facundo Diaz Acosta,Mackenzie Mcdonald,0.5095,0.4905,1.96,2.04,25.75,0.4835,6.8,6.34,2.76,2.99,tennis.com
+wta,,The Championships,Hard,Semifinal,Lulu Sun,Taylah Preston,0.3902,0.6098,2.56,1.64,24.63,0.3512,5.53,2.76,3.34,3.43,tennis.com
+wta,20260709,Nordea Open,Hard,Quarterfinal,Varvara Lepchenko,Paula Badosa,0.333,0.667,3.0,1.5,24.2,0.3182,4.48,4.99,2.99,5.98,espn
 atp,20260710,Wimbledon,Grass,Semifinal,Alexander Zverev,Arthur Fery,0.7602,0.2398,1.32,4.17,41.7,0.7011,14.72,11.02,3.7,3.75,espn
 atp,20260710,Wimbledon,Grass,Semifinal,Novak Djokovic,Jannik Sinner,0.3527,0.6473,2.84,1.54,42.56,0.6958,14.54,14.33,3.52,3.64,espn
