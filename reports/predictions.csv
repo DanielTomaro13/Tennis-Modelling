@@ -1,7 +1,5 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
 atp,,ATP Challenger Newport,Grass,Quarterfinal,Liam Broady,Alex Michelsen,0.2749,0.7251,3.64,1.38,25.12,0.4626,4.39,7.61,2.93,2.42,tennis.com
-atp,,Concord Iași Open,Hard,Quarterfinal,Valentin Royer,Taro Daniel,0.4264,0.5736,2.35,1.74,25.64,0.474,7.1,6.78,2.69,2.86,tennis.com
-atp,,Brawo Open,Hard,Semifinal,Facundo Diaz Acosta,Hugo Gaston,0.5503,0.4497,1.82,2.22,25.52,0.4564,6.87,5.79,2.79,2.72,tennis.com
 wta,,Hall of Fame Open,Hard,Quarterfinal,Katie Volynets,Elizabeth Mandlik,0.6789,0.3211,1.47,3.11,24.07,0.3096,2.66,4.42,2.53,2.94,tennis.com
 wta,,Hall of Fame Open,Hard,Quarterfinal,Greet Minnen,Madison Brengle,0.4576,0.5424,2.19,1.84,24.58,0.3325,3.47,4.92,4.24,3.28,tennis.com
 wta,,Hall of Fame Open,Hard,Quarterfinal,Lucrezia Stefanini,Tatjana Maria,0.4949,0.5051,2.02,1.98,24.46,0.3171,4.87,3.78,3.25,4.22,tennis.com
