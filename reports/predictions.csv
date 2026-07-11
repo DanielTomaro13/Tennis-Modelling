@@ -1,10 +1,4 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Citta di Trieste Challenger,Grass,Final,Ivan Dodig,Hugo Dellien,0.6215,0.3785,1.61,2.64,25.57,0.4799,4.94,4.6,3.29,3.07,tennis.com
-atp,,Serena Wines 1881 - Acqua Maniva Tennis Cup,Hard,Qualifiers,Mario Vilella Martinez,Andrea Arnaboldi,0.5598,0.4402,1.79,2.27,25.74,0.4868,4.89,4.71,3.26,3.14,tennis.com
-atp,,Brawo Open,Hard,Final,Jan Choinski,Hugo Gaston,0.4589,0.5411,2.18,1.85,25.56,0.4598,7.22,5.94,2.53,2.79,tennis.com
-atp,,ATP Challenger Bunschoten,Grass,Qualifying Round 1,Dimitar Kuzmanov,Daniel De Jonge,0.4634,0.5366,2.16,1.86,25.95,0.5105,4.78,7.77,3.19,2.75,tennis.com
-atp,,ATP Challenger Newport,Grass,Semifinal,Alexis Galarneau,Jacob Fearnley,0.4939,0.5061,2.02,1.98,25.57,0.4597,5.88,8.19,2.75,2.77,tennis.com
-wta,,UniCredit Iasi Open,Hard,Qualifying Round 1,Claire Liu,Maria Sharapova,0.292,0.708,3.42,1.41,23.93,0.3047,4.32,5.13,3.94,3.42,tennis.com
 atp,20260712,Wimbledon,Grass,Final,Alexander Zverev,Jannik Sinner,0.2866,0.7134,3.49,1.4,43.18,0.7757,13.76,14.15,3.46,3.6,espn
 atp,20260712,Nordea Open,Hard,Qualifying 1st Round,Taro Daniel,Federico Coria,0.5365,0.4635,1.86,2.16,25.49,0.4506,6.78,7.34,2.86,2.76,espn
 atp,20260713,Plava Laguna Croatia Open Umag,Clay,Round 1,Valentin Royer,Alex Molcan,0.2551,0.7449,3.92,1.34,24.66,0.4161,4.78,3.81,2.32,2.5,espn
