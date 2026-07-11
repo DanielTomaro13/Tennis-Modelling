@@ -1,7 +1,16 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+atp,,Concord Iași Open,Hard,Semifinal,Valentin Royer,Titouan Droguet,0.2516,0.7484,3.97,1.34,24.81,0.4375,6.48,4.94,2.46,3.3,tennis.com
+atp,,ATP Challenger Newport,Grass,Semifinal,Adam Walton,Alex Michelsen,0.3375,0.6625,2.96,1.51,25.8,0.5198,7.61,7.56,2.75,2.41,tennis.com
+atp,,Directv Open Bogotá,Hard,Semifinal,Nicolas Mejia,Juan Pablo Varillas,0.3959,0.6041,2.53,1.66,25.36,0.4442,6.86,7.61,2.68,2.65,tennis.com
 atp,,Brawo Open,Hard,Semifinal,Facundo Diaz Acosta,Hugo Gaston,0.5503,0.4497,1.82,2.22,25.52,0.4564,6.87,5.79,2.79,2.72,tennis.com
-atp,20260711,EFG Swiss Open Gstaad,Clay,Qualifying 1st Round,Pierre Hugues Herbert,Thiago Monteiro,0.4502,0.5498,2.22,1.82,26.26,0.5533,4.5,5.62,2.85,2.53,espn
+atp,,ATP Challenger Newport,Grass,Semifinal,Alexis Galarneau,Jacob Fearnley,0.4939,0.5061,2.02,1.98,25.57,0.4597,5.88,8.19,2.75,2.77,tennis.com
+wta,,Hall of Fame Open,Hard,Semifinal,Mananchaya Sawangkaew,Tatjana Maria,0.6512,0.3488,1.54,2.87,24.14,0.3062,5.11,3.49,3.41,3.89,tennis.com
+wta,,Hall of Fame Open,Hard,Semifinal,Greet Minnen,Katie Volynets,0.4853,0.5147,2.06,1.94,24.56,0.3292,3.5,2.54,4.29,2.41,tennis.com
 atp,20260711,Plava Laguna Croatia Open Umag,Clay,Qualifying 1st Round,Duje Ajdukovic,Marco Cecchinato,0.4819,0.5181,2.08,1.93,25.79,0.4888,4.81,4.82,3.21,3.21,espn
-wta,20260711,Nordea Open,Hard,Final,Paula Badosa,Simona Waltert,0.6815,0.3185,1.47,3.14,24.11,0.3156,5.01,4.41,6.01,2.94,espn
 wta,20260711,Wimbledon,Grass,Final,Linda Noskova,Karolina Muchova,0.4612,0.5388,2.17,1.86,25.05,0.3931,4.39,3.55,3.84,3.93,espn
 atp,20260712,Wimbledon,Grass,Final,Alexander Zverev,Jannik Sinner,0.2866,0.7134,3.49,1.4,43.18,0.7757,13.76,14.15,3.46,3.6,espn
+atp,20260713,EFG Swiss Open Gstaad,Clay,Round 1,Yannick Hanfmann,Pedro Martinez,0.6923,0.3077,1.44,3.25,24.87,0.4183,3.56,2.66,2.19,2.89,espn
+atp,20260713,EFG Swiss Open Gstaad,Clay,Round 1,Jaume Munar,Dominic Stricker,0.5973,0.4027,1.67,2.48,25.27,0.4328,3.95,4.64,3.6,3.1,espn
+atp,20260713,EFG Swiss Open Gstaad,Clay,Round 1,Stan Wawrinka,Jaime Faria,0.4496,0.5504,2.22,1.82,25.4,0.4393,5.14,4.97,2.27,3.76,espn
+atp,20260713,EFG Swiss Open Gstaad,Clay,Round 1,Ignacio Buse,Stefanos Tsitsipas,0.5025,0.4975,1.99,2.01,25.93,0.5063,4.43,4.89,2.76,2.87,espn
+atp,20260713,EFG Swiss Open Gstaad,Clay,Round 1,Alexander Shevchenko,Alexandre Muller,0.502,0.498,1.99,2.01,25.3,0.4237,3.6,4.0,2.57,2.59,espn
