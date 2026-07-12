@@ -1,13 +1,15 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,20260712,Wimbledon,Grass,Final,Alexander Zverev,Jannik Sinner,0.2866,0.7134,3.49,1.4,43.18,0.7757,13.76,14.15,3.46,3.6,espn
-atp,20260713,Plava Laguna Croatia Open Umag,Clay,Round 1,Valentin Royer,Alex Molcan,0.2551,0.7449,3.92,1.34,24.66,0.4161,4.78,3.81,2.32,2.5,espn
-atp,20260713,Plava Laguna Croatia Open Umag,Clay,Round 1,Alexander Blockx,Titouan Droguet,0.732,0.268,1.37,3.73,25.33,0.502,3.76,4.35,2.27,2.9,espn
+atp,,ATP Challenger Newport,Grass,Final,Jacob Fearnley,Adam Walton,0.4586,0.5414,2.18,1.85,26.13,0.5342,8.12,8.05,2.74,2.91,tennis.com
+wta,,KTC Ladies Open,Hard,Round 1,Veronika Erjavec,Victoria Mboko,0.0744,0.9256,13.44,1.08,21.2,0.215,2.48,4.91,2.61,6.25,tennis.com
+wta,,Hall of Fame Open,Hard,Final,Katie Volynets,Tatjana Maria,0.5389,0.4611,1.86,2.17,24.42,0.3131,2.58,3.71,2.44,4.14,tennis.com
+atp,20260713,EFG Swiss Open Gstaad,Clay,Round 1,Timofey Skatov,Raphael Collignon,0.3533,0.6467,2.83,1.55,25.28,0.4469,4.09,4.62,2.36,2.88,espn
 atp,20260713,Plava Laguna Croatia Open Umag,Clay,Round 1,Marco Trungelliti,Kyrian Jacquet,0.6067,0.3933,1.65,2.54,25.43,0.4574,4.94,4.11,3.3,2.46,espn
 atp,20260713,EFG Swiss Open Gstaad,Clay,Round 1,Jaume Munar,Dominic Stricker,0.5973,0.4027,1.67,2.48,25.27,0.4328,3.95,4.64,3.6,3.1,espn
-atp,20260713,Plava Laguna Croatia Open Umag,Clay,Round 1,Pablo Carreno Busta,Ivan Dodig,0.5613,0.4387,1.78,2.28,25.85,0.5018,4.33,4.71,2.57,3.14,espn
 atp,20260713,Plava Laguna Croatia Open Umag,Clay,Round 1,Luca Van Assche,Dusan Lajovic,0.5543,0.4457,1.8,2.24,25.61,0.4689,4.51,3.59,2.55,1.9,espn
 atp,20260713,Nordea Open,Hard,Round 1,Vilius Gaubas,Jesper De Jong,0.5173,0.4827,1.93,2.07,25.52,0.454,5.71,8.34,2.5,2.75,espn
 atp,20260713,Plava Laguna Croatia Open Umag,Clay,Round 1,Dino Prizmic,Vit Kopriva,0.4984,0.5016,2.01,1.99,25.77,0.4855,6.83,5.09,2.75,3.06,espn
+atp,20260714,Plava Laguna Croatia Open Umag,Clay,Round 1,Valentin Royer,Alex Molcan,0.2551,0.7449,3.92,1.34,24.66,0.4161,4.78,3.81,2.32,2.5,espn
+atp,20260714,Plava Laguna Croatia Open Umag,Clay,Round 1,Alexander Blockx,Titouan Droguet,0.732,0.268,1.37,3.73,25.33,0.502,3.76,4.35,2.27,2.9,espn
 atp,20260714,Nordea Open,Hard,Round 1,Andrea Pellegrino,Nicolai Budkov Kjaer,0.6948,0.3052,1.44,3.28,25.07,0.4451,4.98,6.91,3.32,2.42,espn
 atp,20260714,EFG Swiss Open Gstaad,Clay,Round 1,Yannick Hanfmann,Pedro Martinez,0.6923,0.3077,1.44,3.25,24.87,0.4183,3.56,2.66,2.19,2.89,espn
 atp,20260714,EFG Swiss Open Gstaad,Clay,Round 1,Quentin Halys,Federico Cina,0.6583,0.3417,1.52,2.93,25.81,0.5247,4.57,5.61,2.57,2.38,espn
@@ -15,6 +17,7 @@ atp,20260714,Nordea Open,Hard,Round 1,Thiago Agustin Tirante,Sebastian Ofner,0.6
 atp,20260714,Nordea Open,Hard,Round 1,Grigor Dimitrov,Dalibor Svrcina,0.6416,0.3584,1.56,2.79,25.68,0.5007,7.62,4.56,3.67,3.04,espn
 atp,20260714,Nordea Open,Hard,Round 1,Moise Kouame,Nuno Borges,0.4097,0.5903,2.44,1.69,26.18,0.549,7.97,6.63,2.98,2.53,espn
 atp,20260714,Nordea Open,Hard,Round 1,Nikoloz Basilashvili,Jan Choinski,0.5887,0.4113,1.7,2.43,25.67,0.4832,4.92,7.04,3.28,2.47,espn
+atp,20260714,Plava Laguna Croatia Open Umag,Clay,Round 1,Pablo Carreno Busta,Ivan Dodig,0.5613,0.4387,1.78,2.28,25.85,0.5018,4.33,4.71,2.57,3.14,espn
 atp,20260714,EFG Swiss Open Gstaad,Clay,Round 1,Stan Wawrinka,Jaime Faria,0.4496,0.5504,2.22,1.82,25.4,0.4393,5.14,4.97,2.27,3.76,espn
 atp,20260714,Nordea Open,Hard,Round 1,Hugo Gaston,Daniel Altmaier,0.4535,0.5465,2.2,1.83,25.68,0.4761,5.83,8.37,2.74,2.27,espn
 atp,20260714,EFG Swiss Open Gstaad,Clay,Round 1,Ignacio Buse,Stefanos Tsitsipas,0.5025,0.4975,1.99,2.01,25.93,0.5063,4.43,4.89,2.76,2.87,espn
