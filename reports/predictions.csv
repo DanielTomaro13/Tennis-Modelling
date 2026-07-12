@@ -1,4 +1,7 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+wta,,UniCredit Iasi Open,Hard,Round 1,Alina Charaeva,Victoria Jimenez Kasintseva,0.383,0.617,2.61,1.62,24.2,0.3001,3.17,3.57,3.9,5.07,tennis.com
+wta,,UniCredit Iasi Open,Hard,Round 1,Anna Bondar,Sara Sorribes Tormo,0.4311,0.5689,2.32,1.76,24.26,0.2968,4.11,2.44,3.31,3.58,tennis.com
+wta,,KTC Ladies Open,Hard,Round 1,Despina Papamichail,Erika Andreeva,0.5154,0.4846,1.94,2.06,24.64,0.3395,4.9,3.05,3.27,3.63,tennis.com
 atp,20260713,EFG Swiss Open Gstaad,Clay,Round 1,Timofey Skatov,Raphael Collignon,0.3629,0.6371,2.76,1.57,25.32,0.4485,4.11,4.62,2.37,2.88,espn
 atp,20260713,EFG Swiss Open Gstaad,Clay,Round 1,Jaume Munar,Dominic Stricker,0.6113,0.3887,1.64,2.57,25.22,0.4311,3.96,4.62,3.61,3.08,espn
 atp,20260713,Plava Laguna Croatia Open Umag,Clay,Round 1,Marco Trungelliti,Kyrian Jacquet,0.5675,0.4325,1.76,2.31,25.54,0.4615,4.91,4.17,3.28,2.5,espn
