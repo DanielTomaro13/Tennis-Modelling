@@ -1,7 +1,15 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,ATP Challenger Newport,Grass,Final,Jacob Fearnley,Adam Walton,0.4586,0.5414,2.18,1.85,26.13,0.5342,8.12,8.05,2.74,2.91,tennis.com
-wta,,KTC Ladies Open,Hard,Round 1,Veronika Erjavec,Victoria Mboko,0.0744,0.9256,13.44,1.08,21.2,0.215,2.48,4.91,2.61,6.25,tennis.com
-wta,,Hall of Fame Open,Hard,Final,Katie Volynets,Tatjana Maria,0.5389,0.4611,1.86,2.17,24.42,0.3131,2.58,3.71,2.44,4.14,tennis.com
+wta,,Athens Open,Hard,Round 1,Qinwen Zheng,Jessica Bouzas Maneiro,0.8112,0.1888,1.23,5.3,22.95,0.2665,7.23,2.12,5.02,4.58,tennis.com
+wta,,Athens Open,Hard,Round 1,Magda Linette,Mai Hontama,0.8102,0.1898,1.23,5.27,23.2,0.295,4.0,3.94,2.85,2.63,tennis.com
+wta,,Athens Open,Hard,Round 1,Barbora Krejcikova,Viktoriya Tomova,0.7237,0.2763,1.38,3.62,23.8,0.3008,3.98,2.65,5.15,3.89,tennis.com
+wta,,Athens Open,Hard,Round 1,Valentini Grammatikopoulou,Alycia Parks,0.2988,0.7012,3.35,1.43,23.96,0.3044,4.37,6.69,2.91,6.98,tennis.com
+wta,,Athens Open,Hard,Round 1,Maria Timofeeva,Ann Li,0.3089,0.6911,3.24,1.45,24.01,0.3057,4.4,4.34,2.93,3.41,tennis.com
+wta,,Athens Open,Hard,Round 1,Polina Kudermetova,Maria Sakkari,0.3313,0.6687,3.02,1.5,24.1,0.3065,3.08,3.06,4.94,3.4,tennis.com
+wta,,UniCredit Iasi Open,Hard,Round 1,Alina Charaeva,Victoria Jimenez Kasintseva,0.3642,0.6358,2.75,1.57,24.13,0.2979,3.13,3.59,3.86,5.1,tennis.com
+wta,,Athens Open,Hard,Round 1,Clara Tauson,Ajla Tomljanovic,0.5867,0.4133,1.7,2.42,24.68,0.3542,7.54,2.7,3.94,4.45,tennis.com
+wta,,UniCredit Iasi Open,Hard,Round 1,Anna Bondar,Sara Sorribes Tormo,0.443,0.557,2.26,1.8,24.28,0.2975,4.14,2.43,3.33,3.56,tennis.com
+wta,,Athens Open,Hard,Round 1,Anna Blinkova,Aliaksandra Sasnovich,0.4522,0.5478,2.21,1.83,24.7,0.349,2.47,4.22,3.95,4.93,tennis.com
+wta,,KTC Ladies Open,Hard,Round 1,Despina Papamichail,Erika Andreeva,0.5154,0.4846,1.94,2.06,24.64,0.3395,4.9,3.05,3.27,3.63,tennis.com
 atp,20260713,EFG Swiss Open Gstaad,Clay,Round 1,Timofey Skatov,Raphael Collignon,0.3533,0.6467,2.83,1.55,25.28,0.4469,4.09,4.62,2.36,2.88,espn
 atp,20260713,Plava Laguna Croatia Open Umag,Clay,Round 1,Marco Trungelliti,Kyrian Jacquet,0.6067,0.3933,1.65,2.54,25.43,0.4574,4.94,4.11,3.3,2.46,espn
 atp,20260713,EFG Swiss Open Gstaad,Clay,Round 1,Jaume Munar,Dominic Stricker,0.5973,0.4027,1.67,2.48,25.27,0.4328,3.95,4.64,3.6,3.1,espn
