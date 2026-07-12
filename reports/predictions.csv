@@ -1,5 +1,4 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Citta di Trieste Challenger,Grass,Final,Ivan Dodig,Hugo Dellien,0.6215,0.3785,1.61,2.64,25.57,0.4799,4.94,4.6,3.29,3.07,tennis.com
 atp,,Serena Wines 1881 - Acqua Maniva Tennis Cup,Hard,Qualifiers,Mario Vilella Martinez,Andrea Arnaboldi,0.5598,0.4402,1.79,2.27,25.74,0.4868,4.89,4.71,3.26,3.14,tennis.com
 atp,,ATP Challenger Newport,Grass,Final,Jacob Fearnley,Adam Walton,0.4586,0.5414,2.18,1.85,26.13,0.5342,8.12,8.05,2.74,2.91,tennis.com
 atp,,Brawo Open,Hard,Final,Jan Choinski,Hugo Gaston,0.4589,0.5411,2.18,1.85,25.56,0.4598,7.22,5.94,2.53,2.79,tennis.com
