@@ -19,26 +19,24 @@ atp,20260714,Nordea Open,Hard,3,doubles,Round 1,Oliver Johansson / Nikola Slavic
 atp,20260714,Nordea Open,Hard,3,doubles,Round 1,Sander Arends / David Pel,Orlando Luz / Rafael Matos,Sander Arends,David Pel,Orlando Luz,Rafael Matos,espn
 atp,20260714,Nordea Open,Hard,3,doubles,Round 1,Jean-Julien Rojer / Theodore Winegar,Karol Drzewiecki / Filip Pieczonka,Jean-Julien Rojer,Theodore Winegar,Karol Drzewiecki,Filip Pieczonka,espn
 atp,20260714,Nordea Open,Hard,3,doubles,Round 1,Erik Grevelius / Adam Heinonen,Theo Arribage / Francisco Cabral,Erik Grevelius,Adam Heinonen,Theo Arribage,Francisco Cabral,espn
-atp,20260713,EFG Swiss Open Gstaad,Clay,3,singles,Round 1,Joel Josef Schwaerzler,Lorenzo Sonego,,,,,espn
 atp,20260713,EFG Swiss Open Gstaad,Clay,3,singles,Round 1,Miomir Kecmanovic,Kilian Feldbausch,,,,,espn
 atp,20260713,EFG Swiss Open Gstaad,Clay,3,singles,Round 1,Jurij Rodionov,Clement Tabur,,,,,espn
 atp,20260713,EFG Swiss Open Gstaad,Clay,3,singles,Round 1,Timofey Skatov,Raphael Collignon,,,,,espn
 atp,20260713,EFG Swiss Open Gstaad,Clay,3,singles,Round 1,Jaume Munar,Dominic Stricker,,,,,espn
-atp,20260714,EFG Swiss Open Gstaad,Clay,3,singles,Round 1,Aleksandr Shevchenko,Alexandre Muller,,,,,espn
 atp,20260714,EFG Swiss Open Gstaad,Clay,3,singles,Round 1,Stan Wawrinka,Jaime Faria,,,,,espn
 atp,20260714,EFG Swiss Open Gstaad,Clay,3,singles,Round 1,Quentin Halys,Federico Cina,,,,,espn
 atp,20260714,EFG Swiss Open Gstaad,Clay,3,singles,Round 1,Zdenek Kolar,Juan Manuel Cerundolo,,,,,espn
 atp,20260714,EFG Swiss Open Gstaad,Clay,3,singles,Round 1,Yannick Hanfmann,Pedro Martinez,,,,,espn
-atp,20260714,EFG Swiss Open Gstaad,Clay,3,singles,Round 1,Dylan Dietrich,Jerome Kym,,,,,espn
 atp,20260714,EFG Swiss Open Gstaad,Clay,3,singles,Round 1,Ignacio Buse,Stefanos Tsitsipas,,,,,espn
-atp,20260713,EFG Swiss Open Gstaad,Clay,3,doubles,Round 1,Petr Nouza / Neil Oberleitner,Dylan Dietrich / Dominic Stricker,Petr Nouza,Neil Oberleitner,Dylan Dietrich,Dominic Stricker,espn
-atp,20260713,EFG Swiss Open Gstaad,Clay,3,doubles,Round 1,Ignacio Carou / Juan Manuel Cerundolo,Quentin Halys / Pierre-Hugues Herbert,Ignacio Carou,Juan Manuel Cerundolo,Quentin Halys,Pierre-Hugues Herbert,espn
+atp,20260714,EFG Swiss Open Gstaad,Clay,3,singles,Round 1,Dylan Dietrich,Jerome Kym,,,,,espn
+atp,20260714,EFG Swiss Open Gstaad,Clay,3,singles,Round 1,Aleksandr Shevchenko,Alexandre Muller,,,,,espn
 atp,20260713,EFG Swiss Open Gstaad,Clay,3,doubles,Round 1,Jerome Kym / Stan Wawrinka,Marcelo Demoliner / Robert Galloway,Jerome Kym,Stan Wawrinka,Marcelo Demoliner,Robert Galloway,espn
 atp,20260713,EFG Swiss Open Gstaad,Clay,3,doubles,Round 1,Jakob Schnaitter / Mark Wallner,Anirudh Chandrasekar / Takeru Yuzuki,Jakob Schnaitter,Mark Wallner,Anirudh Chandrasekar,Takeru Yuzuki,espn
 atp,20260714,EFG Swiss Open Gstaad,Clay,3,doubles,Round 1,Sergio Martos Gornes / Jaume Munar,Jakub Paul / Ryan Seggerman,Sergio Martos Gornes,Jaume Munar,Jakub Paul,Ryan Seggerman,espn
-atp,20260714,EFG Swiss Open Gstaad,Clay,3,doubles,Round 1,Ignacio Buse / Inigo Cervantes-Huegun,Hendrik Jebens / Matej Vocel,Ignacio Buse,Inigo Cervantes-Huegun,Hendrik Jebens,Matej Vocel,espn
-atp,20260714,EFG Swiss Open Gstaad,Clay,3,doubles,Round 1,Raphael Collignon / Arthur Rinderknech,Lucas Miedler / Marc Polmans,Raphael Collignon,Arthur Rinderknech,Lucas Miedler,Marc Polmans,espn
 atp,20260714,EFG Swiss Open Gstaad,Clay,3,doubles,Round 1,Fernando Romboli / John-Patrick Smith,Sander Gille / Sem Verbeek,Fernando Romboli,John-Patrick Smith,Sander Gille,Sem Verbeek,espn
+atp,20260714,EFG Swiss Open Gstaad,Clay,3,doubles,Round 1,Raphael Collignon / Arthur Rinderknech,Lucas Miedler / Marc Polmans,Raphael Collignon,Arthur Rinderknech,Lucas Miedler,Marc Polmans,espn
+atp,20260714,EFG Swiss Open Gstaad,Clay,3,doubles,Round 1,Ignacio Buse / Inigo Cervantes-Huegun,Hendrik Jebens / Matej Vocel,Ignacio Buse,Inigo Cervantes-Huegun,Hendrik Jebens,Matej Vocel,espn
+atp,20260714,EFG Swiss Open Gstaad,Clay,3,doubles,Round 1,Petr Nouza / Neil Oberleitner,Dylan Dietrich / Dominic Stricker,Petr Nouza,Neil Oberleitner,Dylan Dietrich,Dominic Stricker,espn
 atp,20260713,Plava Laguna Croatia Open Umag,Clay,3,singles,Round 1,Henrique Rocha,Damir Dzumhur,,,,,espn
 atp,20260713,Plava Laguna Croatia Open Umag,Clay,3,singles,Round 1,Marco Trungelliti,Kyrian Jacquet,,,,,espn
 atp,20260713,Plava Laguna Croatia Open Umag,Clay,3,singles,Round 1,Luca Van Assche,Dusan Lajovic,,,,,espn
@@ -59,60 +57,151 @@ atp,20260714,Plava Laguna Croatia Open Umag,Clay,3,doubles,Round 1,Filip Duda / 
 atp,20260714,Plava Laguna Croatia Open Umag,Clay,3,doubles,Round 1,Pruchya Isaro / Niki Kaliyanda Poonacha,Santiago Gonzalez / Maximo Gonzalez,Pruchya Isaro,Niki Kaliyanda Poonacha,Santiago Gonzalez,Maximo Gonzalez,espn
 atp,20260714,Plava Laguna Croatia Open Umag,Clay,3,doubles,Round 1,Andres Molteni / Patrik Trhac,Damir Dzumhur / Stefan Latinovic,Andres Molteni,Patrik Trhac,Damir Dzumhur,Stefan Latinovic,espn
 atp,20260714,Plava Laguna Croatia Open Umag,Clay,3,doubles,Round 1,David Stevenson / Marcus Willis,Arthur Reymond / Luca Sanchez,David Stevenson,Marcus Willis,Arthur Reymond,Luca Sanchez,espn
-atp,,Nordea Open,Hard,3,singles,Qualifying Round 2,Igor Marcondes,Lautaro Midon,,,,,tennis.com
 atp,,Nordea Open,Hard,3,singles,Qualifying Round 2,Carlos Sánchez Jover,Taro Daniel,,,,,tennis.com
-atp,,ATP Challenger Bunschoten,Grass,3,singles,Qualifying Round 2,Mateus Alves,Jan Kumstát,,,,,tennis.com
-atp,,ATP Challenger Bunschoten,Grass,3,singles,Qualifying Round 2,Sander Jong,Mika Petković,,,,,tennis.com
-atp,,ATP Challenger Bunschoten,Grass,3,singles,Qualifying Round 2,Denis Yevseyev,Gerard Campana Lee,,,,,tennis.com
-atp,,ATP Challenger Bunschoten,Grass,3,singles,Qualifying Round 2,Dax Donders,Louis Wessels,,,,,tennis.com
-atp,,ATP Challenger Bunschoten,Grass,3,singles,Qualifying Round 2,Abel Forger,Tsung-Hao Huang,,,,,tennis.com
 atp,,ATP Challenger Bunschoten,Grass,3,singles,Qualifying Round 2,Dimitar Kuzmanov,Ryan Nijboer,,,,,tennis.com
+atp,,ATP Challenger Bunschoten,Grass,3,singles,Qualifying Round 2,Abel Forger,Tsung-Hao Huang,,,,,tennis.com
+atp,,ATP Challenger Bunschoten,Grass,3,singles,Qualifying Round 2,Dax Donders,Louis Wessels,,,,,tennis.com
 atp,,ATP Challenger Bunschoten,Grass,3,singles,Round 1,Gilles Arnaud Bailly,Filippo Romano,,,,,tennis.com
 atp,,ATP Challenger Bunschoten,Grass,3,singles,Round 1,Pieter de Lange,Michael Geerts,,,,,tennis.com
 atp,,ATP Challenger Bunschoten,Grass,3,singles,Round 1,Andres Santamarta Roig,Max Schönhaus,,,,,tennis.com
-atp,,Serena Wines 1881 - Acqua Maniva Tennis Cup,Hard,3,singles,Qualifying Round 1,Francesco Forti,Peter Makk,,,,,tennis.com
-atp,,Serena Wines 1881 - Acqua Maniva Tennis Cup,Hard,3,singles,Qualifying Round 1,Oleg Prihodko,Gabriele Crivellaro,,,,,tennis.com
-atp,,Serena Wines 1881 - Acqua Maniva Tennis Cup,Hard,3,singles,Qualifying Round 1,Gonzalo Villanueva,Giammarco Gandolfi,,,,,tennis.com
+atp,,ATP Challenger Bunschoten,Grass,3,singles,Round 1,Max Houkes,David Jordá Sanchis,,,,,tennis.com
 atp,,Serena Wines 1881 - Acqua Maniva Tennis Cup,Hard,3,singles,Qualifying Round 1,Alexander Binda,Unknown,,,,,tennis.com
 atp,,Serena Wines 1881 - Acqua Maniva Tennis Cup,Hard,3,singles,Qualifying Round 1,Georgii Kravchenko,Daniel Salazar Martinez,,,,,tennis.com
 atp,,Serena Wines 1881 - Acqua Maniva Tennis Cup,Hard,3,singles,Qualifying Round 1,Giorgio Tabacco,Samuel Vincent Ruggeri,,,,,tennis.com
-atp,,Swiss Open Gstaad,Clay,3,singles,Round 1,Lorenzo Sonego,Joel Schwärzler,,,,,tennis.com
+atp,,Serena Wines 1881 - Acqua Maniva Tennis Cup,Hard,3,singles,Round 1,Max Hans Rehberg,Guido Iván Justo,,,,,tennis.com
+atp,,Serena Wines 1881 - Acqua Maniva Tennis Cup,Hard,3,singles,Round 1,Franco Agamenone,Alex Barrena,,,,,tennis.com
+atp,,Serena Wines 1881 - Acqua Maniva Tennis Cup,Hard,3,singles,Round 1,Iñaki Montes-de la Torre,Lorenzo Angelini,,,,,tennis.com
+atp,,Serena Wines 1881 - Acqua Maniva Tennis Cup,Hard,3,singles,Round 1,Stefano Napolitano,Felix Balshaw,,,,,tennis.com
+atp,,Les Championnats Banque Nationale de Granby,Hard,3,singles,Qualifying Round 2,James Kent Trotter,Benjamin Thomas George,,,,,tennis.com
+atp,,Les Championnats Banque Nationale de Granby,Hard,3,singles,Qualifying Round 2,César Bouchelaghem,Adhithya Ganesan,,,,,tennis.com
+atp,,Les Championnats Banque Nationale de Granby,Hard,3,singles,Qualifying Round 2,Mikael Arseneault,Guillaume Dalmasso,,,,,tennis.com
+atp,,Les Championnats Banque Nationale de Granby,Hard,3,singles,Qualifying Round 2,Karl Poling,Kenta (2004) Miyoshi,,,,,tennis.com
+atp,,Les Championnats Banque Nationale de Granby,Hard,3,singles,Qualifying Round 2,Alexander Rozin,Kokoro Isomura,,,,,tennis.com
+atp,,Les Championnats Banque Nationale de Granby,Hard,3,singles,Qualifying Round 2,Edward Winter,Strong Kirchheimer,,,,,tennis.com
+atp,,Les Championnats Banque Nationale de Granby,Hard,3,singles,Round 1,Justin Boulais,Zhizhen Zhang,,,,,tennis.com
+atp,,Les Championnats Banque Nationale de Granby,Hard,3,singles,Round 1,Aleksandar Vukic,Liam Broady,,,,,tennis.com
+atp,,Les Championnats Banque Nationale de Granby,Hard,3,singles,Round 1,Yuta Shimizu,Jay Friend,,,,,tennis.com
+atp,,Les Championnats Banque Nationale de Granby,Hard,3,singles,Round 1,August Holmgren,Yosuke Watanuki,,,,,tennis.com
+atp,,Les Championnats Banque Nationale de Granby,Hard,3,singles,Round 1,Nicolas Arseneault,Andres Martin,,,,,tennis.com
+atp,,Lincoln Challenger,Grass,3,singles,Qualifying Round 2,Hiroki Moriya,Thomas Fancutt,,,,,tennis.com
+atp,,Lincoln Challenger,Grass,3,singles,Qualifying Round 2,Matthew Forbes,Aniss Rafiq,,,,,tennis.com
+atp,,Lincoln Challenger,Grass,3,singles,Qualifying Round 2,Keshav Chopra,Dhakshineswar Suresh,,,,,tennis.com
+atp,,Lincoln Challenger,Grass,3,singles,Qualifying Round 2,Evan Zhu,Yassine Dlimi,,,,,tennis.com
+atp,,Lincoln Challenger,Grass,3,singles,Qualifying Round 2,Christian Langmo,Joshua Sheehy,,,,,tennis.com
+atp,,Lincoln Challenger,Grass,3,singles,Qualifying Round 2,Yibing Wu,Pavle Marinkov,,,,,tennis.com
+atp,,Lincoln Challenger,Grass,3,singles,Round 1,Rio Noguchi,Charles Broom,,,,,tennis.com
+atp,,Lincoln Challenger,Grass,3,singles,Round 1,Mitchell Krueger,Alex Martinez,,,,,tennis.com
+atp,,Lincoln Challenger,Grass,3,singles,Round 1,Coleman Wong,Tung-Lin Wu,,,,,tennis.com
+atp,,Lincoln Challenger,Grass,3,singles,Round 1,Jack Kennedy,Anton Shepp,,,,,tennis.com
+atp,,Lincoln Challenger,Grass,3,singles,Round 1,Jeffrey John Wolf,Andrew Fenty,,,,,tennis.com
+atp,,Open de Tenis Ciudad de Pozoblanco,Hard,3,singles,Qualifying Round 2,Takuya Kumasaka,Pavel Lagutin,,,,,tennis.com
+atp,,Open de Tenis Ciudad de Pozoblanco,Hard,3,singles,Qualifying Round 2,Aziz Ouakaa,Samuel Alejandro Linde Palacios,,,,,tennis.com
+atp,,Open de Tenis Ciudad de Pozoblanco,Hard,3,singles,Qualifying Round 2,Massimo Giunta,Izan Almazan Valiente,,,,,tennis.com
+atp,,Open de Tenis Ciudad de Pozoblanco,Hard,3,singles,Qualifying Round 2,Dominik Palán,Mario Gonzalez Fernandez,,,,,tennis.com
+atp,,Open de Tenis Ciudad de Pozoblanco,Hard,3,singles,Qualifying Round 2,Unknown,Ilya Ivashka,,,,,tennis.com
+atp,,Open de Tenis Ciudad de Pozoblanco,Hard,3,singles,Qualifying Round 2,Bernardo Munk Mesa,Mitsuki Wei Kang Leong,,,,,tennis.com
+atp,,Open de Tenis Ciudad de Pozoblanco,Hard,3,singles,Round 1,Hugo Grenier,Cyril Vandermeersch,,,,,tennis.com
+atp,,Open de Tenis Ciudad de Pozoblanco,Hard,3,singles,Round 1,Tiago Pereira,Miguel Tobon,,,,,tennis.com
+atp,,Open de Tenis Ciudad de Pozoblanco,Hard,3,singles,Round 1,Paul Inchauspe,Hamish Stewart,,,,,tennis.com
+atp,,Open de Tenis Ciudad de Pozoblanco,Hard,3,singles,Round 1,Akira Santillan,Alejandro Lopez Escribano,,,,,tennis.com
+atp,,Open de Tenis Ciudad de Pozoblanco,Hard,3,singles,Round 1,Chris Rodesch,Mert Alkaya,,,,,tennis.com
 atp,,Swiss Open Gstaad,Clay,3,singles,Round 1,Kilian Feldbausch,Miomir Kecmanović,,,,,tennis.com
 atp,,Swiss Open Gstaad,Clay,3,singles,Round 1,Clément Tabur,Jurij Rodionov,,,,,tennis.com
 atp,,Swiss Open Gstaad,Clay,3,singles,Round 1,Raphaël Collignon,Timofey Skatov,,,,,tennis.com
+atp,,Plava Laguna Croatia Open Umag,Clay,3,singles,Round 1,Damir Džumhur,Henrique Rocha,,,,,tennis.com
+atp,,Plava Laguna Croatia Open Umag,Clay,3,singles,Round 1,Dušan Lajović,Luca Van Assche,,,,,tennis.com
+atp,,Plava Laguna Croatia Open Umag,Clay,3,singles,Round 1,Vít Kopřiva,Dino Prižmić,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 17,Grass,3,singles,,Evan Lee,Yashwin Krishnakumar,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 17,Grass,3,singles,,Alexander Aney,Jacob Brumm,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 17,Grass,3,singles,,Benjamin Sparks,Pavel Bushuev,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 17,Grass,3,singles,,Connor Robb-Wilcox,Douglas Yaffa,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 17,Grass,3,singles,,Ivan Savkin,David Duong,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 17,Grass,3,singles,,Gabriel Porras,Winston Lee,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 17,Grass,3,singles,,Emmett Potter,Benjamin Berger,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 17,Grass,3,singles,,Robert Yang,Ford McCollum,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 17,Grass,3,singles,,Chelsea Bluestein,Vivian Gallaway,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 17,Grass,3,singles,,Tiffany Papazian,Sage Bergeson,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 17,Grass,3,singles,,Mila Mulready,Emily Deming,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 17,Grass,3,singles,,Kelly Shi,Nicole Weng,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 17,Grass,3,singles,,Tianmei Wang,Kiana Smith,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 17,Grass,3,singles,,Natalie Lynch,Lily Revak,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 17,Grass,3,singles,,Raina Kim,Sue Yan Tan,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 17,Grass,3,singles,,Skylar Kasday,Isabelle Nguyen,,,,,tennis.com
+atp,,UTR PTT Saitama Men 05,Hard,3,singles,,Nuutti Jokinen,Yuga Tashiro,,,,,tennis.com
+atp,,UTR PTT Saitama Men 05,Hard,3,singles,,Penn Charusorn,Shingo Masuda,,,,,tennis.com
+atp,,UTR PTT Saitama Men 05,Hard,3,singles,,Soma Fukuhara,Taiyo Uenoyama,,,,,tennis.com
+atp,,UTR PTT Saitama Men 05,Hard,3,singles,,Christopher Rodi,Min Jae Kim,,,,,tennis.com
+atp,,UTR PTT Saitama Men 05,Hard,3,singles,,Penn Charusorn,Shion Itsusaki,,,,,tennis.com
+atp,,UTR PTT Saitama Men 05,Hard,3,singles,,Jonathan Irwanto,Shingo Masuda,,,,,tennis.com
+atp,,UTR PTT Saitama Men 05,Hard,3,singles,,Naoto Tomizawa,Yuga Tashiro,,,,,tennis.com
+atp,,UTR PTT Saitama Men 05,Hard,3,singles,,Taiyo Kurata,Toshiki Karigyo,,,,,tennis.com
+atp,,UTR PTT Saitama Men 05,Hard,3,singles,,Nuutti Jokinen,Hiiro Sakamoto,,,,,tennis.com
+atp,,UTR PTT Saitama Men 05,Hard,3,singles,,Naoto Tomizawa,Hiiro Sakamoto,,,,,tennis.com
+atp,,UTR PTT Saitama Men 05,Hard,3,singles,,Jonathan Irwanto,Shion Itsusaki,,,,,tennis.com
+atp,,UTR PTT Saitama Men 05,Hard,3,singles,,Taiyo Kurata,Min Jae Kim,,,,,tennis.com
+atp,,UTR PTT Saitama Men 05,Hard,3,singles,,Kotaro Mochizuki,Taiyo Uenoyama,,,,,tennis.com
+atp,,UTR PTT Saitama Men 05,Hard,3,singles,,Christopher Rodi,Toshiki Karigyo,,,,,tennis.com
+atp,,UTR PTT Saitama Men 05,Hard,3,singles,,Soma Fukuhara,Koyu Yanagi,,,,,tennis.com
+wta,,UTR PTT Saitama Women 04,Hard,3,singles,,Mua Shigeta,Kaili Demi Teso,,,,,tennis.com
+wta,,UTR PTT Saitama Women 04,Hard,3,singles,,Ran Inaba,Junri Namigata,,,,,tennis.com
+wta,,UTR PTT Saitama Women 04,Hard,3,singles,,Mua Shigeta,Chinari Kobayashi,,,,,tennis.com
+wta,,UTR PTT Saitama Women 04,Hard,3,singles,,Ran Inaba,Rio Maeda,,,,,tennis.com
+wta,,UTR PTT Saitama Women 04,Hard,3,singles,,Kyoka Kubo,Nana Kawagishi,,,,,tennis.com
+wta,,UTR PTT Saitama Women 04,Hard,3,singles,,Yui Ohwaki,Junri Namigata,,,,,tennis.com
+wta,,UTR PTT Saitama Women 04,Hard,3,singles,,Azuna Ichioka,Michiru Furuya,,,,,tennis.com
+wta,,UTR PTT Saitama Women 04,Hard,3,singles,,Aely Arai,Seri Nayuki,,,,,tennis.com
+wta,,UTR PTT Saitama Women 04,Hard,3,singles,,Yui Komada,Kaili Demi Teso,,,,,tennis.com
+wta,,UTR PTT Saitama Women 04,Hard,3,singles,,Hinata Furutani,Aoi Watanabe,,,,,tennis.com
+wta,,UTR PTT Saitama Women 04,Hard,3,singles,,Yui Ohwaki,Rio Maeda,,,,,tennis.com
+wta,,UTR PTT Saitama Women 04,Hard,3,singles,,Azuna Ichioka,Aoi Watanabe,,,,,tennis.com
+wta,,UTR PTT Saitama Women 04,Hard,3,singles,,Hinata Furutani,Michiru Furuya,,,,,tennis.com
+wta,,UTR PTT Saitama Women 04,Hard,3,singles,,Aely Arai,Nana Kawagishi,,,,,tennis.com
+wta,,UTR PTT Saitama Women 04,Hard,3,singles,,Yui Komada,Chinari Kobayashi,,,,,tennis.com
+wta,,UTR PTT Saitama Women 04,Hard,3,singles,,Kyoka Kubo,Seri Nayuki,,,,,tennis.com
+atp,,UTR PTT Skopje Men 03,Hard,3,singles,,Ander Tarrio Ponte,Jakub Volesky,,,,,tennis.com
 atp,,UTR PTT Skopje Men 03,Hard,3,singles,,Lautaro Agustin Corthey,Sam Olszakowski,,,,,tennis.com
 atp,,UTR PTT Skopje Men 03,Hard,3,singles,,Matthew Upton,Cian McDonnell,,,,,tennis.com
 atp,,UTR PTT Skopje Men 03,Hard,3,singles,,Razvan Baiant,Jakub Prachar,,,,,tennis.com
 atp,,UTR PTT Skopje Men 03,Hard,3,singles,,Cyrus Mahjoob,Sep de Visser,,,,,tennis.com
-atp,,UTR PTT Skopje Men 03,Hard,3,singles,,Ander Tarrio Ponte,Jakub Volesky,,,,,tennis.com
-wta,,UTR PTT Skopje Women 03,Hard,3,singles,,Given Roach,Maria Shmakova,,,,,tennis.com
 wta,,UTR PTT Skopje Women 03,Hard,3,singles,,Nikoline Gullacksen,Sasha Sakura Stula,,,,,tennis.com
-wta,,UTR PTT Skopje Women 03,Hard,3,singles,,Jana Stojanova,Yelizaveta Trush,,,,,tennis.com
+wta,,UTR PTT Skopje Women 03,Hard,3,singles,,Given Roach,Maria Shmakova,,,,,tennis.com
 wta,,UTR PTT Skopje Women 03,Hard,3,singles,,Melis Rasim,Styliani Roussopoulou,,,,,tennis.com
 wta,,UTR PTT Skopje Women 03,Hard,3,singles,,Alexandra Panagiotidou,Andreea Diana Soare,,,,,tennis.com
 wta,,UTR PTT Skopje Women 03,Hard,3,singles,,Victoria Borodulina,Saoirse Breen,,,,,tennis.com
+wta,,Enka Open,Hard,3,singles,Qualifying Round 2,Daria Khomutsianskaya,Ying Zhang,,,,,tennis.com
 wta,,Enka Open,Hard,3,singles,Qualifying Round 2,Varvara Panshina,Weronika Falkowska,,,,,tennis.com
 wta,,Enka Open,Hard,3,singles,Qualifying Round 2,Isabella Shinikova,Yujia Huang,,,,,tennis.com
-wta,,Enka Open,Hard,3,singles,Qualifying Round 2,Daria Khomutsianskaya,Ying Zhang,,,,,tennis.com
-wta,,Enka Open,Hard,3,singles,Qualifying Round 2,Rina Saigo,Priska Madelyn Nugroho,,,,,tennis.com
 wta,,Enka Open,Hard,3,singles,Round 1,Kristina Penickova,Karman Kaur Thandi,,,,,tennis.com
+wta,,Enka Open,Hard,3,singles,Qualifying Round 2,Rina Saigo,Priska Madelyn Nugroho,,,,,tennis.com
 wta,,Enka Open,Hard,3,singles,Round 1,Hanne Vandewinkel,Carol Young Suh Lee,,,,,tennis.com
-wta,,Enka Open,Hard,3,singles,Round 1,Zhuoxuan Bai,Tatiana Prozorova,,,,,tennis.com
 wta,,Enka Open,Hard,3,singles,Round 1,Gabriela Knutson,Irem Kurt,,,,,tennis.com
-wta,,KTC Ladies Open,Hard,3,singles,Round 1,Julia Grabher,Elena Ruxandra Bertea,,,,,tennis.com
-wta,,KTC Ladies Open,Hard,3,singles,Round 1,Despina Papamichail,Erika Andreeva,,,,,tennis.com
+wta,,Enka Open,Hard,3,singles,Round 1,Zhuoxuan Bai,Tatiana Prozorova,,,,,tennis.com
+wta,,Enka Open,Hard,3,singles,Round 1,Anastasia Gasanova,Susan Bandecchi,,,,,tennis.com
+wta,,Enka Open,Hard,3,singles,Round 1,Kyōka Okamura,Lanlana Tararudee,,,,,tennis.com
 wta,,KTC Ladies Open,Hard,3,singles,Round 1,Yasmine Kabbaj,Ekaterina Perelygina,,,,,tennis.com
 wta,,KTC Ladies Open,Hard,3,singles,Round 1,Mia Ristić,Mia Pohánková,,,,,tennis.com
 wta,,KTC Ladies Open,Hard,3,singles,Round 1,Anastasia Tikhonova,Eva Bennemann,,,,,tennis.com
 wta,,KTC Ladies Open,Hard,3,singles,Round 1,Veronika Erjavec,Victoria Bosio,,,,,tennis.com
 wta,,KTC Ladies Open,Hard,3,singles,Round 1,Julia Avdeeva,Gina Feistel,,,,,tennis.com
-wta,,Antico Tiro a Volo Open,Hard,3,singles,Round 1,Francesca Jones,Dalila Spiteri,,,,,tennis.com
-wta,,Antico Tiro a Volo Open,Hard,3,singles,Round 1,Lola Radivojevic,Yufei Ren,,,,,tennis.com
-wta,,UniCredit Iasi Open,Hard,3,singles,Qualifying Round 2,Elena Pridankina,Georgina García Pérez,,,,,tennis.com
-wta,,UniCredit Iasi Open,Hard,3,singles,Qualifying Round 2,Ilinca Dalina Amariei,Carmen Andreea Herea,,,,,tennis.com
+wta,,KTC Ladies Open,Hard,3,singles,Round 1,Polona Hercog,Dalila Jakupović,,,,,tennis.com
+wta,,Antico Tiro a Volo Open,Hard,3,singles,Round 1,Kajsa Rinaldo Persson,Darya Astakhova,,,,,tennis.com
+wta,,Antico Tiro a Volo Open,Hard,3,singles,Round 1,Lina Gjorcheska,Deborah Chiesa,,,,,tennis.com
+wta,,Antico Tiro a Volo Open,Hard,3,singles,Round 1,Oksana Selekhmeteva,Elizara Yaneva,,,,,tennis.com
+wta,,Antico Tiro a Volo Open,Hard,3,singles,Round 1,Alice Ramé,Noma Noha Akugue,,,,,tennis.com
+wta,,Antico Tiro a Volo Open,Hard,3,singles,Round 1,Yelyzaveta Kotliar,Federica Urgesi,,,,,tennis.com
+wta,,Antico Tiro a Volo Open,Hard,3,singles,Round 1,Sofya Lansere,Elena Malygina,,,,,tennis.com
+wta,,Athens Open,Hard,3,singles,Round 1,Magda Linette,Mai Hontama,,,,,tennis.com
+wta,,Athens Open,Hard,3,singles,Round 1,Marianne Argyrokastriti,Lilli Tagger,,,,,tennis.com
+wta,,Athens Open,Hard,3,singles,Round 1,Qinwen Zheng,Jéssica Bouzas Maneiro,,,,,tennis.com
+wta,,Athens Open,Hard,3,singles,Round 1,Mina Hodzic,Harriet Dart,,,,,tennis.com
+wta,,Athens Open,Hard,3,singles,Round 1,Viktória Morvayová,Sára Bejlek,,,,,tennis.com
+wta,,Athens Open,Hard,3,singles,Round 1,Polina Kudermetova,Maria Sakkari,,,,,tennis.com
+wta,,Athens Open,Hard,3,singles,Round 1,Martha Matoula,Elena Micic,,,,,tennis.com
+wta,,Athens Open,Hard,3,singles,Round 1,Valentini Grammatikopoulou,Alycia Parks,,,,,tennis.com
 wta,,UniCredit Iasi Open,Hard,3,singles,Qualifying Round 2,Leyre Romero Gormaz,Zhibek Kulambayeva,,,,,tennis.com
-wta,,UniCredit Iasi Open,Hard,3,singles,Qualifying Round 2,Elina Avanesyan,Irina Fetecau,,,,,tennis.com
 wta,,UniCredit Iasi Open,Hard,3,singles,Qualifying Round 2,Claire Liu,İpek Öz,,,,,tennis.com
-wta,,UniCredit Iasi Open,Hard,3,singles,Round 1,Anna Bondár,Sara Sorribes Tormo,,,,,tennis.com
 wta,,UniCredit Iasi Open,Hard,3,singles,Round 1,Alina Charaeva,Victoria Jimenez Kasintseva,,,,,tennis.com
 wta,,UniCredit Iasi Open,Hard,3,singles,Qualifying Round 2,Varvara Lepchenko,Alevtina Ibragimova,,,,,tennis.com
+wta,,UniCredit Iasi Open,Hard,3,singles,Round 1,Anna Bondár,Sara Sorribes Tormo,,,,,tennis.com
+wta,,UniCredit Iasi Open,Hard,3,singles,Round 1,Clara Burel,Yulia Putintseva,,,,,tennis.com
+wta,,UniCredit Iasi Open,Hard,3,singles,Round 1,Nadia Podoroska,Petra Marčinko,,,,,tennis.com
