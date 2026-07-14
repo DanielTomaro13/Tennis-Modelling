@@ -1,25 +1,21 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Lincoln Challenger,Grass,Round 1,Dhakshineswar Suresh,Moez Echargui,0.5506,0.4494,1.82,2.23,26.38,0.5697,9.27,6.52,2.65,2.41,tennis.com
 atp,,Lincoln Challenger,Grass,Round 1,Mark Lajal,Zachary Svajda,0.5219,0.4781,1.92,2.09,26.04,0.5228,8.21,6.2,2.64,2.43,tennis.com
-atp,,Open de Tenis Ciudad de Pozoblanco,Hard,Round 1,Yi Zhou,Stefan Kozlov,0.5129,0.4871,1.95,2.05,25.79,0.4889,4.85,4.78,3.23,3.19,tennis.com
-wta,,Athens Open,Hard,Round 1,Clara Tauson,Nao Hibino,0.7388,0.2612,1.35,3.83,23.85,0.3165,7.73,3.04,4.04,3.64,tennis.com
 wta,,Athens Open,Hard,Round 1,Maria Timofeeva,Ann Li,0.3291,0.6709,3.04,1.49,24.12,0.3094,4.46,4.33,2.98,3.4,tennis.com
-wta,,Athens Open,Hard,Round 1,Anna Blinkova,Aliaksandra Sasnovich,0.4564,0.5436,2.19,1.84,24.7,0.3492,2.47,4.21,3.96,4.93,tennis.com
-wta,,UniCredit Iasi Open,Hard,Round 1,Katarzyna Kawa,Simona Waltert,0.5382,0.4618,1.86,2.17,24.54,0.3285,4.95,4.78,3.3,3.19,tennis.com
-wta,,Enka Open,Hard,Round 1,Viktoria Hruncakova,Cagla Buyukakcay,0.4922,0.5078,2.03,1.97,24.56,0.3292,4.86,4.87,3.24,3.25,tennis.com
 atp,20260714,Plava Laguna Croatia Open Umag,Clay,Round 1,Alexander Blockx,Titouan Droguet,0.7447,0.2553,1.34,3.92,25.23,0.4974,3.76,4.32,2.27,2.88,espn
-atp,20260714,Plava Laguna Croatia Open Umag,Clay,Round 1,Roman Andres Burruchaga,Marco Cecchinato,0.5314,0.4686,1.88,2.13,25.78,0.4884,4.87,4.75,3.24,3.17,espn
-atp,20260714,Plava Laguna Croatia Open Umag,Clay,Round 1,Juan Carlos Prado Angelo,Lukas Neumayer,0.5261,0.4739,1.9,2.11,24.98,0.3844,3.49,4.15,2.41,2.58,espn
-atp,20260714,Plava Laguna Croatia Open Umag,Clay,Round 1,Mackenzie Mcdonald,Emilio Gomez,0.5088,0.4912,1.97,2.04,25.79,0.489,4.61,4.79,2.59,3.19,espn
+atp,20260715,Plava Laguna Croatia Open Umag,Clay,Round 2,Roman Andres Burruchaga,Flavio Cobolli,0.1919,0.8081,5.21,1.24,24.11,0.3967,4.09,3.86,2.73,3.21,espn
 atp,20260715,Plava Laguna Croatia Open Umag,Clay,Round 2,Alejandro Davidovich Fokina,Marco Trungelliti,0.7336,0.2664,1.36,3.75,24.66,0.4154,3.58,4.3,2.21,2.87,espn
 atp,20260715,Nordea Open,Hard,Round 2,Grigor Dimitrov,Nuno Borges,0.6012,0.3988,1.66,2.51,26.17,0.5526,7.56,6.33,3.64,2.41,espn
 atp,20260715,Nordea Open,Hard,Round 2,Adolfo Daniel Vallejo,Botic Van De Zandschulp,0.4317,0.5683,2.32,1.76,25.31,0.4301,6.05,6.66,3.23,4.18,espn
 atp,20260715,EFG Swiss Open Gstaad,Clay,Round 2,Lorenzo Sonego,Raphael Collignon,0.4378,0.5622,2.28,1.78,25.45,0.4482,3.84,4.57,2.47,2.85,espn
 atp,20260715,Nordea Open,Hard,Round 2,Mariano Navone,Stefano Travaglia,0.5533,0.4467,1.81,2.24,24.85,0.37,7.42,4.74,2.94,3.16,espn
+atp,20260715,Plava Laguna Croatia Open Umag,Clay,Round 2,Camilo Ugo Carabelli,Pablo Carreno Busta,0.536,0.464,1.87,2.15,25.33,0.43,4.02,4.21,2.94,2.5,espn
 atp,20260715,EFG Swiss Open Gstaad,Clay,Round 2,Valentin Vacherot,Yannick Hanfmann,0.5279,0.4721,1.89,2.12,25.56,0.4589,4.21,3.39,2.18,2.09,espn
 atp,20260715,Nordea Open,Hard,Round 2,Luciano Darderi,Daniel Altmaier,0.5241,0.4759,1.91,2.1,26.05,0.5236,7.23,8.2,3.72,2.22,espn
 atp,20260715,Plava Laguna Croatia Open Umag,Clay,Round 2,Alex Molcan,Dino Prizmic,0.4978,0.5022,2.01,1.99,25.64,0.4681,3.71,6.8,2.43,2.74,espn
+atp,20260716,EFG Swiss Open Gstaad,Clay,Round 2,Casper Ruud,Jaime Faria,0.795,0.205,1.26,4.88,24.02,0.381,4.72,4.16,2.49,3.14,espn
 atp,20260716,EFG Swiss Open Gstaad,Clay,Round 2,Quentin Halys,Alexander Bublik,0.3409,0.6591,2.93,1.52,25.72,0.509,4.24,7.79,2.38,4.86,espn
 atp,20260716,Nordea Open,Hard,Round 2,Andrea Pellegrino,Andrey Rublev,0.3689,0.6311,2.71,1.58,25.78,0.5057,4.62,9.22,3.08,2.31,espn
 atp,20260716,Nordea Open,Hard,Round 2,Thiago Agustin Tirante,Nikoloz Basilashvili,0.625,0.375,1.6,2.67,25.56,0.4794,4.94,4.59,3.29,3.06,espn
+atp,20260716,Nordea Open,Hard,Round 2,Sebastian Baez,Jesper De Jong,0.4294,0.5706,2.33,1.75,25.08,0.401,4.0,8.58,2.25,2.83,espn
 atp,20260716,EFG Swiss Open Gstaad,Clay,Round 2,Miomir Kecmanovic,Juan Manuel Cerundolo,0.4522,0.5478,2.21,1.83,25.33,0.4308,4.16,3.72,2.58,2.84,espn
+atp,20260716,EFG Swiss Open Gstaad,Clay,Round 2,Dominic Stricker,Alexander Shevchenko,0.4864,0.5136,2.06,1.95,25.48,0.4476,4.82,3.58,3.21,2.56,espn
