@@ -1,24 +1,14 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Serena Wines 1881 - Acqua Maniva Tennis Cup,Hard,Round 2,Sumit Nagal,Juan Bautista Torres,0.3103,0.6897,3.22,1.45,24.57,0.3735,4.67,5.42,2.5,2.12,tennis.com
-atp,,Lincoln Challenger,Grass,Round 2,Mark Lajal,Mitchell Krueger,0.6205,0.3795,1.61,2.63,25.63,0.4868,8.35,4.6,2.69,3.07,tennis.com
-atp,,Lincoln Challenger,Grass,Round 2,J J Wolf,Steve Johnson,0.4217,0.5783,2.37,1.73,25.72,0.4853,4.72,4.88,3.14,3.25,tennis.com
-wta,,Athens Open,Hard,Round 2,Mai Hontama,Alycia Parks,0.2925,0.7075,3.42,1.41,23.92,0.3031,4.35,6.7,2.9,6.99,tennis.com
-wta,,Athens Open,Hard,Round 2,Harriet Dart,Maria Sakkari,0.2964,0.7036,3.37,1.42,23.94,0.3028,2.56,3.07,3.77,3.42,tennis.com
 wta,,UniCredit Iasi Open,Hard,Round 2,Yulia Putintseva,Alina Charaeva,0.6876,0.3124,1.45,3.2,23.94,0.2985,2.39,3.01,3.51,3.71,tennis.com
 wta,,KTC Ladies Open,Hard,Round 2,Veronika Erjavec,Mona Barthel,0.3494,0.6506,2.86,1.54,24.33,0.3269,3.48,5.07,3.66,3.38,tennis.com
 wta,,Enka Open,Hard,Round 2,Gabriela Andrea Knutson,Lanlana Tararudee,0.3547,0.6453,2.82,1.55,24.11,0.2989,2.83,4.16,4.28,3.67,tennis.com
 wta,,Enka Open,Hard,Round 2,Harmony Tan,Anastasia Gasanova,0.4044,0.5956,2.47,1.68,24.44,0.3248,4.67,5.01,3.12,3.34,tennis.com
-wta,,UniCredit Iasi Open,Hard,Round 2,Elina Avanesyan,Petra Marcinko,0.5907,0.4093,1.69,2.44,24.35,0.313,2.5,4.66,3.68,3.11,tennis.com
-wta,,UniCredit Iasi Open,Hard,Round 2,Clara Burel,Elsa Jacquemot,0.5856,0.4144,1.71,2.41,24.46,0.3265,3.99,2.96,4.78,4.54,tennis.com
 wta,,UniCredit Iasi Open,Hard,Round 2,Anna Bondar,Tamara Zidansek,0.4644,0.5356,2.15,1.87,24.51,0.3238,4.18,3.08,3.37,4.24,tennis.com
-wta,,Athens Open,Hard,Round 2,Lilli Tagger,Sara Bejlek,0.4943,0.5057,2.02,1.98,24.38,0.3068,3.92,2.64,3.65,4.96,tennis.com
 atp,20260715,Plava Laguna Croatia Open Umag,Clay,Round 2,Roman Andres Burruchaga,Flavio Cobolli,0.1919,0.8081,5.21,1.24,24.11,0.3967,4.09,3.86,2.73,3.21,espn
 atp,20260715,Plava Laguna Croatia Open Umag,Clay,Round 2,Matteo Arnaldi,Emilio Gomez,0.7403,0.2597,1.35,3.85,24.76,0.4323,4.72,4.29,2.54,2.86,espn
 atp,20260715,Plava Laguna Croatia Open Umag,Clay,Round 2,Alejandro Davidovich Fokina,Marco Trungelliti,0.7336,0.2664,1.36,3.75,24.66,0.4154,3.58,4.3,2.21,2.87,espn
 atp,20260715,Nordea Open,Hard,Round 2,Grigor Dimitrov,Nuno Borges,0.6012,0.3988,1.66,2.51,26.17,0.5526,7.56,6.33,3.64,2.41,espn
 atp,20260715,Plava Laguna Croatia Open Umag,Clay,Round 2,Damir Dzumhur,Juan Carlos Prado Angelo,0.5731,0.4269,1.74,2.34,25.11,0.4076,4.95,3.34,3.3,2.31,espn
-atp,20260715,Nordea Open,Hard,Round 2,Adolfo Daniel Vallejo,Botic Van De Zandschulp,0.4317,0.5683,2.32,1.76,25.31,0.4301,6.05,6.66,3.23,4.18,espn
-atp,20260715,EFG Swiss Open Gstaad,Clay,Round 2,Lorenzo Sonego,Raphael Collignon,0.4378,0.5622,2.28,1.78,25.45,0.4482,3.84,4.57,2.47,2.85,espn
 atp,20260715,Nordea Open,Hard,Round 2,Mariano Navone,Stefano Travaglia,0.5533,0.4467,1.81,2.24,24.85,0.37,7.42,4.74,2.94,3.16,espn
 atp,20260715,Plava Laguna Croatia Open Umag,Clay,Round 2,Camilo Ugo Carabelli,Pablo Carreno Busta,0.536,0.464,1.87,2.15,25.33,0.43,4.02,4.21,2.94,2.5,espn
 atp,20260715,EFG Swiss Open Gstaad,Clay,Round 2,Valentin Vacherot,Yannick Hanfmann,0.5279,0.4721,1.89,2.12,25.56,0.4589,4.21,3.39,2.18,2.09,espn
