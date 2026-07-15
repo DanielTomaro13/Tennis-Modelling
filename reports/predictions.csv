@@ -1,9 +1,4 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-wta,,UniCredit Iasi Open,Hard,Round 2,Yulia Putintseva,Alina Charaeva,0.6876,0.3124,1.45,3.2,23.94,0.2985,2.39,3.01,3.51,3.71,tennis.com
-wta,,KTC Ladies Open,Hard,Round 2,Veronika Erjavec,Mona Barthel,0.3494,0.6506,2.86,1.54,24.33,0.3269,3.48,5.07,3.66,3.38,tennis.com
-wta,,Enka Open,Hard,Round 2,Gabriela Andrea Knutson,Lanlana Tararudee,0.3547,0.6453,2.82,1.55,24.11,0.2989,2.83,4.16,4.28,3.67,tennis.com
-wta,,Enka Open,Hard,Round 2,Harmony Tan,Anastasia Gasanova,0.4044,0.5956,2.47,1.68,24.44,0.3248,4.67,5.01,3.12,3.34,tennis.com
-wta,,UniCredit Iasi Open,Hard,Round 2,Anna Bondar,Tamara Zidansek,0.4644,0.5356,2.15,1.87,24.51,0.3238,4.18,3.08,3.37,4.24,tennis.com
 atp,20260715,Plava Laguna Croatia Open Umag,Clay,Round 2,Roman Andres Burruchaga,Flavio Cobolli,0.1919,0.8081,5.21,1.24,24.11,0.3967,4.09,3.86,2.73,3.21,espn
 atp,20260715,Plava Laguna Croatia Open Umag,Clay,Round 2,Matteo Arnaldi,Emilio Gomez,0.7403,0.2597,1.35,3.85,24.76,0.4323,4.72,4.29,2.54,2.86,espn
 atp,20260715,Plava Laguna Croatia Open Umag,Clay,Round 2,Alejandro Davidovich Fokina,Marco Trungelliti,0.7336,0.2664,1.36,3.75,24.66,0.4154,3.58,4.3,2.21,2.87,espn
