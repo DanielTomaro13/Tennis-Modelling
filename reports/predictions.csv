@@ -1,5 +1,4 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Lincoln Challenger,Grass,Round 2,Yibing Wu,Bu Yunchaokete,0.4309,0.5691,2.32,1.76,25.61,0.469,8.22,7.05,2.68,2.47,tennis.com
 atp,20260717,EFG Swiss Open Gstaad,Clay,Quarterfinal,Casper Ruud,Juan Manuel Cerundolo,0.7812,0.2188,1.28,4.57,24.29,0.4029,4.71,3.17,2.49,2.41,espn
 atp,20260717,Nordea Open,Hard,Quarterfinal,Sebastian Baez,Andrey Rublev,0.2396,0.7604,4.17,1.32,24.41,0.3961,3.59,9.38,2.02,2.35,espn
 atp,20260717,Plava Laguna Croatia Open Umag,Clay,Semifinal,Alex Molcan,Damir Dzumhur,0.666,0.334,1.5,2.99,25.14,0.4409,3.82,4.49,2.51,3.0,espn
