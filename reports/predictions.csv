@@ -2,7 +2,6 @@ tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_od
 atp,,Lincoln Challenger,Grass,Quarterfinal,Colton Smith,Bu Yunchaokete,0.4252,0.5748,2.35,1.74,25.47,0.4524,4.72,7.07,3.15,2.48,tennis.com
 atp,,Lincoln Challenger,Grass,Quarterfinal,Coleman Wong,Steve Johnson,0.4491,0.5509,2.23,1.82,25.99,0.5171,6.66,4.84,2.28,3.23,tennis.com
 atp,,Les Championnats Banque Nationale de Granby,Hard,Quarterfinal,Aleksandar Vukic,Alexis Galarneau,0.4915,0.5085,2.03,1.97,25.76,0.485,7.9,6.51,2.53,2.77,tennis.com
-atp,20260717,Plava Laguna Croatia Open Umag,Clay,Semifinal,Alex Molcan,Damir Dzumhur,0.666,0.334,1.5,2.99,25.14,0.4409,3.82,4.49,2.51,3.0,espn
 atp,20260718,EFG Swiss Open Gstaad,Clay,Semifinal,Stefanos Tsitsipas,Alexander Shevchenko,0.6928,0.3072,1.44,3.26,25.04,0.4403,5.09,3.28,2.98,2.35,espn
 atp,20260718,Nordea Open,Hard,Semifinal,Alejandro Tabilo,Andrey Rublev,0.3335,0.6665,3.0,1.5,25.97,0.5446,6.84,9.19,1.9,2.3,espn
 atp,20260718,Nordea Open,Hard,Semifinal,Luciano Darderi,Adolfo Daniel Vallejo,0.4437,0.5563,2.25,1.8,25.66,0.4743,7.09,6.22,3.64,3.32,espn
