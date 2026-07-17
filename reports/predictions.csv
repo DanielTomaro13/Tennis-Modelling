@@ -1,4 +1,8 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+atp,,ATP Challenger Bunschoten,Grass,Quarterfinal,Daniel Elahi Galan,Kimmer Coppejans,0.5795,0.4205,1.73,2.38,25.45,0.4526,8.7,4.68,2.79,3.12,tennis.com
+wta,,KTC Ladies Open,Hard,Quarterfinal,Julia Riera,Maria Lourdes Carle,0.637,0.363,1.57,2.75,24.29,0.32,5.08,4.54,3.39,3.03,tennis.com
+wta,,UniCredit Iasi Open,Hard,Quarterfinal,Oleksandra Oliynykova,Clara Burel,0.582,0.418,1.72,2.39,24.28,0.3029,3.26,3.72,3.65,4.47,tennis.com
+wta,,Enka Open,Hard,Quarterfinal,Vera Zvonareva,Lanlana Tararudee,0.514,0.486,1.95,2.06,24.4,0.3095,4.91,3.94,3.28,3.49,tennis.com
 atp,20260717,EFG Swiss Open Gstaad,Clay,Quarterfinal,Casper Ruud,Juan Manuel Cerundolo,0.7812,0.2188,1.28,4.57,24.29,0.4029,4.71,3.17,2.49,2.41,espn
 atp,20260717,Nordea Open,Hard,Quarterfinal,Sebastian Baez,Andrey Rublev,0.2396,0.7604,4.17,1.32,24.41,0.3961,3.59,9.38,2.02,2.35,espn
 atp,20260717,Plava Laguna Croatia Open Umag,Clay,Semifinal,Alex Molcan,Damir Dzumhur,0.666,0.334,1.5,2.99,25.14,0.4409,3.82,4.49,2.51,3.0,espn
