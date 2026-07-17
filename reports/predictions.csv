@@ -1,26 +1,12 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,ATP Challenger Bunschoten,Grass,Quarterfinal,Daniel Elahi Galan,Kimmer Coppejans,0.5795,0.4205,1.73,2.38,25.45,0.4526,8.7,4.68,2.79,3.12,tennis.com
-atp,,Lincoln Challenger,Grass,Quarterfinal,Colton Smith,Bu Yunchaokete,0.4252,0.5748,2.35,1.74,25.47,0.4524,4.72,7.07,3.15,2.48,tennis.com
-atp,,Lincoln Challenger,Grass,Quarterfinal,Coleman Wong,Steve Johnson,0.4491,0.5509,2.23,1.82,25.99,0.5171,6.66,4.84,2.28,3.23,tennis.com
-atp,,Les Championnats Banque Nationale de Granby,Hard,Quarterfinal,Aleksandar Vukic,Alexis Galarneau,0.4915,0.5085,2.03,1.97,25.76,0.485,7.9,6.51,2.53,2.77,tennis.com
-wta,,Athens Open,Hard,Quarterfinal,Tereza Valentova,Alina Korneeva,0.6514,0.3486,1.54,2.87,24.12,0.3042,3.58,2.97,4.93,4.05,tennis.com
 wta,,KTC Ladies Open,Hard,Quarterfinal,Julia Riera,Maria Lourdes Carle,0.637,0.363,1.57,2.75,24.29,0.32,5.08,4.54,3.39,3.03,tennis.com
-wta,,UniCredit Iasi Open,Hard,Quarterfinal,Panna Udvardy,Paula Badosa,0.3703,0.6297,2.7,1.59,24.6,0.3532,2.83,4.92,3.28,5.9,tennis.com
-wta,,Antico Tiro a Volo Open,Hard,Quarterfinal,Francesca Jones,Noma Noha Akugue,0.3795,0.6205,2.64,1.61,24.63,0.3553,3.72,6.03,3.94,4.95,tennis.com
-wta,,Antico Tiro a Volo Open,Hard,Quarterfinal,Nuria Brancaccio,Julia Riera,0.3866,0.6134,2.59,1.63,24.39,0.323,4.63,5.03,3.09,3.36,tennis.com
-wta,,Athens Open,Hard,Quarterfinal,Alycia Parks,Maria Sakkari,0.3983,0.6017,2.51,1.66,24.36,0.316,6.08,3.01,6.34,3.35,tennis.com
-wta,,Athens Open,Hard,Quarterfinal,Clara Tauson,Sara Bejlek,0.5988,0.4012,1.67,2.49,24.32,0.3116,7.61,2.51,3.98,4.72,tennis.com
 wta,,UniCredit Iasi Open,Hard,Quarterfinal,Oleksandra Oliynykova,Clara Burel,0.582,0.418,1.72,2.39,24.28,0.3029,3.26,3.72,3.65,4.47,tennis.com
-wta,,Athens Open,Hard,Quarterfinal,Barbora Krejcikova,Qinwen Zheng,0.422,0.578,2.37,1.73,24.42,0.3178,3.65,6.98,4.71,4.85,tennis.com
-wta,,UniCredit Iasi Open,Hard,Quarterfinal,Tamara Zidansek,Petra Marcinko,0.5233,0.4767,1.91,2.1,24.61,0.3364,3.07,4.81,4.23,3.21,tennis.com
 wta,,Enka Open,Hard,Quarterfinal,Vera Zvonareva,Lanlana Tararudee,0.514,0.486,1.95,2.06,24.4,0.3095,4.91,3.94,3.28,3.49,tennis.com
 atp,20260717,EFG Swiss Open Gstaad,Clay,Quarterfinal,Casper Ruud,Juan Manuel Cerundolo,0.7812,0.2188,1.28,4.57,24.29,0.4029,4.71,3.17,2.49,2.41,espn
 atp,20260717,Nordea Open,Hard,Quarterfinal,Sebastian Baez,Andrey Rublev,0.2396,0.7604,4.17,1.32,24.41,0.3961,3.59,9.38,2.02,2.35,espn
 atp,20260717,Plava Laguna Croatia Open Umag,Clay,Semifinal,Alex Molcan,Damir Dzumhur,0.666,0.334,1.5,2.99,25.14,0.4409,3.82,4.49,2.51,3.0,espn
 atp,20260717,EFG Swiss Open Gstaad,Clay,Round 2,Quentin Halys,Alexander Bublik,0.3409,0.6591,2.93,1.52,25.72,0.509,4.24,7.79,2.38,4.86,espn
 atp,20260717,Nordea Open,Hard,Quarterfinal,Luciano Darderi,Nuno Borges,0.3834,0.6166,2.61,1.62,26.09,0.5426,6.95,6.65,3.57,2.54,espn
-atp,20260717,Nordea Open,Hard,Quarterfinal,Stefano Travaglia,Adolfo Daniel Vallejo,0.3852,0.6148,2.6,1.63,25.4,0.4524,4.65,6.3,3.1,3.36,espn
-atp,20260717,EFG Swiss Open Gstaad,Clay,Quarterfinal,Valentin Vacherot,Raphael Collignon,0.595,0.405,1.68,2.47,25.44,0.4556,4.26,4.35,2.21,2.71,espn
 atp,20260717,EFG Swiss Open Gstaad,Clay,Quarterfinal,Stefanos Tsitsipas,Arthur Rinderknech,0.5944,0.4056,1.68,2.47,25.75,0.4958,5.02,4.92,2.94,3.09,espn
 atp,20260717,Nordea Open,Hard,Quarterfinal,Thiago Agustin Tirante,Alejandro Tabilo,0.4795,0.5205,2.09,1.92,26.12,0.5323,4.8,7.22,3.2,2.0,espn
 atp,20260717,EFG Swiss Open Gstaad,Clay,Round 2,Dominic Stricker,Alexander Shevchenko,0.4864,0.5136,2.06,1.95,25.48,0.4476,4.82,3.58,3.21,2.56,espn

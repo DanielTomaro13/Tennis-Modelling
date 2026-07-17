@@ -1,11 +1,8 @@
 tour,date,tournament,surface,best_of,format,round,player1,player2,p1a,p1b,p2a,p2b,source
-atp,20260717,Nordea Open,Hard,3,singles,Quarterfinal,Stefano Travaglia,Adolfo Daniel Vallejo,,,,,espn
 atp,20260717,Nordea Open,Hard,3,singles,Quarterfinal,Luciano Darderi,Nuno Borges,,,,,espn
 atp,20260717,Nordea Open,Hard,3,singles,Quarterfinal,Sebastian Baez,Andrey Rublev,,,,,espn
 atp,20260717,Nordea Open,Hard,3,singles,Quarterfinal,Thiago Agustin Tirante,Alejandro Tabilo,,,,,espn
-atp,20260717,Nordea Open,Hard,3,doubles,Semifinal,Vasil Kirkov / Bart Stevens,Theo Arribage / Francisco Cabral,Vasil Kirkov,Bart Stevens,Theo Arribage,Francisco Cabral,espn
 atp,20260717,Nordea Open,Hard,3,doubles,Semifinal,Sadio Doumbia / Fabien Reboul,Jean-Julien Rojer / Theodore Winegar,Sadio Doumbia,Fabien Reboul,Jean-Julien Rojer,Theodore Winegar,espn
-atp,20260717,EFG Swiss Open Gstaad,Clay,3,singles,Quarterfinal,Valentin Vacherot,Raphael Collignon,,,,,espn
 atp,20260717,EFG Swiss Open Gstaad,Clay,3,singles,Round 2,Dominic Stricker,Aleksandr Shevchenko,,,,,espn
 atp,20260717,EFG Swiss Open Gstaad,Clay,3,singles,Round 2,Quentin Halys,Alexander Bublik,,,,,espn
 atp,20260717,EFG Swiss Open Gstaad,Clay,3,singles,Quarterfinal,Casper Ruud,Juan Manuel Cerundolo,,,,,espn
@@ -17,101 +14,28 @@ atp,20260717,Plava Laguna Croatia Open Umag,Clay,3,singles,Semifinal,Alex Molcan
 atp,20260717,Plava Laguna Croatia Open Umag,Clay,3,doubles,Final,David Stevenson / Marcus Willis,Adam Pavlasek / Patrik Rikl,David Stevenson,Marcus Willis,Adam Pavlasek,Patrik Rikl,espn
 atp,,Nordea Open,Hard,3,singles,Quarterfinal,Andrey Rublev,Sebastián Báez,,,,,tennis.com
 atp,,Nordea Open,Hard,3,singles,Quarterfinal,Alejandro Tabilo,Thiago Agustín Tirante,,,,,tennis.com
-atp,,ATP Challenger Bunschoten,Grass,3,singles,Quarterfinal,Daniel Elahi Galán,Kimmer Coppejans,,,,,tennis.com
 atp,,ATP Challenger Bunschoten,Grass,3,singles,Quarterfinal,Ryan Nijboer,Guy Den Ouden,,,,,tennis.com
 atp,,ATP Challenger Bunschoten,Grass,3,singles,Quarterfinal,Jan Kumstát,Thijs Boogaard,,,,,tennis.com
-atp,,ATP Challenger Bunschoten,Grass,3,singles,Quarterfinal,Tom Gentzsch,Max Houkes,,,,,tennis.com
 atp,,Serena Wines 1881 - Acqua Maniva Tennis Cup,Hard,3,singles,Quarterfinal,Max Alcalá Gurri,Franco Roncadelli,,,,,tennis.com
 atp,,Serena Wines 1881 - Acqua Maniva Tennis Cup,Hard,3,singles,Quarterfinal,Sumit Nagal,Federico Bondioli,,,,,tennis.com
 atp,,Serena Wines 1881 - Acqua Maniva Tennis Cup,Hard,3,singles,Quarterfinal,Stefano Napolitano,Gonzalo Villanueva,,,,,tennis.com
-atp,,Serena Wines 1881 - Acqua Maniva Tennis Cup,Hard,3,singles,Quarterfinal,Hugo Dellien,Unknown,,,,,tennis.com
-atp,,Les Championnats Banque Nationale de Granby,Hard,3,singles,Quarterfinal,Philip Sekulic,Murphy Cassone,,,,,tennis.com
-atp,,Les Championnats Banque Nationale de Granby,Hard,3,singles,Quarterfinal,Liam Draxl,Arthur Géa,,,,,tennis.com
-atp,,Les Championnats Banque Nationale de Granby,Hard,3,singles,Quarterfinal,August Holmgren,Justin Boulais,,,,,tennis.com
-atp,,Les Championnats Banque Nationale de Granby,Hard,3,singles,Quarterfinal,Aleksandar Vukic,Alexis Galarneau,,,,,tennis.com
-atp,,Lincoln Challenger,Grass,3,singles,Quarterfinal,Mark Lajal,Rio Noguchi,,,,,tennis.com
-atp,,Lincoln Challenger,Grass,3,singles,Quarterfinal,Coleman Wong,Spencer Johnson,,,,,tennis.com
-atp,,Lincoln Challenger,Grass,3,singles,Quarterfinal,Colton Smith,Yunchaokete Bu,,,,,tennis.com
-atp,,Lincoln Challenger,Grass,3,singles,Quarterfinal,Matthew Forbes,Bernard Tomic,,,,,tennis.com
-atp,,Open de Tenis Ciudad de Pozoblanco,Hard,3,singles,Quarterfinal,Dan Added,Ilya Ivashka,,,,,tennis.com
-atp,,Open de Tenis Ciudad de Pozoblanco,Hard,3,singles,Quarterfinal,Tiago Pereira,Alejo Sanchez Quilez,,,,,tennis.com
-atp,,Open de Tenis Ciudad de Pozoblanco,Hard,3,singles,Quarterfinal,Akira Santillan,Izan Almazan Valiente,,,,,tennis.com
-atp,,Open de Tenis Ciudad de Pozoblanco,Hard,3,singles,Quarterfinal,Chris Rodesch,Oliver Crawford,,,,,tennis.com
-atp,,Swiss Open Gstaad,Clay,3,singles,Quarterfinal,Raphaël Collignon,Valentin Vacherot,,,,,tennis.com
 atp,,Swiss Open Gstaad,Clay,3,singles,Quarterfinal,Juan Manuel Cerúndolo,Casper Ruud,,,,,tennis.com
-atp,,Plava Laguna Croatia Open Umag,Clay,3,singles,Semifinal,Román Andrés Burruchaga,Daniel Mérida,,,,,tennis.com
-atp,,Plava Laguna Croatia Open Umag,Clay,3,singles,Semifinal,Damir Džumhur,Alex Molčan,,,,,tennis.com
-atp,,UTR PTT Knoxville Men 02,Hard,3,singles,Semifinal,Aditya Govila,Cassius Chinlund,,,,,tennis.com
-atp,,UTR PTT Knoxville Men 02,Hard,3,singles,Semifinal,Jose Garcia,Justin Riley Anson,,,,,tennis.com
-atp,,UTR PTT Knoxville Men 02,Hard,3,singles,Semifinal,Cooper Johnson,Chase Robinson,,,,,tennis.com
-atp,,UTR PTT Knoxville Men 02,Hard,3,singles,Semifinal,Azariah Rusher,Junghee You,,,,,tennis.com
-atp,,UTR PTT Knoxville Men 02,Hard,3,singles,Semifinal,Shaan Patel,Adrien Jonah Abarca,,,,,tennis.com
-atp,,UTR PTT Knoxville Men 02,Hard,3,singles,Semifinal,Evan Burnett,Nathan Pitts,,,,,tennis.com
-atp,,UTR PTT Knoxville Men 02,Hard,3,singles,Semifinal,Mitchell Lee,Tej Bhagra,,,,,tennis.com
-atp,,UTR PTT Knoxville Men 02,Hard,3,singles,Semifinal,Juan David Velasquez,Evan Sharygin,,,,,tennis.com
-wta,,UTR PTT Knoxville Women 02,Hard,3,singles,Semifinal,Riley Crowder,Mary Boyce Deatherage,,,,,tennis.com
-wta,,UTR PTT Knoxville Women 02,Hard,3,singles,Semifinal,Catherine Rennard,Maeve Thornton,,,,,tennis.com
-wta,,UTR PTT Knoxville Women 02,Hard,3,singles,Semifinal,Mia Robinson,Audrey Aulia,,,,,tennis.com
-wta,,UTR PTT Knoxville Women 02,Hard,3,singles,Semifinal,Lexie Weir,Aya Manning,,,,,tennis.com
-wta,,UTR PTT Knoxville Women 02,Hard,3,singles,Semifinal,Liam Oved,Taylor Goetz,,,,,tennis.com
-wta,,UTR PTT Knoxville Women 02,Hard,3,singles,Semifinal,Bianca Ceroni,Isabelle Oak,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 17,Grass,3,singles,Quarterfinal,David Duong,Hugo Hashimoto,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 17,Grass,3,singles,Quarterfinal,Benjamin Sparks,Aleksandr Kalinin,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 17,Grass,3,singles,Quarterfinal,Xavier Calvelo,Robert Yang,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 17,Grass,3,singles,Quarterfinal,Benjamin Berger,Douglas Yaffa,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 17,Grass,3,singles,Final,Joseph Nau,Sklar Phillips,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 17,Grass,3,singles,Semifinal,Connor Robb-Wilcox,Pavel Bushuev,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 17,Grass,3,singles,,George Hakopian,Lawee Sherif,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 17,Grass,3,singles,Semifinal,Gabriel Porras,Jacob Brumm,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 17,Grass,3,singles,Quarterfinal,Veronica Miroshnichenko,Sue Yan Tan,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 17,Grass,3,singles,Semifinal,Natalie Lynch,Skylar Kasday,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 17,Grass,3,singles,Quarterfinal,Nicole Weng,Kate Mansfield,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 17,Grass,3,singles,Quarterfinal,Tianmei Wang,Salma Ewing,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 17,Grass,3,singles,Quarterfinal,Anya Arora,Emily Deming,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 17,Grass,3,singles,,Charlotte Kim,Vivian Gallaway,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 17,Grass,3,singles,Final,Gala Arangio,Isabelle Nguyen,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 17,Grass,3,singles,Semifinal,Mila Mulready,Sage Bergeson,,,,,tennis.com
-atp,,UTR PTT Saitama Men 05,Hard,3,singles,Semifinal,Yuga Tashiro,Penn Charusorn,,,,,tennis.com
-atp,,UTR PTT Saitama Men 05,Hard,3,singles,Semifinal,Toshiki Karigyo,Naoto Tomizawa,,,,,tennis.com
-atp,,UTR PTT Saitama Men 05,Hard,3,singles,Semifinal,Koyu Yanagi,Min Jae Kim,,,,,tennis.com
-atp,,UTR PTT Saitama Men 05,Hard,3,singles,Semifinal,Naoki Nakagawa,Hiiro Sakamoto,,,,,tennis.com
-atp,,UTR PTT Saitama Men 05,Hard,3,singles,Semifinal,Soma Fukuhara,Quinn Snyder,,,,,tennis.com
-wta,,UTR PTT Saitama Women 04,Hard,3,singles,Quarterfinal,Yui Komada,Ayumi Miyamoto,,,,,tennis.com
-wta,,UTR PTT Saitama Women 04,Hard,3,singles,Semifinal,Rio Maeda,Nana Kawagishi,,,,,tennis.com
-wta,,UTR PTT Saitama Women 04,Hard,3,singles,Final,Aely Arai,Hinata Furutani,,,,,tennis.com
-wta,,UTR PTT Saitama Women 04,Hard,3,singles,Semifinal,Yui Ohwaki,Aoi Watanabe,,,,,tennis.com
-wta,,UTR PTT Saitama Women 04,Hard,3,singles,Semifinal,Kaili Demi Teso,Michiru Furuya,,,,,tennis.com
-atp,,UTR PTT Skopje Men 03,Hard,3,singles,Quarterfinal,Niksa Arsic,Matthew Upton,,,,,tennis.com
 atp,,UTR PTT Skopje Men 03,Hard,3,singles,Semifinal,Ander Tarrio Ponte,Riccardo Campagnola,,,,,tennis.com
 atp,,UTR PTT Skopje Men 03,Hard,3,singles,Quarterfinal,Cyrus Mahjoob,Obrad Markovski,,,,,tennis.com
-atp,,UTR PTT Skopje Men 03,Hard,3,singles,Semifinal,Lautaro Agustin Corthey,Jakub Volesky,,,,,tennis.com
 atp,,UTR PTT Skopje Men 03,Hard,3,singles,Semifinal,Hoan Mouret,Caheer Warik,,,,,tennis.com
-atp,,UTR PTT Skopje Men 03,Hard,3,singles,Final,Noah Folkesson-Doudy,Sep de Visser,,,,,tennis.com
+atp,,UTR PTT Skopje Men 03,Hard,3,singles,Semifinal,Lautaro Agustin Corthey,Jakub Volesky,,,,,tennis.com
 atp,,UTR PTT Skopje Men 03,Hard,3,singles,,Cian McDonnell,Jakub Prachar,,,,,tennis.com
-wta,,UTR PTT Skopje Women 03,Hard,3,singles,,Nikoline Gullacksen,Styliani Roussopoulou,,,,,tennis.com
-wta,,UTR PTT Skopje Women 03,Hard,3,singles,Quarterfinal,Divna Ratkovic,Alexandra Panagiotidou,,,,,tennis.com
-wta,,UTR PTT Skopje Women 03,Hard,3,singles,Semifinal,Prisca Abbas,Saoirse Breen,,,,,tennis.com
 wta,,UTR PTT Skopje Women 03,Hard,3,singles,Quarterfinal,Natalija Senić,Jana Stojanova,,,,,tennis.com
+wta,,UTR PTT Skopje Women 03,Hard,3,singles,,Nikoline Gullacksen,Styliani Roussopoulou,,,,,tennis.com
 wta,,UTR PTT Skopje Women 03,Hard,3,singles,Semifinal,Victoria Borodulina,Sasha Sakura Stula,,,,,tennis.com
-wta,,UTR PTT Skopje Women 03,Hard,3,singles,Semifinal,Yelizaveta Trush,Andreea Diana Soare,,,,,tennis.com
 wta,,UTR PTT Skopje Women 03,Hard,3,singles,Final,Athina Pitta,Given Roach,,,,,tennis.com
+wta,,UTR PTT Skopje Women 03,Hard,3,singles,Semifinal,Prisca Abbas,Saoirse Breen,,,,,tennis.com
+wta,,UTR PTT Skopje Women 03,Hard,3,singles,Semifinal,Yelizaveta Trush,Andreea Diana Soare,,,,,tennis.com
 wta,,Enka Open,Hard,3,singles,Quarterfinal,Anastasia Zakharova,Tatiana Prozorova,,,,,tennis.com
 wta,,Enka Open,Hard,3,singles,Quarterfinal,Vera Zvonareva,Lanlana Tararudee,,,,,tennis.com
 wta,,Enka Open,Hard,3,singles,Quarterfinal,Vendula Valdmannová,Aliona Falei,,,,,tennis.com
-wta,,Enka Open,Hard,3,singles,Quarterfinal,Hanne Vandewinkel,Harmony Tan,,,,,tennis.com
-wta,,KTC Ladies Open,Hard,3,singles,Quarterfinal,Erika Andreeva,Sinja Kraus,,,,,tennis.com
 wta,,KTC Ladies Open,Hard,3,singles,Quarterfinal,Julia Grabher,Jeline Vandromme,,,,,tennis.com
 wta,,KTC Ladies Open,Hard,3,singles,Quarterfinal,Marina Bassols Ribera,María Carlé,,,,,tennis.com
 wta,,KTC Ladies Open,Hard,3,singles,Quarterfinal,Veronika Erjavec,Gina Feistel,,,,,tennis.com
-wta,,Antico Tiro a Volo Open,Hard,3,singles,Quarterfinal,Francesca Jones,Noma Noha Akugue,,,,,tennis.com
-wta,,Antico Tiro a Volo Open,Hard,3,singles,Quarterfinal,Nuria Brancaccio,Julia Riera,,,,,tennis.com
-wta,,Antico Tiro a Volo Open,Hard,3,singles,Quarterfinal,Elizara Yaneva,Martina Trevisan,,,,,tennis.com
-wta,,Antico Tiro a Volo Open,Hard,3,singles,Quarterfinal,Deborah Chiesa,Lucia Bronzetti,,,,,tennis.com
-wta,,Athens Open,Hard,3,singles,Quarterfinal,Barbora Krejčíková,Qinwen Zheng,,,,,tennis.com
-wta,,Athens Open,Hard,3,singles,Quarterfinal,Tereza Valentova,Alina Korneeva,,,,,tennis.com
-wta,,Athens Open,Hard,3,singles,Quarterfinal,Alycia Parks,Maria Sakkari,,,,,tennis.com
-wta,,Athens Open,Hard,3,singles,Quarterfinal,Clara Tauson,Sára Bejlek,,,,,tennis.com
 wta,,UniCredit Iasi Open,Hard,3,singles,Quarterfinal,Yulia Putintseva,Maiar Sherif Ahmed Abdelaziz,,,,,tennis.com
 wta,,UniCredit Iasi Open,Hard,3,singles,Quarterfinal,Oleksandra Oliynykova,Clara Burel,,,,,tennis.com
-wta,,UniCredit Iasi Open,Hard,3,singles,Quarterfinal,Panna Udvardy,Paula Badosa,,,,,tennis.com
-wta,,UniCredit Iasi Open,Hard,3,singles,Quarterfinal,Tamara Zidanšek,Petra Marčinko,,,,,tennis.com
