@@ -1,7 +1,12 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,20260718,EFG Swiss Open Gstaad,Clay,Semifinal,Stefanos Tsitsipas,Alexander Shevchenko,0.6928,0.3072,1.44,3.26,25.04,0.4403,5.09,3.28,2.98,2.35,espn
 atp,20260718,Millennium Estoril Open,Hard,Qualifying 1st Round,Rogerio Dutra Silva,Andrea Pellegrino,0.3192,0.6808,3.13,1.47,25.34,0.4684,4.51,4.94,3.0,3.29,espn
-atp,20260718,Millennium Estoril Open,Hard,Qualifying 1st Round,Chun Hsin Tseng,Vilius Gaubas,0.3263,0.6737,3.07,1.48,25.24,0.4517,4.52,5.81,3.01,2.55,espn
 atp,20260718,Nordea Open,Hard,Semifinal,Alejandro Tabilo,Andrey Rublev,0.3335,0.6665,3.0,1.5,25.97,0.5446,6.84,9.19,1.9,2.3,espn
-atp,20260718,Nordea Open,Hard,Semifinal,Luciano Darderi,Adolfo Daniel Vallejo,0.4437,0.5563,2.25,1.8,25.66,0.4743,7.09,6.22,3.64,3.32,espn
-atp,20260718,Millennium Estoril Open,Hard,Qualifying 1st Round,Juan Carlos Prado Angelo,Taro Daniel,0.5527,0.4473,1.81,2.24,25.26,0.4225,7.29,6.57,3.03,2.77,espn
+atp,20260719,Millennium Estoril Open,Hard,Qualifying Final,Taro Daniel,Kyrian Jacquet,0.4788,0.5212,2.09,1.92,25.47,0.447,6.68,6.99,2.81,2.69,espn
+atp,20260720,Generali Open,Hard,Round 1,Raphael Collignon,Daniel Altmaier,0.6813,0.3187,1.47,3.14,25.28,0.4659,6.59,7.69,4.45,2.08,espn
+atp,20260720,Generali Open,Hard,Round 1,Marco Trungelliti,Juan Manuel Cerundolo,0.3893,0.6107,2.57,1.64,25.55,0.4709,4.66,7.6,3.1,2.77,espn
+atp,20260720,Generali Open,Hard,Round 1,Yannick Hanfmann,Lukas Neumayer,0.6086,0.3914,1.64,2.56,25.42,0.456,7.54,6.54,2.63,2.74,espn
+atp,20260720,Generali Open,Hard,Round 1,Sebastian Ofner,Alex Molcan,0.408,0.592,2.45,1.69,25.52,0.462,7.07,6.72,2.66,2.91,espn
+atp,20260720,Generali Open,Hard,Round 1,Miomir Kecmanovic,Sebastian Baez,0.5822,0.4178,1.72,2.39,25.22,0.4226,5.36,3.95,2.16,2.22,espn
+atp,20260720,Generali Open,Hard,Round 1,Alexander Shevchenko,Jan Lennard Struff,0.4679,0.5321,2.14,1.88,25.78,0.4881,5.32,8.12,2.25,3.27,espn
+atp,20260720,Generali Open,Hard,Round 1,Mariano Navone,Alexandre Muller,0.5196,0.4804,1.92,2.08,24.84,0.3651,7.35,6.2,2.91,2.58,espn
+atp,20260720,Generali Open,Hard,Round 1,Ignacio Buse,Vit Kopriva,0.5145,0.4855,1.94,2.06,25.62,0.4667,7.25,7.22,2.52,3.72,espn
