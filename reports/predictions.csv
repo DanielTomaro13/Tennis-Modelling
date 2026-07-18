@@ -1,4 +1,11 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+atp,,Millennium Estoril Open,Hard,Qualifying Round 1,Andrea Pellegrino,Rogerio Dutra Silva,0.6808,0.3192,1.47,3.13,25.3,0.4684,4.96,4.47,3.31,2.98,tennis.com
+atp,,Millennium Estoril Open,Hard,Qualifying Round 1,Vilius Gaubas,Chun Hsin Tseng,0.6737,0.3263,1.48,3.07,25.2,0.4517,5.84,4.48,2.56,2.98,tennis.com
+atp,,ATP Challenger Bunschoten,Grass,Semifinal,Guy Den Ouden,Kimmer Coppejans,0.6396,0.3604,1.56,2.77,25.26,0.4454,4.63,4.56,3.49,3.04,tennis.com
+atp,,Millennium Estoril Open,Hard,Qualifying Round 1,Taro Daniel,Juan Carlos Prado Angelo,0.4473,0.5527,2.24,1.81,25.27,0.4225,6.61,7.25,2.79,3.01,tennis.com
+wta,,Livesport Prague Open 2021,Hard,Qualifying Round 1,Aoi Ito,Gabriela Andrea Knutson,0.6686,0.3314,1.5,3.02,24.03,0.3001,3.46,2.78,4.01,4.2,tennis.com
+wta,,Livesport Prague Open 2021,Hard,Qualifying Round 1,Susan Bandecchi,Xinyu Gao,0.664,0.336,1.51,2.98,24.09,0.306,3.97,2.86,3.74,3.43,tennis.com
+wta,,KTC Ladies Open,Hard,Semifinal,Veronika Erjavec,Julia Grabher,0.4416,0.5584,2.26,1.79,24.59,0.3366,3.66,4.95,3.85,3.3,tennis.com
 atp,20260718,EFG Swiss Open Gstaad,Clay,Semifinal,Stefanos Tsitsipas,Alexander Shevchenko,0.6928,0.3072,1.44,3.26,25.04,0.4403,5.09,3.28,2.98,2.35,espn
 atp,20260718,Nordea Open,Hard,Semifinal,Alejandro Tabilo,Andrey Rublev,0.3335,0.6665,3.0,1.5,25.97,0.5446,6.84,9.19,1.9,2.3,espn
 atp,20260718,Nordea Open,Hard,Semifinal,Luciano Darderi,Adolfo Daniel Vallejo,0.4437,0.5563,2.25,1.8,25.66,0.4743,7.09,6.22,3.64,3.32,espn
