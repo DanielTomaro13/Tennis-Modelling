@@ -7,65 +7,30 @@ atp,20260718,EFG Swiss Open Gstaad,Clay,3,singles,Semifinal,Stefanos Tsitsipas,A
 atp,20260718,EFG Swiss Open Gstaad,Clay,3,doubles,Semifinal,Marcelo Demoliner / Robert Galloway,Sander Gille / Sem Verbeek,Marcelo Demoliner,Robert Galloway,Sander Gille,Sem Verbeek,espn
 atp,20260718,EFG Swiss Open Gstaad,Clay,3,doubles,Semifinal,Jakub Paul / Ryan Seggerman,Lucas Miedler / Marc Polmans,Jakub Paul,Ryan Seggerman,Lucas Miedler,Marc Polmans,espn
 atp,20260718,Plava Laguna Croatia Open Umag,Clay,3,singles,Final,Damir Dzumhur,Daniel Merida,,,,,espn
-atp,,ATP Challenger Bunschoten,Grass,3,singles,Semifinal,Guy Den Ouden,Kimmer Coppejans,,,,,tennis.com
-atp,,Serena Wines 1881 - Acqua Maniva Tennis Cup,Hard,3,singles,Semifinal,Max Alcalá Gurri,Gonzalo Villanueva,,,,,tennis.com
-atp,,Millennium Estoril Open,Hard,3,singles,Qualifying Round 1,Kyrian Jacquet,Goncalo Da Rosa Castro,,,,,tennis.com
-atp,,Millennium Estoril Open,Hard,3,singles,Qualifying Round 1,Taro Daniel,Juan Carlos Prado Angelo,,,,,tennis.com
-atp,,Millennium Estoril Open,Hard,3,singles,Qualifying Round 1,Edas Butvilas,Clément Tabur,,,,,tennis.com
-atp,,Millennium Estoril Open,Hard,3,singles,Qualifying Round 1,Francisco Rocha,Gonzalo Bueno,,,,,tennis.com
-atp,,Millennium Estoril Open,Hard,3,singles,Qualifying Round 1,Vilius Gaubas,Chun Hsin Tseng,,,,,tennis.com
-atp,,Millennium Estoril Open,Hard,3,singles,Qualifying Round 1,Pedro Martínez,David Jordá Sanchis,,,,,tennis.com
-atp,,Millennium Estoril Open,Hard,3,singles,Qualifying Round 1,João Domingues,Timofey Skatov,,,,,tennis.com
-atp,,Millennium Estoril Open,Hard,3,singles,Qualifying Round 1,Andrea Pellegrino,Joao Silva,,,,,tennis.com
-atp,,Swiss Open Gstaad,Clay,3,singles,Semifinal,Raphaël Collignon,Juan Manuel Cerúndolo,,,,,tennis.com
-atp,,Generali Open,Hard,3,singles,Qualifying Round 1,Federico Cina,Daniel Michalski,,,,,tennis.com
-atp,,Generali Open,Hard,3,singles,Qualifying Round 1,Nico Hipfl,Lorenzo Giustino,,,,,tennis.com
-atp,,Generali Open,Hard,3,singles,Qualifying Round 1,Niklas Waldner,Laslo Djere,,,,,tennis.com
-atp,,Generali Open,Hard,3,singles,Qualifying Round 1,Federico Coria,Vitaliy Sachko,,,,,tennis.com
-atp,,Generali Open,Hard,3,singles,Qualifying Round 1,Gustavo Heide,Kilian Feldbausch,,,,,tennis.com
-atp,,Generali Open,Hard,3,singles,Qualifying Round 1,Jurij Rodionov,Andrey Chepelev,,,,,tennis.com
-atp,,Generali Open,Hard,3,singles,Qualifying Round 1,Sandro Kopp,Pierre-Hugues Herbert,,,,,tennis.com
-atp,,UTR PTT Knoxville Men 02,Hard,3,singles,,Justin Riley Anson,Aditya Govila,,,,,tennis.com
-atp,,UTR PTT Knoxville Men 02,Hard,3,singles,Final,Cooper Johnson,Nathan Pitts,,,,,tennis.com
-atp,,UTR PTT Knoxville Men 02,Hard,3,singles,Final,Jose Garcia,Cassius Chinlund,,,,,tennis.com
-wta,,UTR PTT Knoxville Women 02,Hard,3,singles,Final,Lillie Murphy,Audrey Aulia,,,,,tennis.com
-wta,,UTR PTT Knoxville Women 02,Hard,3,singles,Final,Aya Manning,Taylor Goetz,,,,,tennis.com
-wta,,UTR PTT Knoxville Women 02,Hard,3,singles,Final,Riley Crowder,Catherine Rennard,,,,,tennis.com
+atp,20260718,Generali Open,Hard,3,singles,Qualifying 1st Round,Daniel Michalski,Federico Cina,,,,,espn
+atp,20260718,Generali Open,Hard,3,singles,Qualifying 1st Round,Lorenzo Giustino,Nico Hipfl,,,,,espn
+atp,20260718,Generali Open,Hard,3,singles,Qualifying 1st Round,Vitaliy Sachko,Federico Coria,,,,,espn
+atp,20260718,Generali Open,Hard,3,singles,Qualifying 1st Round,Laslo Djere,Niklas Waldner,,,,,espn
+atp,20260718,Generali Open,Hard,3,singles,Qualifying 1st Round,Andrey Chepelev,Jurij Rodionov,,,,,espn
+atp,20260718,Generali Open,Hard,3,singles,Qualifying 1st Round,Kilian Feldbausch,Gustavo Heide,,,,,espn
+atp,20260718,Generali Open,Hard,3,singles,Qualifying 1st Round,Pierre-Hugues Herbert,Sandro Kopp,,,,,espn
+atp,20260718,Generali Open,Hard,3,singles,Qualifying 1st Round,Michele Ribecai,Hugo Dellien,,,,,espn
+atp,20260718,Millennium Estoril Open,Hard,3,singles,Qualifying 1st Round,Clement Tabur,Edas Butvilas,,,,,espn
+atp,20260718,Millennium Estoril Open,Hard,3,singles,Qualifying 1st Round,Juan Carlos Prado Angelo,Taro Daniel,,,,,espn
+atp,20260718,Millennium Estoril Open,Hard,3,singles,Qualifying 1st Round,Goncalo Da Rosa Castro,Kyrian Jacquet,,,,,espn
+atp,20260718,Millennium Estoril Open,Hard,3,singles,Qualifying 1st Round,David Jorda Sanchis,Pedro Martinez,,,,,espn
+atp,20260718,Millennium Estoril Open,Hard,3,singles,Qualifying 1st Round,Gonzalo Bueno,Francisco Rocha,,,,,espn
+atp,20260718,Millennium Estoril Open,Hard,3,singles,Qualifying 1st Round,Chun-Hsin Tseng,Vilius Gaubas,,,,,espn
+atp,20260718,Millennium Estoril Open,Hard,3,singles,Qualifying 1st Round,Joao Silva,Andrea Pellegrino,,,,,espn
+atp,20260718,Millennium Estoril Open,Hard,3,singles,Qualifying 1st Round,Timofey Skatov,Joao Domingues,,,,,espn
+atp,,UTR PTT Newport Beach Men 17,Grass,3,singles,,Pavel Bushuev,Gabriel Porras,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 17,Grass,3,singles,Final,Connor Robb-Wilcox,Jacob Brumm,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 17,Grass,3,singles,,Natalie Lynch,Mila Mulready,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 17,Grass,3,singles,Semifinal,Tiffany Papazian,Mingyue Deng,,,,,tennis.com
 atp,,UTR PTT Saitama Men 05,Hard,3,singles,Final,Shion Itsusaki,Yuga Tashiro,,,,,tennis.com
-atp,,UTR PTT Saitama Men 05,Hard,3,singles,Semifinal,Taiyo Kurata,Shingo Masuda,,,,,tennis.com
-atp,,UTR PTT Saitama Men 05,Hard,3,singles,Semifinal,Soma Fukuhara,Quinn Snyder,,,,,tennis.com
 atp,,UTR PTT Saitama Men 05,Hard,3,singles,Semifinal,Ryota Tanuma,Ryotero Matsumura,,,,,tennis.com
-atp,,UTR PTT Saitama Men 05,Hard,3,singles,,Kotaro Mochizuki,Penn Charusorn,,,,,tennis.com
-wta,,UTR PTT Saitama Women 04,Hard,3,singles,Semifinal,Kyoka Kubo,Haruna Arakawa,,,,,tennis.com
-wta,,UTR PTT Saitama Women 04,Hard,3,singles,Semifinal,Yui Ohwaki,Aoi Watanabe,,,,,tennis.com
-wta,,UTR PTT Saitama Women 04,Hard,3,singles,Semifinal,Sae Noguchi,Azuna Ichioka,,,,,tennis.com
 wta,,UTR PTT Saitama Women 04,Hard,3,singles,Semifinal,Junri Namigata,Ayumi Miyamoto,,,,,tennis.com
 wta,,UTR PTT Saitama Women 04,Hard,3,singles,Semifinal,Mayuka Aikawa,Yui Komada,,,,,tennis.com
-atp,,UTR PTT Skopje Men 03,Hard,3,singles,Final,Hoan Mouret,Kristijan Janev,,,,,tennis.com
-atp,,UTR PTT Skopje Men 03,Hard,3,singles,Semifinal,Matthew Upton,Cyrus Mahjoob,,,,,tennis.com
-atp,,UTR PTT Skopje Men 03,Hard,3,singles,Semifinal,Pierre Mouesca,Nicolas Ifi,,,,,tennis.com
-atp,,UTR PTT Skopje Men 03,Hard,3,singles,Semifinal,Niksa Arsic,Obrad Markovski,,,,,tennis.com
-atp,,UTR PTT Skopje Men 03,Hard,3,singles,Semifinal,Timo de Visser,Sam Olszakowski,,,,,tennis.com
-atp,,UTR PTT Skopje Men 03,Hard,3,singles,,Caheer Warik,Razvan Baiant,,,,,tennis.com
-atp,,UTR PTT Skopje Men 03,Hard,3,singles,,Lautaro Agustin Corthey,Ander Tarrio Ponte,,,,,tennis.com
-atp,,UTR PTT Skopje Men 03,Hard,3,singles,Final,Jakub Volesky,Riccardo Campagnola,,,,,tennis.com
-wta,,UTR PTT Skopje Women 03,Hard,3,singles,Semifinal,Natalija Senić,Silvia Njiric,,,,,tennis.com
-wta,,UTR PTT Skopje Women 03,Hard,3,singles,Semifinal,Divna Ratkovic,Melis Rasim,,,,,tennis.com
-wta,,UTR PTT Skopje Women 03,Hard,3,singles,Semifinal,Jana Stojanova,Hannah Read,,,,,tennis.com
-wta,,UTR PTT Skopje Women 03,Hard,3,singles,Final,Prisca Abbas,Julita Saner,,,,,tennis.com
-wta,,UTR PTT Skopje Women 03,Hard,3,singles,,Yelizaveta Trush,Sasha Sakura Stula,,,,,tennis.com
-wta,,UTR PTT Skopje Women 03,Hard,3,singles,Final,Andreea Diana Soare,Victoria Borodulina,,,,,tennis.com
-wta,,KTC Ladies Open,Hard,3,singles,Semifinal,Marina Bassols Ribera,Sinja Kraus,,,,,tennis.com
-wta,,KTC Ladies Open,Hard,3,singles,Semifinal,Veronika Erjavec,Julia Grabher,,,,,tennis.com
-wta,,Livesport Prague Open 2021,Hard,3,singles,Qualifying Round 1,Susan Bandecchi,Xinyu Gao,,,,,tennis.com
-wta,,Livesport Prague Open 2021,Hard,3,singles,Qualifying Round 1,Priscilla Hon,Karman Kaur Thandi,,,,,tennis.com
-wta,,Livesport Prague Open 2021,Hard,3,singles,Qualifying Round 1,Elena Micic,Linda Fruhvirtová,,,,,tennis.com
-wta,,Livesport Prague Open 2021,Hard,3,singles,Qualifying Round 1,Aoi Ito,Gabriela Knutson,,,,,tennis.com
-wta,,Livesport Prague Open 2021,Hard,3,singles,Qualifying Round 1,Dominika Šálková,Denisa Žoldáková,,,,,tennis.com
-wta,,Livesport Prague Open 2021,Hard,3,singles,Qualifying Round 1,Kyōka Okamura,Carol Young Suh Lee,,,,,tennis.com
-wta,,Livesport Prague Open 2021,Hard,3,singles,Qualifying Round 1,Rebeka Masarova,Valentina Ryser,,,,,tennis.com
-wta,,Livesport Prague Open 2021,Hard,3,singles,Qualifying Round 1,Sofia Costoulas,Nao Hibino,,,,,tennis.com
-wta,,Livesport Prague Open 2021,Hard,3,singles,Qualifying Round 1,Barbora Palicová,Mai Hontama,,,,,tennis.com
-wta,,Livesport Prague Open 2021,Hard,3,singles,Qualifying Round 1,Veronika Podrez,Tereza Valentová,,,,,tennis.com
-wta,,Livesport Prague Open 2021,Hard,3,singles,Qualifying Round 1,Victoria Bervid,Rina Saigo,,,,,tennis.com
-wta,,Livesport Prague Open 2021,Hard,3,singles,Qualifying Round 1,Viktória Morvayová,Ayla Aksu,,,,,tennis.com
+wta,,UTR PTT Saitama Women 04,Hard,3,singles,Semifinal,Sae Noguchi,Azuna Ichioka,,,,,tennis.com
+wta,,UTR PTT Saitama Women 04,Hard,3,singles,Final,Seri Nayuki,Nana Kawagishi,,,,,tennis.com
+wta,,UTR PTT Saitama Women 04,Hard,3,singles,,Mua Shigeta,Rio Maeda,,,,,tennis.com
