@@ -2,9 +2,7 @@ tour,date,tournament,surface,best_of,format,round,player1,player2,p1a,p1b,p2a,p2
 atp,20260718,Nordea Open,Hard,3,singles,Semifinal,Luciano Darderi,Adolfo Daniel Vallejo,,,,,espn
 atp,20260718,Nordea Open,Hard,3,singles,Semifinal,Alejandro Tabilo,Andrey Rublev,,,,,espn
 atp,20260719,Nordea Open,Hard,3,doubles,Final,Sadio Doumbia / Fabien Reboul,Theo Arribage / Francisco Cabral,Sadio Doumbia,Fabien Reboul,Theo Arribage,Francisco Cabral,espn
-atp,20260718,EFG Swiss Open Gstaad,Clay,3,singles,Semifinal,Juan Manuel Cerundolo,Raphael Collignon,,,,,espn
 atp,20260718,EFG Swiss Open Gstaad,Clay,3,singles,Semifinal,Stefanos Tsitsipas,Aleksandr Shevchenko,,,,,espn
-atp,20260718,EFG Swiss Open Gstaad,Clay,3,doubles,Semifinal,Marcelo Demoliner / Robert Galloway,Sander Gille / Sem Verbeek,Marcelo Demoliner,Robert Galloway,Sander Gille,Sem Verbeek,espn
 atp,20260718,EFG Swiss Open Gstaad,Clay,3,doubles,Semifinal,Jakub Paul / Ryan Seggerman,Lucas Miedler / Marc Polmans,Jakub Paul,Ryan Seggerman,Lucas Miedler,Marc Polmans,espn
 atp,20260718,Plava Laguna Croatia Open Umag,Clay,3,singles,Final,Damir Dzumhur,Daniel Merida,,,,,espn
 atp,20260718,Generali Open,Hard,3,singles,Qualifying 1st Round,Daniel Michalski,Federico Cina,,,,,espn
@@ -15,6 +13,14 @@ atp,20260718,Generali Open,Hard,3,singles,Qualifying 1st Round,Andrey Chepelev,J
 atp,20260718,Generali Open,Hard,3,singles,Qualifying 1st Round,Kilian Feldbausch,Gustavo Heide,,,,,espn
 atp,20260718,Generali Open,Hard,3,singles,Qualifying 1st Round,Pierre-Hugues Herbert,Sandro Kopp,,,,,espn
 atp,20260718,Generali Open,Hard,3,singles,Qualifying 1st Round,Michele Ribecai,Hugo Dellien,,,,,espn
+atp,20260720,Generali Open,Hard,3,doubles,Round 1,Jakub Paul / Ryan Seggerman,Pierre-Hugues Herbert / Kevin Krawietz,Jakub Paul,Ryan Seggerman,Pierre-Hugues Herbert,Kevin Krawietz,espn
+atp,20260720,Generali Open,Hard,3,doubles,Round 1,Lukas Neumayer / Joel Josef Schwaerzler,Fernando Romboli / John-Patrick Smith,Lukas Neumayer,Joel Josef Schwaerzler,Fernando Romboli,John-Patrick Smith,espn
+atp,20260720,Generali Open,Hard,3,doubles,Round 1,Hendrik Jebens / Matej Vocel,Jakob Schnaitter / Mark Wallner,Hendrik Jebens,Matej Vocel,Jakob Schnaitter,Mark Wallner,espn
+atp,20260720,Generali Open,Hard,3,doubles,Round 1,Andres Molteni / Patrik Trhac,Sander Gille / Sem Verbeek,Andres Molteni,Patrik Trhac,Sander Gille,Sem Verbeek,espn
+atp,20260720,Generali Open,Hard,3,doubles,Round 1,N.Sriram Balaji / Andre Goransson,Tomas Martin Etcheverry / Mariano Kestelboim,N.Sriram Balaji,Andre Goransson,Tomas Martin Etcheverry,Mariano Kestelboim,espn
+atp,20260720,Generali Open,Hard,3,doubles,Round 1,Petr Nouza / Neil Oberleitner,Constantin Frantzén / Robin Haase,Petr Nouza,Neil Oberleitner,Constantin Frantzén,Robin Haase,espn
+atp,20260720,Generali Open,Hard,3,doubles,Round 1,Jean-Julien Rojer / Theodore Winegar,Nico Hipfl / Sandro Kopp,Jean-Julien Rojer,Theodore Winegar,Nico Hipfl,Sandro Kopp,espn
+atp,20260720,Generali Open,Hard,3,doubles,Round 1,Lucas Miedler / Marc Polmans,Adam Pavlasek / Patrik Rikl,Lucas Miedler,Marc Polmans,Adam Pavlasek,Patrik Rikl,espn
 atp,20260718,Millennium Estoril Open,Hard,3,singles,Qualifying 1st Round,Clement Tabur,Edas Butvilas,,,,,espn
 atp,20260718,Millennium Estoril Open,Hard,3,singles,Qualifying 1st Round,Juan Carlos Prado Angelo,Taro Daniel,,,,,espn
 atp,20260718,Millennium Estoril Open,Hard,3,singles,Qualifying 1st Round,Goncalo Da Rosa Castro,Kyrian Jacquet,,,,,espn
