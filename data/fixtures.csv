@@ -1,12 +1,12 @@
 tour,date,tournament,surface,best_of,format,round,player1,player2,p1a,p1b,p2a,p2b,source
+atp,20260719,Nordea Open,Hard,3,singles,Final,Luciano Darderi,Andrey Rublev,,,,,espn
 atp,20260719,Nordea Open,Hard,3,doubles,Final,Sadio Doumbia / Fabien Reboul,Theo Arribage / Francisco Cabral,Sadio Doumbia,Fabien Reboul,Theo Arribage,Francisco Cabral,espn
 atp,20260719,EFG Swiss Open Gstaad,Clay,3,singles,Final,Raphael Collignon,Stefanos Tsitsipas,,,,,espn
 atp,20260719,EFG Swiss Open Gstaad,Clay,3,doubles,Final,Marcelo Demoliner / Robert Galloway,Lucas Miedler / Marc Polmans,Marcelo Demoliner,Robert Galloway,Lucas Miedler,Marc Polmans,espn
-atp,20260718,Plava Laguna Croatia Open Umag,Clay,3,singles,Final,Damir Dzumhur,Daniel Merida,,,,,espn
-atp,20260718,Generali Open,Hard,3,singles,Qualifying 1st Round,Pierre-Hugues Herbert,Sandro Kopp,,,,,espn
-atp,20260718,Generali Open,Hard,3,singles,Qualifying 1st Round,Michele Ribecai,Hugo Dellien,,,,,espn
 atp,20260719,Generali Open,Hard,3,singles,Qualifying Final,Lorenzo Giustino,Federico Cina,,,,,espn
+atp,20260719,Generali Open,Hard,3,singles,Qualifying Final,Laslo Djere,Hugo Dellien,,,,,espn
 atp,20260719,Generali Open,Hard,3,singles,Qualifying Final,Vitaliy Sachko,Jurij Rodionov,,,,,espn
+atp,20260719,Generali Open,Hard,3,singles,Qualifying Final,Sandro Kopp,Kilian Feldbausch,,,,,espn
 atp,20260720,Generali Open,Hard,3,singles,Round 1,Miomir Kecmanovic,Sebastian Baez,,,,,espn
 atp,20260720,Generali Open,Hard,3,singles,Round 1,Mariano Navone,Alexandre Muller,,,,,espn
 atp,20260720,Generali Open,Hard,3,singles,Round 1,Marco Trungelliti,Juan Manuel Cerundolo,,,,,espn
@@ -23,9 +23,9 @@ atp,20260720,Generali Open,Hard,3,doubles,Round 1,Andres Molteni / Patrik Trhac,
 atp,20260720,Generali Open,Hard,3,doubles,Round 1,N.Sriram Balaji / Andre Goransson,Tomas Martin Etcheverry / Mariano Kestelboim,N.Sriram Balaji,Andre Goransson,Tomas Martin Etcheverry,Mariano Kestelboim,espn
 atp,20260720,Generali Open,Hard,3,doubles,Round 1,Petr Nouza / Neil Oberleitner,Constantin Frantzén / Robin Haase,Petr Nouza,Neil Oberleitner,Constantin Frantzén,Robin Haase,espn
 atp,20260720,Generali Open,Hard,3,doubles,Round 1,Jean-Julien Rojer / Theodore Winegar,Nico Hipfl / Sandro Kopp,Jean-Julien Rojer,Theodore Winegar,Nico Hipfl,Sandro Kopp,espn
-atp,20260718,Millennium Estoril Open,Hard,3,singles,Qualifying 1st Round,Joao Silva,Andrea Pellegrino,,,,,espn
-atp,20260718,Millennium Estoril Open,Hard,3,singles,Qualifying 1st Round,Timofey Skatov,Joao Domingues,,,,,espn
 atp,20260719,Millennium Estoril Open,Hard,3,singles,Qualifying Final,Taro Daniel,Kyrian Jacquet,,,,,espn
+atp,20260719,Millennium Estoril Open,Hard,3,singles,Qualifying Final,Gonzalo Bueno,Andrea Pellegrino,,,,,espn
+atp,20260719,Millennium Estoril Open,Hard,3,singles,Qualifying Final,Timofey Skatov,Pedro Martinez,,,,,espn
 atp,20260719,Millennium Estoril Open,Hard,3,singles,Qualifying Final,Clement Tabur,Orlando Luz,,,,,espn
 atp,20260720,Millennium Estoril Open,Hard,3,singles,Round 1,Camilo Ugo Carabelli,Titouan Droguet,,,,,espn
 atp,20260720,Millennium Estoril Open,Hard,3,singles,Round 1,Jaime Faria,Botic Van De Zandschulp,,,,,espn
@@ -48,45 +48,29 @@ atp,,Les Championnats Banque Nationale de Granby,Hard,3,singles,Semifinal,Aleksa
 atp,,Les Championnats Banque Nationale de Granby,Hard,3,singles,Semifinal,Murphy Cassone,Arthur Géa,,,,,tennis.com
 atp,,Lincoln Challenger,Grass,3,singles,Semifinal,Bernard Tomic,Spencer Johnson,,,,,tennis.com
 atp,,Lincoln Challenger,Grass,3,singles,Semifinal,Mark Lajal,Yunchaokete Bu,,,,,tennis.com
-atp,,Open de Tenis Ciudad de Pozoblanco,Hard,3,singles,Semifinal,Tiago Pereira,Ilya Ivashka,,,,,tennis.com
 atp,,Open de Tenis Ciudad de Pozoblanco,Hard,3,singles,Semifinal,Chris Rodesch,Akira Santillan,,,,,tennis.com
-atp,,Plava Laguna Croatia Open Umag,Clay,3,singles,Final,Daniel Mérida,Damir Džumhur,,,,,tennis.com
-atp,,UTR PTT Knoxville Men 02,Hard,3,singles,Final,Juan David Velasquez,Shaan Patel,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 17,Grass,3,singles,Semifinal,Benjamin Berger,David Duong,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 17,Grass,3,singles,Semifinal,Robert Yang,Aleksandr Kalinin,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 17,Grass,3,singles,Semifinal,Douglas Yaffa,Hugo Hashimoto,,,,,tennis.com
 atp,,UTR PTT Newport Beach Men 17,Grass,3,singles,Semifinal,Xavier Calvelo,Benjamin Sparks,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 17,Grass,3,singles,Semifinal,Benjamin Berger,David Duong,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 17,Grass,3,singles,Semifinal,Douglas Yaffa,Hugo Hashimoto,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 17,Grass,3,singles,Semifinal,Robert Yang,Aleksandr Kalinin,,,,,tennis.com
 atp,,UTR PTT Newport Beach Men 17,Grass,3,singles,Final,Winston Lee,Yashwin Krishnakumar,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 17,Grass,3,singles,Final,Connor Robb-Wilcox,Jacob Brumm,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 17,Grass,3,singles,,Pavel Bushuev,Gabriel Porras,,,,,tennis.com
 atp,,UTR PTT Newport Beach Men 17,Grass,3,singles,,Emmett Potter,Ivan Savkin,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 17,Grass,3,singles,Semifinal,Veronica Miroshnichenko,Kate Mansfield,,,,,tennis.com
 wta,,UTR PTT Newport Beach Women 17,Grass,3,singles,Semifinal,Emily Deming,Salma Ewing,,,,,tennis.com
 wta,,UTR PTT Newport Beach Women 17,Grass,3,singles,Final,Sue Yan Tan,Anya Arora,,,,,tennis.com
 wta,,UTR PTT Newport Beach Women 17,Grass,3,singles,Final,Skylar Kasday,Sage Bergeson,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 17,Grass,3,singles,Semifinal,Veronica Miroshnichenko,Kate Mansfield,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 17,Grass,3,singles,Semifinal,Tiffany Papazian,Mingyue Deng,,,,,tennis.com
 wta,,UTR PTT Newport Beach Women 17,Grass,3,singles,,Natalie Lynch,Mila Mulready,,,,,tennis.com
 wta,,UTR PTT Newport Beach Women 17,Grass,3,singles,,Nicole Weng,Tianmei Wang,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 17,Grass,3,singles,Semifinal,Anya Arora,Tianmei Wang,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 17,Grass,3,singles,Semifinal,Sue Yan Tan,Nicole Weng,,,,,tennis.com
 atp,,UTR PTT Saitama Men 05,Hard,3,singles,Final,Soma Fukuhara,Taiyo Kurata,,,,,tennis.com
 atp,,UTR PTT Saitama Men 05,Hard,3,singles,Final,Naoki Nakagawa,Ryota Tanuma,,,,,tennis.com
 atp,,UTR PTT Saitama Men 05,Hard,3,singles,,Hiiro Sakamoto,Ryotero Matsumura,,,,,tennis.com
+atp,,UTR PTT Saitama Men 05,Hard,3,singles,,Quinn Snyder,Shingo Masuda,,,,,tennis.com
 atp,,UTR PTT Saitama Men 05,Hard,3,singles,Final,Naoto Tomizawa,Min Jae Kim,,,,,tennis.com
 atp,,UTR PTT Saitama Men 05,Hard,3,singles,,Toshiki Karigyo,Koyu Yanagi,,,,,tennis.com
-atp,,UTR PTT Saitama Men 05,Hard,3,singles,,Quinn Snyder,Shingo Masuda,,,,,tennis.com
-wta,,UTR PTT Saitama Women 04,Hard,3,singles,Final,Kyoka Kubo,Ayumi Miyamoto,,,,,tennis.com
-wta,,UTR PTT Saitama Women 04,Hard,3,singles,Final,Sae Noguchi,Yui Komada,,,,,tennis.com
 wta,,UTR PTT Saitama Women 04,Hard,3,singles,Final,Aoi Watanabe,Michiru Furuya,,,,,tennis.com
+wta,,UTR PTT Saitama Women 04,Hard,3,singles,Final,Sae Noguchi,Yui Komada,,,,,tennis.com
+wta,,UTR PTT Saitama Women 04,Hard,3,singles,Final,Kyoka Kubo,Ayumi Miyamoto,,,,,tennis.com
 wta,,UTR PTT Saitama Women 04,Hard,3,singles,,Azuna Ichioka,Mayuka Aikawa,,,,,tennis.com
 wta,,UTR PTT Saitama Women 04,Hard,3,singles,,Haruna Arakawa,Junri Namigata,,,,,tennis.com
 wta,,UTR PTT Saitama Women 04,Hard,3,singles,,Yui Ohwaki,Kaili Demi Teso,,,,,tennis.com
-wta,,Palermo Ladies Open,Hard,3,singles,Qualifying Round 1,Rasheeda McAdoo,Isabella Shinikova,,,,,tennis.com
-wta,,Palermo Ladies Open,Hard,3,singles,Qualifying Round 1,Raluca Georgiana Şerban,Anastasia Bertacchi,,,,,tennis.com
-wta,,Palermo Ladies Open,Hard,3,singles,Qualifying Round 1,Emily Webley-Smith,Mina Hodzic,,,,,tennis.com
 wta,,Palermo Ladies Open,Hard,3,singles,Qualifying Round 1,Noemi Basiletti,Laura Boehner,,,,,tennis.com
-wta,,Antico Tiro a Volo Open,Hard,3,singles,Semifinal,Martina Trevisan,Francesca Jones,,,,,tennis.com
-wta,,Athens Open,Hard,3,singles,Semifinal,Maria Sakkari,Alina Korneeva,,,,,tennis.com
-wta,,Athens Open,Hard,3,singles,Semifinal,Clara Tauson,Barbora Krejčíková,,,,,tennis.com
-wta,,UniCredit Iasi Open,Hard,3,singles,Semifinal,Paula Badosa,Tamara Zidanšek,,,,,tennis.com
-wta,,Livesport Prague Open 2021,Hard,3,singles,Qualifying Round 1,Viktória Morvayová,Ayla Aksu,,,,,tennis.com
