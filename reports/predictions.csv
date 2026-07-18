@@ -1,4 +1,8 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+atp,,ATP Challenger Bunschoten,Grass,Semifinal,Guy Den Ouden,Kimmer Coppejans,0.6396,0.3604,1.56,2.77,25.26,0.4454,4.63,4.56,3.49,3.04,tennis.com
+wta,,Livesport Prague Open 2021,Hard,Qualifying Round 1,Aoi Ito,Gabriela Andrea Knutson,0.6686,0.3314,1.5,3.02,24.03,0.3001,3.46,2.78,4.01,4.2,tennis.com
+wta,,Livesport Prague Open 2021,Hard,Qualifying Round 1,Susan Bandecchi,Xinyu Gao,0.664,0.336,1.51,2.98,24.09,0.306,3.97,2.86,3.74,3.43,tennis.com
+wta,,KTC Ladies Open,Hard,Semifinal,Veronika Erjavec,Julia Grabher,0.4416,0.5584,2.26,1.79,24.59,0.3366,3.66,4.95,3.85,3.3,tennis.com
 atp,20260718,EFG Swiss Open Gstaad,Clay,Semifinal,Stefanos Tsitsipas,Alexander Shevchenko,0.6928,0.3072,1.44,3.26,25.04,0.4403,5.09,3.28,2.98,2.35,espn
 atp,20260718,Millennium Estoril Open,Hard,Qualifying 1st Round,Rogerio Dutra Silva,Andrea Pellegrino,0.3192,0.6808,3.13,1.47,25.34,0.4684,4.51,4.94,3.0,3.29,espn
 atp,20260718,Millennium Estoril Open,Hard,Qualifying 1st Round,Chun Hsin Tseng,Vilius Gaubas,0.3263,0.6737,3.07,1.48,25.24,0.4517,4.52,5.81,3.01,2.55,espn
