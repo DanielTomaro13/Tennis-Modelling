@@ -1,20 +1,28 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Lincoln Challenger,Grass,Final,Bernard Tomic,Mark Lajal,0.4382,0.5618,2.28,1.78,25.69,0.4796,8.32,8.25,2.7,2.65,tennis.com
-atp,20260720,Millennium Estoril Open,Hard,Round 1,Camilo Ugo Carabelli,Titouan Droguet,0.3856,0.6144,2.59,1.63,25.78,0.5013,6.27,4.9,2.83,3.26,espn
-atp,20260720,Generali Open,Hard,Round 1,Yannick Hanfmann,Lukas Neumayer,0.6086,0.3914,1.64,2.56,25.42,0.456,7.54,6.54,2.63,2.74,espn
-atp,20260720,Millennium Estoril Open,Hard,Round 1,Nikoloz Basilashvili,Juan Bautista Torres,0.4324,0.5676,2.31,1.76,25.37,0.4375,4.74,5.28,3.16,2.06,espn
-atp,20260720,Generali Open,Hard,Round 1,Federico Cina,Facundo Diaz Acosta,0.4546,0.5454,2.2,1.83,25.69,0.4771,6.46,6.81,2.55,2.77,espn
-atp,20260720,Millennium Estoril Open,Hard,Round 1,Luca Van Assche,Rogerio Dutra Silva,0.5371,0.4629,1.86,2.16,25.8,0.4915,7.66,4.75,2.43,3.16,espn
-atp,20260720,Generali Open,Hard,Round 1,Mariano Navone,Alexandre Muller,0.5196,0.4804,1.92,2.08,24.84,0.3651,7.35,6.2,2.91,2.58,espn
-atp,20260720,Generali Open,Hard,Round 1,Ignacio Buse,Vit Kopriva,0.5145,0.4855,1.94,2.06,25.62,0.4667,7.25,7.22,2.52,3.72,espn
-atp,20260721,Generali Open,Hard,Round 1,Raphael Collignon,Daniel Altmaier,0.6813,0.3187,1.47,3.14,25.28,0.4659,6.59,7.69,4.45,2.08,espn
-atp,20260721,Millennium Estoril Open,Hard,Round 1,Jesper De Jong,Jan Choinski,0.6265,0.3735,1.6,2.68,25.42,0.4612,8.63,6.93,2.85,2.43,espn
-atp,20260721,Generali Open,Hard,Round 1,Marco Trungelliti,Juan Manuel Cerundolo,0.3893,0.6107,2.57,1.64,25.55,0.4709,4.66,7.6,3.1,2.77,espn
-atp,20260721,Generali Open,Hard,Round 1,Sebastian Ofner,Alex Molcan,0.408,0.592,2.45,1.69,25.52,0.462,7.07,6.72,2.66,2.91,espn
-atp,20260721,Generali Open,Hard,Round 1,Miomir Kecmanovic,Sebastian Baez,0.5822,0.4178,1.72,2.39,25.22,0.4226,5.36,3.95,2.16,2.22,espn
-atp,20260721,Generali Open,Hard,Round 1,Quentin Halys,Laslo Djere,0.5791,0.4209,1.73,2.38,26.0,0.5259,9.08,7.21,3.35,2.56,espn
-atp,20260721,Millennium Estoril Open,Hard,Round 1,Jaime Faria,Botic Van De Zandschulp,0.4346,0.5654,2.3,1.77,25.28,0.4264,8.28,6.66,3.36,4.18,espn
-atp,20260721,Millennium Estoril Open,Hard,Round 1,Pablo Carreno Busta,Vilius Gaubas,0.5459,0.4541,1.83,2.2,25.73,0.4845,5.9,5.56,2.46,2.44,espn
-atp,20260721,Generali Open,Hard,Round 1,Alexander Shevchenko,Jan Lennard Struff,0.4679,0.5321,2.14,1.88,25.78,0.4881,5.32,8.12,2.25,3.27,espn
-atp,20260721,Millennium Estoril Open,Hard,Round 1,Roman Andres Burruchaga,Stan Wawrinka,0.4796,0.5204,2.08,1.92,25.95,0.5091,4.8,7.91,3.2,2.35,espn
-atp,20260721,Millennium Estoril Open,Hard,Round 1,Damir Dzumhur,Hugo Gaston,0.5001,0.4999,2.0,2.0,25.59,0.4618,4.84,5.88,3.23,2.76,espn
+atp,,Generali Open,Hard,Qualifying Round 2,Laslo Djere,Federico Cina,0.5397,0.4603,1.85,2.17,25.82,0.4944,7.51,6.43,2.66,2.54,tennis.com
+atp,,Zug Open,Hard,Qualifying Round 2,Juan Bautista Torres,Dominic Stricker,0.4749,0.5251,2.11,1.9,25.42,0.4398,5.18,4.85,2.03,3.23,tennis.com
+wta,,Livesport Prague Open 2021,Hard,Round 1,Ella Seidel,Daria Snigur,0.2516,0.7484,3.97,1.34,23.8,0.3123,3.49,5.11,3.58,3.41,tennis.com
+wta,,Livesport Prague Open 2021,Hard,Round 1,Marie Bouzkova,Jessica Bouzas Maneiro,0.7104,0.2896,1.41,3.45,23.73,0.2845,2.31,2.34,4.29,5.05,tennis.com
+wta,,Hamburg,Clay,Qualifying Round 2,Varvara Lepchenko,Elina Avanesyan,0.3845,0.6155,2.6,1.62,24.32,0.3145,4.62,2.2,3.08,3.52,tennis.com
+wta,,Livesport Prague Open 2021,Hard,Round 1,Antonia Ruzic,Dominika Salkova,0.5748,0.4252,1.74,2.35,24.49,0.3281,2.78,4.7,3.74,3.13,tennis.com
+wta,,Livesport Prague Open 2021,Hard,Round 1,Alycia Parks,Lucie Havlickova,0.5725,0.4275,1.75,2.34,24.5,0.3288,6.52,3.87,6.8,3.54,tennis.com
+wta,,Hamburg,Clay,Qualifying Round 2,Arantxa Rus,Chloe Paquet,0.5681,0.4319,1.76,2.32,24.39,0.3138,2.23,4.72,3.85,3.15,tennis.com
+wta,,Hamburg,Clay,Qualifying Round 2,Eva Vedder,Mona Barthel,0.4839,0.5161,2.07,1.94,24.58,0.3312,2.52,4.89,3.72,3.26,tennis.com
+atp,20260720,Millennium Estoril Open,Hard,Round 1,Camilo Ugo Carabelli,Titouan Droguet,0.3539,0.6461,2.83,1.55,25.66,0.4961,6.18,4.91,2.79,3.27,espn
+atp,20260720,Generali Open,Hard,Round 1,Yannick Hanfmann,Lukas Neumayer,0.6252,0.3748,1.6,2.67,25.36,0.4537,7.56,6.49,2.64,2.72,espn
+atp,20260720,Millennium Estoril Open,Hard,Round 1,Nikoloz Basilashvili,Juan Bautista Torres,0.4349,0.5651,2.3,1.77,25.37,0.4377,4.74,5.28,3.16,2.06,espn
+atp,20260720,Generali Open,Hard,Round 1,Federico Cina,Facundo Diaz Acosta,0.4567,0.5433,2.19,1.84,25.69,0.4772,6.47,6.81,2.55,2.77,espn
+atp,20260720,Millennium Estoril Open,Hard,Round 1,Luca Van Assche,Rogerio Dutra Silva,0.5379,0.4621,1.86,2.16,25.8,0.4915,7.66,4.74,2.43,3.16,espn
+atp,20260720,Generali Open,Hard,Round 1,Mariano Navone,Alexandre Muller,0.5134,0.4866,1.95,2.06,24.84,0.3652,7.33,6.21,2.91,2.59,espn
+atp,20260720,Generali Open,Hard,Round 1,Ignacio Buse,Vit Kopriva,0.5086,0.4914,1.97,2.03,25.62,0.4668,7.23,7.24,2.51,3.73,espn
+atp,20260721,Generali Open,Hard,Round 1,Raphael Collignon,Daniel Altmaier,0.7183,0.2817,1.39,3.55,25.05,0.4558,6.59,7.52,4.45,2.04,espn
+atp,20260721,Millennium Estoril Open,Hard,Round 1,Jesper De Jong,Jan Choinski,0.6383,0.3617,1.57,2.76,25.37,0.4592,8.64,6.89,2.85,2.42,espn
+atp,20260721,Generali Open,Hard,Round 1,Marco Trungelliti,Juan Manuel Cerundolo,0.3629,0.6371,2.76,1.57,25.46,0.4668,4.6,7.63,3.07,2.78,espn
+atp,20260721,Generali Open,Hard,Round 1,Sebastian Ofner,Alex Molcan,0.3874,0.6126,2.58,1.63,25.46,0.4595,7.01,6.74,2.64,2.92,espn
+atp,20260721,Generali Open,Hard,Round 1,Quentin Halys,Laslo Djere,0.5869,0.4131,1.7,2.42,25.99,0.5251,9.09,7.19,3.36,2.55,espn
+atp,20260721,Generali Open,Hard,Round 1,Miomir Kecmanovic,Sebastian Baez,0.572,0.428,1.75,2.34,25.24,0.4235,5.35,3.97,2.16,2.23,espn
+atp,20260721,Millennium Estoril Open,Hard,Round 1,Pablo Carreno Busta,Vilius Gaubas,0.5618,0.4382,1.78,2.28,25.71,0.4835,5.92,5.53,2.47,2.42,espn
+atp,20260721,Millennium Estoril Open,Hard,Round 1,Jaime Faria,Botic Van De Zandschulp,0.4444,0.5556,2.25,1.8,25.3,0.427,8.31,6.65,3.37,4.17,espn
+atp,20260721,Millennium Estoril Open,Hard,Round 1,Damir Dzumhur,Hugo Gaston,0.5461,0.4539,1.83,2.2,25.55,0.4605,4.89,5.79,3.26,2.72,espn
+atp,20260721,Millennium Estoril Open,Hard,Round 1,Roman Andres Burruchaga,Stan Wawrinka,0.5439,0.4561,1.84,2.19,25.92,0.5082,4.87,7.77,3.25,2.31,espn
+atp,20260721,Generali Open,Hard,Round 1,Alexander Shevchenko,Jan Lennard Struff,0.494,0.506,2.02,1.98,25.79,0.4887,5.36,8.07,2.27,3.25,espn
