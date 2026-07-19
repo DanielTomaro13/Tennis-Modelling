@@ -1,6 +1,5 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
 atp,,Lincoln Challenger,Grass,Semifinal,Mark Lajal,Bu Yunchaokete,0.537,0.463,1.86,2.16,25.56,0.461,8.27,6.86,2.66,2.41,tennis.com
-atp,,Lincoln Challenger,Grass,Semifinal,Bernard Tomic,Steve Johnson,0.4816,0.5184,2.08,1.93,25.69,0.4751,8.43,4.82,2.74,3.22,tennis.com
 atp,20260719,Nordea Open,Hard,Final,Luciano Darderi,Andrey Rublev,0.2608,0.7392,3.83,1.35,25.31,0.4961,6.52,9.21,3.35,2.31,espn
 atp,20260719,EFG Swiss Open Gstaad,Clay,Final,Raphael Collignon,Stefanos Tsitsipas,0.3736,0.6264,2.68,1.6,25.48,0.4657,4.32,5.03,2.7,2.95,espn
 atp,20260719,Generali Open,Hard,Qualifying Final,Laslo Djere,Hugo Dellien,0.608,0.392,1.64,2.55,25.72,0.4948,7.59,4.63,2.69,3.08,espn
