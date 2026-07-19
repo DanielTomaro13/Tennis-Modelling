@@ -2,14 +2,11 @@ tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_od
 atp,,Lincoln Challenger,Grass,Final,Bernard Tomic,Mark Lajal,0.4382,0.5618,2.28,1.78,25.69,0.4796,8.32,8.25,2.7,2.65,tennis.com
 atp,,Zug Open,Hard,Qualifying Round 1,Alexander Ritschard,Norbert Gombos,0.5387,0.4613,1.86,2.17,25.77,0.4881,4.87,4.74,3.25,3.16,tennis.com
 wta,,Livesport Prague Open 2021,Hard,Qualifying Round 2,Dominika Salkova,Gabriela Andrea Knutson,0.6943,0.3057,1.44,3.27,24.0,0.3093,5.13,2.73,3.42,4.13,tennis.com
-wta,,Livesport Prague Open 2021,Hard,Qualifying Round 2,Xinyu Gao,Linda Fruhvirtova,0.3613,0.6387,2.77,1.57,24.27,0.3154,2.93,3.82,3.51,4.78,tennis.com
-wta,,Hamburg,Clay,Qualifying Round 1,Varvara Lepchenko,Andrea Petkovic,0.415,0.585,2.41,1.71,24.58,0.3396,4.7,2.59,3.13,3.9,tennis.com
 wta,,Antico Tiro a Volo Open,Hard,Final,Francesca Jones,Lucia Bronzetti,0.4274,0.5726,2.34,1.75,24.69,0.3519,3.81,3.39,4.04,3.85,tennis.com
 wta,,Athens Open,Hard,Final,Barbora Krejcikova,Maria Sakkari,0.5656,0.4344,1.77,2.3,24.42,0.317,3.86,2.83,5.0,3.15,tennis.com
 wta,,Palermo Ladies Open,Hard,Qualifying Round 2,Raluka Serban,Amarissa Kiara Toth,0.4794,0.5206,2.09,1.92,24.35,0.3029,3.49,3.45,4.39,3.89,tennis.com
 wta,,Hamburg,Clay,Qualifying Round 1,Eva Vedder,Georgina Garcia Perez,0.5184,0.4816,1.93,2.08,24.57,0.3312,2.55,4.82,3.77,3.21,tennis.com
 atp,20260719,Nordea Open,Hard,Final,Luciano Darderi,Andrey Rublev,0.2608,0.7392,3.83,1.35,25.31,0.4961,6.52,9.21,3.35,2.31,espn
-atp,20260719,EFG Swiss Open Gstaad,Clay,Final,Raphael Collignon,Stefanos Tsitsipas,0.3736,0.6264,2.68,1.6,25.48,0.4657,4.32,5.03,2.7,2.95,espn
 atp,20260719,Generali Open,Hard,Qualifying Final,Laslo Djere,Hugo Dellien,0.608,0.392,1.64,2.55,25.72,0.4948,7.59,4.63,2.69,3.08,espn
 atp,20260719,Millennium Estoril Open,Hard,Qualifying Final,Timofey Skatov,Pedro Martinez,0.5365,0.4635,1.86,2.16,25.65,0.4721,6.54,5.07,2.8,3.28,espn
 atp,20260719,Millennium Estoril Open,Hard,Qualifying Final,Taro Daniel,Kyrian Jacquet,0.4788,0.5212,2.09,1.92,25.47,0.447,6.68,6.99,2.81,2.69,espn
