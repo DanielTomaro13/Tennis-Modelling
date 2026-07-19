@@ -1,8 +1,4 @@
 tour,date,tournament,surface,best_of,format,round,player1,player2,p1a,p1b,p2a,p2b,source
-atp,20260719,Generali Open,Hard,3,singles,Qualifying Final,Lorenzo Giustino,Federico Cina,,,,,espn
-atp,20260719,Generali Open,Hard,3,singles,Qualifying Final,Laslo Djere,Hugo Dellien,,,,,espn
-atp,20260719,Generali Open,Hard,3,singles,Qualifying Final,Vitaliy Sachko,Jurij Rodionov,,,,,espn
-atp,20260719,Generali Open,Hard,3,singles,Qualifying Final,Sandro Kopp,Kilian Feldbausch,,,,,espn
 atp,20260720,Generali Open,Hard,3,singles,Round 1,Miomir Kecmanovic,Sebastian Baez,,,,,espn
 atp,20260720,Generali Open,Hard,3,singles,Round 1,Mariano Navone,Alexandre Muller,,,,,espn
 atp,20260720,Generali Open,Hard,3,singles,Round 1,Marco Trungelliti,Juan Manuel Cerundolo,,,,,espn
@@ -19,91 +15,60 @@ atp,20260720,Generali Open,Hard,3,doubles,Round 1,Andres Molteni / Patrik Trhac,
 atp,20260720,Generali Open,Hard,3,doubles,Round 1,N.Sriram Balaji / Andre Goransson,Tomas Martin Etcheverry / Mariano Kestelboim,N.Sriram Balaji,Andre Goransson,Tomas Martin Etcheverry,Mariano Kestelboim,espn
 atp,20260720,Generali Open,Hard,3,doubles,Round 1,Petr Nouza / Neil Oberleitner,Constantin Frantzén / Robin Haase,Petr Nouza,Neil Oberleitner,Constantin Frantzén,Robin Haase,espn
 atp,20260720,Generali Open,Hard,3,doubles,Round 1,Jean-Julien Rojer / Theodore Winegar,Nico Hipfl / Sandro Kopp,Jean-Julien Rojer,Theodore Winegar,Nico Hipfl,Sandro Kopp,espn
-atp,20260719,Millennium Estoril Open,Hard,3,singles,Qualifying Final,Taro Daniel,Kyrian Jacquet,,,,,espn
-atp,20260719,Millennium Estoril Open,Hard,3,singles,Qualifying Final,Gonzalo Bueno,Andrea Pellegrino,,,,,espn
 atp,20260719,Millennium Estoril Open,Hard,3,singles,Qualifying Final,Timofey Skatov,Pedro Martinez,,,,,espn
-atp,20260719,Millennium Estoril Open,Hard,3,singles,Qualifying Final,Clement Tabur,Orlando Luz,,,,,espn
-atp,20260720,Millennium Estoril Open,Hard,3,singles,Round 1,Camilo Ugo Carabelli,Titouan Droguet,,,,,espn
-atp,20260720,Millennium Estoril Open,Hard,3,singles,Round 1,Jaime Faria,Botic Van De Zandschulp,,,,,espn
-atp,20260720,Millennium Estoril Open,Hard,3,singles,Round 1,Damir Dzumhur,Hugo Gaston,,,,,espn
 atp,20260720,Millennium Estoril Open,Hard,3,singles,Round 1,Nikoloz Basilashvili,Tiago Torres,,,,,espn
-atp,20260720,Millennium Estoril Open,Hard,3,singles,Round 1,Pablo Carreno Busta,Vilius Gaubas,,,,,espn
+atp,20260720,Millennium Estoril Open,Hard,3,singles,Round 1,Camilo Ugo Carabelli,Titouan Droguet,,,,,espn
 atp,20260720,Millennium Estoril Open,Hard,3,singles,Round 1,Luca Van Assche,Frederico Ferreira Silva,,,,,espn
-atp,20260720,Millennium Estoril Open,Hard,3,singles,Round 1,Jesper de Jong,Jan Choinski,,,,,espn
-atp,20260720,Millennium Estoril Open,Hard,3,singles,Round 1,Roman Andres Burruchaga,Stan Wawrinka,,,,,espn
+atp,20260721,Millennium Estoril Open,Hard,3,singles,Round 1,Damir Dzumhur,Hugo Gaston,,,,,espn
+atp,20260721,Millennium Estoril Open,Hard,3,singles,Round 1,Pablo Carreno Busta,Vilius Gaubas,,,,,espn
+atp,20260721,Millennium Estoril Open,Hard,3,singles,Round 1,Jesper de Jong,Jan Choinski,,,,,espn
+atp,20260721,Millennium Estoril Open,Hard,3,singles,Round 1,Jaime Faria,Botic Van De Zandschulp,,,,,espn
+atp,20260721,Millennium Estoril Open,Hard,3,singles,Round 1,Roman Andres Burruchaga,Stan Wawrinka,,,,,espn
 atp,20260720,Millennium Estoril Open,Hard,3,doubles,Round 1,JiSung Nam / Takeru Yuzuki,Diego Hidalgo / Alejandro Tabilo,JiSung Nam,Takeru Yuzuki,Diego Hidalgo,Alejandro Tabilo,espn
 atp,20260720,Millennium Estoril Open,Hard,3,doubles,Round 1,Mac Kiger / Reese Stalder,Luke Johnson / Jan Zielinski,Mac Kiger,Reese Stalder,Luke Johnson,Jan Zielinski,espn
-atp,20260720,Millennium Estoril Open,Hard,3,doubles,Round 1,Frederico Ferreira Silva / Tiago Pereira,Santiago Gonzalez / Miguel Angel Reyes Varela,Frederico Ferreira Silva,Tiago Pereira,Santiago Gonzalez,Miguel Angel Reyes Varela,espn
-atp,20260720,Millennium Estoril Open,Hard,3,doubles,Round 1,Marcelo Demoliner / Robert Galloway,Vasil Kirkov / Bart Stevens,Marcelo Demoliner,Robert Galloway,Vasil Kirkov,Bart Stevens,espn
-atp,20260720,Millennium Estoril Open,Hard,3,doubles,Round 1,Arthur Reymond / Luca Sanchez,Nuno Borges / Francisco Cabral,Arthur Reymond,Luca Sanchez,Nuno Borges,Francisco Cabral,espn
-atp,20260720,Millennium Estoril Open,Hard,3,doubles,Round 1,Sander Arends / David Pel,David Stevenson / Marcus Willis,Sander Arends,David Pel,David Stevenson,Marcus Willis,espn
-atp,20260720,Millennium Estoril Open,Hard,3,doubles,Round 1,Jaime Faria / Henrique Rocha,Roman Andres Burruchaga / Camilo Ugo Carabelli,Jaime Faria,Henrique Rocha,Roman Andres Burruchaga,Camilo Ugo Carabelli,espn
-atp,20260720,Millennium Estoril Open,Hard,3,doubles,Round 1,Orlando Luz / Rafael Matos,Ray Ho / Benjamin Kittay,Orlando Luz,Rafael Matos,Ray Ho,Benjamin Kittay,espn
-atp,,Cranbrook Tennis Classic,Hard,3,singles,Qualifying Round 1,Patrick Maloney,Hiroki Moriya,,,,,tennis.com
-atp,,Cranbrook Tennis Classic,Hard,3,singles,Qualifying Round 1,Richard Biagiotti,Gavin Young,,,,,tennis.com
-atp,,Cranbrook Tennis Classic,Hard,3,singles,Qualifying Round 1,Quinn Vandecasteele,Sebastian Gorzny,,,,,tennis.com
-atp,,Cranbrook Tennis Classic,Hard,3,singles,Qualifying Round 1,Christian Langmo,Aidan Mayo,,,,,tennis.com
-atp,,Cranbrook Tennis Classic,Hard,3,singles,Qualifying Round 1,Owen Demuth,Alan Magadan,,,,,tennis.com
+atp,20260721,Millennium Estoril Open,Hard,3,doubles,Round 1,Frederico Ferreira Silva / Tiago Pereira,Santiago Gonzalez / Miguel Angel Reyes Varela,Frederico Ferreira Silva,Tiago Pereira,Santiago Gonzalez,Miguel Angel Reyes Varela,espn
+atp,20260721,Millennium Estoril Open,Hard,3,doubles,Round 1,Marcelo Demoliner / Robert Galloway,Vasil Kirkov / Bart Stevens,Marcelo Demoliner,Robert Galloway,Vasil Kirkov,Bart Stevens,espn
+atp,20260721,Millennium Estoril Open,Hard,3,doubles,Round 1,Arthur Reymond / Luca Sanchez,Nuno Borges / Francisco Cabral,Arthur Reymond,Luca Sanchez,Nuno Borges,Francisco Cabral,espn
+atp,20260721,Millennium Estoril Open,Hard,3,doubles,Round 1,Sander Arends / David Pel,David Stevenson / Marcus Willis,Sander Arends,David Pel,David Stevenson,Marcus Willis,espn
+atp,20260721,Millennium Estoril Open,Hard,3,doubles,Round 1,Jaime Faria / Henrique Rocha,Roman Andres Burruchaga / Camilo Ugo Carabelli,Jaime Faria,Henrique Rocha,Roman Andres Burruchaga,Camilo Ugo Carabelli,espn
+atp,20260721,Millennium Estoril Open,Hard,3,doubles,Round 1,Orlando Luz / Rafael Matos,Ray Ho / Benjamin Kittay,Orlando Luz,Rafael Matos,Ray Ho,Benjamin Kittay,espn
 atp,,Cranbrook Tennis Classic,Hard,3,singles,Qualifying Round 1,Samir Banerjee,Evan Zhu,,,,,tennis.com
+atp,,Cranbrook Tennis Classic,Hard,3,singles,Qualifying Round 1,Christian Langmo,Aidan Mayo,,,,,tennis.com
 atp,,Cranbrook Tennis Classic,Hard,3,singles,Qualifying Round 1,Stefan Kozlov,Leo Vithoontien,,,,,tennis.com
-atp,,Cranbrook Tennis Classic,Hard,3,singles,Qualifying Round 1,Masamichi Imamura,James Tracy,,,,,tennis.com
 atp,,Cranbrook Tennis Classic,Hard,3,singles,Qualifying Round 1,Lorenzo Claverie,Bruno Kuzuhara,,,,,tennis.com
+atp,,Cranbrook Tennis Classic,Hard,3,singles,Qualifying Round 1,Masamichi Imamura,James Tracy,,,,,tennis.com
 atp,,Cranbrook Tennis Classic,Hard,3,singles,Qualifying Round 1,Dhakshineswar Suresh,Brandon Perez,,,,,tennis.com
 atp,,Cranbrook Tennis Classic,Hard,3,singles,Qualifying Round 1,Matt Kuhar,Roger Pascual Ferra,,,,,tennis.com
 atp,,Cranbrook Tennis Classic,Hard,3,singles,Qualifying Round 1,Noah Zamora,Karl Poling,,,,,tennis.com
 atp,,Serena Wines 1881 - Acqua Maniva Tennis Cup,Hard,3,singles,Final,Federico Bondioli,Max Alcalá Gurri,,,,,tennis.com
 atp,,Lincoln Challenger,Grass,3,singles,Final,Bernard Tomic,Mark Lajal,,,,,tennis.com
 atp,,Open de Tenis Ciudad de Pozoblanco,Hard,3,singles,Final,Chris Rodesch,Ilya Ivashka,,,,,tennis.com
-atp,,Open Castilla y Leon,Hard,3,singles,Qualifying Round 1,Cyril Vandermeersch,Unknown,,,,,tennis.com
-atp,,Open Castilla y Leon,Hard,3,singles,Qualifying Round 1,Dominik Palán,Bernardo Munk Mesa,,,,,tennis.com
-atp,,Open Castilla y Leon,Hard,3,singles,Qualifying Round 1,Maxwell McKennon,Aziz Ouakaa,,,,,tennis.com
-atp,,Open Castilla y Leon,Hard,3,singles,Qualifying Round 1,Alberto Barroso Campos,Mitsuki Wei Kang Leong,,,,,tennis.com
-atp,,Tampere Open,Hard,3,singles,Qualifying Round 1,Igor Marcondes,Alan Wazny,,,,,tennis.com
-atp,,Tampere Open,Hard,3,singles,Qualifying Round 1,Genaro Alberto Olivieri,Jeri Lassila,,,,,tennis.com
-atp,,Tampere Open,Hard,3,singles,Qualifying Round 1,Matt Ponchet,Marcel Zieliński,,,,,tennis.com
-atp,,Tampere Open,Hard,3,singles,Qualifying Round 1,Niels Visker,Vesa Ahti,,,,,tennis.com
-atp,,Tampere Open,Hard,3,singles,Qualifying Round 1,Christopher Papa,Leonardo Rossi,,,,,tennis.com
 atp,,Tampere Open,Hard,3,singles,Qualifying Round 1,Patrik Niklas-Salminen,Michael Vrbenský,,,,,tennis.com
-atp,,Winnipeg National Bank Challenger presented by MBuilds,Grass,3,singles,Qualifying Round 1,Edward Winter,Joshua Sheehy,,,,,tennis.com
-atp,,Winnipeg National Bank Challenger presented by MBuilds,Grass,3,singles,Qualifying Round 1,Mikael Arseneault,Pavle Marinkov,,,,,tennis.com
 atp,,Winnipeg National Bank Challenger presented by MBuilds,Grass,3,singles,Qualifying Round 1,Daniel Milavsky,Thomas Fancutt,,,,,tennis.com
+atp,,Winnipeg National Bank Challenger presented by MBuilds,Grass,3,singles,Qualifying Round 1,Mikael Arseneault,Pavle Marinkov,,,,,tennis.com
+atp,,Winnipeg National Bank Challenger presented by MBuilds,Grass,3,singles,Qualifying Round 1,Edward Winter,Joshua Sheehy,,,,,tennis.com
 atp,,Winnipeg National Bank Challenger presented by MBuilds,Grass,3,singles,Qualifying Round 1,Garrett Johns,Benjamin Thomas George,,,,,tennis.com
-atp,,Winnipeg National Bank Challenger presented by MBuilds,Grass,3,singles,Qualifying Round 1,Strong Kirchheimer,Enzo Aguiard,,,,,tennis.com
 atp,,Winnipeg National Bank Challenger presented by MBuilds,Grass,3,singles,Qualifying Round 1,Alexander Rozin,Anton Shepp,,,,,tennis.com
+atp,,Winnipeg National Bank Challenger presented by MBuilds,Grass,3,singles,Qualifying Round 1,Strong Kirchheimer,Enzo Aguiard,,,,,tennis.com
+atp,,Winnipeg National Bank Challenger presented by MBuilds,Grass,3,singles,Qualifying Round 1,Renta Tokuda,Kenta (2004) Miyoshi,,,,,tennis.com
 atp,,Winnipeg National Bank Challenger presented by MBuilds,Grass,3,singles,Qualifying Round 1,Ben Jones,Kokoro Isomura,,,,,tennis.com
 atp,,Winnipeg National Bank Challenger presented by MBuilds,Grass,3,singles,Qualifying Round 1,Hlib Bohach,César Bouchelaghem,,,,,tennis.com
-atp,,Winnipeg National Bank Challenger presented by MBuilds,Grass,3,singles,Qualifying Round 1,Renta Tokuda,Kenta (2004) Miyoshi,,,,,tennis.com
+atp,,Winnipeg National Bank Challenger presented by MBuilds,Grass,3,singles,Qualifying Round 1,Millen Hurrion,Kaylan Bigun,,,,,tennis.com
 atp,,Winnipeg National Bank Challenger presented by MBuilds,Grass,3,singles,Qualifying Round 1,Alafia Ayeni,Duncan Chan,,,,,tennis.com
 atp,,Winnipeg National Bank Challenger presented by MBuilds,Grass,3,singles,Qualifying Round 1,James Kent Trotter,Guillaume Dalmasso,,,,,tennis.com
-atp,,Winnipeg National Bank Challenger presented by MBuilds,Grass,3,singles,Qualifying Round 1,Millen Hurrion,Kaylan Bigun,,,,,tennis.com
-atp,,Zug Open,Hard,3,singles,Qualifying Round 1,Samuele Pieri,Petr Nesterov,,,,,tennis.com
-atp,,Zug Open,Hard,3,singles,Qualifying Round 1,Nikola Djosic,Anton Matusevich,,,,,tennis.com
-atp,,Zug Open,Hard,3,singles,Qualifying Round 1,Denis Yevseyev,Dominic Stricker,,,,,tennis.com
-atp,,Zug Open,Hard,3,singles,Qualifying Round 1,Alexander Ritschard,Norbert Gombos,,,,,tennis.com
-atp,,Zug Open,Hard,3,singles,Qualifying Round 1,Amit Vales,Andrin Casanova,,,,,tennis.com
-atp,,Millennium Estoril Open,Hard,3,singles,Qualifying Round 2,Pedro Martínez,Timofey Skatov,,,,,tennis.com
-atp,,Millennium Estoril Open,Hard,3,singles,Qualifying Round 2,Orlando Luz,Clément Tabur,,,,,tennis.com
-atp,,UTR PTT Dusseldorf Men 01,Hard,3,singles,,Jeremy Jahn,Gabriel Jacquemin,,,,,tennis.com
-atp,,UTR PTT Dusseldorf Men 01,Hard,3,singles,,Vaclav Schneider,Julien Doitteau,,,,,tennis.com
-atp,,UTR PTT Dusseldorf Men 01,Hard,3,singles,,Pijus Vaitiekunas,Niels Lootsma,,,,,tennis.com
 atp,,UTR PTT Knoxville Men 02,Hard,3,singles,,Azariah Rusher,Tej Bhagra,,,,,tennis.com
 wta,,UTR PTT Knoxville Women 02,Hard,3,singles,,Katie Spencer,Bianca Ceroni,,,,,tennis.com
 wta,,UTR PTT Knoxville Women 02,Hard,3,singles,,Lexie Weir,Liam Oved,,,,,tennis.com
 atp,,UTR PTT Newport Beach Men 17,Grass,3,singles,Final,Xavier Calvelo,Douglas Yaffa,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 17,Grass,3,singles,,Benjamin Sparks,Hugo Hashimoto,,,,,tennis.com
 atp,,UTR PTT Newport Beach Men 17,Grass,3,singles,Final,Aleksandr Kalinin,David Duong,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 17,Grass,3,singles,Final,Veronica Miroshnichenko,Salma Ewing,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 17,Grass,3,singles,,Benjamin Sparks,Hugo Hashimoto,,,,,tennis.com
 wta,,UTR PTT Newport Beach Women 17,Grass,3,singles,Final,Chelsea Bluestein,Tiffany Papazian,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 17,Grass,3,singles,Final,Veronica Miroshnichenko,Salma Ewing,,,,,tennis.com
 wta,,UTR PTT Newport Beach Women 17,Grass,3,singles,,Kate Mansfield,Emily Deming,,,,,tennis.com
-wta,,Enka Open,Hard,3,singles,Final,Hanne Vandewinkel,Lanlana Tararudee,,,,,tennis.com
 wta,,Palermo Ladies Open,Hard,3,singles,Qualifying Round 2,Raluca Georgiana Şerban,Amarissa Kiara Tóth,,,,,tennis.com
 wta,,Palermo Ladies Open,Hard,3,singles,Qualifying Round 2,Yelyzaveta Kotliar,Mina Hodzic,,,,,tennis.com
 wta,,Palermo Ladies Open,Hard,3,singles,Qualifying Round 2,Yufei Ren,Miriana Tona,,,,,tennis.com
 wta,,Palermo Ladies Open,Hard,3,singles,Qualifying Round 2,Noemi Basiletti,Isabella Shinikova,,,,,tennis.com
 wta,,Antico Tiro a Volo Open,Hard,3,singles,Final,Francesca Jones,Lucia Bronzetti,,,,,tennis.com
 wta,,Athens Open,Hard,3,singles,Final,Barbora Krejčíková,Maria Sakkari,,,,,tennis.com
-wta,,Hamburg,Clay,3,singles,Qualifying Round 1,Eva Vedder,Georgina García Pérez,,,,,tennis.com
-wta,,Hamburg,Clay,3,singles,Qualifying Round 1,Elena Pridankina,Diana Martynov,,,,,tennis.com
-wta,,Hamburg,Clay,3,singles,Qualifying Round 1,Ekaterina Yashina,Mona Barthel,,,,,tennis.com
 wta,,UniCredit Iasi Open,Hard,3,singles,Final,Maiar Sherif Ahmed Abdelaziz,Paula Badosa,,,,,tennis.com
-wta,,Livesport Prague Open 2021,Hard,3,singles,Qualifying Round 2,Dominika Šálková,Gabriela Knutson,,,,,tennis.com
