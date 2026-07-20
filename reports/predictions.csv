@@ -1,13 +1,4 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Generali Open,Hard,Qualifying Round 2,Laslo Djere,Federico Cina,0.5397,0.4603,1.85,2.17,25.82,0.4944,7.51,6.43,2.66,2.54,tennis.com
-atp,,Zug Open,Hard,Qualifying Round 2,Juan Bautista Torres,Dominic Stricker,0.4749,0.5251,2.11,1.9,25.42,0.4398,5.18,4.85,2.03,3.23,tennis.com
-wta,,Livesport Prague Open 2021,Hard,Round 1,Ella Seidel,Daria Snigur,0.2516,0.7484,3.97,1.34,23.8,0.3123,3.49,5.11,3.58,3.41,tennis.com
-wta,,Livesport Prague Open 2021,Hard,Round 1,Marie Bouzkova,Jessica Bouzas Maneiro,0.7104,0.2896,1.41,3.45,23.73,0.2845,2.31,2.34,4.29,5.05,tennis.com
-wta,,Hamburg,Clay,Qualifying Round 2,Varvara Lepchenko,Elina Avanesyan,0.3845,0.6155,2.6,1.62,24.32,0.3145,4.62,2.2,3.08,3.52,tennis.com
-wta,,Livesport Prague Open 2021,Hard,Round 1,Antonia Ruzic,Dominika Salkova,0.5748,0.4252,1.74,2.35,24.49,0.3281,2.78,4.7,3.74,3.13,tennis.com
-wta,,Livesport Prague Open 2021,Hard,Round 1,Alycia Parks,Lucie Havlickova,0.5725,0.4275,1.75,2.34,24.5,0.3288,6.52,3.87,6.8,3.54,tennis.com
-wta,,Hamburg,Clay,Qualifying Round 2,Arantxa Rus,Chloe Paquet,0.5681,0.4319,1.76,2.32,24.39,0.3138,2.23,4.72,3.85,3.15,tennis.com
-wta,,Hamburg,Clay,Qualifying Round 2,Eva Vedder,Mona Barthel,0.4839,0.5161,2.07,1.94,24.58,0.3312,2.52,4.89,3.72,3.26,tennis.com
 atp,20260720,Millennium Estoril Open,Hard,Round 1,Camilo Ugo Carabelli,Titouan Droguet,0.3539,0.6461,2.83,1.55,25.66,0.4961,6.18,4.91,2.79,3.27,espn
 atp,20260720,Generali Open,Hard,Round 1,Yannick Hanfmann,Lukas Neumayer,0.6252,0.3748,1.6,2.67,25.36,0.4537,7.56,6.49,2.64,2.72,espn
 atp,20260720,Millennium Estoril Open,Hard,Round 1,Nikoloz Basilashvili,Juan Bautista Torres,0.4349,0.5651,2.3,1.77,25.37,0.4377,4.74,5.28,3.16,2.06,espn
