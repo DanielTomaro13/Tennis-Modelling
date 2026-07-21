@@ -1,4 +1,9 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+atp,,Zug Open,Hard,Round 1,Dominic Stricker,Francesco Passaro,0.6479,0.3521,1.54,2.84,25.47,0.4754,4.95,4.54,3.3,3.03,tennis.com
+atp,,Zug Open,Hard,Round 1,Roberto Carballes Baena,Marc Andrea Huesler,0.5778,0.4222,1.73,2.37,25.72,0.4884,6.73,7.64,2.9,2.4,tennis.com
+atp,,Cranbrook Tennis Classic,Hard,Round 1,Dhakshineswar Suresh,Billy Harris,0.5744,0.4256,1.74,2.35,26.2,0.5512,9.85,4.69,2.7,3.12,tennis.com
+atp,,Cranbrook Tennis Classic,Hard,Round 1,Steve Johnson,Coleman Wong,0.4309,0.5691,2.32,1.76,25.96,0.5155,4.73,7.37,3.15,2.37,tennis.com
+atp,,Cranbrook Tennis Classic,Hard,Round 1,Colton Smith,J J Wolf,0.4629,0.5371,2.16,1.86,25.78,0.4882,4.78,4.84,3.19,3.23,tennis.com
 atp,,Tampere Open,Hard,Round 1,Rogerio Dutra Silva,Dimitar Kuzmanov,0.5238,0.4762,1.91,2.1,25.78,0.4887,4.86,4.77,3.24,3.18,tennis.com
 wta,,Livesport Prague Open 2021,Hard,Round 1,Linda Fruhvirtova,Barbora Krejcikova,0.2356,0.7644,4.24,1.31,23.5,0.288,3.11,3.99,3.9,5.16,tennis.com
 wta,,Livesport Prague Open 2021,Hard,Round 1,Xinyu Gao,Lilli Tagger,0.29,0.71,3.45,1.41,23.91,0.3032,2.78,4.13,3.34,3.84,tennis.com
