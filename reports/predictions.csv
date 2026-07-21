@@ -1,5 +1,17 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Generali Open,Hard,Qualifying Round 2,Laslo Djere,Federico Cina,0.5397,0.4603,1.85,2.17,25.82,0.4944,7.51,6.43,2.66,2.54,tennis.com
+atp,,Tampere Open,Hard,Round 1,Rogerio Dutra Silva,Dimitar Kuzmanov,0.5238,0.4762,1.91,2.1,25.78,0.4887,4.86,4.77,3.24,3.18,tennis.com
+wta,,Livesport Prague Open 2021,Hard,Round 1,Linda Fruhvirtova,Barbora Krejcikova,0.2356,0.7644,4.24,1.31,23.5,0.288,3.11,3.99,3.9,5.16,tennis.com
+wta,,Livesport Prague Open 2021,Hard,Round 1,Xinyu Gao,Lilli Tagger,0.29,0.71,3.45,1.41,23.91,0.3032,2.78,4.13,3.34,3.84,tennis.com
+wta,,Livesport Prague Open 2021,Hard,Round 1,Diane Parry,Mai Hontama,0.7074,0.2926,1.41,3.42,23.97,0.3117,3.1,4.33,4.19,2.88,tennis.com
+wta,,Hamburg,Clay,Round 1,Mona Barthel,Yulia Putintseva,0.3291,0.6709,3.04,1.49,24.14,0.3119,4.46,2.32,2.98,3.68,tennis.com
+wta,,Hamburg,Clay,Round 1,Sara Sorribes Tormo,Alina Charaeva,0.6597,0.3403,1.52,2.94,23.99,0.2915,2.22,2.9,3.77,3.72,tennis.com
+wta,,Livesport Prague Open 2021,Hard,Round 1,Maria Timofeeva,Aliaksandra Sasnovich,0.3608,0.6392,2.77,1.56,24.31,0.3208,4.56,4.34,3.04,5.07,tennis.com
+wta,,Hamburg,Clay,Round 1,Tamara Korpatsch,Victoria Jimenez Kasintseva,0.6362,0.3638,1.57,2.75,24.16,0.3035,5.1,2.22,3.4,3.46,tennis.com
+wta,,Livesport Prague Open 2021,Hard,Round 1,Nikola Bartunkova,Yue Yuan,0.619,0.381,1.62,2.62,24.41,0.3284,4.48,2.84,5.85,2.53,tennis.com
+wta,,Livesport Prague Open 2021,Hard,Round 1,Anna Blinkova,Sara Bejlek,0.4013,0.5987,2.49,1.67,24.35,0.3147,2.41,2.72,3.86,5.11,tennis.com
+wta,,Livesport Prague Open 2021,Hard,Round 1,Priscilla Hon,Tereza Valentova,0.4015,0.5985,2.49,1.67,24.39,0.3191,4.66,3.52,3.11,4.85,tennis.com
+wta,,Hamburg,Clay,Round 1,Maria Lourdes Carle,Jule Niemeier,0.4422,0.5578,2.26,1.79,24.41,0.3133,4.76,2.37,3.17,4.41,tennis.com
+wta,,Hamburg,Clay,Round 1,Arantxa Rus,Elina Avanesyan,0.444,0.556,2.25,1.8,24.36,0.3073,2.12,2.17,3.67,3.46,tennis.com
 atp,20260721,Generali Open,Hard,Round 1,Raphael Collignon,Daniel Altmaier,0.7183,0.2817,1.39,3.55,25.05,0.4558,6.59,7.52,4.45,2.04,espn
 atp,20260721,Millennium Estoril Open,Hard,Round 1,Jesper De Jong,Jan Choinski,0.6383,0.3617,1.57,2.76,25.37,0.4592,8.64,6.89,2.85,2.42,espn
 atp,20260721,Generali Open,Hard,Round 1,Marco Trungelliti,Juan Manuel Cerundolo,0.3629,0.6371,2.76,1.57,25.46,0.4668,4.6,7.63,3.07,2.78,espn
