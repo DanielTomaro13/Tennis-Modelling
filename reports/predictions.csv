@@ -1,27 +1,18 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Zug Open,Hard,Round 1,Dominic Stricker,Francesco Passaro,0.6479,0.3521,1.54,2.84,25.47,0.4754,4.95,4.54,3.3,3.03,tennis.com
 atp,,Zug Open,Hard,Round 1,Roberto Carballes Baena,Marc Andrea Huesler,0.5778,0.4222,1.73,2.37,25.72,0.4884,6.73,7.64,2.9,2.4,tennis.com
 atp,,Cranbrook Tennis Classic,Hard,Round 1,Dhakshineswar Suresh,Billy Harris,0.5744,0.4256,1.74,2.35,26.2,0.5512,9.85,4.69,2.7,3.12,tennis.com
 atp,,Cranbrook Tennis Classic,Hard,Round 1,Steve Johnson,Coleman Wong,0.4309,0.5691,2.32,1.76,25.96,0.5155,4.73,7.37,3.15,2.37,tennis.com
 atp,,Cranbrook Tennis Classic,Hard,Round 1,Colton Smith,J J Wolf,0.4629,0.5371,2.16,1.86,25.78,0.4882,4.78,4.84,3.19,3.23,tennis.com
-atp,,Open Castilla y Leon,Hard,Round 2,Yi Zhou,Luka Pavlovic,0.5311,0.4689,1.88,2.13,25.65,0.4713,4.87,7.68,3.25,2.4,tennis.com
-wta,,Livesport Prague Open 2021,Hard,Round 1,Linda Fruhvirtova,Barbora Krejcikova,0.2356,0.7644,4.24,1.31,23.5,0.288,3.11,3.99,3.9,5.16,tennis.com
-wta,,Hamburg,Clay,Round 2,Anna Bondar,Noma Noha Akugue,0.6856,0.3144,1.46,3.18,24.15,0.3231,2.78,2.02,2.59,3.82,tennis.com
-wta,,Livesport Prague Open 2021,Hard,Round 2,Maya Joint,Tereza Valentova,0.342,0.658,2.92,1.52,24.05,0.2958,2.01,3.58,3.54,4.94,tennis.com
-wta,,Livesport Prague Open 2021,Hard,Round 2,Mai Hontama,Lilli Tagger,0.3497,0.6503,2.86,1.54,24.28,0.3208,4.53,4.08,3.02,3.8,tennis.com
-wta,,Hamburg,Clay,Round 1,Katarzyna Kawa,Paula Badosa,0.4195,0.5805,2.38,1.72,24.51,0.3303,4.71,2.64,3.14,4.17,tennis.com
-wta,,Livesport Prague Open 2021,Hard,Round 2,Dominika Salkova,Oceane Dodin,0.5661,0.4339,1.77,2.3,24.49,0.326,4.99,3.36,3.33,4.93,tennis.com
-wta,,Hamburg,Clay,Round 1,Arantxa Rus,Elina Avanesyan,0.444,0.556,2.25,1.8,24.36,0.3073,2.12,2.17,3.67,3.46,tennis.com
-atp,20260721,Generali Open,Hard,Round 1,Raphael Collignon,Daniel Altmaier,0.7183,0.2817,1.39,3.55,25.05,0.4558,6.59,7.52,4.45,2.04,espn
 atp,20260721,Millennium Estoril Open,Hard,Round 1,Jaime Faria,Botic Van De Zandschulp,0.4444,0.5556,2.25,1.8,25.3,0.427,8.31,6.65,3.37,4.17,espn
-atp,20260721,Millennium Estoril Open,Hard,Round 1,Roman Andres Burruchaga,Stan Wawrinka,0.5439,0.4561,1.84,2.19,25.92,0.5082,4.87,7.77,3.25,2.31,espn
 atp,20260722,Millennium Estoril Open,Hard,Round 2,Timofey Skatov,Andrey Rublev,0.1801,0.8199,5.55,1.22,24.38,0.4426,5.48,9.14,2.34,2.29,espn
 atp,20260722,Generali Open,Hard,Round 2,Facundo Diaz Acosta,Alexander Bublik,0.2772,0.7228,3.61,1.38,25.35,0.4908,6.19,10.36,2.52,4.97,espn
+atp,20260722,Millennium Estoril Open,Hard,Round 2,Titouan Droguet,Hugo Gaston,0.7195,0.2805,1.39,3.57,24.85,0.4314,4.98,5.32,3.32,2.5,espn
 atp,20260722,Generali Open,Hard,Round 2,Valentin Vacherot,Quentin Halys,0.7132,0.2868,1.4,3.49,25.69,0.537,8.19,8.2,3.02,3.02,espn
 atp,20260722,Generali Open,Hard,Round 2,Yannick Hanfmann,Marco Trungelliti,0.6604,0.3396,1.51,2.94,25.45,0.4791,7.55,4.52,2.63,3.01,espn
 atp,20260722,Generali Open,Hard,Round 2,Arthur Rinderknech,Sebastian Baez,0.6414,0.3586,1.56,2.79,25.21,0.4391,8.67,3.84,3.0,2.16,espn
 atp,20260722,Generali Open,Hard,Round 2,Jurij Rodionov,Tomas Martin Etcheverry,0.3593,0.6407,2.78,1.56,25.58,0.4827,4.6,8.81,3.07,2.07,espn
 atp,20260722,Millennium Estoril Open,Hard,Round 2,Luciano Darderi,Pedro Martinez,0.6309,0.3691,1.58,2.71,25.53,0.4778,7.37,4.88,3.79,3.16,espn
+atp,20260722,Millennium Estoril Open,Hard,Round 2,Alexander Blockx,Kyrian Jacquet,0.5622,0.4378,1.78,2.28,25.63,0.4733,8.18,6.81,2.48,2.62,espn
 atp,20260722,Millennium Estoril Open,Hard,Round 2,Juan Bautista Torres,Alejandro Tabilo,0.4416,0.5584,2.26,1.79,25.67,0.4758,5.12,7.3,2.0,2.03,espn
 atp,20260722,Generali Open,Hard,Round 2,Mariano Navone,Jan Lennard Struff,0.4429,0.5571,2.26,1.79,24.98,0.3856,7.14,8.25,2.83,3.33,espn
 atp,20260722,Millennium Estoril Open,Hard,Round 2,Pablo Carreno Busta,Luca Van Assche,0.5527,0.4473,1.81,2.24,25.9,0.507,5.9,7.42,2.46,2.35,espn
