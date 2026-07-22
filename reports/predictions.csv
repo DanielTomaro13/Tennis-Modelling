@@ -1,5 +1,13 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+atp,,Zug Open,Hard,Round 2,Marc Andrea Huesler,Juan Bautista Torres,0.3914,0.6086,2.55,1.64,25.38,0.4481,7.6,5.31,2.39,2.08,tennis.com
 atp,,UTR PTT Newport Beach Men 18,Grass,,Jimmy Wang,Kevin Anderson,0.4058,0.5942,2.46,1.68,25.68,0.4836,4.69,4.89,3.13,3.26,tennis.com
+atp,,Tampere Open,Hard,Round 2,Dimitar Kuzmanov,Otto Virtanen,0.458,0.542,2.18,1.85,25.8,0.4907,4.77,8.5,3.18,3.65,tennis.com
+wta,,Livesport Prague Open,Hard,Round 2,Lucie Havlickova,Barbora Krejcikova,0.2374,0.7626,4.21,1.31,23.55,0.2928,3.41,3.98,3.12,5.15,tennis.com
+wta,,Livesport Prague Open,Hard,Round 2,Maria Timofeeva,Sara Bejlek,0.2921,0.7079,3.42,1.41,23.76,0.2841,4.33,2.8,2.88,5.25,tennis.com
+wta,,Livesport Prague Open,Hard,Round 2,Mai Hontama,Lilli Tagger,0.3497,0.6503,2.86,1.54,24.28,0.3208,4.53,4.08,3.02,3.8,tennis.com
+wta,,Livesport Prague Open,Hard,Round 2,Nikola Bartunkova,Lanlana Tararudee,0.6481,0.3519,1.54,2.84,24.11,0.3016,4.53,3.67,5.92,3.24,tennis.com
+wta,,Hamburg,Clay,Round 2,Mayar Sherif,Elsa Jacquemot,0.6462,0.3538,1.55,2.83,24.38,0.3342,2.11,3.01,3.31,4.37,tennis.com
+wta,,Hamburg,Clay,Round 2,Paula Badosa,Panna Udvardy,0.5674,0.4326,1.76,2.31,24.72,0.3559,2.64,2.02,4.16,3.11,tennis.com
 atp,20260723,Millennium Estoril Open,Hard,Round 2,Timofey Skatov,Andrey Rublev,0.1801,0.8199,5.55,1.22,24.38,0.4426,5.48,9.14,2.34,2.29,espn
 atp,20260723,Generali Open,Hard,Quarterfinal,Alex Molcan,Alexander Bublik,0.3673,0.6327,2.72,1.58,25.79,0.5087,6.33,10.34,2.74,4.96,espn
 atp,20260723,Millennium Estoril Open,Hard,Round 2,Luciano Darderi,Pedro Martinez,0.6309,0.3691,1.58,2.71,25.53,0.4778,7.37,4.88,3.79,3.16,espn
