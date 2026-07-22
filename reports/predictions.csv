@@ -1,10 +1,15 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+atp,,Cranbrook Tennis Classic,Hard,Round 2,Thanasi Kokkinakis,Adam Walton,0.6422,0.3578,1.56,2.8,25.97,0.5394,9.69,6.78,2.71,2.45,tennis.com
+atp,,UTR PTT Newport Beach Men 18,Grass,,Jimmy Wang,Kevin Anderson,0.4058,0.5942,2.46,1.68,25.68,0.4836,4.69,4.89,3.13,3.26,tennis.com
 atp,,Open Castilla y Leon,Hard,Round 2,Yi Zhou,Luka Pavlovic,0.5311,0.4689,1.88,2.13,25.65,0.4713,4.87,7.68,3.25,2.4,tennis.com
+atp,,Cranbrook Tennis Classic,Hard,Round 2,Mark Lajal,Pablo Llamas Ruiz,0.5177,0.4823,1.93,2.07,25.83,0.495,7.51,4.77,3.01,3.18,tennis.com
+wta,,Hamburg,Clay,Round 2,Anna Bondar,Noma Noha Akugue,0.6856,0.3144,1.46,3.18,24.15,0.3231,2.78,2.02,2.59,3.82,tennis.com
 wta,,Hamburg,Clay,Round 1,Simona Waltert,Mayar Sherif,0.3256,0.6744,3.07,1.48,24.12,0.3112,4.45,2.13,2.97,3.33,tennis.com
 wta,,Hamburg,Clay,Round 2,Maria Lourdes Carle,Anhelina Kalinina,0.3416,0.6584,2.93,1.52,24.14,0.3065,4.5,2.63,3.0,3.85,tennis.com
 wta,,Livesport Prague Open,Hard,Round 2,Maya Joint,Tereza Valentova,0.342,0.658,2.92,1.52,24.05,0.2958,2.01,3.58,3.54,4.94,tennis.com
 wta,,Hamburg,Clay,Round 1,Katarzyna Kawa,Paula Badosa,0.4195,0.5805,2.38,1.72,24.51,0.3303,4.71,2.64,3.14,4.17,tennis.com
 wta,,Livesport Prague Open,Hard,Round 2,Dominika Salkova,Oceane Dodin,0.5661,0.4339,1.77,2.3,24.49,0.326,4.99,3.36,3.33,4.93,tennis.com
+wta,,Palermo Ladies Open,Hard,Round 2,Fiona Ferro,Erika Andreeva,0.5367,0.4633,1.86,2.16,24.66,0.3444,3.54,3.03,4.01,3.59,tennis.com
 atp,20260722,Generali Open,Hard,Round 2,Facundo Diaz Acosta,Alexander Bublik,0.2772,0.7228,3.61,1.38,25.35,0.4908,6.19,10.36,2.52,4.97,espn
 atp,20260722,Millennium Estoril Open,Hard,Round 2,Titouan Droguet,Hugo Gaston,0.7195,0.2805,1.39,3.57,24.85,0.4314,4.98,5.32,3.32,2.5,espn
 atp,20260722,Generali Open,Hard,Round 2,Valentin Vacherot,Quentin Halys,0.7132,0.2868,1.4,3.49,25.69,0.537,8.19,8.2,3.02,3.02,espn
