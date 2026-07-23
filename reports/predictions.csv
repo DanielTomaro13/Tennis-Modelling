@@ -1,6 +1,4 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Cranbrook Tennis Classic,Hard,Round 2,Alex Michelsen,Lloyd Harris,0.7023,0.2977,1.42,3.36,24.87,0.4236,6.82,6.88,3.0,2.59,tennis.com
-atp,,Cranbrook Tennis Classic,Hard,Round 2,J J Wolf,Coleman Wong,0.3509,0.6491,2.85,1.54,25.72,0.5044,4.59,7.44,3.06,2.39,tennis.com
 atp,20260724,Millennium Estoril Open,Hard,Quarterfinal,Luca Van Assche,Andrey Rublev,0.2562,0.7438,3.9,1.34,25.16,0.4799,6.84,9.23,2.17,2.31,espn
 atp,20260724,Millennium Estoril Open,Hard,Quarterfinal,Hugo Gaston,Juan Bautista Torres,0.3847,0.6153,2.6,1.63,25.07,0.4093,5.68,5.34,2.67,2.09,espn
 atp,20260724,Millennium Estoril Open,Hard,Quarterfinal,Alexander Blockx,Roman Andres Burruchaga,0.4118,0.5882,2.43,1.7,25.93,0.5151,7.84,4.87,2.37,3.25,espn
