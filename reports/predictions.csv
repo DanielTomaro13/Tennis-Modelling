@@ -2,16 +2,10 @@ tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_od
 atp,,Cranbrook Tennis Classic,Hard,Round 2,Alex Michelsen,Lloyd Harris,0.7023,0.2977,1.42,3.36,24.87,0.4236,6.82,6.88,3.0,2.59,tennis.com
 atp,,Cranbrook Tennis Classic,Hard,Round 2,J J Wolf,Coleman Wong,0.3509,0.6491,2.85,1.54,25.72,0.5044,4.59,7.44,3.06,2.39,tennis.com
 atp,,Zug Open,Hard,Round 2,Norbert Gombos,Dominic Stricker,0.3738,0.6262,2.67,1.6,25.58,0.4792,4.63,4.91,3.09,3.28,tennis.com
-atp,,Tampere Open,Hard,Round 2,Dimitar Kuzmanov,Otto Virtanen,0.458,0.542,2.18,1.85,25.8,0.4907,4.77,8.5,3.18,3.65,tennis.com
 atp,,Cranbrook Tennis Classic,Hard,Round 2,Borna Gojo,Dhakshineswar Suresh,0.5077,0.4923,1.97,2.03,26.29,0.5547,4.83,9.64,3.22,2.64,tennis.com
-wta,,Livesport Prague Open,Hard,Round 2,Lucie Havlickova,Barbora Krejcikova,0.2374,0.7626,4.21,1.31,23.55,0.2928,3.41,3.98,3.12,5.15,tennis.com
-wta,,Livesport Prague Open,Hard,Round 2,Maria Timofeeva,Sara Bejlek,0.2921,0.7079,3.42,1.41,23.76,0.2841,4.33,2.8,2.88,5.25,tennis.com
 wta,,Palermo Ladies Open,Hard,Round 2,Francesca Jones,Miriam Bianca Bulgaru,0.423,0.577,2.36,1.73,24.43,0.3195,3.8,3.02,4.03,4.31,tennis.com
-wta,,Hamburg,Clay,Round 2,Paula Badosa,Panna Udvardy,0.5674,0.4326,1.76,2.31,24.72,0.3559,2.64,2.02,4.16,3.11,tennis.com
-wta,,Hamburg,Clay,Round 2,Elina Avanesyan,Yulia Putintseva,0.4941,0.5059,2.02,1.98,24.47,0.3181,2.13,2.22,3.39,3.52,tennis.com
-atp,20260723,Millennium Estoril Open,Hard,Round 2,Timofey Skatov,Andrey Rublev,0.1801,0.8199,5.55,1.22,24.38,0.4426,5.48,9.14,2.34,2.29,espn
-atp,20260723,Generali Open,Hard,Quarterfinal,Alex Molcan,Alexander Bublik,0.3673,0.6327,2.72,1.58,25.79,0.5087,6.33,10.34,2.74,4.96,espn
 atp,20260723,Millennium Estoril Open,Hard,Round 2,Luciano Darderi,Pedro Martinez,0.6309,0.3691,1.58,2.71,25.53,0.4778,7.37,4.88,3.79,3.16,espn
 atp,20260724,Millennium Estoril Open,Hard,Quarterfinal,Hugo Gaston,Juan Bautista Torres,0.3847,0.6153,2.6,1.63,25.07,0.4093,5.68,5.34,2.67,2.09,espn
 atp,20260724,Millennium Estoril Open,Hard,Quarterfinal,Alexander Blockx,Roman Andres Burruchaga,0.4118,0.5882,2.43,1.7,25.93,0.5151,7.84,4.87,2.37,3.25,espn
+atp,20260724,Generali Open,Hard,Semifinal,Tomas Martin Etcheverry,Alexander Bublik,0.4202,0.5798,2.38,1.72,26.06,0.5312,8.45,10.26,1.99,4.92,espn
 atp,20260724,Generali Open,Hard,Semifinal,Quentin Halys,Yannick Hanfmann,0.4642,0.5358,2.15,1.87,26.04,0.5218,8.88,7.36,3.27,2.57,espn
