@@ -1,5 +1,11 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+atp,,Cranbrook Tennis Classic,Hard,Quarterfinal,Alex Michelsen,Mark Lajal,0.7102,0.2898,1.41,3.45,24.77,0.4148,6.83,6.77,3.0,2.71,tennis.com
+atp,,Zug Open,Hard,Quarterfinal,Marc Andrea Huesler,Dominic Stricker,0.3581,0.6419,2.79,1.56,25.66,0.4937,7.5,4.91,2.36,3.27,tennis.com
+atp,,Cranbrook Tennis Classic,Hard,Quarterfinal,Jacob Fearnley,J J Wolf,0.4772,0.5228,2.1,1.91,25.73,0.4807,6.99,4.83,3.02,3.22,tennis.com
+atp,,Cranbrook Tennis Classic,Hard,Quarterfinal,Dhakshineswar Suresh,Andrej Martin,0.4802,0.5198,2.08,1.92,26.29,0.5544,9.68,4.8,2.65,3.2,tennis.com
+atp,,Cranbrook Tennis Classic,Hard,Quarterfinal,Michael Zheng,Adam Walton,0.5165,0.4835,1.94,2.07,26.11,0.531,7.25,7.08,1.82,2.56,tennis.com
 wta,,Livesport Prague Open,Hard,Quarterfinal,Dominika Salkova,Barbora Krejcikova,0.2628,0.7372,3.8,1.36,23.7,0.294,4.24,3.98,2.83,5.15,tennis.com
+wta,,Hamburg,Clay,Quarterfinal,Tamara Korpatsch,Anhelina Kalinina,0.4265,0.5735,2.34,1.74,24.41,0.3161,4.72,2.58,3.15,3.77,tennis.com
 wta,,Hamburg,Clay,Quarterfinal,Mayar Sherif,Paula Badosa,0.432,0.568,2.31,1.76,24.51,0.3281,1.97,2.64,3.1,4.16,tennis.com
 wta,,Hamburg,Clay,Quarterfinal,Oleksandra Oliynykova,Elina Avanesyan,0.5431,0.4569,1.84,2.19,24.39,0.31,3.0,2.09,3.52,3.33,tennis.com
 wta,,Livesport Prague Open,Hard,Quarterfinal,Lilli Tagger,Sara Bejlek,0.4695,0.5305,2.13,1.89,24.37,0.3064,3.88,2.67,3.61,5.01,tennis.com
