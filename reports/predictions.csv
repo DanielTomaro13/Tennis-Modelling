@@ -1,5 +1,8 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Cranbrook Tennis Classic,Hard,Quarterfinal,Alex Michelsen,Mark Lajal,0.7102,0.2898,1.41,3.45,24.77,0.4148,6.83,6.77,3.0,2.71,tennis.com
+wta,,Livesport Prague Open,Hard,Semifinal,Lilli Tagger,Barbora Krejcikova,0.2992,0.7008,3.34,1.43,23.97,0.3051,3.52,3.96,3.27,5.13,tennis.com
+wta,,Hamburg,Clay,Semifinal,Mayar Sherif,Tamara Korpatsch,0.5848,0.4152,1.71,2.41,24.43,0.3228,2.09,4.68,3.28,3.12,tennis.com
+wta,,Hamburg,Clay,Semifinal,Elina Avanesyan,Anna Bondar,0.4252,0.5748,2.35,1.74,24.58,0.3381,2.06,2.71,3.29,2.52,tennis.com
+wta,,Livesport Prague Open,Hard,Semifinal,Tereza Valentova,Daria Snigur,0.5134,0.4866,1.95,2.06,24.51,0.3236,3.43,4.83,4.73,3.22,tennis.com
 atp,20260725,Generali Open,Hard,Final,Quentin Halys,Alexander Bublik,0.3495,0.6505,2.86,1.54,26.01,0.5433,8.53,10.3,3.15,4.94,espn
 atp,20260725,Millennium Estoril Open,Hard,Semifinal,Hugo Gaston,Luca Van Assche,0.4077,0.5923,2.45,1.69,25.5,0.4598,5.74,7.71,2.7,2.44,espn
 atp,20260725,Millennium Estoril Open,Hard,Semifinal,Luciano Darderi,Alexander Blockx,0.5079,0.4921,1.97,2.03,26.17,0.5386,7.2,7.97,3.7,2.41,espn
