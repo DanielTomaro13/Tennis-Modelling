@@ -1,5 +1,76 @@
 tour,date,tournament,surface,best_of,format,round,player1,player2,p1a,p1b,p2a,p2b,source
-atp,20260724,Generali Open,Hard,3,doubles,Semifinal,Lucas Miedler / Marc Polmans,N.Sriram Balaji / Andre Goransson,Lucas Miedler,Marc Polmans,N.Sriram Balaji,Andre Goransson,espn
-atp,20260724,Millennium Estoril Open,Hard,3,singles,Quarterfinal,Alexander Blockx,Roman Andres Burruchaga,,,,,espn
+atp,20260725,Generali Open,Hard,3,singles,Final,Quentin Halys,Alexander Bublik,,,,,espn
+atp,20260725,Generali Open,Hard,3,doubles,Final,Lucas Miedler / Marc Polmans,Jakob Schnaitter / Mark Wallner,Lucas Miedler,Marc Polmans,Jakob Schnaitter,Mark Wallner,espn
 atp,20260724,Millennium Estoril Open,Hard,3,singles,Quarterfinal,Luciano Darderi,Jaime Faria,,,,,espn
-atp,20260724,Millennium Estoril Open,Hard,3,doubles,Semifinal,Orlando Luz / Rafael Matos,Sander Arends / David Pel,Orlando Luz,Rafael Matos,Sander Arends,David Pel,espn
+atp,20260725,Millennium Estoril Open,Hard,3,singles,Semifinal,Hugo Gaston,Luca Van Assche,,,,,espn
+atp,20260725,Millennium Estoril Open,Hard,3,doubles,Semifinal,Nuno Borges / Francisco Cabral,Titouan Droguet / Kyrian Jacquet,Nuno Borges,Francisco Cabral,Titouan Droguet,Kyrian Jacquet,espn
+atp,,Cranbrook Tennis Classic,Hard,3,singles,Quarterfinal,Jacob Fearnley,Jeffrey John Wolf,,,,,tennis.com
+atp,,Cranbrook Tennis Classic,Hard,3,singles,Quarterfinal,Dhakshineswar Suresh,Andres Martin,,,,,tennis.com
+atp,,Cranbrook Tennis Classic,Hard,3,singles,Quarterfinal,Alex Michelsen,Mark Lajal,,,,,tennis.com
+atp,,Open Castilla y Leon,Hard,3,singles,Semifinal,Mattéo Martineau,Oliver Crawford,,,,,tennis.com
+atp,,Open Castilla y Leon,Hard,3,singles,Semifinal,Luka Pavlovic,Keegan Smith,,,,,tennis.com
+atp,,Tampere Open,Hard,3,singles,Semifinal,Diego Dedura-Palomero,Gauthier Onclin,,,,,tennis.com
+atp,,Tampere Open,Hard,3,singles,Semifinal,Maks Kaśnikowski,Otto Virtanen,,,,,tennis.com
+atp,,Winnipeg National Bank Challenger presented by MBuilds,Grass,3,singles,Quarterfinal,Rio Noguchi,Charles Broom,,,,,tennis.com
+atp,,Winnipeg National Bank Challenger presented by MBuilds,Grass,3,singles,Quarterfinal,Yu Hsiou Hsu,Toby Samuel,,,,,tennis.com
+atp,,Winnipeg National Bank Challenger presented by MBuilds,Grass,3,singles,Quarterfinal,Shintaro Mochizuki,Johannus Monday,,,,,tennis.com
+atp,,Winnipeg National Bank Challenger presented by MBuilds,Grass,3,singles,Quarterfinal,Liam Draxl,Clément Chidekh,,,,,tennis.com
+atp,,Zug Open,Hard,3,singles,Quarterfinal,Marc-Andrea Hüsler,Dominic Stricker,,,,,tennis.com
+atp,,Zug Open,Hard,3,singles,Semifinal,Thiago Seyboth Wild,Dylan Dietrich,,,,,tennis.com
+atp,,UTR PTT Bengaluru Men 02,Hard,3,singles,Semifinal,Suraj R Prabodh,Deep Munim,,,,,tennis.com
+atp,,UTR PTT Bengaluru Men 02,Hard,3,singles,Semifinal,Sandesh Dattatray Kurale,Aleksandre Shvangiradze,,,,,tennis.com
+atp,,UTR PTT Bengaluru Men 02,Hard,3,singles,Semifinal,Neeraj Yashpaul,Abhishek Bastola,,,,,tennis.com
+atp,,UTR PTT Bengaluru Men 02,Hard,3,singles,Semifinal,Dev Javia,Aryan Jit Singh,,,,,tennis.com
+atp,,UTR PTT Bengaluru Men 02,Hard,3,singles,Semifinal,Debasis Sahoo,Aradhya Kshitij,,,,,tennis.com
+atp,,UTR PTT Bengaluru Men 02,Hard,3,singles,Semifinal,Yash Chaurasia,Gandharv Gourav Kothapalli,,,,,tennis.com
+atp,,UTR PTT Bengaluru Men 02,Hard,3,singles,Semifinal,Keerthivassan Suresh,Ronin Lotlikar,,,,,tennis.com
+atp,,UTR PTT Bengaluru Men 02,Hard,3,singles,Semifinal,Tarun Karra,Kevin Titus Suresh,,,,,tennis.com
+atp,,UTR PTT Bengaluru Men 02,Hard,3,singles,Semifinal,Varun Verma,Baltazar Wiger Nordas,,,,,tennis.com
+atp,,UTR PTT Bengaluru Men 02,Hard,3,singles,Semifinal,Ajay Malik,Kaushik Arunkumar,,,,,tennis.com
+atp,,UTR PTT Dusseldorf Men 01,Hard,3,singles,Final,Ondrej Hujo,Timeo Gaillard,,,,,tennis.com
+atp,,UTR PTT Dusseldorf Men 01,Hard,3,singles,Final,Bas Bouwman,Francisco (2006) Guimaraes,,,,,tennis.com
+atp,,UTR PTT Dusseldorf Men 01,Hard,3,singles,Final,Jeremy Jahn,Sidane Pontjodikromo,,,,,tennis.com
+atp,,UTR PTT Dusseldorf Men 01,Hard,3,singles,Final,Stijn Paardekooper,Niels Lootsma,,,,,tennis.com
+wta,,UTR PTT Dusseldorf Women 01,Hard,3,singles,Final,Diāna Marcinkēviča,Mariia Pryshchepa,,,,,tennis.com
+wta,,UTR PTT Dusseldorf Women 01,Hard,3,singles,Final,Leandra Nizetic,Annika Barth,,,,,tennis.com
+wta,,UTR PTT Dusseldorf Women 01,Hard,3,singles,Final,Emily Welker,Nina Kruijer,,,,,tennis.com
+wta,,UTR PTT Dusseldorf Women 01,Hard,3,singles,Final,Louise Kerstin Marie Ternstrom,Beata Havlickova,,,,,tennis.com
+wta,,UTR PTT Dusseldorf Women 01,Hard,3,singles,Final,Annemarie Lazar,Laurie Barendse,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 18,Grass,3,singles,Quarterfinal,Douglas Yaffa,Bryan Assi,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 18,Grass,3,singles,Quarterfinal,Cayden Wang,Avery Tallakson,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 18,Grass,3,singles,Quarterfinal,Rishvanth Krishna,Pavel Bushuev,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 18,Grass,3,singles,Quarterfinal,David Duong,Andy Nguyen,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 18,Grass,3,singles,Final,Lorenzo Brunkow,Jacob Brumm,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 18,Grass,3,singles,Semifinal,Aaron Eliscu,George Hakopian,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 18,Grass,3,singles,Semifinal,Lawee Sherif,Joseph Nau,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 18,Grass,3,singles,Quarterfinal,Maria Aytoyan,Camille Kiss,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 18,Grass,3,singles,Quarterfinal,Sophie Suh,Shakhnoza Khatamova,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 18,Grass,3,singles,Quarterfinal,Kayla Chung,Anya Arora,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 18,Grass,3,singles,Quarterfinal,Allison Wang,Daniela Borruel,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 18,Grass,3,singles,,Daniela Del Mastro,Campbelll Ricci,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 18,Grass,3,singles,Semifinal,Catherine Walker,Amy Duong,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 18,Grass,3,singles,Semifinal,Gala Arangio,Kiana Smith,,,,,tennis.com
+atp,,UTR PTT Tallahassee Men 01,Hard,3,singles,Semifinal,Alex Bulte,Aryan Badlani,,,,,tennis.com
+atp,,UTR PTT Tallahassee Men 01,Hard,3,singles,Semifinal,Azariah Rusher,Kase Schinnerer,,,,,tennis.com
+atp,,UTR PTT Tallahassee Men 01,Hard,3,singles,Semifinal,Graeme Angus,Carter Craig,,,,,tennis.com
+atp,,UTR PTT Tallahassee Men 01,Hard,3,singles,Semifinal,Juan David Velasquez,Nikola Parichkov,,,,,tennis.com
+wta,,UTR PTT Tallahassee Women 01,Hard,3,singles,Semifinal,My-Anh Holmes,Aryana Bartlett,,,,,tennis.com
+wta,,UTR PTT Tallahassee Women 01,Hard,3,singles,Semifinal,Gabriella Goyins,Isabelle Oak,,,,,tennis.com
+wta,,UTR PTT Tallahassee Women 01,Hard,3,singles,Semifinal,Lexie Weir,Anna Arkadianou,,,,,tennis.com
+atp,,UTR PTT Waco Men 02,Hard,3,singles,Semifinal,Egor Gorin,Jeremiah Braswell,,,,,tennis.com
+atp,,UTR PTT Waco Men 02,Hard,3,singles,Semifinal,Lathan Skrobarcek,Gordon Gallagher,,,,,tennis.com
+atp,,UTR PTT Waco Men 02,Hard,3,singles,Semifinal,Brendan Boland,Radek Chodora,,,,,tennis.com
+atp,,UTR PTT Waco Men 02,Hard,3,singles,Semifinal,August Brostroem Poulsen,Mason Landreth,,,,,tennis.com
+atp,,UTR PTT Waco Men 02,Hard,3,singles,Semifinal,William McEwan,Quintan van Wijk,,,,,tennis.com
+atp,,UTR PTT Waco Men 02,Hard,3,singles,Semifinal,Noey Do,Leo Pade,,,,,tennis.com
+wta,,UTR PTT Waco Women 02,Hard,3,singles,Semifinal,Alian Zack,Bianca Vitale,,,,,tennis.com
+wta,,UTR PTT Waco Women 02,Hard,3,singles,Semifinal,Zuzanna Kubacha,Claire An,,,,,tennis.com
+wta,,UTR PTT Waco Women 02,Hard,3,singles,Semifinal,Kira Matushkina,Gloriana Goreti Nahum,,,,,tennis.com
+wta,,UTR PTT Waco Women 02,Hard,3,singles,Semifinal,Zoie Epps,Gabrielle Villegas,,,,,tennis.com
+wta,,UTR PTT Waco Women 02,Hard,3,singles,Semifinal,Kenna Erickson,Lani Brotman,,,,,tennis.com
+wta,,UTR PTT Waco Women 02,Hard,3,singles,Semifinal,Stanislava Shulzhenko,Zimora McKnight,,,,,tennis.com
+wta,,Palermo Ladies Open,Hard,3,singles,Quarterfinal,Alevtina Ibragimova,Clara Burel,,,,,tennis.com
+wta,,Palermo Ladies Open,Hard,3,singles,Quarterfinal,Yasmine Kabbaj,Lucia Bronzetti,,,,,tennis.com
+wta,,Palermo Ladies Open,Hard,3,singles,Quarterfinal,Fiona Ferro,Mina Hodzic,,,,,tennis.com
+wta,,Hamburg,Clay,3,singles,Semifinal,Elina Avanesyan,Anna Bondár,,,,,tennis.com
+wta,,Livesport Prague Open,Hard,3,singles,Semifinal,Tereza Valentova,Daria Snigur,,,,,tennis.com
