@@ -1,8 +1,13 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+atp,,Cranbrook Tennis Classic,Hard,Semifinal,Alex Michelsen,Dhakshineswar Suresh,0.7571,0.2429,1.32,4.12,24.79,0.4488,6.75,8.58,2.97,2.35,tennis.com
+atp,,Cranbrook Tennis Classic,Hard,Semifinal,Jacob Fearnley,Michael Zheng,0.4255,0.5745,2.35,1.74,25.69,0.4814,6.87,7.31,2.97,1.84,tennis.com
+atp,,Open Castilla y Leon,Hard,Semifinal,Luka Pavlovic,Colton Smith,0.545,0.455,1.83,2.2,25.63,0.4706,7.88,4.74,2.46,3.16,tennis.com
 wta,,Livesport Prague Open,Hard,Semifinal,Lilli Tagger,Barbora Krejcikova,0.2992,0.7008,3.34,1.43,23.97,0.3051,3.52,3.96,3.27,5.13,tennis.com
 wta,,Hamburg,Clay,Semifinal,Mayar Sherif,Tamara Korpatsch,0.5848,0.4152,1.71,2.41,24.43,0.3228,2.09,4.68,3.28,3.12,tennis.com
 wta,,Hamburg,Clay,Semifinal,Elina Avanesyan,Anna Bondar,0.4252,0.5748,2.35,1.74,24.58,0.3381,2.06,2.71,3.29,2.52,tennis.com
+wta,,WTA Memphis,Hard,Round 2,Astra Sharma,Aoi Ito,0.4298,0.5702,2.33,1.75,24.38,0.3123,4.73,3.37,3.16,3.9,tennis.com
 wta,,Livesport Prague Open,Hard,Semifinal,Tereza Valentova,Daria Snigur,0.5134,0.4866,1.95,2.06,24.51,0.3236,3.43,4.83,4.73,3.22,tennis.com
+wta,,Palermo Ladies Open,Hard,Semifinal,Fiona Ferro,Lucia Bronzetti,0.4883,0.5117,2.05,1.95,24.71,0.3488,3.48,3.33,3.94,3.78,tennis.com
 atp,20260725,Mubadala Citi DC Open,Hard,Qualifying 1st Round,Kimmer Coppejans,Martin Damm,0.3315,0.6685,3.02,1.5,25.68,0.5076,4.55,10.96,3.03,3.07,espn
 atp,20260725,Generali Open,Hard,Final,Quentin Halys,Alexander Bublik,0.3495,0.6505,2.86,1.54,26.01,0.5433,8.53,10.3,3.15,4.94,espn
 atp,20260725,Mubadala Citi DC Open,Hard,Qualifying 1st Round,Alex Bolt,James Mccabe,0.6419,0.3581,1.56,2.79,25.49,0.4765,4.95,4.56,3.3,3.04,espn
