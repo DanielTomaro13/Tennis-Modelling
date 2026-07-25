@@ -1,14 +1,14 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
 atp,,Cranbrook Tennis Classic,Hard,Semifinal,Alex Michelsen,Dhakshineswar Suresh,0.7571,0.2429,1.32,4.12,24.79,0.4488,6.75,8.58,2.97,2.35,tennis.com
 atp,,Cranbrook Tennis Classic,Hard,Semifinal,Jacob Fearnley,Michael Zheng,0.4255,0.5745,2.35,1.74,25.69,0.4814,6.87,7.31,2.97,1.84,tennis.com
+wta,,AXERIA Open 2026 powered by INTARO Sport,Hard,Qualifying Round 1,Maria Sharapova,Amarissa Kiara Toth,0.7017,0.2983,1.43,3.35,23.84,0.293,5.16,3.04,3.44,3.43,tennis.com
+wta,,Hamburg,Clay,Final,Anna Bondar,Tamara Korpatsch,0.6167,0.3833,1.62,2.61,24.54,0.3441,2.74,4.6,2.55,3.06,tennis.com
 wta,,Palermo Ladies Open,Hard,Semifinal,Fiona Ferro,Lucia Bronzetti,0.4883,0.5117,2.05,1.95,24.71,0.3488,3.48,3.33,3.94,3.78,tennis.com
-atp,20260725,Mubadala DC Open,Hard,Qualifying 1st Round,Alex Bolt,James Mccabe,0.6419,0.3581,1.56,2.79,25.49,0.4765,4.95,4.56,3.3,3.04,espn
 atp,20260725,Mubadala DC Open,Hard,Qualifying 1st Round,Stefan Kozlov,Zachary Svajda,0.4013,0.5987,2.49,1.67,25.87,0.5092,4.68,6.9,3.12,2.54,espn
-atp,20260725,Millennium Estoril Open,Hard,Semifinal,Hugo Gaston,Luca Van Assche,0.4077,0.5923,2.45,1.69,25.5,0.4598,5.74,7.71,2.7,2.44,espn
 atp,20260725,Mubadala DC Open,Hard,Qualifying 1st Round,Andrej Martin,Christopher Oconnell,0.4114,0.5886,2.43,1.7,25.68,0.4827,4.7,6.84,3.13,2.06,espn
 atp,20260725,Mubadala DC Open,Hard,Qualifying 1st Round,Elias Ymer,Zachary Svajda,0.4234,0.5766,2.36,1.73,25.92,0.5116,4.72,6.88,3.15,2.53,espn
 atp,20260725,Mubadala DC Open,Hard,Qualifying 1st Round,Billy Harris,Abedallah Shelbayh,0.443,0.557,2.26,1.8,25.76,0.487,4.75,4.86,3.17,3.24,espn
 atp,20260725,Mubadala DC Open,Hard,Qualifying 1st Round,Dusan Lajovic,Lleyton Hewitt,0.4477,0.5523,2.23,1.81,25.87,0.501,6.06,4.85,2.29,3.23,espn
 atp,20260725,Millennium Estoril Open,Hard,Semifinal,Luciano Darderi,Alexander Blockx,0.5079,0.4921,1.97,2.03,26.17,0.5386,7.2,7.97,3.7,2.41,espn
 wta,20260725,Mubadala DC Open,Hard,Qualifying 1st Round,Gabriela Andrea Knutson,Shuai Zhang,0.3367,0.6633,2.97,1.51,24.21,0.3177,2.81,3.29,4.24,3.52,espn
-wta,20260725,Mubadala DC Open,Hard,Qualifying 1st Round,Varvara Lepchenko,Clervie Ngounoue,0.5705,0.4295,1.75,2.33,24.55,0.3348,4.99,3.04,3.33,4.01,espn
+atp,20260726,Mubadala DC Open,Hard,Qualifying Final,Alex Bolt,Aleksandar Vukic,0.5642,0.4358,1.77,2.29,25.96,0.5168,4.89,7.7,3.26,2.47,espn
