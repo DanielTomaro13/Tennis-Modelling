@@ -1,10 +1,14 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+atp,,Zug Open,Hard,Final,Marc Andrea Huesler,Thiago Seyboth Wild,0.4232,0.5768,2.36,1.73,25.76,0.4909,7.7,6.28,2.42,2.87,tennis.com
 wta,,Odlum Brown Vanopen,Hard,Round 1,En Shuo Liang,Mananchaya Sawangkaew,0.257,0.743,3.89,1.35,23.71,0.2985,4.22,5.14,2.82,3.43,tennis.com
+wta,,AXERIA Open 2026 powered by INTARO Sport,Hard,Qualifying Round 1,Maria Sharapova,Amarissa Kiara Toth,0.7017,0.2983,1.43,3.35,23.84,0.293,5.16,3.04,3.44,3.43,tennis.com
+wta,,Hamburg,Clay,Final,Anna Bondar,Tamara Korpatsch,0.6167,0.3833,1.62,2.61,24.54,0.3441,2.74,4.6,2.55,3.06,tennis.com
 wta,,Odlum Brown Vanopen,Hard,Round 1,Emerson Jones,Carol Zhao,0.6004,0.3996,1.67,2.5,24.43,0.3262,2.53,4.64,3.87,3.09,tennis.com
+wta,,Livesport Prague Open,Hard,Final,Daria Snigur,Lilli Tagger,0.579,0.421,1.73,2.38,24.49,0.329,5.01,3.78,3.34,3.51,tennis.com
 wta,,Odlum Brown Vanopen,Hard,Round 1,Greet Minnen,Maddison Inglis,0.4305,0.5695,2.32,1.76,24.53,0.3309,3.42,4.97,4.18,3.31,tennis.com
 wta,,Odlum Brown Vanopen,Hard,Round 1,Kayla Day,Mai Hontama,0.4338,0.5662,2.31,1.77,24.51,0.3277,3.56,4.97,3.61,3.31,tennis.com
-atp,20260725,Mubadala DC Open,Hard,Qualifying 1st Round,Andrej Martin,Christopher Oconnell,0.4114,0.5886,2.43,1.7,25.68,0.4827,4.7,6.84,3.13,2.06,espn
 atp,20260726,Mubadala DC Open,Hard,Qualifying Final,Abedallah Shelbayh,Martin Damm,0.3372,0.6628,2.97,1.51,25.71,0.5089,4.56,10.96,3.04,3.07,espn
+atp,20260726,Mubadala DC Open,Hard,Qualifying Final,Moez Echargui,Andrej Martin,0.4264,0.5736,2.35,1.74,25.81,0.4962,7.41,4.87,2.43,3.25,espn
 atp,20260726,Mubadala DC Open,Hard,Qualifying Final,Alex Bolt,Aleksandar Vukic,0.5642,0.4358,1.77,2.29,25.96,0.5168,4.89,7.7,3.26,2.47,espn
 atp,20260726,Mubadala DC Open,Hard,Qualifying Final,Zachary Svajda,Mackenzie Mcdonald,0.5595,0.4405,1.79,2.27,25.93,0.5117,6.9,6.24,2.54,2.94,espn
 atp,20260726,Millennium Estoril Open,Hard,Final,Alexander Blockx,Luca Van Assche,0.488,0.512,2.05,1.95,26.06,0.5235,8.02,7.55,2.43,2.39,espn
