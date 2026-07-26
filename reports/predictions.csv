@@ -1,7 +1,6 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
 atp,,Cranbrook Tennis Classic,Hard,Final,Alex Michelsen,Jacob Fearnley,0.7801,0.2199,1.28,4.55,24.11,0.3798,6.83,6.01,3.0,2.6,tennis.com
 atp,,Zug Open,Hard,Final,Marc Andrea Huesler,Thiago Seyboth Wild,0.4232,0.5768,2.36,1.73,25.76,0.4909,7.7,6.28,2.42,2.87,tennis.com
-wta,,AXERIA Open 2026 powered by INTARO Sport,Hard,Qualifying Round 1,Maria Sharapova,Amarissa Kiara Toth,0.7017,0.2983,1.43,3.35,23.84,0.293,5.16,3.04,3.44,3.43,tennis.com
 wta,,WTA Memphis,Hard,Qualifying Round 1,Iryna Shymanovich,Ankita Raina,0.6426,0.3574,1.56,2.8,24.27,0.3192,5.08,4.52,3.39,3.02,tennis.com
 wta,,Hamburg,Clay,Final,Anna Bondar,Tamara Korpatsch,0.6167,0.3833,1.62,2.61,24.54,0.3441,2.74,4.6,2.55,3.06,tennis.com
 wta,,WTA Memphis,Hard,Qualifying Round 1,Katherine Sebov,Caroline Garcia,0.4008,0.5992,2.5,1.67,24.57,0.3423,2.71,4.35,3.86,3.87,tennis.com
