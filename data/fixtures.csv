@@ -1,14 +1,26 @@
 tour,date,tournament,surface,best_of,format,round,player1,player2,p1a,p1b,p2a,p2b,source
 atp,20260726,Millennium Estoril Open,Hard,3,singles,Final,Alexander Blockx,Luca Van Assche,,,,,espn
 atp,20260726,Millennium Estoril Open,Hard,3,doubles,Final,Orlando Luz / Rafael Matos,Titouan Droguet / Kyrian Jacquet,Orlando Luz,Rafael Matos,Titouan Droguet,Kyrian Jacquet,espn
-atp,20260726,Mifel Tennis Open by Telcel Oppo,Hard,3,singles,Qualifying 1st Round,Bernard Tomic,Miguel Tobon,,,,,espn
-atp,20260726,Mifel Tennis Open by Telcel Oppo,Hard,3,singles,Qualifying 1st Round,Garrett Johns,Alan Magadan,,,,,espn
-atp,20260726,Mifel Tennis Open by Telcel Oppo,Hard,3,singles,Qualifying 1st Round,Edward Winter,Luis Carlos Alvarez,,,,,espn
-atp,20260726,Mifel Tennis Open by Telcel Oppo,Hard,3,singles,Qualifying 1st Round,Alex Hernandez,Nicolas Mejia,,,,,espn
-atp,20260726,Mifel Tennis Open by Telcel Oppo,Hard,3,singles,Qualifying 1st Round,Alan Fernando Rubio Fierros,SoonWoo Kwon,,,,,espn
 atp,20260726,Mifel Tennis Open by Telcel Oppo,Hard,3,singles,Qualifying 1st Round,Lorenzo Claverie,Tristan Boyer,,,,,espn
-atp,20260726,Mifel Tennis Open by Telcel Oppo,Hard,3,singles,Qualifying 1st Round,Aidan Mayo,Borna Gojo,,,,,espn
+atp,20260726,Mifel Tennis Open by Telcel Oppo,Hard,3,singles,Qualifying 1st Round,Alan Fernando Rubio Fierros,SoonWoo Kwon,,,,,espn
 atp,20260726,Mifel Tennis Open by Telcel Oppo,Hard,3,singles,Qualifying 1st Round,Colton Smith,Roger Pascual Ferra,,,,,espn
+atp,20260726,Mifel Tennis Open by Telcel Oppo,Hard,3,singles,Qualifying 1st Round,Aidan Mayo,Evan King,,,,,espn
+atp,20260727,Mifel Tennis Open by Telcel Oppo,Hard,3,singles,Round 1,Adam Walton,Dalibor Svrcina,,,,,espn
+atp,20260727,Mifel Tennis Open by Telcel Oppo,Hard,3,singles,Round 1,Rodrigo Pacheco Mendez,Sho Shimabukuro,,,,,espn
+atp,20260727,Mifel Tennis Open by Telcel Oppo,Hard,3,singles,Round 1,Rinky Hijikata,Denis Shapovalov,,,,,espn
+atp,20260727,Mifel Tennis Open by Telcel Oppo,Hard,3,singles,Round 1,Aleksandar Kovacevic,Cameron Norrie,,,,,espn
+atp,20260727,Mifel Tennis Open by Telcel Oppo,Hard,3,singles,Round 1,Martin Landaluce,Michael Zheng,,,,,espn
+atp,20260727,Mifel Tennis Open by Telcel Oppo,Hard,3,singles,Round 1,Corentin Moutet,Jenson Brooksby,,,,,espn
+atp,20260727,Mifel Tennis Open by Telcel Oppo,Hard,3,singles,Round 1,Grigor Dimitrov,Moise Kouame,,,,,espn
+atp,20260727,Mifel Tennis Open by Telcel Oppo,Hard,3,singles,Round 1,Darwin Blanch,Chak Lam Coleman Wong,,,,,espn
+atp,20260727,Mifel Tennis Open by Telcel Oppo,Hard,3,doubles,Round 1,Jean-Julien Rojer / Theodore Winegar,Ray Ho / Benjamin Kittay,Jean-Julien Rojer,Theodore Winegar,Ray Ho,Benjamin Kittay,espn
+atp,20260727,Mifel Tennis Open by Telcel Oppo,Hard,3,doubles,Round 1,Orlando Luz / Rafael Matos,Santiago Gonzalez / Rodrigo Pacheco Mendez,Orlando Luz,Rafael Matos,Santiago Gonzalez,Rodrigo Pacheco Mendez,espn
+atp,20260727,Mifel Tennis Open by Telcel Oppo,Hard,3,doubles,Round 1,Pruchya Isaro / Joshua Paris,JiSung Nam / Takeru Yuzuki,Pruchya Isaro,Joshua Paris,JiSung Nam,Takeru Yuzuki,espn
+atp,20260727,Mifel Tennis Open by Telcel Oppo,Hard,3,doubles,Round 1,Gonzalo Escobar / Niki Kaliyanda Poonacha,Rajeev Ram / Joe Salisbury,Gonzalo Escobar,Niki Kaliyanda Poonacha,Rajeev Ram,Joe Salisbury,espn
+atp,20260727,Mifel Tennis Open by Telcel Oppo,Hard,3,doubles,Round 1,Tristan Boyer / Edward Winter,Luis Carlos Alvarez / Alan Magadan,Tristan Boyer,Edward Winter,Luis Carlos Alvarez,Alan Magadan,espn
+atp,20260727,Mifel Tennis Open by Telcel Oppo,Hard,3,doubles,Round 1,Finn Reynolds / James Watt,Robert Galloway / Evan King,Finn Reynolds,James Watt,Robert Galloway,Evan King,espn
+atp,20260727,Mifel Tennis Open by Telcel Oppo,Hard,3,doubles,Round 1,Ivan Liutarevich / Miguel Angel Reyes Varela,Rinky Hijikata / Reese Stalder,Ivan Liutarevich,Miguel Angel Reyes Varela,Rinky Hijikata,Reese Stalder,espn
+atp,20260727,Mifel Tennis Open by Telcel Oppo,Hard,3,doubles,Round 1,Alex Hernandez / Nicolas Mejia,Ryan Seggerman / Patrik Trhac,Alex Hernandez,Nicolas Mejia,Ryan Seggerman,Patrik Trhac,espn
 atp,20260726,Mubadala DC Open,Hard,3,singles,Qualifying Final,Abdullah Shelbayh,Martin Damm,,,,,espn
 atp,20260726,Mubadala DC Open,Hard,3,singles,Qualifying Final,Alex Bolt,Aleksandar Vukic,,,,,espn
 atp,20260726,Mubadala DC Open,Hard,3,singles,Qualifying Final,Cruz Hewitt,Zachary Svajda,,,,,espn
@@ -54,92 +66,76 @@ wta,20260727,Mubadala DC Open,Hard,3,doubles,Round 1,Ann Li / Clara Tauson,Clerv
 wta,20260727,Mubadala DC Open,Hard,3,doubles,Round 1,Anna Danilina / Leylah Fernandez,Tang Qianhui / Xu Yifan,Anna Danilina,Leylah Fernandez,Tang Qianhui,Xu Yifan,espn
 wta,20260727,Mubadala DC Open,Hard,3,doubles,Round 1,Tereza Mihalikova / Heather Watson,Miyu Kato / Giuliana Olmos,Tereza Mihalikova,Heather Watson,Miyu Kato,Giuliana Olmos,espn
 wta,20260727,Mubadala DC Open,Hard,3,doubles,Round 1,Kamilla Rakhimova / Fang-Hsien Wu,Janice Tjen / Zhang Shuai,Kamilla Rakhimova,Fang-Hsien Wu,Janice Tjen,Zhang Shuai,espn
-atp,,Bonn Open,Hard,3,singles,Qualifying Round 1,Moritz Kudernatsch,Samuele Pieri,,,,,tennis.com
 atp,,Bonn Open,Hard,3,singles,Qualifying Round 1,Sergey Fomin,Giuseppe La Vela,,,,,tennis.com
 atp,,Bonn Open,Hard,3,singles,Qualifying Round 1,Alex Martí Pujolras,Dušan Obradović,,,,,tennis.com
-atp,,Bonn Open,Hard,3,singles,Qualifying Round 1,Christopher Thies,Matthew William Donald,,,,,tennis.com
+atp,,Bonn Open,Hard,3,singles,Qualifying Round 1,Moritz Kudernatsch,Samuele Pieri,,,,,tennis.com
 atp,,Bonn Open,Hard,3,singles,Qualifying Round 1,Unknown,Vincent Dullinger,,,,,tennis.com
+atp,,Bonn Open,Hard,3,singles,Qualifying Round 1,Christopher Thies,Matthew William Donald,,,,,tennis.com
 atp,,Bonn Open,Hard,3,singles,Qualifying Round 1,Miguel Damas,Dimitris Sakellaridis,,,,,tennis.com
+atp,,Bonn Open,Hard,3,singles,Qualifying Round 1,Daniel Elahi Galán,Michiel De Krom,,,,,tennis.com
 atp,,Bonn Open,Hard,3,singles,Qualifying Round 1,Yannic Nittmann,Valerio Aboian,,,,,tennis.com
 atp,,Bonn Open,Hard,3,singles,Qualifying Round 1,Amit Vales,Johan Nikles,,,,,tennis.com
-atp,,Bonn Open,Hard,3,singles,Qualifying Round 1,Daniel Elahi Galán,Michiel De Krom,,,,,tennis.com
-atp,,Bonn Open,Hard,3,singles,Qualifying Round 1,Adrian Ötzbach,Mika Petković,,,,,tennis.com
 atp,,Bonn Open,Hard,3,singles,Qualifying Round 1,Matheus Pucinelli de Almeida,Louis Wessels,,,,,tennis.com
+atp,,Bonn Open,Hard,3,singles,Qualifying Round 1,Adrian Ötzbach,Mika Petković,,,,,tennis.com
 atp,,Bonn Open,Hard,3,singles,Qualifying Round 1,Marko ToPo,Leonardo Rossi,,,,,tennis.com
-atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Qualifying Round 1,Jakub Nicod,Gerard Campana Lee,,,,,tennis.com
 atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Qualifying Round 1,Peter Fajta,Pablo Martinez Gomez,,,,,tennis.com
 atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Qualifying Round 1,Georgii Kravchenko,Léo Raquillet,,,,,tennis.com
+atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Qualifying Round 1,Jakub Nicod,Gerard Campana Lee,,,,,tennis.com
+atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Qualifying Round 1,William Rejchtman Vinciguerra,S D Prajwal Dev,,,,,tennis.com
 atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Qualifying Round 1,Rudolf Molleker,Jakub Vrba,,,,,tennis.com
 atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Qualifying Round 1,Norbert Gombos,Samir Hamza Reguig,,,,,tennis.com
-atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Qualifying Round 1,William Rejchtman Vinciguerra,S D Prajwal Dev,,,,,tennis.com
-atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Qualifying Round 1,Dominik Kellovský,Tomasz Berkieta,,,,,tennis.com
 atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Qualifying Round 1,Nicolás Kicker,Aleksandr Braynin,,,,,tennis.com
+atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Qualifying Round 1,Dominik Kellovský,Tomasz Berkieta,,,,,tennis.com
+atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Qualifying Round 1,Daniel Siniakov,Jonas Kucera,,,,,tennis.com
 atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Qualifying Round 1,Dominik Reček,Khumoyun Sultanov,,,,,tennis.com
 atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Qualifying Round 1,Jakub Kusy,Alec Beckley,,,,,tennis.com
-atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Qualifying Round 1,Daniel Siniakov,Jonas Kucera,,,,,tennis.com
 atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Qualifying Round 1,Andrej Martin,Tommy Luxa,,,,,tennis.com
-atp,,"ATP Challenger Samsun, Turkiye",Grass,3,singles,Qualifying Round 1,Kenta (2004) Miyoshi,Anton Chekhov,,,,,tennis.com
 atp,,"ATP Challenger Samsun, Turkiye",Grass,3,singles,Qualifying Round 1,Kuzey Kerem Bayrak,Mert Naci Turker,,,,,tennis.com
 atp,,"ATP Challenger Samsun, Turkiye",Grass,3,singles,Qualifying Round 1,Melih Anavatan,Hunter Heck,,,,,tennis.com
+atp,,"ATP Challenger Samsun, Turkiye",Grass,3,singles,Qualifying Round 1,Kenta (2004) Miyoshi,Anton Chekhov,,,,,tennis.com
+atp,,"ATP Challenger Samsun, Turkiye",Grass,3,singles,Qualifying Round 1,Toufik Sahtali,Gokberk Saritas,,,,,tennis.com
 atp,,"ATP Challenger Samsun, Turkiye",Grass,3,singles,Qualifying Round 1,Viktor Markov,Grigoriy Lomakin,,,,,tennis.com
 atp,,"ATP Challenger Samsun, Turkiye",Grass,3,singles,Qualifying Round 1,Mirza Bašić,S Mert Ozdemir,,,,,tennis.com
-atp,,"ATP Challenger Samsun, Turkiye",Grass,3,singles,Qualifying Round 1,Toufik Sahtali,Gokberk Saritas,,,,,tennis.com
-atp,,"ATP Challenger Samsun, Turkiye",Grass,3,singles,Qualifying Round 1,Togan Tokac,Yurii Dzhavakian,,,,,tennis.com
 atp,,"ATP Challenger Samsun, Turkiye",Grass,3,singles,Qualifying Round 1,Naoki Tajima,Tuncay Duran,,,,,tennis.com
+atp,,"ATP Challenger Samsun, Turkiye",Grass,3,singles,Qualifying Round 1,Togan Tokac,Yurii Dzhavakian,,,,,tennis.com
 atp,,"ATP Challenger Samsun, Turkiye",Grass,3,singles,Qualifying Round 1,Shunsuke Nakagawa,Saba Purtseladze,,,,,tennis.com
-atp,,"ATP Challenger Samsun, Turkiye",Grass,3,singles,Qualifying Round 1,Maxwell McKennon,Samim Filiz,,,,,tennis.com
 atp,,"ATP Challenger Samsun, Turkiye",Grass,3,singles,Qualifying Round 1,Digvijay Pratap Singh,Sergey Betov,,,,,tennis.com
+atp,,"ATP Challenger Samsun, Turkiye",Grass,3,singles,Qualifying Round 1,Maxwell McKennon,Samim Filiz,,,,,tennis.com
 atp,,"ATP Challenger Samsun, Turkiye",Grass,3,singles,Qualifying Round 1,Constantin Bittoun Kouzmine,Kerem Yilmaz,,,,,tennis.com
+atp,,San Marino Tennis Open,Hard,3,singles,Qualifying Round 1,Federico Bondioli,Michael Vrbenský,,,,,tennis.com
 atp,,San Marino Tennis Open,Hard,3,singles,Qualifying Round 1,Maxime Janvier,Lorenzo Angelini,,,,,tennis.com
 atp,,San Marino Tennis Open,Hard,3,singles,Qualifying Round 1,Dali Blanch,Samuel Zannoni,,,,,tennis.com
-atp,,San Marino Tennis Open,Hard,3,singles,Qualifying Round 1,Federico Bondioli,Michael Vrbenský,,,,,tennis.com
+atp,,San Marino Tennis Open,Hard,3,singles,Qualifying Round 1,Siddhant Banthia,Tommaso Compagnucci,,,,,tennis.com
 atp,,San Marino Tennis Open,Hard,3,singles,Qualifying Round 1,Mili Poljičak,Enrico Baldisserri,,,,,tennis.com
 atp,,San Marino Tennis Open,Hard,3,singles,Qualifying Round 1,Jozef Kovalik,Gabriele Piraino,,,,,tennis.com
-atp,,San Marino Tennis Open,Hard,3,singles,Qualifying Round 1,Siddhant Banthia,Tommaso Compagnucci,,,,,tennis.com
-atp,,San Marino Tennis Open,Hard,3,singles,Qualifying Round 1,Juan Pablo Varillas,Stefan Latinovic,,,,,tennis.com
 atp,,San Marino Tennis Open,Hard,3,singles,Qualifying Round 1,Alex de Degabriele,Mika Brunold,,,,,tennis.com
 atp,,San Marino Tennis Open,Hard,3,singles,Qualifying Round 1,Thiago Monteiro,Alberto Bronzetti,,,,,tennis.com
+atp,,San Marino Tennis Open,Hard,3,singles,Qualifying Round 1,Juan Pablo Varillas,Stefan Latinovic,,,,,tennis.com
 atp,,San Marino Tennis Open,Hard,3,singles,Qualifying Round 1,Enrico Dalla Valle,Mattia Logrippo,,,,,tennis.com
-atp,,San Marino Tennis Open,Hard,3,singles,Qualifying Round 1,Federico Zeballos,Francesco Forti,,,,,tennis.com
 atp,,San Marino Tennis Open,Hard,3,singles,Qualifying Round 1,Manuel Mazza,Niels Visker,,,,,tennis.com
+atp,,San Marino Tennis Open,Hard,3,singles,Qualifying Round 1,Federico Zeballos,Francesco Forti,,,,,tennis.com
 atp,,Tampere Open,Hard,3,singles,Final,Diego Dedura-Palomero,Otto Virtanen,,,,,tennis.com
 atp,,Zug Open,Hard,3,singles,Final,Marc-Andrea Hüsler,Thiago Seyboth Wild,,,,,tennis.com
-atp,,Mifel Open,Hard,3,singles,Round 2,Nicolás Mejía,Alex Hernandez,,,,,tennis.com
-atp,,UTR PTT Bengaluru Men 02,Hard,3,singles,Final,Yash Chaurasia,Aradhya Kshitij,,,,,tennis.com
-atp,,UTR PTT Bengaluru Men 02,Hard,3,singles,Final,Kaushik Arunkumar,Neeraj Yashpaul,,,,,tennis.com
-atp,,UTR PTT Bengaluru Men 02,Hard,3,singles,Final,Suraj R Prabodh,Sandesh Dattatray Kurale,,,,,tennis.com
-atp,,UTR PTT Bengaluru Men 02,Hard,3,singles,Final,Tarun Karra,Keerthivassan Suresh,,,,,tennis.com
 atp,,UTR PTT Bengaluru Men 02,Hard,3,singles,Final,Dev Javia,Baltazar Wiger Nordas,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 18,Grass,3,singles,Final,Douglas Yaffa,Rishvanth Krishna,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 18,Grass,3,singles,,Cayden Wang,Pavel Bushuev,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 18,Grass,3,singles,Final,Bryan Assi,Andy Nguyen,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 18,Grass,3,singles,,Avery Tallakson,David Duong,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 18,Grass,3,singles,Final,Kayla Chung,Sophie Suh,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 18,Grass,3,singles,,Anya Arora,Maria Aytoyan,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 18,Grass,3,singles,Final,Daniela Borruel,Shakhnoza Khatamova,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 18,Grass,3,singles,,Allison Wang,Camille Kiss,,,,,tennis.com
+atp,,UTR PTT Bengaluru Men 02,Hard,3,singles,Final,Tarun Karra,Keerthivassan Suresh,,,,,tennis.com
 wta,,AXERIA Open 2026 powered by INTARO Sport,Hard,3,singles,Qualifying Round 1,Deborah Chiesa,Andreea Prisǎcariu,,,,,tennis.com
-wta,,AXERIA Open 2026 powered by INTARO Sport,Hard,3,singles,Qualifying Round 1,Elena Malygina,Ekaterina Kazionova,,,,,tennis.com
 wta,,AXERIA Open 2026 powered by INTARO Sport,Hard,3,singles,Qualifying Round 1,Yelyzaveta Kotliar,Alessandra Mazzola,,,,,tennis.com
-wta,,AXERIA Open 2026 powered by INTARO Sport,Hard,3,singles,Qualifying Round 1,Maria Sara Popa,Amarissa Kiara Tóth,,,,,tennis.com
+wta,,AXERIA Open 2026 powered by INTARO Sport,Hard,3,singles,Qualifying Round 1,Elena Malygina,Ekaterina Kazionova,,,,,tennis.com
 wta,,AXERIA Open 2026 powered by INTARO Sport,Hard,3,singles,Qualifying Round 1,Isabella Shinikova,Miriana Tona,,,,,tennis.com
+wta,,AXERIA Open 2026 powered by INTARO Sport,Hard,3,singles,Qualifying Round 1,Maria Sara Popa,Amarissa Kiara Tóth,,,,,tennis.com
 wta,,AXERIA Open 2026 powered by INTARO Sport,Hard,3,singles,Qualifying Round 1,Amandine Monnot,Lucija Ćirić-Bagarić,,,,,tennis.com
-wta,,AXERIA Open 2026 powered by INTARO Sport,Hard,3,singles,Qualifying Round 1,Gina Feistel,Briana Szabó,,,,,tennis.com
 wta,,AXERIA Open 2026 powered by INTARO Sport,Hard,3,singles,Qualifying Round 1,Diana Maria Ilie,Margaux Rouvroy,,,,,tennis.com
-wta,,Odlum Brown Vanopen,Hard,3,singles,Qualifying Round 1,Dasha Plekhanova,Hong Yi Cody Wong,,,,,tennis.com
-wta,,Odlum Brown Vanopen,Hard,3,singles,Qualifying Round 1,Mia Kupres,Valeria Savinykh,,,,,tennis.com
-wta,,Odlum Brown Vanopen,Hard,3,singles,Qualifying Round 1,Miho Kuramochi,Hiroko Kuwata,,,,,tennis.com
-wta,,Odlum Brown Vanopen,Hard,3,singles,Round 1,Haruka Kaji,Taylah Preston,,,,,tennis.com
-wta,,Odlum Brown Vanopen,Hard,3,singles,Round 1,Jia-Jing Lu,Caroline Dolehide,,,,,tennis.com
-wta,,Odlum Brown Vanopen,Hard,3,singles,Round 1,Ariana Arseneault,Annabelle Xu,,,,,tennis.com
-wta,,Odlum Brown Vanopen,Hard,3,singles,Round 1,Emerson Jones,Carol Zhao,,,,,tennis.com
+wta,,AXERIA Open 2026 powered by INTARO Sport,Hard,3,singles,Qualifying Round 1,Gina Feistel,Briana Szabó,,,,,tennis.com
 wta,,Odlum Brown Vanopen,Hard,3,singles,Round 1,Greet Minnen,Maddison Inglis,,,,,tennis.com
-wta,,Odlum Brown Vanopen,Hard,3,singles,Round 1,Lizette Cabrera,Sofia Costoulas,,,,,tennis.com
 wta,,Odlum Brown Vanopen,Hard,3,singles,Round 1,Teah Chavez,Nao Hibino,,,,,tennis.com
-wta,,Odlum Brown Vanopen,Hard,3,singles,Round 1,En-Shuo Liang,Mananchaya Sawangkaew,,,,,tennis.com
 wta,,Odlum Brown Vanopen,Hard,3,singles,Round 1,Madison Brengle,Alexandra Vagramov,,,,,tennis.com
+wta,,Odlum Brown Vanopen,Hard,3,singles,Round 1,Haruka Kaji,Taylah Preston,,,,,tennis.com
 wta,,Odlum Brown Vanopen,Hard,3,singles,Round 1,Harriet Dart,Kayla Cross,,,,,tennis.com
-wta,,Odlum Brown Vanopen,Hard,3,singles,Round 1,Hayu Kinoshita,Kyōka Okamura,,,,,tennis.com
+wta,,Odlum Brown Vanopen,Hard,3,singles,Round 1,Jia-Jing Lu,Caroline Dolehide,,,,,tennis.com
+wta,,Odlum Brown Vanopen,Hard,3,singles,Round 1,En-Shuo Liang,Mananchaya Sawangkaew,,,,,tennis.com
+wta,,Odlum Brown Vanopen,Hard,3,singles,Round 1,Ariana Arseneault,Annabelle Xu,,,,,tennis.com
 wta,,Odlum Brown Vanopen,Hard,3,singles,Round 1,Kayla Day,Mai Hontama,,,,,tennis.com
+wta,,Odlum Brown Vanopen,Hard,3,singles,Round 1,Lizette Cabrera,Sofia Costoulas,,,,,tennis.com
+wta,,Odlum Brown Vanopen,Hard,3,singles,Round 1,Emerson Jones,Carol Zhao,,,,,tennis.com
 wta,,Hamburg,Clay,3,singles,Final,Anna Bondár,Tamara Korpatsch,,,,,tennis.com
 wta,,Livesport Prague Open,Hard,3,singles,Final,Daria Snigur,Lilli Tagger,,,,,tennis.com
