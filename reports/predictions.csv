@@ -1,10 +1,11 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Cranbrook Tennis Classic,Hard,Final,Alex Michelsen,Jacob Fearnley,0.7801,0.2199,1.28,4.55,24.11,0.3798,6.83,6.01,3.0,2.6,tennis.com
-atp,,Zug Open,Hard,Final,Marc Andrea Huesler,Thiago Seyboth Wild,0.4232,0.5768,2.36,1.73,25.76,0.4909,7.7,6.28,2.42,2.87,tennis.com
+atp,,Svijany Open by Moneta Money Bank,Hard,Round 1,Juan Bautista Torres,Sumit Nagal,0.6897,0.3103,1.45,3.22,24.53,0.3735,5.44,4.63,2.13,2.48,tennis.com
+atp,,Bonn Open,Hard,Round 1,Jan Choinski,Francesco Passaro,0.4699,0.5301,2.13,1.89,25.78,0.4874,7.24,4.83,2.54,3.22,tennis.com
+atp,,San Marino Tennis Open,Hard,Round 1,Laslo Djere,Nikoloz Basilashvili,0.5091,0.4909,1.96,2.04,25.89,0.502,7.46,4.78,2.65,3.19,tennis.com
 wta,,WTA Memphis,Hard,Qualifying Round 1,Iryna Shymanovich,Ankita Raina,0.6426,0.3574,1.56,2.8,24.27,0.3192,5.08,4.52,3.39,3.02,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,,Tereza Valentova,Lucie Hradecka,0.6373,0.3627,1.57,2.76,24.25,0.3146,3.56,4.54,4.91,3.03,tennis.com
 wta,,WTA Memphis,Hard,Qualifying Round 1,Katherine Sebov,Caroline Garcia,0.4008,0.5992,2.5,1.67,24.57,0.3423,2.71,4.35,3.86,3.87,tennis.com
 wta,,Odlum Brown Vanopen,Hard,Round 1,Kayla Day,Mai Hontama,0.4338,0.5662,2.31,1.77,24.51,0.3277,3.56,4.97,3.61,3.31,tennis.com
-wta,,Palermo Ladies Open,Hard,Final,Francesca Jones,Fiona Ferro,0.4389,0.5611,2.28,1.78,24.64,0.3428,3.83,3.55,4.06,4.02,tennis.com
 atp,20260726,Mubadala DC Open,Hard,Qualifying Final,Abedallah Shelbayh,Martin Damm,0.3372,0.6628,2.97,1.51,25.71,0.5089,4.56,10.96,3.04,3.07,espn
 atp,20260726,Mubadala DC Open,Hard,Qualifying Final,Moez Echargui,Andrej Martin,0.4264,0.5736,2.35,1.74,25.81,0.4962,7.41,4.87,2.43,3.25,espn
 atp,20260726,Mubadala DC Open,Hard,Qualifying Final,Alex Bolt,Aleksandar Vukic,0.5642,0.4358,1.77,2.29,25.96,0.5168,4.89,7.7,3.26,2.47,espn
