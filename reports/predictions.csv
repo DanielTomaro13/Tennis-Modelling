@@ -1,10 +1,4 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Svijany Open by Moneta Money Bank,Hard,Round 1,Andrej Martin,Thiago Seyboth Wild,0.4288,0.5712,2.33,1.75,25.65,0.4747,4.73,6.28,3.15,2.87,tennis.com
-atp,,San Marino Tennis Open,Hard,Round 1,Vilius Gaubas,Luka Pavlovic,0.5556,0.4444,1.8,2.25,25.48,0.4523,5.76,7.62,2.53,2.38,tennis.com
-atp,,Bonn Open,Hard,Round 1,Pavel Kotov,Daniel Elahi Galan,0.5357,0.4643,1.87,2.15,25.58,0.4629,7.02,7.21,2.69,2.46,tennis.com
-atp,,Bonn Open,Hard,Round 1,Stefanos Sakellaridis,Mackenzie Mcdonald,0.5314,0.4686,1.88,2.13,26.13,0.5346,9.06,6.29,2.6,2.97,tennis.com
-atp,,San Marino Tennis Open,Hard,Round 1,Pedro Martinez,Hugo Dellien,0.5111,0.4889,1.96,2.05,25.66,0.4718,5.17,4.79,3.35,3.19,tennis.com
-wta,,AXERIA Open 2026 powered by INTARO Sport,Hard,Round 1,Francesca Jones,Chloe Paquet,0.5136,0.4864,1.95,2.06,24.64,0.3391,3.94,4.83,4.18,3.22,tennis.com
 atp,20260728,Mubadala DC Open,Hard,Round 1,Andrej Martin,Ugo Humbert,0.2039,0.7961,4.9,1.26,24.8,0.4742,4.19,7.81,2.8,1.85,espn
 atp,20260728,Mubadala DC Open,Hard,Round 1,Learner Tien,Adrian Mannarino,0.7927,0.2073,1.26,4.82,23.8,0.3523,6.15,5.78,3.8,2.05,espn
 atp,20260728,Mubadala DC Open,Hard,Round 1,Jakub Mensik,Zachary Svajda,0.7829,0.2171,1.28,4.61,25.01,0.4986,10.48,5.95,3.65,2.19,espn
