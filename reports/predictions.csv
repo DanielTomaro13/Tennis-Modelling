@@ -1,5 +1,5 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,ATP Challenger Vancouver,Grass,Round 1,J J Wolf,Zhizhen Zhang,0.5362,0.4638,1.86,2.16,26.04,0.5241,4.86,8.36,3.24,2.67,tennis.com
+atp,,Mubadala DC Open,Hard,Round 1,Alex Michelsen,Mackenzie Mcdonald,0.7573,0.2427,1.32,4.12,24.36,0.3939,6.83,5.59,3.0,2.64,tennis.com
 wta,,Odlum Brown Vanopen,Hard,Round 1,En Shuo Liang,Mananchaya Sawangkaew,0.257,0.743,3.89,1.35,23.71,0.2985,4.22,5.14,2.82,3.43,tennis.com
 wta,,WTA Memphis,Hard,Round 1,Darja Vidmanova,Julia Riera,0.2687,0.7313,3.72,1.37,23.73,0.2936,3.85,5.15,2.48,3.43,tennis.com
 wta,,WTA Memphis,Hard,Round 1,Renata Zarazua,Mccartney Kessler,0.2918,0.7082,3.43,1.41,23.95,0.3064,2.59,3.36,3.11,4.58,tennis.com
@@ -9,10 +9,8 @@ wta,,Odlum Brown Vanopen,Hard,Round 1,Greet Minnen,Maddison Inglis,0.4305,0.5695
 wta,,WTA Memphis,Hard,Round 1,Yuliia Starodubtseva,Sloane Stephens,0.5124,0.4876,1.95,2.05,24.54,0.3273,3.06,3.31,4.02,3.74,tennis.com
 atp,20260728,Mubadala DC Open,Hard,Round 1,Learner Tien,Adrian Mannarino,0.7927,0.2073,1.26,4.82,23.8,0.3523,6.15,5.78,3.8,2.05,espn
 atp,20260728,Mubadala DC Open,Hard,Round 1,Jakub Mensik,Zachary Svajda,0.7829,0.2171,1.28,4.61,25.01,0.4986,10.48,5.95,3.65,2.19,espn
-atp,20260728,Mubadala DC Open,Hard,Round 1,Mackenzie Mcdonald,Alex Michelsen,0.2427,0.7573,4.12,1.32,24.41,0.3939,5.64,6.81,2.66,2.99,espn
 atp,20260728,Mubadala DC Open,Hard,Round 1,Ben Shelton,Martin Damm,0.742,0.258,1.35,3.88,25.78,0.5669,8.91,9.74,2.93,2.73,espn
 atp,20260728,Mubadala DC Open,Hard,Round 1,Stefanos Tsitsipas,Alex De Minaur,0.2944,0.7056,3.4,1.42,25.35,0.4817,7.16,4.68,2.6,2.66,espn
-atp,20260728,Mubadala DC Open,Hard,Round 1,Rafael Jodar,Arthur Fils,0.3356,0.6644,2.98,1.51,25.44,0.474,5.63,7.58,2.06,2.86,espn
 atp,20260728,Mubadala DC Open,Hard,Round 1,Tomas Martin Etcheverry,Brandon Nakashima,0.4545,0.5455,2.2,1.83,26.57,0.5922,8.53,9.0,2.01,1.55,espn
 atp,20260728,Mubadala DC Open,Hard,Round 1,Lleyton Hewitt,Marcos Giron,0.4749,0.5251,2.11,1.9,25.71,0.4778,4.8,5.72,3.2,2.0,espn
 wta,20260728,Mubadala DC Open,Hard,Round 1,Venus Williams,Anastasia Potapova,0.2263,0.7737,4.42,1.29,23.36,0.2793,3.64,3.38,4.05,5.22,espn
@@ -21,6 +19,7 @@ wta,20260728,Mubadala DC Open,Hard,Round 1,Qinwen Zheng,Alexandra Eala,0.544,0.4
 wta,20260728,Mubadala DC Open,Hard,Round 1,Ann Li,Magdalena Frech,0.5381,0.4619,1.86,2.17,24.64,0.3412,4.19,3.46,3.29,2.72,espn
 atp,20260729,Mubadala DC Open,Hard,Round 2,Lorenzo Musetti,Aleksandar Vukic,0.797,0.203,1.25,4.93,24.37,0.4275,6.05,6.74,2.59,2.16,espn
 atp,20260729,Mifel Tennis Open by Telcel Oppo,Hard,Round 2,Coleman Wong,Jiri Lehecka,0.2903,0.7097,3.45,1.41,25.66,0.5238,6.76,7.87,2.17,2.62,espn
+atp,20260729,Mubadala DC Open,Hard,Round 2,Kamil Majchrzak,Taylor Fritz,0.3028,0.6972,3.3,1.43,25.9,0.5488,6.28,10.81,2.02,2.12,espn
 atp,20260729,Mifel Tennis Open by Telcel Oppo,Hard,Round 2,Karen Khachanov,Bernard Tomic,0.6746,0.3254,1.48,3.07,25.5,0.4916,7.29,5.81,2.21,2.84,espn
 atp,20260729,Mifel Tennis Open by Telcel Oppo,Hard,Round 1,Martin Landaluce,Michael Zheng,0.6341,0.3659,1.58,2.73,25.63,0.4924,6.75,6.85,3.64,1.72,espn
 atp,20260729,Mifel Tennis Open by Telcel Oppo,Hard,Round 1,Rinky Hijikata,Denis Shapovalov,0.3977,0.6023,2.51,1.66,25.4,0.4489,6.63,8.51,2.61,5.04,espn
@@ -28,5 +27,7 @@ atp,20260729,Mifel Tennis Open by Telcel Oppo,Hard,Round 1,Corentin Moutet,Jenso
 atp,20260729,Mubadala DC Open,Hard,Round 2,Alejandro Tabilo,Terence Atmane,0.5453,0.4547,1.83,2.2,26.09,0.5312,7.3,4.73,2.03,3.15,espn
 atp,20260729,Mifel Tennis Open by Telcel Oppo,Hard,Round 1,Adam Walton,Dalibor Svrcina,0.4561,0.5439,2.19,1.84,26.06,0.5258,7.08,4.84,2.56,3.22,espn
 atp,20260729,Mifel Tennis Open by Telcel Oppo,Hard,Round 1,Rodrigo Pacheco Mendez,Sho Shimabukuro,0.4613,0.5387,2.17,1.86,25.78,0.4881,4.78,4.84,3.19,3.23,espn
+wta,20260729,Mubadala DC Open,Hard,Round 2,Elina Svitolina,Polina Kudermetova,0.8775,0.1225,1.14,8.16,22.12,0.2458,4.64,2.45,4.25,3.93,espn
 wta,20260729,Mubadala DC Open,Hard,Round 2,Naomi Osaka,Ashlyn Krueger,0.741,0.259,1.35,3.86,23.82,0.3149,7.16,4.23,3.46,4.32,espn
+wta,20260729,Mubadala DC Open,Hard,Round 2,Liudmila Samsonova,Wang Xiy.,0.548,0.452,1.82,2.21,24.55,0.3313,3.76,4.76,4.04,3.17,espn
 wta,20260729,Mubadala DC Open,Hard,Round 2,Elisabetta Cocciaretto,Emma Navarro,0.4552,0.5448,2.2,1.84,24.53,0.3272,3.03,2.81,3.5,3.37,espn
