@@ -7,6 +7,7 @@ atp,20260729,Mifel Tennis Open by Telcel Oppo,Hard,3,singles,Round 1,Edward Wint
 atp,20260729,Mifel Tennis Open by Telcel Oppo,Hard,3,singles,Round 1,Rinky Hijikata,Denis Shapovalov,,,,,espn
 atp,20260729,Mifel Tennis Open by Telcel Oppo,Hard,3,singles,Round 1,Arthur Gea,SoonWoo Kwon,,,,,espn
 atp,20260729,Mifel Tennis Open by Telcel Oppo,Hard,3,singles,Round 1,Corentin Moutet,Jenson Brooksby,,,,,espn
+atp,20260729,Mifel Tennis Open by Telcel Oppo,Hard,3,singles,Round 2,Karen Khachanov,Bernard Tomic,,,,,espn
 atp,20260729,Mifel Tennis Open by Telcel Oppo,Hard,3,singles,Round 1,Martin Landaluce,Michael Zheng,,,,,espn
 atp,20260729,Mifel Tennis Open by Telcel Oppo,Hard,3,singles,Round 1,Adam Walton,Dalibor Svrcina,,,,,espn
 atp,20260729,Mifel Tennis Open by Telcel Oppo,Hard,3,doubles,Round 1,Finn Reynolds / James Watt,Robert Galloway / Evan King,Finn Reynolds,James Watt,Robert Galloway,Evan King,espn
@@ -34,6 +35,7 @@ wta,20260728,Mubadala DC Open,Hard,3,singles,Round 1,Zheng Qinwen,Alexandra Eala
 wta,20260728,Mubadala DC Open,Hard,3,singles,Round 1,Anna Kalinskaya,Daria Kasatkina,,,,,espn
 wta,20260728,Mubadala DC Open,Hard,3,singles,Round 1,Ann Li,Magdalena Frech,,,,,espn
 wta,20260728,Mubadala DC Open,Hard,3,singles,Round 1,Venus Williams,Anastasia Potapova,,,,,espn
+wta,20260729,Mubadala DC Open,Hard,3,singles,Round 2,Naomi Osaka,Ashlyn Krueger,,,,,espn
 wta,20260729,Mubadala DC Open,Hard,3,singles,Round 2,Elisabetta Cocciaretto,Emma Navarro,,,,,espn
 atp,20260728,Mubadala DC Open,Hard,3,doubles,Round 1,Yuki Bhambri / Michael Venus,Julian Cash / Lloyd Glasspool,Yuki Bhambri,Michael Venus,Julian Cash,Lloyd Glasspool,espn
 atp,20260728,Mubadala DC Open,Hard,3,doubles,Round 1,Guido Andreozzi / Manuel Guinard,Lucas Miedler / Marc Polmans,Guido Andreozzi,Manuel Guinard,Lucas Miedler,Marc Polmans,espn
@@ -45,13 +47,152 @@ wta,20260728,Mubadala DC Open,Hard,3,doubles,Round 1,Katie Boulter / Polina Iatc
 wta,20260728,Mubadala DC Open,Hard,3,doubles,Round 1,Kamilla Rakhimova / Fang-Hsien Wu,Janice Tjen / Zhang Shuai,Kamilla Rakhimova,Fang-Hsien Wu,Janice Tjen,Zhang Shuai,espn
 wta,20260728,Mubadala DC Open,Hard,3,doubles,Round 1,Tereza Mihalikova / Heather Watson,Miyu Kato / Giuliana Olmos,Tereza Mihalikova,Heather Watson,Miyu Kato,Giuliana Olmos,espn
 wta,20260729,Mubadala DC Open,Hard,3,doubles,Quarterfinal,Erin Routliffe / Aldila Sutjiadi,Clervie Ngounoue / Alana Smith,Erin Routliffe,Aldila Sutjiadi,Clervie Ngounoue,Alana Smith,espn
-atp,,ATP Challenger Vancouver,Grass,3,singles,Qualifying Round 1,Mikael Arseneault,James Kent Trotter,,,,,tennis.com
+atp,,Bonn Open,Hard,3,singles,Round 1,Max Houkes,Roberto Carballés Baena,,,,,tennis.com
+atp,,Bonn Open,Hard,3,singles,Round 1,Johan Nikles,Alex Barrena,,,,,tennis.com
+atp,,Bonn Open,Hard,3,singles,Round 1,Elmer Møller,Marko ToPo,,,,,tennis.com
+atp,,Bonn Open,Hard,3,singles,Round 1,Guy Den Ouden,Matheus Pucinelli de Almeida,,,,,tennis.com
+atp,,Bonn Open,Hard,3,singles,Round 1,Unknown,Lorenzo Giustino,,,,,tennis.com
+atp,,Bonn Open,Hard,3,singles,Round 1,Dimitris Sakellaridis,Niels McDonald,,,,,tennis.com
+atp,,Bonn Open,Hard,3,singles,Round 1,Max Schönhaus,Federico Agustin Gomez,,,,,tennis.com
+atp,,Bonn Open,Hard,3,singles,Round 1,Clément Tabur,Henri Squire,,,,,tennis.com
+atp,,Bonn Open,Hard,3,singles,Round 1,Gilles Arnaud Bailly,Samuele Pieri,,,,,tennis.com
+atp,,Bonn Open,Hard,3,singles,Round 1,Tom Gentzsch,João Lucas Reis Da Silva,,,,,tennis.com
+atp,,Bonn Open,Hard,3,singles,Round 1,Pavel Kotov,Daniel Elahi Galán,,,,,tennis.com
+atp,,Bonn Open,Hard,3,singles,Round 1,Max Dahlin,Mattéo Martineau,,,,,tennis.com
+atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Round 1,Maks Kaśnikowski,Frederico Ferreira Silva,,,,,tennis.com
+atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Round 1,Martin Krumich,Philip Henning,,,,,tennis.com
+atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Round 1,Michele Ribecai,Juan Bautista Torres,,,,,tennis.com
+atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Round 1,Guido Iván Justo,Sascha Gueymard Wayenburg,,,,,tennis.com
+atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Round 1,Andrej Martin,Thiago Seyboth Wild,,,,,tennis.com
+atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Round 1,William Rejchtman Vinciguerra,Petr Brunclík,,,,,tennis.com
+atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Round 1,Pablo Martinez Gomez,Gonzalo Bueno,,,,,tennis.com
+atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Round 1,Kilian Feldbausch,Harold Mayot,,,,,tennis.com
+atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Round 1,Duje Ajduković,Khumoyun Sultanov,,,,,tennis.com
+atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Round 1,Hynek Bartoň,Andrej Nedić,,,,,tennis.com
+atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Round 1,Joel Schwärzler,Maxim Mrva,,,,,tennis.com
+atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Round 1,Norbert Gombos,Matyáš Černý,,,,,tennis.com
+atp,,"ATP Challenger Samsun, Turkiye",Grass,3,singles,Round 1,Ergi Kirkin,Paul Inchauspe,,,,,tennis.com
+atp,,"ATP Challenger Samsun, Turkiye",Grass,3,singles,Round 1,Takuya Kumasaka,Florent Bax,,,,,tennis.com
+atp,,"ATP Challenger Samsun, Turkiye",Grass,3,singles,Round 1,Max Basing,Sidharth Rawat,,,,,tennis.com
+atp,,"ATP Challenger Samsun, Turkiye",Grass,3,singles,Round 1,Kenta (2004) Miyoshi,Shunsuke Nakagawa,,,,,tennis.com
+atp,,"ATP Challenger Samsun, Turkiye",Grass,3,singles,Round 1,Denis Yevseyev,Tuncay Duran,,,,,tennis.com
+atp,,"ATP Challenger Samsun, Turkiye",Grass,3,singles,Round 1,Togan Tokac,Semen Pankin,,,,,tennis.com
+atp,,"ATP Challenger Samsun, Turkiye",Grass,3,singles,Round 1,Koray Kirci,Manas Dhamne,,,,,tennis.com
+atp,,"ATP Challenger Samsun, Turkiye",Grass,3,singles,Round 1,Mert Alkaya,Colin Sinclair,,,,,tennis.com
+atp,,"ATP Challenger Samsun, Turkiye",Grass,3,singles,Round 1,Mert Naci Turker,Vadym Ursu,,,,,tennis.com
+atp,,"ATP Challenger Samsun, Turkiye",Grass,3,singles,Round 1,Dan Added,Lucas Poullain,,,,,tennis.com
+atp,,"ATP Challenger Samsun, Turkiye",Grass,3,singles,Round 1,Arda Azkara,Yanki Erel,,,,,tennis.com
+atp,,San Marino Tennis Open,Hard,3,singles,Round 1,Mili Poljičak,Enrico Dalla Valle,,,,,tennis.com
+atp,,San Marino Tennis Open,Hard,3,singles,Round 1,Timofey Skatov,Thomas Faurel,,,,,tennis.com
+atp,,San Marino Tennis Open,Hard,3,singles,Round 1,Michael Vrbenský,Nikoloz Basilashvili,,,,,tennis.com
+atp,,San Marino Tennis Open,Hard,3,singles,Round 1,Federico Coria,Francesco Forti,,,,,tennis.com
+atp,,San Marino Tennis Open,Hard,3,singles,Round 1,Facundo Díaz Acosta,Tommaso Compagnucci,,,,,tennis.com
+atp,,San Marino Tennis Open,Hard,3,singles,Round 1,Pedro Martínez,Hugo Dellien,,,,,tennis.com
+atp,,San Marino Tennis Open,Hard,3,singles,Round 1,Genaro Alberto Olivieri,Carlos Taberner,,,,,tennis.com
+atp,,San Marino Tennis Open,Hard,3,singles,Round 1,Jacopo Vasami,Juan Pablo Varillas,,,,,tennis.com
+atp,,San Marino Tennis Open,Hard,3,singles,Round 1,Marco Cecchinato,Franco Agamenone,,,,,tennis.com
+atp,,San Marino Tennis Open,Hard,3,singles,Round 1,Vilius Gaubas,Luka Pavlovic,,,,,tennis.com
+atp,,San Marino Tennis Open,Hard,3,singles,Round 1,Francesco Maestrelli,Lukas Neumayer,,,,,tennis.com
+atp,,San Marino Tennis Open,Hard,3,singles,Round 1,Thiago Monteiro,David Jordá Sanchis,,,,,tennis.com
 atp,,ATP Challenger Vancouver,Grass,3,singles,Qualifying Round 1,Connor Church,Justin Boulais,,,,,tennis.com
 atp,,ATP Challenger Vancouver,Grass,3,singles,Qualifying Round 1,Jay Friend,Hiroki Moriya,,,,,tennis.com
-atp,,ATP Challenger Vancouver,Grass,3,singles,Qualifying Final,Daniel Milavsky,Quinn Vandecasteele,,,,,tennis.com
 atp,,Mifel Open,Hard,3,singles,Round 1,Cameron Norrie,Aleksandar Kovačević,,,,,tennis.com
 atp,,Mifel Open,Hard,3,singles,Round 1,Coleman Wong,Darwin Blanch,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Sebastian Chodura,Peter Sallay,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Patrik Meszaros,Gergely Madarasz,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Merse Deli,Filip Soderqvist,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Lukas Palovic,Jakub Katuch,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Gergely Madarasz,Aron Janos Major,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Merse Deli,Alejandro Turriziani Álvarez,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Filip Soderqvist,Botond Nagy,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Nikola Keremedchiev,Filip Soderqvist,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Patrik Meszaros,Peter Sallay,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Vojtech Vales,Achilles Belkovics,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Merse Deli,Botond Nagy,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Tomas Zlatohlavek,Trisztan Gubi,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Lukas Palovic,Trisztan Gubi,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Zdenek Derkas,Benjamin Martin,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Gergely Madarasz,Peter Sallay,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Nikola Keremedchiev,Botond Nagy,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Tomas Zlatohlavek,Jakub Katuch,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Filip Soderqvist,Alejandro Turriziani Álvarez,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Nikola Keremedchiev,Alejandro Turriziani Álvarez,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Patrik Meszaros,Aron Janos Major,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Vojtech Vales,Benjamin Martin,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Milan Markovits,Achilles Belkovics,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Botond Kisantal,Lukas Palovic,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Milan Markovits,Zdenek Derkas,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Botond Kisantal,Jakub Katuch,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Zdenek Derkas,Achilles Belkovics,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Vojtech Vales,Zdenek Derkas,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Botond Kisantal,Trisztan Gubi,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Milan Markovits,Benjamin Martin,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Tomas Zlatohlavek,Lukas Palovic,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Lilly Cvanciger,Oliwia Orlinska,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Magdalena Smekalova,Zuzanna Frankowska,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Amelie Drukerova,Lucia Hradecka,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Norina Bak Szabo,Natalija Senić,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Viktoria Varga,Tereza Vajsejtlova,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Olga Bienzobas Fernandez,Natalija Senić,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Eszter Kis Czako,Magdalena Smekalova,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Hannah Read,Monika Jirouskova,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Eszter Kis Czako,Oliwia Orlinska,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Magdalena Smekalova,Oliwia Orlinska,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Juliana Singeorzan,Natalie Cinkova,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Amelie Drukerova,Tereza Vajsejtlova,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Amelie Drukerova,Denise Hrdinkova,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Norina Bak Szabo,Olga Bienzobas Fernandez,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Denise Hrdinkova,Tereza Vajsejtlova,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Andrea Nova,Monika Jirouskova,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Viktoria Varga,Lucia Hradecka,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Karina Dunda,Monika Jirouskova,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Hannah Read,Andrea Nova,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Juliana Singeorzan,Natalija Senić,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Lilly Cvanciger,Zuzanna Frankowska,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Denise Hrdinkova,Lucia Hradecka,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Viktoria Varga,Denise Hrdinkova,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Olga Bienzobas Fernandez,Natalie Cinkova,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Hannah Read,Natalia Michta,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Lilly Cvanciger,Magdalena Smekalova,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Karina Dunda,Andrea Nova,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Eszter Kis Czako,Zuzanna Frankowska,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Norina Bak Szabo,Natalie Cinkova,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Juliana Singeorzan,Olga Bienzobas Fernandez,,,,,tennis.com
+atp,,UTR PTT Cordoba Men 05,Hard,3,singles,,Felipe de Dios,Vicente Jose Benitez,,,,,tennis.com
+atp,,UTR PTT Cordoba Men 05,Hard,3,singles,,Thiago Guglieri,Francisco Jose Gay,,,,,tennis.com
+atp,,UTR PTT Cordoba Men 05,Hard,3,singles,,Nicolas Jara Lozano,Juan Ignacio Gallego,,,,,tennis.com
+atp,,UTR PTT Cordoba Men 05,Hard,3,singles,,Francisco Jose Gay,Federico Aguilar Cardozo,,,,,tennis.com
+atp,,UTR PTT Cordoba Men 05,Hard,3,singles,,Luciano Doria,Agustin Eduardo Cuellar Lorberg,,,,,tennis.com
+atp,,UTR PTT Cordoba Men 05,Hard,3,singles,,Santiago Lora,Juan Ignacio Gallego,,,,,tennis.com
+atp,,UTR PTT Cordoba Men 05,Hard,3,singles,,Felipe de Dios,Luciano Doria,,,,,tennis.com
+atp,,UTR PTT Cordoba Men 05,Hard,3,singles,,Francisco Jose Gay,Bautista Leguizamon,,,,,tennis.com
+atp,,UTR PTT Cordoba Men 05,Hard,3,singles,,Andres Medus,Juan Ignacio Gallego,,,,,tennis.com
+atp,,UTR PTT Cordoba Men 05,Hard,3,singles,,Santiago Lora,Santiago Pedro Franchini,,,,,tennis.com
+atp,,UTR PTT Cordoba Men 05,Hard,3,singles,,Manuel Mouilleron Salvo,Fantino Alberca de Las Casas,,,,,tennis.com
+atp,,UTR PTT Cordoba Men 05,Hard,3,singles,,Fantino Alberca de Las Casas,Felipe Pagnacco,,,,,tennis.com
+atp,,UTR PTT Cordoba Men 05,Hard,3,singles,,Facundo Juárez,Agustin Eduardo Cuellar Lorberg,,,,,tennis.com
+atp,,UTR PTT Cordoba Men 05,Hard,3,singles,,Santiago Lora,Nicolas Jara Lozano,,,,,tennis.com
+atp,,UTR PTT Cordoba Men 05,Hard,3,singles,,Felipe de Dios,Agustin Eduardo Cuellar Lorberg,,,,,tennis.com
+atp,,UTR PTT Cordoba Men 05,Hard,3,singles,,Fantino Alberca de Las Casas,Alejo Lorenzo Lingua Lavallen,,,,,tennis.com
+atp,,UTR PTT Cordoba Men 05,Hard,3,singles,,Thiago Guglieri,Federico Aguilar Cardozo,,,,,tennis.com
+atp,,UTR PTT Cordoba Men 05,Hard,3,singles,,Facundo Juárez,Vicente Jose Benitez,,,,,tennis.com
+atp,,UTR PTT Cordoba Men 05,Hard,3,singles,,Juan Bautista Otegui,Federico Aguilar Cardozo,,,,,tennis.com
+atp,,UTR PTT Cordoba Men 05,Hard,3,singles,,Nikos Lehmann,Felipe Pagnacco,,,,,tennis.com
+atp,,UTR PTT Cordoba Men 05,Hard,3,singles,,Nicolas Jara Lozano,Santiago Pedro Franchini,,,,,tennis.com
+atp,,UTR PTT Cordoba Men 05,Hard,3,singles,,Luciano Doria,Vicente Jose Benitez,,,,,tennis.com
+atp,,UTR PTT Cordoba Men 05,Hard,3,singles,,Manuel Mouilleron Salvo,Felipe Pagnacco,,,,,tennis.com
+atp,,UTR PTT Cordoba Men 05,Hard,3,singles,,Nikos Lehmann,Alejo Lorenzo Lingua Lavallen,,,,,tennis.com
+atp,,UTR PTT Cordoba Men 05,Hard,3,singles,,Juan Bautista Otegui,Bautista Leguizamon,,,,,tennis.com
+atp,,UTR PTT Cordoba Men 05,Hard,3,singles,,Andres Medus,Santiago Pedro Franchini,,,,,tennis.com
+wta,,AXERIA Open 2026 powered by INTARO Sport,Hard,3,singles,Round 1,Mia Ristić,Darja Semenistaja,,,,,tennis.com
+wta,,AXERIA Open 2026 powered by INTARO Sport,Hard,3,singles,Round 1,Yelyzaveta Kotliar,Dalila Spiteri,,,,,tennis.com
+wta,,AXERIA Open 2026 powered by INTARO Sport,Hard,3,singles,Round 1,Laura Samson,Alesia Breaz,,,,,tennis.com
+wta,,AXERIA Open 2026 powered by INTARO Sport,Hard,3,singles,Round 1,Miriana Tona,Lucia Bronzetti,,,,,tennis.com
+wta,,AXERIA Open 2026 powered by INTARO Sport,Hard,3,singles,Round 1,Lucija Ćirić-Bagarić,Rachel Gailis,,,,,tennis.com
+wta,,AXERIA Open 2026 powered by INTARO Sport,Hard,3,singles,Round 1,Margaux Rouvroy,Lola Radivojevic,,,,,tennis.com
+wta,,AXERIA Open 2026 powered by INTARO Sport,Hard,3,singles,Round 1,Alevtina Ibragimova,Maia Ilinca Burcescu,,,,,tennis.com
+wta,,AXERIA Open 2026 powered by INTARO Sport,Hard,3,singles,Round 1,Séléna Janicijevic,Anastasiia Sobolieva,,,,,tennis.com
+wta,,AXERIA Open 2026 powered by INTARO Sport,Hard,3,singles,Round 1,Francesca Jones,Chloé Paquet,,,,,tennis.com
 wta,,Odlum Brown Vanopen,Hard,3,singles,Round 1,Emerson Jones,Carol Zhao,,,,,tennis.com
 wta,,Odlum Brown Vanopen,Hard,3,singles,,Sijia Wei,Hong Yi Cody Wong,,,,,tennis.com
 wta,,Odlum Brown Vanopen,Hard,3,singles,,Miho Kuramochi,Avery Alexander,,,,,tennis.com
-wta,,WTA Memphis,Hard,3,singles,Round 1,Katherine Sebov,Elvina Kalieva,,,,,tennis.com
