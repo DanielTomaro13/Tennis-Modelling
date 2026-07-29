@@ -1,5 +1,4 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,San Marino Tennis Open,Hard,Round 2,Juan Carlos Prado Angelo,Hugo Dellien,0.6174,0.3826,1.62,2.61,25.1,0.4168,7.38,4.6,3.07,3.07,tennis.com
 atp,,San Marino Tennis Open,Hard,Round 2,Alexandre Muller,Marco Cecchinato,0.5965,0.4035,1.68,2.48,25.58,0.4736,6.36,4.65,2.64,3.1,tennis.com
 atp,,ATP Challenger Vancouver,Grass,Round 1,J J Wolf,Zhizhen Zhang,0.5362,0.4638,1.86,2.16,26.04,0.5241,4.86,8.36,3.24,2.67,tennis.com
 atp,,ATP Challenger Vancouver,Grass,Round 2,Benjamin Bonzi,Michael Mmoh,0.4862,0.5138,2.06,1.95,25.81,0.4906,7.97,4.81,2.4,3.21,tennis.com
