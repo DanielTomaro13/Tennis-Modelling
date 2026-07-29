@@ -1,14 +1,12 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-wta,,Odlum Brown Vanopen,Hard,Round 1,Greet Minnen,Maddison Inglis,0.4305,0.5695,2.32,1.76,24.53,0.3309,3.42,4.97,4.18,3.31,tennis.com
 atp,20260729,Mubadala DC Open,Hard,Round 2,Lorenzo Musetti,Aleksandar Vukic,0.797,0.203,1.25,4.93,24.37,0.4275,6.05,6.74,2.59,2.16,espn
 atp,20260729,Mifel Tennis Open by Telcel Oppo,Hard,Round 2,Coleman Wong,Jiri Lehecka,0.2903,0.7097,3.45,1.41,25.66,0.5238,6.76,7.87,2.17,2.62,espn
+atp,20260729,Mifel Tennis Open by Telcel Oppo,Hard,Round 2,James Duckworth,Cameron Norrie,0.2921,0.7079,3.42,1.41,25.64,0.5202,7.24,6.03,2.54,2.63,espn
 atp,20260729,Mubadala DC Open,Hard,Round 1,Stefanos Tsitsipas,Alex De Minaur,0.2944,0.7056,3.4,1.42,25.35,0.4817,7.16,4.68,2.6,2.66,espn
 atp,20260729,Mubadala DC Open,Hard,Round 2,Kamil Majchrzak,Taylor Fritz,0.3028,0.6972,3.3,1.43,25.9,0.5488,6.28,10.81,2.02,2.12,espn
 atp,20260729,Mubadala DC Open,Hard,Round 2,Adrian Mannarino,Alex Michelsen,0.3086,0.6914,3.24,1.45,24.65,0.384,6.32,6.85,2.24,3.01,espn
 atp,20260729,Mifel Tennis Open by Telcel Oppo,Hard,Round 2,Karen Khachanov,Bernard Tomic,0.6746,0.3254,1.48,3.07,25.5,0.4916,7.29,5.81,2.21,2.84,espn
 atp,20260729,Mifel Tennis Open by Telcel Oppo,Hard,Round 1,Martin Landaluce,Michael Zheng,0.6341,0.3659,1.58,2.73,25.63,0.4924,6.75,6.85,3.64,1.72,espn
-atp,20260729,Mifel Tennis Open by Telcel Oppo,Hard,Round 1,Rinky Hijikata,Denis Shapovalov,0.3977,0.6023,2.51,1.66,25.4,0.4489,6.63,8.51,2.61,5.04,espn
-atp,20260729,Mifel Tennis Open by Telcel Oppo,Hard,Round 1,Corentin Moutet,Jenson Brooksby,0.5472,0.4528,1.83,2.21,25.02,0.3916,4.62,4.57,2.62,2.4,espn
 atp,20260729,Mifel Tennis Open by Telcel Oppo,Hard,Round 1,Adam Walton,Dalibor Svrcina,0.4561,0.5439,2.19,1.84,26.06,0.5258,7.08,4.84,2.56,3.22,espn
 wta,20260729,Mubadala DC Open,Hard,Round 2,Naomi Osaka,Ashlyn Krueger,0.741,0.259,1.35,3.86,23.82,0.3149,7.16,4.23,3.46,4.32,espn
 wta,20260729,Mubadala DC Open,Hard,Round 2,Alexandra Eala,Leylah Fernandez,0.5814,0.4186,1.72,2.39,24.43,0.3215,1.65,3.56,3.83,4.42,espn
