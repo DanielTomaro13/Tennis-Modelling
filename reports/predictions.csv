@@ -1,7 +1,6 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
 wta,,WTA Memphis,Hard,Round 2,Sloane Stephens,Darja Vidmanova,0.619,0.381,1.62,2.62,24.29,0.3142,3.47,4.15,3.92,2.68,tennis.com
 atp,20260730,Mubadala DC Open,Hard,Round 2,Ben Shelton,Ugo Humbert,0.5764,0.4236,1.74,2.36,26.71,0.6178,8.91,7.54,2.93,1.78,espn
-atp,20260730,Mubadala DC Open,Hard,Round 2,Alejandro Tabilo,Terence Atmane,0.5453,0.4547,1.83,2.2,26.09,0.5312,7.3,4.73,2.03,3.15,espn
 wta,20260730,Mubadala DC Open,Hard,Round 2,Anastasia Potapova,Diana Shnaider,0.5053,0.4947,1.98,2.02,24.4,0.3089,3.2,2.56,4.95,3.8,espn
 atp,20260731,Mubadala DC Open,Hard,Quarterfinal,Brandon Nakashima,Alex De Minaur,0.3061,0.6939,3.27,1.44,25.54,0.5008,8.38,4.66,1.44,2.65,espn
 atp,20260731,Mifel Tennis Open by Telcel Oppo,Hard,Quarterfinal,Bernard Tomic,Cameron Norrie,0.3386,0.6614,2.95,1.51,25.61,0.4948,5.9,6.06,2.89,2.64,espn
@@ -10,4 +9,5 @@ atp,20260731,Mubadala DC Open,Hard,Quarterfinal,Alex Michelsen,Taylor Fritz,0.39
 atp,20260731,Mubadala DC Open,Hard,Quarterfinal,Lorenzo Musetti,Rafael Jodar,0.5671,0.4329,1.76,2.31,25.2,0.4171,6.06,5.83,2.6,2.13,espn
 atp,20260731,Mifel Tennis Open by Telcel Oppo,Hard,Quarterfinal,Jenson Brooksby,Coleman Wong,0.4722,0.5278,2.12,1.89,25.57,0.4605,4.62,7.34,2.43,2.36,espn
 wta,20260731,Mubadala DC Open,Hard,Round 2,Elina Svitolina,Polina Kudermetova,0.8775,0.1225,1.14,8.16,22.12,0.2458,4.64,2.45,4.25,3.93,espn
+wta,20260731,Mubadala DC Open,Hard,Quarterfinal,Anna Kalinskaya,Jessica Pegula,0.2532,0.7468,3.95,1.34,23.8,0.3116,2.53,3.77,3.26,2.61,espn
 wta,20260731,Mubadala DC Open,Hard,Quarterfinal,Naomi Osaka,Elisabetta Cocciaretto,0.7461,0.2539,1.34,3.94,23.86,0.3231,7.14,2.66,3.45,3.08,espn
