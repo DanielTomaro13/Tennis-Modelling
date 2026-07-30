@@ -1,6 +1,5 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
 atp,,San Marino Tennis Open,Hard,Round 2,Thiago Monteiro,Andrea Pellegrino,0.3535,0.6465,2.83,1.55,26.02,0.5427,8.25,4.88,2.32,3.26,tennis.com
-atp,,San Marino Tennis Open,Hard,Round 2,Timofey Skatov,Otto Virtanen,0.4747,0.5253,2.11,1.9,25.82,0.4925,6.43,8.46,2.75,3.64,tennis.com
 wta,,Odlum Brown Vanopen,Hard,Quarterfinal,Moyuka Uchijima,Maddison Inglis,0.2943,0.7057,3.4,1.42,23.92,0.3018,2.8,5.13,3.65,3.42,tennis.com
 wta,,Odlum Brown Vanopen,Hard,Quarterfinal,Harriet Dart,Taylah Preston,0.3411,0.6589,2.93,1.52,24.08,0.2998,2.64,2.82,3.89,3.51,tennis.com
 wta,,WTA Memphis,Hard,Round 2,Kristina Kucova,Maya Joint,0.3745,0.6255,2.67,1.6,24.21,0.3046,4.59,2.27,3.06,4.0,tennis.com
