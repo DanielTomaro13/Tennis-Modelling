@@ -1,8 +1,6 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Bonn Open,Hard,Semifinal,Jan Choinski,Federico Agustin Gomez,0.3974,0.6026,2.52,1.66,25.65,0.4815,7.06,4.9,2.48,3.27,tennis.com
 atp,,San Marino Tennis Open,Hard,Quarterfinal,Vilius Gaubas,Thiago Monteiro,0.5294,0.4706,1.89,2.12,26.13,0.5344,5.7,8.52,2.5,2.4,tennis.com
 wta,,WTA Memphis,Hard,Quarterfinal,Darja Vidmanova,Katie Volynets,0.3763,0.6237,2.66,1.6,24.26,0.31,4.15,2.63,2.68,2.5,tennis.com
-wta,,AXERIA Open 2026 powered by INTARO Sport,Hard,Semifinal,Kaitlin Quevedo,Francesca Jones,0.6135,0.3865,1.63,2.59,24.45,0.3328,5.04,3.71,3.36,3.93,tennis.com
 wta,,WTA Memphis,Hard,Quarterfinal,Anastasia Zakharova,Renata Zarazua,0.5713,0.4287,1.75,2.33,24.59,0.3395,2.96,2.81,3.36,3.36,tennis.com
 wta,,Odlum Brown Vanopen,Hard,Semifinal,Taylah Preston,Mananchaya Sawangkaew,0.5022,0.4978,1.99,2.01,24.44,0.3134,2.7,4.86,3.36,3.24,tennis.com
 atp,20260731,Mubadala DC Open,Hard,Quarterfinal,Alex Michelsen,Taylor Fritz,0.397,0.603,2.52,1.66,25.86,0.5086,6.38,10.83,2.81,2.13,espn
