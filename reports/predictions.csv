@@ -1,4 +1,14 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+atp,,San Marino Tennis Open,Hard,Quarterfinal,Juan Pablo Varillas,Timofey Skatov,0.5491,0.4509,1.82,2.22,25.55,0.4611,7.57,6.34,2.64,2.71,tennis.com
+atp,,San Marino Tennis Open,Hard,Quarterfinal,Vilius Gaubas,Thiago Monteiro,0.5294,0.4706,1.89,2.12,26.13,0.5344,5.7,8.52,2.5,2.4,tennis.com
+atp,,San Marino Tennis Open,Hard,Quarterfinal,Facundo Diaz Acosta,Juan Carlos Prado Angelo,0.4778,0.5222,2.09,1.91,25.27,0.4209,6.76,7.19,2.74,2.99,tennis.com
+wta,,WTA Memphis,Hard,Quarterfinal,Elvina Kalieva,Peyton Stearns,0.2521,0.7479,3.97,1.34,23.65,0.2952,4.2,3.25,2.8,3.84,tennis.com
+wta,,WTA Memphis,Hard,Quarterfinal,Kristina Kucova,Caty Mcnally,0.281,0.719,3.56,1.39,23.92,0.309,4.31,3.13,2.88,5.2,tennis.com
+wta,,WTA Memphis,Hard,Quarterfinal,Darja Vidmanova,Katie Volynets,0.3763,0.6237,2.66,1.6,24.26,0.31,4.15,2.63,2.68,2.5,tennis.com
+wta,,Odlum Brown Vanopen,Hard,Semifinal,Maddison Inglis,Mai Hontama,0.5969,0.4031,1.68,2.48,24.43,0.3247,5.03,4.65,3.35,3.1,tennis.com
+wta,,WTA Memphis,Hard,Quarterfinal,Anastasia Zakharova,Renata Zarazua,0.5713,0.4287,1.75,2.33,24.59,0.3395,2.96,2.81,3.36,3.36,tennis.com
+wta,,AXERIA Open 2026 powered by INTARO Sport,Hard,Quarterfinal,Sara Sorribes Tormo,Lucia Bronzetti,0.5623,0.4377,1.78,2.28,24.42,0.3163,2.44,3.23,3.57,3.67,tennis.com
+wta,,Odlum Brown Vanopen,Hard,Semifinal,Taylah Preston,Mananchaya Sawangkaew,0.5022,0.4978,1.99,2.01,24.44,0.3134,2.7,4.86,3.36,3.24,tennis.com
 atp,20260731,Mubadala DC Open,Hard,Quarterfinal,Brandon Nakashima,Alex De Minaur,0.3061,0.6939,3.27,1.44,25.54,0.5008,8.38,4.66,1.44,2.65,espn
 atp,20260731,Mubadala DC Open,Hard,Quarterfinal,Alex Michelsen,Taylor Fritz,0.397,0.603,2.52,1.66,25.86,0.5086,6.38,10.83,2.81,2.13,espn
 atp,20260731,Mubadala DC Open,Hard,Quarterfinal,Lorenzo Musetti,Rafael Jodar,0.5671,0.4329,1.76,2.31,25.2,0.4171,6.06,5.83,2.6,2.13,espn
@@ -7,3 +17,4 @@ wta,20260731,Mubadala DC Open,Hard,Quarterfinal,Naomi Osaka,Elisabetta Cocciaret
 wta,20260731,Mubadala DC Open,Hard,Quarterfinal,Elina Svitolina,Alexandra Eala,0.6727,0.3273,1.49,3.06,24.04,0.3025,4.68,1.46,4.28,3.38,espn
 wta,20260731,Mubadala DC Open,Hard,Quarterfinal,Liudmila Samsonova,Diana Shnaider,0.3841,0.6159,2.6,1.62,24.41,0.3254,3.51,2.66,3.77,3.94,espn
 atp,20260801,Mubadala DC Open,Hard,Quarterfinal,Ben Shelton,Alejandro Tabilo,0.7478,0.2522,1.34,3.96,25.79,0.5721,8.89,6.53,2.93,1.81,espn
+atp,20260801,Mifel Tennis Open by Telcel Oppo,Hard,Semifinal,Denis Shapovalov,Cameron Norrie,0.4953,0.5047,2.02,1.98,25.89,0.5014,8.34,5.92,4.94,2.58,espn
