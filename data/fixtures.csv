@@ -1,5 +1,4 @@
 tour,date,tournament,surface,best_of,format,round,player1,player2,p1a,p1b,p2a,p2b,source
-atp,20260731,Mifel Tennis Open by Telcel Oppo,Hard,3,singles,Quarterfinal,Bernard Tomic,Cameron Norrie,,,,,espn
 atp,20260801,Mifel Tennis Open by Telcel Oppo,Hard,3,singles,Semifinal,Arthur Gea,Chak Lam Coleman Wong,,,,,espn
 atp,20260801,Mifel Tennis Open by Telcel Oppo,Hard,3,doubles,Semifinal,Finn Reynolds / James Watt,Gonzalo Escobar / Niki Kaliyanda Poonacha,Finn Reynolds,James Watt,Gonzalo Escobar,Niki Kaliyanda Poonacha,espn
 atp,20260801,Mifel Tennis Open by Telcel Oppo,Hard,3,doubles,Semifinal,Orlando Luz / Rafael Matos,Ryan Seggerman / Patrik Trhac,Orlando Luz,Rafael Matos,Ryan Seggerman,Patrik Trhac,espn
@@ -15,9 +14,34 @@ atp,20260731,Mubadala DC Open,Hard,3,doubles,Quarterfinal,Sadio Doumbia / Fabien
 atp,20260801,Mubadala DC Open,Hard,3,doubles,Semifinal,Austin Krajicek / Nikola Mektic,Hugo Nys / Edouard Roger-Vasselin,Austin Krajicek,Nikola Mektic,Hugo Nys,Edouard Roger-Vasselin,espn
 wta,20260731,Mubadala DC Open,Hard,3,doubles,Semifinal,Erin Routliffe / Aldila Sutjiadi,Tang Qianhui / Xu Yifan,Erin Routliffe,Aldila Sutjiadi,Tang Qianhui,Xu Yifan,espn
 wta,20260731,Mubadala DC Open,Hard,3,doubles,Semifinal,Janice Tjen / Zhang Shuai,Andreja Klepac / Makoto Ninomiya,Janice Tjen,Zhang Shuai,Andreja Klepac,Makoto Ninomiya,espn
+atp,,Bonn Open,Hard,3,singles,Quarterfinal,Jan Choinski,Unknown,,,,,tennis.com
+atp,,Bonn Open,Hard,3,singles,Quarterfinal,Matheus Pucinelli de Almeida,Federico Agustin Gomez,,,,,tennis.com
+atp,,Bonn Open,Hard,3,singles,Quarterfinal,Max Dahlin,Daniel Elahi Galán,,,,,tennis.com
+atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Quarterfinal,Jan Kumstát,Frederico Ferreira Silva,,,,,tennis.com
+atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Quarterfinal,Martin Krumich,Sumit Nagal,,,,,tennis.com
+atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Quarterfinal,Juan Bautista Torres,Gonzalo Bueno,,,,,tennis.com
+atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Quarterfinal,Norbert Gombos,Kilian Feldbausch,,,,,tennis.com
+atp,,"ATP Challenger Samsun, Turkiye",Grass,3,singles,Quarterfinal,Kenta (2004) Miyoshi,Vadym Ursu,,,,,tennis.com
+atp,,"ATP Challenger Samsun, Turkiye",Grass,3,singles,Quarterfinal,Constantin Bittoun Kouzmine,Manas Dhamne,,,,,tennis.com
+atp,,"ATP Challenger Samsun, Turkiye",Grass,3,singles,Quarterfinal,Koki Matsuda,Gabriel Debru,,,,,tennis.com
 atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Gergely Madarasz,Aron Janos Major,,,,,tennis.com
 atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Patrik Meszaros,Peter Sallay,,,,,tennis.com
-wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Magdalena Smekalova,Oliwia Orlinska,,,,,tennis.com
-wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Andrea Nova,Monika Jirouskova,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Vojtech Vales,Benjamin Martin,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Zdenek Derkas,Achilles Belkovics,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Filip Soderqvist,Alejandro Turriziani Álvarez,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Aaron Gil Garcia,Jakub Katuch,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Tomas Zlatohlavek,Trisztan Gubi,,,,,tennis.com
+atp,,UTR PTT Budapest Men 02,Hard,3,singles,,Merse Deli,Botond Nagy,,,,,tennis.com
 wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Viktoria Varga,Tereza Vajsejtlova,,,,,tennis.com
 wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Karina Dunda,Natalia Michta,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Andrea Nova,Monika Jirouskova,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Magdalena Smekalova,Oliwia Orlinska,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Olga Bienzobas Fernandez,Natalija Senić,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Juliana Singeorzan,Natalie Cinkova,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Lilly Cvanciger,Zuzanna Frankowska,,,,,tennis.com
+wta,,UTR PTT Budapest Women 02,Hard,3,singles,,Nikoletta Muller,Lucia Hradecka,,,,,tennis.com
+atp,,UTR PTT Cordoba Men 05,Hard,3,singles,,Juan Bautista Otegui,Bautista Leguizamon,,,,,tennis.com
+atp,,UTR PTT Cordoba Men 05,Hard,3,singles,,Francisco Jose Gay,Federico Aguilar Cardozo,,,,,tennis.com
+wta,,AXERIA Open 2026 powered by INTARO Sport,Hard,3,singles,Quarterfinal,Laura Samson,Mia Ristić,,,,,tennis.com
+wta,,AXERIA Open 2026 powered by INTARO Sport,Hard,3,singles,Quarterfinal,Kaitlin Quevedo,Carole Monnet,,,,,tennis.com
+wta,,AXERIA Open 2026 powered by INTARO Sport,Hard,3,singles,Quarterfinal,Francesca Jones,Alice Ramé,,,,,tennis.com
