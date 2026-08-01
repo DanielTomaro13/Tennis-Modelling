@@ -1,38 +1,27 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
 atp,,ATP Challenger Vancouver,Grass,Final,J J Wolf,Mark Lajal,0.3854,0.6146,2.59,1.63,25.67,0.4877,4.65,8.3,3.1,2.67,tennis.com
-atp,,Bonn Open,Hard,Semifinal,Jan Choinski,Federico Agustin Gomez,0.3974,0.6026,2.52,1.66,25.65,0.4815,7.06,4.9,2.48,3.27,tennis.com
 atp,,San Marino Tennis Open,Hard,Semifinal,Facundo Diaz Acosta,Vilius Gaubas,0.4848,0.5152,2.06,1.94,25.62,0.4662,6.76,5.67,2.75,2.48,tennis.com
-wta,,AXERIA Open 2026 powered by INTARO Sport,Hard,Semifinal,Kaitlin Quevedo,Francesca Jones,0.6135,0.3865,1.63,2.59,24.45,0.3328,5.04,3.71,3.36,3.93,tennis.com
 wta,,Odlum Brown Vanopen,Hard,Final,Maddison Inglis,Taylah Preston,0.3986,0.6014,2.51,1.66,24.3,0.3086,4.66,2.78,3.1,3.46,tennis.com
 wta,,WTA Memphis,Hard,Semifinal,Darja Vidmanova,Renata Zarazua,0.4108,0.5892,2.43,1.7,24.42,0.3205,4.23,2.99,2.73,3.58,tennis.com
 wta,,WTA Memphis,Hard,Semifinal,Kristina Kucova,Elvina Kalieva,0.5341,0.4659,1.87,2.15,24.54,0.3287,4.94,4.79,3.29,3.19,tennis.com
 atp,20260801,National Bank Open presented by Rogers,Hard,Qualifying Final,Hugo Dellien,Benjamin Bonzi,0.2761,0.7239,3.62,1.38,25.04,0.4516,4.39,6.71,2.93,2.73,espn
 atp,20260801,Mubadala DC Open,Hard,Semifinal,Taylor Fritz,Brandon Nakashima,0.6654,0.3346,1.5,2.99,26.94,0.6727,10.74,8.53,2.11,1.47,espn
-atp,20260801,National Bank Open presented by Rogers,Hard,Qualifying Final,Henrique Rocha,Martin Damm,0.3804,0.6196,2.63,1.61,25.89,0.5169,4.65,10.92,3.1,3.06,espn
-atp,20260801,National Bank Open presented by Rogers,Hard,Qualifying Final,Kei Nishikori,Michael Zheng,0.6188,0.3812,1.62,2.62,25.33,0.4478,5.92,6.89,2.5,1.73,espn
 atp,20260801,National Bank Open presented by Rogers,Hard,Qualifying Final,Titouan Droguet,Dalibor Svrcina,0.595,0.405,1.68,2.47,25.66,0.4835,4.92,4.65,3.28,3.1,espn
 atp,20260801,National Bank Open presented by Rogers,Hard,Qualifying Final,Marcelo Tomas Barrios Vera,Aleksandar Vukic,0.5874,0.4126,1.7,2.42,25.51,0.4618,5.03,7.64,2.64,2.45,espn
 atp,20260801,National Bank Open presented by Rogers,Hard,Qualifying Final,Thanasi Kokkinakis,Alexei Popyrin,0.586,0.414,1.71,2.42,25.72,0.4897,9.7,8.78,2.71,3.17,espn
-atp,20260801,National Bank Open presented by Rogers,Hard,Qualifying Final,Nicolas Mejia,Marco Trungelliti,0.422,0.578,2.37,1.73,25.63,0.4735,6.93,4.89,2.7,3.26,espn
 atp,20260801,National Bank Open presented by Rogers,Hard,Qualifying Final,Christopher Oconnell,Jaime Faria,0.4336,0.5664,2.31,1.77,25.48,0.452,6.62,8.54,2.0,3.46,espn
-atp,20260801,National Bank Open presented by Rogers,Hard,Qualifying Final,Pablo Llamas Ruiz,Marcos Giron,0.4386,0.5614,2.28,1.78,25.67,0.4759,4.74,5.76,3.16,2.01,espn
 atp,20260801,National Bank Open presented by Rogers,Hard,Qualifying Final,Nicolai Budkov Kjaer,Sho Shimabukuro,0.4501,0.5499,2.22,1.82,25.61,0.4673,7.44,4.86,2.6,3.24,espn
-atp,20260801,National Bank Open presented by Rogers,Hard,Qualifying Final,Kyrian Jacquet,Alexander Shevchenko,0.4534,0.5466,2.21,1.83,25.3,0.4261,6.9,5.42,2.66,2.29,espn
 atp,20260801,National Bank Open presented by Rogers,Hard,Qualifying Final,Sebastian Ofner,Jacob Fearnley,0.5182,0.4818,1.93,2.08,25.62,0.4669,7.32,6.95,2.75,3.0,espn
 wta,20260801,Mubadala DC Open,Hard,Semifinal,Diana Shnaider,Jessica Pegula,0.1938,0.8062,5.16,1.24,23.19,0.2852,2.1,3.78,3.11,2.62,espn
-wta,20260801,National Bank Open presented by Rogers,Hard,Qualifying Final,Lin Zhu,Leolia Jeanjean,0.7351,0.2649,1.36,3.78,23.74,0.3003,3.07,4.23,3.63,2.82,espn
 wta,20260801,National Bank Open presented by Rogers,Hard,Qualifying Final,Qinwen Zheng,Lanlana Tararudee,0.6847,0.3153,1.46,3.17,23.9,0.2917,7.2,3.58,5.0,3.16,espn
 wta,20260801,National Bank Open presented by Rogers,Hard,Qualifying Final,Rebecca Sramkova,Mananchaya Sawangkaew,0.3225,0.6775,3.1,1.48,24.12,0.3123,3.16,5.1,3.91,3.4,espn
 wta,20260801,National Bank Open presented by Rogers,Hard,Qualifying Final,Himeno Sakatsume,Moyuka Uchijima,0.6637,0.3363,1.51,2.97,24.24,0.3247,3.48,2.87,3.9,3.75,espn
-wta,20260801,National Bank Open presented by Rogers,Hard,Qualifying Final,Elvina Kalieva,Anna Blinkova,0.358,0.642,2.79,1.56,24.45,0.3386,4.56,2.61,3.04,4.17,espn
 wta,20260801,Mubadala DC Open,Hard,Semifinal,Alexandra Eala,Naomi Osaka,0.368,0.632,2.72,1.58,24.24,0.3099,1.5,7.08,3.49,3.42,espn
-wta,20260801,National Bank Open presented by Rogers,Hard,Qualifying Final,Julia Riera,Victoria Jimenez Kasintseva,0.5984,0.4016,1.67,2.49,24.3,0.3098,5.05,3.27,3.36,4.65,espn
-wta,20260801,National Bank Open presented by Rogers,Hard,Qualifying Final,Emerson Jones,Taylah Preston,0.4023,0.5977,2.49,1.67,24.32,0.3104,2.34,2.77,3.58,3.45,espn
-wta,20260801,National Bank Open presented by Rogers,Hard,Qualifying Final,Lois Boisson,Emiliana Arango,0.5888,0.4112,1.7,2.43,24.39,0.3182,3.64,3.12,4.47,4.42,espn
 wta,20260801,National Bank Open presented by Rogers,Hard,Qualifying Final,Lucrezia Stefanini,Sofia Kenin,0.4219,0.5781,2.37,1.73,24.68,0.3514,4.72,2.23,3.14,4.22,espn
-wta,20260801,National Bank Open presented by Rogers,Hard,Qualifying Final,Aoi Ito,Oksana Selekhmeteva,0.5133,0.4867,1.95,2.05,24.44,0.3145,3.31,4.84,3.84,3.23,espn
-wta,20260801,National Bank Open presented by Rogers,Hard,Qualifying Final,Kayla Day,Darja Vidmanova,0.5069,0.4931,1.97,2.03,24.5,0.3212,3.67,4.38,3.73,2.83,espn
-wta,20260801,National Bank Open presented by Rogers,Hard,Qualifying Final,Sloane Stephens,Katie Volynets,0.4951,0.5049,2.02,1.98,24.53,0.3257,3.34,2.53,3.77,2.4,espn
+wta,20260801,National Bank Open presented by Rogers,Hard,Qualifying Final,Emerson Jones,Varvara Lepchenko,0.5492,0.4508,1.82,2.22,24.54,0.3299,2.49,4.76,3.81,3.17,espn
+wta,20260801,National Bank Open presented by Rogers,Hard,Qualifying Final,Kayla Day,Hanyu Guo,0.4647,0.5353,2.15,1.87,24.55,0.3292,3.61,4.92,3.66,3.28,espn
+wta,20260801,National Bank Open presented by Rogers,Hard,Qualifying Final,Sloane Stephens,Harriet Dart,0.5271,0.4729,1.9,2.11,24.54,0.3272,3.38,2.83,3.81,4.16,espn
+wta,20260801,National Bank Open presented by Rogers,Hard,Qualifying Final,Heather Watson,Anna Blinkova,0.4911,0.5089,2.04,1.97,24.72,0.3488,4.86,2.51,3.24,4.02,espn
 atp,20260802,National Bank Open presented by Rogers,Hard,Round 1,Jack Draper,Terence Atmane,0.7798,0.2202,1.28,4.54,24.42,0.419,8.14,4.16,3.1,2.78,espn
 atp,20260802,National Bank Open presented by Rogers,Hard,Round 1,Jan Lennard Struff,Alex Michelsen,0.2955,0.7045,3.38,1.42,24.97,0.4318,7.44,6.78,3.0,2.98,espn
 atp,20260802,National Bank Open presented by Rogers,Hard,Round 1,Cameron Norrie,Camilo Ugo Carabelli,0.6939,0.3061,1.44,3.27,25.62,0.5177,6.07,6.0,2.64,2.71,espn
