@@ -1,43 +1,75 @@
 tour,date,tournament,surface,best_of,format,round,player1,player2,p1a,p1b,p2a,p2b,source
-atp,20260801,Mifel Tennis Open by Telcel Oppo,Hard,3,singles,Semifinal,Denis Shapovalov,Cameron Norrie,,,,,espn
-atp,20260801,Mifel Tennis Open by Telcel Oppo,Hard,3,doubles,Semifinal,Orlando Luz / Rafael Matos,Ryan Seggerman / Patrik Trhac,Orlando Luz,Rafael Matos,Ryan Seggerman,Patrik Trhac,espn
 atp,20260801,Mubadala DC Open,Hard,3,singles,Semifinal,Taylor Fritz,Brandon Nakashima,,,,,espn
+atp,20260802,Mubadala DC Open,Hard,3,singles,Semifinal,Alejandro Tabilo,Rafael Jodar,,,,,espn
 wta,20260801,Mubadala DC Open,Hard,3,singles,Semifinal,Diana Shnaider,Jessica Pegula,,,,,espn
 wta,20260801,Mubadala DC Open,Hard,3,singles,Semifinal,Alexandra Eala,Naomi Osaka,,,,,espn
 atp,20260801,Mubadala DC Open,Hard,3,doubles,Semifinal,Austin Krajicek / Nikola Mektic,Hugo Nys / Edouard Roger-Vasselin,Austin Krajicek,Nikola Mektic,Hugo Nys,Edouard Roger-Vasselin,espn
 atp,20260801,Mubadala DC Open,Hard,3,doubles,Semifinal,Julian Cash / Lloyd Glasspool,Ariel Behar / Anirudh Chandrasekar,Julian Cash,Lloyd Glasspool,Ariel Behar,Anirudh Chandrasekar,espn
 wta,20260801,Mubadala DC Open,Hard,3,doubles,Final,Erin Routliffe / Aldila Sutjiadi,Andreja Klepac / Makoto Ninomiya,Erin Routliffe,Aldila Sutjiadi,Andreja Klepac,Makoto Ninomiya,espn
-atp,,Bonn Open,Hard,3,singles,Semifinal,Jan Choinski,Federico Agustin Gomez,,,,,tennis.com
-atp,,Bonn Open,Hard,3,singles,Semifinal,Jamie Mackenzie,Max Dahlin,,,,,tennis.com
-atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Semifinal,Jan Kumstát,Sumit Nagal,,,,,tennis.com
-atp,,Svijany Open by Moneta Money Bank,Hard,3,singles,Semifinal,Norbert Gombos,Gonzalo Bueno,,,,,tennis.com
-atp,,"ATP Challenger Samsun, Turkiye",Grass,3,singles,Semifinal,Kenta (2004) Miyoshi,Constantin Bittoun Kouzmine,,,,,tennis.com
-atp,,"ATP Challenger Samsun, Turkiye",Grass,3,singles,Semifinal,Paul Inchauspe,Gabriel Debru,,,,,tennis.com
-atp,,UTR PTT Budapest Men 02,Hard,3,singles,Semifinal,Aron Janos Major,Trisztan Gubi,,,,,tennis.com
-atp,,UTR PTT Budapest Men 02,Hard,3,singles,Semifinal,Kornel Halmos,Merse Deli,,,,,tennis.com
-atp,,UTR PTT Budapest Men 02,Hard,3,singles,Semifinal,Zdenek Derkas,Peter Sallay,,,,,tennis.com
-atp,,UTR PTT Budapest Men 02,Hard,3,singles,Semifinal,Tomas Zlatohlavek,Alejandro Turriziani Álvarez,,,,,tennis.com
-atp,,UTR PTT Budapest Men 02,Hard,3,singles,Semifinal,Milan Markovits,Filip Soderqvist,,,,,tennis.com
-atp,,UTR PTT Budapest Men 02,Hard,3,singles,Semifinal,Botond Nagy,Vojtech Vales,,,,,tennis.com
-atp,,UTR PTT Budapest Men 02,Hard,3,singles,Semifinal,Nikola Keremedchiev,Botond Kisantal,,,,,tennis.com
-atp,,UTR PTT Budapest Men 02,Hard,3,singles,Semifinal,Aaron Gil Garcia,Benjamin Martin,,,,,tennis.com
-atp,,UTR PTT Budapest Men 02,Hard,3,singles,Semifinal,Achilles Belkovics,Gergely Madarasz,,,,,tennis.com
-wta,,UTR PTT Budapest Women 02,Hard,3,singles,Semifinal,Viktoria Varga,Magdalena Smekalova,,,,,tennis.com
-wta,,UTR PTT Budapest Women 02,Hard,3,singles,Semifinal,Oliwia Orlinska,Andrea Nova,,,,,tennis.com
-wta,,UTR PTT Budapest Women 02,Hard,3,singles,Semifinal,Natalija Senić,Tereza Vajsejtlova,,,,,tennis.com
-wta,,UTR PTT Budapest Women 02,Hard,3,singles,Semifinal,Hannah Read,Olga Bienzobas Fernandez,,,,,tennis.com
-wta,,UTR PTT Budapest Women 02,Hard,3,singles,Semifinal,Monika Jirouskova,Juliana Singeorzan,,,,,tennis.com
-wta,,UTR PTT Budapest Women 02,Hard,3,singles,Semifinal,Lucia Hradecka,Eszter Kis Czako,,,,,tennis.com
-wta,,UTR PTT Budapest Women 02,Hard,3,singles,Semifinal,Zuzanna Frankowska,Amelie Drukerova,,,,,tennis.com
-wta,,UTR PTT Budapest Women 02,Hard,3,singles,Semifinal,Natalie Cinkova,Karina Dunda,,,,,tennis.com
-wta,,UTR PTT Budapest Women 02,Hard,3,singles,Semifinal,Nikoletta Muller,Karolina Krajmer,,,,,tennis.com
-wta,,UTR PTT Budapest Women 02,Hard,3,singles,Semifinal,Lilly Cvanciger,Natalia Michta,,,,,tennis.com
-atp,,UTR PTT Columbus Men 01,Hard,3,singles,,Henry Lessard,Evan Sharygin,,,,,tennis.com
-atp,,UTR PTT Columbus Men 01,Hard,3,singles,Final,Roman Sancilio,Chad Miller,,,,,tennis.com
-atp,,UTR PTT Columbus Men 01,Hard,3,singles,,Gregory Bernadsky,Lathan Skrobarcek,,,,,tennis.com
-wta,,UTR PTT Columbus Women 01,Hard,3,singles,,Mira Kernagis,Prisha Lingam,,,,,tennis.com
-wta,,UTR PTT Columbus Women 01,Hard,3,singles,Final,Irina Cantos Siemers,Elizabeth Fauchet,,,,,tennis.com
-wta,,UTR PTT Columbus Women 01,Hard,3,singles,Final,Nao Nishino,Ekaterina Ivanova,,,,,tennis.com
-atp,,UTR PTT Cordoba Men 05,Hard,3,singles,Semifinal,Thiago Guglieri,Santiago Lora,,,,,tennis.com
-atp,,UTR PTT Cordoba Men 05,Hard,3,singles,Semifinal,Andres Medus,Vicente Jose Benitez,,,,,tennis.com
-wta,,AXERIA Open 2026 powered by INTARO Sport,Hard,3,singles,Semifinal,Kaitlin Quevedo,Francesca Jones,,,,,tennis.com
+atp,20260801,National Bank Open presented by Rogers,Hard,3,singles,Qualifying Final,Nicolas Mejia,Marco Trungelliti,,,,,espn
+atp,20260801,National Bank Open presented by Rogers,Hard,3,singles,Qualifying Final,Henrique Rocha,Martin Damm,,,,,espn
+atp,20260801,National Bank Open presented by Rogers,Hard,3,singles,Qualifying Final,Kyrian Jacquet,Aleksandr Shevchenko,,,,,espn
+atp,20260801,National Bank Open presented by Rogers,Hard,3,singles,Qualifying Final,Pablo Llamas Ruiz,Marcos Giron,,,,,espn
+atp,20260801,National Bank Open presented by Rogers,Hard,3,singles,Qualifying Final,Kei Nishikori,Michael Zheng,,,,,espn
+atp,20260801,National Bank Open presented by Rogers,Hard,3,singles,Qualifying Final,Justin Boulais,Adam Walton,,,,,espn
+atp,20260801,National Bank Open presented by Rogers,Hard,3,singles,Qualifying Final,Nicolai Budkov Kjaer,Sho Shimabukuro,,,,,espn
+atp,20260801,National Bank Open presented by Rogers,Hard,3,singles,Qualifying Final,Thanasi Kokkinakis,Alexei Popyrin,,,,,espn
+atp,20260801,National Bank Open presented by Rogers,Hard,3,singles,Qualifying Final,Sebastian Ofner,Jacob Fearnley,,,,,espn
+atp,20260801,National Bank Open presented by Rogers,Hard,3,singles,Qualifying Final,Tomas Barrios Vera,Aleksandar Vukic,,,,,espn
+atp,20260801,National Bank Open presented by Rogers,Hard,3,singles,Qualifying Final,Duncan Chan,Hugo Gaston,,,,,espn
+atp,20260801,National Bank Open presented by Rogers,Hard,3,singles,Qualifying Final,Hugo Dellien,Benjamin Bonzi,,,,,espn
+atp,20260801,National Bank Open presented by Rogers,Hard,3,singles,Qualifying Final,Dane Sweeny,Shintaro Mochizuki,,,,,espn
+atp,20260801,National Bank Open presented by Rogers,Hard,3,singles,Qualifying Final,Christopher O'Connell,Jaime Faria,,,,,espn
+atp,20260801,National Bank Open presented by Rogers,Hard,3,singles,Qualifying Final,Titouan Droguet,Dalibor Svrcina,,,,,espn
+atp,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Denis Shapovalov,Zachary Svajda,,,,,espn
+atp,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Tallon Griekspoor,Lorenzo Sonego,,,,,espn
+atp,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Nuno Borges,Aleksandar Kovacevic,,,,,espn
+atp,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Shang Juncheng,Adolfo Daniel Vallejo,,,,,espn
+atp,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Mariano Navone,Matteo Berrettini,,,,,espn
+atp,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Botic Van De Zandschulp,Giovanni Mpetshi Perricard,,,,,espn
+atp,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Jack Draper,Terence Atmane,,,,,espn
+atp,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Liam Draxl,Daniel Merida,,,,,espn
+atp,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Jan-Lennard Struff,Alex Michelsen,,,,,espn
+atp,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Gael Monfils,Kamil Majchrzak,,,,,espn
+atp,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Valentin Royer,Pablo Carreno Busta,,,,,espn
+atp,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Mattia Bellucci,Sebastian Baez,,,,,espn
+atp,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Hamad Medjedovic,Juan Manuel Cerundolo,,,,,espn
+atp,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Corentin Moutet,Marton Fucsovics,,,,,espn
+atp,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Vit Kopriva,Alexis Galarneau,,,,,espn
+atp,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Cameron Norrie,Camilo Ugo Carabelli,,,,,espn
+atp,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Rinky Hijikata,Jaume Munar,,,,,espn
+wta,20260801,National Bank Open presented by Rogers,Hard,3,singles,Qualifying Final,Aoi Ito,Oksana Selekhmeteva,,,,,espn
+wta,20260801,National Bank Open presented by Rogers,Hard,3,singles,Qualifying Final,Lois Boisson,Emiliana Arango,,,,,espn
+wta,20260801,National Bank Open presented by Rogers,Hard,3,singles,Qualifying Final,Zhu Lin,Leolia Jeanjean,,,,,espn
+wta,20260801,National Bank Open presented by Rogers,Hard,3,singles,Qualifying Final,Marina Bassols Ribera,Victoria Jimenez Kasintseva,,,,,espn
+wta,20260801,National Bank Open presented by Rogers,Hard,3,singles,Qualifying Final,Zheng Qinwen,Lanlana Tararudee,,,,,espn
+wta,20260801,National Bank Open presented by Rogers,Hard,3,singles,Qualifying Final,Mary Stoiana,Alina Korneeva,,,,,espn
+wta,20260801,National Bank Open presented by Rogers,Hard,3,singles,Qualifying Final,Isabella Marton,Tatjana Maria,,,,,espn
+wta,20260801,National Bank Open presented by Rogers,Hard,3,singles,Qualifying Final,Himeno Sakatsume,Moyuka Uchijima,,,,,espn
+wta,20260801,National Bank Open presented by Rogers,Hard,3,singles,Qualifying Final,Lucrezia Stefanini,Sofia Kenin,,,,,espn
+wta,20260801,National Bank Open presented by Rogers,Hard,3,singles,Qualifying Final,Avery Alexander,Polina Kudermetova,,,,,espn
+wta,20260801,National Bank Open presented by Rogers,Hard,3,singles,Qualifying Final,Ana Grubor,Maya Joint,,,,,espn
+wta,20260801,National Bank Open presented by Rogers,Hard,3,singles,Qualifying Final,Sloane Stephens,Katie Volynets,,,,,espn
+wta,20260801,National Bank Open presented by Rogers,Hard,3,singles,Qualifying Final,Elvina Kalieva,Anna Blinkova,,,,,espn
+wta,20260801,National Bank Open presented by Rogers,Hard,3,singles,Qualifying Final,Kayla Day,Darja Vidmanova,,,,,espn
+wta,20260801,National Bank Open presented by Rogers,Hard,3,singles,Qualifying Final,Rebecca Sramkova,Mananchaya Sawangkaew,,,,,espn
+wta,20260801,National Bank Open presented by Rogers,Hard,3,singles,Qualifying Final,Emerson Jones,Taylah Preston,,,,,espn
+wta,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Magda Linette,Carol Zhao,,,,,espn
+wta,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Venus Williams,Kamilla Rakhimova,,,,,espn
+wta,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Taylor Townsend,Tereza Valentova,,,,,espn
+wta,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Cadence Brace,McCartney Kessler,,,,,espn
+wta,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Tamara Korpatsch,Renata Zarazua,,,,,espn
+wta,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Karolina Pliskova,Oleksandra Oliynykova,,,,,espn
+wta,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Eva Lys,Panna Udvardy,,,,,espn
+wta,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Anna Bondar,Anhelina Kalinina,,,,,espn
+wta,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Zeynep Sonmez,Rebecca Marino,,,,,espn
+wta,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Viktorija Golubic,Kimberly Birrell,,,,,espn
+wta,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Liudmila Samsonova,Janice Tjen,,,,,espn
+wta,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Kayla Cross,Katie Boulter,,,,,espn
+wta,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Daria Kasatkina,Wang Xinyu,,,,,espn
+wta,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Peyton Stearns,Elena-Gabriela Ruse,,,,,espn
+wta,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Bianca Andreescu,Nikola Bartunkova,,,,,espn
+wta,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Sara Bejlek,Wang Xiyu,,,,,espn
+wta,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Zhang Shuai,Yulia Putintseva,,,,,espn
+wta,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Elisabetta Cocciaretto,Talia Gibson,,,,,espn
+wta,20260802,National Bank Open presented by Rogers,Hard,3,singles,Round 1,Ariana Arseneault,Jessica Bouzas Maneiro,,,,,espn
