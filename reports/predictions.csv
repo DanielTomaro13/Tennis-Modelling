@@ -1,8 +1,11 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,ATP Challenger Vancouver,Grass,Final,J J Wolf,Mark Lajal,0.3854,0.6146,2.59,1.63,25.67,0.4877,4.65,8.3,3.1,2.67,tennis.com
+atp,,Lexington Challenger,Grass,Qualifying Round 1,Brandon Nakashima,Mees Rottgering,0.742,0.258,1.35,3.88,25.13,0.4822,8.38,4.88,2.16,2.73,tennis.com
+atp,,Lexington Challenger,Grass,Qualifying Round 1,Soon Woo Kwon,Donald Young,0.5216,0.4784,1.92,2.09,25.78,0.4887,4.86,4.77,3.24,3.18,tennis.com
+wta,,WTA Memphis,Hard,Final,Kristina Kucova,Darja Vidmanova,0.5967,0.4033,1.68,2.48,24.36,0.3162,5.04,4.2,3.36,2.71,tennis.com
 atp,20260802,National Bank Open presented by Rogers,Hard,Round 1,Martin Landaluce,Nicolas Mejia,0.7178,0.2822,1.39,3.54,25.06,0.4569,6.79,6.42,3.66,2.5,espn
 atp,20260802,National Bank Open presented by Rogers,Hard,Round 1,Mariano Navone,Matteo Berrettini,0.312,0.688,3.21,1.45,24.9,0.4149,6.7,11.87,2.66,2.01,espn
 atp,20260802,National Bank Open presented by Rogers,Hard,Round 1,Marin Cilic,Sho Shimabukuro,0.6858,0.3142,1.46,3.18,25.49,0.4958,8.7,4.46,3.44,2.98,espn
+atp,20260802,Mubadala DC Open,Hard,Final,Rafael Jodar,Taylor Fritz,0.3697,0.6303,2.71,1.59,25.84,0.5139,5.73,10.85,2.1,2.13,espn
 atp,20260802,National Bank Open presented by Rogers,Hard,Round 1,Nuno Borges,Aleksandar Kovacevic,0.6109,0.3891,1.64,2.57,26.26,0.5671,6.67,9.02,2.54,2.51,espn
 atp,20260802,National Bank Open presented by Rogers,Hard,Round 1,Rinky Hijikata,Jaume Munar,0.417,0.583,2.4,1.72,25.65,0.4776,6.69,6.44,2.63,2.28,espn
 atp,20260802,National Bank Open presented by Rogers,Hard,Round 1,Christopher Oconnell,James Duckworth,0.5752,0.4248,1.74,2.35,25.9,0.5106,6.85,7.61,2.06,2.66,espn
