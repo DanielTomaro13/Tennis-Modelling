@@ -1,6 +1,5 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
 atp,,Lexington Challenger,Grass,Qualifying Round 1,Brandon Nakashima,Mees Rottgering,0.742,0.258,1.35,3.88,25.13,0.4822,8.38,4.88,2.16,2.73,tennis.com
-wta,,WTA Memphis,Hard,Final,Kristina Kucova,Darja Vidmanova,0.5967,0.4033,1.68,2.48,24.36,0.3162,5.04,4.2,3.36,2.71,tennis.com
 atp,20260802,National Bank Open presented by Rogers,Hard,Round 1,Martin Landaluce,Nicolas Mejia,0.7178,0.2822,1.39,3.54,25.06,0.4569,6.79,6.42,3.66,2.5,espn
 atp,20260802,National Bank Open presented by Rogers,Hard,Round 1,Mariano Navone,Matteo Berrettini,0.312,0.688,3.21,1.45,24.9,0.4149,6.7,11.87,2.66,2.01,espn
 atp,20260802,National Bank Open presented by Rogers,Hard,Round 1,Marin Cilic,Sho Shimabukuro,0.6858,0.3142,1.46,3.18,25.49,0.4958,8.7,4.46,3.44,2.98,espn
@@ -17,7 +16,6 @@ wta,20260802,National Bank Open presented by Rogers,Hard,Round 1,Cristina Bucsa,
 wta,20260802,National Bank Open presented by Rogers,Hard,Round 1,Bianca Andreescu,Nikola Bartunkova,0.3512,0.6488,2.85,1.54,24.33,0.3264,3.38,4.49,3.36,5.87,espn
 wta,20260802,National Bank Open presented by Rogers,Hard,Round 1,Elisabetta Cocciaretto,Talia Gibson,0.3911,0.6089,2.56,1.64,24.95,0.3916,2.94,5.21,3.4,3.89,espn
 wta,20260802,National Bank Open presented by Rogers,Hard,Round 1,Camila Osorio,Lucrezia Stefanini,0.607,0.393,1.65,2.54,24.37,0.3207,3.17,4.62,5.95,3.08,espn
-wta,20260802,National Bank Open presented by Rogers,Hard,Round 1,Venus Williams,Kamilla Rakhimova,0.3935,0.6065,2.54,1.65,24.52,0.3372,4.14,3.07,4.61,4.99,espn
 wta,20260802,National Bank Open presented by Rogers,Hard,Round 1,Lanlana Tararudee,Emerson Jones,0.5857,0.4143,1.71,2.41,24.31,0.3076,4.1,2.35,3.62,3.59,espn
 wta,20260802,National Bank Open presented by Rogers,Hard,Round 1,Peyton Stearns,Elena Gabriela Ruse,0.5722,0.4278,1.75,2.34,24.44,0.321,3.16,3.11,3.74,4.59,espn
 wta,20260802,National Bank Open presented by Rogers,Hard,Round 1,Sara Bejlek,Xiyu Wang,0.5669,0.4331,1.76,2.31,24.29,0.3008,2.71,2.75,5.09,4.26,espn
@@ -58,3 +56,4 @@ wta,20260803,National Bank Open presented by Rogers,Hard,Round 1,Sloane Stephens
 wta,20260803,National Bank Open presented by Rogers,Hard,Round 1,Maya Joint,Yuliia Starodubtseva,0.5102,0.4898,1.96,2.04,24.41,0.3102,2.2,3.02,3.87,3.98,espn
 wta,20260803,National Bank Open presented by Rogers,Hard,Round 1,Shuai Zhang,Yulia Putintseva,0.4901,0.5099,2.04,1.96,24.54,0.3271,3.14,2.27,3.36,3.33,espn
 wta,20260803,National Bank Open presented by Rogers,Hard,Round 1,Taylor Townsend,Tereza Valentova,0.5007,0.4993,2.0,2.0,24.56,0.3294,4.34,3.4,3.76,4.69,espn
+atp,20260804,National Bank Open presented by Rogers,Hard,Round 2,Andrey Rublev,Juncheng Shang,0.7115,0.2885,1.41,3.47,25.19,0.4708,9.32,5.39,2.34,2.22,espn
