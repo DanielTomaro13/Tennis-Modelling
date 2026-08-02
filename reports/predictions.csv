@@ -1,41 +1,33 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Lexington Challenger,Grass,Qualifying Round 1,Brandon Nakashima,Mees Rottgering,0.742,0.258,1.35,3.88,25.13,0.4822,8.38,4.88,2.16,2.73,tennis.com
-atp,20260802,National Bank Open presented by Rogers,Hard,Round 1,Martin Landaluce,Nicolas Mejia,0.7178,0.2822,1.39,3.54,25.06,0.4569,6.79,6.42,3.66,2.5,espn
-atp,20260802,National Bank Open presented by Rogers,Hard,Round 1,Mariano Navone,Matteo Berrettini,0.312,0.688,3.21,1.45,24.9,0.4149,6.7,11.87,2.66,2.01,espn
 atp,20260802,National Bank Open presented by Rogers,Hard,Round 1,Marin Cilic,Sho Shimabukuro,0.6858,0.3142,1.46,3.18,25.49,0.4958,8.7,4.46,3.44,2.98,espn
 atp,20260802,Mubadala DC Open,Hard,Final,Rafael Jodar,Taylor Fritz,0.3697,0.6303,2.71,1.59,25.84,0.5139,5.73,10.85,2.1,2.13,espn
-atp,20260802,National Bank Open presented by Rogers,Hard,Round 1,Christopher Oconnell,James Duckworth,0.5752,0.4248,1.74,2.35,25.9,0.5106,6.85,7.61,2.06,2.66,espn
-atp,20260802,National Bank Open presented by Rogers,Hard,Round 1,Titouan Droguet,Luca Van Assche,0.5664,0.4336,1.77,2.31,25.75,0.4897,4.9,7.39,3.27,2.34,espn
 atp,20260802,National Bank Open presented by Rogers,Hard,Round 1,Kyrian Jacquet,Gabriel Diallo,0.4438,0.5562,2.25,1.8,25.41,0.4421,6.87,8.28,2.65,3.74,espn
-atp,20260802,National Bank Open presented by Rogers,Hard,Round 1,Corentin Moutet,Marton Fucsovics,0.4648,0.5352,2.15,1.87,25.02,0.389,4.5,5.69,2.55,2.95,espn
-atp,20260802,National Bank Open presented by Rogers,Hard,Round 1,Daniel Altmaier,Aleksandar Vukic,0.5338,0.4662,1.87,2.14,26.14,0.5367,8.37,7.77,2.27,2.49,espn
 atp,20260802,National Bank Open presented by Rogers,Hard,Round 1,Yannick Hanfmann,Benjamin Bonzi,0.4805,0.5195,2.08,1.92,25.8,0.49,7.33,6.54,2.56,2.67,espn
-wta,20260802,Mubadala DC Open,Hard,Final,Alexandra Eala,Jessica Pegula,0.2346,0.7654,4.26,1.31,23.42,0.28,1.35,3.81,3.14,2.64,espn
 wta,20260802,National Bank Open presented by Rogers,Hard,Round 1,Leolia Jeanjean,Magdalena Frech,0.2798,0.7202,3.57,1.39,24.02,0.3226,4.32,3.7,2.88,2.91,espn
-wta,20260802,National Bank Open presented by Rogers,Hard,Round 1,Cristina Bucsa,Moyuka Uchijima,0.7188,0.2812,1.39,3.56,23.8,0.2982,3.39,2.75,4.72,3.6,espn
 wta,20260802,National Bank Open presented by Rogers,Hard,Round 1,Bianca Andreescu,Nikola Bartunkova,0.3512,0.6488,2.85,1.54,24.33,0.3264,3.38,4.49,3.36,5.87,espn
 wta,20260802,National Bank Open presented by Rogers,Hard,Round 1,Elisabetta Cocciaretto,Talia Gibson,0.3911,0.6089,2.56,1.64,24.95,0.3916,2.94,5.21,3.4,3.89,espn
-wta,20260802,National Bank Open presented by Rogers,Hard,Round 1,Camila Osorio,Lucrezia Stefanini,0.607,0.393,1.65,2.54,24.37,0.3207,3.17,4.62,5.95,3.08,espn
 wta,20260802,National Bank Open presented by Rogers,Hard,Round 1,Lanlana Tararudee,Emerson Jones,0.5857,0.4143,1.71,2.41,24.31,0.3076,4.1,2.35,3.62,3.59,espn
-wta,20260802,National Bank Open presented by Rogers,Hard,Round 1,Peyton Stearns,Elena Gabriela Ruse,0.5722,0.4278,1.75,2.34,24.44,0.321,3.16,3.11,3.74,4.59,espn
-wta,20260802,National Bank Open presented by Rogers,Hard,Round 1,Sara Bejlek,Xiyu Wang,0.5669,0.4331,1.76,2.31,24.29,0.3008,2.71,2.75,5.09,4.26,espn
 wta,20260802,National Bank Open presented by Rogers,Hard,Round 1,Antonia Ruzic,Lois Boisson,0.5576,0.4424,1.79,2.26,24.66,0.3463,2.76,3.43,3.72,4.21,espn
 wta,20260802,National Bank Open presented by Rogers,Hard,Round 1,Anna Blinkova,Rebecca Sramkova,0.5308,0.4692,1.88,2.13,24.69,0.3469,2.54,3.41,4.07,4.22,espn
-wta,20260802,National Bank Open presented by Rogers,Hard,Round 1,Katherine Sebov,Aoi Ito,0.4714,0.5286,2.12,1.89,24.44,0.3151,2.81,3.32,3.99,3.84,espn
-wta,20260802,National Bank Open presented by Rogers,Hard,Round 1,Viktorija Golubic,Kimberly Birrell,0.52,0.48,1.92,2.08,24.67,0.344,2.69,2.53,3.61,5.14,espn
 atp,20260803,National Bank Open presented by Rogers,Hard,Round 1,Jack Draper,Terence Atmane,0.7798,0.2202,1.28,4.54,24.42,0.419,8.14,4.16,3.1,2.78,espn
+atp,20260803,National Bank Open presented by Rogers,Hard,Round 1,Martin Landaluce,Nicolas Mejia,0.7178,0.2822,1.39,3.54,25.06,0.4569,6.79,6.42,3.66,2.5,espn
 atp,20260803,National Bank Open presented by Rogers,Hard,Round 1,Jan Lennard Struff,Alex Michelsen,0.2955,0.7045,3.38,1.42,24.97,0.4318,7.44,6.78,3.0,2.98,espn
 atp,20260803,National Bank Open presented by Rogers,Hard,Round 1,Cameron Norrie,Camilo Ugo Carabelli,0.6939,0.3061,1.44,3.27,25.62,0.5177,6.07,6.0,2.64,2.71,espn
+atp,20260803,National Bank Open presented by Rogers,Hard,Round 1,Mariano Navone,Matteo Berrettini,0.312,0.688,3.21,1.45,24.9,0.4149,6.7,11.87,2.66,2.01,espn
 atp,20260803,National Bank Open presented by Rogers,Hard,Round 1,Valentin Royer,Pablo Carreno Busta,0.3176,0.6824,3.15,1.47,25.37,0.4727,6.77,5.96,2.57,2.48,espn
 atp,20260803,National Bank Open presented by Rogers,Hard,Round 1,Denis Shapovalov,Zachary Svajda,0.6364,0.3636,1.57,2.75,25.57,0.4848,8.55,6.46,5.06,2.38,espn
 atp,20260803,National Bank Open presented by Rogers,Hard,Round 1,Fabian Marozsan,Shintaro Mochizuki,0.6325,0.3675,1.58,2.72,25.25,0.4412,6.29,6.34,2.34,2.83,espn
 atp,20260803,National Bank Open presented by Rogers,Hard,Round 1,Adrian Mannarino,Jacob Fearnley,0.6136,0.3864,1.63,2.59,25.26,0.4369,7.05,6.71,2.51,2.9,espn
 atp,20260803,National Bank Open presented by Rogers,Hard,Round 1,Botic Van De Zandschulp,Giovanni Mpetshi Perricard,0.6081,0.3919,1.64,2.55,27.09,0.6721,6.6,13.46,4.14,3.73,espn
 atp,20260803,National Bank Open presented by Rogers,Hard,Round 1,Marcos Giron,Hubert Hurkacz,0.3927,0.6073,2.55,1.65,26.41,0.5825,5.53,13.21,1.93,1.84,espn
+atp,20260803,National Bank Open presented by Rogers,Hard,Round 1,Christopher Oconnell,James Duckworth,0.5752,0.4248,1.74,2.35,25.9,0.5106,6.85,7.61,2.06,2.66,espn
 atp,20260803,National Bank Open presented by Rogers,Hard,Round 1,Stefanos Tsitsipas,Martin Damm,0.5737,0.4263,1.74,2.35,26.64,0.6077,7.82,10.48,2.84,2.94,espn
 atp,20260803,National Bank Open presented by Rogers,Hard,Round 1,Roman Andres Burruchaga,Alexei Popyrin,0.5706,0.4294,1.75,2.33,25.59,0.4689,4.91,8.83,3.27,3.19,espn
+atp,20260803,National Bank Open presented by Rogers,Hard,Round 1,Titouan Droguet,Luca Van Assche,0.5664,0.4336,1.77,2.31,25.75,0.4897,4.9,7.39,3.27,2.34,espn
 atp,20260803,National Bank Open presented by Rogers,Hard,Round 1,Vit Kopriva,Alexis Galarneau,0.5611,0.4389,1.78,2.28,25.35,0.4361,7.43,6.38,3.83,2.71,espn
 atp,20260803,National Bank Open presented by Rogers,Hard,Round 1,Jenson Brooksby,Adam Walton,0.5519,0.4481,1.81,2.23,25.59,0.4666,4.72,7.02,2.48,2.54,espn
+atp,20260803,National Bank Open presented by Rogers,Hard,Round 1,Corentin Moutet,Marton Fucsovics,0.4648,0.5352,2.15,1.87,25.02,0.389,4.5,5.69,2.55,2.95,espn
+atp,20260803,National Bank Open presented by Rogers,Hard,Round 1,Daniel Altmaier,Aleksandar Vukic,0.5338,0.4662,1.87,2.14,26.14,0.5367,8.37,7.77,2.27,2.49,espn
 atp,20260803,National Bank Open presented by Rogers,Hard,Round 1,Tallon Griekspoor,Lorenzo Sonego,0.5277,0.4723,1.89,2.12,27.04,0.6528,9.96,6.12,2.61,2.06,espn
 atp,20260803,National Bank Open presented by Rogers,Hard,Round 1,Mattia Bellucci,Sebastian Baez,0.5208,0.4792,1.92,2.09,25.21,0.4129,6.65,4.05,2.64,2.27,espn
 atp,20260803,National Bank Open presented by Rogers,Hard,Round 1,Gael Monfils,Kamil Majchrzak,0.492,0.508,2.03,1.97,25.85,0.4959,8.51,6.7,4.43,2.16,espn
@@ -50,6 +42,7 @@ wta,20260803,National Bank Open presented by Rogers,Hard,Round 1,Eva Lys,Panna U
 wta,20260803,National Bank Open presented by Rogers,Hard,Round 1,Alycia Parks,Victoria Jimenez Kasintseva,0.5861,0.4139,1.71,2.42,24.3,0.3069,6.57,3.29,6.86,4.68,espn
 wta,20260803,National Bank Open presented by Rogers,Hard,Round 1,Daria Kasatkina,Wang Xiy.,0.5796,0.4204,1.73,2.38,24.26,0.2992,2.47,4.69,6.3,3.13,espn
 wta,20260803,National Bank Open presented by Rogers,Hard,Round 1,Karolina Pliskova,Oleksandra Oliynykova,0.4249,0.5751,2.35,1.74,24.49,0.3264,4.92,3.23,4.64,3.61,espn
+wta,20260803,National Bank Open presented by Rogers,Hard,Round 1,Peyton Stearns,Elena Gabriela Ruse,0.5722,0.4278,1.75,2.34,24.44,0.321,3.16,3.11,3.74,4.59,espn
 wta,20260803,National Bank Open presented by Rogers,Hard,Round 1,Liudmila Samsonova,Janice Tjen,0.5475,0.4525,1.83,2.21,24.59,0.3355,3.76,3.52,4.04,3.63,espn
 wta,20260803,National Bank Open presented by Rogers,Hard,Round 1,Anna Bondar,Anhelina Kalinina,0.471,0.529,2.12,1.89,24.39,0.3086,4.19,3.41,3.38,4.11,espn
 wta,20260803,National Bank Open presented by Rogers,Hard,Round 1,Sloane Stephens,Solana Sierra,0.5185,0.4815,1.93,2.08,24.58,0.3318,3.36,3.2,3.8,4.74,espn
@@ -57,3 +50,8 @@ wta,20260803,National Bank Open presented by Rogers,Hard,Round 1,Maya Joint,Yuli
 wta,20260803,National Bank Open presented by Rogers,Hard,Round 1,Shuai Zhang,Yulia Putintseva,0.4901,0.5099,2.04,1.96,24.54,0.3271,3.14,2.27,3.36,3.33,espn
 wta,20260803,National Bank Open presented by Rogers,Hard,Round 1,Taylor Townsend,Tereza Valentova,0.5007,0.4993,2.0,2.0,24.56,0.3294,4.34,3.4,3.76,4.69,espn
 atp,20260804,National Bank Open presented by Rogers,Hard,Round 2,Andrey Rublev,Juncheng Shang,0.7115,0.2885,1.41,3.47,25.19,0.4708,9.32,5.39,2.34,2.22,espn
+atp,20260804,National Bank Open presented by Rogers,Hard,Round 2,Alexander Blockx,Jaume Munar,0.3832,0.6168,2.61,1.62,25.93,0.5225,7.76,6.43,2.35,2.28,espn
+wta,20260805,National Bank Open presented by Rogers,Hard,Round 2,Jessica Bouzas Maneiro,Elina Svitolina,0.1193,0.8807,8.38,1.14,22.08,0.2411,1.94,4.64,4.17,4.25,espn
+wta,20260805,National Bank Open presented by Rogers,Hard,Round 2,Katherine Sebov,Marta Kostyuk,0.1353,0.8647,7.39,1.16,22.38,0.2547,2.13,4.07,3.03,6.05,espn
+wta,20260805,National Bank Open presented by Rogers,Hard,Round 2,Katerina Siniakova,Kamilla Rakhimova,0.6588,0.3412,1.52,2.93,24.16,0.312,2.16,2.74,4.35,4.45,espn
+wta,20260805,National Bank Open presented by Rogers,Hard,Round 2,Viktorija Golubic,Donna Vekic,0.5179,0.4821,1.93,2.07,24.79,0.3585,2.69,4.39,3.6,5.52,espn
