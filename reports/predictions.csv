@@ -1,4 +1,11 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+atp,,Lexington Challenger,Grass,Round 1,Henry Searle,Lloyd Harris,0.34,0.66,2.94,1.52,25.48,0.4773,7.39,10.03,2.84,2.87,tennis.com
+atp,,Platzmann Open,Hard,Round 1,Guy Den Ouden,Alexandre Muller,0.6272,0.3728,1.59,2.68,25.45,0.4658,5.56,5.91,3.02,2.46,tennis.com
+atp,,Lexington Challenger,Grass,Qualifying Round 2,Andrej Martin,Zachary Svajda,0.4021,0.5979,2.49,1.67,25.87,0.5099,4.68,6.36,3.12,2.49,tennis.com
+atp,,Lexington Challenger,Grass,Qualifying Round 2,Abedallah Shelbayh,Mees Rottgering,0.5593,0.4407,1.79,2.27,25.73,0.4852,4.89,5.32,3.26,2.98,tennis.com
+atp,,Lexington Challenger,Grass,Round 1,Federico Cina,Elias Ymer,0.4557,0.5443,2.19,1.84,25.71,0.48,5.9,4.85,2.51,3.23,tennis.com
+wta,,National Bank Open presented by Rogers,Hard,Round 1,Xin Yu Wang,Daria Kasatkina,0.3622,0.6378,2.76,1.57,24.2,0.3071,3.47,2.5,3.11,6.37,tennis.com
+wta,,Polish Open,Hard,Round 1,Katarzyna Kawa,Linda Fruhvirtova,0.4994,0.5006,2.0,2.0,24.58,0.3313,4.88,3.66,3.25,4.58,tennis.com
 atp,20260803,National Bank Open presented by Rogers,Hard,Round 1,Jack Draper,Terence Atmane,0.7798,0.2202,1.28,4.54,24.42,0.419,8.14,4.16,3.1,2.78,espn
 atp,20260803,National Bank Open presented by Rogers,Hard,Round 1,Martin Landaluce,Nicolas Mejia,0.7178,0.2822,1.39,3.54,25.06,0.4569,6.79,6.42,3.66,2.5,espn
 atp,20260803,National Bank Open presented by Rogers,Hard,Round 1,Jan Lennard Struff,Alex Michelsen,0.2955,0.7045,3.38,1.42,24.97,0.4318,7.44,6.78,3.0,2.98,espn
