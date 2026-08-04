@@ -1,4 +1,17 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+atp,,UTR PTT Newport Beach Men 19,Grass,,Jay Clarke,Hyeon Chung,0.2178,0.7822,4.59,1.28,24.59,0.4345,4.21,4.92,2.81,3.28,tennis.com
+atp,,Platzmann Open,Hard,Round 1,Alex Molcan,Chun Hsin Tseng,0.7396,0.2604,1.35,3.84,24.85,0.4435,6.8,4.3,2.94,2.87,tennis.com
+atp,,Lexington Challenger,Grass,Round 1,Harry Wendelken,Michael Mmoh,0.2929,0.7071,3.41,1.41,24.79,0.4098,5.69,4.99,2.28,3.33,tennis.com
+atp,,Lexington Challenger,Grass,Round 1,Tristan Schoolkate,Soon Woo Kwon,0.3761,0.6239,2.66,1.6,25.58,0.4777,6.99,4.91,3.22,3.28,tennis.com
+atp,,Lexington Challenger,Grass,Round 1,Moez Echargui,Steve Johnson,0.403,0.597,2.48,1.68,25.74,0.492,6.46,4.89,2.39,3.26,tennis.com
+atp,,Lexington Challenger,Grass,Round 1,Ozan Baris,Liam Broady,0.583,0.417,1.72,2.4,25.53,0.4645,6.4,4.67,2.96,3.11,tennis.com
+atp,,"ATP Challenger Plovdiv 2, Bulgaria",Grass,Round 1,Hugo Dellien,Adrian Andreev,0.4212,0.5788,2.37,1.73,25.33,0.4342,4.72,5.82,3.14,2.73,tennis.com
+atp,,Platzmann Open,Hard,Round 1,Stefano Travaglia,Ivan Dodig,0.5511,0.4489,1.81,2.23,25.75,0.4874,4.89,4.72,3.26,3.15,tennis.com
+atp,,Lexington Challenger,Grass,Round 1,James Mccabe,Dusan Lajovic,0.4574,0.5426,2.19,1.84,25.69,0.4768,4.77,8.5,3.18,2.76,tennis.com
+atp,,Lexington Challenger,Grass,Round 1,Alex Bolt,Abedallah Shelbayh,0.5375,0.4625,1.86,2.16,25.77,0.4882,4.87,4.75,3.25,3.16,tennis.com
+atp,,Platzmann Open,Hard,Round 1,Carlos Taberner,Juan Bautista Torres,0.4777,0.5223,2.09,1.91,25.42,0.4398,4.81,5.22,3.21,2.04,tennis.com
+wta,,Polish Open,Hard,Round 1,Viktoria Hruncakova,Susan Bandecchi,0.4374,0.5626,2.29,1.78,24.48,0.3233,4.75,3.85,3.17,3.63,tennis.com
+wta,,Polish Open,Hard,Round 1,Dalma Galfi,Ella Seidel,0.5296,0.4704,1.89,2.13,24.64,0.3404,4.15,3.97,4.27,4.07,tennis.com
 atp,20260804,National Bank Open presented by Rogers,Hard,Round 2,Alex De Minaur,James Duckworth,0.8537,0.1463,1.17,6.83,23.48,0.3729,4.65,6.26,2.64,2.19,espn
 atp,20260804,National Bank Open presented by Rogers,Hard,Round 1,Jack Draper,Terence Atmane,0.7798,0.2202,1.28,4.54,24.42,0.419,8.14,4.16,3.1,2.78,espn
 atp,20260804,National Bank Open presented by Rogers,Hard,Round 2,Vit Kopriva,Jiri Lehecka,0.2477,0.7523,4.04,1.33,24.93,0.4562,6.51,7.93,3.36,2.64,espn
