@@ -1,6 +1,5 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
 atp,,UTR PTT Newport Beach Men 19,Grass,,Jay Clarke,Hyeon Chung,0.2178,0.7822,4.59,1.28,24.59,0.4345,4.21,4.92,2.81,3.28,tennis.com
-atp,,Platzmann Open,Hard,Round 1,Alex Molcan,Chun Hsin Tseng,0.7396,0.2604,1.35,3.84,24.85,0.4435,6.8,4.3,2.94,2.87,tennis.com
 atp,,Lexington Challenger,Grass,Round 1,Harry Wendelken,Michael Mmoh,0.2929,0.7071,3.41,1.41,24.79,0.4098,5.69,4.99,2.28,3.33,tennis.com
 atp,,Lexington Challenger,Grass,Round 1,Tristan Schoolkate,Soon Woo Kwon,0.3761,0.6239,2.66,1.6,25.58,0.4777,6.99,4.91,3.22,3.28,tennis.com
 atp,,Lexington Challenger,Grass,Round 1,Moez Echargui,Steve Johnson,0.403,0.597,2.48,1.68,25.74,0.492,6.46,4.89,2.39,3.26,tennis.com
