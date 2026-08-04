@@ -1,105 +1,72 @@
 tour,date,tournament,surface,best_of,format,round,player1,player2,p1a,p1b,p2a,p2b,source
-atp,,Kozerki Open,Hard,3,singles,Round 1,Joel Schwärzler,Jiri Cizek,,,,,tennis.com
-atp,,Kozerki Open,Hard,3,singles,Round 1,Philip Henning,Maks Kaśnikowski,,,,,tennis.com
-atp,,ATP Challenger Istanbul 2,Grass,3,singles,Round 1,Denis Yevseyev,Yanki Erel,,,,,tennis.com
-atp,,Lexington Challenger,Grass,3,singles,Round 1,Alex Bolt,Abdullah Shelbayh,,,,,tennis.com
-atp,,Lexington Challenger,Grass,3,singles,Round 1,Tristan Schoolkate,Soonwoo Kwon,,,,,tennis.com
-atp,,Lexington Challenger,Grass,3,singles,Round 1,Harry Wendelken,Michael Mmoh,,,,,tennis.com
-atp,,Lexington Challenger,Grass,3,singles,Round 1,Jay Friend,Colton Smith,,,,,tennis.com
-atp,,Lexington Challenger,Grass,3,singles,Round 1,Rei Sakamoto,Aidan Mayo,,,,,tennis.com
 atp,,Lexington Challenger,Grass,3,singles,Round 1,Moez Echargui,Spencer Johnson,,,,,tennis.com
 atp,,Lexington Challenger,Grass,3,singles,Round 1,Nicolas Arseneault,Andres Martin,,,,,tennis.com
 atp,,Lexington Challenger,Grass,3,singles,Round 1,Millen Hurrion,Jack Pinnington Jones,,,,,tennis.com
-atp,,"ATP Challenger Plovdiv 2, Bulgaria",Grass,3,singles,Round 1,Gabriele Piraino,Carlo Alberto Caniato,,,,,tennis.com
-atp,,"ATP Challenger Plovdiv 2, Bulgaria",Grass,3,singles,Round 1,Lorenzo Angelini,Petr Nesterov,,,,,tennis.com
-atp,,"ATP Challenger Plovdiv 2, Bulgaria",Grass,3,singles,Round 1,Jack Logé,Franco Agamenone,,,,,tennis.com
 atp,,"ATP Challenger Plovdiv 2, Bulgaria",Grass,3,singles,Round 1,Ivan Ivanov,Ognjen Milić,,,,,tennis.com
-atp,,National Bank Open Presented by Rogers,Hard,3,singles,Round 1,Jacob Fearnley,Adrian Mannarino,,,,,tennis.com
-atp,,National Bank Open Presented by Rogers,Hard,3,singles,Round 1,Pablo Carreño Busta,Valentin Royer,,,,,tennis.com
-atp,,National Bank Open Presented by Rogers,Hard,3,singles,Round 1,Zachary Svajda,Denis Shapovalov,,,,,tennis.com
-atp,,National Bank Open Presented by Rogers,Hard,3,singles,Round 1,Daniel Mérida,Liam Draxl,,,,,tennis.com
-atp,,National Bank Open Presented by Rogers,Hard,3,singles,Round 1,Alexei Popyrin,Román Andrés Burruchaga,,,,,tennis.com
-atp,,National Bank Open Presented by Rogers,Hard,3,singles,Round 1,Juan Manuel Cerúndolo,Hamad Medjedović,,,,,tennis.com
 atp,,National Bank Open Presented by Rogers,Hard,3,singles,Round 1,Giovanni Mpetshi Perricard,Botic van de Zandschulp,,,,,tennis.com
-atp,,National Bank Open Presented by Rogers,Hard,3,singles,Round 1,Térence Atmane,Jack Draper,,,,,tennis.com
-atp,,National Bank Open Presented by Rogers,Hard,3,singles,Round 1,Lorenzo Sonego,Tallon Griekspoor,,,,,tennis.com
 atp,,National Bank Open Presented by Rogers,Hard,3,singles,Round 2,Juncheng Shang,Andrey Rublev,,,,,tennis.com
+atp,,National Bank Open Presented by Rogers,Hard,3,singles,Round 1,Lorenzo Sonego,Tallon Griekspoor,,,,,tennis.com
 atp,,National Bank Open Presented by Rogers,Hard,3,singles,Round 1,Shintaro Mochizuki,Fábián Marozsán,,,,,tennis.com
-atp,,National Bank Open Presented by Rogers,Hard,3,singles,Round 2,Jaume Munar,Alexander Blockx,,,,,tennis.com
 atp,,National Bank Open Presented by Rogers,Hard,3,singles,Round 2,Jiří Lehečka,Vít Kopřiva,,,,,tennis.com
-atp,,National Bank Open Presented by Rogers,Hard,3,singles,Round 2,Brandon Nakashima,Daniel Altmaier,,,,,tennis.com
 atp,,National Bank Open Presented by Rogers,Hard,3,singles,Round 2,James Duckworth,Alex de Minaur,,,,,tennis.com
+atp,,National Bank Open Presented by Rogers,Hard,3,singles,Round 2,Brandon Nakashima,Daniel Altmaier,,,,,tennis.com
 atp,,National Bank Open Presented by Rogers,Hard,3,singles,Round 2,Frances Tiafoe,Marin Čilić,,,,,tennis.com
 atp,,National Bank Open Presented by Rogers,Hard,3,singles,Round 2,Flavio Cobolli,Yannick Hanfmann,,,,,tennis.com
 atp,,National Bank Open Presented by Rogers,Hard,3,singles,Round 2,Luciano Darderi,Gabriel Diallo,,,,,tennis.com
-atp,,UTR PTT Auburn Men 02,Hard,3,singles,,Stewart Aronson,Blake Hilsen,,,,,tennis.com
-atp,,UTR PTT Auburn Men 02,Hard,3,singles,,Charles Frey,Thomas Kennedy,,,,,tennis.com
 atp,,UTR PTT Auburn Men 02,Hard,3,singles,,Nicholas Patrick,James McGloughlin,,,,,tennis.com
 atp,,UTR PTT Auburn Men 02,Hard,3,singles,,Dani Szabo,Iker Urribarrens Ramirez,,,,,tennis.com
-wta,,UTR PTT Auburn Women 02,Hard,3,singles,,Kaya Moe,Kate Sharabura,,,,,tennis.com
-wta,,UTR PTT Auburn Women 02,Hard,3,singles,,Emmie Moore,Lucia Donnelly,,,,,tennis.com
-wta,,UTR PTT Auburn Women 02,Hard,3,singles,,Gabriella Barrera,Lexie Weir,,,,,tennis.com
-wta,,UTR PTT Auburn Women 02,Hard,3,singles,,Ava Esposito Cogan,Kesmat El Tawil,,,,,tennis.com
-atp,,UTR PTT Brisbane Men 01,Hard,3,singles,,Elijah Cham,Cooper Kose,,,,,tennis.com
-atp,,UTR PTT Brisbane Men 01,Hard,3,singles,,Sam Oster,Scott Jones,,,,,tennis.com
 atp,,UTR PTT Brisbane Men 01,Hard,3,singles,,Jeremy Beale,Casey Hoole,,,,,tennis.com
+atp,,UTR PTT Brisbane Men 01,Hard,3,singles,,Sam Oster,Scott Jones,,,,,tennis.com
+atp,,UTR PTT Brisbane Men 01,Hard,3,singles,,Elijah Cham,Cooper Kose,,,,,tennis.com
 atp,,UTR PTT Brisbane Men 01,Hard,3,singles,,Sam Ryan Ziegann,Jonas Hahn,,,,,tennis.com
 atp,,UTR PTT Brisbane Men 01,Hard,3,singles,,Alec Gaudin,Omar Jasika,,,,,tennis.com
 atp,,UTR PTT Brisbane Men 01,Hard,3,singles,,Hayden Jones,Thomas Nicholas Gadecki,,,,,tennis.com
-atp,,UTR PTT Brisbane Men 01,Hard,3,singles,,Henry Lamchinniah,Zane Stevens,,,,,tennis.com
 atp,,UTR PTT Brisbane Men 01,Hard,3,singles,,Marcus Schoeman,Brendan Loh,,,,,tennis.com
+atp,,UTR PTT Brisbane Men 01,Hard,3,singles,,Henry Lamchinniah,Zane Stevens,,,,,tennis.com
+wta,,UTR PTT Brisbane Women 01,Hard,3,singles,,Ava-Monet Sycamore,Lily Fannin,,,,,tennis.com
 wta,,UTR PTT Brisbane Women 01,Hard,3,singles,,Yilin Yan,Zayah Baker,,,,,tennis.com
 wta,,UTR PTT Brisbane Women 01,Hard,3,singles,,Lala Fannin,Emma Tran,,,,,tennis.com
-wta,,UTR PTT Brisbane Women 01,Hard,3,singles,,Ava-Monet Sycamore,Lily Fannin,,,,,tennis.com
+wta,,UTR PTT Brisbane Women 01,Hard,3,singles,,Juliet Santitto,Grace Cadwallader,,,,,tennis.com
 wta,,UTR PTT Brisbane Women 01,Hard,3,singles,,Leana Nannapaneni,Kaylah McPhee,,,,,tennis.com
 wta,,UTR PTT Brisbane Women 01,Hard,3,singles,,Olivia Symons,Eva Lopez,,,,,tennis.com
-wta,,UTR PTT Brisbane Women 01,Hard,3,singles,,Juliet Santitto,Grace Cadwallader,,,,,tennis.com
-wta,,UTR PTT Brisbane Women 01,Hard,3,singles,,Elicia Kim,Violet Apisah,,,,,tennis.com
 wta,,UTR PTT Brisbane Women 01,Hard,3,singles,,Lily Fairclough,Isabel Cairns,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Miles Clark,Rohan Sachdev,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Eugenio Gonzalez Fitzmaurice,Marco Alvarez,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Dominique Rolland,Marco Alvarez,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Nischal Spurling,Emmett Potter,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Robert Yang,Rohan Sachdev,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Emmett Potter,William Zhang,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Marco Alvarez,David Duong,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Dominique Rolland,David Duong,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Jacob Brumm,Pavel Bushuev,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Robert Yang,Justin Chung,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Xavier Calvelo,Pavel Bushuev,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Miles Clark,Justin Chung,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Jacob Brumm,Holland Snell,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Xavier Calvelo,Jacob Brumm,,,,,tennis.com
+wta,,UTR PTT Brisbane Women 01,Hard,3,singles,,Elicia Kim,Violet Apisah,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Robert Yang,Anthony Turchi,,,,,tennis.com
 atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Dominique Rolland,Blake Anderson,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Miles Clark,Anthony Turchi,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Xavier Calvelo,Jacob Brumm,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Jacob Brumm,Holland Snell,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Eugenio Gonzalez Fitzmaurice,David Duong,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Miles Clark,Justin Chung,,,,,tennis.com
 atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Sklar Phillips,William Zhang,,,,,tennis.com
 atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Rohan Sachdev,Justin Chung,,,,,tennis.com
 atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Marco Alvarez,Blake Anderson,,,,,tennis.com
 atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Eugenio Gonzalez Fitzmaurice,Blake Anderson,,,,,tennis.com
 atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,George Hakopian,Pavel Bushuev,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Miles Clark,Anthony Turchi,,,,,tennis.com
 atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Rohan Sachdev,Anthony Turchi,,,,,tennis.com
 atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,George Hakopian,Holland Snell,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Robert Yang,Anthony Turchi,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Eugenio Gonzalez Fitzmaurice,David Duong,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Xavier Calvelo,Pavel Bushuev,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Robert Yang,Justin Chung,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Jacob Brumm,Pavel Bushuev,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Dominique Rolland,David Duong,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Marco Alvarez,David Duong,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Emmett Potter,William Zhang,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Robert Yang,Rohan Sachdev,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Nischal Spurling,Emmett Potter,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Dominique Rolland,Marco Alvarez,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Eugenio Gonzalez Fitzmaurice,Marco Alvarez,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Miles Clark,Rohan Sachdev,,,,,tennis.com
 atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Nischal Spurling,William Zhang,,,,,tennis.com
 atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,George Hakopian,Jacob Brumm,,,,,tennis.com
 atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Nischal Spurling,Constantinos Djakouris,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Xavier Calvelo,Holland Snell,,,,,tennis.com
 atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Sklar Phillips,Emmett Potter,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Kate Mansfield,Hudson Hawkins,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Kate Mansfield,Bella Lewis,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Sage Bergeson,Marley Lambert,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Olivia Center,Hudson Hawkins,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Abigail Lee,Veronica Miroshnichenko,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Chelsea Bluestein,Shakhnoza Khatamova,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Mika Ikemori,Veronica Miroshnichenko,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Mika Ikemori,Sue Yan Tan,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Kate Mansfield,Simone Kay,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Kaia Giribalan,Marley Lambert,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Xavier Calvelo,Holland Snell,,,,,tennis.com
 wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Camille Kiss,Abigail Lee,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Briley Rhoden,Chelsea Bluestein,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Tianmei Wang,Lily Rochon,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Hudson Hawkins,Simone Kay,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Abigail Lee,Sue Yan Tan,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Kaia Giribalan,Marley Lambert,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Kate Mansfield,Simone Kay,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Calla McGill,Salma Ewing,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Kate Mansfield,Bella Lewis,,,,,tennis.com
 wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Sage Bergeson,Tia Messerli,,,,,tennis.com
 wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Chelsea Bluestein,Lily Rochon,,,,,tennis.com
 wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Hudson Hawkins,Bella Lewis,,,,,tennis.com
@@ -110,41 +77,45 @@ wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Olivia Center,Bella Lewis,,
 wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Sage Bergeson,Kaia Giribalan,,,,,tennis.com
 wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Olivia Center,Simone Kay,,,,,tennis.com
 wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Tianmei Wang,Shakhnoza Khatamova,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Tianmei Wang,Lily Rochon,,,,,tennis.com
 wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Briley Rhoden,Lily Rochon,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Calla McGill,Salma Ewing,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Abigail Lee,Sue Yan Tan,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Camille Kiss,Veronica Miroshnichenko,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Tianmei Wang,Chelsea Bluestein,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Briley Rhoden,Shakhnoza Khatamova,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Kate Mansfield,Hudson Hawkins,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Briley Rhoden,Chelsea Bluestein,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Mika Ikemori,Sue Yan Tan,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Mika Ikemori,Veronica Miroshnichenko,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Chelsea Bluestein,Shakhnoza Khatamova,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Abigail Lee,Veronica Miroshnichenko,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Olivia Center,Hudson Hawkins,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Sage Bergeson,Marley Lambert,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Hudson Hawkins,Simone Kay,,,,,tennis.com
 wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Mika Ikemori,Abigail Lee,,,,,tennis.com
-atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Diordan Macababbad,Corban Crowther,,,,,tennis.com
-atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Kotaro Mochizuki,Satoru Nakajima,,,,,tennis.com
-atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Ryosuke Inagawa,Kai Milburn,,,,,tennis.com
-atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Eita Suzuki,Ryota Tanuma,,,,,tennis.com
-atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Dan Milburn,Yuga Tashiro,,,,,tennis.com
-atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Yuto Miyagawa,Yuga Tashiro,,,,,tennis.com
-atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Ryosuke Inagawa,Ryota Tanuma,,,,,tennis.com
-atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Satoru Nakajima,Manato Uchida,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Briley Rhoden,Shakhnoza Khatamova,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Tianmei Wang,Chelsea Bluestein,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Camille Kiss,Veronica Miroshnichenko,,,,,tennis.com
 atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Yuto Miyagawa,Jacob Kailiang Shen,,,,,tennis.com
+atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Kotaro Mochizuki,Manato Uchida,,,,,tennis.com
+atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Satoru Nakajima,Manato Uchida,,,,,tennis.com
+atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Riku Higashi,Kotaro Matsumura,,,,,tennis.com
+atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Noa Milburn,Kotaro Matsumura,,,,,tennis.com
+atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Noa Milburn,Corban Crowther,,,,,tennis.com
 atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Eita Suzuki,Kai Milburn,,,,,tennis.com
 atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Haru Kawanak,Takumi Katsuda,,,,,tennis.com
 atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Kanata Ozaki,Kai Milburn,,,,,tennis.com
 atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Hong-Lin Fu,Jacob Kailiang Shen,,,,,tennis.com
-atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Kotaro Mochizuki,Manato Uchida,,,,,tennis.com
-atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Riku Higashi,Kotaro Matsumura,,,,,tennis.com
-atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Noa Milburn,Kotaro Matsumura,,,,,tennis.com
-atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Noa Milburn,Corban Crowther,,,,,tennis.com
 atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Satoru Nakajima,Takumi Katsuda,,,,,tennis.com
+atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Ryosuke Inagawa,Ryota Tanuma,,,,,tennis.com
+atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Yuto Miyagawa,Yuga Tashiro,,,,,tennis.com
+atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Dan Milburn,Yuga Tashiro,,,,,tennis.com
+atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Eita Suzuki,Ryota Tanuma,,,,,tennis.com
+atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Ryosuke Inagawa,Kai Milburn,,,,,tennis.com
+atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Kotaro Mochizuki,Satoru Nakajima,,,,,tennis.com
+atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Diordan Macababbad,Corban Crowther,,,,,tennis.com
 atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Diordan Macababbad,Noa Milburn,,,,,tennis.com
 atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Haru Kawanak,Manato Uchida,,,,,tennis.com
 atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Hong-Lin Fu,Yuto Miyagawa,,,,,tennis.com
 atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Riku Higashi,Corban Crowther,,,,,tennis.com
 atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Dan Milburn,Jacob Kailiang Shen,,,,,tennis.com
 atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Kanata Ozaki,Ryosuke Inagawa,,,,,tennis.com
-wta,,National Bank Open presented by Rogers,Hard,3,singles,Round 2,Rebecca Šramková,Diana Shnaider,,,,,tennis.com
-wta,,National Bank Open presented by Rogers,Hard,3,singles,Round 2,Maja Chwalińska,Talia Gibson,,,,,tennis.com
-wta,,National Bank Open presented by Rogers,Hard,3,singles,Round 2,Marta Kostyuk,Katherine Sebov,,,,,tennis.com
-wta,,National Bank Open presented by Rogers,Hard,3,singles,Round 2,Elena-Gabriela Ruse,Anastasia Potapova,,,,,tennis.com
 wta,,National Bank Open presented by Rogers,Hard,3,singles,Round 2,Antonia Ružić,Madison Keys,,,,,tennis.com
 wta,,National Bank Open presented by Rogers,Hard,3,singles,Round 2,Shuai Zhang,Jeļena Ostapenko,,,,,tennis.com
 wta,,National Bank Open presented by Rogers,Hard,3,singles,Round 2,Kamilla Rakhimova,Kateřina Siniaková,,,,,tennis.com
