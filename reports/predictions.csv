@@ -1,20 +1,19 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,National Bank Open Presented by Rogers,Hard,Round 2,James Duckworth,Alex De Minaur,0.1463,0.8537,6.83,1.17,23.55,0.3729,6.33,4.64,2.21,2.64,tennis.com
+atp,,National Bank Open Presented by Rogers,Hard,Round 2,James Duckworth,Alex De Minaur,0.1529,0.8471,6.54,1.18,23.62,0.3758,6.36,4.64,2.23,2.64,tennis.com
 atp,,UTR PTT Newport Beach Men 19,Grass,,Jay Clarke,Hyeon Chung,0.2178,0.7822,4.59,1.28,24.59,0.4345,4.21,4.92,2.81,3.28,tennis.com
-atp,,National Bank Open Presented by Rogers,Hard,Round 2,Jiri Lehecka,Vit Kopriva,0.7523,0.2477,1.33,4.04,24.88,0.4562,7.96,6.45,2.65,3.33,tennis.com
-atp,,National Bank Open Presented by Rogers,Hard,Round 2,Juncheng Shang,Andrey Rublev,0.2885,0.7115,3.47,1.41,25.24,0.4708,5.44,9.28,2.24,2.33,tennis.com
-atp,,National Bank Open Presented by Rogers,Hard,Round 2,Brandon Nakashima,Daniel Altmaier,0.689,0.311,1.45,3.22,26.14,0.5824,9.12,7.73,1.57,2.09,tennis.com
-atp,,National Bank Open Presented by Rogers,Hard,Round 2,Frances Tiafoe,Marin Cilic,0.664,0.336,1.51,2.98,25.92,0.5425,6.5,7.97,2.33,3.15,tennis.com
+atp,,National Bank Open Presented by Rogers,Hard,Round 2,Jiri Lehecka,Vit Kopriva,0.733,0.267,1.36,3.75,25.03,0.4631,7.97,6.54,2.66,3.37,tennis.com
+atp,,National Bank Open Presented by Rogers,Hard,Round 2,Juncheng Shang,Andrey Rublev,0.2703,0.7297,3.7,1.37,25.12,0.4651,5.37,9.27,2.21,2.32,tennis.com
+atp,,National Bank Open Presented by Rogers,Hard,Round 2,Brandon Nakashima,Daniel Altmaier,0.7274,0.2726,1.37,3.67,25.88,0.5705,9.09,7.58,1.57,2.05,tennis.com
+atp,,National Bank Open Presented by Rogers,Hard,Round 2,Frances Tiafoe,Marin Cilic,0.6465,0.3535,1.55,2.83,26.01,0.5462,6.49,8.04,2.33,3.18,tennis.com
 atp,,National Bank Open Presented by Rogers,Hard,Round 1,Shintaro Mochizuki,Fabian Marozsan,0.3675,0.6325,2.72,1.58,25.28,0.4412,6.39,6.25,2.86,2.33,tennis.com
-atp,,National Bank Open Presented by Rogers,Hard,Round 1,Giovanni Mpetshi Perricard,Botic Van De Zandschulp,0.3919,0.6081,2.55,1.64,27.12,0.6721,13.56,6.56,3.76,4.12,tennis.com
-atp,,Lexington Challenger,Grass,Round 1,Moez Echargui,Steve Johnson,0.403,0.597,2.48,1.68,25.74,0.492,6.46,4.89,2.39,3.26,tennis.com
 atp,,National Bank Open Presented by Rogers,Hard,Round 2,Flavio Cobolli,Yannick Hanfmann,0.5634,0.4366,1.77,2.29,25.99,0.5203,5.45,7.17,2.02,2.5,tennis.com
-atp,,National Bank Open Presented by Rogers,Hard,Round 1,Lorenzo Sonego,Tallon Griekspoor,0.4723,0.5277,2.12,1.89,27.05,0.6528,6.17,9.89,2.08,2.6,tennis.com
-atp,,National Bank Open Presented by Rogers,Hard,Round 2,Luciano Darderi,Gabriel Diallo,0.481,0.519,2.08,1.93,25.89,0.5014,7.17,8.17,3.68,3.69,tennis.com
+atp,,National Bank Open Presented by Rogers,Hard,Round 2,Luciano Darderi,Gabriel Diallo,0.4892,0.5108,2.04,1.96,25.89,0.5015,7.18,8.16,3.69,3.69,tennis.com
 wta,,National Bank Open presented by Rogers,Hard,Round 2,Aryna Sabalenka,Moyuka Uchijima,0.9624,0.0376,1.04,26.6,19.98,0.1739,4.5,1.82,3.37,2.37,tennis.com
 wta,,National Bank Open presented by Rogers,Hard,Round 2,Lanlana Tararudee,Amanda Anisimova,0.2234,0.7766,4.48,1.29,23.25,0.2691,3.31,4.03,2.92,4.8,tennis.com
-wta,,National Bank Open presented by Rogers,Hard,Round 2,Antonia Ruzic,Madison Keys,0.248,0.752,4.03,1.33,23.67,0.2994,2.33,4.67,3.14,6.07,tennis.com
+wta,,National Bank Open presented by Rogers,Hard,Round 2,Antonia Ruzic,Madison Keys,0.2621,0.7379,3.81,1.36,23.78,0.3034,2.36,4.66,3.18,6.06,tennis.com
 wta,,National Bank Open presented by Rogers,Hard,Round 2,Kamilla Rakhimova,Katerina Siniakova,0.3412,0.6588,2.93,1.52,24.18,0.312,2.75,2.16,4.48,4.34,tennis.com
+wta,,National Bank Open presented by Rogers,Hard,Round 2,Anna Kalinskaya,Mccartney Kessler,0.6452,0.3548,1.55,2.82,24.26,0.3194,3.04,2.96,3.93,4.04,tennis.com
 wta,,National Bank Open presented by Rogers,Hard,Round 2,Shuai Zhang,Jelena Ostapenko,0.3863,0.6137,2.59,1.63,24.38,0.3216,2.99,4.38,3.2,5.88,tennis.com
-wta,,National Bank Open presented by Rogers,Hard,Round 2,Anna Kalinskaya,Mccartney Kessler,0.6036,0.3964,1.66,2.52,24.41,0.3246,3.02,3.03,3.89,4.14,tennis.com
-wta,,National Bank Open presented by Rogers,Hard,Round 2,Clara Tauson,Nikola Bartunkova,0.5295,0.4705,1.89,2.13,24.7,0.3478,7.42,4.25,3.88,5.55,tennis.com
+wta,,Polish Open,Hard,Round 2,Martyna Kubka,Mona Barthel,0.5341,0.4659,1.87,2.15,24.7,0.3486,5.5,4.78,3.85,3.19,tennis.com
+wta,,Polish Open,Hard,Round 2,Gabriela Andrea Knutson,Ella Seidel,0.5103,0.4897,1.96,2.04,24.68,0.3444,3.06,4.0,4.62,4.1,tennis.com
+wta,,National Bank Open presented by Rogers,Hard,Round 2,Clara Tauson,Nikola Bartunkova,0.5084,0.4916,1.97,2.03,24.71,0.3482,7.37,4.29,3.85,5.6,tennis.com
