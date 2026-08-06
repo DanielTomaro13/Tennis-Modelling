@@ -1,12 +1,4 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,National Bank Open Presented by Rogers,Hard,Round 3,Jiri Lehecka,Alexander Blockx,0.7258,0.2742,1.38,3.65,25.5,0.5202,7.9,7.3,2.63,2.21,tennis.com
-atp,,National Bank Open Presented by Rogers,Hard,Round 3,Cameron Norrie,Alex De Minaur,0.311,0.689,3.22,1.45,25.13,0.4452,5.52,4.71,2.4,2.68,tennis.com
 atp,,National Bank Open Presented by Rogers,Hard,Round 3,Frances Tiafoe,Arthur Rinderknech,0.6383,0.3617,1.57,2.76,26.15,0.562,6.48,7.99,2.33,2.76,tennis.com
 atp,,National Bank Open Presented by Rogers,Hard,Round 3,Brandon Nakashima,Titouan Droguet,0.6185,0.3815,1.62,2.62,26.32,0.5771,9.13,4.62,1.57,3.08,tennis.com
-atp,,National Bank Open Presented by Rogers,Hard,Round 3,Yannick Hanfmann,Nuno Borges,0.4784,0.5216,2.09,1.92,26.17,0.5389,7.31,6.56,2.55,2.5,tennis.com
-atp,,National Bank Open Presented by Rogers,Hard,Round 3,Rafael Jodar,Lorenzo Musetti,0.5204,0.4796,1.92,2.09,25.26,0.4194,6.04,5.88,2.21,2.52,tennis.com
-wta,,National Bank Open presented by Rogers,Hard,Round 3,Aryna Sabalenka,Shuai Zhang,0.9216,0.0784,1.09,12.76,21.48,0.2351,4.64,2.14,3.46,2.29,tennis.com
-wta,,National Bank Open presented by Rogers,Hard,Round 3,Jessica Pegula,Kamilla Rakhimova,0.8995,0.1005,1.11,9.95,21.75,0.2362,3.71,2.09,2.57,3.4,tennis.com
-wta,,National Bank Open presented by Rogers,Hard,Round 3,Nikola Bartunkova,Amanda Anisimova,0.2733,0.7267,3.66,1.38,23.82,0.3031,3.79,3.99,4.95,4.75,tennis.com
 wta,,National Bank Open presented by Rogers,Hard,Round 3,Elina Svitolina,Anastasia Potapova,0.7196,0.2804,1.39,3.57,23.76,0.2934,4.71,2.79,4.31,4.32,tennis.com
-wta,,National Bank Open presented by Rogers,Hard,Round 3,Marta Kostyuk,Madison Keys,0.5911,0.4089,1.69,2.45,24.49,0.332,4.01,4.23,5.96,5.51,tennis.com
