@@ -1,69 +1,13 @@
 tour,date,tournament,surface,best_of,format,round,player1,player2,p1a,p1b,p2a,p2b,source
-atp,,Kozerki Open,Hard,3,singles,Quarterfinal,Alexander Donski,Daniil Glinka,,,,,tennis.com
-atp,,Kozerki Open,Hard,3,singles,Quarterfinal,Michele Ribecai,Andrea Guerrieri,,,,,tennis.com
-atp,,Kozerki Open,Hard,3,singles,Quarterfinal,Joel Schwärzler,Ilya Ivashka,,,,,tennis.com
-atp,,Platzmann Open,Hard,3,singles,Quarterfinal,Zsombor Piros,Guy Den Ouden,,,,,tennis.com
-atp,,Platzmann Open,Hard,3,singles,Quarterfinal,Lorenzo Giustino,Jérôme Kym,,,,,tennis.com
-atp,,ATP Challenger Istanbul 2,Grass,3,singles,Quarterfinal,Ilia Simakin,Florent Bax,,,,,tennis.com
-atp,,ATP Challenger Istanbul 2,Grass,3,singles,Quarterfinal,Antoine Ghibaudo,Max Basing,,,,,tennis.com
-atp,,"ATP Challenger Plovdiv 2, Bulgaria",Grass,3,singles,Quarterfinal,Carlos Sánchez Jover,George Lazarov,,,,,tennis.com
-atp,,"ATP Challenger Plovdiv 2, Bulgaria",Grass,3,singles,Quarterfinal,Gerard Campana Lee,Gabriele Piraino,,,,,tennis.com
-atp,,"ATP Challenger Plovdiv 2, Bulgaria",Grass,3,singles,Quarterfinal,Adrian Andreev,Petr Nesterov,,,,,tennis.com
-atp,,"ATP Challenger Plovdiv 2, Bulgaria",Grass,3,singles,Quarterfinal,Yannick Theodor Alexandrescou,Radu Mihai Papoe,,,,,tennis.com
-atp,,National Bank Open Presented by Rogers,Hard,3,singles,Round 3,Frances Tiafoe,Arthur Rinderknech,,,,,tennis.com
-atp,,UTR PTT Brisbane Men 01,Hard,3,singles,,Zane Stevens,Scott Jones,,,,,tennis.com
 atp,,UTR PTT Brisbane Men 01,Hard,3,singles,Final,Omar Jasika,Hayden Jones,,,,,tennis.com
-atp,,UTR PTT Brisbane Men 01,Hard,3,singles,Final,Casey Hoole,Alec Gaudin,,,,,tennis.com
 atp,,UTR PTT Brisbane Men 01,Hard,3,singles,,Jeremy Beale,Cooper Kose,,,,,tennis.com
-wta,,UTR PTT Brisbane Women 01,Hard,3,singles,,Lily Fannin,Elicia Kim,,,,,tennis.com
-wta,,UTR PTT Brisbane Women 01,Hard,3,singles,Final,Zayah Baker,Juliet Santitto,,,,,tennis.com
-wta,,UTR PTT Brisbane Women 01,Hard,3,singles,Final,Eva Lopez,Violet Apisah,,,,,tennis.com
 wta,,UTR PTT Brisbane Women 01,Hard,3,singles,,Isabel Cairns,Ava-Monet Sycamore,,,,,tennis.com
 wta,,UTR PTT Brisbane Women 01,Hard,3,singles,,Grace Cadwallader,Olivia Symons,,,,,tennis.com
-atp,,UTR PTT Hamburg Men 01,Clay,3,singles,Semifinal,Edoardo Barbalaco,Baltazar Wiger Nordas,,,,,tennis.com
-atp,,UTR PTT Hamburg Men 01,Clay,3,singles,Semifinal,Samuel Rovai,Jan Urbanski,,,,,tennis.com
-atp,,UTR PTT Hamburg Men 01,Clay,3,singles,Semifinal,Serign Samba,Adam Novotny,,,,,tennis.com
-atp,,UTR PTT Hamburg Men 01,Clay,3,singles,Semifinal,Artem Lyapshin,Cian McDonnell,,,,,tennis.com
-atp,,UTR PTT Hamburg Men 01,Clay,3,singles,Semifinal,Vit Kalina,Noah Zeiger,,,,,tennis.com
-atp,,UTR PTT Hamburg Men 01,Clay,3,singles,Semifinal,Eyal Shumilov,Armin Trklja,,,,,tennis.com
-atp,,UTR PTT Hamburg Men 01,Clay,3,singles,Semifinal,Claus Piening,Theo Coats,,,,,tennis.com
-atp,,UTR PTT Hamburg Men 01,Clay,3,singles,Semifinal,Hugo Garcia Gomez,Felix Neumeister,,,,,tennis.com
-atp,,UTR PTT Hamburg Men 01,Clay,3,singles,Semifinal,Filip Soderqvist,Rein Koenders,,,,,tennis.com
-atp,,UTR PTT Hamburg Men 01,Clay,3,singles,Semifinal,Frazier Rengifo,Miko Wassermann,,,,,tennis.com
-wta,,UTR PTT Hamburg Women 01,Clay,3,singles,Semifinal,Paula Schaefer,Leandra Nizetic,,,,,tennis.com
-wta,,UTR PTT Hamburg Women 01,Clay,3,singles,Semifinal,Liubou Murashka,Maja Radenkovic,,,,,tennis.com
-wta,,UTR PTT Hamburg Women 01,Clay,3,singles,Semifinal,Marie Krymlova,Anastasiya Kuparev,,,,,tennis.com
-wta,,UTR PTT Hamburg Women 01,Clay,3,singles,Semifinal,Erika Novakova,Neila Trklja,,,,,tennis.com
-wta,,UTR PTT Hamburg Women 01,Clay,3,singles,Semifinal,Anna Marie Weissheim,Arina Gabriela Vasilescu,,,,,tennis.com
-wta,,UTR PTT Hamburg Women 01,Clay,3,singles,Semifinal,Ingrid Vojcinakova,Fenna Steveker,,,,,tennis.com
-wta,,UTR PTT Hamburg Women 01,Clay,3,singles,Semifinal,Irina Fetecau,Victoria Borodulina,,,,,tennis.com
-wta,,UTR PTT Hamburg Women 01,Clay,3,singles,Semifinal,Mia Keuler,Karolina Golda,,,,,tennis.com
-wta,,UTR PTT Hamburg Women 01,Clay,3,singles,Semifinal,Ellen Katzer,Nela Jandova,,,,,tennis.com
-wta,,UTR PTT Hamburg Women 01,Clay,3,singles,Semifinal,Laima Frosch,Ksenia Hanke,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Dominique Rolland,Blake Anderson,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Rohan Sachdev,Justin Chung,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Marco Alvarez,David Duong,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Robert Yang,Antreas Djakouris,,,,,tennis.com
 atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Emmett Potter,Constantinos Djakouris,,,,,tennis.com
 atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Nischal Spurling,William Zhang,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Jacob Brumm,Holland Snell,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,,Perry Di Giulio,Pavel Bushuev,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Kaia Giribalan,Tia Messerli,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Hudson Hawkins,Simone Kay,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Sage Bergeson,Marley Lambert,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Camilia Samel Druz,Bella Lewis,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Briley Rhoden,Ellie Gyuro,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Chelsea Bluestein,Shakhnoza Khatamova,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Abigail Lee,Veronica Miroshnichenko,,,,,tennis.com
 wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,,Camille Kiss,Sue Yan Tan,,,,,tennis.com
-atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Eita Suzuki,Ryota Tanuma,,,,,tennis.com
-atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Yuto Miyagawa,Jacob Kailiang Shen,,,,,tennis.com
 atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Noa Milburn,Corban Crowther,,,,,tennis.com
 atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Ryosuke Inagawa,Kai Milburn,,,,,tennis.com
 atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Riku Higashi,Kotaro Matsumura,,,,,tennis.com
 atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Satoru Nakajima,Manato Uchida,,,,,tennis.com
 atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Haru Kawanak,Takumi Katsuda,,,,,tennis.com
-atp,,UTR PTT Saitama Men 06,Hard,3,singles,,Dan Milburn,Yuga Tashiro,,,,,tennis.com
-wta,,Polish Open,Hard,3,singles,Semifinal,Elizara Yaneva,Gabriela Knutson,,,,,tennis.com
-wta,,Polish Open,Hard,3,singles,Semifinal,Carol Young Suh Lee,Vendula Valdmannová,,,,,tennis.com
-wta,,National Bank Open presented by Rogers,Hard,3,singles,Round 3,Elina Svitolina,Anastasia Potapova,,,,,tennis.com
