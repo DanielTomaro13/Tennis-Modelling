@@ -1,3 +1,1 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,UTR PTT Newport Beach Men 19,Grass,,Jay Clarke,Hyeon Chung,0.2178,0.7822,4.59,1.28,24.59,0.4345,4.21,4.92,2.81,3.28,tennis.com
-atp,,National Bank Open Presented by Rogers,Hard,Round 3,Learner Tien,Tommy Paul,0.5166,0.4834,1.94,2.07,25.25,0.4188,5.96,5.68,3.68,1.88,tennis.com
