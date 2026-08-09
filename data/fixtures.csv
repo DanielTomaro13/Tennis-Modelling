@@ -1,7 +1,7 @@
 tour,date,tournament,surface,best_of,format,round,player1,player2,p1a,p1b,p2a,p2b,source
+atp,,President's Cup,Hard,3,singles,Qualifying Round 1,Mitsuki Wei Kang Leong,Yerassyl Yerdilda,,,,,tennis.com
 atp,,President's Cup,Hard,3,singles,Qualifying Round 1,Danial Rakhmatullayev,Alec Deckers,,,,,tennis.com
 atp,,President's Cup,Hard,3,singles,Qualifying Round 1,Kokoro Isomura,Uisung Park,,,,,tennis.com
-atp,,President's Cup,Hard,3,singles,Qualifying Round 1,Mitsuki Wei Kang Leong,Yerassyl Yerdilda,,,,,tennis.com
 atp,,President's Cup,Hard,3,singles,Qualifying Round 1,Daniel Tazabekov,Sasikumar Mukund,,,,,tennis.com
 atp,,President's Cup,Hard,3,singles,Qualifying Round 1,Egor Pleshivtsev,Erik Arutiunian,,,,,tennis.com
 atp,,President's Cup,Hard,3,singles,Qualifying Round 1,Daniil Ostapenkov,Egor Agafonov,,,,,tennis.com
@@ -11,63 +11,28 @@ atp,,President's Cup,Hard,3,singles,Qualifying Round 1,Sidharth Rawat,Aleksandre
 atp,,President's Cup,Hard,3,singles,Qualifying Round 1,Damir Zhalgasbay,Yurii Dzhavakian,,,,,tennis.com
 atp,,President's Cup,Hard,3,singles,Qualifying Round 1,Pawit Sornlaksup,Shunsuke Mitsui,,,,,tennis.com
 atp,,President's Cup,Hard,3,singles,Qualifying Round 1,Colin Sinclair,Alibek Kachmazov,,,,,tennis.com
-atp,,ATP Challenger Brownsburg,Grass,3,singles,Qualifying Round 1,Eli Dieveney,Andrew Fenty,,,,,tennis.com
-atp,,ATP Challenger Brownsburg,Grass,3,singles,Qualifying Round 1,Tyler Zink,Evan King,,,,,tennis.com
-atp,,ATP Challenger Brownsburg,Grass,3,singles,Qualifying Round 1,Edward Winter,Dominick Mosejczuk,,,,,tennis.com
-atp,,ATP Challenger Brownsburg,Grass,3,singles,Qualifying Round 1,Tristan Boyer,Matthew Forbes,,,,,tennis.com
-atp,,ATP Challenger Brownsburg,Grass,3,singles,Qualifying Round 1,Ryan Dickerson,Aidan Mayo,,,,,tennis.com
-atp,,ATP Challenger Brownsburg,Grass,3,singles,Qualifying Round 1,William Manning,Gavin Young,,,,,tennis.com
-atp,,ATP Challenger Brownsburg,Grass,3,singles,Qualifying Round 1,Trey Hilderbrand,Aidan Kim,,,,,tennis.com
-atp,,ATP Challenger Brownsburg,Grass,3,singles,Qualifying Round 1,Benjamin Kittay,Mees Rottgering,,,,,tennis.com
-atp,,ATP Challenger Brownsburg,Grass,3,singles,Qualifying Round 1,Paul Jubb,Ajeet Rai,,,,,tennis.com
-atp,,ATP Challenger Brownsburg,Grass,3,singles,Qualifying Round 1,Patricio Alvarado,Quinn Vandecasteele,,,,,tennis.com
-atp,,ATP Challenger Brownsburg,Grass,3,singles,Qualifying Round 1,Garrett Johns,Anirudh Chandrasekar,,,,,tennis.com
 atp,,Kozerki Open,Hard,3,singles,Final,Joel Schwärzler,Andrea Guerrieri,,,,,tennis.com
 atp,,Platzmann Open,Hard,3,singles,Final,Tom Gentzsch,Jérôme Kym,,,,,tennis.com
-atp,,Hamburg Ladies \u0026 Gents cup,Clay,3,singles,Qualifying Round 1,Hynek Bartoň,Tim Handel,,,,,tennis.com
-atp,,Hamburg Ladies \u0026 Gents cup,Clay,3,singles,Qualifying Round 1,Jan Kumstát,Alan Wazny,,,,,tennis.com
 atp,,Hamburg Ladies \u0026 Gents cup,Clay,3,singles,Qualifying Round 1,Tom Zeuch,Oscar Jose Gutierrez,,,,,tennis.com
+atp,,Hamburg Ladies \u0026 Gents cup,Clay,3,singles,Qualifying Round 1,Jan Kumstát,Alan Wazny,,,,,tennis.com
+atp,,Hamburg Ladies \u0026 Gents cup,Clay,3,singles,Qualifying Round 1,Hynek Bartoň,Tim Handel,,,,,tennis.com
 atp,,Hamburg Ladies \u0026 Gents cup,Clay,3,singles,Qualifying Round 1,Boris Arias,Ergi Kirkin,,,,,tennis.com
 atp,,Hamburg Ladies \u0026 Gents cup,Clay,3,singles,Qualifying Round 1,Samuele Pieri,Federico Zeballos,,,,,tennis.com
 atp,,Hamburg Ladies \u0026 Gents cup,Clay,3,singles,Qualifying Round 1,Mariano Dedura-Palomero,Fryderyk Lechno-Wasiutyński,,,,,tennis.com
-atp,,Hamburg Ladies \u0026 Gents cup,Clay,3,singles,Qualifying Round 1,Ryan Nijboer,Jannik Opitz,,,,,tennis.com
 atp,,Hamburg Ladies \u0026 Gents cup,Clay,3,singles,Qualifying Round 1,Niklas Guttau,Nikolai Barsukov,,,,,tennis.com
 atp,,Hamburg Ladies \u0026 Gents cup,Clay,3,singles,Qualifying Round 1,David Poljak,Oleksii Krutykh,,,,,tennis.com
+atp,,Hamburg Ladies \u0026 Gents cup,Clay,3,singles,Qualifying Round 1,Ryan Nijboer,Jannik Opitz,,,,,tennis.com
 atp,,Hamburg Ladies \u0026 Gents cup,Clay,3,singles,Qualifying Round 1,Richard Antoni,Saba Purtseladze,,,,,tennis.com
 atp,,Hamburg Ladies \u0026 Gents cup,Clay,3,singles,Qualifying Round 1,Denis Yevseyev,Noel Larwig,,,,,tennis.com
 atp,,Hamburg Ladies \u0026 Gents cup,Clay,3,singles,Qualifying Round 1,Unknown,Christopher Papa,,,,,tennis.com
-atp,,ATP Challenger Istanbul 2,Grass,3,singles,Final,Lucas Poullain,Ilia Simakin,,,,,tennis.com
-atp,,Lexington Challenger,Grass,3,singles,Final,Andre Ilagan,Edas Butvilas,,,,,tennis.com
-atp,,"ATP Challenger Plovdiv 2, Bulgaria",Grass,3,singles,Final,Gabriele Piraino,Petr Nesterov,,,,,tennis.com
-atp,,Internazionali di Tennis Citta di Todi,Hard,3,singles,Qualifying Round 1,Valerio Aboian,Maximilian Homberg,,,,,tennis.com
 atp,,Internazionali di Tennis Citta di Todi,Hard,3,singles,Qualifying Round 1,Gabriele Maria Noce,Lorenzo Carboni,,,,,tennis.com
+atp,,Internazionali di Tennis Citta di Todi,Hard,3,singles,Qualifying Round 1,Valerio Aboian,Maximilian Homberg,,,,,tennis.com
 atp,,Internazionali di Tennis Citta di Todi,Hard,3,singles,Qualifying Round 1,Michele Mecarelli,Eero Vasa,,,,,tennis.com
-atp,,Internazionali di Tennis Citta di Todi,Hard,3,singles,Qualifying Round 1,Eric Vanshelboim,Dominik Reček,,,,,tennis.com
-atp,,Internazionali di Tennis Citta di Todi,Hard,3,singles,Qualifying Round 1,Gianmarco Ferrari,Edoardo Betti,,,,,tennis.com
 atp,,Internazionali di Tennis Citta di Todi,Hard,3,singles,Qualifying Round 1,Franco Ribero,Nikita Mashtakov,,,,,tennis.com
+atp,,Internazionali di Tennis Citta di Todi,Hard,3,singles,Qualifying Round 1,Gianmarco Ferrari,Edoardo Betti,,,,,tennis.com
+atp,,Internazionali di Tennis Citta di Todi,Hard,3,singles,Qualifying Round 1,Eric Vanshelboim,Dominik Reček,,,,,tennis.com
+atp,,Internazionali di Tennis Citta di Todi,Hard,3,singles,Qualifying Round 1,Jesse Delaney,Alexander Weis,,,,,tennis.com
 atp,,Internazionali di Tennis Citta di Todi,Hard,3,singles,Qualifying Round 1,Stefano D`Agostino,Giorgio Tabacco,,,,,tennis.com
 atp,,Internazionali di Tennis Citta di Todi,Hard,3,singles,Qualifying Round 1,Gabriele Crivellaro,Federico Arnaboldi,,,,,tennis.com
-atp,,Internazionali di Tennis Citta di Todi,Hard,3,singles,Qualifying Round 1,Jesse Delaney,Alexander Weis,,,,,tennis.com
-atp,,Internazionali di Tennis Citta di Todi,Hard,3,singles,Qualifying Round 1,Juan Cruz Martin Manzano,Daniele Rapagnetta,,,,,tennis.com
 atp,,Internazionali di Tennis Citta di Todi,Hard,3,singles,Qualifying Round 1,Georgii Kravchenko,Giammarco Gandolfi,,,,,tennis.com
-atp,,Internazionali di Tennis Citta di Todi,Hard,3,singles,Qualifying Round 1,Carlo Alberto Caniato,Federico Cecconi,,,,,tennis.com
-atp,,National Bank Open Presented by Rogers,Hard,3,singles,Round 4,Tallon Griekspoor,Daniel Mérida,,,,,tennis.com
-atp,,National Bank Open Presented by Rogers,Hard,3,singles,Round 4,Learner Tien,Thiago Agustín Tirante,,,,,tennis.com
-atp,,National Bank Open Presented by Rogers,Hard,3,singles,Round 4,João Fonseca,Ben Shelton,,,,,tennis.com
-atp,,National Bank Open Presented by Rogers,Hard,3,singles,Round 4,Botic van de Zandschulp,Jakub Menšík,,,,,tennis.com
-atp,,UTR PTT Auburn Men 02,Hard,3,singles,,Thomas Kennedy,Joseph Phillips,,,,,tennis.com
-atp,,UTR PTT Auburn Men 02,Hard,3,singles,Semifinal,Andrew Kotzen,Joseph Phillips,,,,,tennis.com
-wta,,UTR PTT Auburn Women 02,Hard,3,singles,Semifinal,Gabriella Barrera,Kesmat El Tawil,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,Final,David Duong,Robert Yang,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,Final,Justin Chung,Emmett Potter,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,Final,Jacob Brumm,Miles Clark,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 19,Grass,3,singles,Final,Blake Anderson,Antreas Djakouris,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,Final,Kaia Giribalan,Sue Yan Tan,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,Final,Veronica Miroshnichenko,Shakhnoza Khatamova,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,Final,Elena Goodman,Ellie Gyuro,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,Final,Chelsea Bluestein,Mika Ikemori,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 19,Grass,3,singles,Final,Olivia Center,Sage Bergeson,,,,,tennis.com
-wta,,National Bank Open presented by Rogers,Hard,3,singles,Round 4,Liudmila Samsonova,Elena Rybakina,,,,,tennis.com
-wta,,National Bank Open presented by Rogers,Hard,3,singles,Round 4,Alina Korneeva,Coco Gauff,,,,,tennis.com
-wta,,National Bank Open presented by Rogers,Hard,3,singles,Round 4,Leylah Fernandez,Naomi Osaka,,,,,tennis.com
-wta,,National Bank Open presented by Rogers,Hard,3,singles,Round 4,Alexandra Eala,Belinda Bencic,,,,,tennis.com
+atp,,Internazionali di Tennis Citta di Todi,Hard,3,singles,Qualifying Round 1,Juan Cruz Martin Manzano,Daniele Rapagnetta,,,,,tennis.com
