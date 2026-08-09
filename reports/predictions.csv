@@ -1,1 +1,8 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+atp,,National Bank Open Presented by Rogers,Hard,Round 4,Learner Tien,Thiago Agustin Tirante,0.7443,0.2557,1.34,3.91,24.49,0.4002,6.12,4.26,3.78,2.84,tennis.com
+atp,,National Bank Open Presented by Rogers,Hard,Round 4,Botic Van De Zandschulp,Jakub Mensik,0.3009,0.6991,3.32,1.43,25.28,0.4691,6.07,10.62,3.81,3.7,tennis.com
+atp,,National Bank Open Presented by Rogers,Hard,Round 4,Joao Fonseca,Ben Shelton,0.4683,0.5317,2.14,1.88,26.74,0.6142,7.53,8.81,2.21,2.9,tennis.com
+wta,,National Bank Open presented by Rogers,Hard,Round 4,Liudmila Samsonova,Elena Rybakina,0.1199,0.8801,8.34,1.14,22.34,0.2685,2.74,8.16,2.94,2.95,tennis.com
+wta,,National Bank Open presented by Rogers,Hard,Round 4,Alina Korneeva,Coco Gauff,0.191,0.809,5.23,1.24,22.9,0.2553,2.59,4.51,3.53,7.61,tennis.com
+wta,,National Bank Open presented by Rogers,Hard,Round 4,Leylah Fernandez,Naomi Osaka,0.2999,0.7001,3.33,1.43,24.27,0.3413,3.34,7.08,4.15,3.42,tennis.com
+wta,,National Bank Open presented by Rogers,Hard,Round 4,Alexandra Eala,Belinda Bencic,0.5059,0.4941,1.98,2.02,24.47,0.3178,1.61,3.44,3.74,3.52,tennis.com
