@@ -1,1 +1,2 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+atp,,Internazionali di Tennis Citta di Todi,Hard,Round 1,Hugo Dellien,Daniel Elahi Galan,0.4828,0.5172,2.07,1.93,25.57,0.4594,4.81,7.32,3.21,2.49,tennis.com
