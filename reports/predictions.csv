@@ -1,6 +1,1 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,National Bank Open Presented by Rogers,Hard,Quarterfinal,Luciano Darderi,Brandon Nakashima,0.2788,0.7212,3.59,1.39,25.99,0.5732,6.65,9.06,3.42,1.56,tennis.com
-atp,,Hamburg Ladies \u0026 Gents cup,Clay,Round 1,Rudolf Molleker,Elmer Moller,0.3661,0.6339,2.73,1.58,25.19,0.4309,4.6,3.9,3.07,3.14,tennis.com
-atp,,National Bank Open Presented by Rogers,Hard,Quarterfinal,Rafael Jodar,Arthur Fils,0.4436,0.5564,2.25,1.8,25.77,0.4891,5.89,7.48,2.15,2.82,tennis.com
-wta,,National Bank Open presented by Rogers,Hard,Quarterfinal,Ekaterina Alexandrova,Elina Svitolina,0.2568,0.7432,3.89,1.35,23.84,0.3137,4.43,4.66,4.59,4.27,tennis.com
-wta,,UTR PTT Arnhem Women 04,Hard,,Maria Kirilenko,Shahar Peer,0.7331,0.2669,1.36,3.75,23.75,0.3012,5.15,4.23,3.43,2.82,tennis.com
