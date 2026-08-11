@@ -1,36 +1,25 @@
 tour,date,tournament,surface,best_of,format,round,player1,player2,p1a,p1b,p2a,p2b,source
-atp,,President's Cup,Hard,3,singles,Round 1,Aziz Ouakaa,Jie Cui,,,,,tennis.com
-atp,,President's Cup,Hard,3,singles,Round 1,Petr Bar Biryukov,Taisei Ichikawa,,,,,tennis.com
-atp,,President's Cup,Hard,3,singles,Round 1,Vadym Ursu,Manas Dhamne,,,,,tennis.com
-atp,,President's Cup,Hard,3,singles,Round 1,Takuya Kumasaka,Colin Sinclair,,,,,tennis.com
-atp,,President's Cup,Hard,3,singles,Round 1,Amir Omarkhanov,Beibit Zhukayev,,,,,tennis.com
-atp,,President's Cup,Hard,3,singles,Round 1,Sidharth Rawat,Mert Alkaya,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Yakumo Motokura,Kai Milburn,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Keishi Hashimoto,Jonas Hahn,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Yuki Karatsu,Corban Crowther,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Taichi Wakamatsu,Christopher Kosei Ono,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Shotaro Yamamoto,Riku Higashi,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Koyu Yanagi,Malek El-Qurneh,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Kenta Kawada,Eita Suzuki,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Yuki Karatsu,Christopher Kosei Ono,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Yuki Karatsu,Manato Uchida,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Yakumo Motokura,Taketo Takamisawa,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Yakumo Motokura,Riku Higashi,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Corban Crowther,Manato Uchida,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Kotaro Mochizuki,Eita Suzuki,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Koyu Yanagi,Jonas Hahn,,,,,tennis.com
 atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Corban Crowther,Christopher Kosei Ono,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Shotaro Yamamoto,Taketo Takamisawa,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Keishi Hashimoto,Koyu Yanagi,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Kai Milburn,Taketo Takamisawa,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Kotaro Mochizuki,Haru Kawanak,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Shotaro Yamamoto,Kai Milburn,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Kenta Kawada,Kanata Ozaki,,,,,tennis.com
+atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Koyu Yanagi,Jonas Hahn,,,,,tennis.com
+atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Kai Milburn,Riku Higashi,,,,,tennis.com
 atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Taichi Wakamatsu,Manato Uchida,,,,,tennis.com
 atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Haruka Okubo,Jonas Hahn,,,,,tennis.com
+atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Corban Crowther,Manato Uchida,,,,,tennis.com
+atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Yakumo Motokura,Riku Higashi,,,,,tennis.com
 atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Keishi Hashimoto,Malek El-Qurneh,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Kai Milburn,Riku Higashi,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Taichi Wakamatsu,Corban Crowther,,,,,tennis.com
 atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Haru Kawanak,Kanata Ozaki,,,,,tennis.com
+atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Kenta Kawada,Eita Suzuki,,,,,tennis.com
+atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Taichi Wakamatsu,Corban Crowther,,,,,tennis.com
+atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Kotaro Mochizuki,Eita Suzuki,,,,,tennis.com
+atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Yuki Karatsu,Christopher Kosei Ono,,,,,tennis.com
 atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Haru Kawanak,Eita Suzuki,,,,,tennis.com
+atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Yuki Karatsu,Manato Uchida,,,,,tennis.com
+atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Yakumo Motokura,Taketo Takamisawa,,,,,tennis.com
 atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Haruka Okubo,Malek El-Qurneh,,,,,tennis.com
+atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Kotaro Mochizuki,Haru Kawanak,,,,,tennis.com
+atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Shotaro Yamamoto,Kai Milburn,,,,,tennis.com
+atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Koyu Yanagi,Malek El-Qurneh,,,,,tennis.com
+atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Kai Milburn,Taketo Takamisawa,,,,,tennis.com
+atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Kenta Kawada,Kanata Ozaki,,,,,tennis.com
+atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Keishi Hashimoto,Koyu Yanagi,,,,,tennis.com
+atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Shotaro Yamamoto,Taketo Takamisawa,,,,,tennis.com
