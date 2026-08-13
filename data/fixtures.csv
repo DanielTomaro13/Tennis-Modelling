@@ -1,26 +1,16 @@
 tour,date,tournament,surface,best_of,format,round,player1,player2,p1a,p1b,p2a,p2b,source
-atp,,President's Cup,Hard,3,singles,Quarterfinal,Fajing Sun,Hayato Matsuoka,,,,,tennis.com
-atp,,President's Cup,Hard,3,singles,Quarterfinal,Sergey Fomin,Masamichi Imamura,,,,,tennis.com
-atp,,President's Cup,Hard,3,singles,Quarterfinal,Khumoyun Sultanov,Mert Alkaya,,,,,tennis.com
-atp,,President's Cup,Hard,3,singles,Quarterfinal,Jie Cui,Aziz Dougaz,,,,,tennis.com
 atp,,ATP Challenger Brownsburg,Grass,3,singles,Round 2,Quinn Vandecasteele,Tristan Schoolkate,,,,,tennis.com
-atp,,ATP Challenger Brownsburg,Grass,3,singles,Round 2,Felix Gill,Jack Pinnington Jones,,,,,tennis.com
 atp,,ATP Challenger Brownsburg,Grass,3,singles,Round 2,Lloyd Harris,Mees Rottgering,,,,,tennis.com
+atp,,ATP Challenger Brownsburg,Grass,3,singles,Round 2,Felix Gill,Jack Pinnington Jones,,,,,tennis.com
 atp,,ATP Challenger Brownsburg,Grass,3,singles,Round 2,Bernard Tomic,Andre Ilagan,,,,,tennis.com
-atp,,Hamburg Ladies \u0026 Gents cup,Clay,3,singles,Quarterfinal,Marvin Möller,Niels McDonald,,,,,tennis.com
-atp,,Hamburg Ladies \u0026 Gents cup,Clay,3,singles,Quarterfinal,Matheus Pucinelli de Almeida,Dylan Dietrich,,,,,tennis.com
-atp,,Hamburg Ladies \u0026 Gents cup,Clay,3,singles,Quarterfinal,Carlos Taberner,Jan Kumstát,,,,,tennis.com
-atp,,Hamburg Ladies \u0026 Gents cup,Clay,3,singles,Quarterfinal,Saba Purtseladze,Matej Dodig,,,,,tennis.com
-atp,,Internazionali di Tennis Citta di Todi,Hard,3,singles,Round 2,Daniel Michalski,Lukas Neumayer,,,,,tennis.com
-atp,,Internazionali di Tennis Citta di Todi,Hard,3,singles,Quarterfinal,Marco Cecchinato,Juan Bautista Torres,,,,,tennis.com
-atp,,Internazionali di Tennis Citta di Todi,Hard,3,singles,Quarterfinal,Maxim Mrva,Federico Agustin Gomez,,,,,tennis.com
-atp,,Internazionali di Tennis Citta di Todi,Hard,3,singles,Quarterfinal,Nicolás Kicker,Francesco Passaro,,,,,tennis.com
+atp,,ATP Challenger Brownsburg,Grass,3,singles,Round 2,Gauthier Onclin,Andres Andrade,,,,,tennis.com
+atp,,National Bank Open Presented by Rogers,Hard,3,singles,Final,Ben Shelton,Brandon Nakashima,,,,,tennis.com
+atp,,Western \u0026 Southern Open,Hard,3,singles,Round 1,Camilo Ugo Carabelli,Miomir Kecmanović,,,,,tennis.com
+atp,,Western \u0026 Southern Open,Hard,3,singles,Round 1,Román Andrés Burruchaga,Jan-Lennard Struff,,,,,tennis.com
 atp,,Western \u0026 Southern Open,Hard,3,singles,Round 1,Thiago Agustín Tirante,Jan Choinski,,,,,tennis.com
 atp,,Western \u0026 Southern Open,Hard,3,singles,Round 1,Denis Shapovalov,Adrian Mannarino,,,,,tennis.com
-atp,,Western \u0026 Southern Open,Hard,3,singles,Round 1,Román Andrés Burruchaga,Jan-Lennard Struff,,,,,tennis.com
-atp,,Western \u0026 Southern Open,Hard,3,singles,Round 1,Camilo Ugo Carabelli,Miomir Kecmanović,,,,,tennis.com
-atp,,Western \u0026 Southern Open,Hard,3,singles,Round 1,Márton Fucsovics,Térence Atmane,,,,,tennis.com
 atp,,Western \u0026 Southern Open,Hard,3,singles,Round 1,Mariano Navone,Raphaël Collignon,,,,,tennis.com
+atp,,Western \u0026 Southern Open,Hard,3,singles,Round 1,Márton Fucsovics,Térence Atmane,,,,,tennis.com
 atp,,Western \u0026 Southern Open,Hard,3,singles,Round 1,Rinky Hijikata,Gaël Monfils,,,,,tennis.com
 atp,,Western \u0026 Southern Open,Hard,3,singles,Round 1,Zachary Svajda,Mattia Bellucci,,,,,tennis.com
 wta,,Western \u0026 Southern Open,Hard,3,singles,Round 1,Diane Parry,Caroline Dolehide,,,,,tennis.com
@@ -28,30 +18,14 @@ wta,,Western \u0026 Southern Open,Hard,3,singles,Round 1,Tatjana Maria,Dayana Ya
 wta,,Western \u0026 Southern Open,Hard,3,singles,Round 1,Cristina Bucșa,Panna Udvardy,,,,,tennis.com
 wta,,Western \u0026 Southern Open,Hard,3,singles,Round 1,Katie Boulter,Katie Volynets,,,,,tennis.com
 wta,,Western \u0026 Southern Open,Hard,3,singles,Round 1,Caty McNally,McCartney Kessler,,,,,tennis.com
-atp,,UTR PTT Arnhem Men 04,Hard,3,singles,,Lautaro Agustin Corthey,Amadatus Admiraal,,,,,tennis.com
-atp,,UTR PTT Arnhem Men 04,Hard,3,singles,,Stijn Paardekooper,Aaron Hilsum,,,,,tennis.com
-atp,,UTR PTT Arnhem Men 04,Hard,3,singles,,Calin Apostol,Raul Clarijs,,,,,tennis.com
-atp,,UTR PTT Arnhem Men 04,Hard,3,singles,,Valentino de Pellegrin,Platon Tsarenko,,,,,tennis.com
-atp,,UTR PTT Arnhem Men 04,Hard,3,singles,,Dylan Leeman,Rein Koenders,,,,,tennis.com
-atp,,UTR PTT Arnhem Men 04,Hard,3,singles,,Matthew Upton,Niels Lootsma,,,,,tennis.com
-atp,,UTR PTT Arnhem Men 04,Hard,3,singles,,Mehdi Benchakroun,Milan Markovits,,,,,tennis.com
-atp,,UTR PTT Arnhem Men 04,Hard,3,singles,,Riccardo Campagnola,Sam Kydd Baumgartner,,,,,tennis.com
-wta,,UTR PTT Arnhem Women 04,Hard,3,singles,,Zejda Veljacic,Fleur Sprengers,,,,,tennis.com
-wta,,UTR PTT Arnhem Women 04,Hard,3,singles,,Cara Korhonen,Mia Keuler,,,,,tennis.com
-wta,,UTR PTT Arnhem Women 04,Hard,3,singles,,Marelie Raath,Leandra Nizetic,,,,,tennis.com
-wta,,UTR PTT Arnhem Women 04,Hard,3,singles,,Lucia Cassidy,Daniela Ciobanu,,,,,tennis.com
-wta,,UTR PTT Arnhem Women 04,Hard,3,singles,,Chloe Lomans,Nika Beukers,,,,,tennis.com
-wta,,UTR PTT Arnhem Women 04,Hard,3,singles,,Emma Scaldalai,Diāna Marcinkēviča,,,,,tennis.com
-wta,,UTR PTT Arnhem Women 04,Hard,3,singles,,Laurie Barendse,Nina Kruijer,,,,,tennis.com
-wta,,UTR PTT Arnhem Women 04,Hard,3,singles,,Mariia Pryshchepa,Vicky Van de Peer,,,,,tennis.com
 atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Yakumo Motokura,Riku Higashi,,,,,tennis.com
+atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Haru Kawanak,Eita Suzuki,,,,,tennis.com
+atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Haruka Okubo,Jonas Hahn,,,,,tennis.com
 atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Koyu Yanagi,Malek El-Qurneh,,,,,tennis.com
 atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Kenta Kawada,Kanata Ozaki,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Haruka Okubo,Jonas Hahn,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Haru Kawanak,Eita Suzuki,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Keishi Hashimoto,Koyu Yanagi,,,,,tennis.com
 atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Haruka Okubo,Malek El-Qurneh,,,,,tennis.com
 atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Taichi Wakamatsu,Corban Crowther,,,,,tennis.com
+atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Keishi Hashimoto,Koyu Yanagi,,,,,tennis.com
 atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Kotaro Mochizuki,Haru Kawanak,,,,,tennis.com
 atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Shotaro Yamamoto,Taketo Takamisawa,,,,,tennis.com
 atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Kai Milburn,Riku Higashi,,,,,tennis.com
@@ -59,13 +33,10 @@ atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Corban Crowther,Christopher Kosei On
 atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Keishi Hashimoto,Malek El-Qurneh,,,,,tennis.com
 atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Taichi Wakamatsu,Manato Uchida,,,,,tennis.com
 atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Haru Kawanak,Kanata Ozaki,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Kenta Kawada,Eita Suzuki,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Koyu Yanagi,Jonas Hahn,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Kotaro Mochizuki,Eita Suzuki,,,,,tennis.com
-atp,,UTR PTT Tallahassee Men 02,Hard,3,singles,,Tygen Goldammer,Stewart Aronson,,,,,tennis.com
 atp,,UTR PTT Tallahassee Men 02,Hard,3,singles,,Denny Bao,Cornelius Alexander Shalmi,,,,,tennis.com
-atp,,UTR PTT Tallahassee Men 02,Hard,3,singles,,Aleksa Ćirić,Radek Chodora,,,,,tennis.com
 atp,,UTR PTT Tallahassee Men 02,Hard,3,singles,,Ian Mayew,Aleksandr Kalinin,,,,,tennis.com
+atp,,UTR PTT Tallahassee Men 02,Hard,3,singles,,Aleksa Ćirić,Radek Chodora,,,,,tennis.com
 wta,,UTR PTT Tallahassee Women 02,Hard,3,singles,,Monika Wojcik,Lexie Weir,,,,,tennis.com
 wta,,UTR PTT Tallahassee Women 02,Hard,3,singles,,Brooke Lynn Schafer,Ishika Ashar,,,,,tennis.com
 wta,,UTR PTT Tallahassee Women 02,Hard,3,singles,,Sabritt Dozier,Mariana Manyoma Velasquez,,,,,tennis.com
+wta,,National Bank Open presented by Rogers,Hard,3,singles,Final,Iga Świątek,Elena Rybakina,,,,,tennis.com
