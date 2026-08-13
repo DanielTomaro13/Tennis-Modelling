@@ -1,8 +1,1 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Western \u0026 Southern Open,Hard,Qualifying Round 2,Stefanos Sakellaridis,Titouan Droguet,0.3564,0.6436,2.81,1.55,25.88,0.5233,8.59,4.89,2.46,3.26,tennis.com
-atp,,Hamburg Ladies \u0026 Gents cup,Clay,Round 2,Ivan Dodig,Rudolf Molleker,0.6234,0.3766,1.6,2.66,25.56,0.4796,4.94,4.59,3.29,3.06,tennis.com
-atp,,Western \u0026 Southern Open,Hard,Qualifying Round 2,Nicolai Budkov Kjaer,Kyrian Jacquet,0.4257,0.5743,2.35,1.74,25.28,0.427,7.38,7.09,2.58,2.73,tennis.com
-atp,,Western \u0026 Southern Open,Hard,Qualifying Round 2,Quentin Halys,Bu Yunchaokete,0.5601,0.4399,1.79,2.27,25.66,0.4764,9.1,7.38,3.36,2.43,tennis.com
-atp,,Western \u0026 Southern Open,Hard,Qualifying Round 2,Sho Shimabukuro,J J Wolf,0.463,0.537,2.16,1.86,25.78,0.4882,4.78,4.84,3.19,3.23,tennis.com
-wta,,UTR PTT Arnhem Women 04,Hard,,Maria Kirilenko,Shahar Peer,0.7331,0.2669,1.36,3.75,23.75,0.3012,5.15,4.23,3.43,2.82,tennis.com
-wta,,Western \u0026 Southern Open,Hard,Qualifying Round 2,Eva Lys,Anna Blinkova,0.6256,0.3744,1.6,2.67,24.22,0.3069,1.51,2.36,4.84,3.78,tennis.com
