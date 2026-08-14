@@ -1,17 +1,4 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Cincinnati Open,Hard,Round 1,Alex Michelsen,Jesper De Jong,0.7287,0.2713,1.37,3.69,24.49,0.3905,6.86,7.5,3.02,2.47,tennis.com
 atp,,Cincinnati Open,Hard,Round 1,Aleksandar Kovacevic,Karen Khachanov,0.3311,0.6689,3.02,1.49,25.96,0.5433,8.88,7.2,2.47,2.18,tennis.com
-atp,,Cincinnati Open,Hard,Round 1,Botic Van De Zandschulp,Alexander Shevchenko,0.64,0.36,1.56,2.78,25.11,0.426,6.78,5.06,4.25,2.14,tennis.com
-atp,,Cincinnati Open,Hard,Round 1,Fabian Marozsan,Michael Zheng,0.6334,0.3666,1.58,2.73,25.54,0.4795,6.25,6.85,2.33,1.72,tennis.com
-atp,,ATP Challenger Brownsburg,Grass,Quarterfinal,Lloyd Harris,Harry Wendelken,0.6328,0.3672,1.58,2.72,25.23,0.4388,10.12,5.89,2.9,2.36,tennis.com
-atp,,Cincinnati Open,Hard,Round 1,Hamad Medjedovic,Marco Trungelliti,0.5979,0.4021,1.67,2.49,26.06,0.5374,8.82,4.65,3.9,3.1,tennis.com
-atp,,Cincinnati Open,Hard,Round 1,Adam Walton,Nicolas Mejia,0.4724,0.5276,2.12,1.9,25.98,0.5135,7.12,7.09,2.57,2.77,tennis.com
-atp,,Cincinnati Open,Hard,Round 1,Juncheng Shang,Lorenzo Sonego,0.4765,0.5235,2.1,1.91,25.88,0.5012,5.89,6.22,2.42,2.1,tennis.com
-atp,,Cincinnati Open,Hard,Round 1,Mark Lajal,Juan Manuel Cerundolo,0.4786,0.5214,2.09,1.92,25.75,0.484,7.44,7.47,2.98,2.72,tennis.com
 atp,,Cincinnati Open,Hard,Round 1,Jaime Faria,Jenson Brooksby,0.4867,0.5133,2.05,1.95,25.17,0.4079,8.44,4.67,3.42,2.45,tennis.com
-atp,,Cincinnati Open,Hard,Round 1,Nuno Borges,Thanasi Kokkinakis,0.5065,0.4935,1.97,2.03,26.32,0.558,6.58,9.43,2.51,2.64,tennis.com
 wta,,Cincinnati Open,Hard,Round 1,Sofia Kenin,Eva Lys,0.4088,0.5912,2.45,1.69,24.37,0.3145,2.11,1.49,3.98,4.77,tennis.com
-wta,,Cincinnati Open,Hard,Round 1,Yulia Putintseva,Liudmila Samsonova,0.4092,0.5908,2.44,1.69,24.44,0.3237,2.18,3.8,3.2,4.08,tennis.com
-wta,,Cincinnati Open,Hard,Round 1,Maria Timofeeva,Xiyu Wang,0.4121,0.5879,2.43,1.7,24.44,0.3227,4.69,2.91,3.13,4.51,tennis.com
-wta,,Cincinnati Open,Hard,Round 1,Alycia Parks,Viktorija Golubic,0.4305,0.5695,2.32,1.76,24.52,0.3288,6.18,2.73,6.45,3.66,tennis.com
-wta,,Cincinnati Open,Hard,Round 1,Elvina Kalieva,Oleksandra Oliynykova,0.4311,0.5689,2.32,1.76,24.41,0.3162,4.74,3.23,3.16,3.61,tennis.com
