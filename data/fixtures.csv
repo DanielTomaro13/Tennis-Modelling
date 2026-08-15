@@ -1,47 +1,31 @@
 tour,date,tournament,surface,best_of,format,round,player1,player2,p1a,p1b,p2a,p2b,source
 atp,,ATP Challenger Brownsburg,Grass,3,singles,Semifinal,Daniel Milavsky,Lloyd Harris,,,,,tennis.com
 atp,,ATP Challenger Brownsburg,Grass,3,singles,Semifinal,Andre Ilagan,Jack Pinnington Jones,,,,,tennis.com
-atp,,Internazionali di Tennis Citta di Todi,Hard,3,singles,Semifinal,Maxim Mrva,Alex Barrena,,,,,tennis.com
 atp,,Internazionali di Tennis Citta di Todi,Hard,3,singles,Semifinal,Nicolás Kicker,Marco Cecchinato,,,,,tennis.com
-atp,,Cincinnati Open,Hard,3,singles,Round 2,Miomir Kecmanović,Flavio Cobolli,,,,,tennis.com
-atp,,Cincinnati Open,Hard,3,singles,Round 2,Mattia Bellucci,Jakub Menšík,,,,,tennis.com
 atp,,Cincinnati Open,Hard,3,singles,Round 2,Novak Djokovic,Thiago Agustín Tirante,,,,,tennis.com
-atp,,Cincinnati Open,Hard,3,singles,Round 2,Adolfo Daniel Vallejo,Valentin Vacherot,,,,,tennis.com
+atp,,Cincinnati Open,Hard,3,singles,Round 2,Mattia Bellucci,Jakub Menšík,,,,,tennis.com
+atp,,Cincinnati Open,Hard,3,singles,Round 2,Jan-Lennard Struff,Alejandro Tabilo,,,,,tennis.com
+atp,,Cincinnati Open,Hard,3,singles,Round 2,Quentin Halys,Alex de Minaur,,,,,tennis.com
 atp,,Cincinnati Open,Hard,3,singles,Round 2,Tommy Paul,Hubert Hurkacz,,,,,tennis.com
 atp,,Cincinnati Open,Hard,3,singles,Round 2,Arthur Fery,James Duckworth,,,,,tennis.com
-atp,,Cincinnati Open,Hard,3,singles,Round 2,Quentin Halys,Alex de Minaur,,,,,tennis.com
 atp,,Cincinnati Open,Hard,3,singles,Round 2,Luciano Darderi,Rinky Hijikata,,,,,tennis.com
-atp,,Cincinnati Open,Hard,3,singles,Round 2,Jan-Lennard Struff,Alejandro Tabilo,,,,,tennis.com
+atp,,Cincinnati Open,Hard,3,singles,Round 2,Térence Atmane,Tomás Martín Etcheverry,,,,,tennis.com
 atp,,Cincinnati Open,Hard,3,singles,Round 2,Jiří Lehečka,Matteo Berrettini,,,,,tennis.com
 atp,,Cincinnati Open,Hard,3,singles,Round 2,Yannick Hanfmann,Arthur Fils,,,,,tennis.com
-atp,,Cincinnati Open,Hard,3,singles,Round 2,Térence Atmane,Tomás Martín Etcheverry,,,,,tennis.com
 atp,,Cincinnati Open,Hard,3,singles,Round 2,Rafael Jódar,Denis Shapovalov,,,,,tennis.com
 atp,,Cincinnati Open,Hard,3,singles,Round 2,Alexander Zverev,Cameron Norrie,,,,,tennis.com
-wta,,Cincinnati Open,Hard,3,singles,Round 1,Shuai Zhang,Kayla Day,,,,,tennis.com
-wta,,Cincinnati Open,Hard,3,singles,Round 2,Alexandra Eala,Elena-Gabriela Ruse,,,,,tennis.com
+wta,,Cincinnati Open,Hard,3,singles,Round 2,Linda Nosková,Katie Boulter,,,,,tennis.com
+wta,,Cincinnati Open,Hard,3,singles,Round 2,Sorana Cîrstea,Nikola Bartůňková,,,,,tennis.com
 wta,,Cincinnati Open,Hard,3,singles,Round 2,Diana Shnaider,Tatjana Maria,,,,,tennis.com
 wta,,Cincinnati Open,Hard,3,singles,Round 2,Jeļena Ostapenko,Magdalena Fręch,,,,,tennis.com
-wta,,Cincinnati Open,Hard,3,singles,Round 2,Caty McNally,Anna Kalinskaya,,,,,tennis.com
-wta,,Cincinnati Open,Hard,3,singles,Round 2,Sorana Cîrstea,Nikola Bartůňková,,,,,tennis.com
-wta,,Cincinnati Open,Hard,3,singles,Round 2,Linda Nosková,Katie Boulter,,,,,tennis.com
-wta,,Cincinnati Open,Hard,3,singles,Round 2,Emma Navarro,Anhelina Kalinina,,,,,tennis.com
 wta,,Cincinnati Open,Hard,3,singles,Round 2,Simona Waltert,Jessica Pegula,,,,,tennis.com
-wta,,Cincinnati Open,Hard,3,singles,Round 2,Kamilla Rakhimova,Maria Sakkari,,,,,tennis.com
+wta,,Cincinnati Open,Hard,3,singles,Round 2,Emma Navarro,Anhelina Kalinina,,,,,tennis.com
 wta,,Cincinnati Open,Hard,3,singles,Round 2,Elise Mertens,Diane Parry,,,,,tennis.com
+wta,,Cincinnati Open,Hard,3,singles,Round 2,Kamilla Rakhimova,Maria Sakkari,,,,,tennis.com
 wta,,Cincinnati Open,Hard,3,singles,Round 2,Peyton Stearns,Clara Tauson,,,,,tennis.com
 wta,,Cincinnati Open,Hard,3,singles,Round 2,Loïs Boisson,Belinda Bencic,,,,,tennis.com
-atp,,UTR PTT Arnhem Men 04,Hard,3,singles,Semifinal,Mehdi Benchakroun,Rein Koenders,,,,,tennis.com
-atp,,UTR PTT Arnhem Men 04,Hard,3,singles,Semifinal,Dylan Leeman,Mark Kneiss,,,,,tennis.com
-atp,,UTR PTT Arnhem Men 04,Hard,3,singles,Semifinal,Platon Tsarenko,Cian McDonnell,,,,,tennis.com
-wta,,UTR PTT Arnhem Women 04,Hard,3,singles,Semifinal,Mia Keuler,Emma van Poppel,,,,,tennis.com
-wta,,UTR PTT Arnhem Women 04,Hard,3,singles,Semifinal,Vicky Van de Peer,Nika Beukers,,,,,tennis.com
-wta,,UTR PTT Arnhem Women 04,Hard,3,singles,Semifinal,Chloe Lomans,Lucia Cassidy,,,,,tennis.com
-wta,,UTR PTT Arnhem Women 04,Hard,3,singles,Semifinal,Marelie Raath,Fleur Sprengers,,,,,tennis.com
 atp,,UTR PTT Saitama Men 07,Hard,3,singles,Final,Kotaro Mochizuki,Yakumo Motokura,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,Final,Kenta Kawada,Koyu Yanagi,,,,,tennis.com
 atp,,UTR PTT Saitama Men 07,Hard,3,singles,Final,Riku Higashi,Manato Uchida,,,,,tennis.com
+atp,,UTR PTT Saitama Men 07,Hard,3,singles,Final,Kenta Kawada,Koyu Yanagi,,,,,tennis.com
 atp,,UTR PTT Saitama Men 07,Hard,3,singles,Final,Haru Kawanak,Shotaro Yamamoto,,,,,tennis.com
 atp,,UTR PTT Saitama Men 07,Hard,3,singles,Final,Corban Crowther,Kai Milburn,,,,,tennis.com
-atp,,UTR PTT Tallahassee Men 02,Hard,3,singles,Final,Elias Sumann,Justin Lyons,,,,,tennis.com
-atp,,UTR PTT Tallahassee Men 02,Hard,3,singles,Final,Tygen Goldammer,Drew Fishback,,,,,tennis.com
-wta,,UTR PTT Tallahassee Women 02,Hard,3,singles,,Monika Wojcik,Ariana Gilbert,,,,,tennis.com
