@@ -1,10 +1,40 @@
 tour,date,tournament,surface,best_of,format,round,player1,player2,p1a,p1b,p2a,p2b,source
-atp,,Cincinnati Open,Hard,3,singles,Round 1,Aleksandar Kovačević,Karen Khachanov,,,,,tennis.com
-wta,,Cincinnati Open,Hard,3,singles,Round 1,Sofia Kenin,Eva Lys,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Kai Milburn,Taketo Takamisawa,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Corban Crowther,Manato Uchida,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Yakumo Motokura,Riku Higashi,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Yuki Karatsu,Christopher Kosei Ono,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Koyu Yanagi,Malek El-Qurneh,,,,,tennis.com
+atp,,President's Cup,Hard,3,singles,Semifinal,Hayato Matsuoka,Khumoyun Sultanov,,,,,tennis.com
+atp,,President's Cup,Hard,3,singles,Semifinal,Aziz Dougaz,Sergey Fomin,,,,,tennis.com
+atp,,Hamburg Ladies \u0026 Gents cup,Clay,3,singles,Semifinal,Matheus Pucinelli de Almeida,Jan Kumstát,,,,,tennis.com
+atp,,Hamburg Ladies \u0026 Gents cup,Clay,3,singles,Semifinal,Matej Dodig,Marvin Möller,,,,,tennis.com
+atp,,UTR PTT Arnhem Men 04,Hard,3,singles,Semifinal,Niels Lootsma,Ronetto Van Tilburg,,,,,tennis.com
+atp,,UTR PTT Arnhem Men 04,Hard,3,singles,Semifinal,Tej Bhagra,Alex de Degabriele,,,,,tennis.com
+atp,,UTR PTT Arnhem Men 04,Hard,3,singles,Semifinal,Valentino de Pellegrin,Milan Markovits,,,,,tennis.com
+atp,,UTR PTT Arnhem Men 04,Hard,3,singles,Semifinal,Matthew Upton,Aaron Hilsum,,,,,tennis.com
+atp,,UTR PTT Arnhem Men 04,Hard,3,singles,Semifinal,Stijn Paardekooper,Raul Clarijs,,,,,tennis.com
+atp,,UTR PTT Arnhem Men 04,Hard,3,singles,Semifinal,Lautaro Agustin Corthey,Calin Apostol,,,,,tennis.com
+atp,,UTR PTT Arnhem Men 04,Hard,3,singles,Semifinal,Riccardo Campagnola,Amadatus Admiraal,,,,,tennis.com
+atp,,UTR PTT Arnhem Men 04,Hard,3,singles,Semifinal,Mehdi Benchakroun,Rein Koenders,,,,,tennis.com
+atp,,UTR PTT Arnhem Men 04,Hard,3,singles,Semifinal,Platon Tsarenko,Cian McDonnell,,,,,tennis.com
+atp,,UTR PTT Arnhem Men 04,Hard,3,singles,Semifinal,Dylan Leeman,Mark Kneiss,,,,,tennis.com
+wta,,UTR PTT Arnhem Women 04,Hard,3,singles,Semifinal,Zejda Veljacic,Leandra Nizetic,,,,,tennis.com
+wta,,UTR PTT Arnhem Women 04,Hard,3,singles,Semifinal,Daniela Ciobanu,Natalia Siedliska,,,,,tennis.com
+wta,,UTR PTT Arnhem Women 04,Hard,3,singles,Semifinal,Diāna Marcinkēviča,Pippa Bosman,,,,,tennis.com
+wta,,UTR PTT Arnhem Women 04,Hard,3,singles,Semifinal,Nina Kruijer,Mariia Pryshchepa,,,,,tennis.com
+wta,,UTR PTT Arnhem Women 04,Hard,3,singles,Semifinal,Cara Korhonen,Laurie Barendse,,,,,tennis.com
+wta,,UTR PTT Arnhem Women 04,Hard,3,singles,Semifinal,Maria Tkalenko,Emma Scaldalai,,,,,tennis.com
+wta,,UTR PTT Arnhem Women 04,Hard,3,singles,Semifinal,Vicky Van de Peer,Nika Beukers,,,,,tennis.com
+wta,,UTR PTT Arnhem Women 04,Hard,3,singles,Semifinal,Mia Keuler,Emma van Poppel,,,,,tennis.com
+wta,,UTR PTT Arnhem Women 04,Hard,3,singles,Semifinal,Marelie Raath,Fleur Sprengers,,,,,tennis.com
+wta,,UTR PTT Arnhem Women 04,Hard,3,singles,Semifinal,Chloe Lomans,Lucia Cassidy,,,,,tennis.com
 atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Haruka Okubo,Jonas Hahn,,,,,tennis.com
-atp,,UTR PTT Saitama Men 07,Hard,3,singles,,Haru Kawanak,Eita Suzuki,,,,,tennis.com
+atp,,UTR PTT Saitama Men 07,Hard,3,singles,Semifinal,Corban Crowther,Keishi Hashimoto,,,,,tennis.com
+atp,,UTR PTT Saitama Men 07,Hard,3,singles,Semifinal,Kanata Ozaki,Kai Milburn,,,,,tennis.com
+atp,,UTR PTT Tallahassee Men 02,Hard,3,singles,,Filip Apltauer,Tomas Jirousek,,,,,tennis.com
+atp,,UTR PTT Tallahassee Men 02,Hard,3,singles,Final,Constantinos Djakouris,Aleksandr Kalinin,,,,,tennis.com
+atp,,UTR PTT Tallahassee Men 02,Hard,3,singles,Final,Ian Mayew,Aleksa Ćirić,,,,,tennis.com
+atp,,UTR PTT Tallahassee Men 02,Hard,3,singles,,Denny Bao,Radek Chodora,,,,,tennis.com
+atp,,UTR PTT Tallahassee Men 02,Hard,3,singles,Final,Elias Sumann,Justin Lyons,,,,,tennis.com
+atp,,UTR PTT Tallahassee Men 02,Hard,3,singles,Final,Tygen Goldammer,Drew Fishback,,,,,tennis.com
+wta,,UTR PTT Tallahassee Women 02,Hard,3,singles,,Brooke Lynn Schafer,Mariana Manyoma Velasquez,,,,,tennis.com
+wta,,UTR PTT Tallahassee Women 02,Hard,3,singles,Final,Ava Esposito Cogan,Kaya Moe,,,,,tennis.com
+wta,,UTR PTT Tallahassee Women 02,Hard,3,singles,Final,Riley Crowder,Audrey Aulia,,,,,tennis.com
+wta,,UTR PTT Tallahassee Women 02,Hard,3,singles,Final,Mary Boyce Deatherage,Sabritt Dozier,,,,,tennis.com
+wta,,UTR PTT Tallahassee Women 02,Hard,3,singles,Final,Sydney Jara,Allison Nicole Isaacs,,,,,tennis.com
+wta,,UTR PTT Tallahassee Women 02,Hard,3,singles,,Lexie Weir,Amina Salibayeva,,,,,tennis.com
