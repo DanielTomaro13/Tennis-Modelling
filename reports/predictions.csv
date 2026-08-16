@@ -2,25 +2,18 @@ tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_od
 atp,,Cincinnati Open,Hard,Round 2,Learner Tien,Sebastian Baez,0.8303,0.1697,1.2,5.89,23.15,0.3091,6.18,3.27,3.81,1.84,tennis.com
 atp,,Cincinnati Open,Hard,Round 2,Ben Shelton,Jaime Faria,0.8176,0.1824,1.22,5.48,24.4,0.4516,8.92,7.1,2.93,2.88,tennis.com
 atp,,Cincinnati Open,Hard,Round 2,Brandon Nakashima,Aleksandar Kovacevic,0.7735,0.2265,1.29,4.42,25.68,0.5778,9.0,8.35,1.55,2.32,tennis.com
-atp,,Cincinnati Open,Hard,Round 2,Daniel Altmaier,Lorenzo Musetti,0.2348,0.7652,4.26,1.31,24.65,0.4296,7.34,6.07,1.99,2.6,tennis.com
-atp,,Cincinnati Open,Hard,Round 2,Stefanos Tsitsipas,Felix Auger Aliassime,0.2814,0.7186,3.55,1.39,26.0,0.574,7.18,9.25,2.61,4.09,tennis.com
 atp,,Cincinnati Open,Hard,Round 2,Andrey Rublev,Pablo Carreno Busta,0.6996,0.3004,1.43,3.33,25.52,0.5075,9.27,5.36,2.32,2.23,tennis.com
 atp,,Cincinnati Open,Hard,Round 2,Lorenzo Sonego,Frances Tiafoe,0.33,0.67,3.03,1.49,25.94,0.5413,5.88,6.47,1.98,2.32,tennis.com
-atp,,Cincinnati Open,Hard,Round 2,Joao Fonseca,Botic Van De Zandschulp,0.6698,0.3302,1.49,3.03,25.43,0.48,7.8,6.11,2.29,3.84,tennis.com
 atp,,Cincinnati Open,Hard,Round 2,Taylor Fritz,Alex Michelsen,0.6188,0.3812,1.62,2.62,25.78,0.5064,10.91,6.29,2.14,2.76,tennis.com
-atp,,Cincinnati Open,Hard,Round 2,Arthur Rinderknech,Juan Manuel Cerundolo,0.5935,0.4065,1.68,2.46,25.89,0.514,8.55,7.21,2.96,2.62,tennis.com
 atp,,Cincinnati Open,Hard,Round 2,Adam Walton,Ignacio Buse,0.428,0.572,2.34,1.75,26.01,0.5222,7.02,7.26,2.54,2.52,tennis.com
 atp,,Cincinnati Open,Hard,Round 2,Nuno Borges,Francisco Cerundolo,0.4291,0.5709,2.33,1.75,25.61,0.4694,6.45,5.02,2.46,2.95,tennis.com
-wta,,Cincinnati Open,Hard,Round 2,Iga Swiatek,Emiliana Arango,0.9231,0.0769,1.08,13.01,20.94,0.1894,3.73,2.11,3.51,2.99,tennis.com
 wta,,Cincinnati Open,Hard,Round 2,Aryna Sabalenka,Talia Gibson,0.8559,0.1441,1.17,6.94,23.07,0.3284,4.64,3.98,3.47,2.97,tennis.com
 wta,,Cincinnati Open,Hard,Round 2,Marta Kostyuk,Sofia Kenin,0.8557,0.1443,1.17,6.93,22.67,0.2809,4.04,1.67,6.0,3.16,tennis.com
 wta,,Cincinnati Open,Hard,Round 2,Coco Gauff,Liudmila Samsonova,0.802,0.198,1.25,5.05,23.02,0.2667,4.49,2.99,7.59,3.21,tennis.com
-wta,,Cincinnati Open,Hard,Round 2,Marie Bouzkova,Lucrezia Stefanini,0.7818,0.2182,1.28,4.58,23.21,0.2715,2.32,4.02,4.3,2.68,tennis.com
 wta,,Cincinnati Open,Hard,Round 2,Tereza Valentova,Elina Svitolina,0.26,0.74,3.85,1.35,23.76,0.3032,2.97,4.68,4.09,4.29,tennis.com
 wta,,Cincinnati Open,Hard,Round 2,Tamara Korpatsch,Iva Jovic,0.2789,0.7211,3.58,1.39,23.76,0.2933,4.28,2.94,2.86,2.73,tennis.com
 wta,,Cincinnati Open,Hard,Round 2,Anna Blinkova,Ekaterina Alexandrova,0.2826,0.7174,3.54,1.39,24.1,0.33,2.24,5.32,3.58,5.51,tennis.com
 wta,,Cincinnati Open,Hard,Round 2,Sloane Stephens,Anastasia Potapova,0.3064,0.6936,3.26,1.44,23.88,0.2915,3.0,3.36,3.39,5.2,tennis.com
 wta,,Cincinnati Open,Hard,Round 2,Katerina Siniakova,Jessica Bouzas Maneiro,0.6819,0.3181,1.47,3.14,23.97,0.2987,2.18,2.4,4.38,5.17,tennis.com
 wta,,Cincinnati Open,Hard,Round 2,Leylah Fernandez,Xiyu Wang,0.6577,0.3423,1.52,2.92,24.33,0.333,3.86,2.61,4.79,4.04,tennis.com
-wta,,Cincinnati Open,Hard,Round 2,Daria Snigur,Madison Keys,0.3802,0.6198,2.63,1.61,24.39,0.3242,4.61,4.58,3.07,5.96,tennis.com
 wta,,Cincinnati Open,Hard,Round 2,Shuai Zhang,Ann Li,0.5041,0.4959,1.98,2.02,24.54,0.3263,3.16,4.12,3.38,3.23,tennis.com

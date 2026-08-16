@@ -1,41 +1,27 @@
 tour,date,tournament,surface,best_of,format,round,player1,player2,p1a,p1b,p2a,p2b,source
-atp,,ATP Challenger Brownsburg,Grass,3,singles,Final,Andre Ilagan,Lloyd Harris,,,,,tennis.com
-atp,,ATP Challenger Kingston,Grass,3,singles,Qualifying Round 1,Lucas Andrade Da Silva,Pietro Orlando Fellin,,,,,tennis.com
-atp,,ATP Challenger Kingston,Grass,3,singles,Qualifying Round 1,Edward Winter,Steven Christie,,,,,tennis.com
-atp,,ATP Challenger Kingston,Grass,3,singles,Qualifying Round 1,Andrew Fenty,Hunter Heck,,,,,tennis.com
-atp,,ATP Challenger Kingston,Grass,3,singles,Qualifying Round 1,Tauheed Browning,Evan Zhu,,,,,tennis.com
-atp,,ATP Challenger Kingston,Grass,3,singles,Qualifying Round 1,Garrett Johns,Guillaume Dalmasso,,,,,tennis.com
 atp,,ATP Challenger Kingston,Grass,3,singles,Qualifying Round 1,Roger Pascual Ferra,Mario Gonzalez Fernandez,,,,,tennis.com
 atp,,ATP Challenger Kingston,Grass,3,singles,Qualifying Round 1,Aidan Mayo,Timo Legout,,,,,tennis.com
-atp,,ATP Challenger Kingston,Grass,3,singles,Qualifying Round 1,Matt Kuhar,Paulo Andre Saraiva Dos Santos,,,,,tennis.com
-atp,,ATP Challenger Kingston,Grass,3,singles,Qualifying Round 1,Miguel Tobon,Lorenzo Claverie,,,,,tennis.com
+atp,,ATP Challenger Kingston,Grass,3,singles,Qualifying Round 1,Garrett Johns,Guillaume Dalmasso,,,,,tennis.com
 atp,,ATP Challenger Kingston,Grass,3,singles,Qualifying Round 1,Kenta (2004) Miyoshi,Arklon Huertas Del Pino Cordova,,,,,tennis.com
-atp,,ATP Challenger Roehampton,Grass,3,singles,Qualifying Round 1,Ali Habib,Samuel Battistone,,,,,tennis.com
-atp,,ATP Challenger Roehampton,Grass,3,singles,Qualifying Round 1,Benjamin Gusic Wan,Leonardo Rossi,,,,,tennis.com
+atp,,ATP Challenger Kingston,Grass,3,singles,Qualifying Round 1,Miguel Tobon,Lorenzo Claverie,,,,,tennis.com
+atp,,ATP Challenger Kingston,Grass,3,singles,Qualifying Round 1,Matt Kuhar,Paulo Andre Saraiva Dos Santos,,,,,tennis.com
 atp,,Internazionali di Tennis Citta di Todi,Hard,3,singles,Final,Nicolás Kicker,Maxim Mrva,,,,,tennis.com
-atp,,Cincinnati Open,Hard,3,singles,Round 2,Arthur Rinderknech,Juan Manuel Cerúndolo,,,,,tennis.com
-atp,,Cincinnati Open,Hard,3,singles,Round 2,Daniel Altmaier,Lorenzo Musetti,,,,,tennis.com
-atp,,Cincinnati Open,Hard,3,singles,Round 2,Stefanos Tsitsipas,Félix Auger-Aliassime,,,,,tennis.com
-atp,,Cincinnati Open,Hard,3,singles,Round 2,João Fonseca,Botic van de Zandschulp,,,,,tennis.com
 atp,,Cincinnati Open,Hard,3,singles,Round 2,Taylor Fritz,Alex Michelsen,,,,,tennis.com
+atp,,Cincinnati Open,Hard,3,singles,Round 2,Brandon Nakashima,Aleksandar Kovačević,,,,,tennis.com
 atp,,Cincinnati Open,Hard,3,singles,Round 2,Nuno Borges,Francisco Cerúndolo,,,,,tennis.com
 atp,,Cincinnati Open,Hard,3,singles,Round 2,Andrey Rublev,Pablo Carreño Busta,,,,,tennis.com
-atp,,Cincinnati Open,Hard,3,singles,Round 2,Brandon Nakashima,Aleksandar Kovačević,,,,,tennis.com
+atp,,Cincinnati Open,Hard,3,singles,Round 2,Learner Tien,Sebastián Báez,,,,,tennis.com
 atp,,Cincinnati Open,Hard,3,singles,Round 2,Daniel Mérida,Zizou Bergs,,,,,tennis.com
 atp,,Cincinnati Open,Hard,3,singles,Round 2,Adam Walton,Ignacio Buse,,,,,tennis.com
-atp,,Cincinnati Open,Hard,3,singles,Round 2,Learner Tien,Sebastián Báez,,,,,tennis.com
 atp,,Cincinnati Open,Hard,3,singles,Round 2,Ben Shelton,Jaime Faria,,,,,tennis.com
 atp,,Cincinnati Open,Hard,3,singles,Round 2,Lorenzo Sonego,Frances Tiafoe,,,,,tennis.com
-wta,,Cincinnati Open,Hard,3,singles,Round 2,Marie Bouzková,Lucrezia Stefanini,,,,,tennis.com
 wta,,Cincinnati Open,Hard,3,singles,Round 2,Shuai Zhang,Ann Li,,,,,tennis.com
-wta,,Cincinnati Open,Hard,3,singles,Round 2,Daria Snigur,Madison Keys,,,,,tennis.com
-wta,,Cincinnati Open,Hard,3,singles,Round 2,Iga Świątek,Emiliana Arango,,,,,tennis.com
-wta,,Cincinnati Open,Hard,3,singles,Round 2,Kateřina Siniaková,Jéssica Bouzas Maneiro,,,,,tennis.com
 wta,,Cincinnati Open,Hard,3,singles,Round 2,Anna Blinkova,Ekaterina Alexandrova,,,,,tennis.com
 wta,,Cincinnati Open,Hard,3,singles,Round 2,Marta Kostyuk,Sofia Kenin,,,,,tennis.com
-wta,,Cincinnati Open,Hard,3,singles,Round 2,Tamara Korpatsch,Iva Jovic,,,,,tennis.com
-wta,,Cincinnati Open,Hard,3,singles,Round 2,Leylah Fernandez,Xiyu Wang,,,,,tennis.com
 wta,,Cincinnati Open,Hard,3,singles,Round 2,Aryna Sabalenka,Talia Gibson,,,,,tennis.com
+wta,,Cincinnati Open,Hard,3,singles,Round 2,Kateřina Siniaková,Jéssica Bouzas Maneiro,,,,,tennis.com
+wta,,Cincinnati Open,Hard,3,singles,Round 2,Leylah Fernandez,Xiyu Wang,,,,,tennis.com
+wta,,Cincinnati Open,Hard,3,singles,Round 2,Tamara Korpatsch,Iva Jovic,,,,,tennis.com
 wta,,Cincinnati Open,Hard,3,singles,Round 2,Sloane Stephens,Anastasia Potapova,,,,,tennis.com
 wta,,Cincinnati Open,Hard,3,singles,Round 2,Coco Gauff,Liudmila Samsonova,,,,,tennis.com
 wta,,Cincinnati Open,Hard,3,singles,Round 2,Tereza Valentova,Elina Svitolina,,,,,tennis.com
