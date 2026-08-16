@@ -1,8 +1,3 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
 atp,,Cincinnati Open,Hard,Round 2,Alexander Zverev,Cameron Norrie,0.7676,0.2324,1.3,4.3,25.49,0.5482,9.22,5.29,2.01,2.3,tennis.com
-atp,,Cincinnati Open,Hard,Round 2,Yannick Hanfmann,Arthur Fils,0.2666,0.7334,3.75,1.36,25.46,0.5121,6.7,7.52,2.34,2.83,tennis.com
-atp,,Cincinnati Open,Hard,Round 2,Rafael Jodar,Denis Shapovalov,0.678,0.322,1.47,3.11,24.86,0.4101,6.2,7.71,2.27,4.57,tennis.com
-atp,,Cincinnati Open,Hard,Round 2,Jiri Lehecka,Matteo Berrettini,0.6182,0.3818,1.62,2.62,26.62,0.6161,7.84,11.02,2.61,1.87,tennis.com
 wta,,Cincinnati Open,Hard,Round 2,Lois Boisson,Belinda Bencic,0.1671,0.8329,5.99,1.2,23.03,0.2919,2.8,3.59,3.44,3.68,tennis.com
-wta,,Cincinnati Open,Hard,Round 2,Elise Mertens,Diane Parry,0.6665,0.3335,1.5,3.0,24.31,0.334,3.93,2.69,5.08,3.64,tennis.com
-wta,,Cincinnati Open,Hard,Round 2,Peyton Stearns,Clara Tauson,0.4215,0.5785,2.37,1.73,24.59,0.3392,2.98,7.51,3.52,3.92,tennis.com
