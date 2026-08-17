@@ -1,3 +1,1 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Cincinnati Open,Hard,Round 2,Lorenzo Sonego,Frances Tiafoe,0.33,0.67,3.03,1.49,25.94,0.5413,5.88,6.47,1.98,2.32,tennis.com
-wta,,Cincinnati Open,Hard,Round 2,Tereza Valentova,Elina Svitolina,0.26,0.74,3.85,1.35,23.76,0.3032,2.97,4.68,4.09,4.29,tennis.com
