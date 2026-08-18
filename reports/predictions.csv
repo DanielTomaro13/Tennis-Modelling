@@ -1,5 +1,1 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Cincinnati Open,Hard,Round 3,Tommy Paul,Adolfo Daniel Vallejo,0.7422,0.2578,1.35,3.88,24.52,0.4036,5.93,5.46,1.97,2.91,tennis.com
-atp,,Cincinnati Open,Hard,Round 3,Jiri Lehecka,Arthur Fils,0.4017,0.5983,2.49,1.67,26.35,0.5728,7.55,7.47,2.52,2.82,tennis.com
-atp,,ATP Challenger Cancún,Grass,Qualifying Round 1,Lloyd Harris,Abedallah Shelbayh,0.5698,0.4302,1.75,2.32,25.84,0.5018,9.96,4.69,2.86,3.13,tennis.com
-wta,,Cincinnati Open,Hard,Round 3,Alexandra Eala,Amanda Anisimova,0.4603,0.5397,2.17,1.85,24.37,0.3067,1.58,3.84,3.67,4.57,tennis.com
