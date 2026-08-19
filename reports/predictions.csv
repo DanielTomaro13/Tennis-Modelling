@@ -1,3 +1,1 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Advantage Cars Prague Open,Hard,Round 2,Juan Bautista Torres,Chun Hsin Tseng,0.7021,0.2979,1.42,3.36,24.81,0.4154,5.4,4.39,2.11,2.93,tennis.com
-atp,,ATP Challenger Roehampton,Grass,Round 2,Michael Geerts,Radu Albot,0.5357,0.4643,1.87,2.15,25.59,0.4637,6.21,6.85,2.91,2.91,tennis.com
