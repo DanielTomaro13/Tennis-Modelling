@@ -1,11 +1,7 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Cincinnati Open,Hard,Round 3,Juan Manuel Cerundolo,Felix Auger Aliassime,0.1986,0.8014,5.03,1.25,24.55,0.4461,6.43,9.31,2.34,4.12,tennis.com
+atp,,Advantage Cars Prague Open,Hard,Round 2,Juan Bautista Torres,Chun Hsin Tseng,0.7021,0.2979,1.42,3.36,24.81,0.4154,5.4,4.39,2.11,2.93,tennis.com
 atp,,Cincinnati Open,Hard,Round 3,Learner Tien,Frances Tiafoe,0.6307,0.3693,1.59,2.71,25.4,0.4609,6.06,6.06,3.74,2.17,tennis.com
-atp,,Cincinnati Open,Hard,Round 3,Jaime Faria,Adam Walton,0.6096,0.3904,1.64,2.56,25.62,0.4832,8.61,6.86,3.49,2.48,tennis.com
 atp,,ATP Challenger Cancún,Grass,Qualifying Round 2,Lloyd Harris,Laslo Djere,0.5685,0.4315,1.76,2.32,25.85,0.503,9.96,8.16,2.86,2.71,tennis.com
-atp,,ATP Challenger Cancún,Grass,Round 1,Roman Safiullin,Sebastian Ofner,0.5623,0.4377,1.78,2.28,25.46,0.4508,8.5,5.84,3.05,2.48,tennis.com
 atp,,ATP Challenger Cancún,Grass,Round 1,Pablo Llamas Ruiz,Francisco Comesana,0.4516,0.5484,2.21,1.82,25.89,0.5036,4.76,9.02,3.18,2.56,tennis.com
-atp,,ATP Challenger Cancún,Grass,Round 1,Dalibor Svrcina,Stan Wawrinka,0.4903,0.5097,2.04,1.96,25.83,0.494,4.82,8.16,3.21,2.52,tennis.com
-wta,,Cincinnati Open,Hard,Round 3,Aryna Sabalenka,Xin Yu Wang,0.9439,0.0561,1.06,17.82,20.9,0.2221,4.51,2.37,3.37,2.12,tennis.com
+atp,,ATP Challenger Roehampton,Grass,Round 2,Michael Geerts,Radu Albot,0.5357,0.4643,1.87,2.15,25.59,0.4637,6.21,6.85,2.91,2.91,tennis.com
 wta,,Cincinnati Open,Hard,Round 3,Marie Bouzkova,Iva Jovic,0.322,0.678,3.11,1.47,23.92,0.2887,1.98,2.94,3.67,2.73,tennis.com
-wta,,Cincinnati Open,Hard,Round 3,Sara Bejlek,Ekaterina Alexandrova,0.4149,0.5851,2.41,1.71,24.3,0.3055,2.54,5.24,4.77,5.44,tennis.com

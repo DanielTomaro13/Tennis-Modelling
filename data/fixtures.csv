@@ -1,56 +1,118 @@
 tour,date,tournament,surface,best_of,format,round,player1,player2,p1a,p1b,p2a,p2b,source
-atp,,ATP Challenger Cancún,Grass,3,singles,Qualifying Round 1,Luis Carlos Alvarez Valdes,Rio Noguchi,,,,,tennis.com
-atp,,ATP Challenger Cancún,Grass,3,singles,Qualifying Round 2,Dali Blanch,Felipe Meligeni Alves,,,,,tennis.com
-atp,,ATP Challenger Cancún,Grass,3,singles,Round 1,Roman Safiullin,Sebastian Ofner,,,,,tennis.com
 atp,,ATP Challenger Cancún,Grass,3,singles,Qualifying Round 2,Gauthier Onclin,Alejandro Moro Cañas,,,,,tennis.com
 atp,,ATP Challenger Cancún,Grass,3,singles,Qualifying Round 2,Lloyd Harris,Laslo Djere,,,,,tennis.com
-atp,,ATP Challenger Cancún,Grass,3,singles,Round 1,Dalibor Svrčina,Stan Wawrinka,,,,,tennis.com
 atp,,ATP Challenger Cancún,Grass,3,singles,Round 1,Pablo Llamas Ruiz,Francisco Comesaña,,,,,tennis.com
 atp,,ATP Challenger Cancún,Grass,3,singles,Round 1,Henrique Rocha,Seongchan Hong,,,,,tennis.com
-atp,,ATP Challenger Kingston,Grass,3,singles,Round 1,Joel Schwärzler,Kenta (2004) Miyoshi,,,,,tennis.com
 atp,,ATP Challenger Kingston,Grass,3,singles,Round 1,John Chin,Edward Winter,,,,,tennis.com
-atp,,Québec City,Hard,3,singles,Round 1,Jesper De Jong,Dane Sweeny,,,,,tennis.com
-atp,,Québec City,Hard,3,singles,Round 1,Francesco Maestrelli,Alexei Popyrin,,,,,tennis.com
+atp,,Advantage Cars Prague Open,Hard,3,singles,Round 2,Juan Bautista Torres,Chun Hsin Tseng,,,,,tennis.com
+atp,,Advantage Cars Prague Open,Hard,3,singles,Round 2,Jan Kumstát,Sumit Nagal,,,,,tennis.com
+atp,,Advantage Cars Prague Open,Hard,3,singles,Round 2,Oleksii Krutykh,Nick Hardt,,,,,tennis.com
+atp,,Advantage Cars Prague Open,Hard,3,singles,Round 2,Max Hans Rehberg,Kimmer Coppejans,,,,,tennis.com
+atp,,Advantage Cars Prague Open,Hard,3,singles,Round 2,Rudolf Molleker,Filip Cristian Jianu,,,,,tennis.com
+atp,,Advantage Cars Prague Open,Hard,3,singles,Round 2,Cezar Crețu,Maxim Mrva,,,,,tennis.com
+atp,,Advantage Cars Prague Open,Hard,3,singles,Round 2,Norbert Gombos,Sean Cuenin,,,,,tennis.com
+atp,,Advantage Cars Prague Open,Hard,3,singles,Round 2,Radu Mihai Papoe,Javier Barranco Cosano,,,,,tennis.com
 atp,,Québec City,Hard,3,singles,Round 1,Benjamin Bonzi,Justin Boulais,,,,,tennis.com
-atp,,Cincinnati Open,Hard,3,singles,Round 3,Jaime Faria,Adam Walton,,,,,tennis.com
-atp,,Cincinnati Open,Hard,3,singles,Round 3,Juan Manuel Cerúndolo,Félix Auger-Aliassime,,,,,tennis.com
+atp,,ATP Challenger Roehampton,Grass,3,singles,Round 2,Alex Rybakov,Charles Broom,,,,,tennis.com
+atp,,ATP Challenger Roehampton,Grass,3,singles,Round 2,Lui Maxted,Patrick Brady,,,,,tennis.com
+atp,,ATP Challenger Roehampton,Grass,3,singles,Round 2,Gabi Adrian Boitan,Alastair Gray,,,,,tennis.com
+atp,,ATP Challenger Roehampton,Grass,3,singles,Round 2,Michael Geerts,Radu Albot,,,,,tennis.com
+atp,,ATP Challenger Roehampton,Grass,3,singles,Round 2,Elmer Møller,Anton Matusevich,,,,,tennis.com
+atp,,ATP Challenger Roehampton,Grass,3,singles,Round 2,Viktor Durasovic,Lucas Poullain,,,,,tennis.com
+atp,,ATP Challenger Roehampton,Grass,3,singles,Round 2,Mark Ceban,Unknown,,,,,tennis.com
+atp,,ATP Challenger Roehampton,Grass,3,singles,Round 2,Matheus Pucinelli de Almeida,Oliver Tarvet,,,,,tennis.com
+atp,,ATP Challenger Sion,Grass,3,singles,Round 2,Ryan Nijboer,Tommaso Compagnucci,,,,,tennis.com
+atp,,ATP Challenger Sion,Grass,3,singles,Round 2,Luca Staeheli,Juan Manuel La Serna,,,,,tennis.com
+atp,,ATP Challenger Sion,Grass,3,singles,Round 2,Dominic Stricker,Lucio Ratti,,,,,tennis.com
+atp,,ATP Challenger Sion,Grass,3,singles,Round 2,Alex Martí Pujolras,Dimitar Kuzmanov,,,,,tennis.com
+atp,,ATP Challenger Sion,Grass,3,singles,Round 2,Mika Brunold,Calvin Hémery,,,,,tennis.com
+atp,,ATP Challenger Sion,Grass,3,singles,Round 2,Jeffrey von der Schulenburg,Geoffrey Blancaneaux,,,,,tennis.com
+atp,,ATP Challenger Sion,Grass,3,singles,Round 2,Lorenzo Giustino,Henry Bernet,,,,,tennis.com
+atp,,ATP Challenger Sion,Grass,3,singles,Round 2,Sandro Kopp,Benjamin Hassan,,,,,tennis.com
 atp,,Cincinnati Open,Hard,3,singles,Round 3,Learner Tien,Frances Tiafoe,,,,,tennis.com
-wta,,Cincinnati Open,Hard,3,singles,Round 3,Sára Bejlek,Ekaterina Alexandrova,,,,,tennis.com
-wta,,Cincinnati Open,Hard,3,singles,Round 3,Aryna Sabalenka,Xinyu Wang,,,,,tennis.com
 wta,,Cincinnati Open,Hard,3,singles,Round 3,Marie Bouzková,Iva Jovic,,,,,tennis.com
+atp,,UTR PTT Arnhem Men 05,Hard,3,singles,,Roland Stuurman,Rein Koenders,,,,,tennis.com
+atp,,UTR PTT Arnhem Men 05,Hard,3,singles,,Maas Schotanus,Moos Van Donk,,,,,tennis.com
+atp,,UTR PTT Arnhem Men 05,Hard,3,singles,,Cas De Ruiter,Ondrej Hujo,,,,,tennis.com
+atp,,UTR PTT Arnhem Men 05,Hard,3,singles,,Sebastian Bozemoj,Raul Clarijs,,,,,tennis.com
+atp,,UTR PTT Arnhem Men 05,Hard,3,singles,,Hugo Garcia Gomez,Igor Mandou Berranger,,,,,tennis.com
+atp,,UTR PTT Arnhem Men 05,Hard,3,singles,,James Pikkaart,Roman Glarner,,,,,tennis.com
+atp,,UTR PTT Arnhem Men 05,Hard,3,singles,,Kolos Kincses,Miko Wassermann,,,,,tennis.com
+atp,,UTR PTT Arnhem Men 05,Hard,3,singles,,Thiago Agustin Pernas,Valentino de Pellegrin,,,,,tennis.com
+atp,,UTR PTT Arnhem Men 05,Hard,3,singles,,Cas De Ruiter,Raul Clarijs,,,,,tennis.com
+wta,,UTR PTT Arnhem Women 05,Hard,3,singles,,Daniela Ciobanu,Emily Welker,,,,,tennis.com
+wta,,UTR PTT Arnhem Women 05,Hard,3,singles,,Anna Jelinkova,Emma Slavikova,,,,,tennis.com
+wta,,UTR PTT Arnhem Women 05,Hard,3,singles,,Khrystyna Vozniak,Olga Molchanova,,,,,tennis.com
+wta,,UTR PTT Arnhem Women 05,Hard,3,singles,,Khrystyna Vozniak,Zejda Veljacic,,,,,tennis.com
+wta,,UTR PTT Arnhem Women 05,Hard,3,singles,,Maria Tkalenko,Laura Correia,,,,,tennis.com
+wta,,UTR PTT Arnhem Women 05,Hard,3,singles,,Hannah Read,Michelle Dzjachangirov,,,,,tennis.com
+wta,,UTR PTT Arnhem Women 05,Hard,3,singles,,Malkia Ngounoue,Julita Saner,,,,,tennis.com
+wta,,UTR PTT Arnhem Women 05,Hard,3,singles,,Marianna Zakarlyuk,Mia Horvit,,,,,tennis.com
+wta,,UTR PTT Arnhem Women 05,Hard,3,singles,,Ellen Hirschi,Mirjana Jovanovic,,,,,tennis.com
 atp,,UTR PTT Bali Men 01,Hard,3,singles,,Anthony Susanto,Jake Dembo,,,,,tennis.com
-atp,,UTR PTT Bali Men 01,Hard,3,singles,,Abhishek Bastola,Igor Kolaric,,,,,tennis.com
 atp,,UTR PTT Bali Men 01,Hard,3,singles,,Alexander Chang,Arjun Mehrotra,,,,,tennis.com
-atp,,UTR PTT Bali Men 01,Hard,3,singles,,Gautam S Venkatraman,Kareem Abdul Hakim,,,,,tennis.com
+atp,,UTR PTT Bali Men 01,Hard,3,singles,,Abhishek Bastola,Igor Kolaric,,,,,tennis.com
 atp,,UTR PTT Bali Men 01,Hard,3,singles,,Thomas Patton,Maximus Zavier Wong,,,,,tennis.com
 atp,,UTR PTT Bali Men 01,Hard,3,singles,,Raghav Jaisinghani,Mathieu Perchicot,,,,,tennis.com
-atp,,UTR PTT Gold Coast Men 05,Hard,3,singles,,Haruto Ishikawa,Tomislav Edward Papac,,,,,tennis.com
-atp,,UTR PTT Gold Coast Men 05,Hard,3,singles,,Charlie Pade,Sam Wensley,,,,,tennis.com
-atp,,UTR PTT Gold Coast Men 05,Hard,3,singles,,Enzo Aguiard,Kuma Ito,,,,,tennis.com
-atp,,UTR PTT Gold Coast Men 05,Hard,3,singles,,Clint Charles,Alexey Shtengelov,,,,,tennis.com
+atp,,UTR PTT Bali Men 01,Hard,3,singles,,Gautam S Venkatraman,Kareem Abdul Hakim,,,,,tennis.com
+atp,,UTR PTT Bali Men 01,Hard,3,singles,,Jack Bruce-Smith,Andras Necz,,,,,tennis.com
+atp,,UTR PTT Bali Men 01,Hard,3,singles,,Ethan David Zapp,Renaldi Aqila A Salim,,,,,tennis.com
 atp,,UTR PTT Gold Coast Men 05,Hard,3,singles,,Zane Stevens,Casey Hoole,,,,,tennis.com
 atp,,UTR PTT Gold Coast Men 05,Hard,3,singles,,Eric Tripathi,Alec Braund,,,,,tennis.com
-atp,,UTR PTT Gold Coast Men 05,Hard,3,singles,,Cody Atkinson,James Girdler,,,,,tennis.com
+atp,,UTR PTT Gold Coast Men 05,Hard,3,singles,,Clint Charles,Alexey Shtengelov,,,,,tennis.com
 atp,,UTR PTT Gold Coast Men 05,Hard,3,singles,,Elijah Dikkenberg,Harrison Gold,,,,,tennis.com
-wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Amelia Zylberman,Ramey Yu,,,,,tennis.com
-wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Kaylah McPhee,Christina Dodaj,,,,,tennis.com
-wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Emma Tran,Grace Cadwallader,,,,,tennis.com
-wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Ashley Katz,Sara Mickoska,,,,,tennis.com
+atp,,UTR PTT Gold Coast Men 05,Hard,3,singles,,Cody Atkinson,James Girdler,,,,,tennis.com
+atp,,UTR PTT Gold Coast Men 05,Hard,3,singles,,Clint Charles,Harrison Gold,,,,,tennis.com
+atp,,UTR PTT Gold Coast Men 05,Hard,3,singles,,Casey Hoole,Alec Braund,,,,,tennis.com
+atp,,UTR PTT Gold Coast Men 05,Hard,3,singles,,Zane Stevens,Alec Braund,,,,,tennis.com
+atp,,UTR PTT Gold Coast Men 05,Hard,3,singles,,Haruto Ishikawa,Sam Wensley,,,,,tennis.com
+atp,,UTR PTT Gold Coast Men 05,Hard,3,singles,,Cody Atkinson,Kuma Ito,,,,,tennis.com
+atp,,UTR PTT Gold Coast Men 05,Hard,3,singles,,Enzo Aguiard,Elijah Cham,,,,,tennis.com
+atp,,UTR PTT Gold Coast Men 05,Hard,3,singles,,Tomislav Edward Papac,Scott Jones,,,,,tennis.com
+atp,,UTR PTT Gold Coast Men 05,Hard,3,singles,,Eric Tripathi,Oscar Andrews,,,,,tennis.com
+atp,,UTR PTT Gold Coast Men 05,Hard,3,singles,,Elijah Dikkenberg,Jera Staley,,,,,tennis.com
+atp,,UTR PTT Gold Coast Men 05,Hard,3,singles,,James Girdler,Kuma Ito,,,,,tennis.com
+atp,,UTR PTT Gold Coast Men 05,Hard,3,singles,,James Girdler,Elijah Cham,,,,,tennis.com
+atp,,UTR PTT Gold Coast Men 05,Hard,3,singles,,Tomislav Edward Papac,Sam Wensley,,,,,tennis.com
+atp,,UTR PTT Gold Coast Men 05,Hard,3,singles,,Charlie Pade,Scott Jones,,,,,tennis.com
+atp,,UTR PTT Gold Coast Men 05,Hard,3,singles,,Alexey Shtengelov,Harrison Gold,,,,,tennis.com
+atp,,UTR PTT Gold Coast Men 05,Hard,3,singles,,Alexey Shtengelov,Jera Staley,,,,,tennis.com
+atp,,UTR PTT Gold Coast Men 05,Hard,3,singles,,Casey Hoole,Oscar Andrews,,,,,tennis.com
 wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Bridget Mihulka,Lily Fannin,,,,,tennis.com
 wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Ruby Ward,I Wen Wan,,,,,tennis.com
-wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Juliet Santitto,Lucia Gale,,,,,tennis.com
+wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Ashley Katz,Sara Mickoska,,,,,tennis.com
 wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Dayna Harrison,Eva Lopez,,,,,tennis.com
-wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Ashley Katz,I Wen Wan,,,,,tennis.com
+wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Juliet Santitto,Lucia Gale,,,,,tennis.com
+wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Emma Tran,Laquisa Khan,,,,,tennis.com
+wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Eva Lopez,Laquisa Khan,,,,,tennis.com
+wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Lucia Gale,Ramey Yu,,,,,tennis.com
+wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Sara Mickoska,Bianca Compuesto,,,,,tennis.com
 wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Amelia Zylberman,Arabelle Mancini,,,,,tennis.com
 wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Juliet Santitto,Ramey Yu,,,,,tennis.com
 wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Bridget Mihulka,Christina Dodaj,,,,,tennis.com
-wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Lily Fannin,Taylor Burke,,,,,tennis.com
-wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Sara Mickoska,I Wen Wan,,,,,tennis.com
-wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Sara Mickoska,Bianca Compuesto,,,,,tennis.com
-wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Eva Lopez,Laquisa Khan,,,,,tennis.com
-wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Kaylah McPhee,Taylor Burke,,,,,tennis.com
-wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Lily Fannin,Christina Dodaj,,,,,tennis.com
-wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Emma Tran,Laquisa Khan,,,,,tennis.com
+wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Ashley Katz,I Wen Wan,,,,,tennis.com
 wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Dayna Harrison,Grace Cadwallader,,,,,tennis.com
 wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Eva Lopez,Grace Cadwallader,,,,,tennis.com
+wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Sara Mickoska,I Wen Wan,,,,,tennis.com
 wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Ruby Ward,Bianca Compuesto,,,,,tennis.com
+wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Lily Fannin,Taylor Burke,,,,,tennis.com
+wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Lily Fannin,Christina Dodaj,,,,,tennis.com
+wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Kaylah McPhee,Taylor Burke,,,,,tennis.com
+wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,,Lucia Gale,Arabelle Mancini,,,,,tennis.com
+atp,,UTR PTT Nashville Men 02,Hard,3,singles,,Eric Crivei,Felipe Pinzon Moreno,,,,,tennis.com
+atp,,UTR PTT Nashville Men 02,Hard,3,singles,,Luka Butera,Dante Carlos Teramo,,,,,tennis.com
+atp,,UTR PTT Nashville Men 02,Hard,3,singles,,Juan Pablo Valdez Guzon,Felipe Pinzon Moreno,,,,,tennis.com
+atp,,UTR PTT Nashville Men 02,Hard,3,singles,,John Patrick Popowich,Adrian Treacy,,,,,tennis.com
+atp,,UTR PTT Nashville Men 02,Hard,3,singles,,Logan Zapp,Santiago Lora,,,,,tennis.com
+atp,,UTR PTT Nashville Men 02,Hard,3,singles,,Dylan Chou,Antoine Mayoral,,,,,tennis.com
+atp,,UTR PTT Nashville Men 02,Hard,3,singles,,Vojtech Vales,Asier Ayllon Prado,,,,,tennis.com
+atp,,UTR PTT Nashville Men 02,Hard,3,singles,,Dante Carlos Teramo,Aryan Saleh,,,,,tennis.com
+atp,,UTR PTT Nashville Men 02,Hard,3,singles,,Dante Carlos Teramo,Santiago Lora,,,,,tennis.com
+atp,,UTR PTT Nashville Men 02,Hard,3,singles,,Logan Zapp,Aryan Saleh,,,,,tennis.com
+atp,,UTR PTT Nashville Men 02,Hard,3,singles,,Luka Butera,Santiago Lora,,,,,tennis.com
+atp,,UTR PTT Nashville Men 02,Hard,3,singles,,Eric Crivei,Clement Mayoral,,,,,tennis.com
+atp,,UTR PTT Nashville Men 02,Hard,3,singles,,Elijah Poritzky,Photos (2003) Photiades,,,,,tennis.com
+atp,,UTR PTT Nashville Men 02,Hard,3,singles,,Elijah Poritzky,Vojtech Vales,,,,,tennis.com
+atp,,UTR PTT Nashville Men 02,Hard,3,singles,,Birtan Duran,Asier Ayllon Prado,,,,,tennis.com
+atp,,UTR PTT Nashville Men 02,Hard,3,singles,,Matthias Uwe Kask,Clement Mayoral,,,,,tennis.com
+atp,,UTR PTT Nashville Men 02,Hard,3,singles,,Vojtech Vales,Photos (2003) Photiades,,,,,tennis.com
