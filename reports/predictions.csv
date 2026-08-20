@@ -1,1 +1,19 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+atp,,Cincinnati Open,Hard,Quarterfinal,Thiago Agustin Tirante,Arthur Fils,0.2831,0.7169,3.53,1.39,25.52,0.5106,4.44,7.53,2.96,2.84,tennis.com
+atp,,ATP Challenger Cancún,Grass,Round 2,Henrique Rocha,Hubert Hurkacz,0.2878,0.7122,3.47,1.4,26.02,0.5723,4.48,12.34,2.98,2.09,tennis.com
+atp,,Cincinnati Open,Hard,Quarterfinal,Tommy Paul,Flavio Cobolli,0.6712,0.3288,1.49,3.04,25.38,0.4742,5.87,5.01,1.95,1.86,tennis.com
+atp,,Québec City,Hard,Round 2,Alexei Popyrin,Hugo Gaston,0.6196,0.3804,1.61,2.63,25.24,0.4371,9.35,5.62,3.38,2.64,tennis.com
+atp,,Québec City,Hard,Round 2,Jesper De Jong,Nicolai Budkov Kjaer,0.6194,0.3806,1.61,2.63,25.3,0.4442,8.65,7.18,2.85,2.51,tennis.com
+atp,,ATP Challenger Kingston,Grass,Quarterfinal,Juan Carlos Prado Angelo,Pedro Martinez,0.5788,0.4212,1.73,2.37,24.93,0.3849,5.02,7.03,2.71,2.28,tennis.com
+atp,,ATP Challenger Cancún,Grass,Round 2,Roman Safiullin,Stan Wawrinka,0.5626,0.4374,1.78,2.29,25.61,0.4704,8.48,7.99,3.05,2.47,tennis.com
+atp,,Québec City,Hard,Round 2,Benjamin Bonzi,Soon Woo Kwon,0.5588,0.4412,1.79,2.27,25.7,0.4819,6.64,4.71,2.71,3.14,tennis.com
+atp,,Québec City,Hard,Round 2,Zizou Bergs,Andrea Pellegrino,0.5581,0.4419,1.79,2.26,25.84,0.4995,7.43,4.71,2.81,3.14,tennis.com
+atp,,Québec City,Hard,Round 2,Jacob Fearnley,Alexis Galarneau,0.5568,0.4432,1.8,2.26,25.45,0.4481,7.14,6.39,3.08,2.71,tennis.com
+atp,,Québec City,Hard,Round 2,Jan Choinski,Taro Daniel,0.4448,0.5552,2.25,1.8,25.74,0.4853,7.18,6.75,2.52,2.84,tennis.com
+atp,,Québec City,Hard,Round 2,Stefanos Sakellaridis,Aleksandar Vukic,0.5538,0.4462,1.81,2.24,26.36,0.5684,9.07,7.73,2.6,2.48,tennis.com
+atp,,ATP Challenger Cancún,Grass,Round 2,Moise Kouame,Roman Andres Burruchaga,0.4497,0.5503,2.22,1.82,25.49,0.4509,6.57,4.87,2.92,3.25,tennis.com
+atp,,ATP Challenger Cancún,Grass,Round 2,Lloyd Harris,Pablo Llamas Ruiz,0.5323,0.4677,1.88,2.14,25.89,0.5041,9.9,4.75,2.84,3.17,tennis.com
+atp,,ATP Challenger Cancún,Grass,Round 2,Sebastian Baez,Rodrigo Pacheco Mendez,0.5186,0.4814,1.93,2.08,25.1,0.3982,8.31,4.8,2.81,3.2,tennis.com
+atp,,ATP Challenger Cancún,Grass,Round 2,Camilo Ugo Carabelli,Moez Echargui,0.5045,0.4955,1.98,2.02,25.51,0.4511,5.19,6.63,3.09,2.45,tennis.com
+wta,,Cincinnati Open,Hard,Quarterfinal,Amanda Anisimova,Jessica Pegula,0.3883,0.6117,2.58,1.63,24.45,0.33,3.6,3.7,4.29,2.56,tennis.com
+wta,,Cincinnati Open,Hard,Quarterfinal,Iga Swiatek,Elena Rybakina,0.4365,0.5635,2.29,1.77,24.67,0.3478,3.47,8.06,3.27,2.91,tennis.com
