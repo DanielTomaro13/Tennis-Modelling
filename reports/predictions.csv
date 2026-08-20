@@ -1,6 +1,1 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Cincinnati Open,Hard,Round 4,Jaime Faria,Lorenzo Musetti,0.2897,0.7103,3.45,1.41,24.73,0.4038,7.69,6.13,3.12,2.63,tennis.com
-atp,,Cincinnati Open,Hard,Round 4,Frances Tiafoe,Felix Auger Aliassime,0.3648,0.6352,2.74,1.57,26.12,0.5529,6.12,9.3,2.2,4.11,tennis.com
-atp,,ATP Challenger Cancún,Grass,Round 1,Felipe Meligeni Alves,Moise Kouame,0.4104,0.5896,2.44,1.7,24.9,0.3815,4.54,6.82,2.44,3.04,tennis.com
-atp,,Québec City,Hard,Round 1,Jacob Fearnley,Mackenzie Mcdonald,0.5066,0.4934,1.97,2.03,25.72,0.4798,7.04,6.35,3.04,2.99,tennis.com
-wta,,Cincinnati Open,Hard,Round 4,Aryna Sabalenka,Sara Bejlek,0.8968,0.1032,1.12,9.69,21.69,0.226,4.76,1.85,3.56,3.47,tennis.com
