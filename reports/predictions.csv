@@ -1,7 +1,5 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Québec City,Hard,Quarterfinal,Zizou Bergs,Stefanos Sakellaridis,0.6443,0.3557,1.55,2.81,25.94,0.5371,7.47,8.52,2.82,2.44,tennis.com
 atp,,ATP Challenger Cancún,Grass,Quarterfinal,Roman Safiullin,Hubert Hurkacz,0.388,0.612,2.58,1.63,26.3,0.5687,8.07,12.36,2.9,2.09,tennis.com
-atp,,Cincinnati Open,Hard,Quarterfinal,Taylor Fritz,Brandon Nakashima,0.5945,0.4055,1.68,2.47,27.22,0.6852,10.74,8.73,2.11,1.5,tennis.com
 atp,,ATP Challenger Cancún,Grass,Quarterfinal,Sebastian Baez,Coleman Wong,0.4385,0.5615,2.28,1.78,25.22,0.4181,8.08,6.85,2.73,2.34,tennis.com
 atp,,ATP Challenger Cancún,Grass,Quarterfinal,Moez Echargui,Moise Kouame,0.4633,0.5367,2.16,1.86,25.56,0.4593,6.6,6.68,2.44,2.98,tennis.com
 atp,,Cincinnati Open,Hard,Quarterfinal,Lorenzo Musetti,Frances Tiafoe,0.525,0.475,1.9,2.11,25.84,0.4968,5.97,6.3,2.56,2.26,tennis.com
