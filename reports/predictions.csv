@@ -1,3 +1,1 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,ATP Challenger Cancún,Grass,Quarterfinal,Sebastian Baez,Coleman Wong,0.4385,0.5615,2.28,1.78,25.22,0.4181,8.08,6.85,2.73,2.34,tennis.com
-wta,,Cincinnati Open,Hard,Quarterfinal,Coco Gauff,Marta Kostyuk,0.5543,0.4457,1.8,2.24,24.42,0.315,4.32,3.79,7.29,5.64,tennis.com
