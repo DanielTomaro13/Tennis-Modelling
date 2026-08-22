@@ -1,7 +1,7 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
 atp,,Cincinnati Open,Hard,Semifinal,Flavio Cobolli,Arthur Fils,0.2835,0.7165,3.53,1.4,25.76,0.5406,4.96,7.5,1.84,2.83,tennis.com
 atp,,ATP Challenger Cancún,Grass,Semifinal,Hubert Hurkacz,Moez Echargui,0.7135,0.2865,1.4,3.49,26.05,0.5831,12.38,6.12,2.09,2.26,tennis.com
-atp,,Québec City,Hard,Semifinal,Hugo Gaston,Luca Van Assche,0.3922,0.6078,2.55,1.65,25.46,0.458,5.7,7.73,2.68,2.45,tennis.com
+atp,,ATP Challenger Kingston,Grass,Final,Valentin Royer,Pedro Martinez,0.5511,0.4489,1.81,2.23,25.46,0.4495,7.11,7.09,2.76,2.3,tennis.com
 atp,,Québec City,Hard,Semifinal,Stefanos Sakellaridis,Taro Daniel,0.5464,0.4536,1.83,2.2,26.11,0.5344,9.08,6.56,2.6,2.77,tennis.com
 atp,,ATP Challenger Cancún,Grass,Semifinal,Sebastian Baez,Lloyd Harris,0.4591,0.5409,2.18,1.85,25.17,0.409,8.14,9.93,2.75,2.85,tennis.com
 atp,,Cincinnati Open,Hard,Semifinal,Brandon Nakashima,Frances Tiafoe,0.5288,0.4712,1.89,2.12,26.88,0.6325,9.02,6.28,1.55,2.25,tennis.com
