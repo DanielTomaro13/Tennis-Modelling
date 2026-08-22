@@ -1,22 +1,51 @@
 tour,date,tournament,surface,best_of,format,round,player1,player2,p1a,p1b,p2a,p2b,source
 atp,,ATP Challenger Cancún,Grass,3,singles,Quarterfinal,Sebastián Báez,Coleman Wong,,,,,tennis.com
+atp,,Advantage Cars Prague Open,Hard,3,singles,Final,Chun Hsin Tseng,Jan Kumstát,,,,,tennis.com
+atp,,ATP Challenger Roehampton,Grass,3,singles,Final,Oliver Tarvet,Lucas Poullain,,,,,tennis.com
+atp,,ATP Challenger Sion,Grass,3,singles,Final,Benjamin Hassan,Dominic Stricker,,,,,tennis.com
 wta,,Cincinnati Open,Hard,3,singles,Quarterfinal,Coco Gauff,Marta Kostyuk,,,,,tennis.com
+atp,,UTR PTT Arnhem Men 05,Hard,3,singles,Semifinal,Matiej Reiter,Bjorn Schoemacher,,,,,tennis.com
+atp,,UTR PTT Arnhem Men 05,Hard,3,singles,Semifinal,Thiago Agustin Pernas,Ondrej Hujo,,,,,tennis.com
+atp,,UTR PTT Arnhem Men 05,Hard,3,singles,Semifinal,Milan Markovits,Constantin Neubauer,,,,,tennis.com
+atp,,UTR PTT Arnhem Men 05,Hard,3,singles,Semifinal,Miko Wassermann,Niels Lootsma,,,,,tennis.com
+atp,,UTR PTT Arnhem Men 05,Hard,3,singles,Semifinal,Roland Stuurman,Sebastian Bozemoj,,,,,tennis.com
+atp,,UTR PTT Arnhem Men 05,Hard,3,singles,Semifinal,Igor Mandou Berranger,Kolos Kincses,,,,,tennis.com
+atp,,UTR PTT Arnhem Men 05,Hard,3,singles,Semifinal,Hugo Garcia Gomez,Jari Schot,,,,,tennis.com
+atp,,UTR PTT Arnhem Men 05,Hard,3,singles,Semifinal,Maas Schotanus,James Pikkaart,,,,,tennis.com
+atp,,UTR PTT Arnhem Men 05,Hard,3,singles,Semifinal,Roman Glarner,Moos Van Donk,,,,,tennis.com
+atp,,UTR PTT Arnhem Men 05,Hard,3,singles,Semifinal,Rein Koenders,Cas De Ruiter,,,,,tennis.com
+wta,,UTR PTT Arnhem Women 05,Hard,3,singles,Semifinal,Ellen Hirschi,Maria Tkalenko,,,,,tennis.com
+wta,,UTR PTT Arnhem Women 05,Hard,3,singles,Semifinal,Daniela Ciobanu,Hannah Read,,,,,tennis.com
+wta,,UTR PTT Arnhem Women 05,Hard,3,singles,Semifinal,Emma Slavikova,Estella Jaeger,,,,,tennis.com
+wta,,UTR PTT Arnhem Women 05,Hard,3,singles,Semifinal,Mia Horvit,Cara Korhonen,,,,,tennis.com
+wta,,UTR PTT Arnhem Women 05,Hard,3,singles,Semifinal,Julita Saner,Khrystyna Vozniak,,,,,tennis.com
+wta,,UTR PTT Arnhem Women 05,Hard,3,singles,Semifinal,Olga Molchanova,Malkia Ngounoue,,,,,tennis.com
+wta,,UTR PTT Arnhem Women 05,Hard,3,singles,Semifinal,Julia Kolodziejska,Marianna Zakarlyuk,,,,,tennis.com
+wta,,UTR PTT Arnhem Women 05,Hard,3,singles,Semifinal,Zejda Veljacic,Anna Jelinkova,,,,,tennis.com
+wta,,UTR PTT Arnhem Women 05,Hard,3,singles,Semifinal,Emily Welker,Mirjana Jovanovic,,,,,tennis.com
+wta,,UTR PTT Arnhem Women 05,Hard,3,singles,Semifinal,Chanel Janssen,Laura Correia,,,,,tennis.com
 atp,,UTR PTT Bali Men 01,Hard,3,singles,Semifinal,Alexander Chang,Anthony Susanto,,,,,tennis.com
 atp,,UTR PTT Bali Men 01,Hard,3,singles,Semifinal,Azuma Visaya,Mathieu Perchicot,,,,,tennis.com
 atp,,UTR PTT Bali Men 01,Hard,3,singles,Semifinal,Maximus Zavier Wong,Ivan Sodan,,,,,tennis.com
 atp,,UTR PTT Bali Men 01,Hard,3,singles,Semifinal,Igor Kolaric,Gautam S Venkatraman,,,,,tennis.com
 atp,,UTR PTT Bali Men 01,Hard,3,singles,Semifinal,Andras Necz,Kareem Abdul Hakim,,,,,tennis.com
 atp,,UTR PTT Bali Men 01,Hard,3,singles,Semifinal,Aarjun Pandit,Renaldi Aqila A Salim,,,,,tennis.com
-atp,,UTR PTT Gold Coast Men 05,Hard,3,singles,Semifinal,Cody Atkinson,Clint Charles,,,,,tennis.com
+atp,,UTR PTT Bali Men 01,Hard,3,singles,Semifinal,Jake Dembo,Jack Bruce-Smith,,,,,tennis.com
+atp,,UTR PTT Bali Men 01,Hard,3,singles,Semifinal,Vadym Konovchuk,Raghav Jaisinghani,,,,,tennis.com
+atp,,UTR PTT Bali Men 01,Hard,3,singles,Semifinal,Thomas Patton,Arjun Mehrotra,,,,,tennis.com
+atp,,UTR PTT Bali Men 01,Hard,3,singles,Semifinal,Ethan David Zapp,Abhishek Bastola,,,,,tennis.com
 atp,,UTR PTT Gold Coast Men 05,Hard,3,singles,Semifinal,Zane Stevens,Scott Jones,,,,,tennis.com
 atp,,UTR PTT Gold Coast Men 05,Hard,3,singles,Semifinal,Jera Staley,Elijah Cham,,,,,tennis.com
+atp,,UTR PTT Gold Coast Men 05,Hard,3,singles,Semifinal,Cody Atkinson,Clint Charles,,,,,tennis.com
 atp,,UTR PTT Gold Coast Men 05,Hard,3,singles,Semifinal,Casey Hoole,Haruto Ishikawa,,,,,tennis.com
 atp,,UTR PTT Gold Coast Men 05,Hard,3,singles,Semifinal,Oscar Andrews,James Girdler,,,,,tennis.com
 atp,,UTR PTT Gold Coast Men 05,Hard,3,singles,Semifinal,Enzo Aguiard,Elijah Dikkenberg,,,,,tennis.com
-wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,Semifinal,I Wen Wan,Emma Tran,,,,,tennis.com
 wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,Semifinal,Eva Lopez,Sara Mickoska,,,,,tennis.com
-wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,Semifinal,Ruby Ward,Amelia Zylberman,,,,,tennis.com
-wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,Semifinal,Laquisa Khan,Juliet Santitto,,,,,tennis.com
+wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,Semifinal,I Wen Wan,Emma Tran,,,,,tennis.com
 wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,Semifinal,Bianca Compuesto,Christina Dodaj,,,,,tennis.com
 wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,Semifinal,Lucia Gale,Kaylah McPhee,,,,,tennis.com
+wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,Semifinal,Laquisa Khan,Juliet Santitto,,,,,tennis.com
 wta,,UTR PTT Gold Coast Women 05,Hard,3,singles,Semifinal,Grace Cadwallader,Ramey Yu,,,,,tennis.com
+atp,,UTR PTT Nashville Men 02,Hard,3,singles,Semifinal,Asier Ayllon Prado,Aryan Saleh,,,,,tennis.com
+atp,,UTR PTT Nashville Men 02,Hard,3,singles,Semifinal,Eric Crivei,Dylan Chou,,,,,tennis.com
+atp,,UTR PTT Nashville Men 02,Hard,3,singles,Semifinal,Felipe Pinzon Moreno,Vojtech Vales,,,,,tennis.com
