@@ -1,20 +1,18 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
 atp,,Winston-Salem Open,Hard,Round 1,Sho Shimabukuro,Miomir Kecmanovic,0.2919,0.7081,3.43,1.41,25.27,0.4725,4.44,5.34,2.96,2.15,tennis.com
+atp,,ATP Challenger Cancún,Grass,Final,Sebastian Baez,Hubert Hurkacz,0.3199,0.6801,3.13,1.47,25.32,0.4648,7.67,12.55,2.59,2.12,tennis.com
 atp,,Cincinnati Open,Hard,Final,Arthur Fils,Frances Tiafoe,0.6176,0.3824,1.62,2.61,26.32,0.5774,7.52,6.12,2.83,2.2,tennis.com
 atp,,Winston-Salem Open,Hard,Round 1,Francisco Comesana,Yibing Wu,0.3893,0.6107,2.57,1.64,25.91,0.5172,8.09,7.11,3.2,2.48,tennis.com
 atp,,Winston-Salem Open,Hard,Round 1,Martin Landaluce,Mattia Bellucci,0.5937,0.4063,1.68,2.46,25.7,0.489,6.73,6.33,3.63,2.52,tennis.com
-atp,,Winston-Salem Open,Hard,Qualifying Round 2,Hugo Grenier,Mees Rottgering,0.5606,0.4394,1.78,2.28,25.73,0.4854,4.9,5.88,3.26,3.02,tennis.com
 atp,,Winston-Salem Open,Hard,Round 1,Giovanni Mpetshi Perricard,Jenson Brooksby,0.4506,0.5494,2.22,1.82,26.97,0.644,13.77,4.63,3.81,2.44,tennis.com
-atp,,Winston-Salem Open,Hard,Qualifying Round 2,Abedallah Shelbayh,Dhakshineswar Suresh,0.4823,0.5177,2.07,1.93,26.29,0.5545,4.8,9.69,3.2,2.66,tennis.com
-atp,,Winston-Salem Open,Hard,Round 1,Dino Prizmic,Lleyton Hewitt,0.4926,0.5074,2.03,1.97,25.86,0.4981,7.27,4.8,2.79,3.2,tennis.com
 atp,,Winston-Salem Open,Hard,Round 1,Pablo Carreno Busta,Adolfo Daniel Vallejo,0.4995,0.5005,2.0,2.0,25.69,0.4752,5.84,6.14,2.43,3.27,tennis.com
 wta,,Abierto GNP Seguros,Hard,Round 1,Lilli Tagger,Yuliia Starodubtseva,0.7698,0.2302,1.3,4.34,23.46,0.2911,4.15,2.55,3.86,3.36,tennis.com
 wta,,Abierto GNP Seguros,Hard,Round 1,Mayar Sherif,Oleksandra Oliynykova,0.304,0.696,3.29,1.44,23.96,0.3019,3.08,3.32,3.71,3.72,tennis.com
+wta,,Philadelphia Tennis Classic,Hard,Round 1,Oksana Selekhmeteva,Taylah Preston,0.3646,0.6354,2.74,1.57,24.19,0.3047,4.56,2.8,3.04,3.49,tennis.com
 wta,,Abierto GNP Seguros,Hard,Round 1,Antonia Ruzic,Nikola Bartunkova,0.371,0.629,2.7,1.59,24.38,0.3258,2.55,4.48,3.43,5.85,tennis.com
 wta,,Abierto GNP Seguros,Hard,Qualifying Round 2,Maria Timofeeva,Kamilla Rakhimova,0.3804,0.6196,2.63,1.61,24.39,0.3243,4.61,3.08,3.07,5.01,tennis.com
 wta,,Abierto GNP Seguros,Hard,Qualifying Round 2,Anna Bondar,En Shuo Liang,0.5955,0.4045,1.68,2.47,24.34,0.3135,4.38,4.65,3.53,3.1,tennis.com
 wta,,Philadelphia Tennis Classic,Hard,Round 1,Anastasia Zakharova,Anna Blinkova,0.5667,0.4333,1.76,2.31,24.73,0.3566,2.95,2.44,3.35,3.9,tennis.com
 wta,,Cincinnati Open,Hard,Final,Coco Gauff,Jessica Pegula,0.4632,0.5368,2.16,1.86,24.47,0.3195,4.17,3.63,7.04,2.51,tennis.com
-wta,,Philadelphia Tennis Classic,Hard,Round 1,Liudmila Samsonova,Taylah Preston,0.5352,0.4648,1.87,2.15,24.44,0.3155,3.75,2.64,4.03,3.29,tennis.com
 wta,,Abierto GNP Seguros,Hard,Qualifying Round 2,Maya Joint,Yulia Putintseva,0.4746,0.5254,2.11,1.9,24.39,0.3079,2.17,2.29,3.81,3.36,tennis.com
 wta,,Abierto GNP Seguros,Hard,Qualifying Round 2,Panna Udvardy,Darja Vidmanova,0.4845,0.5155,2.06,1.94,24.7,0.3473,2.99,4.4,3.46,2.84,tennis.com
