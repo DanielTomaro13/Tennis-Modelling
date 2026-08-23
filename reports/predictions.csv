@@ -1,2 +1,1 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,ATP Challenger Cancún,Grass,Semifinal,Sebastian Baez,Lloyd Harris,0.4591,0.5409,2.18,1.85,25.17,0.409,8.14,9.93,2.75,2.85,tennis.com
