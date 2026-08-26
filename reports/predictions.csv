@@ -1,21 +1,3 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Winston-Salem Open,Hard,Round 2,Daniil Medvedev,Martin Damm,0.8194,0.1806,1.22,5.54,24.06,0.4095,8.65,8.98,4.33,2.52,tennis.com
-atp,,Winston-Salem Open,Hard,Round 2,Mees Rottgering,Tomas Machac,0.2004,0.7996,4.99,1.25,24.65,0.4575,5.21,6.25,2.68,2.97,tennis.com
-atp,,US Open,Hard,Qualifying Round 1,Colton Smith,Andrea Pellegrino,0.2871,0.7129,3.48,1.4,41.5,0.6423,7.39,8.07,4.93,5.38,tennis.com
-atp,,Winston-Salem Open,Hard,Round 2,Hugo Grenier,Sebastian Baez,0.3651,0.6349,2.74,1.58,25.01,0.4069,4.6,4.2,3.06,2.36,tennis.com
-atp,,Winston-Salem Open,Hard,Round 2,James Duckworth,Mariano Navone,0.4286,0.5714,2.33,1.75,24.96,0.3859,7.68,7.4,2.69,2.93,tennis.com
-atp,,US Open,Hard,Qualifying Round 1,Taro Daniel,Steve Johnson,0.4395,0.5605,2.28,1.78,42.48,0.6645,10.9,8.01,4.59,5.34,tennis.com
-atp,,Winston-Salem Open,Hard,Round 2,Adrian Mannarino,Lorenzo Sonego,0.4512,0.5488,2.22,1.82,25.68,0.4766,6.77,6.27,2.41,2.11,tennis.com
-atp,,Winston-Salem Open,Hard,Round 2,Miomir Kecmanovic,Fabian Marozsan,0.4561,0.5439,2.19,1.84,25.84,0.4971,5.17,6.13,2.08,2.29,tennis.com
-atp,,US Open,Hard,Qualifying Round 1,Moez Echargui,Hugo Dellien,0.5024,0.4976,1.99,2.01,42.69,0.6783,12.49,7.91,4.09,5.28,tennis.com
-wta,,Philadelphia Tennis Classic,Hard,Round 2,Julia Grabher,Ashlyn Krueger,0.2681,0.7319,3.73,1.37,23.83,0.3058,4.27,5.15,2.85,5.25,tennis.com
-wta,,Abierto GNP Seguros,Hard,Round 1,Shuai Zhang,Maria Timofeeva,0.6874,0.3126,1.45,3.2,24.07,0.3142,3.31,4.39,3.54,2.93,tennis.com
-wta,,US Open,Hard,Qualifying Round 1,Yue Yuan,Hanyu Guo,0.6855,0.3145,1.46,3.18,24.08,0.3149,3.17,4.4,2.82,2.93,tennis.com
-wta,,US Open,Hard,Qualifying Round 1,Dalma Galfi,Aliaksandra Sasnovich,0.367,0.633,2.72,1.58,24.3,0.3176,3.85,4.34,3.96,5.07,tennis.com
-wta,,Abierto GNP Seguros,Hard,Round 2,Janice Tjen,Yuliia Starodubtseva,0.6154,0.3846,1.62,2.6,24.38,0.3246,3.74,2.87,3.85,3.77,tennis.com
-wta,,US Open,Hard,Qualifying Round 1,Elvina Kalieva,Kristina Mladenovic,0.5376,0.4624,1.86,2.16,24.54,0.3285,4.95,4.78,3.3,3.19,tennis.com
 wta,,Abierto GNP Seguros,Hard,Round 2,Nikola Bartunkova,Anastasia Potapova,0.5279,0.4721,1.89,2.12,24.41,0.3114,4.38,3.14,5.72,4.86,tennis.com
-wta,,Abierto GNP Seguros,Hard,Round 1,Darja Vidmanova,Kimberly Birrell,0.5185,0.4815,1.93,2.08,24.54,0.3276,4.44,2.54,2.87,5.15,tennis.com
 wta,,Abierto GNP Seguros,Hard,Round 2,Oleksandra Oliynykova,Diane Parry,0.5118,0.4882,1.95,2.05,24.5,0.3223,3.18,2.92,3.56,3.95,tennis.com
-wta,,Abierto GNP Seguros,Hard,Round 1,Panna Udvardy,Maya Joint,0.4897,0.5103,2.04,1.96,24.61,0.336,3.0,2.18,3.47,3.84,tennis.com
-wta,,US Open,Hard,Qualifying Round 1,Storm Hunter,Maddison Inglis,0.499,0.501,2.0,2.0,24.6,0.3343,3.45,4.86,4.19,3.24,tennis.com
