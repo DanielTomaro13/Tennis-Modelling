@@ -1,15 +1,4 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Winston-Salem Open,Hard,Round 3,Aleksandar Kovacevic,Stefanos Tsitsipas,0.3451,0.6549,2.9,1.53,26.41,0.5975,8.96,7.81,2.49,2.84,tennis.com
-atp,,US Open,Hard,Qualifying Round 2,Nicolai Budkov Kjaer,Christopher Oconnell,0.3725,0.6275,2.68,1.59,41.93,0.6355,11.99,11.31,4.2,3.41,tennis.com
-atp,,Winston-Salem Open,Hard,Round 3,Lorenzo Sonego,James Duckworth,0.6097,0.3903,1.64,2.56,26.05,0.5393,6.32,7.51,2.13,2.63,tennis.com
-atp,,US Open,Hard,Qualifying Round 2,Bu Yunchaokete,Borna Gojo,0.6002,0.3998,1.67,2.5,41.89,0.6244,12.71,7.71,4.19,5.14,tennis.com
-atp,,Winston-Salem Open,Hard,Round 3,Juan Manuel Cerundolo,Sebastian Baez,0.5742,0.4258,1.74,2.35,25.1,0.4057,7.66,3.96,2.79,2.23,tennis.com
-atp,,US Open,Hard,Qualifying Round 2,Henrique Rocha,Lloyd Harris,0.4319,0.5681,2.32,1.76,42.64,0.6797,7.83,12.53,5.22,4.71,tennis.com
 atp,,Winston-Salem Open,Hard,Round 3,Martin Damm,Fabian Marozsan,0.4468,0.5532,2.24,1.81,26.02,0.5217,10.62,6.13,2.98,2.29,tennis.com
-atp,,US Open,Hard,Qualifying Round 2,Federico Cina,Hugo Dellien,0.521,0.479,1.92,2.09,42.47,0.66,10.84,7.89,4.28,5.26,tennis.com
-wta,,Abierto GNP Seguros,Hard,Round 2,Panna Udvardy,Elise Mertens,0.3174,0.6826,3.15,1.47,24.47,0.3576,2.75,3.9,3.18,5.04,tennis.com
 wta,,Abierto GNP Seguros,Hard,Round 2,Maja Chwalinska,Alycia Parks,0.6153,0.3847,1.63,2.6,24.33,0.3183,5.06,6.0,3.37,6.26,tennis.com
-wta,,US Open,Hard,Qualifying Round 2,Francesca Jones,Mona Barthel,0.4038,0.5962,2.48,1.68,24.52,0.3347,3.76,5.0,3.99,3.34,tennis.com
-wta,,US Open,Hard,Qualifying Round 2,Martyna Kubka,Julia Riera,0.4428,0.5572,2.26,1.79,24.68,0.3475,5.32,4.94,3.72,3.29,tennis.com
 wta,,Abierto GNP Seguros,Hard,Round 2,Ekaterina Alexandrova,Clara Tauson,0.5266,0.4734,1.9,2.11,24.72,0.3508,5.14,7.24,5.33,3.78,tennis.com
-wta,,Abierto GNP Seguros,Hard,Round 2,Cristina Bucsa,Darja Vidmanova,0.513,0.487,1.95,2.05,24.49,0.32,3.23,4.37,4.49,2.82,tennis.com
