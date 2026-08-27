@@ -1,109 +1,71 @@
 tour,date,tournament,surface,best_of,format,round,player1,player2,p1a,p1b,p2a,p2b,source
 atp,,SCHWABEN OPEN,Hard,3,singles,Semifinal,Benito Sanchez Martinez,Facundo Mena,,,,,tennis.com
 atp,,SCHWABEN OPEN,Hard,3,singles,Semifinal,Cezar Crețu,Sandro Kopp,,,,,tennis.com
-atp,,"ATP Challenger Kingston 2, Jamaica",Grass,3,singles,Quarterfinal,Max Purcell,Andres Andrade,,,,,tennis.com
-atp,,"ATP Challenger Kingston 2, Jamaica",Grass,3,singles,Quarterfinal,Miguel Tobon,Rodrigo Pacheco Mendez,,,,,tennis.com
 atp,,"ATP Challenger Kingston 2, Jamaica",Grass,3,singles,Quarterfinal,Andrew Fenty,Luis Guto Miguel,,,,,tennis.com
-atp,,"ATP Challenger Roehampton 2, Great Britain",Grass,3,singles,Semifinal,George Loffhagen,Michele Ribecai,,,,,tennis.com
 atp,,"ATP Challenger Roehampton 2, Great Britain",Grass,3,singles,Semifinal,Charles Broom,Oliver Tarvet,,,,,tennis.com
-atp,,Winston-Salem Open,Hard,3,singles,Quarterfinal,Benjamin Bonzi,Botic van de Zandschulp,,,,,tennis.com
+atp,,"ATP Challenger Roehampton 2, Great Britain",Grass,3,singles,Semifinal,George Loffhagen,Michele Ribecai,,,,,tennis.com
 atp,,Winston-Salem Open,Hard,3,singles,Quarterfinal,Juan Manuel Cerúndolo,Ignacio Buse,,,,,tennis.com
 atp,,Winston-Salem Open,Hard,3,singles,Quarterfinal,Arthur Fery,Aleksandar Kovačević,,,,,tennis.com
 atp,,Winston-Salem Open,Hard,3,singles,Quarterfinal,Fábián Marozsán,James Duckworth,,,,,tennis.com
-atp,,US Open,Hard,5,singles,Qualifying Round 3,Arthur Géa,Nishesh Basavareddy,,,,,tennis.com
-atp,,US Open,Hard,5,singles,Qualifying Round 3,Dalibor Svrčina,Mackenzie McDonald,,,,,tennis.com
-atp,,US Open,Hard,5,singles,Qualifying Round 3,Shintaro Mochizuki,Francesco Passaro,,,,,tennis.com
-atp,,US Open,Hard,5,singles,Qualifying Round 3,Lloyd Harris,Pablo Llamas Ruiz,,,,,tennis.com
 atp,,US Open,Hard,5,singles,Qualifying Round 3,Zsombor Piros,Christopher O'Connell,,,,,tennis.com
-atp,,US Open,Hard,5,singles,Qualifying Round 3,Kei Nishikori,Rei Sakamoto,,,,,tennis.com
-atp,,US Open,Hard,5,singles,Qualifying Round 3,Yunchaokete Bu,Federico Cina,,,,,tennis.com
 atp,,US Open,Hard,5,singles,Qualifying Round 3,Liam Draxl,Tristan Schoolkate,,,,,tennis.com
+atp,,US Open,Hard,5,singles,Qualifying Round 3,Kei Nishikori,Rei Sakamoto,,,,,tennis.com
+atp,,US Open,Hard,5,singles,Qualifying Round 3,Lloyd Harris,Pablo Llamas Ruiz,,,,,tennis.com
+atp,,US Open,Hard,5,singles,Qualifying Round 3,Dalibor Svrčina,Mackenzie McDonald,,,,,tennis.com
+atp,,US Open,Hard,5,singles,Qualifying Round 3,Arthur Géa,Nishesh Basavareddy,,,,,tennis.com
+atp,,US Open,Hard,5,singles,Qualifying Round 3,Shintaro Mochizuki,Francesco Passaro,,,,,tennis.com
+atp,,US Open,Hard,5,singles,Qualifying Round 3,Yunchaokete Bu,Federico Cina,,,,,tennis.com
 atp,,US Open,Hard,5,singles,Qualifying Round 3,Hugo Gaston,Colton Smith,,,,,tennis.com
+wta,,US Open,Hard,3,singles,Qualifying Round 3,Kristina Liutova,Martyna Kubka,,,,,tennis.com
 wta,,US Open,Hard,3,singles,Qualifying Round 3,Yue Yuan,Mary Stoiana,,,,,tennis.com
 wta,,US Open,Hard,3,singles,Qualifying Round 3,Mia Ristić,Himeno Sakatsume,,,,,tennis.com
-wta,,US Open,Hard,3,singles,Qualifying Round 3,Lucie Havlíčková,Nao Hibino,,,,,tennis.com
-wta,,US Open,Hard,3,singles,Qualifying Round 3,Heather Watson,Harriet Dart,,,,,tennis.com
-wta,,US Open,Hard,3,singles,Qualifying Round 3,Tamara Zidanšek,Bianca Andreescu,,,,,tennis.com
-wta,,US Open,Hard,3,singles,Qualifying Round 3,Susan Bandecchi,Arantxa Rus,,,,,tennis.com
-wta,,US Open,Hard,3,singles,Qualifying Round 3,Francesca Jones,Joanna Garland,,,,,tennis.com
-wta,,US Open,Hard,3,singles,Qualifying Round 3,Kristina Liutova,Martyna Kubka,,,,,tennis.com
 wta,,US Open,Hard,3,singles,Qualifying Round 3,Darja Semenistaja,Storm Hunter,,,,,tennis.com
+wta,,US Open,Hard,3,singles,Qualifying Round 3,Heather Watson,Harriet Dart,,,,,tennis.com
+wta,,US Open,Hard,3,singles,Qualifying Round 3,Francesca Jones,Joanna Garland,,,,,tennis.com
 wta,,US Open,Hard,3,singles,Qualifying Round 3,Elvina Kalieva,Vendula Valdmannová,,,,,tennis.com
-atp,,UTR PTT Boise Men 01,Hard,3,singles,,Andre Alcantara,Alexander Kotarski,,,,,tennis.com
-atp,,UTR PTT Boise Men 01,Hard,3,singles,,Cade Fernando,Brayden Tallakson,,,,,tennis.com
-atp,,UTR PTT Boise Men 01,Hard,3,singles,,Thomas Edwards,Julius Seifert,,,,,tennis.com
-wta,,UTR PTT Boise Women 01,Hard,3,singles,,Pepper Rickert,Chanel Scudiero,,,,,tennis.com
-wta,,UTR PTT Boise Women 01,Hard,3,singles,,Josephine Lombardi,Ella Piron,,,,,tennis.com
-atp,,UTR PTT Clemson Men 02,Hard,3,singles,,Elliot Wasserman,Aleksandr Kalinin,,,,,tennis.com
-atp,,UTR PTT Clemson Men 02,Hard,3,singles,,Viktor Markov,Luka Vuglar,,,,,tennis.com
-atp,,UTR PTT Clemson Men 02,Hard,3,singles,,Harrison Kemp,Marcos Castellanos,,,,,tennis.com
-wta,,UTR PTT Clemson Women 01,Hard,3,singles,,Harper Stone,Sophia Cisse-Ignatiev,,,,,tennis.com
-wta,,UTR PTT Clemson Women 01,Hard,3,singles,,Sadbaroy Kholdarova,Ava Hrastar,,,,,tennis.com
-wta,,UTR PTT Clemson Women 01,Hard,3,singles,,Mayra Gisone,Sara Suchankova,,,,,tennis.com
-wta,,UTR PTT Clemson Women 01,Hard,3,singles,,Zhanel Rustemova,Lika Peresypkina,,,,,tennis.com
-wta,,UTR PTT Clemson Women 01,Hard,3,singles,,Alessia Cau,Emma Ottavia Ghirardato,,,,,tennis.com
-wta,,UTR PTT Clemson Women 01,Hard,3,singles,,Amy Gray,Sophie Clayton,,,,,tennis.com
+atp,,UTR PTT Clemson Men 02,Hard,3,singles,,Oleksandr Vysochenko,Luka Vuglar,,,,,tennis.com
+atp,,UTR PTT Clemson Men 02,Hard,3,singles,,Kaetan Mehta,Kanan Gasimov,,,,,tennis.com
 wta,,UTR PTT Clemson Women 01,Hard,3,singles,,Mayra Gisone,Zara Larke,,,,,tennis.com
 wta,,UTR PTT Clemson Women 01,Hard,3,singles,,Julie Bedard,Sofia Lauretti,,,,,tennis.com
-wta,,UTR PTT Clemson Women 01,Hard,3,singles,,Paula Dougherty,Patrycja Niewiadomska,,,,,tennis.com
+wta,,UTR PTT Clemson Women 01,Hard,3,singles,,Sadbaroy Kholdarova,Ava Hrastar,,,,,tennis.com
 atp,,UTR PTT Glasgow Men 01,Hard,3,singles,,Rupert George,Cameron Fryer,,,,,tennis.com
 atp,,UTR PTT Glasgow Men 01,Hard,3,singles,,Maximilian Carrier,Scott Macaulay,,,,,tennis.com
 atp,,UTR PTT Glasgow Men 01,Hard,3,singles,,Sean Hodkin,Cian Maguire,,,,,tennis.com
 atp,,UTR PTT Glasgow Men 01,Hard,3,singles,,Sil Hollemans,Finn Murgett,,,,,tennis.com
-atp,,UTR PTT Glasgow Men 01,Hard,3,singles,,Nicola Cigna,Baltazar Wiger Nordas,,,,,tennis.com
 atp,,UTR PTT Glasgow Men 01,Hard,3,singles,,Luca Bluett,Ferran Redza,,,,,tennis.com
-atp,,UTR PTT Glasgow Men 01,Hard,3,singles,,William McLennaghan,Harrison McElnea,,,,,tennis.com
+atp,,UTR PTT Glasgow Men 01,Hard,3,singles,,Nicola Cigna,Baltazar Wiger Nordas,,,,,tennis.com
 atp,,UTR PTT Glasgow Men 01,Hard,3,singles,,Jay Darvay,Kyle McKay,,,,,tennis.com
+atp,,UTR PTT Glasgow Men 01,Hard,3,singles,,William McLennaghan,Harrison McElnea,,,,,tennis.com
 wta,,UTR PTT Glasgow Women 01,Hard,3,singles,,Liana Sharratt Blanksby,Cara Korhonen,,,,,tennis.com
 wta,,UTR PTT Glasgow Women 01,Hard,3,singles,,Mia Horvit,Celine Ricaud,,,,,tennis.com
 wta,,UTR PTT Glasgow Women 01,Hard,3,singles,,Judith Hernandez Miranda,Pippa Bosman,,,,,tennis.com
 wta,,UTR PTT Glasgow Women 01,Hard,3,singles,,Leticia Romanova,Malkia Ngounoue,,,,,tennis.com
-wta,,UTR PTT Glasgow Women 01,Hard,3,singles,,Halle Pringle,Amanda Montes Khaghani,,,,,tennis.com
 wta,,UTR PTT Glasgow Women 01,Hard,3,singles,,Estella Jaeger,Khadija Adeniran,,,,,tennis.com
-wta,,UTR PTT Glasgow Women 01,Hard,3,singles,,Emma van Poppel,Olivia Rook,,,,,tennis.com
+wta,,UTR PTT Glasgow Women 01,Hard,3,singles,,Halle Pringle,Amanda Montes Khaghani,,,,,tennis.com
 wta,,UTR PTT Glasgow Women 01,Hard,3,singles,,Sophia Hurrion,Francesca Franchi,,,,,tennis.com
-atp,,UTR PTT Gold Coast Men 06,Hard,3,singles,Final,Arjun Balakrishnan,James Girdler,,,,,tennis.com
+wta,,UTR PTT Glasgow Women 01,Hard,3,singles,,Emma van Poppel,Olivia Rook,,,,,tennis.com
 atp,,UTR PTT Gold Coast Men 06,Hard,3,singles,,Scott Jones,Derek Pham,,,,,tennis.com
-atp,,UTR PTT Gold Coast Men 06,Hard,3,singles,Final,Eric Tripathi,Hayden Jones,,,,,tennis.com
+atp,,UTR PTT Gold Coast Men 06,Hard,3,singles,Final,Arjun Balakrishnan,James Girdler,,,,,tennis.com
 atp,,UTR PTT Gold Coast Men 06,Hard,3,singles,Final,Jera Staley,Cody Atkinson,,,,,tennis.com
-atp,,UTR PTT Gold Coast Men 06,Hard,3,singles,,Jacob Cairncross,Alec Braund,,,,,tennis.com
+atp,,UTR PTT Gold Coast Men 06,Hard,3,singles,Final,Eric Tripathi,Hayden Jones,,,,,tennis.com
 atp,,UTR PTT Gold Coast Men 06,Hard,3,singles,,Sam Oster,Elijah Dikkenberg,,,,,tennis.com
-wta,,UTR PTT Gold Coast Women 06,Hard,3,singles,Final,Eva Lopez,Ashley Katz,,,,,tennis.com
+atp,,UTR PTT Gold Coast Men 06,Hard,3,singles,,Jacob Cairncross,Alec Braund,,,,,tennis.com
 wta,,UTR PTT Gold Coast Women 06,Hard,3,singles,Final,Ruby Ward,Lily Fannin,,,,,tennis.com
 wta,,UTR PTT Gold Coast Women 06,Hard,3,singles,,Juliet Santitto,Sara Mickoska,,,,,tennis.com
-wta,,UTR PTT Gold Coast Women 06,Hard,3,singles,Final,Belle Thompson,I Wen Wan,,,,,tennis.com
+wta,,UTR PTT Gold Coast Women 06,Hard,3,singles,Final,Eva Lopez,Ashley Katz,,,,,tennis.com
 wta,,UTR PTT Gold Coast Women 06,Hard,3,singles,Final,Caitlin Baker,Sofia Savic,,,,,tennis.com
 wta,,UTR PTT Gold Coast Women 06,Hard,3,singles,,Lucia Gale,Laquisa Khan,,,,,tennis.com
+wta,,UTR PTT Gold Coast Women 06,Hard,3,singles,Final,Belle Thompson,I Wen Wan,,,,,tennis.com
 wta,,UTR PTT Gold Coast Women 06,Hard,3,singles,,Bridget Mihulka,Amelia Zylberman,,,,,tennis.com
 wta,,UTR PTT Gold Coast Women 06,Hard,3,singles,,Taylor Burke,Chelsea Stergiopoulos,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 20,Grass,3,singles,,Jacob Brumm,David Duong,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 20,Grass,3,singles,,Sohrob Amiryavari,Cayden Wang,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 20,Grass,3,singles,,Sohrob Amiryavari,Marco Alvarez,,,,,tennis.com
 atp,,UTR PTT Newport Beach Men 20,Grass,3,singles,,Charlie Underwood,Marco Alvarez,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 20,Grass,3,singles,,Perry Di Giulio,David Duong,,,,,tennis.com
 atp,,UTR PTT Newport Beach Men 20,Grass,3,singles,,Lukas Phimvongsa,Mario Garcia,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 20,Grass,3,singles,,Jacob Brumm,Dev Mangat,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 20,Grass,3,singles,,Andrew Gordon,Constantinos Djakouris,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 20,Grass,3,singles,,Cassius Chinlund,Antreas Djakouris,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 20,Grass,3,singles,,Matei Gavrea,Constantinos Djakouris,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 20,Grass,3,singles,,Andrew Gordon,Pavel Bushuev,,,,,tennis.com
 atp,,UTR PTT Newport Beach Men 20,Grass,3,singles,,Siddharth Bharadwaj,Antreas Djakouris,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 20,Grass,3,singles,,Sage Bergeson,Polina Marakhtanova,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 20,Grass,3,singles,,Juny Huh,Renee Huang,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 20,Grass,3,singles,,Kelsey Phillips,Tricia Mar,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 20,Grass,3,singles,,Sue Yan Tan,Tricia Mar,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 20,Grass,3,singles,,Amy Duong,Polina Marakhtanova,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 20,Grass,3,singles,,Kelly Keller,Maria Shmakova,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 20,Grass,3,singles,,Bella Lewis,Renee Huang,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 20,Grass,3,singles,,Anna Linn Moll,Maria Shmakova,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 20,Grass,3,singles,,Anna Linn Moll,Marley Lambert,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 20,Grass,3,singles,,Andrew Gordon,Constantinos Djakouris,,,,,tennis.com
 wta,,UTR PTT Newport Beach Women 20,Grass,3,singles,,Sue Yan Tan,Emily Deming,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 20,Grass,3,singles,,Kailey Evans,Tanvi Pandey,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 20,Grass,3,singles,,Veronica Miroshnichenko,Emily Deming,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 20,Grass,3,singles,,Sage Bergeson,Ines Leon,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 20,Grass,3,singles,,Anna Linn Moll,Maria Shmakova,,,,,tennis.com
 wta,,UTR PTT Newport Beach Women 20,Grass,3,singles,,Kiana Smith,Ines Leon,,,,,tennis.com
-wta,,Philadelphia Tennis Classic,Hard,3,singles,Quarterfinal,Fiona Crawley,Julia Grabher,,,,,tennis.com
-wta,,Philadelphia Tennis Classic,Hard,3,singles,Quarterfinal,Kylie Collins,Tereza Valentova,,,,,tennis.com
+wta,,UTR PTT Newport Beach Women 20,Grass,3,singles,,Kelsey Phillips,Tricia Mar,,,,,tennis.com
 wta,,Philadelphia Tennis Classic,Hard,3,singles,Quarterfinal,Mananchaya Sawangkaew,Katie Volynets,,,,,tennis.com
 wta,,Abierto GNP Seguros,Hard,3,singles,Quarterfinal,Alycia Parks,Ann Li,,,,,tennis.com
 wta,,Abierto GNP Seguros,Hard,3,singles,Quarterfinal,Darja Viďmanová,Nikola Bartůňková,,,,,tennis.com
