@@ -1,6 +1,2 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Winston-Salem Open,Hard,Quarterfinal,Fabian Marozsan,James Duckworth,0.6215,0.3785,1.61,2.64,25.75,0.504,6.23,7.47,2.32,2.62,tennis.com
-atp,,Winston-Salem Open,Hard,Quarterfinal,Arthur Fery,Aleksandar Kovacevic,0.594,0.406,1.68,2.46,25.98,0.5263,7.34,9.07,2.25,2.52,tennis.com
 wta,,Abierto GNP Seguros,Hard,Quarterfinal,Yuliia Starodubtseva,Elise Mertens,0.2499,0.7501,4.0,1.33,23.74,0.3074,2.62,3.96,3.45,5.11,tennis.com
-wta,,Philadelphia Tennis Classic,Hard,Quarterfinal,Mananchaya Sawangkaew,Katie Volynets,0.5852,0.4148,1.71,2.41,24.43,0.3219,5.02,2.43,3.35,2.31,tennis.com
-wta,,Abierto GNP Seguros,Hard,Quarterfinal,Clara Tauson,Diane Parry,0.564,0.436,1.77,2.29,24.66,0.3478,7.5,2.85,3.92,3.86,tennis.com
