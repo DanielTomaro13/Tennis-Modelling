@@ -1,1 +1,4 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+atp,,Winston-Salem Open,Hard,Final,Arthur Fery,Ignacio Buse,0.6123,0.3877,1.63,2.58,25.62,0.4834,7.38,6.89,2.27,2.39,tennis.com
+wta,,Philadelphia Tennis Classic,Hard,Final,Katie Volynets,Tereza Valentova,0.3267,0.6733,3.06,1.49,24.08,0.3055,2.32,3.58,2.2,4.93,tennis.com
+wta,,Abierto GNP Seguros,Hard,Final,Diane Parry,Elise Mertens,0.4089,0.5911,2.45,1.69,24.6,0.3442,2.83,3.86,3.83,4.98,tennis.com
