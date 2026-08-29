@@ -1,10 +1,23 @@
 tour,date,tournament,surface,best_of,format,round,player1,player2,p1a,p1b,p2a,p2b,source
-atp,,UTR PTT Newport Beach Men 20,Grass,3,singles,,Matei Gavrea,Constantinos Djakouris,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 20,Grass,3,singles,,Cassius Chinlund,Antreas Djakouris,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 20,Grass,3,singles,,Siddharth Bharadwaj,Mario Garcia,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 20,Grass,3,singles,,Jacob Brumm,Dev Mangat,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 20,Grass,3,singles,,Sage Bergeson,Ines Leon,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 20,Grass,3,singles,,Kailey Evans,Tanvi Pandey,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 20,Grass,3,singles,,Anna Linn Moll,Marley Lambert,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 20,Grass,3,singles,,Bella Lewis,Renee Huang,,,,,tennis.com
-wta,,Abierto GNP Seguros,Hard,3,singles,Semifinal,Nikola Bartůňková,Elise Mertens,,,,,tennis.com
+atp,,SCHWABEN OPEN,Hard,3,singles,Final,Facundo Mena,Cezar Crețu,,,,,tennis.com
+atp,,"ATP Challenger Roehampton 2, Great Britain",Grass,3,singles,Final,Charles Broom,George Loffhagen,,,,,tennis.com
+atp,,UTR PTT Clemson Men 02,Hard,3,singles,Semifinal,Viktor Markov,Elliot Wasserman,,,,,tennis.com
+atp,,UTR PTT Clemson Men 02,Hard,3,singles,Semifinal,Henrik Bladelius,Aleksandr Kalinin,,,,,tennis.com
+wta,,UTR PTT Clemson Women 01,Hard,3,singles,Semifinal,Harper Stone,Zhanel Rustemova,,,,,tennis.com
+wta,,UTR PTT Clemson Women 01,Hard,3,singles,Semifinal,Sara Suchankova,Emma Ottavia Ghirardato,,,,,tennis.com
+atp,,UTR PTT Glasgow Men 01,Hard,3,singles,Semifinal,Maximilian Carrier,Sean Hodkin,,,,,tennis.com
+atp,,UTR PTT Glasgow Men 01,Hard,3,singles,Final,Aaron Hilsum,Euan McIntosh,,,,,tennis.com
+atp,,UTR PTT Glasgow Men 01,Hard,3,singles,Semifinal,Luca Bluett,Harrison McElnea,,,,,tennis.com
+atp,,UTR PTT Glasgow Men 01,Hard,3,singles,Semifinal,Finn Murgett,Rupert George,,,,,tennis.com
+atp,,UTR PTT Glasgow Men 01,Hard,3,singles,Semifinal,Ferran Redza,Kyle McKay,,,,,tennis.com
+atp,,UTR PTT Glasgow Men 01,Hard,3,singles,Semifinal,Nicola Cigna,Liam Hignett,,,,,tennis.com
+atp,,UTR PTT Glasgow Men 01,Hard,3,singles,Semifinal,William McLennaghan,Baltazar Wiger Nordas,,,,,tennis.com
+atp,,UTR PTT Glasgow Men 01,Hard,3,singles,Semifinal,Cian Maguire,Henry Bowden,,,,,tennis.com
+wta,,UTR PTT Glasgow Women 01,Hard,3,singles,Semifinal,Pippa Bosman,Celine Ricaud,,,,,tennis.com
+wta,,UTR PTT Glasgow Women 01,Hard,3,singles,Semifinal,Judith Hernandez Miranda,Olivia Rook,,,,,tennis.com
+wta,,UTR PTT Glasgow Women 01,Hard,3,singles,Semifinal,Leticia Romanova,Sophie Johnstone,,,,,tennis.com
+wta,,UTR PTT Glasgow Women 01,Hard,3,singles,Semifinal,Khadija Adeniran,Liana Sharratt Blanksby,,,,,tennis.com
+wta,,UTR PTT Glasgow Women 01,Hard,3,singles,Semifinal,Mia Horvit,Cara Korhonen,,,,,tennis.com
+wta,,UTR PTT Glasgow Women 01,Hard,3,singles,Semifinal,Sophia Hurrion,Malkia Ngounoue,,,,,tennis.com
+wta,,UTR PTT Glasgow Women 01,Hard,3,singles,Semifinal,Lara Savic,Francesca Franchi,,,,,tennis.com
+wta,,UTR PTT Glasgow Women 01,Hard,3,singles,Semifinal,Estella Jaeger,Halle Pringle,,,,,tennis.com
