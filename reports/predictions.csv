@@ -1,18 +1,10 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,US Open,Hard,Round 1,Mariano Navone,Novak Djokovic,0.1376,0.8624,7.27,1.16,37.61,0.4595,9.63,12.72,3.82,4.41,tennis.com
+atp,,US Open,Hard,Round 1,Mariano Navone,Novak Djokovic,0.127,0.873,7.88,1.15,37.32,0.4524,9.49,12.68,3.76,4.39,tennis.com
 atp,,US Open,Hard,Round 1,Alex Michelsen,Federico Cina,0.8065,0.1935,1.24,5.17,39.38,0.5468,11.06,9.25,4.86,3.65,tennis.com
 atp,,US Open,Hard,Round 1,Alexander Bublik,J J Wolf,0.8034,0.1966,1.24,5.09,40.61,0.6528,16.77,6.94,8.04,4.63,tennis.com
-atp,,US Open,Hard,Round 1,Thiago Agustin Tirante,Adrian Mannarino,0.7292,0.2708,1.37,3.69,40.8,0.5975,8.15,10.31,5.43,3.66,tennis.com
-atp,,US Open,Hard,Round 1,Miomir Kecmanovic,Denis Shapovalov,0.3626,0.6374,2.76,1.57,42.06,0.6503,8.29,13.97,3.34,8.28,tennis.com
-atp,,US Open,Hard,Round 1,Martin Landaluce,Jacob Fearnley,0.6304,0.3696,1.59,2.71,42.18,0.6609,11.08,11.09,5.98,4.79,tennis.com
-atp,,US Open,Hard,Round 1,Jaime Faria,Jenson Brooksby,0.6062,0.3938,1.65,2.54,41.28,0.5712,14.26,7.41,5.78,3.9,tennis.com
-atp,,US Open,Hard,Round 1,Tomas Martin Etcheverry,Vit Kopriva,0.5946,0.4054,1.68,2.47,42.15,0.6463,14.5,11.66,3.41,6.01,tennis.com
+atp,,US Open,Hard,Round 1,Martin Landaluce,Jacob Fearnley,0.5897,0.4103,1.7,2.44,42.4,0.6657,11.05,11.25,5.96,4.86,tennis.com
+atp,,Porto Open,Hard,Round 1,Thiago Monteiro,Kimmer Coppejans,0.5587,0.4413,1.79,2.27,26.25,0.5545,8.73,4.71,2.46,3.14,tennis.com
 wta,,US Open,Hard,Round 1,Elina Svitolina,Solana Sierra,0.9008,0.0992,1.11,10.08,21.74,0.2364,4.59,2.26,4.2,3.35,tennis.com
-wta,,US Open,Hard,Round 1,Marta Kostyuk,Storm Hunter,0.8352,0.1648,1.2,6.07,22.8,0.2737,4.09,2.69,6.08,3.27,tennis.com
 wta,,US Open,Hard,Round 1,Venus Williams,Sofia Kenin,0.3558,0.6442,2.81,1.55,24.59,0.3573,4.06,2.26,4.52,4.27,tennis.com
-wta,,US Open,Hard,Round 1,Kimberly Birrell,Petra Marcinko,0.622,0.378,1.61,2.65,24.41,0.3296,2.66,4.58,5.4,3.05,tennis.com
-wta,,US Open,Hard,Round 1,Lucrezia Stefanini,Dayana Yastremska,0.3915,0.6085,2.55,1.64,24.3,0.3098,4.64,3.92,3.09,6.24,tennis.com
-wta,,US Open,Hard,Round 1,Taylah Preston,Alycia Parks,0.5878,0.4122,1.7,2.43,24.3,0.306,2.78,6.09,3.46,6.36,tennis.com
-wta,,US Open,Hard,Round 1,Mccartney Kessler,Ekaterina Alexandrova,0.414,0.586,2.42,1.71,24.47,0.3263,3.08,5.22,4.2,5.41,tennis.com
+wta,,US Open,Hard,Round 1,Kimberly Birrell,Petra Marcinko,0.6262,0.3738,1.6,2.67,24.39,0.329,2.66,4.57,5.41,3.05,tennis.com
 wta,,US Open,Hard,Round 1,Emma Navarro,Lois Boisson,0.5749,0.4251,1.74,2.35,24.49,0.3279,2.84,3.41,3.42,4.17,tennis.com
-wta,,US Open,Hard,Round 1,Emiliana Arango,Xin Yu Wang,0.5125,0.4875,1.95,2.05,24.52,0.3244,3.28,3.68,4.64,3.3,tennis.com
