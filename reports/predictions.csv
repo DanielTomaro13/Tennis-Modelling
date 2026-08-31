@@ -1,7 +1,4 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,US Open,Hard,Round 1,Mariano Navone,Novak Djokovic,0.127,0.873,7.88,1.15,37.32,0.4524,9.49,12.68,3.76,4.39,tennis.com
-atp,,US Open,Hard,Round 1,Alex Michelsen,Federico Cina,0.8065,0.1935,1.24,5.17,39.38,0.5468,11.06,9.25,4.86,3.65,tennis.com
 atp,,US Open,Hard,Round 1,Alexander Bublik,J J Wolf,0.8034,0.1966,1.24,5.09,40.61,0.6528,16.77,6.94,8.04,4.63,tennis.com
-atp,,US Open,Hard,Round 1,Martin Landaluce,Jacob Fearnley,0.5897,0.4103,1.7,2.44,42.4,0.6657,11.05,11.25,5.96,4.86,tennis.com
-wta,,US Open,Hard,Round 1,Elina Svitolina,Solana Sierra,0.9008,0.0992,1.11,10.08,21.74,0.2364,4.59,2.26,4.2,3.35,tennis.com
+atp,,Porto Open,Hard,Round 1,Thiago Monteiro,Kimmer Coppejans,0.5587,0.4413,1.79,2.27,26.25,0.5545,8.73,4.71,2.46,3.14,tennis.com
 wta,,US Open,Hard,Round 1,Venus Williams,Sofia Kenin,0.3558,0.6442,2.81,1.55,24.59,0.3573,4.06,2.26,4.52,4.27,tennis.com
