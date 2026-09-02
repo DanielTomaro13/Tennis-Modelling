@@ -1,22 +1,18 @@
 tour,date,tournament,surface,best_of,format,round,player1,player2,p1a,p1b,p2a,p2b,source
 atp,,Challenger Citta di Como,Grass,3,singles,Round 2,Gonzalo Bueno,Max Schönhaus,,,,,tennis.com
 atp,,Challenger Citta di Como,Grass,3,singles,Round 2,Matej Dodig,Henry Bernet,,,,,tennis.com
+atp,,"ATP Challenger Manacor, Spain",Grass,3,singles,Round 1,Žiga Šeško,Alexandre Müller,,,,,tennis.com
 atp,,"ATP Challenger Manacor, Spain",Grass,3,singles,Round 1,Elmer Møller,Maks Kaśnikowski,,,,,tennis.com
 atp,,"ATP Challenger Manacor, Spain",Grass,3,singles,Round 1,Sascha Gueymard Wayenburg,Michele Ribecai,,,,,tennis.com
-atp,,"ATP Challenger Manacor, Spain",Grass,3,singles,Round 1,Žiga Šeško,Alexandre Müller,,,,,tennis.com
 atp,,"ATP Challenger Manacor, Spain",Grass,3,singles,Round 1,Mark Lajal,Nicolai Budkov Kjaer,,,,,tennis.com
-atp,,"ATP Challenger Plovdiv 3, Bulgaria",Grass,3,singles,Round 2,Thomas Faurel,Calvin Hémery,,,,,tennis.com
 atp,,"ATP Challenger Plovdiv 3, Bulgaria",Grass,3,singles,Round 2,Massimo Giunta,Dušan Obradović,,,,,tennis.com
+atp,,"ATP Challenger Plovdiv 3, Bulgaria",Grass,3,singles,Round 2,Thomas Faurel,Calvin Hémery,,,,,tennis.com
 atp,,"ATP Challenger Plovdiv 3, Bulgaria",Grass,3,singles,Round 2,Georgii Kravchenko,Ognjen Milić,,,,,tennis.com
 atp,,"ATP Challenger Plovdiv 3, Bulgaria",Grass,3,singles,Round 2,Pol Martín Tiffon,Oleksandr Ovcharenko,,,,,tennis.com
 atp,,Porto Open,Hard,3,singles,Round 2,Oriol Roca Batalla,Enrico Dalla Valle,,,,,tennis.com
 atp,,Porto Open,Hard,3,singles,Round 2,Facundo Mena,Max Alcalá Gurri,,,,,tennis.com
 atp,,Porto Open,Hard,3,singles,Round 2,Gustavo Heide,Tiago Pereira,,,,,tennis.com
 atp,,Porto Open,Hard,3,singles,Round 2,Mika Petković,Thiago Monteiro,,,,,tennis.com
-atp,,International Challenger Zhangjiagang,Grass,3,singles,Round 2,James Kent Trotter,Yu Hsiou Hsu,,,,,tennis.com
-atp,,International Challenger Zhangjiagang,Grass,3,singles,Round 2,Chun Hsin Tseng,Yosuke Watanuki,,,,,tennis.com
-atp,,International Challenger Zhangjiagang,Grass,3,singles,Round 2,Fajing Sun,Hanyi Liu,,,,,tennis.com
-atp,,International Challenger Zhangjiagang,Grass,3,singles,Round 2,Mitsuki Wei Kang Leong,Koki Matsuda,,,,,tennis.com
 atp,,UTR PTT Frankfurt Men 01,Hard,3,singles,,Cian McDonnell,Jose Murariu,,,,,tennis.com
 atp,,UTR PTT Frankfurt Men 01,Hard,3,singles,,Daniel Bien,Phil Dungs,,,,,tennis.com
 atp,,UTR PTT Frankfurt Men 01,Hard,3,singles,,Henry Dornbusch,Cian Maguire,,,,,tennis.com
@@ -70,96 +66,91 @@ atp,,UTR PTT Miami Men 01,Hard,3,singles,,Felix Felsmann,Elie Azoulay,,,,,tennis
 wta,,UTR PTT Miami Women 01,Hard,3,singles,,Sebastianna Scilipoti,Zoe Hitt,,,,,tennis.com
 wta,,UTR PTT Miami Women 01,Hard,3,singles,,Marlene Foerster,Dominika Podhajecka,,,,,tennis.com
 wta,,UTR PTT Miami Women 01,Hard,3,singles,,Sofiia Nagornaia,Daria Volosova,,,,,tennis.com
-atp,,UTR PTT Saitama Men 08,Hard,3,singles,,Kanata Ozaki,Taiyo Uenoyama,,,,,tennis.com
-atp,,UTR PTT Saitama Men 08,Hard,3,singles,,Ke Hau Hung,Yakumo Motokura,,,,,tennis.com
-atp,,UTR PTT Saitama Men 08,Hard,3,singles,,Christopher Kosei Ono,Haru Kawanak,,,,,tennis.com
-atp,,UTR PTT Saitama Men 08,Hard,3,singles,,Unknown,Genki Fukushima,,,,,tennis.com
-atp,,UTR PTT Saitama Men 08,Hard,3,singles,,Alexey Shtengelov,Hong-Lin Fu,,,,,tennis.com
+atp,,UTR PTT Skopje Men 04,Hard,3,singles,,Panagiotis-Gerasimos Grammatikakis,Alexandre Verlaguet,,,,,tennis.com
+atp,,UTR PTT Skopje Men 04,Hard,3,singles,,Razvan Baiant,Alexandre Verlaguet,,,,,tennis.com
+atp,,UTR PTT Skopje Men 04,Hard,3,singles,,James Pikkaart,Igor Mandou Berranger,,,,,tennis.com
+atp,,UTR PTT Skopje Men 04,Hard,3,singles,,Hugo Garcia Gomez,Kristian Tumbas Kajgo,,,,,tennis.com
+atp,,UTR PTT Skopje Men 04,Hard,3,singles,,Razvan Baiant,Valeriy Martishev,,,,,tennis.com
 atp,,UTR PTT Skopje Men 04,Hard,3,singles,,Gergely Madarasz,Kristian Tumbas Kajgo,,,,,tennis.com
 atp,,UTR PTT Skopje Men 04,Hard,3,singles,,Pavel (2004) Petrov,Milan Ristov,,,,,tennis.com
-atp,,UTR PTT Skopje Men 04,Hard,3,singles,,Razvan Baiant,Valeriy Martishev,,,,,tennis.com
 atp,,UTR PTT Skopje Men 04,Hard,3,singles,,Gergely Madarasz,Bercel Sandor Takacs,,,,,tennis.com
+atp,,UTR PTT Skopje Men 04,Hard,3,singles,,Mihail Ivanov,Igor Mandou Berranger,,,,,tennis.com
+atp,,UTR PTT Skopje Men 04,Hard,3,singles,,Pavel (2004) Petrov,Rafael Kis Balazs,,,,,tennis.com
 atp,,UTR PTT Skopje Men 04,Hard,3,singles,,Vladimir Holban,Rafael Kis Balazs,,,,,tennis.com
 atp,,UTR PTT Skopje Men 04,Hard,3,singles,,Panagiotis-Gerasimos Grammatikakis,Valeriy Martishev,,,,,tennis.com
-atp,,UTR PTT Skopje Men 04,Hard,3,singles,,Panagiotis-Gerasimos Grammatikakis,Alexandre Verlaguet,,,,,tennis.com
-atp,,UTR PTT Skopje Men 04,Hard,3,singles,,Hugo Garcia Gomez,Kristian Tumbas Kajgo,,,,,tennis.com
 atp,,UTR PTT Skopje Men 04,Hard,3,singles,,Gorazd Srbljak,Milan Ristov,,,,,tennis.com
 atp,,UTR PTT Skopje Men 04,Hard,3,singles,,Vladimir Holban,Pavel (2004) Petrov,,,,,tennis.com
-atp,,UTR PTT Skopje Men 04,Hard,3,singles,,James Pikkaart,Igor Mandou Berranger,,,,,tennis.com
-atp,,UTR PTT Skopje Men 04,Hard,3,singles,,Razvan Baiant,Alexandre Verlaguet,,,,,tennis.com
-atp,,UTR PTT Skopje Men 04,Hard,3,singles,,Pavel (2004) Petrov,Rafael Kis Balazs,,,,,tennis.com
-atp,,UTR PTT Skopje Men 04,Hard,3,singles,,Mihail Ivanov,Igor Mandou Berranger,,,,,tennis.com
 atp,,UTR PTT Skopje Men 04,Hard,3,singles,,Hugo Garcia Gomez,Gergely Madarasz,,,,,tennis.com
 atp,,UTR PTT Skopje Men 04,Hard,3,singles,,Nikola Lulic,Razvan Baiant,,,,,tennis.com
-atp,,UTR PTT Skopje Men 04,Hard,3,singles,,Joachim Szamborski,Kristian Tumbas Kajgo,,,,,tennis.com
 atp,,UTR PTT Skopje Men 04,Hard,3,singles,,Dusan Milanovic,Igor Mandou Berranger,,,,,tennis.com
 atp,,UTR PTT Skopje Men 04,Hard,3,singles,,Gorazd Srbljak,Rafael Kis Balazs,,,,,tennis.com
+atp,,UTR PTT Skopje Men 04,Hard,3,singles,,Joachim Szamborski,Kristian Tumbas Kajgo,,,,,tennis.com
 atp,,UTR PTT Skopje Men 04,Hard,3,singles,,James Pikkaart,Mihail Ivanov,,,,,tennis.com
-wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Annika Kannan,Lucia Cassidy,,,,,tennis.com
-wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Silvia Njiric,Aleksandra Djokic,,,,,tennis.com
-wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Daniella Dimitrova,Ewa Czapulak,,,,,tennis.com
 wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Daria Maria Marioara,Maja Radenkovic,,,,,tennis.com
-wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Silvia Njiric,Ewa Czapulak,,,,,tennis.com
-wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Semra Aksu,Aleksandra Djokic,,,,,tennis.com
-wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Zinovia Vaneva,Aliaksandra Skapets,,,,,tennis.com
-wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Lucia Cassidy,Aliaksandra Skapets,,,,,tennis.com
-wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Valentini Grammatikopoulou,Maja Radenkovic,,,,,tennis.com
-wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Julia Terziyska,Katarzyna Wysoczanska,,,,,tennis.com
-wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Lucia Cassidy,Victoria Borodulina,,,,,tennis.com
 wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Annika Kannan,Victoria Borodulina,,,,,tennis.com
-wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Zinovia Vaneva,Victoria Borodulina,,,,,tennis.com
-wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Julia Terziyska,Arina Gamretkaia,,,,,tennis.com
-wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Helena Muzinic,Arina Gamretkaia,,,,,tennis.com
-wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Sara Gvozdenovic,Arina Gamretkaia,,,,,tennis.com
-wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Nina Zabrdac,Mia Sara Ribnikar,,,,,tennis.com
-wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Valentini Grammatikopoulou,Mia Sara Ribnikar,,,,,tennis.com
+wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Julia Terziyska,Katarzyna Wysoczanska,,,,,tennis.com
+wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Valentini Grammatikopoulou,Maja Radenkovic,,,,,tennis.com
+wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Lucia Cassidy,Aliaksandra Skapets,,,,,tennis.com
+wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Lucia Cassidy,Victoria Borodulina,,,,,tennis.com
+wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Zinovia Vaneva,Aliaksandra Skapets,,,,,tennis.com
+wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Semra Aksu,Aleksandra Djokic,,,,,tennis.com
+wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Daniella Dimitrova,Ewa Czapulak,,,,,tennis.com
 wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Helena Muzinic,Katarzyna Wysoczanska,,,,,tennis.com
-wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Daniella Dimitrova,Aleksandra Djokic,,,,,tennis.com
+wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Julia Terziyska,Arina Gamretkaia,,,,,tennis.com
+wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Silvia Njiric,Ewa Czapulak,,,,,tennis.com
+wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Helena Muzinic,Arina Gamretkaia,,,,,tennis.com
+wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Annika Kannan,Lucia Cassidy,,,,,tennis.com
+wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Sara Gvozdenovic,Arina Gamretkaia,,,,,tennis.com
+wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Zinovia Vaneva,Victoria Borodulina,,,,,tennis.com
+wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Silvia Njiric,Aleksandra Djokic,,,,,tennis.com
+wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Valentini Grammatikopoulou,Mia Sara Ribnikar,,,,,tennis.com
+wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Nina Zabrdac,Mia Sara Ribnikar,,,,,tennis.com
 wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Nina Zabrdac,Valentini Grammatikopoulou,,,,,tennis.com
 wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Sara Gvozdenovic,Helena Muzinic,,,,,tennis.com
+wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Daniella Dimitrova,Aleksandra Djokic,,,,,tennis.com
 wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Daria Maria Marioara,Mia Sara Ribnikar,,,,,tennis.com
 wta,,UTR PTT Skopje Women 04,Hard,3,singles,,Semra Aksu,Silvia Njiric,,,,,tennis.com
-atp,,UTR PTT Waco Men 03,Hard,3,singles,,Arenui Luethi,Enzo Tafarelo Vargas,,,,,tennis.com
-atp,,UTR PTT Waco Men 03,Hard,3,singles,,Cyrus Ahmad,Erik Schiessl,,,,,tennis.com
-atp,,UTR PTT Waco Men 03,Hard,3,singles,,Drew Hedgecoe,Thomas Cardona Herrera,,,,,tennis.com
-atp,,UTR PTT Waco Men 03,Hard,3,singles,,Jonatan Santiago Hidalgo,Radek Chodora,,,,,tennis.com
-atp,,UTR PTT Waco Men 03,Hard,3,singles,,Agustin Salazar Salazar,Timeo Bretin,,,,,tennis.com
-atp,,UTR PTT Waco Men 03,Hard,3,singles,,Ian Bracks,Jacob Golden,,,,,tennis.com
-atp,,UTR PTT Waco Men 03,Hard,3,singles,,Louis Bowden,Samuel Agbesi Osei Antwi,,,,,tennis.com
-atp,,UTR PTT Waco Men 03,Hard,3,singles,,Drew Hedgecoe,Malo Poulesquen,,,,,tennis.com
-atp,,UTR PTT Waco Men 03,Hard,3,singles,,Louis Bowden,Jacob Golden,,,,,tennis.com
-atp,,UTR PTT Waco Men 03,Hard,3,singles,,Gordon Gallagher,Erik Schiessl,,,,,tennis.com
-atp,,UTR PTT Waco Men 03,Hard,3,singles,,Ian Bracks,Samuel Agbesi Osei Antwi,,,,,tennis.com
-atp,,UTR PTT Waco Men 03,Hard,3,singles,,Tomas Jirousek,William McEwan,,,,,tennis.com
 atp,,UTR PTT Waco Men 03,Hard,3,singles,,Stephen Faraci,Ian Bracks,,,,,tennis.com
-atp,,UTR PTT Waco Men 03,Hard,3,singles,,Stephen Faraci,Samuel Agbesi Osei Antwi,,,,,tennis.com
-atp,,UTR PTT Waco Men 03,Hard,3,singles,,Agustin Salazar Salazar,August Brostroem Poulsen,,,,,tennis.com
+atp,,UTR PTT Waco Men 03,Hard,3,singles,,Arenui Luethi,Erik Schiessl,,,,,tennis.com
+atp,,UTR PTT Waco Men 03,Hard,3,singles,,Louis Bowden,Jacob Golden,,,,,tennis.com
+atp,,UTR PTT Waco Men 03,Hard,3,singles,,Drew Hedgecoe,Malo Poulesquen,,,,,tennis.com
+atp,,UTR PTT Waco Men 03,Hard,3,singles,,Gordon Gallagher,Erik Schiessl,,,,,tennis.com
+atp,,UTR PTT Waco Men 03,Hard,3,singles,,Jonatan Santiago Hidalgo,Radek Chodora,,,,,tennis.com
 atp,,UTR PTT Waco Men 03,Hard,3,singles,,Tomas Jirousek,Timeo Bretin,,,,,tennis.com
-atp,,UTR PTT Waco Men 03,Hard,3,singles,,Drew Hedgecoe,Radek Chodora,,,,,tennis.com
 atp,,UTR PTT Waco Men 03,Hard,3,singles,,Gordon Gallagher,Cyrus Ahmad,,,,,tennis.com
 atp,,UTR PTT Waco Men 03,Hard,3,singles,,Arenui Luethi,Cyrus Ahmad,,,,,tennis.com
+atp,,UTR PTT Waco Men 03,Hard,3,singles,,Drew Hedgecoe,Thomas Cardona Herrera,,,,,tennis.com
+atp,,UTR PTT Waco Men 03,Hard,3,singles,,Cyrus Ahmad,Erik Schiessl,,,,,tennis.com
 atp,,UTR PTT Waco Men 03,Hard,3,singles,,Stephen Faraci,Jacob Golden,,,,,tennis.com
-atp,,UTR PTT Waco Men 03,Hard,3,singles,,Arenui Luethi,Erik Schiessl,,,,,tennis.com
-wta,,UTR PTT Waco Women 03,Hard,3,singles,,Zuzanna Frankowska,Lyric Bonilla,,,,,tennis.com
-wta,,UTR PTT Waco Women 03,Hard,3,singles,,Ligaya Murray,Jade Psonka,,,,,tennis.com
-wta,,UTR PTT Waco Women 03,Hard,3,singles,,Alina Shcherbinina,Maria Ustic,,,,,tennis.com
-wta,,UTR PTT Waco Women 03,Hard,3,singles,,Esther Lovato,Zuzanna Kubacha,,,,,tennis.com
-wta,,UTR PTT Waco Women 03,Hard,3,singles,,Noemie Dadoun,Duanrui Gao,,,,,tennis.com
-wta,,UTR PTT Waco Women 03,Hard,3,singles,,Kenna Erickson,Esther Lovato,,,,,tennis.com
-wta,,UTR PTT Waco Women 03,Hard,3,singles,,Waverly Potter,Duanrui Gao,,,,,tennis.com
-wta,,UTR PTT Waco Women 03,Hard,3,singles,,Zuzanna Frankowska,Na Dong,,,,,tennis.com
-wta,,UTR PTT Waco Women 03,Hard,3,singles,,Waverly Potter,Maia Loureiro,,,,,tennis.com
-wta,,UTR PTT Waco Women 03,Hard,3,singles,,Maia Loureiro,Anastasia Abbagnato,,,,,tennis.com
-wta,,UTR PTT Waco Women 03,Hard,3,singles,,Kenna Erickson,Zuzanna Kubacha,,,,,tennis.com
-wta,,UTR PTT Waco Women 03,Hard,3,singles,,Ligaya Murray,Maria Ustic,,,,,tennis.com
+atp,,UTR PTT Waco Men 03,Hard,3,singles,,Drew Hedgecoe,Radek Chodora,,,,,tennis.com
+atp,,UTR PTT Waco Men 03,Hard,3,singles,,Tomas Jirousek,William McEwan,,,,,tennis.com
+atp,,UTR PTT Waco Men 03,Hard,3,singles,,Ian Bracks,Samuel Agbesi Osei Antwi,,,,,tennis.com
+atp,,UTR PTT Waco Men 03,Hard,3,singles,,Arenui Luethi,Enzo Tafarelo Vargas,,,,,tennis.com
+atp,,UTR PTT Waco Men 03,Hard,3,singles,,Stephen Faraci,Samuel Agbesi Osei Antwi,,,,,tennis.com
+atp,,UTR PTT Waco Men 03,Hard,3,singles,,Agustin Salazar Salazar,August Brostroem Poulsen,,,,,tennis.com
+atp,,UTR PTT Waco Men 03,Hard,3,singles,,Louis Bowden,Samuel Agbesi Osei Antwi,,,,,tennis.com
+atp,,UTR PTT Waco Men 03,Hard,3,singles,,Ian Bracks,Jacob Golden,,,,,tennis.com
+atp,,UTR PTT Waco Men 03,Hard,3,singles,,Agustin Salazar Salazar,Timeo Bretin,,,,,tennis.com
 wta,,UTR PTT Waco Women 03,Hard,3,singles,,Maia Loureiro,Duanrui Gao,,,,,tennis.com
 wta,,UTR PTT Waco Women 03,Hard,3,singles,,Kayla Schefke,Maria Ustic,,,,,tennis.com
 wta,,UTR PTT Waco Women 03,Hard,3,singles,,Ligaya Murray,Alina Shcherbinina,,,,,tennis.com
-wta,,UTR PTT Waco Women 03,Hard,3,singles,,Nikoline Gullacksen,Na Dong,,,,,tennis.com
+wta,,UTR PTT Waco Women 03,Hard,3,singles,,Noemie Dadoun,Anastasia Abbagnato,,,,,tennis.com
+wta,,UTR PTT Waco Women 03,Hard,3,singles,,Kenna Erickson,Zuzanna Kubacha,,,,,tennis.com
+wta,,UTR PTT Waco Women 03,Hard,3,singles,,Maia Loureiro,Anastasia Abbagnato,,,,,tennis.com
+wta,,UTR PTT Waco Women 03,Hard,3,singles,,Waverly Potter,Maia Loureiro,,,,,tennis.com
 wta,,UTR PTT Waco Women 03,Hard,3,singles,,Alina Shcherbinina,Jade Psonka,,,,,tennis.com
+wta,,UTR PTT Waco Women 03,Hard,3,singles,,Zuzanna Frankowska,Na Dong,,,,,tennis.com
 wta,,UTR PTT Waco Women 03,Hard,3,singles,,Kayla Schefke,Jade Psonka,,,,,tennis.com
+wta,,UTR PTT Waco Women 03,Hard,3,singles,,Waverly Potter,Duanrui Gao,,,,,tennis.com
 wta,,UTR PTT Waco Women 03,Hard,3,singles,,Marta Mariia Makarova,Lyric Bonilla,,,,,tennis.com
+wta,,UTR PTT Waco Women 03,Hard,3,singles,,Kenna Erickson,Esther Lovato,,,,,tennis.com
+wta,,UTR PTT Waco Women 03,Hard,3,singles,,Noemie Dadoun,Duanrui Gao,,,,,tennis.com
+wta,,UTR PTT Waco Women 03,Hard,3,singles,,Ligaya Murray,Maria Ustic,,,,,tennis.com
 wta,,UTR PTT Waco Women 03,Hard,3,singles,,Noemie Dadoun,Maia Loureiro,,,,,tennis.com
+wta,,UTR PTT Waco Women 03,Hard,3,singles,,Esther Lovato,Zuzanna Kubacha,,,,,tennis.com
 wta,,UTR PTT Waco Women 03,Hard,3,singles,,Chloe Henderson,Esther Lovato,,,,,tennis.com
 wta,,UTR PTT Waco Women 03,Hard,3,singles,,Kayla Schefke,Alina Shcherbinina,,,,,tennis.com
-wta,,UTR PTT Waco Women 03,Hard,3,singles,,Noemie Dadoun,Anastasia Abbagnato,,,,,tennis.com
+wta,,UTR PTT Waco Women 03,Hard,3,singles,,Alina Shcherbinina,Maria Ustic,,,,,tennis.com
+wta,,UTR PTT Waco Women 03,Hard,3,singles,,Ligaya Murray,Jade Psonka,,,,,tennis.com
+wta,,UTR PTT Waco Women 03,Hard,3,singles,,Zuzanna Frankowska,Lyric Bonilla,,,,,tennis.com
+wta,,UTR PTT Waco Women 03,Hard,3,singles,,Nikoline Gullacksen,Na Dong,,,,,tennis.com
