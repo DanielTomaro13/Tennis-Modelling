@@ -1,14 +1,7 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
 atp,,US Open,Hard,Round 2,Alexander Zverev,Quentin Halys,0.8484,0.1516,1.18,6.6,40.42,0.6957,14.75,12.51,3.22,4.62,tennis.com
 atp,,US Open,Hard,Round 2,Gael Monfils,Learner Tien,0.2748,0.7252,3.64,1.38,40.84,0.5933,12.91,9.94,6.73,6.13,tennis.com
-atp,,US Open,Hard,Round 2,Botic Van De Zandschulp,Alex De Minaur,0.3005,0.6995,3.33,1.43,40.71,0.5631,10.07,7.77,6.32,4.42,tennis.com
-atp,,Challenger Citta di Como,Grass,Quarterfinal,Duje Ajdukovic,Jay Clarke,0.6994,0.3006,1.43,3.33,25.19,0.4636,4.96,4.42,3.31,2.95,tennis.com
-atp,,US Open,Hard,Round 2,Zizou Bergs,Jesper De Jong,0.6519,0.3481,1.53,2.87,41.94,0.6495,12.33,13.17,4.67,4.34,tennis.com
-atp,,"ATP Challenger Manacor, Spain",Grass,Quarterfinal,Juan Bautista Torres,Pinnington Jones J.,0.5811,0.4189,1.72,2.39,25.32,0.4363,5.32,4.68,2.08,3.12,tennis.com
 atp,,US Open,Hard,Round 2,Bu Yunchaokete,Michael Zheng,0.4473,0.5527,2.24,1.81,42.11,0.632,12.33,12.02,4.07,3.02,tennis.com
-atp,,Challenger Citta di Como,Grass,Quarterfinal,Thiago Seyboth Wild,Juan Pablo Varillas,0.547,0.453,1.83,2.21,25.26,0.4228,8.63,5.97,2.91,2.4,tennis.com
 wta,,US Open,Hard,Round 2,Jessica Bouzas Maneiro,Elena Rybakina,0.0638,0.9362,15.69,1.07,20.95,0.209,1.72,8.01,3.7,2.89,tennis.com
 wta,,US Open,Hard,Round 2,Iva Jovic,Francesca Jones,0.8507,0.1493,1.18,6.7,22.5,0.2556,2.94,2.98,2.72,3.16,tennis.com
-wta,,US Open,Hard,Round 2,Mirra Andreeva,Eva Lys,0.8316,0.1684,1.2,5.94,22.52,0.2369,4.12,1.11,4.68,3.58,tennis.com
 wta,,US Open,Hard,Round 2,Paula Badosa,Coco Gauff,0.1741,0.8259,5.74,1.21,22.77,0.257,3.76,4.48,4.51,7.57,tennis.com
-wta,,US Open,Hard,Round 2,Maria Sakkari,Yuliia Starodubtseva,0.6938,0.3062,1.44,3.27,23.97,0.3046,3.07,2.72,3.42,3.58,tennis.com
