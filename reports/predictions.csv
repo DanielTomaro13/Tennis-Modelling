@@ -1,15 +1,12 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
 atp,,US Open,Hard,Round 2,Alexander Zverev,Quentin Halys,0.8484,0.1516,1.18,6.6,40.42,0.6957,14.75,12.51,3.22,4.62,tennis.com
-atp,,US Open,Hard,Round 2,Taylor Fritz,Mattia Bellucci,0.8263,0.1737,1.21,5.76,40.69,0.6872,17.37,9.33,3.41,3.71,tennis.com
 atp,,US Open,Hard,Round 2,Jakub Mensik,Jurij Rodionov,0.8188,0.1812,1.22,5.52,40.29,0.6445,17.04,6.85,5.94,4.57,tennis.com
 atp,,US Open,Hard,Round 2,Tristan Schoolkate,Flavio Cobolli,0.2115,0.7885,4.73,1.27,40.79,0.6448,11.46,8.88,4.97,3.29,tennis.com
 atp,,US Open,Hard,Round 2,Gael Monfils,Learner Tien,0.2748,0.7252,3.64,1.38,40.84,0.5933,12.91,9.94,6.73,6.13,tennis.com
 atp,,US Open,Hard,Round 2,Botic Van De Zandschulp,Alex De Minaur,0.3005,0.6995,3.33,1.43,40.71,0.5631,10.07,7.77,6.32,4.42,tennis.com
 atp,,US Open,Hard,Round 2,Zizou Bergs,Jesper De Jong,0.6519,0.3481,1.53,2.87,41.94,0.6495,12.33,13.17,4.67,4.34,tennis.com
-atp,,"ATP Challenger Manacor, Spain",Grass,Quarterfinal,Juan Bautista Torres,Pinnington Jones J.,0.5811,0.4189,1.72,2.39,25.32,0.4363,5.32,4.68,2.08,3.12,tennis.com
 atp,,US Open,Hard,Round 2,Alexander Blockx,Marco Trungelliti,0.5801,0.4199,1.72,2.38,42.79,0.6961,13.42,7.76,4.06,5.17,tennis.com
 atp,,US Open,Hard,Round 2,Bu Yunchaokete,Michael Zheng,0.4473,0.5527,2.24,1.81,42.11,0.632,12.33,12.02,4.07,3.02,tennis.com
-atp,,Challenger Citta di Como,Grass,Quarterfinal,Thiago Seyboth Wild,Juan Pablo Varillas,0.547,0.453,1.83,2.21,25.26,0.4228,8.63,5.97,2.91,2.4,tennis.com
 atp,,US Open,Hard,Round 2,Alexei Popyrin,Alejandro Tabilo,0.4628,0.5372,2.16,1.86,42.84,0.692,14.85,11.95,5.37,3.32,tennis.com
 atp,,US Open,Hard,Round 2,Benjamin Bonzi,Ignacio Buse,0.4973,0.5027,2.01,1.99,42.48,0.6604,10.8,11.84,4.41,4.11,tennis.com
 wta,,US Open,Hard,Round 2,Jessica Bouzas Maneiro,Elena Rybakina,0.0638,0.9362,15.69,1.07,20.95,0.209,1.72,8.01,3.7,2.89,tennis.com
