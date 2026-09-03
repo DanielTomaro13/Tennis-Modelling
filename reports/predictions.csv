@@ -1,6 +1,3 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,US Open,Hard,Round 2,Jaime Faria,Carlos Alcaraz,0.1001,0.8999,9.99,1.11,37.21,0.4971,10.8,9.93,4.38,3.85,tennis.com
-atp,,Challenger Citta di Como,Grass,Round 2,Jay Clarke,Pedro Martinez,0.3657,0.6343,2.73,1.58,25.29,0.4439,4.6,7.41,3.07,2.41,tennis.com
 atp,,International Challenger Zhangjiagang,Grass,Round 2,Bernard Tomic,Kasidit Samrej,0.5241,0.4759,1.91,2.1,25.8,0.4908,8.52,5.84,2.77,2.76,tennis.com
-wta,,US Open,Hard,Round 2,Elina Svitolina,Maya Joint,0.8528,0.1472,1.17,6.79,22.42,0.2489,4.7,1.65,4.3,2.9,tennis.com
 wta,,US Open,Hard,Round 2,Lanlana Tararudee,Linda Noskova,0.2509,0.7491,3.99,1.33,23.76,0.3084,3.43,5.99,3.03,5.86,tennis.com
