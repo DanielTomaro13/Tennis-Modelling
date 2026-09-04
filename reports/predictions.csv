@@ -1,1 +1,4 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+atp,,Challenger Citta di Como,Grass,Quarterfinal,Duje Ajdukovic,Jay Clarke,0.6994,0.3006,1.43,3.33,25.19,0.4636,4.96,4.42,3.31,2.95,tennis.com
+atp,,"ATP Challenger Manacor, Spain",Grass,Quarterfinal,Juan Bautista Torres,Pinnington Jones J.,0.5811,0.4189,1.72,2.39,25.32,0.4363,5.32,4.68,2.08,3.12,tennis.com
+atp,,Challenger Citta di Como,Grass,Quarterfinal,Thiago Seyboth Wild,Juan Pablo Varillas,0.547,0.453,1.83,2.21,25.26,0.4228,8.63,5.97,2.91,2.4,tennis.com
