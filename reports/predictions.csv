@@ -1,7 +1,5 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
 atp,,US Open,Hard,Round 3,Alexander Zverev,Alejandro Tabilo,0.8338,0.1662,1.2,6.02,41.0,0.7222,14.78,10.28,3.22,2.85,tennis.com
-atp,,US Open,Hard,Round 3,Taylor Fritz,Francisco Cerundolo,0.701,0.299,1.43,3.34,41.88,0.6713,17.91,7.61,3.51,4.46,tennis.com
-atp,,Challenger Citta di Como,Grass,Semifinal,Juan Pablo Varillas,Jay Clarke,0.6705,0.3295,1.49,3.04,25.13,0.4407,6.27,4.48,2.52,2.99,tennis.com
 atp,,US Open,Hard,Round 3,Alexander Blockx,Flavio Cobolli,0.3584,0.6416,2.79,1.56,42.86,0.7181,12.77,8.94,3.86,3.31,tennis.com
 atp,,US Open,Hard,Round 3,Zizou Bergs,Botic Van De Zandschulp,0.4573,0.5427,2.19,1.84,42.29,0.6465,11.99,10.88,4.54,6.83,tennis.com
 atp,,US Open,Hard,Round 3,Jakub Mensik,Learner Tien,0.4593,0.5407,2.18,1.85,42.3,0.6467,16.99,9.78,5.92,6.04,tennis.com
@@ -9,8 +7,6 @@ atp,,US Open,Hard,Round 3,Karen Khachanov,Benjamin Bonzi,0.4802,0.5198,2.08,1.92
 wta,,US Open,Hard,Round 3,Yuliia Starodubtseva,Elena Rybakina,0.0739,0.9261,13.53,1.08,21.3,0.2254,2.03,8.03,2.67,2.9,tennis.com
 wta,,US Open,Hard,Round 3,Cristina Bucsa,Coco Gauff,0.1115,0.8885,8.97,1.13,21.79,0.2217,2.28,4.45,3.17,7.51,tennis.com
 wta,,US Open,Hard,Round 3,Iga Swiatek,Marie Bouzkova,0.8267,0.1733,1.21,5.77,22.67,0.2492,3.81,1.7,3.58,3.15,tennis.com
-wta,,US Open,Hard,Round 3,Anastasia Potapova,Amanda Anisimova,0.2481,0.7519,4.03,1.33,23.47,0.2762,2.72,4.03,4.21,4.8,tennis.com
 wta,,US Open,Hard,Round 3,Mirra Andreeva,Nikola Bartunkova,0.715,0.285,1.4,3.51,23.82,0.2987,4.05,3.81,4.6,4.97,tennis.com
 wta,,US Open,Hard,Round 3,Naomi Osaka,Elise Mertens,0.6842,0.3158,1.46,3.17,24.28,0.3386,7.11,3.41,3.43,4.4,tennis.com
-wta,,US Open,Hard,Round 3,Madison Keys,Qinwen Zheng,0.5716,0.4284,1.75,2.33,24.49,0.3266,4.54,6.57,5.91,4.57,tennis.com
 wta,,US Open,Hard,Round 3,Iva Jovic,Alexandra Eala,0.4713,0.5287,2.12,1.89,24.32,0.3002,2.76,1.62,2.56,3.76,tennis.com
