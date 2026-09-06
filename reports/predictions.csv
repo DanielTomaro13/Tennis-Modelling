@@ -1,1 +1,10 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+atp,,US Open,Hard,Round 4,Tommy Paul,Carlos Alcaraz,0.207,0.793,4.83,1.26,39.93,0.5744,8.28,10.25,2.75,3.98,tennis.com
+atp,,US Open,Hard,Round 4,Ben Shelton,Stefanos Tsitsipas,0.7315,0.2685,1.37,3.72,43.29,0.7981,14.52,11.84,4.78,4.31,tennis.com
+atp,,US Open,Hard,Round 4,Alex Michelsen,Tomas Martin Etcheverry,0.66,0.34,1.52,2.94,41.36,0.602,11.14,13.47,4.9,3.17,tennis.com
+atp,,US Open,Hard,Round 4,Daniil Medvedev,Frances Tiafoe,0.6139,0.3861,1.63,2.59,42.19,0.6553,14.26,10.15,7.14,3.64,tennis.com
+atp,,Challenger Citta di Como,Grass,Final,Ivan Dodig,Juan Pablo Varillas,0.5547,0.4453,1.8,2.25,25.51,0.4567,4.9,5.94,3.27,2.39,tennis.com
+wta,,US Open,Hard,Round 4,Aryna Sabalenka,Taylor Townsend,0.8255,0.1745,1.21,5.73,23.11,0.2996,4.76,3.45,3.56,2.99,tennis.com
+wta,,US Open,Hard,Round 4,Jessica Pegula,Sorana Cirstea,0.6788,0.3212,1.47,3.11,24.23,0.3301,3.75,4.31,2.6,2.44,tennis.com
+wta,,US Open,Hard,Round 4,Anna Kalinskaya,Emma Navarro,0.6304,0.3696,1.59,2.71,24.25,0.3127,3.04,2.59,3.92,3.11,tennis.com
+wta,,US Open,Hard,Round 4,Marta Kostyuk,Linda Noskova,0.5563,0.4437,1.8,2.25,24.87,0.3736,3.95,5.54,5.87,5.42,tennis.com
