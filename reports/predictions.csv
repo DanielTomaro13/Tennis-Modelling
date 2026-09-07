@@ -1,12 +1,6 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
 atp,,US Open,Hard,Round 4,Alexander Zverev,Luciano Darderi,0.8793,0.1207,1.14,8.28,39.44,0.6642,14.57,9.71,3.18,4.99,tennis.com
 atp,,US Open,Hard,Round 4,Karen Khachanov,Learner Tien,0.2837,0.7163,3.52,1.4,41.16,0.6149,10.86,9.91,3.29,6.12,tennis.com
-atp,,US Open,Hard,Round 4,Francisco Cerundolo,Alexander Blockx,0.6312,0.3688,1.58,2.71,41.81,0.629,8.36,12.71,4.9,3.85,tennis.com
 atp,,"Phan Thiet 3, Vietnam",Hard,Round 1,Max Purcell,Rodrigo Pacheco Mendez,0.6021,0.3979,1.66,2.51,25.79,0.5032,8.46,4.64,2.72,3.09,tennis.com
-atp,,CASSIS OPEN PROVENCE BY CABESTO,Hard,Round 1,Hugo Grenier,Billy Harris,0.5743,0.4257,1.74,2.35,25.71,0.4856,4.91,4.69,3.27,3.12,tennis.com
-wta,,Barranquilla Open,Hard,Qualifying Round 1,Lizette Cabrera,Shelby Rogers,0.2066,0.7934,4.84,1.26,23.36,0.2947,4.03,3.76,2.69,3.88,tennis.com
-wta,,US Open,Hard,Round 4,Mirra Andreeva,Anastasia Potapova,0.7595,0.2405,1.32,4.16,23.33,0.2684,4.1,2.68,4.66,4.15,tennis.com
-wta,,US Open,Hard,Round 4,Iga Swiatek,Qinwen Zheng,0.7558,0.2442,1.32,4.09,23.5,0.2861,3.79,5.78,3.56,4.02,tennis.com
 wta,,US Open,Hard,Round 4,Iva Jovic,Coco Gauff,0.2961,0.7039,3.38,1.42,23.77,0.2838,2.48,4.48,2.3,7.56,tennis.com
 wta,,US Open,Hard,Round 4,Naomi Osaka,Elena Rybakina,0.307,0.693,3.26,1.44,24.4,0.3541,6.18,8.23,2.99,2.97,tennis.com
-wta,,Barranquilla Open,Hard,Round 1,Kayla Day,Suzan Lamens,0.3987,0.6013,2.51,1.66,24.37,0.3171,3.49,3.39,3.55,4.91,tennis.com
