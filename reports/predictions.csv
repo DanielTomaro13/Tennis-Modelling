@@ -1,4 +1,12 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,US Open,Hard,Round 4,Alexander Zverev,Luciano Darderi,0.8793,0.1207,1.14,8.28,39.44,0.6642,14.57,9.71,3.18,4.99,tennis.com
+atp,,NO OPEN POWERED BY EVN,Hard,Round 1,Alex Molcan,Rogerio Dutra Silva,0.6506,0.3494,1.54,2.86,25.39,0.467,6.79,4.53,2.94,3.02,tennis.com
 atp,,"Phan Thiet 3, Vietnam",Hard,Round 1,Max Purcell,Rodrigo Pacheco Mendez,0.6021,0.3979,1.66,2.51,25.79,0.5032,8.46,4.64,2.72,3.09,tennis.com
-wta,,US Open,Hard,Round 4,Iva Jovic,Coco Gauff,0.2961,0.7039,3.38,1.42,23.77,0.2838,2.48,4.48,2.3,7.56,tennis.com
+atp,,LX Copa Sevilla,Hard,Round 1,Kimmer Coppejans,Pablo Llamas Ruiz,0.4012,0.5988,2.49,1.67,25.67,0.483,4.68,4.9,3.12,3.26,tennis.com
+atp,,LX Copa Sevilla,Hard,Round 1,Henrique Rocha,Carlos Taberner,0.4425,0.5575,2.26,1.79,25.76,0.487,4.75,4.86,3.17,3.24,tennis.com
+atp,,ROAD TO THE ROLEX SHANGHAI MASTERS,Hard,Round 1,Elias Ymer,Pavel Kotov,0.546,0.454,1.83,2.2,25.79,0.4922,4.88,6.81,3.25,2.61,tennis.com
+atp,,AON Open Challenger,Grass,Round 1,Juan Pablo Varillas,Andrea Arnaboldi,0.517,0.483,1.93,2.07,25.56,0.4583,6.12,4.78,2.46,3.19,tennis.com
+atp,,ROAD TO THE ROLEX SHANGHAI MASTERS,Hard,Round 1,Alexandr Binda,Yibing Wu,0.4921,0.5079,2.03,1.97,26.18,0.5397,8.96,6.98,3.18,2.44,tennis.com
+atp,,AON Open Challenger,Grass,Round 1,Hugo Dellien,Felipe Meligeni Alves,0.4964,0.5036,2.01,1.99,25.22,0.4142,4.85,4.67,3.23,2.51,tennis.com
+wta,,Atik Antalya Open,Hard,Round 1,Samira De Stefano,Eva Vedder,0.5768,0.4232,1.73,2.36,24.59,0.3407,3.13,3.67,3.32,3.5,tennis.com
+wta,,Atik Antalya Open,Hard,Round 1,Francesca Jones,Raluka Serban,0.4397,0.5603,2.27,1.78,24.49,0.3243,3.83,3.57,4.06,4.5,tennis.com
+wta,,Elle Spirit Open,Hard,Round 1,Fiona Ferro,Mona Barthel,0.5032,0.4968,1.99,2.01,24.6,0.3341,3.5,4.85,3.96,3.23,tennis.com
