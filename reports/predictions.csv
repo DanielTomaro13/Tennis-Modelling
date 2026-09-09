@@ -1,4 +1,14 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+atp,,US Open,Hard,Quarterfinal,Alexander Zverev,Botic Van De Zandschulp,0.803,0.197,1.25,5.08,40.6,0.6521,15.13,9.44,3.3,5.93,tennis.com
+atp,,US Open,Hard,Quarterfinal,Karen Khachanov,Alexander Blockx,0.5835,0.4165,1.71,2.4,43.2,0.7293,11.84,12.93,3.59,3.91,tennis.com
 atp,,CASSIS OPEN PROVENCE BY CABESTO,Hard,Round 2,Titouan Droguet,Gijs Brouwer,0.5761,0.4239,1.74,2.36,25.72,0.4872,4.91,6.92,3.27,2.31,tennis.com
+atp,,LX Copa Sevilla,Hard,Round 2,Alexander Ritschard,Sebastian Ofner,0.5266,0.4734,1.9,2.11,25.67,0.4743,4.87,7.18,3.24,2.7,tennis.com
 atp,,AON Open Challenger,Grass,Round 2,Duje Ajdukovic,Stefanos Sakellaridis,0.5004,0.4996,2.0,2.0,26.21,0.5438,4.82,8.37,3.21,2.51,tennis.com
+wta,,"Wheelchairs US Open, New York, USA",Hard,Round 1,Meiling Wang,Na Li,0.0344,0.9656,29.06,1.04,19.68,0.1528,2.0,4.87,2.43,3.25,tennis.com
+wta,,US Open,Hard,Quarterfinal,Qinwen Zheng,Elena Rybakina,0.2111,0.7889,4.74,1.27,23.52,0.3092,5.68,8.3,3.95,3.0,tennis.com
+wta,,US Open,Hard,Quarterfinal,Mirra Andreeva,Coco Gauff,0.4045,0.5955,2.47,1.68,24.24,0.3002,3.67,4.37,4.17,7.37,tennis.com
+wta,,Barranquilla Open,Hard,Round 2,Kayla Day,Elsa Jacquemot,0.4301,0.5699,2.32,1.75,24.64,0.3448,3.55,3.14,3.61,4.82,tennis.com
+wta,,Barranquilla Open,Hard,Round 2,Kaitlin Quevedo,Sara Sorribes Tormo,0.4351,0.5649,2.3,1.77,24.33,0.3054,4.74,2.44,3.16,3.57,tennis.com
 wta,,Elle Spirit Open,Hard,Round 2,Nuria Brancaccio,Dalma Galfi,0.5546,0.4454,1.8,2.25,24.48,0.3237,4.97,4.0,3.32,4.11,tennis.com
+wta,,Barranquilla Open,Hard,Round 2,Varvara Lepchenko,Claire Liu,0.4805,0.5195,2.08,1.92,24.54,0.3264,4.84,4.86,3.23,4.44,tennis.com
+wta,,Barranquilla Open,Hard,Round 2,Nadia Podoroska,Anna Blinkova,0.4867,0.5133,2.05,1.95,24.72,0.3499,3.47,2.52,3.87,4.03,tennis.com
