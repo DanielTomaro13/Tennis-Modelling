@@ -1,56 +1,12 @@
 tour,date,tournament,surface,best_of,format,round,player1,player2,p1a,p1b,p2a,p2b,source
-atp,,CASSIS OPEN PROVENCE BY CABESTO,Hard,3,singles,Round 2,Mathys Erhard,Daniil Glinka,,,,,tennis.com
-atp,,CASSIS OPEN PROVENCE BY CABESTO,Hard,3,singles,Round 2,Ugo Blanchet,Daniel Rincon,,,,,tennis.com
-atp,,CASSIS OPEN PROVENCE BY CABESTO,Hard,3,singles,Round 2,Daniel Masur,Jurij Rodionov,,,,,tennis.com
-atp,,CASSIS OPEN PROVENCE BY CABESTO,Hard,3,singles,Round 2,Titouan Droguet,Gijs Brouwer,,,,,tennis.com
-atp,,AON Open Challenger,Grass,3,singles,Round 2,Pedro Martínez,Maximo Zeitune,,,,,tennis.com
-atp,,AON Open Challenger,Grass,3,singles,Round 2,Duje Ajduković,Stefanos Sakellaridis,,,,,tennis.com
-atp,,ROAD TO THE ROLEX SHANGHAI MASTERS,Hard,3,singles,Round 2,Rio Noguchi,Omar Jasika,,,,,tennis.com
-atp,,ROAD TO THE ROLEX SHANGHAI MASTERS,Hard,3,singles,Round 2,Pavel Kotov,Jake Delaney,,,,,tennis.com
-atp,,ROAD TO THE ROLEX SHANGHAI MASTERS,Hard,3,singles,Round 2,Linang Xiao,Alexis Galarneau,,,,,tennis.com
-atp,,ROAD TO THE ROLEX SHANGHAI MASTERS,Hard,3,singles,Round 2,Marat Sharipov,Taro Daniel,,,,,tennis.com
-atp,,NO OPEN POWERED BY EVN,Hard,3,singles,Round 2,Zdeněk Kolář,Martin Krumich,,,,,tennis.com
-atp,,NO OPEN POWERED BY EVN,Hard,3,singles,Round 2,Marvin Möller,Matías Soto,,,,,tennis.com
-atp,,NO OPEN POWERED BY EVN,Hard,3,singles,Round 2,Nico Hipfl,Alex Barrena,,,,,tennis.com
-atp,,NO OPEN POWERED BY EVN,Hard,3,singles,Round 2,Marko ToPo,Vitaliy Sachko,,,,,tennis.com
-atp,,"Istanbul 3, Turkiye",Hard,3,singles,Round 2,Christian Langmo,Maks Kaśnikowski,,,,,tennis.com
-atp,,"Istanbul 3, Turkiye",Hard,3,singles,Round 2,Vadym Ursu,Dimitar Kuzmanov,,,,,tennis.com
-atp,,"Istanbul 3, Turkiye",Hard,3,singles,Round 2,Francesco Maestrelli,Alafia Ayeni,,,,,tennis.com
-atp,,"Istanbul 3, Turkiye",Hard,3,singles,Round 2,Gabi Adrian Boitan,Harold Mayot,,,,,tennis.com
+atp,,"Istanbul 3, Turkiye",Hard,3,singles,Round 1,Adrian Bohane,Alex Hernandez,,,,,tennis.com
 atp,,"Phan Thiet 3, Vietnam",Hard,3,singles,Round 2,Maximus Jones,Hiroki Moriya,,,,,tennis.com
 atp,,"Phan Thiet 3, Vietnam",Hard,3,singles,Round 2,Kasidit Samrej,Yuta Shimizu,,,,,tennis.com
-atp,,"Phan Thiet 3, Vietnam",Hard,3,singles,Round 2,Blake Ellis,Max Purcell,,,,,tennis.com
-atp,,"Phan Thiet 3, Vietnam",Hard,3,singles,Round 2,Cruz Hewitt,Timofei Derepasko,,,,,tennis.com
 atp,,US Open,Hard,5,singles,Quarterfinal,Ben Shelton,Carlos Alcaraz,,,,,tennis.com
-wta,,US Open,Hard,3,singles,Quarterfinal,Jessica Pegula,Emma Navarro,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 21,Grass,3,singles,,Emon van Loben Sels,Constantinos Djakouris,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 21,Grass,3,singles,,Jonah Braswell,Rishvanth Krishna,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 21,Grass,3,singles,,Luca Lemaitre Vilchis,Ilias Bouzoubaa,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 21,Grass,3,singles,,Miles Clark,Marcos Castro Fabra,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 21,Grass,3,singles,,Lilian Poling,Sophia Dumitrascu,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 21,Grass,3,singles,,Kate Fakih,Lily Fairclough,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 21,Grass,3,singles,,Juny Huh,Sophie Suh,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 21,Grass,3,singles,,My-Anh Holmes,Tricia Mar,,,,,tennis.com
-atp,,UTR PTT Sydney Men 02,Hard,3,singles,,Jacob Cairncross,Oscar Andrews,,,,,tennis.com
-atp,,UTR PTT Sydney Men 02,Hard,3,singles,,Nathan Boniel,Kuma Ito,,,,,tennis.com
-atp,,UTR PTT Sydney Men 02,Hard,3,singles,,Dimitri Bagaric,Jerome Estephan,,,,,tennis.com
 atp,,UTR PTT Sydney Men 02,Hard,3,singles,,Casey Hoole,James Girdler,,,,,tennis.com
 atp,,UTR PTT Sydney Men 02,Hard,3,singles,,Elijah Cham,Alex Bulte,,,,,tennis.com
-wta,,UTR PTT Sydney Women 02,Hard,3,singles,,Amelia Zylberman,Isabella Fiani,,,,,tennis.com
-wta,,UTR PTT Sydney Women 02,Hard,3,singles,,Madison Schwarz,Belle Thompson,,,,,tennis.com
-wta,,UTR PTT Sydney Women 02,Hard,3,singles,,Maahi Shah,Laquisa Khan,,,,,tennis.com
-wta,,UTR PTT Sydney Women 02,Hard,3,singles,,Emily Johnson,Eva Lopez,,,,,tennis.com
 wta,,UTR PTT Sydney Women 02,Hard,3,singles,,Larisa Arnautovic,Sara Mickoska,,,,,tennis.com
+wta,,UTR PTT Sydney Women 02,Hard,3,singles,,Amelia Zylberman,Isabella Fiani,,,,,tennis.com
+wta,,UTR PTT Sydney Women 02,Hard,3,singles,,Emily Johnson,Eva Lopez,,,,,tennis.com
+atp,,UTR PTT Tallahassee Men 03,Hard,3,singles,,Yan Kodjoed,Youcef Rihane,,,,,tennis.com
 atp,,UTR PTT Tallahassee Men 03,Hard,3,singles,,Yan Kodjoed,Gabor Hornung,,,,,tennis.com
-atp,,UTR PTT Tallahassee Men 03,Hard,3,singles,,Yan Kodjoed,Albert Widell,,,,,tennis.com
-atp,,UTR PTT Tallahassee Men 03,Hard,3,singles,,Azariah Rusher,Oren Ezerzer,,,,,tennis.com
-atp,,UTR PTT Tallahassee Men 03,Hard,3,singles,,Luis Felipe Miguel,William Mirarchi,,,,,tennis.com
-wta,,Atik Antalya Open,Hard,3,singles,Round 2,Lina Gjorcheska,Aurora Zantedeschi,,,,,tennis.com
-wta,,Atik Antalya Open,Hard,3,singles,Round 2,Zhibek Kulambayeva,Elizara Yaneva,,,,,tennis.com
-wta,,Atik Antalya Open,Hard,3,singles,Round 2,Alevtina Ibragimova,Leyre Romero Gormaz,,,,,tennis.com
-wta,,Atik Antalya Open,Hard,3,singles,Round 2,Irene Burillo Escorihuela,Miriam Bianca Bulgaru,,,,,tennis.com
-wta,,Barranquilla Open,Hard,3,singles,Round 1,Dominika Šálková,Julia Riera,,,,,tennis.com
-wta,,Barranquilla Open,Hard,3,singles,Round 1,Jazmin Ortenzi,Mary Stoiana,,,,,tennis.com
-wta,,Elle Spirit Open,Hard,3,singles,Round 2,Andrea Lázaro García,Anastasiia Sobolieva,,,,,tennis.com
-wta,,Elle Spirit Open,Hard,3,singles,Round 2,Tessa Johanna Brockmann,Clara Burel,,,,,tennis.com
-wta,,Elle Spirit Open,Hard,3,singles,Round 2,Nuria Brancaccio,Dalma Gálfi,,,,,tennis.com
