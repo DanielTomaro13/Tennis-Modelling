@@ -1,3 +1,7 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,US Open,Hard,Quarterfinal,Alexander Zverev,Botic Van De Zandschulp,0.803,0.197,1.25,5.08,40.6,0.6521,15.13,9.44,3.3,5.93,tennis.com
+atp,,AON Open Challenger,Grass,Round 2,Hugo Dellien,Ivan Dodig,0.3785,0.6215,2.64,1.61,25.6,0.4799,4.64,4.91,3.09,3.27,tennis.com
+atp,,NO OPEN POWERED BY EVN,Hard,Round 2,Rogerio Dutra Silva,Thiago Monteiro,0.4658,0.5342,2.15,1.87,26.29,0.5559,4.78,8.64,3.19,2.43,tennis.com
+atp,,CASSIS OPEN PROVENCE BY CABESTO,Hard,Round 2,Moez Echargui,Billy Harris,0.5206,0.4794,1.92,2.09,25.87,0.4993,7.61,4.77,2.49,3.18,tennis.com
+atp,,ROAD TO THE ROLEX SHANGHAI MASTERS,Hard,Round 2,Bernard Tomic,Ilya Ivashka,0.5167,0.4833,1.94,2.07,25.72,0.4804,6.29,4.78,3.07,3.18,tennis.com
+wta,,Atik Antalya Open,Hard,Round 2,Maria Lourdes Carle,Eva Vedder,0.4471,0.5529,2.24,1.81,24.74,0.3549,4.77,3.85,3.18,3.67,tennis.com
 wta,,Barranquilla Open,Hard,Round 2,Nadia Podoroska,Anna Blinkova,0.4867,0.5133,2.05,1.95,24.72,0.3499,3.47,2.52,3.87,4.03,tennis.com
