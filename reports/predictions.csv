@@ -2,5 +2,11 @@ tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_od
 atp,,AON Open Challenger,Grass,Round 2,Hugo Dellien,Ivan Dodig,0.3785,0.6215,2.64,1.61,25.6,0.4799,4.64,4.91,3.09,3.27,tennis.com
 atp,,NO OPEN POWERED BY EVN,Hard,Round 2,Rogerio Dutra Silva,Thiago Monteiro,0.4658,0.5342,2.15,1.87,26.29,0.5559,4.78,8.64,3.19,2.43,tennis.com
 atp,,CASSIS OPEN PROVENCE BY CABESTO,Hard,Round 2,Moez Echargui,Billy Harris,0.5206,0.4794,1.92,2.09,25.87,0.4993,7.61,4.77,2.49,3.18,tennis.com
-atp,,ROAD TO THE ROLEX SHANGHAI MASTERS,Hard,Round 2,Bernard Tomic,Ilya Ivashka,0.5167,0.4833,1.94,2.07,25.72,0.4804,6.29,4.78,3.07,3.18,tennis.com
+atp,,AON Open Challenger,Grass,Round 2,Francesco Passaro,Juan Pablo Varillas,0.4872,0.5128,2.05,1.95,25.56,0.4583,4.82,6.07,3.21,2.44,tennis.com
+atp,,"Phan Thiet 3, Vietnam",Hard,Quarterfinal,Lleyton Hewitt,Max Purcell,0.5079,0.4921,1.97,2.03,25.95,0.5097,4.84,8.23,3.22,2.65,tennis.com
+wta,,US Open,Hard,Semifinal,Aryna Sabalenka,Jessica Pegula,0.5772,0.4228,1.73,2.37,24.77,0.3644,4.66,3.45,3.48,2.39,tennis.com
+wta,,US Open,Hard,Semifinal,Coco Gauff,Elena Rybakina,0.4402,0.5598,2.27,1.79,24.59,0.3362,4.12,8.07,6.96,2.91,tennis.com
 wta,,Atik Antalya Open,Hard,Round 2,Maria Lourdes Carle,Eva Vedder,0.4471,0.5529,2.24,1.81,24.74,0.3549,4.77,3.85,3.18,3.67,tennis.com
+wta,,Barranquilla Open,Hard,Quarterfinal,Julia Riera,Anna Blinkova,0.5501,0.4499,1.82,2.22,24.68,0.3476,4.95,2.45,3.3,3.93,tennis.com
+wta,,Elle Spirit Open,Hard,Round 2,Simona Waltert,Despina Papamichail,0.5278,0.4722,1.89,2.12,24.55,0.3288,4.93,4.8,3.29,3.2,tennis.com
+wta,,Barranquilla Open,Hard,Quarterfinal,Kaitlin Quevedo,Claire Liu,0.4859,0.5141,2.06,1.95,24.54,0.3265,4.85,4.85,3.24,4.43,tennis.com
