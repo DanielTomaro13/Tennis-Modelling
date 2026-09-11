@@ -1,8 +1,15 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,ROAD TO THE ROLEX SHANGHAI MASTERS,Hard,Quarterfinal,Ilya Ivashka,Yi Zhou,0.5707,0.4293,1.75,2.33,25.72,0.486,4.9,4.69,3.27,3.13,tennis.com
+atp,,US Open,Hard,Semifinal,Alexander Zverev,Karen Khachanov,0.8171,0.1829,1.22,5.47,41.19,0.7172,14.9,10.23,3.25,3.1,tennis.com
+atp,,US Open,Hard,Semifinal,Frances Tiafoe,Ben Shelton,0.4041,0.5959,2.47,1.68,43.89,0.7818,10.29,14.61,3.69,4.81,tennis.com
 atp,,AON Open Challenger,Grass,Quarterfinal,Laslo Djere,Stefanos Sakellaridis,0.4378,0.5622,2.28,1.78,26.17,0.5426,8.24,8.48,2.73,2.54,tennis.com
+atp,,AON Open Challenger,Grass,Quarterfinal,Juan Pablo Varillas,Thiago Seyboth Wild,0.453,0.547,2.21,1.83,25.27,0.4228,6.01,8.57,2.42,2.9,tennis.com
+atp,,LX Copa Sevilla,Hard,Quarterfinal,Henrique Rocha,Dusan Lajovic,0.4693,0.5307,2.13,1.88,25.89,0.5021,4.79,6.15,3.19,2.33,tennis.com
 atp,,ROAD TO THE ROLEX SHANGHAI MASTERS,Hard,Quarterfinal,Pavel Kotov,Alexis Galarneau,0.5236,0.4764,1.91,2.1,25.57,0.461,7.0,6.46,2.69,2.74,tennis.com
+atp,,LX Copa Sevilla,Hard,Quarterfinal,Facundo Diaz Acosta,Sebastian Ofner,0.5207,0.4793,1.92,2.09,25.65,0.4704,6.82,7.19,2.77,2.71,tennis.com
 atp,,"Istanbul 3, Turkiye",Hard,Quarterfinal,Dimitar Kuzmanov,Harold Mayot,0.5139,0.4861,1.95,2.06,25.79,0.4889,4.85,4.78,3.23,3.19,tennis.com
 atp,,NO OPEN POWERED BY EVN,Hard,Quarterfinal,Rogerio Dutra Silva,Lukas Neumayer,0.4952,0.5048,2.02,1.98,25.55,0.4573,4.83,6.81,3.22,2.86,tennis.com
 atp,,CASSIS OPEN PROVENCE BY CABESTO,Hard,Quarterfinal,Nicolai Budkov Kjaer,Moez Echargui,0.5046,0.4954,1.98,2.02,25.72,0.4787,7.56,7.52,2.65,2.46,tennis.com
+wta,,Barranquilla Open,Hard,Semifinal,Leolia Jeanjean,Claire Liu,0.3204,0.6796,3.12,1.47,24.1,0.3106,4.44,5.07,2.96,4.63,tennis.com
 wta,,Elle Spirit Open,Hard,Quarterfinal,Fiona Ferro,Lucie Havlickova,0.4248,0.5752,2.35,1.74,24.59,0.3387,3.38,4.09,3.83,3.74,tennis.com
+wta,,Elle Spirit Open,Hard,Quarterfinal,Simona Waltert,Dalma Galfi,0.5746,0.4254,1.74,2.35,24.45,0.3225,5.0,3.96,3.34,4.07,tennis.com
+wta,,Barranquilla Open,Hard,Semifinal,Elsa Jacquemot,Anna Blinkova,0.4809,0.5191,2.08,1.93,24.87,0.369,3.06,2.52,4.7,4.03,tennis.com
