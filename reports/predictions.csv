@@ -1,4 +1,3 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
 atp,,US Open,Hard,Semifinal,Frances Tiafoe,Ben Shelton,0.4041,0.5959,2.47,1.68,43.89,0.7818,10.29,14.61,3.69,4.81,tennis.com
-wta,,Barranquilla Open,Hard,Semifinal,Leolia Jeanjean,Claire Liu,0.3204,0.6796,3.12,1.47,24.1,0.3106,4.44,5.07,2.96,4.63,tennis.com
 wta,,Barranquilla Open,Hard,Semifinal,Elsa Jacquemot,Anna Blinkova,0.4809,0.5191,2.08,1.93,24.87,0.369,3.06,2.52,4.7,4.03,tennis.com
