@@ -1,9 +1,6 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,LX Copa Sevilla,Hard,Semifinal,Jaume Munar,Facundo Diaz Acosta,0.6589,0.3411,1.52,2.93,25.46,0.4792,6.52,6.34,2.31,2.58,tennis.com
-atp,,AON Open Challenger,Grass,Semifinal,Laslo Djere,Pedro Martinez,0.5454,0.4546,1.83,2.2,25.51,0.4544,8.5,7.11,2.82,2.31,tennis.com
 atp,,AON Open Challenger,Grass,Semifinal,Thiago Seyboth Wild,Ivan Dodig,0.5045,0.4955,1.98,2.02,25.51,0.4512,8.51,4.8,2.88,3.2,tennis.com
 wta,,SP Open,Hard,Qualifying Round 1,Victoria Mboko,Lizette Cabrera,0.9551,0.0449,1.05,22.28,20.16,0.1751,4.83,2.89,6.16,1.93,tennis.com
-wta,,Elle Spirit Open,Hard,Semifinal,Dalma Galfi,Fiona Ferro,0.4478,0.5522,2.23,1.81,24.53,0.3285,4.02,3.55,4.14,4.02,tennis.com
 wta,,Abierto Zapopan 2021,Hard,Qualifying Round 1,Iryna Shymanovich,Maria Jose Martinez Sanchez,0.5507,0.4493,1.82,2.23,24.52,0.328,4.97,4.75,3.31,3.17,tennis.com
 wta,,Barranquilla Open,Hard,Final,Claire Liu,Anna Blinkova,0.5279,0.4721,1.89,2.12,24.68,0.3453,4.89,2.48,4.46,3.97,tennis.com
 wta,,US Open,Hard,Final,Aryna Sabalenka,Elena Rybakina,0.5257,0.4743,1.9,2.11,25.05,0.3929,4.59,7.79,3.43,2.82,tennis.com
