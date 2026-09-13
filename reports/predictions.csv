@@ -1,4 +1,1 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,CASSIS OPEN PROVENCE BY CABESTO,Hard,Final,Titouan Droguet,Mark Lajal,0.6492,0.3508,1.54,2.85,25.5,0.4812,4.95,7.03,3.3,2.82,tennis.com
-atp,,Biella,Hard,Qualifying Round 1,Maximilian Marterer,Andrea Arnaboldi,0.449,0.551,2.23,1.81,25.85,0.4983,8.31,4.85,2.65,3.23,tennis.com
-wta,,Elle Spirit Open,Hard,Final,Fiona Ferro,Noma Noha Akugue,0.4302,0.5698,2.32,1.76,24.72,0.3544,3.39,5.96,3.84,4.9,tennis.com
