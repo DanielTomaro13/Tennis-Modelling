@@ -1,14 +1,8 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+atp,,US Open,Hard,Final,Alexander Zverev,Ben Shelton,0.6087,0.3913,1.64,2.56,44.31,0.8146,15.2,14.13,3.31,4.65,tennis.com
 wta,,SP Open,Hard,Qualifying Round 2,Xiaodi You,Victoria Mboko,0.0501,0.9499,19.95,1.05,20.39,0.182,2.97,4.85,1.98,6.18,tennis.com
-wta,,SP Open,Hard,Round 1,Darja Semenistaja,Paula Badosa,0.243,0.757,4.11,1.32,23.56,0.2908,3.13,5.05,3.26,6.05,tennis.com
-wta,,SP Open,Hard,Round 1,Jessica Bouzas Maneiro,Dominika Salkova,0.3806,0.6194,2.63,1.61,24.31,0.3141,2.51,5.05,5.42,3.37,tennis.com
 wta,,Abierto Zapopan 2021,Hard,Round 1,Peyton Stearns,Emiliana Arango,0.6189,0.3811,1.62,2.62,24.19,0.3006,3.21,3.07,3.79,4.34,tennis.com
-wta,,SP Open,Hard,Round 1,Eva Lys,Gabriela Ce,0.6002,0.3998,1.67,2.5,24.19,0.2963,1.5,4.64,4.82,3.09,tennis.com
-wta,,WTA 2024 Zavarovalnica Sava Ljubljana,Hard,Round 1,Arantxa Rus,Samira De Stefano,0.4154,0.5846,2.41,1.71,24.43,0.3206,3.59,3.13,3.94,3.33,tennis.com
 wta,,Abierto Zapopan 2021,Hard,Round 1,Alycia Parks,Varvara Lepchenko,0.5844,0.4156,1.71,2.41,24.42,0.3212,6.55,4.68,6.83,3.12,tennis.com
 wta,,Abierto Zapopan 2021,Hard,Round 1,Darja Vidmanova,Janice Tjen,0.5544,0.4456,1.8,2.24,24.48,0.323,4.49,3.51,2.9,3.62,tennis.com
 wta,,Abierto Zapopan 2021,Hard,Round 1,Panna Udvardy,Lois Boisson,0.4484,0.5516,2.23,1.81,24.92,0.3778,2.94,3.56,3.4,4.36,tennis.com
-wta,,SP Open,Hard,Round 1,Julia Riera,Elina Avanesyan,0.4611,0.5389,2.17,1.86,24.45,0.3162,4.8,2.45,3.2,3.6,tennis.com
 wta,,Abierto Zapopan 2021,Hard,Round 1,Cristina Bucsa,Bianca Andreescu,0.5286,0.4714,1.89,2.12,24.58,0.3331,3.24,3.58,4.51,3.55,tennis.com
-wta,,WTA 2024 Zavarovalnica Sava Ljubljana,Hard,Round 1,Maria Lourdes Carle,Ekaterine Gorgodze,0.5208,0.4792,1.92,2.09,24.55,0.329,4.92,4.82,3.28,3.21,tennis.com
-wta,,SP Open,Hard,Round 1,Lucrezia Stefanini,Nadia Podoroska,0.4915,0.5085,2.03,1.97,24.57,0.3302,4.86,3.49,3.24,3.89,tennis.com
