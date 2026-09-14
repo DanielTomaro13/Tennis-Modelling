@@ -1,1 +1,4 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+wta,,SP Open,Hard,Round 1,Eva Lys,Gabriela Ce,0.6002,0.3998,1.67,2.5,24.19,0.2963,1.5,4.64,4.82,3.09,tennis.com
+wta,,WTA 2024 Zavarovalnica Sava Ljubljana,Hard,Round 1,Arantxa Rus,Samira De Stefano,0.4154,0.5846,2.41,1.71,24.43,0.3206,3.59,3.13,3.94,3.33,tennis.com
+wta,,SP Open,Hard,Round 1,Lucrezia Stefanini,Nadia Podoroska,0.4915,0.5085,2.03,1.97,24.57,0.3302,4.86,3.49,3.24,3.89,tennis.com
