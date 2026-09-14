@@ -1,5 +1,4 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Open Blot Rennes,Hard,Round 1,Ugo Blanchet,Billy Harris,0.6298,0.3702,1.59,2.7,25.54,0.4791,8.18,4.58,3.57,3.05,tennis.com
 atp,,Open Blot Rennes,Hard,Round 1,Justin Engel,Tristan Schoolkate,0.6063,0.3937,1.65,2.54,25.61,0.4809,4.93,7.51,3.29,3.26,tennis.com
 atp,,"ATP Challenger Guangzhou (Huangpu), China",Grass,Round 1,Shintaro Mochizuki,Pavel Kotov,0.585,0.415,1.71,2.41,25.43,0.4515,5.73,5.35,3.35,2.43,tennis.com
 atp,,Tiburon Challenger,Grass,Round 1,Karue Sell,Michael Mmoh,0.4356,0.5644,2.3,1.77,25.44,0.4467,5.63,4.89,2.39,3.26,tennis.com
@@ -10,7 +9,6 @@ wta,,Abierto Zapopan 2021,Hard,Round 1,Elsa Jacquemot,Liudmila Samsonova,0.3176,
 wta,,"WTA 125K Caldas da Rainha, Portugal",Hard,Round 1,Matilde Jorge,Xinyu Gao,0.6777,0.3223,1.48,3.1,24.02,0.3026,3.88,2.83,4.43,3.4,tennis.com
 wta,,Abierto Zapopan 2021,Hard,Round 1,Magdalena Frech,Nao Hibino,0.6756,0.3244,1.48,3.08,24.28,0.3348,3.69,3.19,2.9,3.82,tennis.com
 wta,,SP Open,Hard,Round 1,Whitney Osuigwe,Kaitlin Quevedo,0.3329,0.6671,3.0,1.5,24.18,0.3154,4.48,5.09,2.99,3.39,tennis.com
-wta,,Abierto Zapopan 2021,Hard,Round 1,Elvina Kalieva,Kayla Day,0.6421,0.3579,1.56,2.79,24.28,0.3199,5.08,3.39,3.39,3.45,tennis.com
 wta,,Abierto Zapopan 2021,Hard,Round 1,Zeynep Sonmez,Iryna Shymanovich,0.6419,0.3581,1.56,2.79,24.18,0.3075,2.63,4.52,4.77,3.02,tennis.com
 wta,,SP Open,Hard,Round 1,Jessica Bouzas Maneiro,Dominika Salkova,0.3806,0.6194,2.63,1.61,24.31,0.3141,2.51,5.05,5.42,3.37,tennis.com
 wta,,SP Open,Hard,Round 1,Xiaodi You,Alina Charaeva,0.3915,0.6085,2.55,1.64,24.33,0.3141,4.64,3.46,3.09,4.27,tennis.com
