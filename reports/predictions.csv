@@ -1,5 +1,3 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
 wta,,"WTA 125K Caldas da Rainha, Portugal",Hard,Round 1,Matilde Jorge,Xinyu Gao,0.6777,0.3223,1.48,3.1,24.02,0.3026,3.88,2.83,4.43,3.4,tennis.com
-wta,,"WTA 125K Caldas da Rainha, Portugal",Hard,Round 1,Katherine Sebov,Victoria Jimenez Kasintseva,0.5445,0.4555,1.84,2.2,24.42,0.3144,2.89,3.36,4.1,4.78,tennis.com
-wta,,WTA 2024 Zavarovalnica Sava Ljubljana,Hard,Round 1,Maria Lourdes Carle,Ekaterine Gorgodze,0.5208,0.4792,1.92,2.09,24.55,0.329,4.92,4.82,3.28,3.21,tennis.com
 wta,,SP Open,Hard,Round 1,Lucrezia Stefanini,Nadia Podoroska,0.4915,0.5085,2.03,1.97,24.57,0.3302,4.86,3.49,3.24,3.89,tennis.com

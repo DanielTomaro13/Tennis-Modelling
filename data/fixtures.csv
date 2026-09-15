@@ -1,61 +1,19 @@
 tour,date,tournament,surface,best_of,format,round,player1,player2,p1a,p1b,p2a,p2b,source
-atp,,Biella,Hard,3,singles,Round 1,Alex Barrena,Maxime Chazal,,,,,tennis.com
-atp,,Biella,Hard,3,singles,Round 1,Pierluigi Basile,Juan Cruz Martin Manzano,,,,,tennis.com
-atp,,Biella,Hard,3,singles,Round 1,Giuseppe La Vela,Carlo Alberto Caniato,,,,,tennis.com
 atp,,Biella,Hard,3,singles,Round 1,Oriol Roca Batalla,Alejo Sanchez Quilez,,,,,tennis.com
-atp,,Biella,Hard,3,singles,Round 1,Riccardo Carpano,Tommaso Compagnucci,,,,,tennis.com
 atp,,Biella,Hard,3,singles,Round 1,Alex Martí Pujolras,Stefano Napolitano,,,,,tennis.com
-atp,,Biella,Hard,3,singles,Round 1,Mika Brunold,Massimo Giunta,,,,,tennis.com
-atp,,Biella,Hard,3,singles,Round 1,Gianluca Cadenasso,Francesco Forti,,,,,tennis.com
-atp,,"ATP Challenger Guangzhou (Huangpu), China",Grass,3,singles,Round 1,Marat Sharipov,Thomas Fancutt,,,,,tennis.com
-atp,,"ATP Challenger Guangzhou (Huangpu), China",Grass,3,singles,Round 1,Hayato Matsuoka,Lloyd Harris,,,,,tennis.com
-atp,,"ATP Challenger Guangzhou (Huangpu), China",Grass,3,singles,Round 1,Jesse Delaney,Petr Bar Biryukov,,,,,tennis.com
-atp,,"ATP Challenger Guangzhou (Huangpu), China",Grass,3,singles,Round 1,Mitsuki Wei Kang Leong,Sergey Fomin,,,,,tennis.com
+atp,,Biella,Hard,3,singles,Round 1,Riccardo Carpano,Tommaso Compagnucci,,,,,tennis.com
 atp,,"ATP Challenger Guangzhou (Huangpu), China",Grass,3,singles,Round 1,Federico Cina,James Kent Trotter,,,,,tennis.com
 atp,,"ATP Challenger Guangzhou (Huangpu), China",Grass,3,singles,Round 1,Naoya Honda,Nikoloz Basilashvili,,,,,tennis.com
-atp,,Open Blot Rennes,Hard,3,singles,Round 1,Léo Raquillet,Yanis Ghazouani Durand,,,,,tennis.com
-atp,,Open Blot Rennes,Hard,3,singles,Round 1,Matisse Bobichon,Eliakim Coulibaly,,,,,tennis.com
-atp,,Open Blot Rennes,Hard,3,singles,Round 1,Borna Gojo,Daniel Masur,,,,,tennis.com
-atp,,Invest in Szczecin Open,Hard,3,singles,Round 1,Robert Strombachs,Luka Mikrut,,,,,tennis.com
-atp,,Invest in Szczecin Open,Hard,3,singles,Round 1,Kilian Feldbausch,Kai Wehnelt,,,,,tennis.com
-atp,,Invest in Szczecin Open,Hard,3,singles,Round 1,Sean Cuenin,Marco Trungelliti,,,,,tennis.com
-atp,,Invest in Szczecin Open,Hard,3,singles,Round 1,Johan Nikles,Laslo Djere,,,,,tennis.com
-atp,,Invest in Szczecin Open,Hard,3,singles,Round 1,Ivan Gakhov,Zdeněk Kolář,,,,,tennis.com
+atp,,"ATP Challenger Guangzhou (Huangpu), China",Grass,3,singles,Round 1,Mitsuki Wei Kang Leong,Sergey Fomin,,,,,tennis.com
 atp,,Invest in Szczecin Open,Hard,3,singles,Round 1,Marco Cecchinato,Henri Squire,,,,,tennis.com
 atp,,Invest in Szczecin Open,Hard,3,singles,Round 1,Dušan Lajović,Diego Dedura-Palomero,,,,,tennis.com
 atp,,Invest in Szczecin Open,Hard,3,singles,Round 1,Tiago Pereira,Filip Pieczonka,,,,,tennis.com
-atp,,Invest in Szczecin Open,Hard,3,singles,Round 1,Dali Blanch,Nikolás Sánchez Izquierdo,,,,,tennis.com
-atp,,UTR PTT Budapest Men 03,Hard,3,singles,,Andrea Brignacca,David Ioan Morega,,,,,tennis.com
-atp,,UTR PTT Budapest Men 03,Hard,3,singles,,Karel Froemel,Ondrej Hujo,,,,,tennis.com
-atp,,UTR PTT Budapest Men 03,Hard,3,singles,,Gergely Madarasz,Marshall Tutu,,,,,tennis.com
-atp,,UTR PTT Budapest Men 03,Hard,3,singles,,Alex Blanchar,Facundo Yunis,,,,,tennis.com
-wta,,UTR PTT Budapest Women 03,Hard,3,singles,,Lea Belanska,Monika Stanikova,,,,,tennis.com
-wta,,UTR PTT Budapest Women 03,Hard,3,singles,,Izabela Heinzova,Denise Hrdinkova,,,,,tennis.com
-atp,,UTR PTT Essen Men 01,Hard,3,singles,,Mark Kneiss,Dominik Reček,,,,,tennis.com
-atp,,UTR PTT Essen Men 01,Hard,3,singles,,Cedric Stanke,Noah Lopez,,,,,tennis.com
 atp,,UTR PTT Essen Men 01,Hard,3,singles,,Cian McDonnell,Nicolas Ifi,,,,,tennis.com
-wta,,UTR PTT Essen Women 01,Hard,3,singles,,Leticia Romanova,Leonie Schuknecht,,,,,tennis.com
-wta,,UTR PTT Essen Women 01,Hard,3,singles,,Jade Groen,Diāna Marcinkēviča,,,,,tennis.com
-wta,,UTR PTT Essen Women 01,Hard,3,singles,,Charlotte Pikkaart,Jinte de Boer,,,,,tennis.com
-wta,,UTR PTT Essen Women 01,Hard,3,singles,,Luisa Meyer Auf Der Heide,Anastasiya Kuparev,,,,,tennis.com
-wta,,"WTA 125K Caldas da Rainha, Portugal",Hard,3,singles,Round 1,Kylie Collins,Ariana Arseneault,,,,,tennis.com
-wta,,"WTA 125K Caldas da Rainha, Portugal",Hard,3,singles,Round 1,Katherine Sebov,Victoria Jimenez Kasintseva,,,,,tennis.com
-wta,,"WTA 125K Caldas da Rainha, Portugal",Hard,3,singles,Round 1,Caroline Werner,Malaika Rapolu,,,,,tennis.com
 wta,,"WTA 125K Caldas da Rainha, Portugal",Hard,3,singles,Round 1,Elena Micic,Anouk Koevermans,,,,,tennis.com
 wta,,"WTA 125K Caldas da Rainha, Portugal",Hard,3,singles,Round 1,Francisca Jorge,Xinyu Gao,,,,,tennis.com
-wta,,WTA 2024 Zavarovalnica Sava Ljubljana,Hard,3,singles,Round 1,Martina Colmegna,Mia Ristić,,,,,tennis.com
-wta,,WTA 2024 Zavarovalnica Sava Ljubljana,Hard,3,singles,Round 1,María Carlé,Ekaterine Gorgodze,,,,,tennis.com
-wta,,WTA 2024 Zavarovalnica Sava Ljubljana,Hard,3,singles,Round 1,Francesca Jones,Alja Senica,,,,,tennis.com
-wta,,WTA 2024 Zavarovalnica Sava Ljubljana,Hard,3,singles,Round 1,Alice Tubello,Vivian Wolff,,,,,tennis.com
 wta,,WTA 2024 Zavarovalnica Sava Ljubljana,Hard,3,singles,Round 1,Weronika Falkowska,Kristina Novak,,,,,tennis.com
-wta,,WTA 2024 Zavarovalnica Sava Ljubljana,Hard,3,singles,Round 1,Pia Lovrič,Dalma Gálfi,,,,,tennis.com
-wta,,BBVA Open Internacional de Valencia,Hard,3,singles,Round 1,Oksana Selekhmeteva,Nastasja Schunk,,,,,tennis.com
 wta,,BBVA Open Internacional de Valencia,Hard,3,singles,Round 1,Madison Sieg,Irene Burillo Escorihuela,,,,,tennis.com
 wta,,BBVA Open Internacional de Valencia,Hard,3,singles,Round 1,Leyre Romero Gormaz,Martina Trevisan,,,,,tennis.com
-wta,,BBVA Open Internacional de Valencia,Hard,3,singles,Round 1,Mina Hodzic,Rebeka Masarova,,,,,tennis.com
-wta,,BBVA Open Internacional de Valencia,Hard,3,singles,Round 1,Angela Fita Boluda,Yasmine Kabbaj,,,,,tennis.com
-wta,,BBVA Open Internacional de Valencia,Hard,3,singles,Round 1,Joelle Lilly Sophie Steur,Charo Esquiva Banuls,,,,,tennis.com
-wta,,SP Open,Hard,3,singles,Round 1,Nauhany Vitoria Leme Da Silva,Astra Sharma,,,,,tennis.com
 wta,,SP Open,Hard,3,singles,Round 1,Darja Semenistaja,Hayu Kinoshita,,,,,tennis.com
 wta,,SP Open,Hard,3,singles,Round 1,Lucrezia Stefanini,Nadia Podoroska,,,,,tennis.com
 wta,,SP Open,Hard,3,singles,Round 1,Teodora Kostović,Victoria Luiza Barros,,,,,tennis.com
