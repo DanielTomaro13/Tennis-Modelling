@@ -1,7 +1,12 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
+atp,,Open Blot Rennes,Hard,Round 1,Justin Engel,Tristan Schoolkate,0.6063,0.3937,1.65,2.54,25.61,0.4809,4.93,7.51,3.29,3.26,tennis.com
 wta,,Abierto Zapopan 2021,Hard,Round 2,Alycia Parks,Sara Bejlek,0.2853,0.7147,3.51,1.4,23.69,0.2795,5.61,2.8,5.85,5.26,tennis.com
 wta,,SP Open,Hard,Round 1,Whitney Osuigwe,Kaitlin Quevedo,0.3329,0.6671,3.0,1.5,24.18,0.3154,4.48,5.09,2.99,3.39,tennis.com
 wta,,Abierto Zapopan 2021,Hard,Round 2,Diane Parry,Peyton Stearns,0.6327,0.3673,1.58,2.72,24.33,0.3228,3.06,2.88,4.14,3.4,tennis.com
 wta,,SP Open,Hard,Round 1,Jessica Bouzas Maneiro,Dominika Salkova,0.3806,0.6194,2.63,1.61,24.31,0.3141,2.51,5.05,5.42,3.37,tennis.com
+wta,,WTA 2024 Zavarovalnica Sava Ljubljana,Hard,Round 2,Lucie Havlickova,Ekaterine Gorgodze,0.6034,0.3966,1.66,2.52,24.46,0.331,4.14,4.63,3.78,3.09,tennis.com
+wta,,WTA 2024 Zavarovalnica Sava Ljubljana,Hard,Round 2,Francesca Jones,Mona Barthel,0.4038,0.5962,2.48,1.68,24.52,0.3347,3.76,5.0,3.99,3.34,tennis.com
+wta,,BBVA Open Internacional de Valencia,Hard,Round 2,Martina Trevisan,Clara Burel,0.4086,0.5914,2.45,1.69,24.25,0.3001,3.16,4.0,4.13,4.8,tennis.com
+wta,,"WTA 125K Caldas da Rainha, Portugal",Hard,Round 2,Mia Pohankova,Matilde Jorge,0.5467,0.4533,1.83,2.21,24.39,0.3112,4.41,3.61,3.99,4.12,tennis.com
 wta,,Abierto Zapopan 2021,Hard,Round 2,Sloane Stephens,Janice Tjen,0.4711,0.5289,2.12,1.89,24.59,0.3332,3.3,3.63,3.73,3.74,tennis.com
 wta,,Abierto Zapopan 2021,Hard,Round 2,Cristina Bucsa,Panna Udvardy,0.5143,0.4857,1.94,2.06,24.78,0.3573,3.22,2.97,4.48,3.44,tennis.com
