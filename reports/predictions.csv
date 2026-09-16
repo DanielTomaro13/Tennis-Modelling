@@ -1,2 +1,8 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-wta,,"WTA 125K Caldas da Rainha, Portugal",Hard,Round 2,Susan Bandecchi,Viktoria Hruncakova,0.5626,0.4374,1.78,2.29,24.47,0.3233,3.86,4.73,3.64,3.15,tennis.com
+atp,,Invest in Szczecin Open,Hard,Round 2,Marco Cecchinato,Elmer Moller,0.3632,0.6368,2.75,1.57,25.29,0.4447,4.6,7.32,3.07,3.3,tennis.com
+wta,,Abierto Zapopan 2021,Hard,Round 2,Kayla Day,Liudmila Samsonova,0.26,0.74,3.85,1.35,23.76,0.303,3.18,3.89,3.23,4.18,tennis.com
+wta,,Abierto Zapopan 2021,Hard,Round 2,Zeynep Sonmez,Iva Jovic,0.2824,0.7176,3.54,1.39,23.72,0.2845,2.22,2.95,4.01,2.74,tennis.com
+wta,,Abierto Zapopan 2021,Hard,Round 2,Marta Kostyuk,Taylor Townsend,0.6927,0.3073,1.44,3.25,24.11,0.3212,4.08,3.89,6.07,3.37,tennis.com
+wta,,"WTA 125K Caldas da Rainha, Portugal",Hard,Round 2,Anouk Koevermans,Gabriela Andrea Knutson,0.6267,0.3733,1.6,2.68,24.29,0.3166,4.9,2.85,4.52,4.32,tennis.com
+wta,,"WTA 125K Caldas da Rainha, Portugal",Hard,Round 2,Matilde Jorge,Victoria Jimenez Kasintseva,0.6156,0.3844,1.62,2.6,24.22,0.3038,3.84,3.24,4.38,4.6,tennis.com
+wta,,Abierto Zapopan 2021,Hard,Round 2,Magdalena Frech,Caroline Dolehide,0.5908,0.4092,1.69,2.44,24.62,0.3485,3.63,2.92,2.85,3.84,tennis.com
