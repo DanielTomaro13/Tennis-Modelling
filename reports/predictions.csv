@@ -1,3 +1,2 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Invest in Szczecin Open,Hard,Round 2,Marco Cecchinato,Elmer Moller,0.3632,0.6368,2.75,1.57,25.29,0.4447,4.6,7.32,3.07,3.3,tennis.com
 wta,,"WTA 125K Caldas da Rainha, Portugal",Hard,Round 2,Matilde Jorge,Victoria Jimenez Kasintseva,0.6156,0.3844,1.62,2.6,24.22,0.3038,3.84,3.24,4.38,4.6,tennis.com
