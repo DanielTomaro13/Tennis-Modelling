@@ -1,6 +1,5 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
 atp,,Invest in Szczecin Open,Hard,Quarterfinal,Marco Cecchinato,Marco Trungelliti,0.3983,0.6017,2.51,1.66,25.66,0.4827,4.68,4.9,3.12,3.27,tennis.com
 atp,,"ATP Challenger Guangzhou (Huangpu), China",Grass,Quarterfinal,Bernard Tomic,Alexandr Binda,0.5034,0.4966,1.99,2.01,25.88,0.5003,8.47,8.31,2.75,3.11,tennis.com
-wta,,Abierto Zapopan 2021,Hard,Quarterfinal,Marta Kostyuk,Liudmila Samsonova,0.7667,0.2333,1.3,4.29,23.54,0.299,4.11,3.12,6.1,3.35,tennis.com
 wta,,"WTA 125K Caldas da Rainha, Portugal",Hard,Quarterfinal,Mia Pohankova,Danielle Collins,0.3575,0.6425,2.8,1.56,24.22,0.3112,4.03,4.51,3.65,5.9,tennis.com
 wta,,Abierto Zapopan 2021,Hard,Quarterfinal,Peyton Stearns,Sloane Stephens,0.5692,0.4308,1.76,2.32,24.48,0.3251,3.16,3.23,3.73,3.65,tennis.com
