@@ -1,16 +1,7 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
 wta,,Porto Ladies Open,Hard,Round 1,Lizette Cabrera,Sinja Kraus,0.2506,0.7494,3.99,1.33,23.68,0.2996,4.2,3.6,2.8,4.43,tennis.com
 wta,,Singapore Open,Hard,Round 1,Talia Gibson,Fiona Ferro,0.7356,0.2644,1.36,3.78,24.07,0.3414,5.35,3.04,4.09,3.54,tennis.com
-wta,,Hana Bank Korea Open,Hard,Round 1,Lanlana Tararudee,Moyuka Uchijima,0.7112,0.2888,1.41,3.46,23.73,0.2848,4.16,2.79,3.85,3.65,tennis.com
 wta,,Singapore Open,Hard,Round 1,Rebecca Sramkova,Maja Chwalinska,0.3224,0.6776,3.1,1.48,24.0,0.2976,3.32,3.78,3.65,4.41,tennis.com
 wta,,Hana Bank Korea Open,Hard,Round 1,Alina Korneeva,Mananchaya Sawangkaew,0.6594,0.3406,1.52,2.94,23.92,0.2825,2.99,4.46,4.32,2.98,tennis.com
-wta,,Hana Bank Korea Open,Hard,Round 1,Alina Charaeva,Sofia Kenin,0.3945,0.6055,2.53,1.65,24.51,0.336,3.21,2.33,3.99,4.29,tennis.com
-wta,,Hana Bank Korea Open,Hard,Round 1,Jelena Ostapenko,Anastasia Zakharova,0.5948,0.4052,1.68,2.47,24.47,0.3291,4.29,2.83,5.75,3.29,tennis.com
-wta,,Hana Bank Korea Open,Hard,Round 1,Taylah Preston,Himeno Sakatsume,0.5867,0.4133,1.7,2.42,24.43,0.3234,2.87,3.21,3.6,3.69,tennis.com
 wta,,Hana Bank Korea Open,Hard,Round 1,Kamilla Rakhimova,Polina Kudermetova,0.5746,0.4254,1.74,2.35,24.36,0.3118,2.81,3.24,4.99,5.09,tennis.com
-wta,,Hana Bank Korea Open,Hard,Round 1,Tamara Zidansek,Kimberly Birrell,0.5619,0.4381,1.78,2.28,24.72,0.3544,2.89,2.59,3.8,4.98,tennis.com
 wta,,Singapore Open,Hard,Round 1,Kristina Mladenovic,Nao Hibino,0.5532,0.4468,1.81,2.24,24.54,0.3301,4.97,3.41,3.31,4.13,tennis.com
-wta,,Hana Bank Korea Open,Hard,Round 1,Katie Volynets,Elvina Kalieva,0.4615,0.5385,2.17,1.86,24.51,0.3248,2.58,4.93,2.55,3.29,tennis.com
-wta,,Singapore Open,Hard,Round 1,Daria Kasatkina,Aliaksandra Sasnovich,0.5346,0.4654,1.87,2.15,24.35,0.3039,2.5,4.01,6.11,4.75,tennis.com
-wta,,Hana Bank Korea Open,Hard,Round 1,Anna Bondar,Renata Zarazua,0.4682,0.5318,2.14,1.88,24.51,0.3233,4.1,3.01,3.5,3.65,tennis.com
-wta,,Hana Bank Korea Open,Hard,Round 1,Eva Lys,Elena Gabriela Ruse,0.483,0.517,2.07,1.93,24.3,0.2972,1.48,3.27,5.19,4.75,tennis.com
