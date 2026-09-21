@@ -2,6 +2,8 @@
 
 > **Status, September 2026:** GitHub Actions are currently paused on this repo, so automated data refreshes and deploys are not running. The data and any live site reflect the last build.
 
+[![Screenshot of the live site](.github/screenshot.png)](https://grandtennisslam.com/)
+
 Statistical modelling of professional tennis matches (ATP + WTA, singles **and** doubles),
 published as a static [GitHub Pages site](https://danieltomaro13.github.io/Tennis-Modelling/)
 and rebuilt automatically every 3 hours.
