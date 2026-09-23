@@ -1,10 +1,16 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Saint-Tropez Open,Hard,Round 1,Nicolai Budkov Kjaer,Billy Harris,0.5359,0.4641,1.87,2.15,25.62,0.468,7.62,4.75,2.67,3.17,tennis.com
-atp,,"ATP Challenger Genoa 2, Italy",Grass,Round 1,Stefano Travaglia,Elmer Moller,0.4724,0.5276,2.12,1.9,25.31,0.4253,4.81,5.49,3.2,3.46,tennis.com
-atp,,Chengdu Open,Hard,Qualifying Round 1,Nikoloz Basilashvili,Yen Hsun Lu,0.4996,0.5004,2.0,2.0,25.79,0.489,4.83,4.8,3.22,3.2,tennis.com
-wta,,Singapore Open,Hard,Round 1,Barbora Krejcikova,Anna Lena Friedsam,0.7725,0.2275,1.29,4.4,23.46,0.2942,4.31,4.09,5.21,2.72,tennis.com
-wta,,Singapore Open,Hard,Round 1,Maria Sakkari,Linda Fruhvirtova,0.7185,0.2815,1.39,3.55,23.84,0.3031,3.12,3.21,3.53,4.04,tennis.com
-wta,,Porto Ladies Open,Hard,Round 1,Matilde Jorge,Mia Pohankova,0.4509,0.5491,2.22,1.82,24.45,0.3174,3.58,4.29,4.18,4.04,tennis.com
-wta,,Porto Ladies Open,Hard,Round 1,Sahaja Yamalapalli,Katie Swan,0.528,0.472,1.89,2.12,24.57,0.3311,2.98,4.8,4.34,3.2,tennis.com
-wta,,Tolentino Open,Hard,Round 1,Nuria Brancaccio,Maria Lourdes Carle,0.5167,0.4833,1.94,2.07,24.56,0.3298,4.91,4.83,3.27,3.22,tennis.com
-wta,,Tolentino Open,Hard,Round 1,Ekaterine Gorgodze,Laura Pigossi,0.4933,0.5067,2.03,1.97,24.57,0.3299,4.87,4.87,3.24,3.25,tennis.com
+atp,,Chengdu Open,Hard,Qualifying Round 2,Lloyd Harris,Alexis Galarneau,0.6248,0.3752,1.6,2.67,25.42,0.4608,7.75,6.21,2.91,2.64,tennis.com
+atp,,Hangzhou Open,Hard,Round 1,Valentin Royer,Adam Walton,0.4084,0.5916,2.45,1.69,25.88,0.5097,7.06,7.24,2.68,2.62,tennis.com
+atp,,Chengdu Open,Hard,Qualifying Round 2,Nikoloz Basilashvili,Federico Cina,0.5708,0.4292,1.75,2.33,25.66,0.4791,4.91,6.35,3.27,2.51,tennis.com
+atp,,Hangzhou Open,Hard,Round 1,Aleksandar Vukic,Kyrian Jacquet,0.561,0.439,1.78,2.28,25.63,0.4727,8.03,6.81,2.57,2.62,tennis.com
+atp,,"ATP Challenger Genoa 2, Italy",Grass,Round 2,Elmer Moller,Andrea Arnaboldi,0.5532,0.4468,1.81,2.24,25.27,0.4242,5.56,4.73,3.5,3.15,tennis.com
+atp,,Chengdu Open,Hard,Qualifying Round 2,Shintaro Mochizuki,Pavel Kotov,0.5448,0.4552,1.84,2.2,25.52,0.4566,6.78,6.82,3.03,2.61,tennis.com
+atp,,"ATP Challenger San Diego 2, USA",Grass,Round 1,Keaton Hance,Andrej Martin,0.5438,0.4562,1.84,2.19,25.74,0.4846,6.03,4.74,2.96,3.16,tennis.com
+atp,,Chengdu Open,Hard,Round 1,Sebastian Baez,Jenson Brooksby,0.4675,0.5325,2.14,1.88,24.92,0.3753,4.06,4.71,2.28,2.48,tennis.com
+wta,,Singapore Open,Hard,Round 2,Mirra Andreeva,Aliaksandra Sasnovich,0.8419,0.1581,1.19,6.33,22.62,0.2596,4.06,3.13,4.82,3.71,tennis.com
+wta,,Singapore Open,Hard,Round 2,Alycia Parks,Leylah Fernandez,0.3802,0.6198,2.63,1.61,24.59,0.3499,6.03,3.46,5.78,4.29,tennis.com
+wta,,Tolentino Open,Hard,Round 2,Raluka Serban,Rebeka Masarova,0.3961,0.6039,2.52,1.66,24.34,0.314,3.33,5.03,4.23,3.36,tennis.com
+wta,,Singapore Open,Hard,Round 2,Elise Mertens,Barbora Krejcikova,0.4475,0.5525,2.23,1.81,24.66,0.3444,4.04,4.13,5.0,4.99,tennis.com
+wta,,Singapore Open,Hard,Round 2,Oleksandra Oliynykova,Maja Chwalinska,0.4477,0.5523,2.23,1.81,24.25,0.2927,2.75,3.68,3.61,4.28,tennis.com
+wta,,Porto Ladies Open,Hard,Round 2,Matilde Jorge,Sinja Kraus,0.5345,0.4655,1.87,2.15,24.53,0.3267,3.7,3.36,4.32,4.13,tennis.com
+wta,,Hana Bank Korea Open,Hard,Round 2,Kamilla Rakhimova,Katie Volynets,0.5331,0.4669,1.88,2.14,24.43,0.3147,2.77,2.57,4.92,2.55,tennis.com
