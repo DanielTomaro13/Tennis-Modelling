@@ -2,25 +2,21 @@ tour,date,tournament,surface,best_of,format,round,player1,player2,p1a,p1b,p2a,p2
 atp,,"ATP Challenger Genoa 2, Italy",Grass,3,singles,Quarterfinal,Lukas Neumayer,Luka Mikrut,,,,,tennis.com
 atp,,"ATP Challenger Genoa 2, Italy",Grass,3,singles,Quarterfinal,Marvin Möller,Dali Blanch,,,,,tennis.com
 atp,,"ATP Challenger Genoa 2, Italy",Grass,3,singles,Quarterfinal,Mika Petković,Francesco Forti,,,,,tennis.com
-atp,,"ATP Challenger Plovdiv 4, Bulgaria",Grass,3,singles,Quarterfinal,Max Alcalá Gurri,Pol Martín Tiffon,,,,,tennis.com
 atp,,"ATP Challenger Plovdiv 4, Bulgaria",Grass,3,singles,Quarterfinal,Calvin Hémery,Carlos Taberner,,,,,tennis.com
+atp,,"ATP Challenger Plovdiv 4, Bulgaria",Grass,3,singles,Quarterfinal,Max Alcalá Gurri,Pol Martín Tiffon,,,,,tennis.com
 atp,,"ATP Challenger Plovdiv 4, Bulgaria",Grass,3,singles,Quarterfinal,Felix Gill,Jonáš Forejtek,,,,,tennis.com
 atp,,Saint-Tropez Open,Hard,3,singles,Quarterfinal,Murphy Cassone,Daniel Masur,,,,,tennis.com
 atp,,Saint-Tropez Open,Hard,3,singles,Quarterfinal,Harold Mayot,Jesper De Jong,,,,,tennis.com
 atp,,Saint-Tropez Open,Hard,3,singles,Quarterfinal,Dino Prižmić,Daniil Glinka,,,,,tennis.com
-atp,,Chengdu Open,Hard,3,singles,Round 2,Jenson Brooksby,Lorenzo Sonego,,,,,tennis.com
-atp,,Chengdu Open,Hard,3,singles,Round 2,Vít Kopřiva,Denis Shapovalov,,,,,tennis.com
-atp,,Chengdu Open,Hard,3,singles,Round 2,Alejandro Tabilo,Adrian Mannarino,,,,,tennis.com
 atp,,Chengdu Open,Hard,3,singles,Round 2,Nikoloz Basilashvili,Botic van de Zandschulp,,,,,tennis.com
-atp,,Hangzhou Open,Hard,3,singles,Round 2,Kyrian Jacquet,Tomás Martín Etcheverry,,,,,tennis.com
 atp,,Hangzhou Open,Hard,3,singles,Round 2,Fábián Marozsán,Taro Daniel,,,,,tennis.com
 atp,,Hangzhou Open,Hard,3,singles,Round 2,Rinky Hijikata,Andrey Rublev,,,,,tennis.com
 atp,,Hangzhou Open,Hard,3,singles,Round 2,Jaime Faria,Hugo Gaston,,,,,tennis.com
-atp,,UTR College Station M01,Hard,3,singles,,Andreas Scott,Lathan Skrobarcek,,,,,tennis.com
 atp,,UTR College Station M01,Hard,3,singles,,Noey Do,Camille Chantron,,,,,tennis.com
+atp,,UTR College Station M01,Hard,3,singles,,Andreas Scott,Lathan Skrobarcek,,,,,tennis.com
 atp,,UTR College Station M01,Hard,3,singles,,Aditya Vyas,Adiran Solorzano,,,,,tennis.com
-wta,,UTR PTT College Station Women 01,Hard,3,singles,,Violeta Martinez,Iva Sepa,,,,,tennis.com
 wta,,UTR PTT College Station Women 01,Hard,3,singles,,Alexandra Grilliot,Sona Depesova,,,,,tennis.com
+wta,,UTR PTT College Station Women 01,Hard,3,singles,,Violeta Martinez,Iva Sepa,,,,,tennis.com
 wta,,UTR PTT College Station Women 01,Hard,3,singles,,Petja Drame,Natalie Cinkova,,,,,tennis.com
 atp,,UTR PTT Essen Men 02,Hard,3,singles,,Felix Einig,Simon Pfau,,,,,tennis.com
 atp,,UTR PTT Essen Men 02,Hard,3,singles,,Jose Murariu,Sil Hollemans,,,,,tennis.com
@@ -31,19 +27,17 @@ atp,,UTR PTT Essen Men 02,Hard,3,singles,,Henry Dornbusch,Karim Al-Amin,,,,,tenn
 atp,,UTR PTT Essen Men 02,Hard,3,singles,,Marcel Hornung,Cian McDonnell,,,,,tennis.com
 atp,,UTR PTT Essen Men 02,Hard,3,singles,,Igor Mandou Berranger,Julius Seitz,,,,,tennis.com
 wta,,UTR PTT Essen Women 02,Hard,3,singles,,Charlotte Pikkaart,Natalia Siedliska,,,,,tennis.com
-wta,,UTR PTT Essen Women 02,Hard,3,singles,,Leticia Romanova,Leah Luboldt,,,,,tennis.com
 wta,,UTR PTT Essen Women 02,Hard,3,singles,,Julita Saner,Ema Lina Picorusevic,,,,,tennis.com
+wta,,UTR PTT Essen Women 02,Hard,3,singles,,Leticia Romanova,Leah Luboldt,,,,,tennis.com
 wta,,UTR PTT Essen Women 02,Hard,3,singles,,Anna Ozerova,Annemarie Lazar,,,,,tennis.com
-wta,,UTR PTT Essen Women 02,Hard,3,singles,,Luisa Meyer Auf Der Heide,Leonie Schuknecht,,,,,tennis.com
 wta,,UTR PTT Essen Women 02,Hard,3,singles,,Mirjana Jovanovic,Pia Praefke,,,,,tennis.com
+wta,,UTR PTT Essen Women 02,Hard,3,singles,,Luisa Meyer Auf Der Heide,Leonie Schuknecht,,,,,tennis.com
 wta,,UTR PTT Essen Women 02,Hard,3,singles,,Nikola Hlavata,Arina Gamretkaia,,,,,tennis.com
 wta,,UTR PTT Essen Women 02,Hard,3,singles,,Anastasiya Kuparev,Didi Bredberg Canizares,,,,,tennis.com
-atp,,UTR PTT Saitama Men 09,Hard,3,singles,Quarterfinal,Kenta Kawada,Taki Adachi,,,,,tennis.com
-atp,,UTR PTT Saitama Men 09,Hard,3,singles,Quarterfinal,Kirill Kistanov,Christopher Kosei Ono,,,,,tennis.com
-atp,,UTR PTT Saitama Men 09,Hard,3,singles,Quarterfinal,Sota Uranaka,Abdumalik Kamalov,,,,,tennis.com
-atp,,UTR PTT Saitama Men 09,Hard,3,singles,Semifinal,Ryota Tanuma,Hunter Heck,,,,,tennis.com
+atp,,UTR PTT Saitama Men 09,Hard,3,singles,,Kuranosuke Suzuki,Liam Youn,,,,,tennis.com
 atp,,UTR PTT Saitama Men 09,Hard,3,singles,Semifinal,Natsuki Yamamoto,Wulfrano Martinez Mora Esdras,,,,,tennis.com
-atp,,UTR PTT Saitama Men 09,Hard,3,singles,Semifinal,Naoki Nakagawa,Corban Crowther,,,,,tennis.com
+atp,,UTR PTT Saitama Men 09,Hard,3,singles,Final,Masaki Ishikawa,Takumi Katsuda,,,,,tennis.com
+atp,,UTR PTT Saitama Men 09,Hard,3,singles,Semifinal,Lachlan King,Kotaro Mochizuki,,,,,tennis.com
 wta,,"WTA 125k Ankara, Turkiye Women Singles",Hard,3,singles,Quarterfinal,Teodora Kostović,Fangran Tian,,,,,tennis.com
 wta,,"WTA 125k Ankara, Turkiye Women Singles",Hard,3,singles,Quarterfinal,Ksenia Zaytseva,Polina Iatcenko,,,,,tennis.com
 wta,,"WTA 125k Ankara, Turkiye Women Singles",Hard,3,singles,Quarterfinal,Berfu Cengiz,Han Shi,,,,,tennis.com
@@ -57,7 +51,5 @@ wta,,Tolentino Open,Hard,3,singles,Quarterfinal,Mia Ristić,Jessica Pieri,,,,,te
 wta,,Hana Bank Korea Open,Hard,3,singles,Quarterfinal,Anna Bondár,Elena-Gabriela Ruse,,,,,tennis.com
 wta,,Hana Bank Korea Open,Hard,3,singles,Quarterfinal,Taylah Preston,Alina Korneeva,,,,,tennis.com
 wta,,Hana Bank Korea Open,Hard,3,singles,Quarterfinal,Lanlana Tararudee,Maya Joint,,,,,tennis.com
-wta,,Singapore Open,Hard,3,singles,Quarterfinal,Elise Mertens,Maja Chwalińska,,,,,tennis.com
-wta,,Singapore Open,Hard,3,singles,Quarterfinal,Xinyu Wang,Tatiana Prozorova,,,,,tennis.com
 wta,,Singapore Open,Hard,3,singles,Quarterfinal,Mirra Andreeva,Leylah Fernandez,,,,,tennis.com
 wta,,Singapore Open,Hard,3,singles,Quarterfinal,Maria Sakkari,Talia Gibson,,,,,tennis.com
