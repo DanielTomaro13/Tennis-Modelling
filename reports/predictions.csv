@@ -1,21 +1,20 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Hangzhou Open,Hard,Round 1,Zhizhen Zhang,Coleman Wong,0.2623,0.7377,3.81,1.36,25.46,0.5144,7.13,7.4,2.56,2.38,tennis.com
-atp,,Chengdu Open,Hard,Round 1,Nuno Borges,Camilo Ugo Carabelli,0.737,0.263,1.36,3.8,25.42,0.5162,6.68,5.85,2.55,2.64,tennis.com
-atp,,Chengdu Open,Hard,Round 1,Juan Manuel Cerundolo,Yi Zhou,0.6698,0.3302,1.49,3.03,25.28,0.4604,7.69,4.49,2.8,2.99,tennis.com
-atp,,Chengdu Open,Hard,Round 1,Alexander Shevchenko,Hubert Hurkacz,0.3363,0.6637,2.97,1.51,26.07,0.5562,5.08,13.27,2.15,1.85,tennis.com
-atp,,Hangzhou Open,Hard,Round 1,Sho Shimabukuro,Hugo Gaston,0.3733,0.6267,2.68,1.6,25.38,0.4522,4.62,6.03,3.08,2.84,tennis.com
-atp,,Chengdu Open,Hard,Round 1,Martin Damm,Shintaro Mochizuki,0.6213,0.3787,1.61,2.64,25.56,0.4781,11.03,6.38,3.1,2.85,tennis.com
-atp,,Hangzhou Open,Hard,Round 1,Fabian Marozsan,Alex Bolt,0.6034,0.3966,1.66,2.52,25.61,0.4802,6.24,4.63,2.32,3.09,tennis.com
-atp,,Chengdu Open,Hard,Round 1,Miomir Kecmanovic,Nikoloz Basilashvili,0.5905,0.4095,1.69,2.44,25.76,0.4956,5.32,4.66,2.15,3.11,tennis.com
-atp,,Hangzhou Open,Hard,Round 1,Mattia Bellucci,Kamil Majchrzak,0.4339,0.5661,2.3,1.77,25.67,0.4773,6.45,6.8,2.57,2.19,tennis.com
-atp,,Chengdu Open,Hard,Round 1,James Duckworth,Lorenzo Sonego,0.4503,0.5497,2.22,1.82,26.2,0.5454,7.73,6.24,2.7,2.1,tennis.com
-atp,,Hangzhou Open,Hard,Round 1,Bu Yunchaokete,Michael Zheng,0.4504,0.5496,2.22,1.82,25.53,0.4563,7.47,7.29,2.46,1.83,tennis.com
-atp,,Chengdu Open,Hard,Round 1,Tallon Griekspoor,Denis Shapovalov,0.4605,0.5395,2.17,1.85,26.58,0.5937,9.84,8.33,2.58,4.93,tennis.com
-atp,,Chengdu Open,Hard,Round 1,Lloyd Harris,Aleksandar Kovacevic,0.4739,0.5261,2.11,1.9,26.2,0.5431,7.5,9.38,2.82,2.61,tennis.com
-atp,,Hangzhou Open,Hard,Round 1,Rinky Hijikata,Dalibor Svrcina,0.5228,0.4772,1.91,2.1,25.65,0.4715,6.91,4.77,2.72,3.18,tennis.com
-atp,,Hangzhou Open,Hard,Round 1,Jaime Faria,Terence Atmane,0.4862,0.5138,2.06,1.95,25.54,0.4558,8.42,4.83,3.41,3.22,tennis.com
-atp,,Chengdu Open,Hard,Round 1,Moise Kouame,Alexandre Muller,0.491,0.509,2.04,1.96,25.87,0.4985,8.17,6.2,3.05,2.58,tennis.com
-atp,,Chengdu Open,Hard,Round 1,Juncheng Shang,Adrian Mannarino,0.506,0.494,1.98,2.02,25.4,0.4377,5.95,6.83,2.45,2.43,tennis.com
-wta,,Singapore Open,Hard,Round 2,Tatiana Prozorova,Alexandra Eala,0.1052,0.8948,9.51,1.12,21.59,0.2099,3.4,1.69,2.26,3.66,tennis.com
-wta,,Singapore Open,Hard,Round 2,Maria Sakkari,Nao Hibino,0.7434,0.2566,1.35,3.9,23.66,0.2968,3.13,3.01,3.53,3.65,tennis.com
-wta,,Hana Bank Korea Open,Hard,Round 2,Jelena Ostapenko,Taylah Preston,0.5273,0.4727,1.9,2.12,24.41,0.3113,4.22,2.75,5.65,3.44,tennis.com
+atp,,Chengdu Open,Hard,Round 2,Nikoloz Basilashvili,Botic Van De Zandschulp,0.2894,0.7106,3.46,1.41,24.94,0.4313,4.42,6.75,2.94,4.24,tennis.com
+atp,,Hangzhou Open,Hard,Round 2,Kyrian Jacquet,Tomas Martin Etcheverry,0.302,0.698,3.31,1.43,24.98,0.4292,6.43,8.9,2.48,2.1,tennis.com
+atp,,Hangzhou Open,Hard,Round 2,Jaime Faria,Hugo Gaston,0.6843,0.3157,1.46,3.17,24.85,0.4111,8.75,5.43,3.55,2.55,tennis.com
+atp,,Chengdu Open,Hard,Round 2,Vit Kopriva,Denis Shapovalov,0.3255,0.6745,3.07,1.48,25.09,0.4331,6.81,8.59,3.51,5.09,tennis.com
+atp,,Hangzhou Open,Hard,Round 2,Rinky Hijikata,Andrey Rublev,0.3383,0.6617,2.96,1.51,25.51,0.4816,6.47,9.26,2.54,2.32,tennis.com
+atp,,Hangzhou Open,Hard,Round 2,Fabian Marozsan,Taro Daniel,0.6549,0.3451,1.53,2.9,25.41,0.4711,6.27,6.28,2.34,2.65,tennis.com
+atp,,Chengdu Open,Hard,Round 2,Alejandro Tabilo,Adrian Mannarino,0.6001,0.3999,1.67,2.5,25.66,0.4847,7.39,6.6,2.05,2.34,tennis.com
+atp,,Saint-Tropez Open,Hard,Quarterfinal,Harold Mayot,Jesper De Jong,0.4351,0.5649,2.3,1.77,25.61,0.4693,4.74,8.5,3.16,2.8,tennis.com
+atp,,"ATP Challenger San Diego 2, USA",Grass,Round 2,Nishesh Basavareddy,Keaton Hance,0.455,0.545,2.2,1.83,25.74,0.4843,6.08,5.99,3.05,2.94,tennis.com
+atp,,Chengdu Open,Hard,Round 2,Jenson Brooksby,Lorenzo Sonego,0.4553,0.5447,2.2,1.84,25.56,0.4596,4.6,6.27,2.42,2.11,tennis.com
+wta,,Singapore Open,Hard,Quarterfinal,Mirra Andreeva,Leylah Fernandez,0.7549,0.2451,1.32,4.08,23.74,0.3147,4.05,2.88,4.8,3.57,tennis.com
+wta,,Hana Bank Korea Open,Hard,Quarterfinal,Lanlana Tararudee,Maya Joint,0.6239,0.3761,1.6,2.66,24.1,0.2914,4.1,2.13,3.79,3.65,tennis.com
+wta,,Hana Bank Korea Open,Hard,Quarterfinal,Taylah Preston,Alina Korneeva,0.3775,0.6225,2.65,1.61,24.02,0.2801,2.62,2.97,3.28,4.29,tennis.com
+wta,,Hana Bank Korea Open,Hard,Quarterfinal,Anna Bondar,Elena Gabriela Ruse,0.4079,0.5921,2.45,1.69,24.36,0.3132,3.98,3.35,3.4,4.86,tennis.com
+wta,,Porto Ladies Open,Hard,Quarterfinal,Mia Pohankova,Katie Swan,0.5868,0.4132,1.7,2.42,24.4,0.3195,4.35,4.67,4.1,3.11,tennis.com
+wta,,Singapore Open,Hard,Quarterfinal,Elise Mertens,Maja Chwalinska,0.5676,0.4324,1.76,2.31,24.39,0.3137,4.23,3.48,5.24,4.06,tennis.com
+wta,,Singapore Open,Hard,Quarterfinal,Xin Yu Wang,Tatiana Prozorova,0.5277,0.4723,1.9,2.12,24.73,0.3521,3.78,4.8,3.41,3.2,tennis.com
+wta,,Singapore Open,Hard,Quarterfinal,Maria Sakkari,Talia Gibson,0.4741,0.5259,2.11,1.9,24.81,0.3619,2.93,5.14,3.3,3.93,tennis.com
+wta,,Hana Bank Korea Open,Hard,Quarterfinal,Katie Volynets,Kimberly Birrell,0.5083,0.4917,1.97,2.03,24.59,0.3325,2.63,2.65,2.6,5.1,tennis.com
