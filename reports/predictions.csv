@@ -1,11 +1,2 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Hangzhou Open,Hard,Semifinal,Daniil Medvedev,Roman Safiullin,0.82,0.18,1.22,5.55,23.6,0.3529,8.79,5.63,4.4,2.66,tennis.com
-atp,,Hangzhou Open,Hard,Semifinal,Kyrian Jacquet,Andrey Rublev,0.1847,0.8153,5.41,1.23,24.11,0.4029,5.88,9.24,2.27,2.32,tennis.com
-atp,,Chengdu Open,Hard,Semifinal,Nikoloz Basilashvili,Alejandro Davidovich Fokina,0.222,0.778,4.5,1.29,24.29,0.3941,4.19,5.11,2.79,2.77,tennis.com
-atp,,China Open,Hard,Qualifying Round 1,Botic Van De Zandschulp,Valentin Royer,0.7502,0.2498,1.33,4.0,24.52,0.4091,6.79,6.39,4.26,2.42,tennis.com
-atp,,China Open,Hard,Qualifying Round 1,Yi Zhou,Pablo Carreno Busta,0.395,0.605,2.53,1.65,25.77,0.4984,4.67,5.91,3.11,2.46,tennis.com
-atp,,Clube Tenis Porto Challenger,Grass,Round 1,Michael Mmoh,Laslo Djere,0.5943,0.4057,1.68,2.47,25.67,0.4846,4.92,8.08,3.28,2.68,tennis.com
-atp,,China Open,Hard,Qualifying Round 1,Miomir Kecmanovic,Adrian Mannarino,0.5226,0.4774,1.91,2.09,25.58,0.4618,5.27,6.79,2.12,2.41,tennis.com
-atp,,Chengdu Open,Hard,Semifinal,Hubert Hurkacz,Denis Shapovalov,0.483,0.517,2.07,1.93,26.49,0.5813,13.05,8.3,1.81,4.92,tennis.com
-wta,,Adana Open,Hard,Round 1,Leolia Jeanjean,Suzan Lamens,0.3438,0.6562,2.91,1.52,24.27,0.3226,4.51,3.19,3.01,4.98,tennis.com
 wta,,Adana Open,Hard,Round 1,Viktoria Hruncakova,Anastasia Gasanova,0.3928,0.6072,2.55,1.65,24.5,0.3355,3.52,5.01,4.04,3.34,tennis.com
