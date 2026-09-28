@@ -1,12 +1,27 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Hangzhou Open,Hard,Quarterfinal,Hugo Gaston,Andrey Rublev,0.2351,0.7649,4.25,1.31,24.74,0.4402,5.22,9.27,2.45,2.32,tennis.com
-atp,,Hangzhou Open,Hard,Quarterfinal,Daniil Medvedev,Coleman Wong,0.7648,0.2352,1.31,4.25,24.59,0.4289,8.74,6.4,4.37,2.05,tennis.com
-atp,,Chengdu Open,Hard,Quarterfinal,Alexandre Muller,Alejandro Davidovich Fokina,0.2431,0.7569,4.11,1.32,24.42,0.3942,5.49,5.13,2.29,2.78,tennis.com
-atp,,Hangzhou Open,Hard,Quarterfinal,Fabian Marozsan,Kyrian Jacquet,0.7145,0.2855,1.4,3.5,24.77,0.4176,6.32,6.3,2.36,2.43,tennis.com
-atp,,Saint-Tropez Open,Hard,Final,Titouan Droguet,Harold Mayot,0.7136,0.2864,1.4,3.49,25.1,0.4596,4.96,4.38,3.31,2.92,tennis.com
-atp,,Chengdu Open,Hard,Quarterfinal,Adrian Mannarino,Denis Shapovalov,0.3446,0.6554,2.9,1.53,25.07,0.4217,6.47,8.6,2.3,5.09,tennis.com
-atp,,Chengdu Open,Hard,Quarterfinal,Lloyd Harris,Hubert Hurkacz,0.3716,0.6284,2.69,1.59,26.58,0.6101,7.27,13.2,2.73,1.83,tennis.com
-atp,,Hangzhou Open,Hard,Quarterfinal,Roman Safiullin,Bu Yunchaokete,0.4814,0.5186,2.08,1.93,25.3,0.4248,6.84,7.59,3.24,2.5,tennis.com
-wta,,Jingshan Tennis Open,Hard,Qualifying Round 2,Qiang Wang,Saisai Zheng,0.5693,0.4307,1.76,2.32,24.5,0.3276,4.99,4.71,3.33,3.14,tennis.com
-wta,,Singapore Open,Hard,Final,Leylah Fernandez,Talia Gibson,0.4589,0.5411,2.18,1.85,25.1,0.3997,3.3,5.14,4.1,3.93,tennis.com
-wta,,Hana Bank Korea Open,Hard,Final,Maya Joint,Kimberly Birrell,0.5066,0.4934,1.97,2.03,24.48,0.3189,2.28,2.66,3.91,5.11,tennis.com
+atp,,Hangzhou Open,Hard,Semifinal,Daniil Medvedev,Roman Safiullin,0.82,0.18,1.22,5.55,23.6,0.3529,8.79,5.63,4.4,2.66,tennis.com
+atp,,Hangzhou Open,Hard,Semifinal,Kyrian Jacquet,Andrey Rublev,0.1847,0.8153,5.41,1.23,24.11,0.4029,5.88,9.24,2.27,2.32,tennis.com
+atp,,Rakuten Japan Open Tennis Championships,Hard,Qualifying Round 1,Arthur Fils,Martin Damm,0.8072,0.1928,1.24,5.19,24.95,0.5126,7.42,9.26,2.8,2.6,tennis.com
+atp,,Chengdu Open,Hard,Semifinal,Nikoloz Basilashvili,Alejandro Davidovich Fokina,0.222,0.778,4.5,1.29,24.29,0.3941,4.19,5.11,2.79,2.77,tennis.com
+atp,,China Open,Hard,Qualifying Round 1,Botic Van De Zandschulp,Valentin Royer,0.7502,0.2498,1.33,4.0,24.52,0.4091,6.79,6.39,4.26,2.42,tennis.com
+atp,,Rakuten Japan Open Tennis Championships,Hard,Qualifying Round 1,Shintaro Mochizuki,Jaime Faria,0.3326,0.6674,3.01,1.5,24.92,0.4077,6.26,8.71,2.8,3.53,tennis.com
+atp,,Rakuten Japan Open Tennis Championships,Hard,Qualifying Round 1,Jaume Munar,Marcos Giron,0.631,0.369,1.58,2.71,25.53,0.4777,6.51,5.42,2.31,1.89,tennis.com
+atp,,China Open,Hard,Qualifying Round 1,Yi Zhou,Pablo Carreno Busta,0.395,0.605,2.53,1.65,25.77,0.4984,4.67,5.91,3.11,2.46,tennis.com
+atp,,Rakuten Japan Open Tennis Championships,Hard,Qualifying Round 1,Adolfo Daniel Vallejo,Taro Daniel,0.602,0.398,1.66,2.51,25.41,0.4534,6.32,6.44,3.37,2.71,tennis.com
+atp,,Clube Tenis Porto Challenger,Grass,Round 1,Michael Mmoh,Laslo Djere,0.5943,0.4057,1.68,2.47,25.67,0.4846,4.92,8.08,3.28,2.68,tennis.com
+atp,,China Open,Hard,Qualifying Round 1,Martin Landaluce,Marco Trungelliti,0.5775,0.4225,1.73,2.37,25.78,0.496,6.71,4.68,3.62,3.12,tennis.com
+atp,,Rakuten Japan Open Tennis Championships,Hard,Qualifying Round 1,Zachary Svajda,Aleksandar Kovacevic,0.4233,0.5767,2.36,1.73,26.23,0.5529,6.67,9.45,2.45,2.63,tennis.com
+atp,,China Open,Hard,Qualifying Round 1,Alex Molcan,Vit Kopriva,0.573,0.427,1.75,2.34,25.5,0.4574,6.74,7.08,2.92,3.65,tennis.com
+atp,,China Open,Hard,Qualifying Round 1,Miomir Kecmanovic,Adrian Mannarino,0.5226,0.4774,1.91,2.09,25.58,0.4618,5.27,6.79,2.12,2.41,tennis.com
+atp,,Chengdu Open,Hard,Semifinal,Hubert Hurkacz,Denis Shapovalov,0.483,0.517,2.07,1.93,26.49,0.5813,13.05,8.3,1.81,4.92,tennis.com
+atp,,Rakuten Japan Open Tennis Championships,Hard,Qualifying Round 1,Lorenzo Sonego,Kamil Majchrzak,0.5109,0.4891,1.96,2.04,25.98,0.514,6.24,6.67,2.1,2.15,tennis.com
+wta,,China Open,Hard,Qualifying Round 1,Elsa Jacquemot,Na Li,0.0423,0.9577,23.67,1.04,20.19,0.1793,1.87,4.84,2.8,3.23,tennis.com
+wta,,Adana Open,Hard,Round 1,Leolia Jeanjean,Suzan Lamens,0.3438,0.6562,2.91,1.52,24.27,0.3226,4.51,3.19,3.01,4.98,tennis.com
+wta,,Adana Open,Hard,Round 1,Viktoria Hruncakova,Anastasia Gasanova,0.3928,0.6072,2.55,1.65,24.5,0.3355,3.52,5.01,4.04,3.34,tennis.com
+wta,,China Open,Hard,Qualifying Round 1,Elvina Kalieva,Georgina Garcia Perez,0.6068,0.3932,1.65,2.54,24.4,0.3244,5.04,4.62,3.36,3.08,tennis.com
+wta,,China Open,Hard,Qualifying Round 1,Ulrikke Eikeri,Varvara Lepchenko,0.4487,0.5513,2.23,1.81,24.53,0.3287,4.78,4.95,3.18,3.3,tennis.com
+wta,,China Open,Hard,Qualifying Round 1,Rebecca Sramkova,Jodie Burrage,0.4642,0.5358,2.15,1.87,24.61,0.3365,3.6,4.92,3.96,3.28,tennis.com
+wta,,China Open,Hard,Qualifying Round 1,Shuai Zhang,Storm Hunter,0.52,0.48,1.92,2.08,24.62,0.3369,3.21,3.41,3.54,4.19,tennis.com
+wta,,China Open,Hard,Qualifying Round 1,Aliaksandra Sasnovich,Shuai Zhang,0.4808,0.5192,2.08,1.93,24.59,0.3333,4.04,3.19,4.79,3.52,tennis.com
+wta,,Adana Open,Hard,Round 1,Emiliana Arango,Anna Blinkova,0.4812,0.5188,2.08,1.93,24.65,0.3404,3.13,2.26,4.43,4.15,tennis.com
+wta,,China Open,Hard,Qualifying Round 1,Robin Montgomery,Caroline Garcia,0.4888,0.5112,2.05,1.96,24.67,0.3431,4.48,4.15,4.87,3.85,tennis.com
