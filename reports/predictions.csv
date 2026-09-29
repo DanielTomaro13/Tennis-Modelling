@@ -1,6 +1,4 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
 atp,,Hangzhou Open,Hard,Final,Daniil Medvedev,Andrey Rublev,0.6462,0.3538,1.55,2.83,25.36,0.4605,8.74,8.55,4.37,2.14,tennis.com
-atp,,Chengdu Open,Hard,Final,Hubert Hurkacz,Alejandro Davidovich Fokina,0.4267,0.5733,2.34,1.74,26.16,0.5431,12.86,4.99,1.79,2.7,tennis.com
 atp,,"ATP Challenger Bari, Italy",Grass,Round 1,Carlos Taberner,Elmer Moller,0.5203,0.4797,1.92,2.08,25.3,0.4255,4.88,5.41,3.25,3.41,tennis.com
 atp,,Festval Challenger,Grass,Round 1,Rogerio Dutra Silva,Hugo Dellien,0.4983,0.5017,2.01,1.99,25.79,0.489,4.83,4.8,3.22,3.2,tennis.com
-wta,,Adana Open,Hard,Round 1,Lucia Bronzetti,Lois Boisson,0.4024,0.5976,2.49,1.67,24.66,0.3531,3.21,3.61,3.72,4.46,tennis.com
