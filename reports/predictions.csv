@@ -1,4 +1,59 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-atp,,Hangzhou Open,Hard,Final,Daniil Medvedev,Andrey Rublev,0.6462,0.3538,1.55,2.83,25.36,0.4605,8.74,8.55,4.37,2.14,tennis.com
-atp,,"ATP Challenger Bari, Italy",Grass,Round 1,Carlos Taberner,Elmer Moller,0.5203,0.4797,1.92,2.08,25.3,0.4255,4.88,5.41,3.25,3.41,tennis.com
-atp,,Festval Challenger,Grass,Round 1,Rogerio Dutra Silva,Hugo Dellien,0.4983,0.5017,2.01,1.99,25.79,0.489,4.83,4.8,3.22,3.2,tennis.com
+atp,,Rakuten Japan Open Tennis Championships,Hard,Round 1,Arthur Fils,Luca Van Assche,0.8533,0.1467,1.17,6.82,24.06,0.4474,7.37,6.18,2.78,1.96,tennis.com
+atp,,Rakuten Japan Open Tennis Championships,Hard,Round 1,Holger Rune,Kyrian Jacquet,0.8472,0.1528,1.18,6.55,23.35,0.3515,5.94,5.57,3.09,2.14,tennis.com
+atp,,Rakuten Japan Open Tennis Championships,Hard,Round 1,Carlos Alcaraz,Alex Michelsen,0.8308,0.1692,1.2,5.91,23.47,0.3484,6.33,5.35,2.46,2.35,tennis.com
+atp,,Rakuten Japan Open Tennis Championships,Hard,Round 1,Denis Shapovalov,Sho Shimabukuro,0.8106,0.1894,1.23,5.28,24.09,0.4044,8.53,4.05,5.06,2.7,tennis.com
+atp,,China Open,Hard,Round 1,Alex De Minaur,Mariano Navone,0.8042,0.1958,1.24,5.11,23.2,0.2891,4.88,5.94,2.77,2.35,tennis.com
+atp,,China Open,Hard,Round 1,Nuno Borges,Novak Djokovic,0.2344,0.7656,4.27,1.31,25.17,0.4967,5.86,7.67,2.24,2.66,tennis.com
+atp,,China Open,Hard,Round 1,Alexander Zverev,Cameron Norrie,0.7617,0.2383,1.31,4.2,25.54,0.5507,9.23,5.31,2.01,2.31,tennis.com
+atp,,China Open,Hard,Round 1,Karen Khachanov,Felix Auger Aliassime,0.2658,0.7342,3.76,1.36,25.51,0.5185,6.49,9.31,1.96,4.12,tennis.com
+atp,,China Open,Hard,Round 1,Jan Lennard Struff,Thiago Agustin Tirante,0.2659,0.7341,3.76,1.36,25.19,0.4771,7.34,4.91,2.96,3.28,tennis.com
+atp,,Jingshan,Hard,Round 1,Elias Ymer,Terence Atmane,0.2903,0.7097,3.44,1.41,25.17,0.4608,4.43,4.94,2.95,3.29,tennis.com
+atp,,Rakuten Japan Open Tennis Championships,Hard,Round 1,Alejandro Tabilo,Tommy Paul,0.3008,0.6992,3.32,1.43,25.38,0.4825,6.7,5.83,1.86,1.94,tennis.com
+atp,,China Open,Hard,Round 1,Learner Tien,Hubert Hurkacz,0.6921,0.3079,1.44,3.25,25.6,0.5133,6.02,12.13,3.72,1.69,tennis.com
+atp,,Rakuten Japan Open Tennis Championships,Hard,Round 1,Kei Nishikori,Frances Tiafoe,0.3102,0.6898,3.22,1.45,25.29,0.4654,5.36,6.53,2.26,2.35,tennis.com
+atp,,China Open,Hard,Round 1,Roman Safiullin,Flavio Cobolli,0.3245,0.6755,3.08,1.48,25.31,0.4619,6.41,5.51,3.03,2.04,tennis.com
+atp,,Rakuten Japan Open Tennis Championships,Hard,Round 1,Luciano Darderi,Casper Ruud,0.3281,0.6719,3.05,1.49,25.91,0.5386,6.79,7.25,3.49,2.04,tennis.com
+atp,,Rakuten Japan Open Tennis Championships,Hard,Round 1,Jiri Lehecka,Zizou Bergs,0.6387,0.3613,1.57,2.77,25.85,0.5229,7.92,6.95,2.64,2.63,tennis.com
+atp,,Jingshan,Hard,Round 1,Lloyd Harris,Alexis Galarneau,0.6248,0.3752,1.6,2.67,25.42,0.4608,7.75,6.21,2.91,2.64,tennis.com
+atp,,Rakuten Japan Open Tennis Championships,Hard,Round 1,Lorenzo Musetti,Arthur Fery,0.6178,0.3822,1.62,2.62,25.4,0.4557,6.08,6.89,2.61,2.12,tennis.com
+atp,,China Open,Hard,Round 1,Alexander Bublik,Jakub Mensik,0.3899,0.6101,2.56,1.64,26.26,0.563,9.85,10.47,4.72,3.65,tennis.com
+atp,,Rakuten Japan Open Tennis Championships,Hard,Round 1,Valentin Vacherot,Alexander Blockx,0.6079,0.3921,1.65,2.55,26.25,0.565,8.17,7.73,3.02,2.34,tennis.com
+atp,,China Open,Hard,Round 1,Tallon Griekspoor,Andrey Rublev,0.3954,0.6046,2.53,1.65,26.9,0.644,9.68,9.09,2.54,2.28,tennis.com
+atp,,Rakuten Japan Open Tennis Championships,Hard,Round 1,Brandon Nakashima,Ugo Humbert,0.5921,0.4079,1.69,2.45,26.85,0.6383,9.08,7.51,1.56,1.77,tennis.com
+atp,,Rakuten Japan Open Tennis Championships,Hard,Round 1,Alejandro Davidovich Fokina,Matteo Berrettini,0.5813,0.4187,1.72,2.39,26.01,0.5265,5.03,11.14,2.72,1.89,tennis.com
+atp,,China Open,Hard,Round 1,Ignacio Buse,Quentin Halys,0.5768,0.4232,1.73,2.36,25.89,0.5108,7.31,8.69,2.54,3.21,tennis.com
+atp,,Rakuten Japan Open Tennis Championships,Hard,Round 1,Tomas Martin Etcheverry,Stefanos Tsitsipas,0.435,0.565,2.3,1.77,26.4,0.5725,8.49,7.78,2.0,2.83,tennis.com
+atp,,Open de Vendée,Hard,Round 1,Liam Broady,Dominic Stricker,0.4374,0.5626,2.29,1.78,25.75,0.4866,4.74,4.87,3.16,3.24,tennis.com
+atp,,Jingshan,Hard,Round 1,Mattia Bellucci,Alexandre Muller,0.5571,0.4429,1.79,2.26,25.63,0.4722,6.67,6.08,2.65,2.53,tennis.com
+atp,,China Open,Hard,Round 1,Juan Manuel Cerundolo,Bu Yunchaokete,0.5524,0.4476,1.81,2.23,25.41,0.443,7.6,7.41,2.76,2.44,tennis.com
+atp,,Jingshan,Hard,Round 1,Adam Walton,Moise Kouame,0.5393,0.4607,1.85,2.17,26.22,0.5477,7.21,8.04,2.61,3.0,tennis.com
+atp,,China Open,Hard,Round 1,Juncheng Shang,Sebastian Baez,0.5174,0.4826,1.93,2.07,25.15,0.4048,5.99,4.05,2.46,2.28,tennis.com
+atp,,Jingshan,Hard,Round 1,James Mccabe,Federico Cina,0.4884,0.5116,2.05,1.95,25.74,0.4824,4.82,6.52,3.21,2.58,tennis.com
+atp,,Clube Tenis Porto Challenger,Grass,Round 1,Moez Echargui,Damir Dzumhur,0.4896,0.5104,2.04,1.96,25.86,0.4977,6.65,4.81,2.46,3.21,tennis.com
+wta,,China Open,Hard,Round 1,Daria Snigur,Katarzyna Kawa,0.7389,0.2611,1.35,3.83,23.67,0.2952,5.16,3.13,3.44,4.41,tennis.com
+wta,,China Open,Hard,Round 1,Mai Hontama,Katie Boulter,0.3032,0.6968,3.3,1.44,23.97,0.3033,4.38,3.87,2.92,5.81,tennis.com
+wta,,China Open,Hard,Round 1,Aliaksandra Sasnovich,Talia Gibson,0.3319,0.6681,3.01,1.5,24.49,0.3535,3.75,5.3,4.45,4.06,tennis.com
+wta,,China Open,Hard,Round 1,Elsa Jacquemot,Magdalena Frech,0.3671,0.6329,2.72,1.58,24.52,0.3444,2.95,3.38,4.43,2.89,tennis.com
+wta,,China Open,Hard,Round 1,Darja Vidmanova,Maria Timofeeva,0.6263,0.3737,1.6,2.68,24.27,0.3142,4.47,4.56,3.17,3.04,tennis.com
+wta,,China Open,Hard,Round 1,Caty Mcnally,Dayana Yastremska,0.6239,0.3761,1.6,2.66,24.27,0.3128,2.44,3.52,5.28,5.52,tennis.com
+wta,,China Open,Hard,Round 1,Lanlana Tararudee,Camila Osorio,0.6088,0.3912,1.64,2.56,24.19,0.2982,4.07,2.81,3.77,6.21,tennis.com
+wta,,China Open,Hard,Round 1,Elena Gabriela Ruse,Lilli Tagger,0.4042,0.5958,2.47,1.68,24.43,0.3237,3.12,3.97,4.52,3.88,tennis.com
+wta,,China Open,Hard,Round 1,Zhuoxuan Bai,Linda Fruhvirtova,0.5929,0.4071,1.69,2.46,24.45,0.3272,5.02,3.48,3.35,4.38,tennis.com
+wta,,China Open,Hard,Round 1,Sofia Kenin,Ashlyn Krueger,0.4091,0.5909,2.44,1.69,24.67,0.3527,2.18,5.01,4.01,4.94,tennis.com
+wta,,China Open,Hard,Round 1,Maddison Inglis,Zeynep Sonmez,0.4092,0.5908,2.44,1.69,24.47,0.3273,4.69,2.37,3.12,4.49,tennis.com
+wta,,China Open,Hard,Round 1,Paula Badosa,Daria Kasatkina,0.5828,0.4172,1.72,2.4,24.28,0.3023,4.82,2.36,5.81,5.77,tennis.com
+wta,,China Open,Hard,Round 1,Yuliia Starodubtseva,Alina Charaeva,0.5804,0.4196,1.72,2.38,24.44,0.3228,2.67,3.23,3.87,4.02,tennis.com
+wta,,China Open,Hard,Round 1,Mayar Sherif,Polina Kudermetova,0.4203,0.5797,2.38,1.73,24.46,0.3234,3.32,3.45,4.05,5.4,tennis.com
+wta,,China Open,Hard,Round 1,Viktorija Golubic,Elvina Kalieva,0.5782,0.4218,1.73,2.37,24.51,0.3316,2.55,4.69,3.62,3.13,tennis.com
+wta,,Jingshan Tennis Open,Hard,Round 2,Lin Zhu,Emerson Jones,0.577,0.423,1.73,2.36,24.49,0.328,3.06,2.44,3.69,3.68,tennis.com
+wta,,Jingshan Tennis Open,Hard,Round 2,Saisai Zheng,Sara Sorribes Tormo,0.4292,0.5708,2.33,1.75,24.36,0.3091,4.73,2.57,3.15,3.7,tennis.com
+wta,,UTR PTT Newport Beach Women 23,Grass,,Emerson Jones,Emiliana Arango,0.5599,0.4401,1.79,2.27,24.38,0.3115,2.33,2.73,3.85,4.05,tennis.com
+wta,,China Open,Hard,Round 1,Magda Linette,Katerina Siniakova,0.4463,0.5537,2.24,1.81,24.65,0.343,3.58,2.2,2.84,4.26,tennis.com
+wta,,China Open,Hard,Round 1,Eva Lys,Lulu Sun,0.543,0.457,1.84,2.19,24.55,0.3307,1.51,5.4,5.29,3.55,tennis.com
+wta,,China Open,Hard,Round 1,Anna Bondar,Renata Zarazua,0.4682,0.5318,2.14,1.88,24.51,0.3233,4.1,3.01,3.5,3.65,tennis.com
+wta,,China Open,Hard,Round 1,Aoi Ito,Kimberly Birrell,0.4704,0.5296,2.13,1.89,24.5,0.322,3.28,2.7,3.87,5.18,tennis.com
+wta,,China Open,Hard,Round 1,Oleksandra Oliynykova,Yue Yuan,0.5256,0.4744,1.9,2.11,24.43,0.3131,2.84,3.03,3.73,2.86,tennis.com
+wta,,China Open,Hard,Round 1,Taylah Preston,Tamara Korpatsch,0.5188,0.4812,1.93,2.08,24.59,0.3329,2.81,4.15,3.52,5.82,tennis.com
+wta,,China Open,Hard,Round 1,Maya Joint,Sinja Kraus,0.4931,0.5069,2.03,1.97,24.45,0.3148,2.26,3.42,3.89,4.2,tennis.com
+wta,,China Open,Hard,Round 1,Janice Tjen,Anhelina Kalinina,0.5039,0.4961,1.98,2.02,24.65,0.3408,3.26,3.38,3.42,4.1,tennis.com
