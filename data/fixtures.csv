@@ -1,13 +1,4 @@
 tour,date,tournament,surface,best_of,format,round,player1,player2,p1a,p1b,p2a,p2b,source
-atp,,China Open,Hard,3,singles,Round 1,Roman Safiullin,Flavio Cobolli,,,,,tennis.com
-atp,,China Open,Hard,3,singles,Round 1,Tallon Griekspoor,Andrey Rublev,,,,,tennis.com
-atp,,China Open,Hard,3,singles,Round 1,Learner Tien,Hubert Hurkacz,,,,,tennis.com
-atp,,China Open,Hard,3,singles,Round 1,Juncheng Shang,Sebastián Báez,,,,,tennis.com
-atp,,China Open,Hard,3,singles,Round 1,Alexander Bublik,Jakub Menšík,,,,,tennis.com
-atp,,China Open,Hard,3,singles,Round 1,Alex de Minaur,Mariano Navone,,,,,tennis.com
-atp,,China Open,Hard,3,singles,Round 1,Alexander Zverev,Cameron Norrie,,,,,tennis.com
-atp,,China Open,Hard,3,singles,Round 1,Ignacio Buse,Quentin Halys,,,,,tennis.com
-atp,,China Open,Hard,3,singles,Round 1,Karen Khachanov,Félix Auger-Aliassime,,,,,tennis.com
 atp,,China Open,Hard,3,singles,Round 1,Jan-Lennard Struff,Thiago Agustín Tirante,,,,,tennis.com
 atp,,China Open,Hard,3,singles,Round 1,Juan Manuel Cerúndolo,Yunchaokete Bu,,,,,tennis.com
 atp,,China Open,Hard,3,singles,Round 1,Zhizhen Zhang,Arthur Géa,,,,,tennis.com
@@ -20,33 +11,19 @@ atp,,Festval Challenger,Grass,3,singles,Round 1,Guido Iván Justo,Franco Roncade
 atp,,Festval Challenger,Grass,3,singles,Round 1,Eduardo Ribeiro,Pedro Sakamoto,,,,,tennis.com
 atp,,Festval Challenger,Grass,3,singles,Round 1,Samuel Heredia,João Eduardo Schiessl,,,,,tennis.com
 atp,,Festval Challenger,Grass,3,singles,Round 1,Luis Guto Miguel,Facundo Mena,,,,,tennis.com
-atp,,Jingshan,Hard,3,singles,Round 1,Adam Walton,Moïse Kouamé,,,,,tennis.com
-atp,,Jingshan,Hard,3,singles,Round 1,Mattia Bellucci,Alexandre Müller,,,,,tennis.com
-atp,,Jingshan,Hard,3,singles,Round 1,Elias Ymer,Térence Atmane,,,,,tennis.com
-atp,,Jingshan,Hard,3,singles,Round 1,Masamichi Imamura,Petr Bar Biryukov,,,,,tennis.com
+atp,,Jingshan,Hard,3,singles,Round 1,Marat Sharipov,Dalibor Svrčina,,,,,tennis.com
 atp,,Jingshan,Hard,3,singles,Round 1,Evan Zhu,Hanyi Liu,,,,,tennis.com
 atp,,Jingshan,Hard,3,singles,Round 1,James McCabe,Federico Cina,,,,,tennis.com
-atp,,Jingshan,Hard,3,singles,Round 1,Marat Sharipov,Dalibor Svrčina,,,,,tennis.com
 atp,,Jingshan,Hard,3,singles,Round 1,Lloyd Harris,Alexis Galarneau,,,,,tennis.com
 atp,,Jingshan,Hard,3,singles,Round 1,Omar Jasika,Dane Sweeny,,,,,tennis.com
-atp,,Open de Vendée,Hard,3,singles,Round 1,Philip Henning,Tristan Schoolkate,,,,,tennis.com
 atp,,Open de Vendée,Hard,3,singles,Round 1,Liam Broady,Dominic Stricker,,,,,tennis.com
+atp,,Open de Vendée,Hard,3,singles,Round 1,Philip Henning,Tristan Schoolkate,,,,,tennis.com
 atp,,Open de Vendée,Hard,3,singles,Round 1,Harold Mayot,Niels Visker,,,,,tennis.com
 atp,,Open de Vendée,Hard,3,singles,Round 1,Daniil Glinka,Henry Bernet,,,,,tennis.com
 atp,,Open de Vendée,Hard,3,singles,Round 2,Sascha Gueymard Wayenburg,Gauthier Onclin,,,,,tennis.com
 atp,,Clube Tenis Porto Challenger,Grass,3,singles,Round 1,Hugo Grenier,Carl Emil Overbeck,,,,,tennis.com
 atp,,Clube Tenis Porto Challenger,Grass,3,singles,Round 1,Luca Potenza,Iñaki Montes-de la Torre,,,,,tennis.com
 atp,,Clube Tenis Porto Challenger,Grass,3,singles,Round 1,Edas Butvilas,Michael Geerts,,,,,tennis.com
-atp,,Rakuten Japan Open Tennis Championships,Hard,3,singles,Round 1,Luciano Darderi,Casper Ruud,,,,,tennis.com
-atp,,Rakuten Japan Open Tennis Championships,Hard,3,singles,Round 1,Jiří Lehečka,Zizou Bergs,,,,,tennis.com
-atp,,Rakuten Japan Open Tennis Championships,Hard,3,singles,Round 1,Kei Nishikori,Frances Tiafoe,,,,,tennis.com
-atp,,Rakuten Japan Open Tennis Championships,Hard,3,singles,Round 1,Lorenzo Musetti,Arthur Fery,,,,,tennis.com
-atp,,Rakuten Japan Open Tennis Championships,Hard,3,singles,Round 1,Alejandro Davidovich Fokina,Matteo Berrettini,,,,,tennis.com
-atp,,Rakuten Japan Open Tennis Championships,Hard,3,singles,Round 1,Holger Rune,Kyrian Jacquet,,,,,tennis.com
-atp,,Rakuten Japan Open Tennis Championships,Hard,3,singles,Round 1,Carlos Alcaraz,Alex Michelsen,,,,,tennis.com
-atp,,Rakuten Japan Open Tennis Championships,Hard,3,singles,Round 1,Denis Shapovalov,Sho Shimabukuro,,,,,tennis.com
-atp,,Rakuten Japan Open Tennis Championships,Hard,3,singles,Round 1,Brandon Nakashima,Ugo Humbert,,,,,tennis.com
-atp,,Rakuten Japan Open Tennis Championships,Hard,3,singles,Round 1,Valentin Vacherot,Alexander Blockx,,,,,tennis.com
 atp,,Rakuten Japan Open Tennis Championships,Hard,3,singles,Round 1,Tomás Martín Etcheverry,Stefanos Tsitsipas,,,,,tennis.com
 atp,,Rakuten Japan Open Tennis Championships,Hard,3,singles,Round 1,Alejandro Tabilo,Tommy Paul,,,,,tennis.com
 atp,,Rakuten Japan Open Tennis Championships,Hard,3,singles,Round 1,Arthur Fils,Luca Van Assche,,,,,tennis.com
@@ -59,54 +36,28 @@ atp,,UTR PTT Le Cap d Agde Men 02,Hard,3,singles,,Sean Hodkin,Clement Hacquard,,
 atp,,UTR PTT Le Cap d Agde Men 02,Hard,3,singles,,Nathan Mansfield,Matis Roche,,,,,tennis.com
 atp,,UTR PTT Le Cap d Agde Men 02,Hard,3,singles,,Jules Auffray,Noah Perfetti,,,,,tennis.com
 atp,,UTR PTT Le Cap d Agde Men 02,Hard,3,singles,,Jules Alias,Tomas Lagarde,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 23,Grass,3,singles,,Dinko Dinev,Oscar Rashed,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 23,Grass,3,singles,,Nile Ung,Antreas Djakouris,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 23,Grass,3,singles,,Daniel Salazar Martinez,Elijah Cham,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 23,Grass,3,singles,,Matteo Huarte,Constantinos Djakouris,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 23,Grass,3,singles,,Delaney Letzel,Raina Kim,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 23,Grass,3,singles,,Adriana Reami,Sophia Dumitrascu,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 23,Grass,3,singles,,Charlotte Kim,Isabella Crossman,,,,,tennis.com
-wta,,UTR PTT Newport Beach Women 23,Grass,3,singles,,Yulia Zhytelna,Zuzana Kudlackova,,,,,tennis.com
-atp,,UTR PTT Saitama Men 10,Hard,3,singles,,Kenta Kawada,Natsuki Yamamoto,,,,,tennis.com
-atp,,UTR PTT Saitama Men 10,Hard,3,singles,,Abdumalik Kamalov,Kotaro Mochizuki,,,,,tennis.com
-atp,,UTR PTT Saitama Men 10,Hard,3,singles,,Kanata Ozaki,Raffael Gasanov,,,,,tennis.com
-atp,,UTR PTT Saitama Men 10,Hard,3,singles,,Sota Kambara,Tomoki Fujiwara,,,,,tennis.com
-atp,,UTR PTT Saitama Men 10,Hard,3,singles,,Stefan Menichella,Kenta Kawada,,,,,tennis.com
 atp,,UTR PTT Saitama Men 10,Hard,3,singles,,Shotaro Yamamoto,Kirill Kistanov,,,,,tennis.com
+atp,,UTR PTT Saitama Men 10,Hard,3,singles,,Sota Kambara,Tomoki Fujiwara,,,,,tennis.com
 atp,,UTR PTT Saitama Men 10,Hard,3,singles,,Lachlan King,Yuga Tashiro,,,,,tennis.com
-atp,,UTR PTT Saitama Men 10,Hard,3,singles,,Seiya Nakanishi,Natsuki Yamamoto,,,,,tennis.com
 atp,,UTR PTT Saitama Men 10,Hard,3,singles,,Yakumo Motokura,Kotaro Mochizuki,,,,,tennis.com
+atp,,UTR PTT Saitama Men 10,Hard,3,singles,,Stefan Menichella,Kenta Kawada,,,,,tennis.com
 atp,,UTR PTT Saitama Men 10,Hard,3,singles,,Wulfrano Martinez Mora Esdras,Abdumalik Kamalov,,,,,tennis.com
 atp,,UTR PTT Saitama Men 10,Hard,3,singles,,Raffael Gasanov,Sota Kambara,,,,,tennis.com
+atp,,UTR PTT Saitama Men 10,Hard,3,singles,,Seiya Nakanishi,Natsuki Yamamoto,,,,,tennis.com
 atp,,UTR PTT Saitama Men 10,Hard,3,singles,,Kanata Ozaki,Tomoki Fujiwara,,,,,tennis.com
-wta,,Adana Open,Hard,3,singles,Round 2,Erika Andreeva,Simona Waltert,,,,,tennis.com
-wta,,Adana Open,Hard,3,singles,Round 2,Loïs Boisson,Martyna Kubka,,,,,tennis.com
 wta,,Adana Open,Hard,3,singles,Round 2,Antonia Ružić,Julia Riera,,,,,tennis.com
+wta,,Adana Open,Hard,3,singles,Round 2,Loïs Boisson,Martyna Kubka,,,,,tennis.com
+wta,,Adana Open,Hard,3,singles,Round 2,Erika Andreeva,Simona Waltert,,,,,tennis.com
 wta,,Adana Open,Hard,3,singles,Round 2,Fiona Crawley,Elena Pridankina,,,,,tennis.com
 wta,,Adana Open,Hard,3,singles,Round 2,Viktória Hrunčáková,Anna Blinkova,,,,,tennis.com
 wta,,Adana Open,Hard,3,singles,Round 2,Teodora Kostović,Dalma Gálfi,,,,,tennis.com
 wta,,Adana Open,Hard,3,singles,Round 2,Léolia Jeanjean,Melisa Ercan,,,,,tennis.com
-wta,,Jingshan Tennis Open,Hard,3,singles,Round 2,Chenting Zhu,Emerson Jones,,,,,tennis.com
-wta,,Jingshan Tennis Open,Hard,3,singles,Round 2,Alexandra Shubladze,Jia-Jing Lu,,,,,tennis.com
 wta,,Jingshan Tennis Open,Hard,3,singles,Round 2,Wushuang Zheng,Sara Sorribes Tormo,,,,,tennis.com
 wta,,Jingshan Tennis Open,Hard,3,singles,Round 2,Sijia Wei,Fiona Ferro,,,,,tennis.com
-wta,,China Open,Hard,3,singles,Round 1,Lanlana Tararudee,Camila Osorio,,,,,tennis.com
-wta,,China Open,Hard,3,singles,Round 1,Sofia Kenin,Ashlyn Krueger,,,,,tennis.com
-wta,,China Open,Hard,3,singles,Round 1,Yushan Shao,Anastasia Zakharova,,,,,tennis.com
-wta,,China Open,Hard,3,singles,Round 1,Paula Badosa,Daria Kasatkina,,,,,tennis.com
-wta,,China Open,Hard,3,singles,Round 1,Magda Linette,Kateřina Siniaková,,,,,tennis.com
-wta,,China Open,Hard,3,singles,Round 1,Aoi Ito,Kimberly Birrell,,,,,tennis.com
-wta,,China Open,Hard,3,singles,Round 1,Yuliia Starodubtseva,Alina Charaeva,,,,,tennis.com
-wta,,China Open,Hard,3,singles,Round 1,Eva Lys,Xinran Sun,,,,,tennis.com
-wta,,China Open,Hard,3,singles,Round 1,Maya Joint,Sinja Kraus,,,,,tennis.com
-wta,,China Open,Hard,3,singles,Round 1,Janice Tjen,Anhelina Kalinina,,,,,tennis.com
-wta,,China Open,Hard,3,singles,Round 1,Caty McNally,Dayana Yastremska,,,,,tennis.com
-wta,,China Open,Hard,3,singles,Round 1,Darja Viďmanová,Maria Timofeeva,,,,,tennis.com
-wta,,China Open,Hard,3,singles,Round 1,Elena-Gabriela Ruse,Lilli Tagger,,,,,tennis.com
 wta,,China Open,Hard,3,singles,Round 1,Viktorija Golubic,Elvina Kalieva,,,,,tennis.com
 wta,,China Open,Hard,3,singles,Round 1,Aliaksandra Sasnovich,Talia Gibson,,,,,tennis.com
 wta,,China Open,Hard,3,singles,Round 1,Daria Snigur,Katarzyna Kawa,,,,,tennis.com
-wta,,China Open,Hard,3,singles,Round 1,Mayar Sherif,Polina Kudermetova,,,,,tennis.com
+wta,,China Open,Hard,3,singles,Round 1,Yexin Ma,Polina Kudermetova,,,,,tennis.com
 wta,,China Open,Hard,3,singles,Round 1,Zhuoxuan Bai,Linda Fruhvirtová,,,,,tennis.com
 wta,,China Open,Hard,3,singles,Round 1,Oleksandra Oliynykova,Yue Yuan,,,,,tennis.com
 wta,,China Open,Hard,3,singles,Round 1,Maddison Inglis,Zeynep Sönmez,,,,,tennis.com
