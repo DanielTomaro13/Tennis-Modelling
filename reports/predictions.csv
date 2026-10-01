@@ -1,7 +1,5 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
 atp,,Clube Tenis Porto Challenger,Grass,Quarterfinal,Hugo Grenier,Juan Bautista Torres,0.4366,0.5634,2.29,1.78,25.37,0.4378,4.74,5.27,3.16,2.06,tennis.com
-atp,,Open de Vendée,Hard,Round 2,Harold Mayot,Tristan Schoolkate,0.5476,0.4524,1.83,2.21,25.75,0.4864,4.88,7.67,3.26,3.33,tennis.com
-atp,,Columbus Open,Hard,Round 2,Stefan Kozlov,Mitchell Krueger,0.5073,0.4927,1.97,2.03,25.79,0.489,4.84,4.79,3.23,3.19,tennis.com
 wta,,Adana Open,Hard,Quarterfinal,Leolia Jeanjean,Lucrezia Stefanini,0.3609,0.6391,2.77,1.56,24.31,0.3204,4.56,5.06,3.04,3.38,tennis.com
 atp,20261002,China Open,Hard,Round 2,Novak Djokovic,Bu Yunchaokete,0.8509,0.1491,1.18,6.71,23.51,0.3758,7.7,6.06,2.67,2.0,espn
 atp,20261002,China Open,Hard,Round 1,Pablo Carreno Busta,Daniil Medvedev,0.1864,0.8136,5.36,1.23,24.06,0.3956,4.92,8.68,2.05,4.34,espn
