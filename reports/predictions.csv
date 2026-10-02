@@ -1,7 +1,4 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-wta,,Adana Open,Hard,Quarterfinal,Leolia Jeanjean,Lucrezia Stefanini,0.3609,0.6391,2.77,1.56,24.31,0.3204,4.56,5.06,3.04,3.38,tennis.com
-atp,20261002,China Open,Hard,Round 2,Novak Djokovic,Bu Yunchaokete,0.8509,0.1491,1.18,6.71,23.51,0.3758,7.7,6.06,2.67,2.0,espn
-wta,20261002,China Open,Hard,Round 2,Aryna Sabalenka,Renata Zarazua,0.9261,0.0739,1.08,13.53,21.31,0.2285,4.55,1.99,3.52,2.41,espn
 atp,20261003,Kinoshita Group Japan Open Tennis Championships,Hard,Round 2,Matteo Arnaldi,Carlos Alcaraz,0.0693,0.9307,14.44,1.07,21.66,0.27,4.04,6.06,2.22,2.35,espn
 atp,20261003,China Open,Hard,Round 2,Juncheng Shang,Alexander Zverev,0.1291,0.8709,7.75,1.15,23.84,0.4327,4.77,9.04,1.96,1.97,espn
 atp,20261003,China Open,Hard,Round 2,Jan Lennard Struff,Daniil Medvedev,0.1796,0.8204,5.57,1.22,24.03,0.3989,6.79,8.65,2.74,4.33,espn
@@ -21,16 +18,20 @@ wta,20261003,China Open,Hard,Round 2,Elise Mertens,Katie Volynets,0.6929,0.3071,
 wta,20261003,China Open,Hard,Round 2,Wang Xiy.,Sonay Kartal,0.3259,0.6741,3.07,1.48,24.32,0.3358,4.47,3.37,2.98,3.56,espn
 wta,20261003,China Open,Hard,Round 2,Storm Hunter,Maria Sakkari,0.3542,0.6458,2.82,1.55,24.28,0.3197,3.22,3.08,3.95,3.47,espn
 wta,20261003,China Open,Hard,Round 2,Leylah Fernandez,Kamilla Rakhimova,0.6448,0.3552,1.55,2.81,24.36,0.3314,3.5,2.53,4.35,4.5,espn
-wta,20261003,China Open,Hard,Round 1,Nikola Bartunkova / Maja Chwalinska,Caty Mcnally / Janice Tjen,0.6155,0.3845,1.62,2.6,19.46,0.2571,,,,,espn
 wta,20261003,China Open,Hard,Round 2,Ann Li,Ashlyn Krueger,0.5222,0.4778,1.91,2.09,24.47,0.3185,4.0,4.85,3.7,4.78,espn
 wta,20261003,China Open,Hard,Round 2,Cristina Bucsa,Lulu Sun,0.5192,0.4808,1.93,2.08,24.93,0.3774,2.66,5.43,3.87,3.58,espn
 wta,20261003,China Open,Hard,Round 2,Paula Badosa,Jelena Ostapenko,0.5173,0.4827,1.93,2.07,24.54,0.3275,4.71,4.12,5.67,5.52,espn
 wta,20261003,China Open,Hard,Round 2,Lin Zhu,Donna Vekic,0.4889,0.5111,2.05,1.96,24.59,0.3325,2.97,4.17,3.58,5.75,espn
 wta,20261003,China Open,Hard,Round 2,Anna Kalinskaya,Qinwen Zheng,0.5054,0.4946,1.98,2.02,24.55,0.3284,3.64,6.52,4.88,4.69,espn
+atp,20261004,Kinoshita Group Japan Open Tennis Championships,Hard,Quarterfinal,Arthur Fils,Valentin Vacherot,0.7589,0.2411,1.32,4.15,25.55,0.549,7.47,7.2,2.82,2.66,espn
 atp,20261004,Kinoshita Group Japan Open Tennis Championships,Hard,Quarterfinal,Kyrian Jacquet,Jaume Munar,0.2649,0.7351,3.77,1.36,24.76,0.4221,6.27,6.54,2.42,2.32,espn
+atp,20261004,China Open,Hard,Quarterfinal,Karen Khachanov,Hubert Hurkacz,0.4714,0.5286,2.12,1.89,26.96,0.6411,7.05,13.05,2.14,1.81,espn
 wta,20261004,China Open,Hard,Round 3,Mirra Andreeva,Polina Kudermetova,0.8848,0.1152,1.13,8.68,21.89,0.2309,4.04,2.41,4.79,3.77,espn
+wta,20261004,China Open,Hard,Round 3,Aryna Sabalenka,Nikola Bartunkova,0.842,0.158,1.19,6.33,22.92,0.2943,4.67,3.16,3.61,4.44,espn
 wta,20261004,China Open,Hard,Round 3,Liudmila Samsonova,Karolina Muchova,0.1642,0.8358,6.09,1.2,22.98,0.2891,2.5,3.72,3.43,2.48,espn
 wta,20261004,China Open,Hard,Round 3,Viktorija Golubic,Linda Noskova,0.2348,0.7652,4.26,1.31,23.88,0.3337,2.13,5.82,3.02,5.75,espn
+wta,20261004,China Open,Hard,Round 1,Nikola Bartunkova / Maja Chwalinska,Caty Mcnally / Janice Tjen,0.6155,0.3845,1.62,2.6,19.46,0.2571,,,,,espn
+wta,20261004,China Open,Hard,Round 3,Naomi Osaka,Sara Bejlek,0.6152,0.3848,1.63,2.6,24.41,0.3281,6.6,2.59,4.12,4.62,espn
 wta,20261004,China Open,Hard,Round 3,Diana Shnaider,Ekaterina Alexandrova,0.6024,0.3976,1.66,2.51,24.59,0.3472,2.41,4.9,3.8,4.9,espn
 wta,20261004,China Open,Hard,Round 3,Taylah Preston,Daria Snigur,0.4122,0.5878,2.43,1.7,24.35,0.312,2.68,5.02,3.36,3.34,espn
 wta,20261004,China Open,Hard,Round 3,Dayana Yastremska,Sinja Kraus,0.5375,0.4625,1.86,2.16,24.47,0.3202,3.81,3.36,5.97,4.12,espn
