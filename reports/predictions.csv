@@ -1,6 +1,7 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
 atp,,Jingshan,Hard,Semifinal,Lloyd Harris,Alex Bolt,0.4993,0.5007,2.0,2.0,25.9,0.5032,7.55,4.8,2.84,3.2,tennis.com
 wta,,China Open,Hard,Round 2,Sonay Kartal,Xin Yu Wang,0.7495,0.2505,1.33,3.99,24.0,0.3426,3.38,3.23,3.57,2.92,tennis.com
+wta,,Adana Open,Hard,Semifinal,Antonia Ruzic,Leolia Jeanjean,0.726,0.274,1.38,3.65,23.78,0.2993,2.76,4.26,4.02,2.84,tennis.com
 wta,,Adana Open,Hard,Semifinal,Erika Andreeva,Lois Boisson,0.3562,0.6438,2.81,1.55,24.48,0.3437,2.94,3.65,3.54,4.5,tennis.com
 atp,20261003,Kinoshita Group Japan Open Tennis Championships,Hard,Round 2,Matteo Arnaldi,Carlos Alcaraz,0.0693,0.9307,14.44,1.07,21.66,0.27,4.04,6.06,2.22,2.35,espn
 atp,20261003,China Open,Hard,Round 2,Juncheng Shang,Alexander Zverev,0.1291,0.8709,7.75,1.15,23.84,0.4327,4.77,9.04,1.96,1.97,espn
