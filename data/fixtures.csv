@@ -1,30 +1,21 @@
 tour,date,tournament,surface,best_of,format,round,player1,player2,p1a,p1b,p2a,p2b,source
 atp,20261002,Kinoshita Group Japan Open Tennis Championships,Hard,3,singles,Round 2,Luciano Darderi,Kyrian Jacquet,,,,,espn
 atp,20261002,Kinoshita Group Japan Open Tennis Championships,Hard,3,singles,Round 2,Frances Tiafoe,Arthur Fils,,,,,espn
-atp,20261003,Kinoshita Group Japan Open Tennis Championships,Hard,3,singles,Round 2,Alejandro Tabilo,Denis Shapovalov,,,,,espn
 atp,20261003,Kinoshita Group Japan Open Tennis Championships,Hard,3,singles,Round 2,Adolfo Daniel Vallejo,Matteo Berrettini,,,,,espn
 atp,20261003,Kinoshita Group Japan Open Tennis Championships,Hard,3,singles,Round 2,Matteo Arnaldi,Carlos Alcaraz,,,,,espn
+atp,20261003,Kinoshita Group Japan Open Tennis Championships,Hard,3,singles,Round 2,Alejandro Tabilo,Denis Shapovalov,,,,,espn
 atp,20261003,Kinoshita Group Japan Open Tennis Championships,Hard,3,singles,Round 2,Jiri Lehecka,Ugo Humbert,,,,,espn
-atp,20261002,Kinoshita Group Japan Open Tennis Championships,Hard,3,doubles,Round 1,Alejandro Tabilo / Luca Van Assche,Robert Galloway / Andre Goransson,Alejandro Tabilo,Luca Van Assche,Robert Galloway,Andre Goransson,espn
-atp,20261002,Kinoshita Group Japan Open Tennis Championships,Hard,3,doubles,Round 1,Alexander Blockx / Alex Michelsen,Lucas Miedler / Neil Oberleitner,Alexander Blockx,Alex Michelsen,Lucas Miedler,Neil Oberleitner,espn
-atp,20261002,Kinoshita Group Japan Open Tennis Championships,Hard,3,doubles,Round 1,Hugo Nys / Edouard Roger-Vasselin,David Stevenson / Marcus Willis,Hugo Nys,Edouard Roger-Vasselin,David Stevenson,Marcus Willis,espn
 atp,20261002,Kinoshita Group Japan Open Tennis Championships,Hard,3,doubles,Round 1,Marc Polmans / Jan Zielinski,Luke Johnson / Patrik Rikl,Marc Polmans,Jan Zielinski,Luke Johnson,Patrik Rikl,espn
-atp,20261002,China Open,Hard,3,singles,Round 2,Karen Khachanov,Alex Molcan,,,,,espn
-atp,20261002,China Open,Hard,3,singles,Round 1,Pablo Carreno Busta,Daniil Medvedev,,,,,espn
+atp,20261003,Kinoshita Group Japan Open Tennis Championships,Hard,3,doubles,Quarterfinal,Alejandro Tabilo / Luca Van Assche,Austin Krajicek / Nikola Mektic,Alejandro Tabilo,Luca Van Assche,Austin Krajicek,Nikola Mektic,espn
+atp,20261003,Kinoshita Group Japan Open Tennis Championships,Hard,3,doubles,Quarterfinal,Theo Arribage / Albano Olivetti,Lucas Miedler / Neil Oberleitner,Theo Arribage,Albano Olivetti,Lucas Miedler,Neil Oberleitner,espn
 atp,20261002,China Open,Hard,3,singles,Round 2,Arthur Gea,Hubert Hurkacz,,,,,espn
 atp,20261002,China Open,Hard,3,singles,Round 2,Novak Djokovic,Bu Yunchaokete,,,,,espn
 atp,20261003,China Open,Hard,3,singles,Round 2,Roman Safiullin,Andrey Rublev,,,,,espn
 atp,20261003,China Open,Hard,3,singles,Round 2,Shang Juncheng,Alexander Zverev,,,,,espn
 atp,20261003,China Open,Hard,3,singles,Round 2,Quentin Halys,Alex de Minaur,,,,,espn
 atp,20261003,China Open,Hard,3,singles,Round 2,Jakub Mensik,Francisco Cerundolo,,,,,espn
-wta,20261002,China Open,Hard,3,singles,Round 2,Diane Parry,Taylah Preston,,,,,espn
-wta,20261002,China Open,Hard,3,singles,Round 2,Elena-Gabriela Ruse,Linda Noskova,,,,,espn
-wta,20261002,China Open,Hard,3,singles,Round 2,Aliaksandra Sasnovich,Ekaterina Alexandrova,,,,,espn
-wta,20261002,China Open,Hard,3,singles,Round 2,Daria Snigur,Jasmine Paolini,,,,,espn
-wta,20261002,China Open,Hard,3,singles,Round 2,Polina Kudermetova,Clara Tauson,,,,,espn
-wta,20261002,China Open,Hard,3,singles,Round 2,Katie Boulter,Karolina Muchova,,,,,espn
-wta,20261002,China Open,Hard,3,singles,Round 2,Magdalena Frech,Nikola Bartunkova,,,,,espn
 wta,20261002,China Open,Hard,3,singles,Round 2,Maddison Inglis,Sara Bejlek,,,,,espn
+wta,20261002,China Open,Hard,3,singles,Round 2,Magdalena Frech,Nikola Bartunkova,,,,,espn
 wta,20261002,China Open,Hard,3,singles,Round 2,Naomi Osaka,Maria Timofeeva,,,,,espn
 wta,20261002,China Open,Hard,3,singles,Round 2,Aryna Sabalenka,Renata Zarazua,,,,,espn
 wta,20261003,China Open,Hard,3,singles,Round 2,Cristina Bucsa,Xinran Sun,,,,,espn
@@ -43,50 +34,42 @@ wta,20261003,China Open,Hard,3,singles,Round 2,Alina Charaeva,Elena Rybakina,,,,
 wta,20261003,China Open,Hard,3,singles,Round 2,Anna Kalinskaya,Zheng Qinwen,,,,,espn
 wta,20261003,China Open,Hard,3,singles,Round 2,Ann Li,Ashlyn Krueger,,,,,espn
 wta,20261003,China Open,Hard,3,singles,Round 2,Anastasia Zakharova,Belinda Bencic,,,,,espn
-atp,20261002,China Open,Hard,3,doubles,Round 1,Constantin Frantzén / Robin Haase,Marcelo Melo / Alexander Zverev,Constantin Frantzén,Robin Haase,Marcelo Melo,Alexander Zverev,espn
-atp,20261002,China Open,Hard,3,doubles,Round 1,Julian Cash / Lloyd Glasspool,Karen Khachanov / Andrey Rublev,Julian Cash,Lloyd Glasspool,Karen Khachanov,Andrey Rublev,espn
+wta,20261004,China Open,Hard,3,singles,Round 3,Diana Shnaider,Ekaterina Alexandrova,,,,,espn
+wta,20261004,China Open,Hard,3,singles,Round 3,Viktorija Golubic,Linda Noskova,,,,,espn
+wta,20261004,China Open,Hard,3,singles,Round 3,Dayana Yastremska,Sinja Kraus,,,,,espn
 atp,20261002,China Open,Hard,3,doubles,Round 1,Sander Arends / David Pel,Guido Andreozzi / Manuel Guinard,Sander Arends,David Pel,Guido Andreozzi,Manuel Guinard,espn
+atp,20261002,China Open,Hard,3,doubles,Round 1,Julian Cash / Lloyd Glasspool,Karen Khachanov / Andrey Rublev,Julian Cash,Lloyd Glasspool,Karen Khachanov,Andrey Rublev,espn
 atp,20261002,China Open,Hard,3,doubles,Quarterfinal,Alexander Bublik / Shang Juncheng,Maximo Gonzalez / Andres Molteni,Alexander Bublik,Shang Juncheng,Maximo Gonzalez,Andres Molteni,espn
 atp,20261002,China Open,Hard,3,doubles,Round 1,Ignacio Buse / Flavio Cobolli,Francisco Cabral / JJ Tracy,Ignacio Buse,Flavio Cobolli,Francisco Cabral,JJ Tracy,espn
-atp,,China Open,Hard,3,singles,Round 2,Alex Molčan,Karen Khachanov,,,,,tennis.com
-atp,,China Open,Hard,3,singles,Round 1,Daniil Medvedev,Pablo Carreño Busta,,,,,tennis.com
 atp,,China Open,Hard,3,singles,Round 2,Hubert Hurkacz,Arthur Géa,,,,,tennis.com
 atp,,China Open,Hard,3,singles,Round 2,Yunchaokete Bu,Novak Djokovic,,,,,tennis.com
-atp,,"ATP Challenger Bari, Italy",Grass,3,singles,Quarterfinal,Samuele Pieri,Carlos Taberner,,,,,tennis.com
 atp,,"ATP Challenger Bari, Italy",Grass,3,singles,Quarterfinal,Gianluca Cadenasso,Vitaliy Sachko,,,,,tennis.com
+atp,,"ATP Challenger Bari, Italy",Grass,3,singles,Quarterfinal,Samuele Pieri,Carlos Taberner,,,,,tennis.com
 atp,,"ATP Challenger Bari, Italy",Grass,3,singles,Quarterfinal,Enrico Dalla Valle,Juan Cruz Martin Manzano,,,,,tennis.com
-atp,,Jingshan,Hard,3,singles,Quarterfinal,Alex Bolt,Dane Sweeny,,,,,tennis.com
-atp,,Jingshan,Hard,3,singles,Quarterfinal,Lloyd Harris,Andre Ilagan,,,,,tennis.com
+atp,,Jingshan,Hard,3,singles,Quarterfinal,Yanki Erel,Federico Cina,,,,,tennis.com
 atp,,Open de Vendée,Hard,3,singles,Quarterfinal,Lucas Poullain,Joel Schwärzler,,,,,tennis.com
 atp,,Open de Vendée,Hard,3,singles,Quarterfinal,Clément Tabur,Sascha Gueymard Wayenburg,,,,,tennis.com
 atp,,Clube Tenis Porto Challenger,Grass,3,singles,Quarterfinal,Daniel Rincon,David Jordá Sanchis,,,,,tennis.com
 atp,,Clube Tenis Porto Challenger,Grass,3,singles,Quarterfinal,Hugo Grenier,Iñaki Montes-de la Torre,,,,,tennis.com
 atp,,Clube Tenis Porto Challenger,Grass,3,singles,Quarterfinal,August Holmgren,Henrique Rocha,,,,,tennis.com
 atp,,Clube Tenis Porto Challenger,Grass,3,singles,Quarterfinal,Jérôme Kym,Edas Butvilas,,,,,tennis.com
-atp,,UTR Lincoln M01,Hard,3,singles,Final,Jan Sebesta,Joseph Lee,,,,,tennis.com
-atp,,UTR Lincoln M01,Hard,3,singles,Final,Henry Lamchinniah,Aniss Rafiq,,,,,tennis.com
 atp,,UTR Lincoln M01,Hard,3,singles,Final,Sean Grosman,Ryan Corcoran,,,,,tennis.com
+atp,,UTR Lincoln M01,Hard,3,singles,Final,Henry Lamchinniah,Aniss Rafiq,,,,,tennis.com
+atp,,UTR Lincoln M01,Hard,3,singles,Final,Jan Sebesta,Joseph Lee,,,,,tennis.com
 atp,,UTR PTT Le Cap d Agde Men 02,Hard,3,singles,,Jules Auffray,Tomas Lagarde,,,,,tennis.com
-atp,,UTR PTT Le Cap d Agde Men 02,Hard,3,singles,,Sean Hodkin,Aurelien Ferrer,,,,,tennis.com
 atp,,UTR PTT Le Cap d Agde Men 02,Hard,3,singles,,Adam Kaczmarek,Fedor Sosedkin,,,,,tennis.com
 atp,,UTR PTT Le Cap d Agde Men 02,Hard,3,singles,,Thiago Agustin Pernas,Clement Hacquard,,,,,tennis.com
 atp,,UTR PTT Le Cap d Agde Men 02,Hard,3,singles,,Ids Waterbolk,Julien Dando,,,,,tennis.com
 atp,,UTR PTT Le Cap d Agde Men 02,Hard,3,singles,,Jules Alias,Noah Perfetti,,,,,tennis.com
 atp,,UTR PTT Le Cap d Agde Men 02,Hard,3,singles,,Hugo Garcia Gomez,Matis Roche,,,,,tennis.com
 atp,,UTR PTT Le Cap d Agde Men 02,Hard,3,singles,,Nathan Mansfield,Felix Romeo,,,,,tennis.com
-wta,,UTR PTT Lincoln Women 01,Hard,3,singles,Final,Emma Rizzetto,Katie Spencer,,,,,tennis.com
 wta,,UTR PTT Lincoln Women 01,Hard,3,singles,,Chukwunoneeru Smarty,Anastasija Adeikyte,,,,,tennis.com
 wta,,UTR PTT Lincoln Women 01,Hard,3,singles,Final,Addy Rogin,Natalie Oliver,,,,,tennis.com
-atp,,UTR PTT Saitama Men 10,Hard,3,singles,Quarterfinal,Kenta Kawada,Abdumalik Kamalov,,,,,tennis.com
-atp,,UTR PTT Saitama Men 10,Hard,3,singles,Semifinal,Lachlan King,Seiya Nakanishi,,,,,tennis.com
+wta,,UTR PTT Lincoln Women 01,Hard,3,singles,Final,Emma Rizzetto,Katie Spencer,,,,,tennis.com
 atp,,UTR PTT Saitama Men 10,Hard,3,singles,Quarterfinal,Kirill Kistanov,Wulfrano Martinez Mora Esdras,,,,,tennis.com
-wta,,Adana Open,Hard,3,singles,Quarterfinal,Léolia Jeanjean,Lucrezia Stefanini,,,,,tennis.com
 wta,,Adana Open,Hard,3,singles,Quarterfinal,Elena Pridankina,Erika Andreeva,,,,,tennis.com
+wta,,Adana Open,Hard,3,singles,Quarterfinal,Léolia Jeanjean,Lucrezia Stefanini,,,,,tennis.com
 wta,,Adana Open,Hard,3,singles,Quarterfinal,Antonia Ružić,Teodora Kostović,,,,,tennis.com
-wta,,Jingshan Tennis Open,Hard,3,singles,Quarterfinal,Jéssica Bouzas Maneiro,Sofya Lansere,,,,,tennis.com
-wta,,Jingshan Tennis Open,Hard,3,singles,Quarterfinal,Alexandra Shubladze,Sijia Wei,,,,,tennis.com
-wta,,China Open,Hard,3,singles,Round 2,Linda Nosková,Elena-Gabriela Ruse,,,,,tennis.com
 wta,,China Open,Hard,3,singles,Round 2,Sára Bejlek,Maddison Inglis,,,,,tennis.com
-wta,,China Open,Hard,3,singles,Round 2,Karolína Muchová,Katie Boulter,,,,,tennis.com
 wta,,China Open,Hard,3,singles,Round 2,Nikola Bartůňková,Magdalena Fręch,,,,,tennis.com
 wta,,China Open,Hard,3,singles,Round 2,Renata Zarazúa,Aryna Sabalenka,,,,,tennis.com
