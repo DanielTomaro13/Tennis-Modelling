@@ -1,32 +1,17 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
-wta,,China Open,Hard,Round 2,Sonay Kartal,Xin Yu Wang,0.7495,0.2505,1.33,3.99,24.0,0.3426,3.38,3.23,3.57,2.92,tennis.com
-wta,,Adana Open,Hard,Semifinal,Antonia Ruzic,Leolia Jeanjean,0.726,0.274,1.38,3.65,23.78,0.2993,2.76,4.26,4.02,2.84,tennis.com
-wta,,Adana Open,Hard,Semifinal,Erika Andreeva,Lois Boisson,0.3562,0.6438,2.81,1.55,24.48,0.3437,2.94,3.65,3.54,4.5,tennis.com
-atp,20261003,China Open,Hard,Round 2,Juncheng Shang,Alexander Zverev,0.1291,0.8709,7.75,1.15,23.84,0.4327,4.77,9.04,1.96,1.97,espn
-atp,20261003,China Open,Hard,Round 2,Jan Lennard Struff,Daniil Medvedev,0.1796,0.8204,5.57,1.22,24.03,0.3989,6.79,8.65,2.74,4.33,espn
-atp,20261003,China Open,Hard,Round 2,Roman Safiullin,Andrey Rublev,0.2899,0.7101,3.45,1.41,25.11,0.4534,6.29,9.31,2.97,2.33,espn
-atp,20261003,China Open,Hard,Round 2,Jakub Mensik,Francisco Cerundolo,0.6307,0.3693,1.59,2.71,25.38,0.4582,10.66,4.71,3.72,2.76,espn
-atp,20261003,Kinoshita Group Japan Open Tennis Championships,Hard,Round 2,Adolfo Daniel Vallejo,Matteo Berrettini,0.3969,0.6031,2.52,1.66,26.12,0.544,5.98,11.6,3.19,1.96,espn
-atp,20261003,Kinoshita Group Japan Open Tennis Championships,Hard,Round 2,Jiri Lehecka,Ugo Humbert,0.5372,0.4628,1.86,2.16,26.41,0.573,7.81,7.62,2.6,1.8,espn
-wta,20261003,China Open,Hard,Round 2,Alina Charaeva,Elena Rybakina,0.0548,0.9452,18.24,1.06,20.67,0.1984,2.11,8.23,2.62,3.07,espn
-wta,20261003,China Open,Hard,Round 2,Harriet Dart,Iva Jovic,0.1753,0.8247,5.71,1.21,22.81,0.2598,2.25,3.2,3.34,2.85,espn
-wta,20261003,China Open,Hard,Round 2,Anastasia Zakharova,Belinda Bencic,0.2061,0.7939,4.85,1.26,23.35,0.294,2.45,3.29,2.85,3.86,espn
-wta,20261003,China Open,Hard,Round 2,Elina Svitolina,Katerina Siniakova,0.7566,0.2434,1.32,4.11,23.51,0.2872,4.48,1.84,4.66,3.57,espn
-wta,20261003,China Open,Hard,Round 2,Kimberly Birrell,Marie Bouzkova,0.2947,0.7053,3.39,1.42,23.92,0.3019,2.39,2.37,4.58,4.41,espn
-wta,20261003,China Open,Hard,Round 2,Wang Xiy.,Sonay Kartal,0.3259,0.6741,3.07,1.48,24.32,0.3358,4.47,3.37,2.98,3.56,espn
-wta,20261003,China Open,Hard,Round 2,Leylah Fernandez,Kamilla Rakhimova,0.6448,0.3552,1.55,2.81,24.36,0.3314,3.5,2.53,4.35,4.5,espn
-wta,20261003,China Open,Hard,Round 2,Cristina Bucsa,Lulu Sun,0.5192,0.4808,1.93,2.08,24.93,0.3774,2.66,5.43,3.87,3.58,espn
-wta,20261003,China Open,Hard,Round 2,Paula Badosa,Jelena Ostapenko,0.5173,0.4827,1.93,2.07,24.54,0.3275,4.71,4.12,5.67,5.52,espn
-wta,20261003,China Open,Hard,Round 2,Anna Kalinskaya,Qinwen Zheng,0.5054,0.4946,1.98,2.02,24.55,0.3284,3.64,6.52,4.88,4.69,espn
-atp,20261004,Kinoshita Group Japan Open Tennis Championships,Hard,Quarterfinal,Arthur Fils,Valentin Vacherot,0.7589,0.2411,1.32,4.15,25.55,0.549,7.47,7.2,2.82,2.66,espn
-atp,20261004,Kinoshita Group Japan Open Tennis Championships,Hard,Quarterfinal,Kyrian Jacquet,Jaume Munar,0.2649,0.7351,3.77,1.36,24.76,0.4221,6.27,6.54,2.42,2.32,espn
-atp,20261004,China Open,Hard,Quarterfinal,Karen Khachanov,Hubert Hurkacz,0.4714,0.5286,2.12,1.89,26.96,0.6411,7.05,13.05,2.14,1.81,espn
-wta,20261004,China Open,Hard,Round 3,Mirra Andreeva,Polina Kudermetova,0.8848,0.1152,1.13,8.68,21.89,0.2309,4.04,2.41,4.79,3.77,espn
-wta,20261004,China Open,Hard,Round 3,Aryna Sabalenka,Nikola Bartunkova,0.842,0.158,1.19,6.33,22.92,0.2943,4.67,3.16,3.61,4.44,espn
+atp,20261004,China Open,Hard,Quarterfinal,Novak Djokovic,Alexander Zverev,0.4734,0.5266,2.11,1.9,26.47,0.578,7.53,9.15,2.61,1.99,espn
 wta,20261004,China Open,Hard,Round 3,Liudmila Samsonova,Karolina Muchova,0.1642,0.8358,6.09,1.2,22.98,0.2891,2.5,3.72,3.43,2.48,espn
-wta,20261004,China Open,Hard,Round 3,Viktorija Golubic,Linda Noskova,0.2348,0.7652,4.26,1.31,23.88,0.3337,2.13,5.82,3.02,5.75,espn
-wta,20261004,China Open,Hard,Round 1,Nikola Bartunkova / Maja Chwalinska,Caty Mcnally / Janice Tjen,0.6155,0.3845,1.62,2.6,19.46,0.2571,,,,,espn
 wta,20261004,China Open,Hard,Round 3,Naomi Osaka,Sara Bejlek,0.6152,0.3848,1.63,2.6,24.41,0.3281,6.6,2.59,4.12,4.62,espn
-wta,20261004,China Open,Hard,Round 3,Diana Shnaider,Ekaterina Alexandrova,0.6024,0.3976,1.66,2.51,24.59,0.3472,2.41,4.9,3.8,4.9,espn
-wta,20261004,China Open,Hard,Round 3,Taylah Preston,Daria Snigur,0.4122,0.5878,2.43,1.7,24.35,0.312,2.68,5.02,3.36,3.34,espn
-wta,20261004,China Open,Hard,Round 3,Dayana Yastremska,Sinja Kraus,0.5375,0.4625,1.86,2.16,24.47,0.3202,3.81,3.36,5.97,4.12,espn
+atp,20261005,Kinoshita Group Japan Open Tennis Championships,Hard,Semifinal,Jaume Munar,Carlos Alcaraz,0.1106,0.8894,9.04,1.12,23.04,0.3598,4.89,6.09,1.73,2.36,espn
+atp,20261005,China Open,Hard,Semifinal,Hubert Hurkacz,Alex De Minaur,0.3067,0.6933,3.26,1.44,25.66,0.5163,12.23,4.65,1.7,2.65,espn
+wta,20261005,China Open,Hard,Round 3,Lulu Sun,Coco Gauff,0.0975,0.9025,10.26,1.11,21.81,0.2423,3.89,4.2,2.56,6.99,espn
+wta,20261005,China Open,Hard,Round 3,Iga Swiatek,Donna Vekic,0.8861,0.1139,1.13,8.78,21.88,0.2307,3.34,2.97,3.44,4.11,espn
+wta,20261005,China Open,Hard,Round 3,Sonay Kartal,Alina Charaeva,0.783,0.217,1.28,4.61,23.41,0.2963,3.42,2.79,3.61,3.47,espn
+wta,20261005,China Open,Hard,Round 3,Kamilla Rakhimova,Iva Jovic,0.2331,0.7669,4.29,1.3,23.35,0.2735,2.3,3.22,4.08,2.86,espn
+wta,20261005,China Open,Hard,Round 3,Ann Li,Belinda Bencic,0.2618,0.7382,3.82,1.35,23.66,0.2903,3.43,3.31,3.18,3.89,espn
+wta,20261005,China Open,Hard,Round 3,Elina Svitolina,Maria Sakkari,0.7276,0.2724,1.37,3.67,23.76,0.2981,4.47,2.58,4.65,2.91,espn
+wta,20261005,China Open,Hard,Round 3,Qinwen Zheng,Marie Bouzkova,0.5753,0.4247,1.74,2.35,24.37,0.3128,6.74,2.17,4.85,4.04,espn
+wta,20261005,China Open,Hard,Round 3,Elise Mertens,Jelena Ostapenko,0.5544,0.4456,1.8,2.24,24.57,0.3347,4.21,4.05,5.21,5.42,espn
+wta,20261006,China Open,Hard,Round 4,Mirra Andreeva,Daria Snigur,0.7114,0.2886,1.41,3.47,23.88,0.3032,4.06,4.31,4.82,2.87,espn
+wta,20261006,China Open,Hard,Round 4,Nikola Bartunkova,Sinja Kraus,0.7011,0.2989,1.43,3.35,24.07,0.321,4.25,3.05,5.98,3.75,espn
+wta,20261006,China Open,Hard,Round 4,Ekaterina Alexandrova,Linda Noskova,0.3094,0.6906,3.23,1.45,24.45,0.3594,4.69,5.79,4.69,5.73,espn
