@@ -3,7 +3,7 @@ atp,20261005,Kinoshita Group Japan Open Tennis Championships,Hard,3,singles,Semi
 atp,20261005,Kinoshita Group Japan Open Tennis Championships,Hard,3,singles,Semifinal,Valentin Vacherot,Jiri Lehecka,,,,,espn
 atp,20261005,Kinoshita Group Japan Open Tennis Championships,Hard,3,doubles,Semifinal,Austin Krajicek / Nikola Mektic,Simone Bolelli / Andrea Vavassori,Austin Krajicek,Nikola Mektic,Simone Bolelli,Andrea Vavassori,espn
 atp,20261005,China Open,Hard,3,singles,Semifinal,Hubert Hurkacz,Alex de Minaur,,,,,espn
-wta,20261004,China Open,Hard,3,singles,Round 3,Liudmila Samsonova,Karolina Muchova,,,,,espn
+atp,20261005,China Open,Hard,3,singles,Semifinal,Daniil Medvedev,Novak Djokovic,,,,,espn
 wta,20261005,China Open,Hard,3,singles,Round 3,Iga Swiatek,Donna Vekic,,,,,espn
 wta,20261005,China Open,Hard,3,singles,Round 3,Zheng Qinwen,Marie Bouzkova,,,,,espn
 wta,20261005,China Open,Hard,3,singles,Round 3,Kamilla Rakhimova,Iva Jovic,,,,,espn
@@ -15,7 +15,7 @@ wta,20261005,China Open,Hard,3,singles,Round 3,Xinran Sun,Coco Gauff,,,,,espn
 wta,20261006,China Open,Hard,3,singles,Round 4,Mirra Andreeva,Daria Snigur,,,,,espn
 wta,20261006,China Open,Hard,3,singles,Round 4,Ekaterina Alexandrova,Linda Noskova,,,,,espn
 wta,20261006,China Open,Hard,3,singles,Round 4,Nikola Bartunkova,Sinja Kraus,,,,,espn
-atp,20261004,China Open,Hard,3,doubles,Quarterfinal,Julian Cash / Lloyd Glasspool,Marcelo Melo / Alexander Zverev,Julian Cash,Lloyd Glasspool,Marcelo Melo,Alexander Zverev,espn
+atp,20261005,China Open,Hard,3,doubles,Semifinal,Julian Cash / Lloyd Glasspool,Robert Cash / Alexander Erler,Julian Cash,Lloyd Glasspool,Robert Cash,Alexander Erler,espn
 wta,20261005,China Open,Hard,3,doubles,Round 1,Ulrikke Eikeri / Quinn Gleason,Linda Noskova / Clara Tauson,Ulrikke Eikeri,Quinn Gleason,Linda Noskova,Clara Tauson,espn
 wta,20261005,China Open,Hard,3,doubles,Round 1,Cristina Bucsa / Nicole Melichar-Martinez,Ekaterina Alexandrova / Fanny Stollar,Cristina Bucsa,Nicole Melichar-Martinez,Ekaterina Alexandrova,Fanny Stollar,espn
 wta,20261005,China Open,Hard,3,doubles,Round 1,Ingrid Neel / Giuliana Olmos,Erin Routliffe / Aldila Sutjiadi,Ingrid Neel,Giuliana Olmos,Erin Routliffe,Aldila Sutjiadi,espn
@@ -26,131 +26,109 @@ wta,20261006,China Open,Hard,3,doubles,Round 1,Anastasia Detiuc / Fang-Hsien Wu,
 wta,20261006,China Open,Hard,3,doubles,Round 1,Feng Shuo / Yuan Yue,Katerina Siniakova / Zhang Shuai,Feng Shuo,Yuan Yue,Katerina Siniakova,Zhang Shuai,espn
 wta,20261006,China Open,Hard,3,doubles,Round 1,Tereza Mihalikova / Olivia Nicholls,Hao-Ching Chan / Miyu Kato,Tereza Mihalikova,Olivia Nicholls,Hao-Ching Chan,Miyu Kato,espn
 wta,20261006,China Open,Hard,3,doubles,Round 2,Storm Hunter / Kristina Mladenovic,Lyudmyla Kichenok / Asia Muhammad,Storm Hunter,Kristina Mladenovic,Lyudmyla Kichenok,Asia Muhammad,espn
-atp,,Challenger Dove Men + Care Antofagasta,Grass,3,singles,Qualifying Round 1,Hernán Casanova,Wilson Leite,,,,,tennis.com
-atp,,Challenger Dove Men + Care Antofagasta,Grass,3,singles,Qualifying Round 1,Nicolas Bruna,Alan Magadan,,,,,tennis.com
-atp,,Challenger Dove Men + Care Antofagasta,Grass,3,singles,Qualifying Round 1,Bernardo Munk Mesa,Bruno Fernandez,,,,,tennis.com
-atp,,Challenger Dove Men + Care Antofagasta,Grass,3,singles,Qualifying Round 1,Mateus Alves,Bautista de la Pena,,,,,tennis.com
 atp,,Challenger Dove Men + Care Antofagasta,Grass,3,singles,Qualifying Round 1,José Pereira,Arklon Huertas Del Pino Cordova,,,,,tennis.com
 atp,,Challenger Dove Men + Care Antofagasta,Grass,3,singles,Qualifying Round 1,Nicolás Kicker,Milledge Cossu,,,,,tennis.com
+atp,,Challenger Dove Men + Care Antofagasta,Grass,3,singles,Qualifying Round 1,Mateus Alves,Bautista de la Pena,,,,,tennis.com
 atp,,Challenger Dove Men + Care Antofagasta,Grass,3,singles,Qualifying Round 1,Lucio Ratti,Joao Victor Couto Loureiro,,,,,tennis.com
 atp,,Challenger Dove Men + Care Antofagasta,Grass,3,singles,Qualifying Round 1,Anders Matta,Thiago Cigarran,,,,,tennis.com
 atp,,Challenger Dove Men + Care Antofagasta,Grass,3,singles,Qualifying Round 1,Diego Ortiz Gamonal,Maximo Zeitune,,,,,tennis.com
-atp,,Braga Open,Hard,3,singles,Qualifying Round 1,Oleksii Krutykh,Francisco Rocha,,,,,tennis.com
-atp,,Braga Open,Hard,3,singles,Qualifying Round 1,Sergi Perez Contri,Nicolás Barrientos,,,,,tennis.com
-atp,,Braga Open,Hard,3,singles,Qualifying Round 1,Filip Pieczonka,Adrian Ötzbach,,,,,tennis.com
 atp,,Braga Open,Hard,3,singles,Qualifying Round 2,Johan Nikles,Vladyslav Orlov,,,,,tennis.com
 atp,,Braga Open,Hard,3,singles,Qualifying Round 2,Patrick Schoen,Filip Misolic,,,,,tennis.com
-atp,,Braga Open,Hard,3,singles,Round 1,Thiago Monteiro,Elmer Møller,,,,,tennis.com
-atp,,Braga Open,Hard,3,singles,Round 1,Tiago Pereira,Pol Martín Tiffon,,,,,tennis.com
-atp,,Braga Open,Hard,3,singles,Round 1,Sumit Nagal,Luka Mikrut,,,,,tennis.com
-atp,,Braga Open,Hard,3,singles,Round 1,Dali Blanch,Max Alcalá Gurri,,,,,tennis.com
-atp,,Braga Open,Hard,3,singles,Round 1,Florian Broska,Lukas Neumayer,,,,,tennis.com
-atp,,Braga Open,Hard,3,singles,Round 1,Matej Dodig,Andrea Pellegrino,,,,,tennis.com
-atp,,Braga Open,Hard,3,singles,Round 1,Vilius Gaubas,João Domingues,,,,,tennis.com
-atp,,Braga Open,Hard,3,singles,Round 1,Zsombor Piros,Tristan Boyer,,,,,tennis.com
-atp,,Braga Open,Hard,3,singles,Round 1,Marvin Möller,Tiago Torres,,,,,tennis.com
-atp,,Braga Open,Hard,3,singles,Round 1,Goncalo Marques,Nikolás Sánchez Izquierdo,,,,,tennis.com
-atp,,Braga Open,Hard,3,singles,Round 1,Duje Ajduković,Filip Cristian Jianu,,,,,tennis.com
 atp,,Braga Open,Hard,3,singles,Qualifying Round 2,Unknown,Tiago Cação,,,,,tennis.com
-atp,,"ATP Challenger Palermo, Italy",Grass,3,singles,Qualifying Round 1,Oleksandr Ovcharenko,Lorenzo Angelini,,,,,tennis.com
-atp,,"ATP Challenger Palermo, Italy",Grass,3,singles,Qualifying Round 1,Robert Guna,Dimitris Sakellaridis,,,,,tennis.com
-atp,,"ATP Challenger Palermo, Italy",Grass,3,singles,Qualifying Round 1,Fabrizio Andaloro,Matyáš Černý,,,,,tennis.com
-atp,,"ATP Challenger Palermo, Italy",Grass,3,singles,Qualifying Round 1,Christian Langmo,Dominik Reček,,,,,tennis.com
+atp,,Braga Open,Hard,3,singles,Qualifying Round 2,Ryan Nijboer,Benjamin Hassan,,,,,tennis.com
+atp,,Braga Open,Hard,3,singles,Round 1,Zsombor Piros,Tristan Boyer,,,,,tennis.com
+atp,,Braga Open,Hard,3,singles,Round 1,Duje Ajduković,Filip Cristian Jianu,,,,,tennis.com
+atp,,Braga Open,Hard,3,singles,Round 1,Goncalo Marques,Nikolás Sánchez Izquierdo,,,,,tennis.com
+atp,,Braga Open,Hard,3,singles,Round 1,Thiago Monteiro,Elmer Møller,,,,,tennis.com
+atp,,Braga Open,Hard,3,singles,Round 1,Vilius Gaubas,João Domingues,,,,,tennis.com
 atp,,"ATP Challenger Palermo, Italy",Grass,3,singles,Qualifying Round 2,Gerard Campana Lee,Pedro Vives Marcos,,,,,tennis.com
 atp,,"ATP Challenger Palermo, Italy",Grass,3,singles,Qualifying Round 2,Daniel Siniakov,Yanaki Milev,,,,,tennis.com
-atp,,Villena,Hard,3,singles,Qualifying Round 1,Joshua Sheehy,Ivan Marrero Curbelo,,,,,tennis.com
-atp,,Villena,Hard,3,singles,Qualifying Round 1,Patrick Brady,Mili Poljičak,,,,,tennis.com
-atp,,Villena,Hard,3,singles,Qualifying Round 1,Hynek Bartoň,Stefan Latinovic,,,,,tennis.com
-atp,,Villena,Hard,3,singles,Round 1,Daniil Glinka,Gauthier Onclin,,,,,tennis.com
-atp,,Villena,Hard,3,singles,Round 1,Dino Prižmić,Jack Pinnington Jones,,,,,tennis.com
-atp,,Villena,Hard,3,singles,Round 1,Felix Balshaw,Joel Schwärzler,,,,,tennis.com
+atp,,"ATP Challenger Palermo, Italy",Grass,3,singles,Qualifying Round 2,Federico Arnaboldi,Kalin Ivanovski,,,,,tennis.com
+atp,,"ATP Challenger Palermo, Italy",Grass,3,singles,Qualifying Round 2,Filippo Moroni,Ignacio Parisca Romera,,,,,tennis.com
 atp,,Villena,Hard,3,singles,Qualifying Round 2,Diego Dedura-Palomero,Oliver Tarvet,,,,,tennis.com
-atp,,Villena,Hard,3,singles,Round 1,Pablo Llamas Ruiz,Luca Nardi,,,,,tennis.com
-atp,,Villena,Hard,3,singles,Qualifying Round 2,Hugo Grenier,Georgii Kravchenko,,,,,tennis.com
-atp,,Villena,Hard,3,singles,Round 1,August Holmgren,Pedro Martínez,,,,,tennis.com
-atp,,Villena,Hard,3,singles,Round 1,Daniel Rincon,Alejo Sanchez Quilez,,,,,tennis.com
-atp,,Villena,Hard,3,singles,Round 1,Damir Džumhur,Iñaki Montes-de la Torre,,,,,tennis.com
-atp,,Villena,Hard,3,singles,Round 1,Abdullah Shelbayh,David Jordá Sanchis,,,,,tennis.com
-atp,,Villena,Hard,3,singles,Round 1,Maxi Carrascosa Diaz,Borna Gojo,,,,,tennis.com
-atp,,Villena,Hard,3,singles,Round 1,Moez Echargui,Raúl Brancaccio,,,,,tennis.com
 atp,,Villena,Hard,3,singles,Qualifying Round 2,Dominic Stricker,Marko ToPo,,,,,tennis.com
+atp,,Villena,Hard,3,singles,Qualifying Round 2,Hugo Grenier,Georgii Kravchenko,,,,,tennis.com
+atp,,Villena,Hard,3,singles,Round 1,Dino Prižmić,Jack Pinnington Jones,,,,,tennis.com
+atp,,Villena,Hard,3,singles,Round 1,Daniel Rincon,Alejo Sanchez Quilez,,,,,tennis.com
+atp,,"ATP Challenger Wuning 3, China",Grass,3,singles,Qualifying Round 2,Alibek Kachmazov,Grigoriy Lomakin,,,,,tennis.com
 atp,,"ATP Challenger Wuning 3, China",Grass,3,singles,Qualifying Round 2,Kristjan Tamm,Martin Borisiouk,,,,,tennis.com
 atp,,"ATP Challenger Wuning 3, China",Grass,3,singles,Qualifying Round 2,Keisuke Saitoh,Yusuke Takahashi,,,,,tennis.com
-atp,,"ATP Challenger Wuning 3, China",Grass,3,singles,Qualifying Round 2,Alibek Kachmazov,Grigoriy Lomakin,,,,,tennis.com
-atp,,"ATP Challenger Wuning 3, China",Grass,3,singles,Qualifying Round 2,Ryuki Matsuda,Yuta Kikuchi,,,,,tennis.com
 atp,,"ATP Challenger Wuning 3, China",Grass,3,singles,Qualifying Round 2,Ryan Seggerman,Maxim Zhukov,,,,,tennis.com
 atp,,"ATP Challenger Wuning 3, China",Grass,3,singles,Qualifying Round 2,Max Purcell,Blake Bayldon,,,,,tennis.com
-atp,,"ATP Challenger Wuning 3, China",Grass,3,singles,Round 1,Beibit Zhukayev,Yaroslav Demin,,,,,tennis.com
+atp,,"ATP Challenger Wuning 3, China",Grass,3,singles,Qualifying Round 2,Ryuki Matsuda,Yuta Kikuchi,,,,,tennis.com
 atp,,"ATP Challenger Wuning 3, China",Grass,3,singles,Round 1,Semen Pankin,Marat Sharipov,,,,,tennis.com
 atp,,"ATP Challenger Wuning 3, China",Grass,3,singles,Round 1,Sergey Fomin,Timofei Derepasko,,,,,tennis.com
+atp,,"ATP Challenger Wuning 3, China",Grass,3,singles,Round 1,Beibit Zhukayev,Yaroslav Demin,,,,,tennis.com
 atp,,"ATP Challenger Wuning 3, China",Grass,3,singles,Round 1,Luca Castelnuovo,Akira Santillan,,,,,tennis.com
-atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Hugo Gaston,Liam Draxl,,,,,tennis.com
-atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Taro Daniel,Shintaro Mochizuki,,,,,tennis.com
-atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Roman Safiullin,Alexis Galarneau,,,,,tennis.com
-atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Lorenzo Sonego,Aziz Dougaz,,,,,tennis.com
 atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Andre Ilagan,Nikoloz Basilashvili,,,,,tennis.com
+atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Taro Daniel,Shintaro Mochizuki,,,,,tennis.com
+atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Hugo Gaston,Liam Draxl,,,,,tennis.com
 atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Linang Xiao,Federico Cina,,,,,tennis.com
+atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Lorenzo Sonego,Aziz Dougaz,,,,,tennis.com
+atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Roman Safiullin,Alexis Galarneau,,,,,tennis.com
+atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Térence Atmane,Bernard Tomic,,,,,tennis.com
 atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Luka Pavlovic,Ilia Simakin,,,,,tennis.com
 atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Chun Hsin Tseng,Nicolás Mejía,,,,,tennis.com
-atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Térence Atmane,Bernard Tomic,,,,,tennis.com
-atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Adam Walton,Rigele TE,,,,,tennis.com
 atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Michael Zheng,Federico Agustin Gomez,,,,,tennis.com
+atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Adam Walton,Rigele TE,,,,,tennis.com
 atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Timofey Skatov,Stefanos Sakellaridis,,,,,tennis.com
 atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Martin Damm,Pavel Kotov,,,,,tennis.com
+atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Kyrian Jacquet,Tianhui Zhang,,,,,tennis.com
 atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Billy Harris,Dalibor Svrčina,,,,,tennis.com
 atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Seongchan Hong,Rei Sakamoto,,,,,tennis.com
-atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Jie Cui,Aleksandar Vukic,,,,,tennis.com
-atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Kyrian Jacquet,Tianhui Zhang,,,,,tennis.com
 atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Aleksandr Shevchenko,Yoshihito Nishioka,,,,,tennis.com
-atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Kimmer Coppejans,Nishesh Basavareddy,,,,,tennis.com
-atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Rio Noguchi,Alexandre Müller,,,,,tennis.com
+atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Jie Cui,Aleksandar Vukic,,,,,tennis.com
+atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Alex Bolt,Lloyd Harris,,,,,tennis.com
 atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Mattia Bellucci,Elias Ymer,,,,,tennis.com
 atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Dane Sweeny,Tristan Schoolkate,,,,,tennis.com
+atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Rio Noguchi,Alexandre Müller,,,,,tennis.com
+atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Kimmer Coppejans,Nishesh Basavareddy,,,,,tennis.com
 atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Coleman Wong,Cruz Hewitt,,,,,tennis.com
-atp,,Rolex Shanghai Masters,Hard,3,singles,Qualifying Round 1,Alex Bolt,Lloyd Harris,,,,,tennis.com
 atp,,Rakuten Japan Open Tennis Championships,Hard,3,singles,Semifinal,Jiří Lehečka,Valentin Vacherot,,,,,tennis.com
 wta,,UTR PTT Belgrade Women 05,Hard,3,singles,,Izabela Heinzova,Zara Stipcevic,,,,,tennis.com
 wta,,UTR PTT Belgrade Women 05,Hard,3,singles,,Katerina Oustampasidou,Xiang Liu,,,,,tennis.com
 wta,,UTR PTT Belgrade Women 05,Hard,3,singles,,Mariya Yemshanova,Denise Hrdinkova,,,,,tennis.com
 wta,,UTR PTT Belgrade Women 05,Hard,3,singles,,Maja Radenkovic,Sara Nikolic,,,,,tennis.com
-wta,,UTR PTT Belgrade Women 05,Hard,3,singles,,Laura Svatíková,Kristina Kovgan,,,,,tennis.com
 wta,,UTR PTT Belgrade Women 05,Hard,3,singles,,Mia Horvit,Julia Terziyska,,,,,tennis.com
-wta,,UTR PTT Belgrade Women 05,Hard,3,singles,,Jana Bojovic,Aleksandra Djokic,,,,,tennis.com
+wta,,UTR PTT Belgrade Women 05,Hard,3,singles,,Laura Svatíková,Kristina Kovgan,,,,,tennis.com
 wta,,UTR PTT Belgrade Women 05,Hard,3,singles,,Sonja Wedenski,Masa Jankovic,,,,,tennis.com
+wta,,UTR PTT Belgrade Women 05,Hard,3,singles,,Jana Bojovic,Aleksandra Djokic,,,,,tennis.com
 atp,,UTR PTT Newport Beach Men 23,Grass,3,singles,Final,Antreas Djakouris,Jacob Brumm,,,,,tennis.com
-atp,,UTR PTT Newport Beach Men 23,Grass,3,singles,Final,Gianluca Brunkow,Constantinos Djakouris,,,,,tennis.com
 atp,,UTR PTT Newport Beach Men 23,Grass,3,singles,Final,Peter Jorniak,Piotr Siekanowicz,,,,,tennis.com
 atp,,UTR PTT Newport Beach Men 23,Grass,3,singles,Final,Siddharth Bharadwaj,Pol Masafret Hernandez,,,,,tennis.com
-wta,,"WTA 125K Samsun, Turkiye",Hard,3,singles,Qualifying Round 2,Noma Noha Akugue,Elena Micic,,,,,tennis.com
-wta,,"WTA 125K Samsun, Turkiye",Hard,3,singles,Round 1,Dominika Šálková,Himeno Sakatsume,,,,,tennis.com
+atp,,UTR PTT Newport Beach Men 23,Grass,3,singles,Final,Gianluca Brunkow,Constantinos Djakouris,,,,,tennis.com
+wta,,"WTA 125K Samsun, Turkiye",Hard,3,singles,Round 1,Elena Pridankina,Anna Blinkova,,,,,tennis.com
 wta,,"WTA 125K Samsun, Turkiye",Hard,3,singles,Round 1,Lucrezia Stefanini,Carole Monnet,,,,,tennis.com
 wta,,"WTA 125K Samsun, Turkiye",Hard,3,singles,Round 1,Lola Radivojevic,Oksana Selekhmeteva,,,,,tennis.com
 wta,,"WTA 125K Samsun, Turkiye",Hard,3,singles,Round 1,Emiliana Arango,Ayla Aksu,,,,,tennis.com
 wta,,"WTA 125K Samsun, Turkiye",Hard,3,singles,Round 1,Aysegul Mert,Viktória Hrunčáková,,,,,tennis.com
 wta,,"WTA 125K Samsun, Turkiye",Hard,3,singles,Round 1,Antonia Ružić,Alicia Dudeney,,,,,tennis.com
 wta,,"WTA 125K Samsun, Turkiye",Hard,3,singles,Round 1,Çağla Büyükakçay,Linda Klimovičová,,,,,tennis.com
-wta,,"WTA 125K Samsun, Turkiye",Hard,3,singles,Round 1,Polina Iatcenko,Suzan Lamens,,,,,tennis.com
-wta,,"WTA 125K Samsun, Turkiye",Hard,3,singles,Round 1,Elena Pridankina,Anna Blinkova,,,,,tennis.com
-wta,,"WTA 125K Samsun, Turkiye",Hard,3,singles,Round 1,Lucia Bronzetti,Fiona Crawley,,,,,tennis.com
 wta,,"WTA 125K Samsun, Turkiye",Hard,3,singles,Round 1,Simona Waltert,Melisa Ercan,,,,,tennis.com
+wta,,"WTA 125K Samsun, Turkiye",Hard,3,singles,Qualifying Round 2,Noma Noha Akugue,Elena Micic,,,,,tennis.com
+wta,,"WTA 125K Samsun, Turkiye",Hard,3,singles,Qualifying Round 2,Mariia Tkacheva,Mariam Bolkvadze,,,,,tennis.com
+wta,,"WTA 125K Samsun, Turkiye",Hard,3,singles,Qualifying Round 2,Caroline Werner,Weronika Falkowska,,,,,tennis.com
 wta,,"WTA 125K Samsun, Turkiye",Hard,3,singles,Round 1,Dalma Gálfi,Julia Grabher,,,,,tennis.com
+wta,,"WTA 125K Samsun, Turkiye",Hard,3,singles,Round 1,Lucia Bronzetti,Fiona Crawley,,,,,tennis.com
+wta,,"WTA 125K Samsun, Turkiye",Hard,3,singles,Qualifying Round 2,Alana Smith,Dalila Jakupović,,,,,tennis.com
+wta,,"WTA 125K Samsun, Turkiye",Hard,3,singles,Round 1,Polina Iatcenko,Suzan Lamens,,,,,tennis.com
+wta,,"WTA 125K Samsun, Turkiye",Hard,3,singles,Round 1,Dominika Šálková,Himeno Sakatsume,,,,,tennis.com
 wta,,"WTA 125K Suzhou, China",Hard,3,singles,Round 1,Hanyu Guo,Aliona Falei,,,,,tennis.com
-wta,,"WTA 125K Suzhou, China",Hard,3,singles,Round 1,Emerson Jones,Mai Hontama,,,,,tennis.com
-wta,,"WTA 125K Suzhou, China",Hard,3,singles,Round 1,Moyuka Uchijima,Zhuoxuan Bai,,,,,tennis.com
-wta,,"WTA 125K Suzhou, China",Hard,3,singles,Round 1,Alexandra Shubladze,Tyra Caterina Grant,,,,,tennis.com
-wta,,"WTA 125K Suzhou, China",Hard,3,singles,Qualifying Round 2,Wushuang Zheng,Jia-Jing Lu,,,,,tennis.com
-wta,,"WTA 125K Suzhou, China",Hard,3,singles,Round 1,Yulia Putintseva,Yushan Shao,,,,,tennis.com
-wta,,"WTA 125K Suzhou, China",Hard,3,singles,Round 1,Mananchaya Sawangkaew,Linda Fruhvirtová,,,,,tennis.com
 wta,,"WTA 125K Suzhou, China",Hard,3,singles,Qualifying Round 2,Han Shi,Yidi Yang,,,,,tennis.com
+wta,,"WTA 125K Suzhou, China",Hard,3,singles,Qualifying Round 2,Wushuang Zheng,Jia-Jing Lu,,,,,tennis.com
 wta,,"WTA 125K Suzhou, China",Hard,3,singles,Qualifying Round 2,Katarina Zavatska,Darya Khomutsianskaya,,,,,tennis.com
+wta,,"WTA 125K Suzhou, China",Hard,3,singles,Round 1,Moyuka Uchijima,Zhuoxuan Bai,,,,,tennis.com
+wta,,"WTA 125K Suzhou, China",Hard,3,singles,Round 1,Mananchaya Sawangkaew,Linda Fruhvirtová,,,,,tennis.com
+wta,,"WTA 125K Suzhou, China",Hard,3,singles,Round 1,Yulia Putintseva,Yushan Shao,,,,,tennis.com
+wta,,"WTA 125K Suzhou, China",Hard,3,singles,Round 1,Emerson Jones,Mai Hontama,,,,,tennis.com
+wta,,"WTA 125K Suzhou, China",Hard,3,singles,Round 1,Alexandra Shubladze,Tyra Caterina Grant,,,,,tennis.com
 wta,,"WTA 125K Suzhou, China",Hard,3,singles,Round 1,Ruien Zhang,Tatiana Prozorova,,,,,tennis.com
 wta,,"WTA 125K Suzhou, China",Hard,3,singles,Qualifying Round 2,Sijia Wei,Kyoka Okamura,,,,,tennis.com
 wta,,"WTA 125K Suzhou, China",Hard,3,singles,Round 1,Alevtina Ibragimova,Rebecca Šramková,,,,,tennis.com
-wta,,"WTA 125K Suzhou, China",Hard,3,singles,Round 1,Elvina Kalieva,Yexin Ma,,,,,tennis.com
-wta,,"WTA 125K Suzhou, China",Hard,3,singles,Round 1,Elsa Jacquemot,Claire Liu,,,,,tennis.com
 wta,,"WTA 125K Suzhou, China",Hard,3,singles,Round 1,Sofia Costoulas,Darya Astakhova,,,,,tennis.com
+wta,,"WTA 125K Suzhou, China",Hard,3,singles,Round 1,Elsa Jacquemot,Claire Liu,,,,,tennis.com
+wta,,"WTA 125K Suzhou, China",Hard,3,singles,Round 1,Elvina Kalieva,Yexin Ma,,,,,tennis.com
 wta,,"WTA 125K Suzhou, China",Hard,3,singles,Round 1,Xinxin Yao,Aliaksandra Sasnovich,,,,,tennis.com
-wta,,China Open,Hard,3,singles,Round 3,Karolína Muchová,Liudmila Samsonova,,,,,tennis.com
 wta,,China Open,Hard,3,singles,Round 3,Donna Vekić,Iga Świątek,,,,,tennis.com
 wta,,China Open,Hard,3,singles,Round 3,Marie Bouzková,Qinwen Zheng,,,,,tennis.com
 wta,,China Open,Hard,3,singles,Round 3,Jeļena Ostapenko,Elise Mertens,,,,,tennis.com

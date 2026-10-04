@@ -1,11 +1,9 @@
 tour,date,tournament,surface,round,player1,player2,win_prob_1,win_prob_2,fair_odds_1,fair_odds_2,exp_total_games,tiebreak_prob,exp_aces_1,exp_aces_2,exp_df_1,exp_df_2,source
 atp,,Rolex Shanghai Masters,Hard,Qualifying Round 1,Billy Harris,Dalibor Svrcina,0.2922,0.7078,3.42,1.41,25.19,0.4613,4.44,4.94,2.96,3.29,tennis.com
-atp,,Braga Open,Hard,Round 1,Ivan Dodig,Andrea Pellegrino,0.3167,0.6833,3.16,1.46,25.33,0.4678,4.5,4.94,3.0,3.29,tennis.com
 atp,,Rolex Shanghai Masters,Hard,Qualifying Round 1,Martin Damm,Pavel Kotov,0.6623,0.3377,1.51,2.96,25.71,0.5138,11.0,6.5,3.09,2.49,tennis.com
 atp,,Rolex Shanghai Masters,Hard,Qualifying Round 1,Terence Atmane,Bernard Tomic,0.6415,0.3585,1.56,2.79,25.43,0.4682,4.95,5.9,3.3,2.88,tennis.com
 atp,,Rolex Shanghai Masters,Hard,Qualifying Round 1,Kimmer Coppejans,Nishesh Basavareddy,0.3675,0.6325,2.72,1.58,25.54,0.4758,4.61,6.53,3.08,3.17,tennis.com
 atp,,Rolex Shanghai Masters,Hard,Qualifying Round 1,Roman Safiullin,Alexis Galarneau,0.6181,0.3819,1.62,2.62,25.12,0.4198,7.07,6.22,3.34,2.64,tennis.com
-atp,,Villena,Hard,Round 1,Damir Dzumhur,Juan Bautista Torres,0.3954,0.6046,2.53,1.65,25.28,0.4338,4.66,5.32,3.11,2.08,tennis.com
 atp,,Rolex Shanghai Masters,Hard,Qualifying Round 1,Michael Zheng,Federico Agustin Gomez,0.5956,0.4044,1.68,2.47,25.68,0.4872,7.37,4.65,1.85,3.1,tennis.com
 atp,,Rolex Shanghai Masters,Hard,Qualifying Round 1,Coleman Wong,Lleyton Hewitt,0.5816,0.4184,1.72,2.39,25.91,0.5144,7.43,4.67,2.38,3.12,tennis.com
 atp,,Rolex Shanghai Masters,Hard,Qualifying Round 1,Timofey Skatov,Stefanos Sakellaridis,0.4275,0.5725,2.34,1.75,26.1,0.5345,6.33,9.06,2.71,2.6,tennis.com
@@ -15,9 +13,7 @@ atp,,Rolex Shanghai Masters,Hard,Qualifying Round 1,Mattia Bellucci,Elias Ymer,0
 atp,,Rolex Shanghai Masters,Hard,Qualifying Round 1,Kyrian Jacquet,Zhizhen Zhang,0.5306,0.4694,1.88,2.13,25.69,0.4763,7.04,7.73,2.71,2.78,tennis.com
 atp,,Villena,Hard,Round 1,Dino Prizmic,Pinnington Jones J.,0.4711,0.5289,2.12,1.89,25.86,0.4976,7.23,4.83,2.77,3.22,tennis.com
 atp,,Rolex Shanghai Masters,Hard,Qualifying Round 1,Taro Daniel,Shintaro Mochizuki,0.4746,0.5254,2.11,1.9,25.52,0.4526,6.67,6.71,2.81,3.0,tennis.com
-atp,,Villena,Hard,Round 1,Pablo Llamas Ruiz,Luca Nardi,0.4817,0.5183,2.08,1.93,25.71,0.4781,4.81,5.69,3.21,3.75,tennis.com
 atp,,Rolex Shanghai Masters,Hard,Qualifying Round 1,Alexander Shevchenko,Yoshihito Nishioka,0.4915,0.5085,2.03,1.97,25.34,0.4293,5.37,4.87,2.27,2.99,tennis.com
-atp,,Braga Open,Hard,Round 1,Elmer Moller,Juan Bautista Torres,0.4923,0.5077,2.03,1.97,25.21,0.4118,7.16,5.21,3.23,2.04,tennis.com
 atp,,Rolex Shanghai Masters,Hard,Qualifying Round 1,Alex Bolt,Lloyd Harris,0.5007,0.4993,2.0,2.0,25.9,0.5032,4.83,7.5,3.22,2.82,tennis.com
 wta,,"WTA 125K Suzhou, China",Hard,Round 1,Shuai Zhang,Tatiana Prozorova,0.6793,0.3207,1.47,3.12,24.12,0.3164,3.34,4.42,3.68,2.94,tennis.com
 wta,,"WTA 125K Suzhou, China",Hard,Round 1,Moyuka Uchijima,Zhuoxuan Bai,0.329,0.671,3.04,1.49,24.11,0.3088,2.9,5.1,3.79,3.4,tennis.com
@@ -27,10 +23,10 @@ wta,,"WTA 125K Suzhou, China",Hard,Round 1,Elsa Jacquemot,Claire Liu,0.4559,0.54
 wta,,"WTA 125K Suzhou, China",Hard,Round 1,Emerson Jones,Mai Hontama,0.5366,0.4634,1.86,2.16,24.56,0.3314,2.57,4.78,3.87,3.19,tennis.com
 wta,,"WTA 125K Samsun, Turkiye",Hard,Round 1,Cagla Buyukakcay,Linda Klimovicova,0.4657,0.5343,2.15,1.87,24.65,0.3421,4.81,5.05,3.21,4.51,tennis.com
 wta,,"WTA 125K Samsun, Turkiye",Hard,Round 1,Dalma Galfi,Julia Grabher,0.5118,0.4882,1.95,2.05,24.53,0.3261,4.04,4.84,4.29,3.22,tennis.com
-wta,20261004,China Open,Hard,Round 3,Liudmila Samsonova,Karolina Muchova,0.1642,0.8358,6.09,1.2,22.98,0.2891,2.5,3.72,3.43,2.48,espn
 atp,20261005,Kinoshita Group Japan Open Tennis Championships,Hard,Semifinal,Jaume Munar,Carlos Alcaraz,0.1106,0.8894,9.04,1.12,23.04,0.3598,4.89,6.09,1.73,2.36,espn
 atp,20261005,China Open,Hard,Semifinal,Hubert Hurkacz,Alex De Minaur,0.3067,0.6933,3.26,1.44,25.66,0.5163,12.23,4.65,1.7,2.65,espn
 atp,20261005,Kinoshita Group Japan Open Tennis Championships,Hard,Semifinal,Valentin Vacherot,Jiri Lehecka,0.4002,0.5998,2.5,1.67,26.31,0.5679,7.83,7.82,2.89,2.61,espn
+atp,20261005,China Open,Hard,Semifinal,Daniil Medvedev,Novak Djokovic,0.4226,0.5774,2.37,1.73,25.5,0.457,8.31,7.7,4.16,2.67,espn
 wta,20261005,China Open,Hard,Round 3,Lulu Sun,Coco Gauff,0.0975,0.9025,10.26,1.11,21.81,0.2423,3.89,4.2,2.56,6.99,espn
 wta,20261005,China Open,Hard,Round 3,Iga Swiatek,Donna Vekic,0.8861,0.1139,1.13,8.78,21.88,0.2307,3.34,2.97,3.44,4.11,espn
 wta,20261005,China Open,Hard,Round 3,Sonay Kartal,Alina Charaeva,0.783,0.217,1.28,4.61,23.41,0.2963,3.42,2.79,3.61,3.47,espn
